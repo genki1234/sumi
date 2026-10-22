@@ -653,9 +653,8 @@ final class FocusingTerminalView: TerminalView {
             pasteText(urls.map { Self.quote($0.path) }.joined(separator: " "))
             return
         }
-        if board.string(forType: .string) != nil { super.paste(sender); return }
-        guard let image = NSImage(pasteboard: board), let tiff = image.tiffRepresentation,
-              let bitmap = NSBitmapImageRep(data: tiff),
+        guard let imageData = board.data(forType: .png) ?? board.data(forType: .tiff),
+              let bitmap = NSBitmapImageRep(data: imageData),
               let png = bitmap.representation(using: .png, properties: [:]) else { super.paste(sender); return }
         do {
             let directory = FileManager.default.temporaryDirectory.appendingPathComponent("Sumi-Pasted-Images", isDirectory: true)
