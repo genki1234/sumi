@@ -9,9 +9,16 @@ CONFIG=release
 if [[ "${1:-}" == "--debug" ]]; then CONFIG=debug; fi
 
 UNIVERSAL=(-c release --arch arm64 --arch x86_64)
-if [[ "$CONFIG" == release ]] && swift build "${UNIVERSAL[@]}" >/dev/null 2>&1; then
+mkdir -p .build
+if [[ "$CONFIG" == release ]] && swift build "${UNIVERSAL[@]}" >.build/universal.log 2>&1; then
     BIN="$(swift build "${UNIVERSAL[@]}" --show-bin-path)/Sumi"
 else
+    if [[ "$CONFIG" == release ]]; then
+        echo "Universal build failed; the last lines of its log:" >&2
+        tail -40 .build/universal.log >&2
+        # CI publishes only universal builds.
+        if [[ -n "${SUMI_REQUIRE_UNIVERSAL:-}" ]]; then exit 1; fi
+    fi
     swift build -c "$CONFIG"
     BIN="$(swift build -c "$CONFIG" --show-bin-path)/Sumi"
 fi
