@@ -1,0 +1,119 @@
+/*
+  Sumi — ko translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "폴더를 프로젝트로 열거나, 편집할 파일을 여십시오.";
+"Open" = "열기";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "파일";
+"Edit" = "편집";
+"View" = "보기";
+"Navigate" = "탐색";
+"Window" = "윈도우";
+"About Sumi" = "Sumi 정보";
+"Services" = "서비스";
+"Hide Sumi" = "Sumi 가리기";
+"Hide Others" = "다른 항목 가리기";
+"Show All" = "모두 보기";
+"Quit Sumi" = "Sumi 종료";
+"New File…" = "새로운 파일…";
+"New Folder…" = "새로운 폴더…";
+"New Terminal Tab" = "새로운 터미널 탭";
+"Open…" = "열기…";
+"Save" = "저장";
+"Save All" = "모두 저장";
+"Close Tab" = "탭 닫기";
+"Close Window" = "윈도우 닫기";
+"Undo" = "실행 취소";
+"Redo" = "실행 복귀";
+"Cut" = "오려두기";
+"Copy" = "복사";
+"Paste" = "붙여넣기";
+"Select All" = "모두 선택";
+"Find…" = "찾기…";
+"Replace…" = "바꾸기…";
+"Find Next" = "다음 찾기";
+"Find Previous" = "이전 찾기";
+"Use Selection for Find" = "찾기에 선택 항목 사용";
+"Find" = "찾기";
+"Project" = "프로젝트";
+"Terminal" = "터미널";
+"Swap Terminal and Project" = "터미널과 프로젝트 맞바꾸기";
+"Maximize Terminal" = "터미널 최대화";
+"Soft-Wrap" = "소프트 랩";
+"Toggle Preview" = "미리 보기 전환";
+"Increase Font Size" = "글꼴 크기 확대";
+"Decrease Font Size" = "글꼴 크기 축소";
+"Reset Font Size" = "글꼴 크기 재설정";
+"Search Everywhere (Double ⇧)" = "어디서나 검색 (⇧ 두 번)";
+"Select in Project View" = "프로젝트 보기에서 선택";
+"Next Tab" = "다음 탭";
+"Previous Tab" = "이전 탭";
+"Minimize" = "최소화";
+"Zoom" = "확대/축소";
+"Bring All to Front" = "모두 앞으로 가져오기";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "터미널 가리기";
+"Local" = "로컬";
+"Local (%ld)" = "로컬 (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "저장하지 않으면 변경사항을 잃게 됩니다.";
+"Do you want to save the changes made to “%@”?" = "“%@”에 대한 변경사항을 저장하시겠습니까?";
+"Do you want to save the changes made to these files?" = "이 파일들에 대한 변경사항을 저장하시겠습니까?";
+"Cancel" = "취소";
+"Don't Save" = "저장 안 함";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "편집기만";
+"Editor and Preview" = "편집기 및 미리 보기";
+"Preview Only" = "미리 보기만";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "공백: %ld";
+"Plain Text" = "일반 텍스트";
+"Search Everywhere" = "어디서나 검색";
+"Double ⇧" = "⇧ 두 번";
+"Go to File" = "파일로 이동";
+"Open Folder" = "폴더 열기";
+"Project View" = "프로젝트 보기";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "파일이 바이너리 파일입니다.";
+"The file's text encoding could not be determined." = "파일의 텍스트 인코딩을 확인할 수 없습니다.";
+"The text cannot be saved in %@." = "텍스트를 %@ 인코딩으로 저장할 수 없습니다.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "새로운 폴더";
+"New File" = "새로운 파일";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@”에 이름을 입력하십시오. /를 사용하면 중첩된 폴더를 만들 수 있습니다.";
+"Rename" = "이름 변경";
+"Enter a new name for “%@”." = "“%@”의 새로운 이름을 입력하십시오.";
+"Move “%@” to the Trash?" = "“%@” 항목을 휴지통으로 이동하시겠습니까?";
+"The folder and everything in it will be moved to the Trash." = "폴더와 폴더 안의 모든 항목이 휴지통으로 이동됩니다.";
+"You can restore it from the Trash." = "휴지통에서 복원할 수 있습니다.";
+"Move to Trash" = "휴지통으로 이동";
+"OK" = "확인";
+"Rename…" = "이름 변경…";
+"Copy Path" = "경로 복사";
+"Copy Relative Path" = "상대 경로 복사";
+"Reveal in Finder" = "Finder에서 보기";
+"Open in Terminal" = "터미널에서 열기";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "왼쪽 패널";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "파일";
+"Double ⇧ to search everywhere" = "⇧를 두 번 눌러 어디서나 검색";
+"Type a file name (use / to match the path)" = "파일 이름 입력 (/를 사용하여 경로 일치)";
+"No recent files" = "최근 파일 없음";
+"Recent Files" = "최근 사용한 파일";
+"Matches: %1$ld / Files: %2$ld" = "일치: %1$ld / 파일: %2$ld";
+"Close" = "닫기";

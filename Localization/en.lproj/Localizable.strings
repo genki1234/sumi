@@ -1,0 +1,119 @@
+/*
+  Sumi — en translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Open a folder as a project, or a file to edit.";
+"Open" = "Open";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "File";
+"Edit" = "Edit";
+"View" = "View";
+"Navigate" = "Navigate";
+"Window" = "Window";
+"About Sumi" = "About Sumi";
+"Services" = "Services";
+"Hide Sumi" = "Hide Sumi";
+"Hide Others" = "Hide Others";
+"Show All" = "Show All";
+"Quit Sumi" = "Quit Sumi";
+"New File…" = "New File…";
+"New Folder…" = "New Folder…";
+"New Terminal Tab" = "New Terminal Tab";
+"Open…" = "Open…";
+"Save" = "Save";
+"Save All" = "Save All";
+"Close Tab" = "Close Tab";
+"Close Window" = "Close Window";
+"Undo" = "Undo";
+"Redo" = "Redo";
+"Cut" = "Cut";
+"Copy" = "Copy";
+"Paste" = "Paste";
+"Select All" = "Select All";
+"Find…" = "Find…";
+"Replace…" = "Replace…";
+"Find Next" = "Find Next";
+"Find Previous" = "Find Previous";
+"Use Selection for Find" = "Use Selection for Find";
+"Find" = "Find";
+"Project" = "Project";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal and Project";
+"Maximize Terminal" = "Maximize Terminal";
+"Soft-Wrap" = "Soft-Wrap";
+"Toggle Preview" = "Toggle Preview";
+"Increase Font Size" = "Increase Font Size";
+"Decrease Font Size" = "Decrease Font Size";
+"Reset Font Size" = "Reset Font Size";
+"Search Everywhere (Double ⇧)" = "Search Everywhere (Double ⇧)";
+"Select in Project View" = "Select in Project View";
+"Next Tab" = "Next Tab";
+"Previous Tab" = "Previous Tab";
+"Minimize" = "Minimize";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Bring All to Front";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Hide Terminal";
+"Local" = "Local";
+"Local (%ld)" = "Local (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "Your changes will be lost if you don't save them.";
+"Do you want to save the changes made to “%@”?" = "Do you want to save the changes made to “%@”?";
+"Do you want to save the changes made to these files?" = "Do you want to save the changes made to these files?";
+"Cancel" = "Cancel";
+"Don't Save" = "Don't Save";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Editor Only";
+"Editor and Preview" = "Editor and Preview";
+"Preview Only" = "Preview Only";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Spaces: %ld";
+"Plain Text" = "Plain Text";
+"Search Everywhere" = "Search Everywhere";
+"Double ⇧" = "Double ⇧";
+"Go to File" = "Go to File";
+"Open Folder" = "Open Folder";
+"Project View" = "Project View";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "The file is a binary file.";
+"The file's text encoding could not be determined." = "The file's text encoding could not be determined.";
+"The text cannot be saved in %@." = "The text cannot be saved in %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "New Folder";
+"New File" = "New File";
+"Enter a name in “%@”. Use / to create nested folders." = "Enter a name in “%@”. Use / to create nested folders.";
+"Rename" = "Rename";
+"Enter a new name for “%@”." = "Enter a new name for “%@”.";
+"Move “%@” to the Trash?" = "Move “%@” to the Trash?";
+"The folder and everything in it will be moved to the Trash." = "The folder and everything in it will be moved to the Trash.";
+"You can restore it from the Trash." = "You can restore it from the Trash.";
+"Move to Trash" = "Move to Trash";
+"OK" = "OK";
+"Rename…" = "Rename…";
+"Copy Path" = "Copy Path";
+"Copy Relative Path" = "Copy Relative Path";
+"Reveal in Finder" = "Reveal in Finder";
+"Open in Terminal" = "Open in Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Left Panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Files";
+"Double ⇧ to search everywhere" = "Double ⇧ to search everywhere";
+"Type a file name (use / to match the path)" = "Type a file name (use / to match the path)";
+"No recent files" = "No recent files";
+"Recent Files" = "Recent Files";
+"Matches: %1$ld / Files: %2$ld" = "Matches: %1$ld / Files: %2$ld";
+"Close" = "Close";

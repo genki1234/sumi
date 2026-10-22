@@ -1,0 +1,119 @@
+/*
+  Sumi — sk translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Otvorte priečinok ako projekt alebo súbor na úpravu.";
+"Open" = "Otvoriť";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Súbor";
+"Edit" = "Úpravy";
+"View" = "Zobrazenie";
+"Navigate" = "Navigácia";
+"Window" = "Okno";
+"About Sumi" = "O aplikácii Sumi";
+"Services" = "Služby";
+"Hide Sumi" = "Skryť Sumi";
+"Hide Others" = "Skryť ostatné";
+"Show All" = "Zobraziť všetko";
+"Quit Sumi" = "Ukončiť Sumi";
+"New File…" = "Nový súbor…";
+"New Folder…" = "Nový priečinok…";
+"New Terminal Tab" = "Nová karta terminálu";
+"Open…" = "Otvoriť…";
+"Save" = "Uložiť";
+"Save All" = "Uložiť všetko";
+"Close Tab" = "Zavrieť kartu";
+"Close Window" = "Zavrieť okno";
+"Undo" = "Späť";
+"Redo" = "Opakovať";
+"Cut" = "Vystrihnúť";
+"Copy" = "Kopírovať";
+"Paste" = "Vložiť";
+"Select All" = "Vybrať všetko";
+"Find…" = "Nájsť…";
+"Replace…" = "Nahradiť…";
+"Find Next" = "Nájsť ďalšie";
+"Find Previous" = "Nájsť predchádzajúce";
+"Use Selection for Find" = "Použiť výber na hľadanie";
+"Find" = "Nájsť";
+"Project" = "Projekt";
+"Terminal" = "Terminál";
+"Swap Terminal and Project" = "Vymeniť terminál a projekt";
+"Maximize Terminal" = "Maximalizovať terminál";
+"Soft-Wrap" = "Mäkké zalamovanie";
+"Toggle Preview" = "Prepnúť náhľad";
+"Increase Font Size" = "Zväčšiť veľkosť písma";
+"Decrease Font Size" = "Zmenšiť veľkosť písma";
+"Reset Font Size" = "Obnoviť veľkosť písma";
+"Search Everywhere (Double ⇧)" = "Hľadať všade (dvojitý ⇧)";
+"Select in Project View" = "Vybrať v zobrazení projektu";
+"Next Tab" = "Ďalšia karta";
+"Previous Tab" = "Predchádzajúca karta";
+"Minimize" = "Minimalizovať";
+"Zoom" = "Priblížiť";
+"Bring All to Front" = "Preniesť všetko do popredia";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Skryť terminál";
+"Local" = "Lokálny";
+"Local (%ld)" = "Lokálny (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "Ak zmeny neuložíte, budú stratené.";
+"Do you want to save the changes made to “%@”?" = "Chcete uložiť zmeny vykonané v súbore „%@“?";
+"Do you want to save the changes made to these files?" = "Chcete uložiť zmeny vykonané v týchto súboroch?";
+"Cancel" = "Zrušiť";
+"Don't Save" = "Neukladať";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Iba editor";
+"Editor and Preview" = "Editor a náhľad";
+"Preview Only" = "Iba náhľad";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Medzery: %ld";
+"Plain Text" = "Obyčajný text";
+"Search Everywhere" = "Hľadať všade";
+"Double ⇧" = "Dvojitý ⇧";
+"Go to File" = "Prejsť na súbor";
+"Open Folder" = "Otvoriť priečinok";
+"Project View" = "Zobrazenie projektu";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "Súbor je binárny.";
+"The file's text encoding could not be determined." = "Kódovanie textu súboru sa nepodarilo určiť.";
+"The text cannot be saved in %@." = "Text nie je možné uložiť v kódovaní %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Nový priečinok";
+"New File" = "Nový súbor";
+"Enter a name in “%@”. Use / to create nested folders." = "Zadajte názov v „%@“. Pomocou / vytvoríte vnorené priečinky.";
+"Rename" = "Premenovať";
+"Enter a new name for “%@”." = "Zadajte nový názov pre „%@“.";
+"Move “%@” to the Trash?" = "Presunúť „%@“ do koša?";
+"The folder and everything in it will be moved to the Trash." = "Priečinok a všetok jeho obsah sa presunú do koša.";
+"You can restore it from the Trash." = "Položku môžete obnoviť z koša.";
+"Move to Trash" = "Presunúť do koša";
+"OK" = "OK";
+"Rename…" = "Premenovať…";
+"Copy Path" = "Kopírovať cestu";
+"Copy Relative Path" = "Kopírovať relatívnu cestu";
+"Reveal in Finder" = "Zobraziť vo Finderi";
+"Open in Terminal" = "Otvoriť v termináli";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Ľavý panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Súbory";
+"Double ⇧ to search everywhere" = "Dvojitý ⇧ — hľadať všade";
+"Type a file name (use / to match the path)" = "Zadajte názov súboru (pomocou / sa hľadá aj v ceste)";
+"No recent files" = "Žiadne nedávne súbory";
+"Recent Files" = "Nedávne súbory";
+"Matches: %1$ld / Files: %2$ld" = "Zhody: %1$ld / Súbory: %2$ld";
+"Close" = "Zavrieť";

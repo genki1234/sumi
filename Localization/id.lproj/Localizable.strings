@@ -1,0 +1,119 @@
+/*
+  Sumi — id translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Buka folder sebagai proyek, atau berkas untuk diedit.";
+"Open" = "Buka";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Berkas";
+"Edit" = "Edit";
+"View" = "Tampilan";
+"Navigate" = "Navigasi";
+"Window" = "Jendela";
+"About Sumi" = "Tentang Sumi";
+"Services" = "Layanan";
+"Hide Sumi" = "Sembunyikan Sumi";
+"Hide Others" = "Sembunyikan yang Lain";
+"Show All" = "Tampilkan Semua";
+"Quit Sumi" = "Keluar dari Sumi";
+"New File…" = "Berkas Baru…";
+"New Folder…" = "Folder Baru…";
+"New Terminal Tab" = "Tab Terminal Baru";
+"Open…" = "Buka…";
+"Save" = "Simpan";
+"Save All" = "Simpan Semua";
+"Close Tab" = "Tutup Tab";
+"Close Window" = "Tutup Jendela";
+"Undo" = "Urungkan";
+"Redo" = "Ulangi";
+"Cut" = "Potong";
+"Copy" = "Salin";
+"Paste" = "Tempel";
+"Select All" = "Pilih Semua";
+"Find…" = "Temukan…";
+"Replace…" = "Ganti…";
+"Find Next" = "Temukan Berikutnya";
+"Find Previous" = "Temukan Sebelumnya";
+"Use Selection for Find" = "Gunakan Pilihan untuk Menemukan";
+"Find" = "Temukan";
+"Project" = "Proyek";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Tukar Terminal dan Proyek";
+"Maximize Terminal" = "Maksimalkan Terminal";
+"Soft-Wrap" = "Bungkus Baris Otomatis";
+"Toggle Preview" = "Alihkan Pratinjau";
+"Increase Font Size" = "Perbesar Ukuran Font";
+"Decrease Font Size" = "Perkecil Ukuran Font";
+"Reset Font Size" = "Setel Ulang Ukuran Font";
+"Search Everywhere (Double ⇧)" = "Cari di Mana Saja (Tekan ⇧ Dua Kali)";
+"Select in Project View" = "Pilih di Tampilan Proyek";
+"Next Tab" = "Tab Berikutnya";
+"Previous Tab" = "Tab Sebelumnya";
+"Minimize" = "Minimalkan";
+"Zoom" = "Zum";
+"Bring All to Front" = "Bawa Semua ke Depan";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Sembunyikan Terminal";
+"Local" = "Lokal";
+"Local (%ld)" = "Lokal (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "Perubahan Anda akan hilang jika Anda tidak menyimpannya.";
+"Do you want to save the changes made to “%@”?" = "Apakah Anda ingin menyimpan perubahan yang dibuat pada “%@”?";
+"Do you want to save the changes made to these files?" = "Apakah Anda ingin menyimpan perubahan yang dibuat pada berkas ini?";
+"Cancel" = "Batalkan";
+"Don't Save" = "Jangan Simpan";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Hanya Editor";
+"Editor and Preview" = "Editor dan Pratinjau";
+"Preview Only" = "Hanya Pratinjau";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Spasi: %ld";
+"Plain Text" = "Teks Biasa";
+"Search Everywhere" = "Cari di Mana Saja";
+"Double ⇧" = "Tekan ⇧ Dua Kali";
+"Go to File" = "Pergi ke Berkas";
+"Open Folder" = "Buka Folder";
+"Project View" = "Tampilan Proyek";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "Berkas ini adalah berkas biner.";
+"The file's text encoding could not be determined." = "Pengodean teks berkas tidak dapat ditentukan.";
+"The text cannot be saved in %@." = "Teks tidak dapat disimpan dalam %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folder Baru";
+"New File" = "Berkas Baru";
+"Enter a name in “%@”. Use / to create nested folders." = "Masukkan nama di “%@”. Gunakan / untuk membuat folder bertingkat.";
+"Rename" = "Ganti Nama";
+"Enter a new name for “%@”." = "Masukkan nama baru untuk “%@”.";
+"Move “%@” to the Trash?" = "Pindahkan “%@” ke Tong Sampah?";
+"The folder and everything in it will be moved to the Trash." = "Folder dan semua isinya akan dipindahkan ke Tong Sampah.";
+"You can restore it from the Trash." = "Anda dapat memulihkannya dari Tong Sampah.";
+"Move to Trash" = "Pindahkan ke Tong Sampah";
+"OK" = "OK";
+"Rename…" = "Ganti Nama…";
+"Copy Path" = "Salin Path";
+"Copy Relative Path" = "Salin Path Relatif";
+"Reveal in Finder" = "Tampilkan di Finder";
+"Open in Terminal" = "Buka di Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panel Kiri";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Berkas";
+"Double ⇧ to search everywhere" = "Tekan ⇧ dua kali untuk mencari di mana saja";
+"Type a file name (use / to match the path)" = "Ketik nama berkas (gunakan / untuk mencocokkan path)";
+"No recent files" = "Tidak ada berkas terbaru";
+"Recent Files" = "Berkas Terbaru";
+"Matches: %1$ld / Files: %2$ld" = "Cocok: %1$ld / Berkas: %2$ld";
+"Close" = "Tutup";

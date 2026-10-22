@@ -1,0 +1,119 @@
+/*
+  Sumi — vi translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Mở thư mục làm dự án, hoặc mở tệp để chỉnh sửa.";
+"Open" = "Mở";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Tệp";
+"Edit" = "Sửa";
+"View" = "Xem";
+"Navigate" = "Điều hướng";
+"Window" = "Cửa sổ";
+"About Sumi" = "Giới thiệu về Sumi";
+"Services" = "Dịch vụ";
+"Hide Sumi" = "Ẩn Sumi";
+"Hide Others" = "Ẩn các mục khác";
+"Show All" = "Hiển thị tất cả";
+"Quit Sumi" = "Thoát Sumi";
+"New File…" = "Tệp mới…";
+"New Folder…" = "Thư mục mới…";
+"New Terminal Tab" = "Tab Terminal mới";
+"Open…" = "Mở…";
+"Save" = "Lưu";
+"Save All" = "Lưu tất cả";
+"Close Tab" = "Đóng tab";
+"Close Window" = "Đóng cửa sổ";
+"Undo" = "Hoàn tác";
+"Redo" = "Làm lại";
+"Cut" = "Cắt";
+"Copy" = "Sao chép";
+"Paste" = "Dán";
+"Select All" = "Chọn tất cả";
+"Find…" = "Tìm…";
+"Replace…" = "Thay thế…";
+"Find Next" = "Tìm tiếp theo";
+"Find Previous" = "Tìm trước đó";
+"Use Selection for Find" = "Dùng vùng chọn để tìm";
+"Find" = "Tìm";
+"Project" = "Dự án";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Hoán đổi Terminal và Dự án";
+"Maximize Terminal" = "Phóng to Terminal";
+"Soft-Wrap" = "Tự động ngắt dòng";
+"Toggle Preview" = "Bật/tắt xem trước";
+"Increase Font Size" = "Tăng cỡ chữ";
+"Decrease Font Size" = "Giảm cỡ chữ";
+"Reset Font Size" = "Đặt lại cỡ chữ";
+"Search Everywhere (Double ⇧)" = "Tìm kiếm mọi nơi (nhấn ⇧ hai lần)";
+"Select in Project View" = "Chọn trong chế độ xem dự án";
+"Next Tab" = "Tab tiếp theo";
+"Previous Tab" = "Tab trước đó";
+"Minimize" = "Thu nhỏ";
+"Zoom" = "Thu phóng";
+"Bring All to Front" = "Đưa tất cả lên phía trước";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Ẩn Terminal";
+"Local" = "Cục bộ";
+"Local (%ld)" = "Cục bộ (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "Các thay đổi của bạn sẽ bị mất nếu bạn không lưu.";
+"Do you want to save the changes made to “%@”?" = "Bạn có muốn lưu các thay đổi đã thực hiện đối với “%@” không?";
+"Do you want to save the changes made to these files?" = "Bạn có muốn lưu các thay đổi đã thực hiện đối với các tệp này không?";
+"Cancel" = "Hủy";
+"Don't Save" = "Không lưu";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Chỉ trình soạn thảo";
+"Editor and Preview" = "Trình soạn thảo và xem trước";
+"Preview Only" = "Chỉ xem trước";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Dấu cách: %ld";
+"Plain Text" = "Văn bản thuần túy";
+"Search Everywhere" = "Tìm kiếm mọi nơi";
+"Double ⇧" = "Nhấn ⇧ hai lần";
+"Go to File" = "Đi tới tệp";
+"Open Folder" = "Mở thư mục";
+"Project View" = "Chế độ xem dự án";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "Tệp này là tệp nhị phân.";
+"The file's text encoding could not be determined." = "Không thể xác định bảng mã văn bản của tệp.";
+"The text cannot be saved in %@." = "Không thể lưu văn bản bằng bảng mã %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Thư mục mới";
+"New File" = "Tệp mới";
+"Enter a name in “%@”. Use / to create nested folders." = "Nhập tên trong “%@”. Dùng / để tạo các thư mục lồng nhau.";
+"Rename" = "Đổi tên";
+"Enter a new name for “%@”." = "Nhập tên mới cho “%@”.";
+"Move “%@” to the Trash?" = "Chuyển “%@” vào thùng rác?";
+"The folder and everything in it will be moved to the Trash." = "Thư mục và mọi thứ bên trong sẽ được chuyển vào thùng rác.";
+"You can restore it from the Trash." = "Bạn có thể khôi phục từ thùng rác.";
+"Move to Trash" = "Chuyển vào thùng rác";
+"OK" = "OK";
+"Rename…" = "Đổi tên…";
+"Copy Path" = "Sao chép đường dẫn";
+"Copy Relative Path" = "Sao chép đường dẫn tương đối";
+"Reveal in Finder" = "Hiển thị trong Finder";
+"Open in Terminal" = "Mở trong Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Bảng bên trái";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Tệp";
+"Double ⇧ to search everywhere" = "Nhấn ⇧ hai lần để tìm kiếm mọi nơi";
+"Type a file name (use / to match the path)" = "Nhập tên tệp (dùng / để khớp đường dẫn)";
+"No recent files" = "Không có tệp gần đây";
+"Recent Files" = "Tệp gần đây";
+"Matches: %1$ld / Files: %2$ld" = "Khớp: %1$ld / Tệp: %2$ld";
+"Close" = "Đóng";

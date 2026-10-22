@@ -1,0 +1,119 @@
+/*
+  Sumi — ar translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "افتح مجلدًا كمشروع، أو ملفًا لتحريره.";
+"Open" = "فتح";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "ملف";
+"Edit" = "تحرير";
+"View" = "عرض";
+"Navigate" = "تنقّل";
+"Window" = "نافذة";
+"About Sumi" = "حول Sumi";
+"Services" = "الخدمات";
+"Hide Sumi" = "إخفاء Sumi";
+"Hide Others" = "إخفاء الآخرين";
+"Show All" = "إظهار الكل";
+"Quit Sumi" = "إنهاء Sumi";
+"New File…" = "ملف جديد…";
+"New Folder…" = "مجلد جديد…";
+"New Terminal Tab" = "تبويب طرفية جديد";
+"Open…" = "فتح…";
+"Save" = "حفظ";
+"Save All" = "حفظ الكل";
+"Close Tab" = "إغلاق التبويب";
+"Close Window" = "إغلاق النافذة";
+"Undo" = "تراجع";
+"Redo" = "إعادة";
+"Cut" = "قص";
+"Copy" = "نسخ";
+"Paste" = "لصق";
+"Select All" = "تحديد الكل";
+"Find…" = "بحث…";
+"Replace…" = "استبدال…";
+"Find Next" = "بحث عن التالي";
+"Find Previous" = "بحث عن السابق";
+"Use Selection for Find" = "استخدام التحديد للبحث";
+"Find" = "بحث";
+"Project" = "المشروع";
+"Terminal" = "الطرفية";
+"Swap Terminal and Project" = "تبديل الطرفية والمشروع";
+"Maximize Terminal" = "تكبير الطرفية";
+"Soft-Wrap" = "التفاف تلقائي للسطور";
+"Toggle Preview" = "تبديل المعاينة";
+"Increase Font Size" = "تكبير حجم الخط";
+"Decrease Font Size" = "تصغير حجم الخط";
+"Reset Font Size" = "إعادة تعيين حجم الخط";
+"Search Everywhere (Double ⇧)" = "البحث في كل مكان (⇧ مرتين)";
+"Select in Project View" = "تحديد في عرض المشروع";
+"Next Tab" = "التبويب التالي";
+"Previous Tab" = "التبويب السابق";
+"Minimize" = "تصغير";
+"Zoom" = "تكبير/تصغير";
+"Bring All to Front" = "إحضار الكل إلى الأمام";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "إخفاء الطرفية";
+"Local" = "محلي";
+"Local (%ld)" = "محلي (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "ستفقد تغييراتك إذا لم تحفظها.";
+"Do you want to save the changes made to “%@”?" = "هل تريد حفظ التغييرات التي أجريتها على \"%@\"؟";
+"Do you want to save the changes made to these files?" = "هل تريد حفظ التغييرات التي أجريتها على هذه الملفات؟";
+"Cancel" = "إلغاء";
+"Don't Save" = "عدم الحفظ";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "المحرر فقط";
+"Editor and Preview" = "المحرر والمعاينة";
+"Preview Only" = "المعاينة فقط";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "المسافات: %ld";
+"Plain Text" = "نص عادي";
+"Search Everywhere" = "البحث في كل مكان";
+"Double ⇧" = "⇧ مرتين";
+"Go to File" = "الانتقال إلى ملف";
+"Open Folder" = "فتح مجلد";
+"Project View" = "عرض المشروع";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "الملف ملف ثنائي.";
+"The file's text encoding could not be determined." = "تعذر تحديد ترميز نص الملف.";
+"The text cannot be saved in %@." = "لا يمكن حفظ النص بترميز %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "مجلد جديد";
+"New File" = "ملف جديد";
+"Enter a name in “%@”. Use / to create nested folders." = "أدخل اسمًا في \"%@\". استخدم / لإنشاء مجلدات متداخلة.";
+"Rename" = "إعادة تسمية";
+"Enter a new name for “%@”." = "أدخل اسمًا جديدًا لـ\"%@\".";
+"Move “%@” to the Trash?" = "هل تريد نقل \"%@\" إلى سلة المهملات؟";
+"The folder and everything in it will be moved to the Trash." = "سيتم نقل المجلد وكل ما فيه إلى سلة المهملات.";
+"You can restore it from the Trash." = "يمكنك استعادته من سلة المهملات.";
+"Move to Trash" = "نقل إلى سلة المهملات";
+"OK" = "حسنًا";
+"Rename…" = "إعادة تسمية…";
+"Copy Path" = "نسخ المسار";
+"Copy Relative Path" = "نسخ المسار النسبي";
+"Reveal in Finder" = "إظهار في Finder";
+"Open in Terminal" = "فتح في الطرفية";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "اللوحة اليسرى";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "الملفات";
+"Double ⇧ to search everywhere" = "اضغط ⇧ مرتين للبحث في كل مكان";
+"Type a file name (use / to match the path)" = "اكتب اسم ملف (استخدم / لمطابقة المسار)";
+"No recent files" = "لا توجد ملفات حديثة";
+"Recent Files" = "الملفات الحديثة";
+"Matches: %1$ld / Files: %2$ld" = "التطابقات: %1$ld / الملفات: %2$ld";
+"Close" = "إغلاق";

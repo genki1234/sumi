@@ -1,0 +1,119 @@
+/*
+  Sumi — ru translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Откройте папку как проект или файл для редактирования.";
+"Open" = "Открыть";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Файл";
+"Edit" = "Правка";
+"View" = "Вид";
+"Navigate" = "Навигация";
+"Window" = "Окно";
+"About Sumi" = "О программе Sumi";
+"Services" = "Службы";
+"Hide Sumi" = "Скрыть Sumi";
+"Hide Others" = "Скрыть остальные";
+"Show All" = "Показать все";
+"Quit Sumi" = "Завершить Sumi";
+"New File…" = "Новый файл…";
+"New Folder…" = "Новая папка…";
+"New Terminal Tab" = "Новая вкладка терминала";
+"Open…" = "Открыть…";
+"Save" = "Сохранить";
+"Save All" = "Сохранить все";
+"Close Tab" = "Закрыть вкладку";
+"Close Window" = "Закрыть окно";
+"Undo" = "Отменить";
+"Redo" = "Повторить";
+"Cut" = "Вырезать";
+"Copy" = "Скопировать";
+"Paste" = "Вставить";
+"Select All" = "Выбрать все";
+"Find…" = "Найти…";
+"Replace…" = "Заменить…";
+"Find Next" = "Найти далее";
+"Find Previous" = "Найти ранее";
+"Use Selection for Find" = "Использовать выбранное для поиска";
+"Find" = "Найти";
+"Project" = "Проект";
+"Terminal" = "Терминал";
+"Swap Terminal and Project" = "Поменять местами терминал и проект";
+"Maximize Terminal" = "Развернуть терминал";
+"Soft-Wrap" = "Мягкий перенос";
+"Toggle Preview" = "Показать/скрыть предпросмотр";
+"Increase Font Size" = "Увеличить размер шрифта";
+"Decrease Font Size" = "Уменьшить размер шрифта";
+"Reset Font Size" = "Сбросить размер шрифта";
+"Search Everywhere (Double ⇧)" = "Искать везде (двойной ⇧)";
+"Select in Project View" = "Выбрать в представлении проекта";
+"Next Tab" = "Следующая вкладка";
+"Previous Tab" = "Предыдущая вкладка";
+"Minimize" = "Свернуть";
+"Zoom" = "Масштаб";
+"Bring All to Front" = "Все — на передний план";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Скрыть терминал";
+"Local" = "Локальный";
+"Local (%ld)" = "Локальный (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "Если Вы не сохраните изменения, они будут потеряны.";
+"Do you want to save the changes made to “%@”?" = "Сохранить изменения, внесённые в файл «%@»?";
+"Do you want to save the changes made to these files?" = "Сохранить изменения, внесённые в эти файлы?";
+"Cancel" = "Отменить";
+"Don't Save" = "Не сохранять";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Только редактор";
+"Editor and Preview" = "Редактор и предпросмотр";
+"Preview Only" = "Только предпросмотр";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Пробелы: %ld";
+"Plain Text" = "Простой текст";
+"Search Everywhere" = "Искать везде";
+"Double ⇧" = "Двойной ⇧";
+"Go to File" = "Перейти к файлу";
+"Open Folder" = "Открыть папку";
+"Project View" = "Представление проекта";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "Файл является двоичным.";
+"The file's text encoding could not be determined." = "Не удалось определить кодировку текста файла.";
+"The text cannot be saved in %@." = "Текст невозможно сохранить в кодировке %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Новая папка";
+"New File" = "Новый файл";
+"Enter a name in “%@”. Use / to create nested folders." = "Введите имя в «%@». Используйте /, чтобы создать вложенные папки.";
+"Rename" = "Переименовать";
+"Enter a new name for “%@”." = "Введите новое имя для «%@».";
+"Move “%@” to the Trash?" = "Переместить «%@» в Корзину?";
+"The folder and everything in it will be moved to the Trash." = "Папка и всё её содержимое будут перемещены в Корзину.";
+"You can restore it from the Trash." = "Его можно восстановить из Корзины.";
+"Move to Trash" = "Переместить в Корзину";
+"OK" = "OK";
+"Rename…" = "Переименовать…";
+"Copy Path" = "Скопировать путь";
+"Copy Relative Path" = "Скопировать относительный путь";
+"Reveal in Finder" = "Показать в Finder";
+"Open in Terminal" = "Открыть в терминале";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Левая панель";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Файлы";
+"Double ⇧ to search everywhere" = "Двойной ⇧ — искать везде";
+"Type a file name (use / to match the path)" = "Введите имя файла (/ — поиск по пути)";
+"No recent files" = "Нет недавних файлов";
+"Recent Files" = "Недавние файлы";
+"Matches: %1$ld / Files: %2$ld" = "Совпадения: %1$ld / Файлы: %2$ld";
+"Close" = "Закрыть";

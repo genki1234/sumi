@@ -1,0 +1,119 @@
+/*
+  Sumi — zh-Hant translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "開啟檔案夾作為專案，或開啟要編輯的檔案。";
+"Open" = "開啟";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "檔案";
+"Edit" = "編輯";
+"View" = "顯示方式";
+"Navigate" = "導覽";
+"Window" = "視窗";
+"About Sumi" = "關於 Sumi";
+"Services" = "服務項目";
+"Hide Sumi" = "隱藏 Sumi";
+"Hide Others" = "隱藏其他";
+"Show All" = "全部顯示";
+"Quit Sumi" = "結束 Sumi";
+"New File…" = "新增檔案…";
+"New Folder…" = "新增檔案夾…";
+"New Terminal Tab" = "新增終端機標籤頁";
+"Open…" = "開啟…";
+"Save" = "儲存";
+"Save All" = "全部儲存";
+"Close Tab" = "關閉標籤頁";
+"Close Window" = "關閉視窗";
+"Undo" = "還原";
+"Redo" = "重做";
+"Cut" = "剪下";
+"Copy" = "拷貝";
+"Paste" = "貼上";
+"Select All" = "全選";
+"Find…" = "尋找…";
+"Replace…" = "取代…";
+"Find Next" = "尋找下一個";
+"Find Previous" = "尋找上一個";
+"Use Selection for Find" = "使用所選範圍尋找";
+"Find" = "尋找";
+"Project" = "專案";
+"Terminal" = "終端機";
+"Swap Terminal and Project" = "對調終端機與專案";
+"Maximize Terminal" = "最大化終端機";
+"Soft-Wrap" = "軟換行";
+"Toggle Preview" = "切換預覽";
+"Increase Font Size" = "放大字體";
+"Decrease Font Size" = "縮小字體";
+"Reset Font Size" = "重設字體大小";
+"Search Everywhere (Double ⇧)" = "隨處搜尋（連按兩次 ⇧）";
+"Select in Project View" = "在專案檢視中選取";
+"Next Tab" = "下一個標籤頁";
+"Previous Tab" = "上一個標籤頁";
+"Minimize" = "最小化";
+"Zoom" = "縮放";
+"Bring All to Front" = "全部移至最前";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "隱藏終端機";
+"Local" = "本機";
+"Local (%ld)" = "本機 (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "如果不儲存，您的更動將會遺失。";
+"Do you want to save the changes made to “%@”?" = "您要儲存對「%@」所做的更動嗎？";
+"Do you want to save the changes made to these files?" = "您要儲存對這些檔案所做的更動嗎？";
+"Cancel" = "取消";
+"Don't Save" = "不要儲存";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "僅編輯器";
+"Editor and Preview" = "編輯器和預覽";
+"Preview Only" = "僅預覽";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "空格：%ld";
+"Plain Text" = "純文字";
+"Search Everywhere" = "隨處搜尋";
+"Double ⇧" = "連按兩次 ⇧";
+"Go to File" = "前往檔案";
+"Open Folder" = "開啟檔案夾";
+"Project View" = "專案檢視";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "此檔案為二進位檔案。";
+"The file's text encoding could not be determined." = "無法判斷此檔案的文字編碼。";
+"The text cannot be saved in %@." = "無法以 %@ 儲存文字。";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "新增檔案夾";
+"New File" = "新增檔案";
+"Enter a name in “%@”. Use / to create nested folders." = "在「%@」中輸入名稱。使用 / 可建立巢狀檔案夾。";
+"Rename" = "重新命名";
+"Enter a new name for “%@”." = "為「%@」輸入新名稱。";
+"Move “%@” to the Trash?" = "要將「%@」移到垃圾桶嗎？";
+"The folder and everything in it will be moved to the Trash." = "此檔案夾及其中所有項目都將移到垃圾桶。";
+"You can restore it from the Trash." = "您可以從垃圾桶中將其取回。";
+"Move to Trash" = "移到垃圾桶";
+"OK" = "好";
+"Rename…" = "重新命名…";
+"Copy Path" = "拷貝路徑";
+"Copy Relative Path" = "拷貝相對路徑";
+"Reveal in Finder" = "在 Finder 中顯示";
+"Open in Terminal" = "在終端機中開啟";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "左側面板";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "檔案";
+"Double ⇧ to search everywhere" = "連按兩次 ⇧ 隨處搜尋";
+"Type a file name (use / to match the path)" = "輸入檔名（使用 / 比對路徑）";
+"No recent files" = "沒有最近使用的檔案";
+"Recent Files" = "最近使用的檔案";
+"Matches: %1$ld / Files: %2$ld" = "符合：%1$ld / 檔案：%2$ld";
+"Close" = "關閉";

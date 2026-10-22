@@ -1,0 +1,119 @@
+/*
+  Sumi — hu translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Nyisson meg egy mappát projektként, vagy egy fájlt szerkesztésre.";
+"Open" = "Megnyitás";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fájl";
+"Edit" = "Szerkesztés";
+"View" = "Nézet";
+"Navigate" = "Navigálás";
+"Window" = "Ablak";
+"About Sumi" = "A Sumi névjegye";
+"Services" = "Szolgáltatások";
+"Hide Sumi" = "Sumi elrejtése";
+"Hide Others" = "Többi elrejtése";
+"Show All" = "Összes megjelenítése";
+"Quit Sumi" = "Kilépés a Sumiból";
+"New File…" = "Új fájl…";
+"New Folder…" = "Új mappa…";
+"New Terminal Tab" = "Új terminállap";
+"Open…" = "Megnyitás…";
+"Save" = "Mentés";
+"Save All" = "Összes mentése";
+"Close Tab" = "Lap bezárása";
+"Close Window" = "Ablak bezárása";
+"Undo" = "Visszavonás";
+"Redo" = "Újra";
+"Cut" = "Kivágás";
+"Copy" = "Másolás";
+"Paste" = "Beillesztés";
+"Select All" = "Összes kijelölése";
+"Find…" = "Keresés…";
+"Replace…" = "Csere…";
+"Find Next" = "Következő keresése";
+"Find Previous" = "Előző keresése";
+"Use Selection for Find" = "Kijelölés használata kereséshez";
+"Find" = "Keresés";
+"Project" = "Projekt";
+"Terminal" = "Terminál";
+"Swap Terminal and Project" = "Terminál és projekt felcserélése";
+"Maximize Terminal" = "Terminál maximalizálása";
+"Soft-Wrap" = "Lágy sortörés";
+"Toggle Preview" = "Előnézet be/ki";
+"Increase Font Size" = "Betűméret növelése";
+"Decrease Font Size" = "Betűméret csökkentése";
+"Reset Font Size" = "Betűméret visszaállítása";
+"Search Everywhere (Double ⇧)" = "Keresés mindenhol (dupla ⇧)";
+"Select in Project View" = "Kijelölés a projektnézetben";
+"Next Tab" = "Következő lap";
+"Previous Tab" = "Előző lap";
+"Minimize" = "Kicsinyítés";
+"Zoom" = "Nagyítás";
+"Bring All to Front" = "Összes előtérbe hozása";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Terminál elrejtése";
+"Local" = "Helyi";
+"Local (%ld)" = "Helyi (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "A módosítások elvesznek, ha nem menti őket.";
+"Do you want to save the changes made to “%@”?" = "Menti a(z) „%@” fájlban végzett módosításokat?";
+"Do you want to save the changes made to these files?" = "Menti az ezekben a fájlokban végzett módosításokat?";
+"Cancel" = "Mégse";
+"Don't Save" = "Ne mentse";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Csak szerkesztő";
+"Editor and Preview" = "Szerkesztő és előnézet";
+"Preview Only" = "Csak előnézet";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Szóközök: %ld";
+"Plain Text" = "Egyszerű szöveg";
+"Search Everywhere" = "Keresés mindenhol";
+"Double ⇧" = "Dupla ⇧";
+"Go to File" = "Ugrás a fájlhoz";
+"Open Folder" = "Mappa megnyitása";
+"Project View" = "Projektnézet";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "A fájl bináris fájl.";
+"The file's text encoding could not be determined." = "A fájl szövegkódolását nem sikerült megállapítani.";
+"The text cannot be saved in %@." = "A szöveg nem menthető ebben a kódolásban: %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Új mappa";
+"New File" = "Új fájl";
+"Enter a name in “%@”. Use / to create nested folders." = "Adjon meg egy nevet itt: „%@”. A / használatával egymásba ágyazott mappák hozhatók létre.";
+"Rename" = "Átnevezés";
+"Enter a new name for “%@”." = "Adjon meg új nevet ehhez: „%@”.";
+"Move “%@” to the Trash?" = "Áthelyezi a(z) „%@” elemet a Kukába?";
+"The folder and everything in it will be moved to the Trash." = "A mappa és minden tartalma a Kukába kerül.";
+"You can restore it from the Trash." = "A Kukából visszaállíthatja.";
+"Move to Trash" = "Áthelyezés a Kukába";
+"OK" = "OK";
+"Rename…" = "Átnevezés…";
+"Copy Path" = "Elérési út másolása";
+"Copy Relative Path" = "Relatív elérési út másolása";
+"Reveal in Finder" = "Megjelenítés a Finderben";
+"Open in Terminal" = "Megnyitás terminálban";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Bal oldali panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Fájlok";
+"Double ⇧ to search everywhere" = "Dupla ⇧ — keresés mindenhol";
+"Type a file name (use / to match the path)" = "Írjon be egy fájlnevet (a / használatával az elérési útra is lehet keresni)";
+"No recent files" = "Nincsenek legutóbbi fájlok";
+"Recent Files" = "Legutóbbi fájlok";
+"Matches: %1$ld / Files: %2$ld" = "Találatok: %1$ld / Fájlok: %2$ld";
+"Close" = "Bezárás";

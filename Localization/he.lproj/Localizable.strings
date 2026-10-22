@@ -1,0 +1,119 @@
+/*
+  Sumi — he translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "פתח תיקייה כפרויקט, או קובץ לעריכה.";
+"Open" = "פתח";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "קובץ";
+"Edit" = "עריכה";
+"View" = "תצוגה";
+"Navigate" = "ניווט";
+"Window" = "חלון";
+"About Sumi" = "אודות Sumi";
+"Services" = "שירותים";
+"Hide Sumi" = "הסתר את Sumi";
+"Hide Others" = "הסתר אחרים";
+"Show All" = "הצג הכול";
+"Quit Sumi" = "צא מ-Sumi";
+"New File…" = "קובץ חדש…";
+"New Folder…" = "תיקייה חדשה…";
+"New Terminal Tab" = "לשונית מסוף חדשה";
+"Open…" = "פתח…";
+"Save" = "שמור";
+"Save All" = "שמור הכול";
+"Close Tab" = "סגור לשונית";
+"Close Window" = "סגור חלון";
+"Undo" = "בטל";
+"Redo" = "בצע שוב";
+"Cut" = "גזור";
+"Copy" = "העתק";
+"Paste" = "הדבק";
+"Select All" = "בחר הכול";
+"Find…" = "חפש…";
+"Replace…" = "החלף…";
+"Find Next" = "חפש הבא";
+"Find Previous" = "חפש קודם";
+"Use Selection for Find" = "השתמש בבחירה לחיפוש";
+"Find" = "חיפוש";
+"Project" = "פרויקט";
+"Terminal" = "מסוף";
+"Swap Terminal and Project" = "החלף בין המסוף לפרויקט";
+"Maximize Terminal" = "הגדל את המסוף";
+"Soft-Wrap" = "גלישת שורות";
+"Toggle Preview" = "הצגה/הסתרה של תצוגה מקדימה";
+"Increase Font Size" = "הגדל את גודל הגופן";
+"Decrease Font Size" = "הקטן את גודל הגופן";
+"Reset Font Size" = "אפס את גודל הגופן";
+"Search Everywhere (Double ⇧)" = "חיפוש בכל מקום (⇧ פעמיים)";
+"Select in Project View" = "בחר בתצוגת הפרויקט";
+"Next Tab" = "הלשונית הבאה";
+"Previous Tab" = "הלשונית הקודמת";
+"Minimize" = "מזער";
+"Zoom" = "זום";
+"Bring All to Front" = "הבא הכול לחזית";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "הסתר את המסוף";
+"Local" = "מקומי";
+"Local (%ld)" = "מקומי (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "השינויים שלך יאבדו אם לא תשמור אותם.";
+"Do you want to save the changes made to “%@”?" = "האם ברצונך לשמור את השינויים שבוצעו ב-\"%@\"?";
+"Do you want to save the changes made to these files?" = "האם ברצונך לשמור את השינויים שבוצעו בקבצים אלה?";
+"Cancel" = "ביטול";
+"Don't Save" = "אל תשמור";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "עורך בלבד";
+"Editor and Preview" = "עורך ותצוגה מקדימה";
+"Preview Only" = "תצוגה מקדימה בלבד";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "רווחים: %ld";
+"Plain Text" = "טקסט רגיל";
+"Search Everywhere" = "חיפוש בכל מקום";
+"Double ⇧" = "⇧ פעמיים";
+"Go to File" = "מעבר לקובץ";
+"Open Folder" = "פתח תיקייה";
+"Project View" = "תצוגת פרויקט";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "הקובץ הוא קובץ בינארי.";
+"The file's text encoding could not be determined." = "לא ניתן היה לקבוע את קידוד הטקסט של הקובץ.";
+"The text cannot be saved in %@." = "לא ניתן לשמור את הטקסט בקידוד %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "תיקייה חדשה";
+"New File" = "קובץ חדש";
+"Enter a name in “%@”. Use / to create nested folders." = "הזן שם ב-\"%@\". השתמש ב-/ כדי ליצור תיקיות מקוננות.";
+"Rename" = "שנה שם";
+"Enter a new name for “%@”." = "הזן שם חדש עבור \"%@\".";
+"Move “%@” to the Trash?" = "להעביר את \"%@\" לאשפה?";
+"The folder and everything in it will be moved to the Trash." = "התיקייה וכל מה שבתוכה יועברו לאשפה.";
+"You can restore it from the Trash." = "אפשר לשחזר זאת מהאשפה.";
+"Move to Trash" = "העבר לאשפה";
+"OK" = "אישור";
+"Rename…" = "שנה שם…";
+"Copy Path" = "העתק נתיב";
+"Copy Relative Path" = "העתק נתיב יחסי";
+"Reveal in Finder" = "הצג ב-Finder";
+"Open in Terminal" = "פתח במסוף";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "לוח שמאלי";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "קבצים";
+"Double ⇧ to search everywhere" = "לחץ ⇧ פעמיים כדי לחפש בכל מקום";
+"Type a file name (use / to match the path)" = "הקלד שם קובץ (השתמש ב-/ כדי להתאים לנתיב)";
+"No recent files" = "אין קבצים אחרונים";
+"Recent Files" = "קבצים אחרונים";
+"Matches: %1$ld / Files: %2$ld" = "התאמות: %1$ld / קבצים: %2$ld";
+"Close" = "סגור";

@@ -1,0 +1,119 @@
+/*
+  Sumi — th translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "เปิดโฟลเดอร์เป็นโปรเจกต์ หรือเปิดไฟล์เพื่อแก้ไข";
+"Open" = "เปิด";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "ไฟล์";
+"Edit" = "แก้ไข";
+"View" = "มุมมอง";
+"Navigate" = "นำทาง";
+"Window" = "หน้าต่าง";
+"About Sumi" = "เกี่ยวกับ Sumi";
+"Services" = "บริการ";
+"Hide Sumi" = "ซ่อน Sumi";
+"Hide Others" = "ซ่อนอื่นๆ";
+"Show All" = "แสดงทั้งหมด";
+"Quit Sumi" = "ออกจาก Sumi";
+"New File…" = "ไฟล์ใหม่…";
+"New Folder…" = "โฟลเดอร์ใหม่…";
+"New Terminal Tab" = "แท็บเทอร์มินัลใหม่";
+"Open…" = "เปิด…";
+"Save" = "บันทึก";
+"Save All" = "บันทึกทั้งหมด";
+"Close Tab" = "ปิดแท็บ";
+"Close Window" = "ปิดหน้าต่าง";
+"Undo" = "เลิกทำ";
+"Redo" = "ทำซ้ำ";
+"Cut" = "ตัด";
+"Copy" = "คัดลอก";
+"Paste" = "วาง";
+"Select All" = "เลือกทั้งหมด";
+"Find…" = "ค้นหา…";
+"Replace…" = "แทนที่…";
+"Find Next" = "ค้นหาถัดไป";
+"Find Previous" = "ค้นหาก่อนหน้า";
+"Use Selection for Find" = "ใช้ส่วนที่เลือกเพื่อค้นหา";
+"Find" = "ค้นหา";
+"Project" = "โปรเจกต์";
+"Terminal" = "เทอร์มินัล";
+"Swap Terminal and Project" = "สลับเทอร์มินัลและโปรเจกต์";
+"Maximize Terminal" = "ขยายเทอร์มินัลให้ใหญ่สุด";
+"Soft-Wrap" = "ตัดบรรทัดอัตโนมัติ";
+"Toggle Preview" = "สลับการแสดงตัวอย่าง";
+"Increase Font Size" = "เพิ่มขนาดตัวอักษร";
+"Decrease Font Size" = "ลดขนาดตัวอักษร";
+"Reset Font Size" = "รีเซ็ตขนาดตัวอักษร";
+"Search Everywhere (Double ⇧)" = "ค้นหาทุกที่ (กด ⇧ สองครั้ง)";
+"Select in Project View" = "เลือกในมุมมองโปรเจกต์";
+"Next Tab" = "แท็บถัดไป";
+"Previous Tab" = "แท็บก่อนหน้า";
+"Minimize" = "ย่อ";
+"Zoom" = "ซูม";
+"Bring All to Front" = "นำทั้งหมดมาไว้ด้านหน้า";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "ซ่อนเทอร์มินัล";
+"Local" = "ในเครื่อง";
+"Local (%ld)" = "ในเครื่อง (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "การเปลี่ยนแปลงของคุณจะสูญหายหากไม่บันทึก";
+"Do you want to save the changes made to “%@”?" = "คุณต้องการบันทึกการเปลี่ยนแปลงที่ทำกับ “%@” หรือไม่";
+"Do you want to save the changes made to these files?" = "คุณต้องการบันทึกการเปลี่ยนแปลงที่ทำกับไฟล์เหล่านี้หรือไม่";
+"Cancel" = "ยกเลิก";
+"Don't Save" = "ไม่บันทึก";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "เฉพาะตัวแก้ไข";
+"Editor and Preview" = "ตัวแก้ไขและตัวอย่าง";
+"Preview Only" = "เฉพาะตัวอย่าง";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "ช่องว่าง: %ld";
+"Plain Text" = "ข้อความธรรมดา";
+"Search Everywhere" = "ค้นหาทุกที่";
+"Double ⇧" = "กด ⇧ สองครั้ง";
+"Go to File" = "ไปที่ไฟล์";
+"Open Folder" = "เปิดโฟลเดอร์";
+"Project View" = "มุมมองโปรเจกต์";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "ไฟล์นี้เป็นไฟล์ไบนารี";
+"The file's text encoding could not be determined." = "ไม่สามารถระบุการเข้ารหัสข้อความของไฟล์ได้";
+"The text cannot be saved in %@." = "ไม่สามารถบันทึกข้อความในการเข้ารหัส %@ ได้";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "โฟลเดอร์ใหม่";
+"New File" = "ไฟล์ใหม่";
+"Enter a name in “%@”. Use / to create nested folders." = "ป้อนชื่อใน “%@” ใช้ / เพื่อสร้างโฟลเดอร์ซ้อนกัน";
+"Rename" = "เปลี่ยนชื่อ";
+"Enter a new name for “%@”." = "ป้อนชื่อใหม่สำหรับ “%@”";
+"Move “%@” to the Trash?" = "ย้าย “%@” ไปที่ถังขยะหรือไม่";
+"The folder and everything in it will be moved to the Trash." = "โฟลเดอร์และทุกอย่างในโฟลเดอร์จะถูกย้ายไปที่ถังขยะ";
+"You can restore it from the Trash." = "คุณสามารถกู้คืนได้จากถังขยะ";
+"Move to Trash" = "ย้ายไปที่ถังขยะ";
+"OK" = "ตกลง";
+"Rename…" = "เปลี่ยนชื่อ…";
+"Copy Path" = "คัดลอกพาธ";
+"Copy Relative Path" = "คัดลอกพาธแบบสัมพัทธ์";
+"Reveal in Finder" = "แสดงใน Finder";
+"Open in Terminal" = "เปิดในเทอร์มินัล";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "แผงด้านซ้าย";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "ไฟล์";
+"Double ⇧ to search everywhere" = "กด ⇧ สองครั้งเพื่อค้นหาทุกที่";
+"Type a file name (use / to match the path)" = "พิมพ์ชื่อไฟล์ (ใช้ / เพื่อจับคู่พาธ)";
+"No recent files" = "ไม่มีไฟล์ล่าสุด";
+"Recent Files" = "ไฟล์ล่าสุด";
+"Matches: %1$ld / Files: %2$ld" = "ตรงกัน: %1$ld / ไฟล์: %2$ld";
+"Close" = "ปิด";

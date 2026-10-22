@@ -1,0 +1,10 @@
+.build/
+build/
+.swiftpm/
+*.xcodeproj/
+xcuserdata/
+.DS_Store
+
+# Local agent instructions (not part of the project)
+CLAUDE.md
+AGENTS.md

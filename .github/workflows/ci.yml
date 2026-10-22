@@ -1,0 +1,22 @@
+name: CI
+
+# Pushes to main are built and published by release.yml.
+on:
+  pull_request:
+
+jobs:
+  translations:
+    name: Translations
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check every language
+        run: swift scripts/l10n.swift check
+
+  build:
+    name: Build
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the app
+        run: scripts/build-app.sh

@@ -1,0 +1,119 @@
+/*
+  Sumi — nb translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Åpne en mappe som et prosjekt, eller en fil som skal redigeres.";
+"Open" = "Åpne";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Arkiv";
+"Edit" = "Rediger";
+"View" = "Vis";
+"Navigate" = "Naviger";
+"Window" = "Vindu";
+"About Sumi" = "Om Sumi";
+"Services" = "Tjenester";
+"Hide Sumi" = "Skjul Sumi";
+"Hide Others" = "Skjul andre";
+"Show All" = "Vis alle";
+"Quit Sumi" = "Avslutt Sumi";
+"New File…" = "Ny fil…";
+"New Folder…" = "Ny mappe…";
+"New Terminal Tab" = "Ny terminalfane";
+"Open…" = "Åpne…";
+"Save" = "Arkiver";
+"Save All" = "Arkiver alle";
+"Close Tab" = "Lukk fane";
+"Close Window" = "Lukk vindu";
+"Undo" = "Angre";
+"Redo" = "Gjør om";
+"Cut" = "Klipp ut";
+"Copy" = "Kopier";
+"Paste" = "Lim inn";
+"Select All" = "Velg alt";
+"Find…" = "Finn…";
+"Replace…" = "Erstatt…";
+"Find Next" = "Finn neste";
+"Find Previous" = "Finn forrige";
+"Use Selection for Find" = "Bruk utvalg til søk";
+"Find" = "Finn";
+"Project" = "Prosjekt";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Bytt om terminal og prosjekt";
+"Maximize Terminal" = "Maksimer terminalen";
+"Soft-Wrap" = "Automatisk linjeskift";
+"Toggle Preview" = "Slå forhåndsvisning av/på";
+"Increase Font Size" = "Øk skriftstørrelse";
+"Decrease Font Size" = "Reduser skriftstørrelse";
+"Reset Font Size" = "Tilbakestill skriftstørrelse";
+"Search Everywhere (Double ⇧)" = "Søk overalt (dobbel ⇧)";
+"Select in Project View" = "Velg i prosjektvisning";
+"Next Tab" = "Neste fane";
+"Previous Tab" = "Forrige fane";
+"Minimize" = "Legg i Dock";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Flytt alle forrest";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Hide Terminal" = "Skjul terminalen";
+"Local" = "Lokal";
+"Local (%ld)" = "Lokal (%ld)";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Your changes will be lost if you don't save them." = "Endringene dine går tapt hvis du ikke arkiverer dem.";
+"Do you want to save the changes made to “%@”?" = "Vil du arkivere endringene som er gjort i «%@»?";
+"Do you want to save the changes made to these files?" = "Vil du arkivere endringene som er gjort i disse filene?";
+"Cancel" = "Avbryt";
+"Don't Save" = "Ikke arkiver";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Bare redigering";
+"Editor and Preview" = "Redigering og forhåndsvisning";
+"Preview Only" = "Bare forhåndsvisning";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Mellomrom: %ld";
+"Plain Text" = "Ren tekst";
+"Search Everywhere" = "Søk overalt";
+"Double ⇧" = "Dobbel ⇧";
+"Go to File" = "Gå til fil";
+"Open Folder" = "Åpne mappe";
+"Project View" = "Prosjektvisning";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file is a binary file." = "Filen er en binærfil.";
+"The file's text encoding could not be determined." = "Filens tekstkoding kunne ikke fastslås.";
+"The text cannot be saved in %@." = "Teksten kan ikke arkiveres i %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Ny mappe";
+"New File" = "Ny fil";
+"Enter a name in “%@”. Use / to create nested folders." = "Skriv inn et navn i «%@». Bruk / for å opprette nestede mapper.";
+"Rename" = "Gi nytt navn";
+"Enter a new name for “%@”." = "Skriv inn et nytt navn for «%@».";
+"Move “%@” to the Trash?" = "Vil du flytte «%@» til papirkurven?";
+"The folder and everything in it will be moved to the Trash." = "Mappen og alt i den flyttes til papirkurven.";
+"You can restore it from the Trash." = "Du kan gjenopprette den fra papirkurven.";
+"Move to Trash" = "Flytt til papirkurven";
+"OK" = "OK";
+"Rename…" = "Gi nytt navn…";
+"Copy Path" = "Kopier sti";
+"Copy Relative Path" = "Kopier relativ sti";
+"Reveal in Finder" = "Vis i Finder";
+"Open in Terminal" = "Åpne i terminalen";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Venstre panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Filer";
+"Double ⇧ to search everywhere" = "Trykk ⇧ to ganger for å søke overalt";
+"Type a file name (use / to match the path)" = "Skriv inn et filnavn (bruk / for å matche stien)";
+"No recent files" = "Ingen nylige filer";
+"Recent Files" = "Nylige filer";
+"Matches: %1$ld / Files: %2$ld" = "Treff: %1$ld / Filer: %2$ld";
+"Close" = "Lukk";
