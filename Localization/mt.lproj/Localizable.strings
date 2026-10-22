@@ -1,0 +1,124 @@
+/*
+  Sumi — mt translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Iftaħ folder bħala proġett, jew fajl biex teditja.";
+"Open" = "Miftuħa";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fajl";
+"Edit" = "Editja";
+"View" = "Ara";
+"Navigate" = "Innaviga";
+"Window" = "Tieqa";
+"About Sumi" = "Dwar l-applikazzjoni Sumi";
+"Language" = "Lingwa";
+"Services" = "Servizzi";
+"Hide Sumi" = "Aħbi Sumi";
+"Hide Others" = "Aħbi Oħrajn";
+"Show All" = "Uri Kollha";
+"Quit Sumi" = "Nieqaf Sumi";
+"System Default" = "Default tas-Sistema";
+"New File…" = "Fajl Ġdid...";
+"New Folder…" = "Folder ġdid...";
+"New Terminal Tab" = "Tab Terminal Ġdid";
+"Open…" = "Iftaħ...";
+"Save" = "Ħlief";
+"Save All" = "Ħlief Kollox";
+"Close Tab" = "Agħlaq Tab";
+"Close Window" = "Agħlaq Tieqa";
+"Undo" = "Ħoll";
+"Redo" = "Erġa' jagħmel";
+"Cut" = "Aqta’";
+"Copy" = "Kopja";
+"Paste" = "Pejst";
+"Select All" = "Agħżel Kollha";
+"Find…" = "Sib...";
+"Replace…" = "Ibdel...";
+"Find Next" = "Sib Li jmiss";
+"Find Previous" = "Sib Preċedenti";
+"Use Selection for Find" = "Uża l-Għażla għal Sib";
+"Find" = "Sib";
+"Project" = "Proġett";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal u Proġett";
+"Maximize Terminal" = "Timmassimizza Terminal";
+"GPU Rendering" = "Agħti grafika billi tuża l-GPU";
+"Soft-Wrap" = "Kebbeb awtomatikament linji twal tat-test";
+"Toggle Preview" = "Uri jew aħbi l-previżjoni";
+"Increase Font Size" = "Żid Daqs tat-Tipa";
+"Decrease Font Size" = "Naqqas id-Daqs tat-Tipa";
+"Reset Font Size" = "Irrisettja Daqs tat-Tipa";
+"Search Everywhere (Double ⇧)" = "Fittex kullimkien (Doppju ⇧)";
+"Select in Project View" = "Agħżel fil-Proġett View";
+"Next Tab" = "Li jmiss Tab";
+"Previous Tab" = "Preċedenti Tab";
+"Minimize" = "Imminimizza";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Ġib Kollha quddiem";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Lokali";
+"Local (%ld)" = "Lokali (%ld)";
+"Hide Terminal" = "Aħbi Terminal";
+"Close" = "Agħlaq";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Agħlaq is-sessjonijiet tat-terminal tal-ġiri?";
+"These processes will be stopped:" = "Dawn il-proċessi se jitwaqqfu:";
+"Cancel" = "Ikkanċella";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Issejvja Kopja...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Editur Biss";
+"Editor and Preview" = "Editur u Preview";
+"Preview Only" = "Preview Biss";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Spazji: %ld";
+"Plain Text" = "Test sempliċi";
+"Search Everywhere" = "Fittex Kullimkien";
+"Double ⇧" = "Agħfas ⇧ darbtejn";
+"Go to File" = "Mur fil-Fajl";
+"Open Folder" = "Iftaħ Folder";
+"Project View" = "View tal-Proġett";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Il-fajl inbidel fuq id-diska. Il-modifiki tiegħek inżammu. Issejvja kopja biex tippreserva ż-żewġ verżjonijiet.";
+"The file is a binary file." = "Il-fajl huwa fajl binarju.";
+"The file's text encoding could not be determined." = "Il-kodifikazzjoni tat-test tal-fajl ma setgħetx tiġi determinata.";
+"The text cannot be saved in %@." = "It-test ma jistax jiġi ssejvjat f'%@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folder Ġdid";
+"New File" = "Fajl Ġdid";
+"Enter a name in “%@”. Use / to create nested folders." = "Daħħal isem f'\"%@\". Separa l-ismijiet tal-folders bil-karattru / biex toħloq subfolders.";
+"Rename" = "Semmi mill-ġdid";
+"Enter a new name for “%@”." = "Daħħal isem ġdid għal \"%@\".";
+"Move “%@” to the Trash?" = "Mexxi \"%@\" lejn it-Trash?";
+"The folder and everything in it will be moved to the Trash." = "Il-folder u dak kollu li fih se jiġu mċaqalqa lejn it-Trash.";
+"You can restore it from the Trash." = "Tista' tirrestawraha mit-Trash.";
+"Move to Trash" = "Nimxu lejn Trash";
+"OK" = "OK";
+"Rename…" = "Semmi mill-ġdid...";
+"Copy Path" = "Ikkopja Path";
+"Copy Relative Path" = "Ikkopja Mogħdija Relattiva";
+"Reveal in Finder" = "Ikxef f'Finder";
+"Open in Terminal" = "Iftaħ fit-Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panel tax-Xellug";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Fajls";
+"Double ⇧ to search everywhere" = "Irdoppja ⇧ biex tfittex kullimkien";
+"Type a file name (use / to match the path)" = "Ittajpja isem tal-fajl (uża / biex taqbel mal-mogħdija)";
+"No recent files" = "Ebda fajls riċenti";
+"Recent Files" = "Fajls riċenti";
+"Matches: %1$ld / Files: %2$ld" = "Riżultati misjuba: %1$ld / Fajls totali: %2$ld";

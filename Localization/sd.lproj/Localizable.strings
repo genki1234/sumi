@@ -1,0 +1,124 @@
+/*
+  Sumi — sd translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "پروجيڪٽ جي طور تي فولڊر کوليو، يا ايڊٽ ڪرڻ لاءِ فائل.";
+"Open" = "کليل";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "فائل";
+"Edit" = "ترميم ڪريو";
+"View" = "ڏيک";
+"Navigate" = "نيويگيٽ";
+"Window" = "ونڊ";
+"About Sumi" = "Sumi ايپليڪيشن بابت";
+"Language" = "ٻولي";
+"Services" = "خدمتون";
+"Hide Sumi" = "لڪايو Sumi";
+"Hide Others" = "ٻين کي لڪايو";
+"Show All" = "سڀ ڏيکاريو";
+"Quit Sumi" = "Sumi ڇڏي ڏيو";
+"System Default" = "سسٽم ڊفالٽ";
+"New File…" = "نئين فائل…";
+"New Folder…" = "نئون فولڊر…";
+"New Terminal Tab" = "نئون ٽرمينل ٽيب";
+"Open…" = "کليل…";
+"Save" = "بچايو";
+"Save All" = "سڀ محفوظ ڪريو";
+"Close Tab" = "بند ڪريو ٽيب";
+"Close Window" = "ونڊو بند ڪريو";
+"Undo" = "اڻڄاتل";
+"Redo" = "ٻيهر ڪريو";
+"Cut" = "ڪٽ";
+"Copy" = "ڪاپي";
+"Paste" = "پيسٽ";
+"Select All" = "سڀ چونڊيو";
+"Find…" = "ڳولهي…";
+"Replace…" = "تبديل ڪريو…";
+"Find Next" = "اڳيان ڳولھيو";
+"Find Previous" = "ڳولهيو اڳيون";
+"Use Selection for Find" = "ڳولا لاءِ چونڊ استعمال ڪريو";
+"Find" = "ڳولهيو";
+"Project" = "پروجيڪٽ";
+"Terminal" = "ٽرمينل";
+"Swap Terminal and Project" = "مٽائي ٽرمينل ۽ پروجيڪٽ";
+"Maximize Terminal" = "وڌ ۾ وڌ ٽرمينل";
+"GPU Rendering" = "GPU رينڊرنگ";
+"Soft-Wrap" = "خودڪار طور تي ڊگھي ٽيڪسٽ لائين لپي";
+"Toggle Preview" = "ٽوگل ڏيکاءُ";
+"Increase Font Size" = "فونٽ جي سائيز کي وڌايو";
+"Decrease Font Size" = "فونٽ جي سائيز کي گھٽايو";
+"Reset Font Size" = "فونٽ جي سائيز ري سيٽ ڪريو";
+"Search Everywhere (Double ⇧)" = "هر هنڌ ڳولهيو (ڊبل ⇧)";
+"Select in Project View" = "پروجيڪٽ ڏسو ۾ چونڊيو";
+"Next Tab" = "اڳيون ٽيب";
+"Previous Tab" = "پويون ٽيب";
+"Minimize" = "گھٽ ڪرڻ";
+"Zoom" = "زوم";
+"Bring All to Front" = "سڀني کي سامهون آڻيو";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "مقامي";
+"Local (%ld)" = "مقامي (%ld)";
+"Hide Terminal" = "لڪايو ٽرمينل";
+"Close" = "بند";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "هلندڙ ٽرمينل سيشن بند ڪريو؟";
+"These processes will be stopped:" = "انهن عملن کي روڪيو ويندو:";
+"Cancel" = "منسوخ ڪريو";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "هڪ ڪاپي محفوظ ڪريو…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "صرف ايڊيٽر";
+"Editor and Preview" = "ايڊيٽر ۽ پريويو";
+"Preview Only" = "صرف ڏيک";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "جڳھون: %ld";
+"Plain Text" = "سادي متن";
+"Search Everywhere" = "هر هنڌ ڳولهيو";
+"Double ⇧" = "ٻيڻو ⇧";
+"Go to File" = "فائل ڏانھن وڃو";
+"Open Folder" = "فولڊر کوليو";
+"Project View" = "پروجيڪٽ ڏسو";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "فائل ڊسڪ تي تبديل ٿي وئي. توهان جون ترميمون رکيون ويون آهن. ٻنهي نسخن کي محفوظ ڪرڻ لاءِ هڪ ڪاپي محفوظ ڪريو.";
+"The file is a binary file." = "فائل هڪ بائنري فائل آهي.";
+"The file's text encoding could not be determined." = "فائل جي ٽيڪسٽ انڪوڊنگ نه ٿي سگھي.";
+"The text cannot be saved in %@." = "متن %@ ۾ محفوظ نه ٿو ڪري سگھجي.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "نئون فولڊر";
+"New File" = "نئين فائل";
+"Enter a name in “%@”. Use / to create nested folders." = "\"%@\" ۾ نالو داخل ڪريو. ذيلي فولڊر ٺاهڻ لاءِ / ڪردار سان فولڊر جا نالا الڳ ڪريو.";
+"Rename" = "نالو مٽايو";
+"Enter a new name for “%@”." = "”%@“ لاءِ نئون نالو داخل ڪريو.";
+"Move “%@” to the Trash?" = "\"%@\" کي ردي ۾ منتقل ڪريو؟";
+"The folder and everything in it will be moved to the Trash." = "فولڊر ۽ ان ۾ موجود هر شيءِ کي ٽريش ۾ منتقل ڪيو ويندو.";
+"You can restore it from the Trash." = "توھان ان کي ردي مان بحال ڪري سگھو ٿا.";
+"Move to Trash" = "ٽريش ڏانھن منتقل ڪريو";
+"OK" = "ٺيڪ";
+"Rename…" = "نالو تبديل ڪريو...";
+"Copy Path" = "نقل جو رستو";
+"Copy Relative Path" = "نقل ڪرڻ وارو رستو";
+"Reveal in Finder" = "Finder ۾ پڌرو ڪيو";
+"Open in Terminal" = "ٽرمينل ۾ کوليو";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "کاٻي پينل";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "فائلون";
+"Double ⇧ to search everywhere" = "ٻيڻو ⇧ هر هنڌ ڳولڻ لاءِ";
+"Type a file name (use / to match the path)" = "فائل جو نالو ٽائيپ ڪريو (استعمال ڪريو / رستي سان ملائڻ لاء)";
+"No recent files" = "ڪابه تازيون فائلون";
+"Recent Files" = "تازو فائلون";
+"Matches: %1$ld / Files: %2$ld" = "نتيجا مليا: %1$ld / ڪل فائلون: %2$ld";

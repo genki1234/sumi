@@ -1,0 +1,124 @@
+/*
+  Sumi — yo translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Ṣii folda kan bi iṣẹ akanṣe, tabi faili lati ṣatunkọ.";
+"Open" = "Ṣii";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Faili";
+"Edit" = "Ṣatunkọ";
+"View" = "Wo";
+"Navigate" = "Lilọ kiri";
+"Window" = "Ferese";
+"About Sumi" = "Nipa ohun elo Sumi";
+"Language" = "Ede";
+"Services" = "Awọn iṣẹ";
+"Hide Sumi" = "Tọju Sumi";
+"Hide Others" = "Tọju Awọn miiran";
+"Show All" = "Fihan Gbogbo";
+"Quit Sumi" = "Pade Sumi";
+"System Default" = "Eto Aiyipada";
+"New File…" = "Faili Tuntun…";
+"New Folder…" = "Folda Tuntun…";
+"New Terminal Tab" = "Taabu Terminal Tuntun";
+"Open…" = "Ṣii…";
+"Save" = "Fipamọ";
+"Save All" = "Fi Gbogbo wa pamọ";
+"Close Tab" = "Pa Taabu";
+"Close Window" = "Pa Ferese";
+"Undo" = "Yipada";
+"Redo" = "Tunṣe";
+"Cut" = "Ge";
+"Copy" = "Daakọ";
+"Paste" = "Lẹẹmọ";
+"Select All" = "Yan Gbogbo";
+"Find…" = "Wa…";
+"Replace…" = "Rọpo…";
+"Find Next" = "Wa Next";
+"Find Previous" = "Wa Ti tẹlẹ";
+"Use Selection for Find" = "Lo Aṣayan fun Wa";
+"Find" = "Wa";
+"Project" = "Ise agbese";
+"Terminal" = "Ebute";
+"Swap Terminal and Project" = "Siwopu ebute ati Project";
+"Maximize Terminal" = "Ti o pọju Terminal";
+"GPU Rendering" = "Ṣe awọn eya aworan nipa lilo GPU";
+"Soft-Wrap" = "Fi ipari si awọn laini ọrọ gigun ni adaṣe";
+"Toggle Preview" = "Yi Awotẹlẹ";
+"Increase Font Size" = "Mu Font Iwon";
+"Decrease Font Size" = "Din Iwon Font";
+"Reset Font Size" = "Tun iwọn Font";
+"Search Everywhere (Double ⇧)" = "Wa Nibikibi (Double ⇧)";
+"Select in Project View" = "Yan ni Project View";
+"Next Tab" = "Next Taabu";
+"Previous Tab" = "Taabu ti tẹlẹ";
+"Minimize" = "Gbe sẹgbẹ";
+"Zoom" = "Sun-un";
+"Bring All to Front" = "Mu Gbogbo wa si Iwaju";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Agbegbe";
+"Local (%ld)" = "Agbegbe (%ld)";
+"Hide Terminal" = "Tọju Terminal";
+"Close" = "Sunmọ";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Pa awọn akoko ebute nṣiṣẹ sunmọ?";
+"These processes will be stopped:" = "Awọn ilana wọnyi yoo duro:";
+"Cancel" = "Fagilee";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Fi ẹda kan pamọ…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Olootu Nikan";
+"Editor and Preview" = "Olootu ati Awotẹlẹ";
+"Preview Only" = "Awotẹlẹ Nikan";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Awọn aaye: %ld";
+"Plain Text" = "Ọrọ itele";
+"Search Everywhere" = "Wa Nibikibi";
+"Double ⇧" = "Ilọpo meji ⇧";
+"Go to File" = "Lọ si Faili";
+"Open Folder" = "Ṣii folda";
+"Project View" = "Wiwo Project";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faili yi pada lori disk. Awọn atunṣe rẹ ti wa ni ipamọ. Fi ẹda kan pamọ lati tọju awọn ẹya mejeeji.";
+"The file is a binary file." = "Faili naa jẹ faili alakomeji.";
+"The file's text encoding could not be determined." = "A ko le ṣe ipinnu fifi koodu ọrọ faili naa.";
+"The text cannot be saved in %@." = "Ọrọ ko le wa ni fipamọ ni %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folda Tuntun";
+"New File" = "Faili Tuntun";
+"Enter a name in “%@”. Use / to create nested folders." = "Tẹ orukọ sii ni \"%@\". Awọn orukọ folda lọtọ pẹlu / kikọ lati ṣẹda awọn folda inu.";
+"Rename" = "Fun lorukọ mii";
+"Enter a new name for “%@”." = "Tẹ orukọ titun sii fun \"%@\".";
+"Move “%@” to the Trash?" = "Gbe \"%@\" lọ si Idọti naa?";
+"The folder and everything in it will be moved to the Trash." = "Awọn folda ati ohun gbogbo ti o wa ninu rẹ yoo wa ni gbe si awọn idọti.";
+"You can restore it from the Trash." = "O le mu pada lati Idọti naa.";
+"Move to Trash" = "Gbe lọ si Idọti";
+"OK" = "O DARA";
+"Rename…" = "Tunrukọ…";
+"Copy Path" = "Daakọ Ona";
+"Copy Relative Path" = "Daakọ Ona ibatan";
+"Reveal in Finder" = "Ifihan ni Finder";
+"Open in Terminal" = "Ṣii ni Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panel osi";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Awọn faili";
+"Double ⇧ to search everywhere" = "Double ⇧ lati wa nibi gbogbo";
+"Type a file name (use / to match the path)" = "Tẹ orukọ faili kan (lo / lati baamu ọna naa)";
+"No recent files" = "Ko si awọn faili aipẹ";
+"Recent Files" = "Awọn faili aipẹ";
+"Matches: %1$ld / Files: %2$ld" = "Awọn abajade ti a rii: %1$ld / Lapapọ awọn faili: %2$ld";

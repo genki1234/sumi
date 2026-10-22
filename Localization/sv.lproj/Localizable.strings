@@ -16,11 +16,13 @@
 "Navigate" = "Navigera";
 "Window" = "Fönster";
 "About Sumi" = "Om Sumi";
+"Language" = "Språk";
 "Services" = "Tjänster";
 "Hide Sumi" = "Dölj Sumi";
 "Hide Others" = "Dölj övriga";
 "Show All" = "Visa alla";
 "Quit Sumi" = "Avsluta Sumi";
+"System Default" = "Systemstandard";
 "New File…" = "Ny fil…";
 "New Folder…" = "Ny mapp…";
 "New Terminal Tab" = "Ny terminalflik";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Växla mellan terminal och projekt";
 "Maximize Terminal" = "Maximera terminalen";
+"GPU Rendering" = "GPU-rendering";
 "Soft-Wrap" = "Automatisk radbrytning";
 "Toggle Preview" = "Visa/dölj förhandsvisning";
 "Increase Font Size" = "Öka teckenstorlek";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Lägg alla överst";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Dölj terminalen";
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
+"Hide Terminal" = "Dölj terminalen";
+"Close" = "Stäng";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Stänga pågående terminalsessioner?";
+"These processes will be stopped:" = "Dessa processer kommer att stoppas:";
+"Cancel" = "Avbryt";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Dina ändringar går förlorade om du inte sparar dem.";
-"Do you want to save the changes made to “%@”?" = "Vill du spara ändringarna som gjorts i ”%@”?";
-"Do you want to save the changes made to these files?" = "Vill du spara ändringarna som gjorts i de här filerna?";
-"Cancel" = "Avbryt";
-"Don't Save" = "Spara inte";
+"Save a Copy…" = "Spara en kopia...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Endast redigerare";
@@ -85,6 +90,7 @@
 "Project View" = "Projektvy";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Filen ändrades på disken. Dina redigeringar har behållits. Spara en kopia för att bevara båda versionerna.";
 "The file is a binary file." = "Filen är en binärfil.";
 "The file's text encoding could not be determined." = "Filens teckenkodning kunde inte fastställas.";
 "The text cannot be saved in %@." = "Texten kan inte sparas i %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Inga senaste filer";
 "Recent Files" = "Senaste filer";
 "Matches: %1$ld / Files: %2$ld" = "Träffar: %1$ld / Filer: %2$ld";
-"Close" = "Stäng";

@@ -16,11 +16,13 @@
 "Navigate" = "นำทาง";
 "Window" = "หน้าต่าง";
 "About Sumi" = "เกี่ยวกับ Sumi";
+"Language" = "ภาษา";
 "Services" = "บริการ";
 "Hide Sumi" = "ซ่อน Sumi";
 "Hide Others" = "ซ่อนอื่นๆ";
 "Show All" = "แสดงทั้งหมด";
 "Quit Sumi" = "ออกจาก Sumi";
+"System Default" = "ค่าเริ่มต้นของระบบ";
 "New File…" = "ไฟล์ใหม่…";
 "New Folder…" = "โฟลเดอร์ใหม่…";
 "New Terminal Tab" = "แท็บเทอร์มินัลใหม่";
@@ -45,6 +47,7 @@
 "Terminal" = "เทอร์มินัล";
 "Swap Terminal and Project" = "สลับเทอร์มินัลและโปรเจกต์";
 "Maximize Terminal" = "ขยายเทอร์มินัลให้ใหญ่สุด";
+"GPU Rendering" = "การเรนเดอร์ GPU";
 "Soft-Wrap" = "ตัดบรรทัดอัตโนมัติ";
 "Toggle Preview" = "สลับการแสดงตัวอย่าง";
 "Increase Font Size" = "เพิ่มขนาดตัวอักษร";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "นำทั้งหมดมาไว้ด้านหน้า";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "ซ่อนเทอร์มินัล";
 "Local" = "ในเครื่อง";
 "Local (%ld)" = "ในเครื่อง (%ld)";
+"Hide Terminal" = "ซ่อนเทอร์มินัล";
+"Close" = "ปิด";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "ปิดเซสชันเทอร์มินัลที่ทำงานอยู่หรือไม่";
+"These processes will be stopped:" = "กระบวนการเหล่านี้จะหยุดลง:";
+"Cancel" = "ยกเลิก";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "การเปลี่ยนแปลงของคุณจะสูญหายหากไม่บันทึก";
-"Do you want to save the changes made to “%@”?" = "คุณต้องการบันทึกการเปลี่ยนแปลงที่ทำกับ “%@” หรือไม่";
-"Do you want to save the changes made to these files?" = "คุณต้องการบันทึกการเปลี่ยนแปลงที่ทำกับไฟล์เหล่านี้หรือไม่";
-"Cancel" = "ยกเลิก";
-"Don't Save" = "ไม่บันทึก";
+"Save a Copy…" = "บันทึกสำเนา...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "เฉพาะตัวแก้ไข";
@@ -85,6 +90,7 @@
 "Project View" = "มุมมองโปรเจกต์";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ไฟล์มีการเปลี่ยนแปลงบนดิสก์ การแก้ไขของคุณถูกเก็บไว้ บันทึกสำเนาเพื่อเก็บรักษาทั้งสองเวอร์ชัน";
 "The file is a binary file." = "ไฟล์นี้เป็นไฟล์ไบนารี";
 "The file's text encoding could not be determined." = "ไม่สามารถระบุการเข้ารหัสข้อความของไฟล์ได้";
 "The text cannot be saved in %@." = "ไม่สามารถบันทึกข้อความในการเข้ารหัส %@ ได้";
@@ -116,4 +122,3 @@
 "No recent files" = "ไม่มีไฟล์ล่าสุด";
 "Recent Files" = "ไฟล์ล่าสุด";
 "Matches: %1$ld / Files: %2$ld" = "ตรงกัน: %1$ld / ไฟล์: %2$ld";
-"Close" = "ปิด";

@@ -1,0 +1,124 @@
+/*
+  Sumi — mg translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Sokafy ny lahatahiry ho toy ny tetikasa, na ny rakitra ho ovaina.";
+"Open" = "Misokatra";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Rakitra";
+"Edit" = "Ahitsio";
+"View" = "Asehoy";
+"Navigate" = "Mandehana";
+"Window" = "Varavarankely fampiharana";
+"About Sumi" = "Momba ny fampiharana Sumi";
+"Language" = "Fiteny";
+"Services" = "Serivisy";
+"Hide Sumi" = "Afeno ny Sumi";
+"Hide Others" = "Afeno ny hafa";
+"Show All" = "Asehoy daholo";
+"Quit Sumi" = "Atsaharo ny Sumi";
+"System Default" = "Ampiasao ny fiteny rafitra";
+"New File…" = "File vaovao…";
+"New Folder…" = "Lahatahiry vaovao…";
+"New Terminal Tab" = "Tab Terminal vaovao";
+"Open…" = "Misokatra…";
+"Save" = "Vonjeo";
+"Save All" = "Vonjeo daholo";
+"Close Tab" = "Akatona ny Tab";
+"Close Window" = "Akatona Window";
+"Undo" = "Esory";
+"Redo" = "Avereno";
+"Cut" = "Tapaho";
+"Copy" = "kopia";
+"Paste" = "Mametaka";
+"Select All" = "Safidio ny lahatsoratra rehetra";
+"Find…" = "Tadiavo…";
+"Replace…" = "Soloy…";
+"Find Next" = "Mitadiava Manaraka";
+"Find Previous" = "Tadiavo teo aloha";
+"Use Selection for Find" = "Ampiasao ny Selection for Find";
+"Find" = "Tadiavo";
+"Project" = "Tetikasa";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal sy Project";
+"Maximize Terminal" = "Hanitatra ny terminal";
+"GPU Rendering" = "Manomeza sary amin'ny fampiasana ny GPU";
+"Soft-Wrap" = "Ampidiro ho azy ny andalana lahatsoratra lava";
+"Toggle Preview" = "Asehoy na afeno ny fijery";
+"Increase Font Size" = "Ampitomboy ny haben'ny endritsoratra";
+"Decrease Font Size" = "Ahena ny haben'ny endritsoratra";
+"Reset Font Size" = "Avereno ny haben'ny endritsoratra";
+"Search Everywhere (Double ⇧)" = "Karoka eny rehetra eny (Double ⇧)";
+"Select in Project View" = "Safidio ao amin'ny Project View";
+"Next Tab" = "Tab manaraka";
+"Previous Tab" = "Tab teo aloha";
+"Minimize" = "Manamaivana";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Ento ny rehetra ho eo anoloana";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "eo an-toerana";
+"Local (%ld)" = "eo an-toerana (%ld)";
+"Hide Terminal" = "Afeno ny Terminal";
+"Close" = "Akatona";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Akatona ny fivoriana terminal mandeha?";
+"These processes will be stopped:" = "Hatsahatra ireto dingana ireto:";
+"Cancel" = "Manafoana";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Tehirizo kopia…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Mpanonta ihany";
+"Editor and Preview" = "Mpanonta sy Preview";
+"Preview Only" = "Preview Ihany";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Ampahany : %ld";
+"Plain Text" = "Text tsotra";
+"Search Everywhere" = "Mitadiava na aiza na aiza";
+"Double ⇧" = "Tsindrio ⇧ indroa";
+"Go to File" = "Mandehana any amin'ny File";
+"Open Folder" = "Sokafy ny lahatahiry";
+"Project View" = "tontonana tetikasa";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Niova ny rakitra tamin'ny kapila. Notazonina ny fanovana nataonao. Tehirizo dika iray hitahiry ireo dikan-teny roa.";
+"The file is a binary file." = "Ny rakitra dia rakitra binary.";
+"The file's text encoding could not be determined." = "Tsy azo fantarina ny fandiovana lahatsoratra an'ilay rakitra.";
+"The text cannot be saved in %@." = "Tsy azo tehirizina amin'ny %@ ny lahatsoratra.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folder vaovao";
+"New File" = "File vaovao";
+"Enter a name in “%@”. Use / to create nested folders." = "Ampidiro anarana ao amin'ny \"%@\". Saraho ny anaran'ny lahatahiry miaraka amin'ny tarehintsoratra / mba hamoronana zana-taratasy.";
+"Rename" = "Ovao anarana";
+"Enter a new name for “%@”." = "Ampidiro anarana vaovao ho an'ny \"%@\".";
+"Move “%@” to the Trash?" = "Alefaso any amin'ny Fako ny \"%@\"?";
+"The folder and everything in it will be moved to the Trash." = "Ny lahatahiry sy izay rehetra ao anatiny dia hafindra any amin'ny Fako.";
+"You can restore it from the Trash." = "Azonao atao ny mamerina azy avy amin'ny Fako.";
+"Move to Trash" = "Hiverina any amin'ny Trash";
+"OK" = "OK";
+"Rename…" = "Hanova anarana…";
+"Copy Path" = "Adikao ny lalan'ny rakitra";
+"Copy Relative Path" = "Adikao ny lalan'ny rakitra mifandraika";
+"Reveal in Finder" = "Asehoy ny Finder";
+"Open in Terminal" = "Sokafy amin'ny Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panel havia";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Rakitra";
+"Double ⇧ to search everywhere" = "Double ⇧ hikaroka na aiza na aiza";
+"Type a file name (use / to match the path)" = "Manorata anarana rakitra (ampiasao / hifanaraka amin'ny lalana)";
+"No recent files" = "Tsy misy rakitra vao haingana";
+"Recent Files" = "Files vao haingana";
+"Matches: %1$ld / Files: %2$ld" = "Vokatra hita: %1$ld / Total rakitra: %2$ld";

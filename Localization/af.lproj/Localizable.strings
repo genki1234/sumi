@@ -1,0 +1,124 @@
+/*
+  Sumi — af translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Maak 'n gids oop as 'n projek, of 'n lêer om te wysig.";
+"Open" = "Maak oop";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Lêer";
+"Edit" = "Wysig";
+"View" = "Uitsig";
+"Navigate" = "Navigeer";
+"Window" = "Venster";
+"About Sumi" = "Oor die Sumi aansoek";
+"Language" = "Taal";
+"Services" = "Dienste";
+"Hide Sumi" = "Versteek Sumi";
+"Hide Others" = "Versteek ander";
+"Show All" = "Wys alles";
+"Quit Sumi" = "Verlaat Sumi";
+"System Default" = "Stelsel verstek";
+"New File…" = "Nuwe lêer …";
+"New Folder…" = "Nuwe vouer …";
+"New Terminal Tab" = "Nuwe Terminal-oortjie";
+"Open…" = "Maak oop …";
+"Save" = "Stoor";
+"Save All" = "Stoor alles";
+"Close Tab" = "Maak oortjie toe";
+"Close Window" = "Maak venster toe";
+"Undo" = "Ontdoen";
+"Redo" = "Herhaal";
+"Cut" = "Sny";
+"Copy" = "Kopieer";
+"Paste" = "Plak";
+"Select All" = "Kies Alles";
+"Find…" = "Soek …";
+"Replace…" = "Vervang...";
+"Find Next" = "Soek Volgende";
+"Find Previous" = "Soek Vorige";
+"Use Selection for Find" = "Gebruik Seleksie vir Vind";
+"Find" = "Vind";
+"Project" = "Projek";
+"Terminal" = "Terminale";
+"Swap Terminal and Project" = "Ruil terminale en projek om";
+"Maximize Terminal" = "Maksimeer terminale";
+"GPU Rendering" = "GPU-weergawe";
+"Soft-Wrap" = "Wikkel outomaties lang teksreëls";
+"Toggle Preview" = "Wissel voorskou";
+"Increase Font Size" = "Verhoog lettergrootte";
+"Decrease Font Size" = "Verminder lettergrootte";
+"Reset Font Size" = "Stel lettergrootte terug";
+"Search Everywhere (Double ⇧)" = "Soek oral (Dubbel ⇧)";
+"Select in Project View" = "Kies in Project View";
+"Next Tab" = "Volgende oortjie";
+"Previous Tab" = "Vorige oortjie";
+"Minimize" = "Minimaliseer";
+"Zoom" = "Zoem";
+"Bring All to Front" = "Bring almal na vore";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Plaaslik";
+"Local (%ld)" = "Plaaslik (%ld)";
+"Hide Terminal" = "Versteek terminaal";
+"Close" = "Maak toe";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Sluit lopende terminale sessies?";
+"These processes will be stopped:" = "Hierdie prosesse sal gestop word:";
+"Cancel" = "Kanselleer";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Stoor 'n kopie...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Slegs redakteur";
+"Editor and Preview" = "Redigeerder en voorskou";
+"Preview Only" = "Slegs voorskou";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Spasies: %ld";
+"Plain Text" = "Gewone teks";
+"Search Everywhere" = "Soek oral";
+"Double ⇧" = "Dubbel ⇧";
+"Go to File" = "Gaan na lêer";
+"Open Folder" = "Maak vouer oop";
+"Project View" = "Projek Aansig";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Die lêer het op skyf verander. Jou wysigings is behou. Stoor 'n kopie om beide weergawes te bewaar.";
+"The file is a binary file." = "Die lêer is 'n binêre lêer.";
+"The file's text encoding could not be determined." = "Die lêer se tekskodering kon nie bepaal word nie.";
+"The text cannot be saved in %@." = "Die teks kan nie in %@ gestoor word nie.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Nuwe gids";
+"New File" = "Nuwe lêer";
+"Enter a name in “%@”. Use / to create nested folders." = "Tik 'n naam in \"%@\". Skei vouername met die / karakter om subgidse te skep.";
+"Rename" = "Hernoem";
+"Enter a new name for “%@”." = "Voer 'n nuwe naam in vir \"%@\".";
+"Move “%@” to the Trash?" = "Skuif \"%@\" na die asblik?";
+"The folder and everything in it will be moved to the Trash." = "Die vouer en alles daarin sal na die asblik geskuif word.";
+"You can restore it from the Trash." = "Jy kan dit uit die asblik herstel.";
+"Move to Trash" = "Skuif na asblik";
+"OK" = "OK";
+"Rename…" = "Hernoem …";
+"Copy Path" = "Kopieer pad";
+"Copy Relative Path" = "Kopieer relatiewe pad";
+"Reveal in Finder" = "Onthul in Finder";
+"Open in Terminal" = "Maak oop in Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Linker Paneel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Lêers";
+"Double ⇧ to search everywhere" = "Dubbel ⇧ om oral te soek";
+"Type a file name (use / to match the path)" = "Tik 'n lêernaam (gebruik / om die pad te pas)";
+"No recent files" = "Geen onlangse lêers nie";
+"Recent Files" = "Onlangse lêers";
+"Matches: %1$ld / Files: %2$ld" = "Resultate gevind: %1$ld / Totale lêers: %2$ld";

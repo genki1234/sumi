@@ -1,0 +1,124 @@
+/*
+  Sumi — sw translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Fungua folda kama mradi, au faili ya kuhariri.";
+"Open" = "Fungua";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Faili";
+"Edit" = "Hariri";
+"View" = "Tazama";
+"Navigate" = "Nenda";
+"Window" = "Dirisha";
+"About Sumi" = "Kuhusu maombi ya Sumi";
+"Language" = "Lugha";
+"Services" = "Huduma";
+"Hide Sumi" = "Ficha Sumi";
+"Hide Others" = "Ficha Wengine";
+"Show All" = "Onyesha Yote";
+"Quit Sumi" = "Acha Sumi";
+"System Default" = "Chaguomsingi ya Mfumo";
+"New File…" = "Faili Mpya...";
+"New Folder…" = "Folda Mpya...";
+"New Terminal Tab" = "Kichupo Kipya cha Kituo";
+"Open…" = "Fungua...";
+"Save" = "Hifadhi";
+"Save All" = "Okoa Zote";
+"Close Tab" = "Funga Kichupo";
+"Close Window" = "Funga Dirisha";
+"Undo" = "Tendua";
+"Redo" = "Rudia";
+"Cut" = "Kata";
+"Copy" = "Nakili";
+"Paste" = "Bandika";
+"Select All" = "Chagua Zote";
+"Find…" = "Tafuta...";
+"Replace…" = "Badilisha...";
+"Find Next" = "Tafuta Inayofuata";
+"Find Previous" = "Tafuta Iliyotangulia";
+"Use Selection for Find" = "Tumia Chaguo kwa Tafuta";
+"Find" = "Tafuta";
+"Project" = "Mradi";
+"Terminal" = "Kituo";
+"Swap Terminal and Project" = "Badilisha Terminal na Project";
+"Maximize Terminal" = "Ongeza Terminal";
+"GPU Rendering" = "Utoaji wa GPU";
+"Soft-Wrap" = "Funga mistari mirefu ya maandishi kiotomatiki";
+"Toggle Preview" = "Geuza Onyesho la Kuchungulia";
+"Increase Font Size" = "Ongeza Ukubwa wa herufi";
+"Decrease Font Size" = "Punguza Ukubwa wa herufi";
+"Reset Font Size" = "Weka Upya Ukubwa wa herufi";
+"Search Everywhere (Double ⇧)" = "Tafuta Kila mahali (Double ⇧)";
+"Select in Project View" = "Chagua katika Mwonekano wa Mradi";
+"Next Tab" = "Kichupo Kinachofuata";
+"Previous Tab" = "Kichupo Kilichotangulia";
+"Minimize" = "Punguza";
+"Zoom" = "Kuza";
+"Bring All to Front" = "Walete Wote Mbele";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Ndani";
+"Local (%ld)" = "Ndani (%ld)";
+"Hide Terminal" = "Ficha Terminal";
+"Close" = "Funga";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Je, ungependa kufunga vipindi vya uendeshaji wa vituo?";
+"These processes will be stopped:" = "Taratibu hizi zitasimamishwa:";
+"Cancel" = "Ghairi";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Hifadhi Nakala...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Mhariri Pekee";
+"Editor and Preview" = "Mhariri na Hakiki";
+"Preview Only" = "Hakiki Pekee";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Nafasi: %ld";
+"Plain Text" = "Maandishi Sahihi";
+"Search Everywhere" = "Tafuta kila mahali";
+"Double ⇧" = "Mara mbili ⇧";
+"Go to File" = "Nenda kwa Faili";
+"Open Folder" = "Fungua Folda";
+"Project View" = "Mwonekano wa Mradi";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faili ilibadilika kwenye diski. Mahariri yako yamehifadhiwa. Hifadhi nakala ili kuhifadhi matoleo yote mawili.";
+"The file is a binary file." = "Faili ni faili ya binary.";
+"The file's text encoding could not be determined." = "Usimbaji wa maandishi ya faili haukuweza kubainishwa.";
+"The text cannot be saved in %@." = "Maandishi hayawezi kuhifadhiwa katika %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folda Mpya";
+"New File" = "Faili Mpya";
+"Enter a name in “%@”. Use / to create nested folders." = "Ingiza jina katika \"%@\". Tenganisha majina ya folda na / herufi ili kuunda folda ndogo.";
+"Rename" = "Badilisha jina";
+"Enter a new name for “%@”." = "Ingiza jina jipya la \"%@\".";
+"Move “%@” to the Trash?" = "Ungependa kuhamisha \"%@\" hadi kwenye Tupio?";
+"The folder and everything in it will be moved to the Trash." = "Folda na kila kitu kilichomo kitahamishiwa kwenye Tupio.";
+"You can restore it from the Trash." = "Unaweza kuirejesha kutoka kwa Tupio.";
+"Move to Trash" = "Hamisha hadi kwenye Tupio";
+"OK" = "SAWA";
+"Rename…" = "Badilisha jina...";
+"Copy Path" = "Nakili Njia";
+"Copy Relative Path" = "Nakili Njia ya Jamaa";
+"Reveal in Finder" = "Fichua katika Finder";
+"Open in Terminal" = "Fungua kwenye terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Paneli ya Kushoto";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Faili";
+"Double ⇧ to search everywhere" = "Mara mbili ⇧ kutafuta kila mahali";
+"Type a file name (use / to match the path)" = "Andika jina la faili (tumia / kulinganisha njia)";
+"No recent files" = "Hakuna faili za hivi majuzi";
+"Recent Files" = "Faili za Hivi Karibuni";
+"Matches: %1$ld / Files: %2$ld" = "Matokeo yaliyopatikana: %1$ld / Jumla ya faili: %2$ld";

@@ -1,0 +1,124 @@
+/*
+  Sumi — ht translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Louvri yon katab kòm yon pwojè, oswa yon dosye pou edite.";
+"Open" = "Louvri";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Dosye";
+"Edit" = "Edit tèks";
+"View" = "Ekspozisyon";
+"Navigate" = "Navige";
+"Window" = "Fenèt";
+"About Sumi" = "Konsènan aplikasyon Sumi la";
+"Language" = "Lang";
+"Services" = "Sèvis";
+"Hide Sumi" = "Kache Sumi";
+"Hide Others" = "Kache lòt moun";
+"Show All" = "Montre tout";
+"Quit Sumi" = "Kite Sumi";
+"System Default" = "Sistèm Default";
+"New File…" = "Nouvo dosye...";
+"New Folder…" = "Nouvo Dosye...";
+"New Terminal Tab" = "Nouvo Tab Tèminal";
+"Open…" = "Louvri…";
+"Save" = "Sove";
+"Save All" = "Sove tout";
+"Close Tab" = "Fèmen Tab";
+"Close Window" = "Fèmen Fenèt la";
+"Undo" = "Defèt";
+"Redo" = "Refè";
+"Cut" = "Koupe";
+"Copy" = "Kopi";
+"Paste" = "Kole";
+"Select All" = "Chwazi Tout";
+"Find…" = "Jwenn…";
+"Replace…" = "Ranplase…";
+"Find Next" = "Jwenn Next";
+"Find Previous" = "Jwenn Previous";
+"Use Selection for Find" = "Sèvi ak Seleksyon pou Jwenn";
+"Find" = "Jwenn";
+"Project" = "Pwojè";
+"Terminal" = "Tèminal";
+"Swap Terminal and Project" = "Boukante Tèminal ak Pwojè";
+"Maximize Terminal" = "Maksimize Tèminal";
+"GPU Rendering" = "Rann GPU";
+"Soft-Wrap" = "Otomatikman vlope liy tèks long";
+"Toggle Preview" = "Aktive Preview";
+"Increase Font Size" = "Ogmante Gwosè Font";
+"Decrease Font Size" = "Diminye Gwosè Font";
+"Reset Font Size" = "Reyajiste Gwosè Font";
+"Search Everywhere (Double ⇧)" = "Chèche tout kote (double ⇧)";
+"Select in Project View" = "Chwazi nan View Pwojè";
+"Next Tab" = "Ale nan pwochen tab la";
+"Previous Tab" = "Ale nan tab anvan an";
+"Minimize" = "Minimize fenèt la";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Pote tout devan";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Lokal";
+"Local (%ld)" = "Lokal (%ld)";
+"Hide Terminal" = "Kache Tèminal";
+"Close" = "Fèmen";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Fèmen sesyon tèminal kouri yo?";
+"These processes will be stopped:" = "Pwosesis sa yo pral sispann:";
+"Cancel" = "Anile";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Sove yon kopi...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Editè sèlman";
+"Editor and Preview" = "Editè ak Preview";
+"Preview Only" = "Preview sèlman";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Espas: %ld";
+"Plain Text" = "Tèks Plain";
+"Search Everywhere" = "Chèche tout kote";
+"Double ⇧" = "Peze ⇧ de fwa";
+"Go to File" = "Ale nan File";
+"Open Folder" = "Louvri Dosye";
+"Project View" = "Pwojè View";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fichye a chanje sou disk la. Yo te kenbe modifikasyon ou yo. Sove yon kopi pou konsève tou de vèsyon yo.";
+"The file is a binary file." = "Fichye a se yon dosye binè.";
+"The file's text encoding could not be determined." = "Tèks kodaj dosye a pa t 'kapab detèmine.";
+"The text cannot be saved in %@." = "Tèks la pa ka sove nan %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Nouvo Dosye";
+"New File" = "Nouvo File";
+"Enter a name in “%@”. Use / to create nested folders." = "Antre yon non nan \"%@\". Separe non katab ak karaktè / pou kreye subfolders.";
+"Rename" = "Chanje non";
+"Enter a new name for “%@”." = "Antre yon nouvo non pou \"%@\".";
+"Move “%@” to the Trash?" = "Deplase \"%@\" nan fatra a?";
+"The folder and everything in it will be moved to the Trash." = "Katab la ak tout bagay ki ladan l yo pral deplase nan fatra a.";
+"You can restore it from the Trash." = "Ou ka restore li nan fatra a.";
+"Move to Trash" = "Deplase nan fatra";
+"OK" = "OK";
+"Rename…" = "Chanje non...";
+"Copy Path" = "Kopi Chemen";
+"Copy Relative Path" = "Kopi chemen relatif";
+"Reveal in Finder" = "Devwale nan Finder";
+"Open in Terminal" = "Louvri nan Tèminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panel sou bò gòch la";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Dosye";
+"Double ⇧ to search everywhere" = "Double ⇧ pou fè rechèch toupatou";
+"Type a file name (use / to match the path)" = "Tape yon non fichye (itilize / pou matche ak chemen an)";
+"No recent files" = "Pa gen dosye resan";
+"Recent Files" = "Dosye ki sot pase yo";
+"Matches: %1$ld / Files: %2$ld" = "Rezilta yo jwenn: %1$ld / Total fichye: %2$ld";

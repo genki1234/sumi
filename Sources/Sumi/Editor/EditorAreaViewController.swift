@@ -64,8 +64,8 @@ final class EditorAreaViewController: NSViewController {
         NSLayoutConstraint.activate([
             child.topAnchor.constraint(equalTo: parent.topAnchor),
             child.bottomAnchor.constraint(equalTo: parent.bottomAnchor),
-            child.leadingAnchor.constraint(equalTo: parent.leadingAnchor),
-            child.trailingAnchor.constraint(equalTo: parent.trailingAnchor),
+            child.leftAnchor.constraint(equalTo: parent.leftAnchor),
+            child.rightAnchor.constraint(equalTo: parent.rightAnchor),
         ])
     }
 
@@ -82,6 +82,10 @@ final class EditorAreaViewController: NSViewController {
             editor.onStateChange = { [weak self, weak editor] dirtyChanged in
                 guard let self, let editor, editor === self.currentEditor || dirtyChanged else { return }
                 if dirtyChanged { self.refreshChrome() } else { self.updateStatus() }
+            }
+            editor.onSaveError = { [weak self, weak editor] error in
+                guard let self, let editor else { return }
+                self.presentSaveError(error, editor: editor)
             }
             editor.onOpenFile = { [weak self] url in
                 var isDirectory: ObjCBool = false
@@ -130,17 +134,12 @@ final class EditorAreaViewController: NSViewController {
     func closeTab(at index: Int) {
         guard editors.indices.contains(index) else { return }
         let editor = editors[index]
-        guard editor.document.isDirty else {
-            removeTab(editor)
-            return
-        }
-        confirmSave([editor.document]) { [weak self, weak editor] proceed in
-            if proceed, let editor { self?.removeTab(editor) }
-        }
+        if editor.savePendingChanges() { removeTab(editor) }
     }
 
     private func removeTab(_ editor: EditorViewController) {
         guard let index = editors.firstIndex(where: { $0 === editor }) else { return }
+        editor.cancelAutosave()
         let wasSelected = index == selectedIndex
         editor.view.removeFromSuperview()
         editor.removeFromParent()
@@ -161,49 +160,38 @@ final class EditorAreaViewController: NSViewController {
         }
     }
 
-    /// Asks whether to save dirty documents (window-modal sheet). Calls back with true to continue closing.
-    func confirmSave(_ documents: [TextDocument], completion: @escaping (Bool) -> Void) {
-        guard let window = view.window, !documents.isEmpty else {
-            completion(true)
-            return
-        }
-        let alert = makeSaveAlert(documents)
-        Task { @MainActor in
-            let response = await alert.beginSheetModal(for: window)
-            completion(self.handleSaveResponse(response, documents))
-        }
+    /// Flush every tab before closing; a failed write keeps the window alive.
+    func saveBeforeClosing() -> Bool {
+        for editor in editors where !editor.savePendingChanges() { return false }
+        return true
     }
 
-    /// Same question as an app-modal dialog, used while the app is quitting.
-    func confirmSaveModal(_ documents: [TextDocument]) -> Bool {
-        guard !documents.isEmpty else { return true }
-        return handleSaveResponse(makeSaveAlert(documents).runModal(), documents)
-    }
-
-    private func makeSaveAlert(_ documents: [TextDocument]) -> NSAlert {
+    private func presentSaveError(_ error: Error, editor: EditorViewController) {
         let alert = NSAlert()
-        let lost = L("Your changes will be lost if you don't save them.")
-        if documents.count == 1 {
-            alert.messageText = L("Do you want to save the changes made to “%@”?", documents[0].url.lastPathComponent)
-            alert.informativeText = lost
-        } else {
-            // The file names are listed instead of a count, so no plural forms are needed in translations.
-            alert.messageText = L("Do you want to save the changes made to these files?")
-            alert.informativeText = lost + "\n\n" + documents.map(\.url.lastPathComponent).joined(separator: "\n")
-        }
-        alert.addButton(withTitle: documents.count == 1 ? L("Save") : L("Save All"))
+        alert.alertStyle = .warning
+        alert.messageText = error.localizedDescription
         alert.addButton(withTitle: L("Cancel"))
-        let dontSave = alert.addButton(withTitle: L("Don't Save"))
-        dontSave.keyEquivalent = "d"
-        dontSave.keyEquivalentModifierMask = .command
-        return alert
-    }
-
-    private func handleSaveResponse(_ response: NSApplication.ModalResponse, _ documents: [TextDocument]) -> Bool {
-        switch response {
-        case .alertFirstButtonReturn: save(documents)
-        case .alertThirdButtonReturn: true
-        default: false
+        alert.addButton(withTitle: L("Save a Copy…"))
+        guard let window = view.window else { alert.runModal(); return }
+        alert.beginSheetModal(for: window) { [weak self, weak editor] response in
+            guard response == .alertSecondButtonReturn, let self, let editor else { return }
+            let panel = NSSavePanel()
+            panel.nameFieldStringValue = editor.document.url.lastPathComponent
+            panel.directoryURL = editor.document.url.deletingLastPathComponent()
+            panel.beginSheetModal(for: window) { response in
+                guard response == .OK, let target = panel.url else { return }
+                // A copy must not silently replace the version that triggered the conflict.
+                guard target.resolvingSymlinksInPath().standardizedFileURL != editor.document.url.resolvingSymlinksInPath().standardizedFileURL else {
+                    self.presentSaveError(DocumentError.changedOnDisk, editor: editor)
+                    return
+                }
+                do {
+                    try editor.document.saveCopy(to: target)
+                    editor.savePendingChanges()
+                    editor.languageChanged()
+                    self.refreshChrome()
+                } catch { self.presentSaveError(error, editor: editor) }
+            }
         }
     }
 
@@ -222,12 +210,8 @@ final class EditorAreaViewController: NSViewController {
     func save(_ documents: [TextDocument]) -> Bool {
         defer { refreshChrome() }
         for document in documents {
-            do {
-                try document.save()
-            } catch {
-                presentAlert(error)
-                return false
-            }
+            guard let editor = editors.first(where: { $0.document === document }),
+                  editor.savePendingChanges() else { return false }
         }
         return true
     }
@@ -307,6 +291,13 @@ final class EditorAreaViewController: NSViewController {
         tabBar.update(tabs: editors.map { TabInfo(url: $0.document.url, isDirty: $0.document.isDirty) }, selected: selectedIndex)
         updateStatus()
         onCurrentEditorChange?()
+    }
+
+    func applyLocalization() {
+        guard isViewLoaded else { return }
+        emptyView.applyLocalization()
+        editors.forEach { $0.applyLocalization() }
+        refreshChrome()
     }
 
     private func updateStatus() {

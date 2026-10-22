@@ -1,0 +1,124 @@
+/*
+  Sumi — ny translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Tsegulani chikwatu ngati polojekiti, kapena fayilo kuti musinthe.";
+"Open" = "Tsegulani";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fayilo";
+"Edit" = "Sinthani";
+"View" = "Onani";
+"Navigate" = "Yendetsani";
+"Window" = "Zenera";
+"About Sumi" = "Za ntchito ya Sumi";
+"Language" = "Chiyankhulo";
+"Services" = "Ntchito";
+"Hide Sumi" = "Bisani Sumi";
+"Hide Others" = "Bisani Ena";
+"Show All" = "Onetsani Zonse";
+"Quit Sumi" = "Mtengo wa Sumi";
+"System Default" = "Zosasintha Zadongosolo";
+"New File…" = "Fayilo Yatsopano…";
+"New Folder…" = "Chikwatu Chatsopano…";
+"New Terminal Tab" = "Pangani tabu ya terminal";
+"Open…" = "Tsegulani...";
+"Save" = "Sungani";
+"Save All" = "Sungani Zonse";
+"Close Tab" = "Tsekani Tabu";
+"Close Window" = "Tsekani Zenera";
+"Undo" = "Bwezerani";
+"Redo" = "Chitaninso";
+"Cut" = "Dulani";
+"Copy" = "Koperani";
+"Paste" = "Matani";
+"Select All" = "Sankhani Zonse";
+"Find…" = "Pezani…";
+"Replace…" = "M'malo...";
+"Find Next" = "Pezani Kenako";
+"Find Previous" = "Pezani Zakale";
+"Use Selection for Find" = "Gwiritsani Ntchito Kusankha Kupeza";
+"Find" = "Pezani";
+"Project" = "Ntchito";
+"Terminal" = "Pokwerera";
+"Swap Terminal and Project" = "Sinthani Terminal ndi Project";
+"Maximize Terminal" = "Onjezani Terminal";
+"GPU Rendering" = "GPU Kupereka";
+"Soft-Wrap" = "Mangirirani mizere yayitali";
+"Toggle Preview" = "Sinthani Kuwoneratu";
+"Increase Font Size" = "Wonjezerani Kukula Kwa Font";
+"Decrease Font Size" = "Chepetsani Kukula kwa Font";
+"Reset Font Size" = "Bwezerani Kukula Kwa Font";
+"Search Everywhere (Double ⇧)" = "Sakani paliponse (Kawiri ⇧)";
+"Select in Project View" = "Sankhani mu Project View";
+"Next Tab" = "Next Tabu";
+"Previous Tab" = "Tabu Yam'mbuyo";
+"Minimize" = "Chepetsani";
+"Zoom" = "Makulitsa";
+"Bring All to Front" = "Bweretsani Zonse Patsogolo";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Pakompyuta iyi";
+"Local (%ld)" = "Zam'deralo (%ld)";
+"Hide Terminal" = "Bisani Pokwerera";
+"Close" = "Tsekani";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Tsekani magawo othamanga?";
+"These processes will be stopped:" = "Njira izi zidzayimitsidwa:";
+"Cancel" = "Letsani";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Sungani Copy...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Onetsani zolemba zokha";
+"Editor and Preview" = "Editor ndi Kuwoneratu";
+"Preview Only" = "Kuwoneratu Pokha";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Malo: %ld";
+"Plain Text" = "Mawu Osavuta";
+"Search Everywhere" = "Sakani paliponse";
+"Double ⇧" = "Pawiri ⇧";
+"Go to File" = "Pitani ku Fayilo";
+"Open Folder" = "Tsegulani Foda";
+"Project View" = "Gulu la polojekiti";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fayilo yasintha pa disk. Zosintha zanu zasungidwa. Sungani kopi kuti musunge mitundu yonse iwiri.";
+"The file is a binary file." = "Fayiloyo ndi fayilo ya binary.";
+"The file's text encoding could not be determined." = "Kusindikiza kwa fayilo sikunadziwike.";
+"The text cannot be saved in %@." = "Mawuwo sangathe kusungidwa mu %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Foda Yatsopano";
+"New File" = "Fayilo Yatsopano";
+"Enter a name in “%@”. Use / to create nested folders." = "Lowetsani dzina mu \"%@\". Gwirani mayina afoda ndi / zilembo kuti mupange mafoda ang'onoang'ono.";
+"Rename" = "Sinthani dzina";
+"Enter a new name for “%@”." = "Lowetsani dzina latsopano la \"%@\".";
+"Move “%@” to the Trash?" = "Chotsani “%@” ku Zinyalala?";
+"The folder and everything in it will be moved to the Trash." = "Foda ndi zonse zomwe zilimo zidzasunthidwa ku Zinyalala.";
+"You can restore it from the Trash." = "Mukhoza kubwezeretsa kuchokera ku Zinyalala.";
+"Move to Trash" = "Pitani ku Zinyalala";
+"OK" = "Chabwino";
+"Rename…" = "Tchulaninso…";
+"Copy Path" = "Copy Njira";
+"Copy Relative Path" = "Koperani Njira Yachibale";
+"Reveal in Finder" = "Zithunzi za Finder";
+"Open in Terminal" = "Tsegulani mu Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Gulu lakumanzere";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Mafayilo";
+"Double ⇧ to search everywhere" = "Pawiri ⇧ kuti mufufuze paliponse";
+"Type a file name (use / to match the path)" = "Lembani dzina la fayilo (gwiritsani ntchito / kuti mufanane ndi njirayo)";
+"No recent files" = "Palibe mafayilo aposachedwa";
+"Recent Files" = "Mafayilo aposachedwa";
+"Matches: %1$ld / Files: %2$ld" = "Zotsatira zomwe zapezeka: %1$ld / Mafayilo onse: %2$ld";

@@ -49,13 +49,26 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
     }
 
     func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
-        for project in projects where !project.confirmCloseForTermination() {
+        guard !isTerminating, !projects.contains(where: { $0.hasPendingCloseConfirmation || $0.window?.attachedSheet != nil }) else {
             return .terminateCancel
         }
+        for project in projects where !project.saveBeforeClosing() { return .terminateCancel }
+        let jobs = projects.flatMap { project in project.console.runningJobs.map { project.rootURL.lastPathComponent + " — " + $0 } }
+        if let alert = TerminalCloseConfirmation.alert(jobs: jobs), alert.runModal() != .alertSecondButtonReturn {
+            return .terminateCancel
+        }
+        for project in projects where !project.saveBeforeClosing() { return .terminateCancel }
         isTerminating = true
         rememberOpenProjects()
-        projects.forEach { $0.saveSession() }
-        return .terminateNow
+        let closingProjects = projects
+        closingProjects.forEach { $0.saveSession() }
+        Task {
+            // Start teardown in every project before waiting for its grace period.
+            closingProjects.forEach { $0.console.terminateAll() }
+            for project in closingProjects { await project.console.terminateAllAndWait() }
+            sender.reply(toApplicationShouldTerminate: true)
+        }
+        return .terminateLater
     }
 
     // MARK: Opening
@@ -121,6 +134,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
 
     // MARK: View settings
 
+    @objc func selectLanguage(_ sender: NSMenuItem) {
+        guard let code = sender.representedObject as? String else { return }
+        Preferences.interfaceLanguage = code.isEmpty ? nil : code
+        NSApp.mainMenu = MainMenu.build()
+        NotificationCenter.default.post(name: .sumiLanguageDidChange, object: nil)
+    }
+
     @objc func increaseFontSize(_ sender: Any?) { setFontSize(Preferences.fontSize + 1) }
     @objc func decreaseFontSize(_ sender: Any?) { setFontSize(Preferences.fontSize - 1) }
     @objc func resetFontSize(_ sender: Any?) { setFontSize(Preferences.defaultFontSize) }
@@ -130,12 +150,20 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation {
         projects.forEach { $0.applyFontSize() }
     }
 
+    @objc func toggleTerminalGPU(_ sender: Any?) {
+        Preferences.terminalGPU.toggle()
+        projects.forEach { $0.console.applyGPUSetting() }
+    }
+
     @objc func toggleSoftWrap(_ sender: Any?) {
         Preferences.softWrap.toggle()
         projects.forEach { $0.editorArea.applyWrap() }
     }
 
     func validateMenuItem(_ menuItem: NSMenuItem) -> Bool {
+        if menuItem.action == #selector(toggleTerminalGPU(_:)) {
+            menuItem.state = Preferences.terminalGPU ? .on : .off
+        }
         if menuItem.action == #selector(toggleSoftWrap(_:)) {
             menuItem.state = Preferences.softWrap ? .on : .off
         }

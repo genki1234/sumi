@@ -1,0 +1,124 @@
+/*
+  Sumi — sq translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Hapni një dosje si projekt ose një skedar për të modifikuar.";
+"Open" = "Hapur";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Skedari";
+"Edit" = "Redakto";
+"View" = "Shiko";
+"Navigate" = "Navigoni";
+"Window" = "Dritare";
+"About Sumi" = "Rreth aplikacionit Sumi";
+"Language" = "Gjuha";
+"Services" = "Shërbimet";
+"Hide Sumi" = "Fshih Sumi";
+"Hide Others" = "Fshih të tjerët";
+"Show All" = "Shfaq të gjitha";
+"Quit Sumi" = "Hiq Sumi";
+"System Default" = "Parazgjedhja e sistemit";
+"New File…" = "Skedar i ri…";
+"New Folder…" = "Dosja e re…";
+"New Terminal Tab" = "Skeda e re e terminalit";
+"Open…" = "Hap…";
+"Save" = "Ruaj";
+"Save All" = "Ruaj të gjitha";
+"Close Tab" = "Mbyll skedën";
+"Close Window" = "Mbyll dritaren";
+"Undo" = "Zhbër";
+"Redo" = "Ribëje";
+"Cut" = "Prerë";
+"Copy" = "Kopjo";
+"Paste" = "Ngjit tekstin";
+"Select All" = "Zgjidhni Të gjitha";
+"Find…" = "Gjeni…";
+"Replace…" = "Zëvendëso…";
+"Find Next" = "Gjej Tjetra";
+"Find Previous" = "Gjeni të mëparshmen";
+"Use Selection for Find" = "Përdorni Përzgjedhjen për Gjeni";
+"Find" = "Gjeni";
+"Project" = "Projekti";
+"Terminal" = "Terminali";
+"Swap Terminal and Project" = "Ndërroni Terminalin dhe Projektin";
+"Maximize Terminal" = "Maksimizimi i terminalit";
+"GPU Rendering" = "Rendering GPU";
+"Soft-Wrap" = "Përfundoni automatikisht linjat e gjata të tekstit";
+"Toggle Preview" = "Aktivizo Parashikimin";
+"Increase Font Size" = "Rritni madhësinë e shkronjave";
+"Decrease Font Size" = "Zvogëloni madhësinë e shkronjave";
+"Reset Font Size" = "Rivendos madhësinë e shkronjave";
+"Search Everywhere (Double ⇧)" = "Kërko kudo (Dyfish ⇧)";
+"Select in Project View" = "Zgjidhni në pamjen e projektit";
+"Next Tab" = "Skeda tjetër";
+"Previous Tab" = "Skeda e mëparshme";
+"Minimize" = "Minimizoje";
+"Zoom" = "Zmadhoni";
+"Bring All to Front" = "Sillni të gjithë përpara";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Lokale";
+"Local (%ld)" = "Lokale (%ld)";
+"Hide Terminal" = "Fshih terminalin";
+"Close" = "Mbylle";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Të mbyllen sesionet e terminalit të ekzekutimit?";
+"These processes will be stopped:" = "Këto procese do të ndalen:";
+"Cancel" = "Anulo";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Ruaj një kopje…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Vetëm redaktor";
+"Editor and Preview" = "Redaktori dhe Pamja paraprake";
+"Preview Only" = "Vetëm shikimi paraprak";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Hapësirat: %ld";
+"Plain Text" = "Tekst i thjeshtë";
+"Search Everywhere" = "Kërko kudo";
+"Double ⇧" = "Dyfishtë ⇧";
+"Go to File" = "Shkoni te Skedari";
+"Open Folder" = "Hap Dosjen";
+"Project View" = "Pamja e projektit";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Skedari ndryshoi në disk. Ndryshimet tuaja janë ruajtur. Ruani një kopje për të ruajtur të dy versionet.";
+"The file is a binary file." = "Skedari është një skedar binar.";
+"The file's text encoding could not be determined." = "Kodimi i tekstit të skedarit nuk mund të përcaktohet.";
+"The text cannot be saved in %@." = "Teksti nuk mund të ruhet në %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Dosje e re";
+"New File" = "Skedar i ri";
+"Enter a name in “%@”. Use / to create nested folders." = "Futni një emër në \"%@\". Ndani emrat e dosjeve me karakterin / për të krijuar nëndosje.";
+"Rename" = "Riemërto";
+"Enter a new name for “%@”." = "Futni një emër të ri për \"%@\".";
+"Move “%@” to the Trash?" = "Të zhvendoset \"%@\" te koshi?";
+"The folder and everything in it will be moved to the Trash." = "Dosja dhe gjithçka në të do të zhvendosen në Kosh.";
+"You can restore it from the Trash." = "Mund ta rivendosësh nga koshi.";
+"Move to Trash" = "Zhvendosni te koshi";
+"OK" = "OK";
+"Rename…" = "Riemërto…";
+"Copy Path" = "Kopjo shtegun";
+"Copy Relative Path" = "Kopjo Rrugën Relative";
+"Reveal in Finder" = "Zbulo në Finder";
+"Open in Terminal" = "Hapni në Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Paneli i majtë";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Skedarët";
+"Double ⇧ to search everywhere" = "Dyfisho ⇧ për të kërkuar kudo";
+"Type a file name (use / to match the path)" = "Shkruani një emër skedari (përdorni / për të përputhur shtegun)";
+"No recent files" = "Nuk ka skedarë të fundit";
+"Recent Files" = "Skedarët e fundit";
+"Matches: %1$ld / Files: %2$ld" = "Rezultatet e gjetura: %1$ld / Totali i skedarëve: %2$ld";

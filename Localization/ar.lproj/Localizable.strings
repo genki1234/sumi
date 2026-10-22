@@ -16,11 +16,13 @@
 "Navigate" = "تنقّل";
 "Window" = "نافذة";
 "About Sumi" = "حول Sumi";
+"Language" = "اللغة";
 "Services" = "الخدمات";
 "Hide Sumi" = "إخفاء Sumi";
 "Hide Others" = "إخفاء الآخرين";
 "Show All" = "إظهار الكل";
 "Quit Sumi" = "إنهاء Sumi";
+"System Default" = "النظام الافتراضي";
 "New File…" = "ملف جديد…";
 "New Folder…" = "مجلد جديد…";
 "New Terminal Tab" = "تبويب طرفية جديد";
@@ -45,6 +47,7 @@
 "Terminal" = "الطرفية";
 "Swap Terminal and Project" = "تبديل الطرفية والمشروع";
 "Maximize Terminal" = "تكبير الطرفية";
+"GPU Rendering" = "عرض GPU";
 "Soft-Wrap" = "التفاف تلقائي للسطور";
 "Toggle Preview" = "تبديل المعاينة";
 "Increase Font Size" = "تكبير حجم الخط";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "إحضار الكل إلى الأمام";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "إخفاء الطرفية";
 "Local" = "محلي";
 "Local (%ld)" = "محلي (%ld)";
+"Hide Terminal" = "إخفاء الطرفية";
+"Close" = "إغلاق";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "هل تريد إغلاق جلسات العمل الطرفية قيد التشغيل؟";
+"These processes will be stopped:" = "سيتم إيقاف هذه العمليات:";
+"Cancel" = "إلغاء";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "ستفقد تغييراتك إذا لم تحفظها.";
-"Do you want to save the changes made to “%@”?" = "هل تريد حفظ التغييرات التي أجريتها على \"%@\"؟";
-"Do you want to save the changes made to these files?" = "هل تريد حفظ التغييرات التي أجريتها على هذه الملفات؟";
-"Cancel" = "إلغاء";
-"Don't Save" = "عدم الحفظ";
+"Save a Copy…" = "حفظ نسخة...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "المحرر فقط";
@@ -85,6 +90,7 @@
 "Project View" = "عرض المشروع";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "تم تغيير الملف على القرص. تم الاحتفاظ بتعديلاتك. احفظ نسخة للحفاظ على كلا الإصدارين.";
 "The file is a binary file." = "الملف ملف ثنائي.";
 "The file's text encoding could not be determined." = "تعذر تحديد ترميز نص الملف.";
 "The text cannot be saved in %@." = "لا يمكن حفظ النص بترميز %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "لا توجد ملفات حديثة";
 "Recent Files" = "الملفات الحديثة";
 "Matches: %1$ld / Files: %2$ld" = "التطابقات: %1$ld / الملفات: %2$ld";
-"Close" = "إغلاق";

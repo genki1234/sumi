@@ -1,0 +1,124 @@
+/*
+  Sumi — az translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Layihə kimi qovluğu və ya redaktə etmək üçün faylı açın.";
+"Open" = "Açıq";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fayl";
+"Edit" = "Redaktə et";
+"View" = "Baxın";
+"Navigate" = "Naviqasiya edin";
+"Window" = "Pəncərə";
+"About Sumi" = "Sumi tətbiqi haqqında";
+"Language" = "Dil";
+"Services" = "Xidmətlər";
+"Hide Sumi" = "Sumi gizlət";
+"Hide Others" = "Başqalarını gizlət";
+"Show All" = "Hamısını göstər";
+"Quit Sumi" = "Sumi-dən çıxın";
+"System Default" = "Sistem Defolt";
+"New File…" = "Yeni Fayl...";
+"New Folder…" = "Yeni Qovluq...";
+"New Terminal Tab" = "Yeni Terminal Tab";
+"Open…" = "Açıq...";
+"Save" = "Saxla";
+"Save All" = "Hamısını Saxla";
+"Close Tab" = "Nişanı bağlayın";
+"Close Window" = "Pəncərəni Bağlayın";
+"Undo" = "Geri al";
+"Redo" = "Yenidən edin";
+"Cut" = "kəsmək";
+"Copy" = "Kopyalayın";
+"Paste" = "Yapışdırın";
+"Select All" = "Hamısını seçin";
+"Find…" = "Tap...";
+"Replace…" = "Əvəz et...";
+"Find Next" = "Sonrakı tap";
+"Find Previous" = "Əvvəlkini tapın";
+"Use Selection for Find" = "Tapmaq üçün Seçimdən istifadə edin";
+"Find" = "Tapın";
+"Project" = "Layihə";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Terminal və Layihəni dəyişdirin";
+"Maximize Terminal" = "Terminalı maksimuma çatdırın";
+"GPU Rendering" = "GPU göstərilməsi";
+"Soft-Wrap" = "Uzun mətn sətirlərini avtomatik sarın";
+"Toggle Preview" = "Önizləməni dəyişin";
+"Increase Font Size" = "Şrift ölçüsünü artırın";
+"Decrease Font Size" = "Şrift ölçüsünü azaldın";
+"Reset Font Size" = "Şrift Ölçüsünü Sıfırlayın";
+"Search Everywhere (Double ⇧)" = "Hər yerdə axtarın (İkiqat ⇧)";
+"Select in Project View" = "Layihə Görünüşündə seçin";
+"Next Tab" = "Növbəti Tab";
+"Previous Tab" = "Əvvəlki Tab";
+"Minimize" = "minimuma endir";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Hamısını Önə Çətin";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "yerli";
+"Local (%ld)" = "Yerli (%ld)";
+"Hide Terminal" = "Terminalı gizlədin";
+"Close" = "Bağlayın";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Çalışan terminal seansları bağlansın?";
+"These processes will be stopped:" = "Bu proseslər dayandırılacaq:";
+"Cancel" = "Ləğv et";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Kopyasını Saxla...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Yalnız redaktor";
+"Editor and Preview" = "Redaktor və Ön Baxış";
+"Preview Only" = "Yalnız Ön Baxış";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Boşluqlar: %ld";
+"Plain Text" = "Düz Mətn";
+"Search Everywhere" = "Hər yerdə axtarın";
+"Double ⇧" = "İkiqat ⇧";
+"Go to File" = "Fayla keçin";
+"Open Folder" = "Qovluğu açın";
+"Project View" = "Layihə Görünüşü";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fayl diskdə dəyişdi. Redaktələriniz saxlanılıb. Hər iki versiyanı qorumaq üçün bir nüsxəni saxlayın.";
+"The file is a binary file." = "Fayl ikili fayldır.";
+"The file's text encoding could not be determined." = "Faylın mətn kodlamasını müəyyən etmək mümkün olmadı.";
+"The text cannot be saved in %@." = "Mətni %@-də saxlamaq mümkün deyil.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Yeni Qovluq";
+"New File" = "Yeni Fayl";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” ə bir ad daxil edin. Alt qovluqlar yaratmaq üçün qovluq adlarını / simvolu ilə ayırın.";
+"Rename" = "Adını dəyişdirin";
+"Enter a new name for “%@”." = "“%@” üçün yeni ad daxil edin.";
+"Move “%@” to the Trash?" = "“%@” Zibil qutusuna daşınsın?";
+"The folder and everything in it will be moved to the Trash." = "Qovluq və içindəki hər şey Zibil qutusuna köçürüləcək.";
+"You can restore it from the Trash." = "Siz onu Zibil qutusundan bərpa edə bilərsiniz.";
+"Move to Trash" = "Zibil qutusuna köçürün";
+"OK" = "OK";
+"Rename…" = "Adını dəyişdir...";
+"Copy Path" = "Yolu Kopyala";
+"Copy Relative Path" = "Nisbi yolu kopyalayın";
+"Reveal in Finder" = "Finder-də aşkar edin";
+"Open in Terminal" = "Terminalda açın";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Sol Panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Fayllar";
+"Double ⇧ to search everywhere" = "Hər yerdə axtarmaq üçün ikiqat ⇧";
+"Type a file name (use / to match the path)" = "Fayl adını yazın (yola uyğunlaşmaq üçün / istifadə edin)";
+"No recent files" = "Ən son fayllar yoxdur";
+"Recent Files" = "Son Fayllar";
+"Matches: %1$ld / Files: %2$ld" = "Tapılan nəticələr: %1$ld / Ümumi fayl: %2$ld";

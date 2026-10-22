@@ -1,0 +1,124 @@
+/*
+  Sumi — ku translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Peldankek wekî projeyek, an pelek ji bo guherandinê vekin.";
+"Open" = "Vekirin";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Pelên";
+"Edit" = "Biguherîne";
+"View" = "Dîtin";
+"Navigate" = "Navîgasyon";
+"Window" = "Pencereya serîlêdanê";
+"About Sumi" = "Di derbarê serîlêdana Sumi de";
+"Language" = "Ziman";
+"Services" = "xizmetên System";
+"Hide Sumi" = "Sumi veşêre";
+"Hide Others" = "Yên din veşêrin";
+"Show All" = "Hemî nîşan bide";
+"Quit Sumi" = "Ji Sumi derkeve";
+"System Default" = "Zimanê pergalê bikar bînin";
+"New File…" = "Dosyaya Nû…";
+"New Folder…" = "Peldanka Nû…";
+"New Terminal Tab" = "Taba Termînala Nû";
+"Open…" = "Vekirin…";
+"Save" = "Pelê tomar bike";
+"Save All" = "Hemî pelan hilînin";
+"Close Tab" = "Tabê bigire";
+"Close Window" = "Pencere bigire";
+"Undo" = "Guhertina paşîn betal bike";
+"Redo" = "Çalakiya dawîn dubare bikin";
+"Cut" = "Metnê birrîn";
+"Copy" = "Kopî kirin";
+"Paste" = "Nivîsar bixin";
+"Select All" = "Hemî Hilbijêre";
+"Find…" = "Bibînin…";
+"Replace…" = "Biguherîne…";
+"Find Next" = "Li maça paşîn bigerin";
+"Find Previous" = "Li maça berê bigerin";
+"Use Selection for Find" = "Hilbijartinê ji bo Findê bikar bînin";
+"Find" = "Li nivîsê bigerin";
+"Project" = "Proje";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal û Proje";
+"Maximize Terminal" = "Termînalê herî zêde bikin";
+"GPU Rendering" = "Rendering GPU";
+"Soft-Wrap" = "Xweserî rêzikên nivîsê yên dirêj bipêçin";
+"Toggle Preview" = "Pêşdîtin biguherîne";
+"Increase Font Size" = "Mezinahiya Fontê Zêde Bike";
+"Decrease Font Size" = "Mezinahiya Fontê Kêm Bikin";
+"Reset Font Size" = "Mezinahiya Fontê Vegerîne";
+"Search Everywhere (Double ⇧)" = "Li Her derê Bigerin (Double ⇧)";
+"Select in Project View" = "Di Dîtina Projeyê de hilbijêrin";
+"Next Tab" = "Tab Next";
+"Previous Tab" = "Tabloya Berê";
+"Minimize" = "Kêmkirin";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Hemûyan bînin pêş";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Herêmî";
+"Local (%ld)" = "Herêmî (%ld)";
+"Hide Terminal" = "Termînalê veşêre";
+"Close" = "Close";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Danişînên termînalê têne girtin?";
+"These processes will be stopped:" = "Ev pêvajo dê bêne rawestandin:";
+"Cancel" = "Betal bike";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Kopiyek tomar bike…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Edîtor Tenê";
+"Editor and Preview" = "Edîtor û Pêşdîtin";
+"Preview Only" = "Pêşdîtin Tenê";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Cih: %ld";
+"Plain Text" = "Nivîsara Sade";
+"Search Everywhere" = "Li her derê bigerin";
+"Double ⇧" = "Ducarî ⇧";
+"Go to File" = "Biçe pelê";
+"Open Folder" = "Peldanka veke";
+"Project View" = "Dîtina Projeyê";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Pelê li ser dîskê guherî. Guherandinên we hatine parastin. Ji bo parastina herdu guhertoyan kopiyek hilînin.";
+"The file is a binary file." = "Dosya pelek binary e.";
+"The file's text encoding could not be determined." = "Şîfrekirina nivîsê ya pelê nehat diyarkirin.";
+"The text cannot be saved in %@." = "Nivîsar di %@ de nayê tomar kirin.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Peldanka Nû";
+"New File" = "Pela Nû";
+"Enter a name in “%@”. Use / to create nested folders." = "Navekî \"%@\" binivîse. Navên peldankan bi karaktera / ji hev veqetînin da ku binpeldankan biafirînin.";
+"Rename" = "Navê biguherînin";
+"Enter a new name for “%@”." = "Navekî nû ji bo \"%@\" binivîse.";
+"Move “%@” to the Trash?" = "\"%@\" biçînin Çopê?";
+"The folder and everything in it will be moved to the Trash." = "Peldank û her tiştê tê de dê were guheztin Çopê.";
+"You can restore it from the Trash." = "Hûn dikarin wê ji Çopê vegerînin.";
+"Move to Trash" = "Biçe Çopê";
+"OK" = "OK";
+"Rename…" = "Biguherîne…";
+"Copy Path" = "Rêça kopî bikin";
+"Copy Relative Path" = "Riya Relatîf Kopî bikin";
+"Reveal in Finder" = "Di Finder de eşkere bike";
+"Open in Terminal" = "Li Termînalê vekin";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panela Çep";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Pelên";
+"Double ⇧ to search everywhere" = "Ducarî ⇧ ji bo lêgerînê li her derê";
+"Type a file name (use / to match the path)" = "Navekî pelê binivîsin (bikar bînin / ji bo ku rê li hev bikin)";
+"No recent files" = "Pelên dawî tune";
+"Recent Files" = "Pelên Dawî";
+"Matches: %1$ld / Files: %2$ld" = "Encam hatin dîtin: %1$ld / Bi tevahî pel: %2$ld";

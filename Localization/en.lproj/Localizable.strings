@@ -16,11 +16,13 @@
 "Navigate" = "Navigate";
 "Window" = "Window";
 "About Sumi" = "About Sumi";
+"Language" = "Language";
 "Services" = "Services";
 "Hide Sumi" = "Hide Sumi";
 "Hide Others" = "Hide Others";
 "Show All" = "Show All";
 "Quit Sumi" = "Quit Sumi";
+"System Default" = "System Default";
 "New File…" = "New File…";
 "New Folder…" = "New Folder…";
 "New Terminal Tab" = "New Terminal Tab";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Swap Terminal and Project";
 "Maximize Terminal" = "Maximize Terminal";
+"GPU Rendering" = "GPU Rendering";
 "Soft-Wrap" = "Soft-Wrap";
 "Toggle Preview" = "Toggle Preview";
 "Increase Font Size" = "Increase Font Size";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Bring All to Front";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Hide Terminal";
 "Local" = "Local";
 "Local (%ld)" = "Local (%ld)";
+"Hide Terminal" = "Hide Terminal";
+"Close" = "Close";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Close running terminal sessions?";
+"These processes will be stopped:" = "These processes will be stopped:";
+"Cancel" = "Cancel";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Your changes will be lost if you don't save them.";
-"Do you want to save the changes made to “%@”?" = "Do you want to save the changes made to “%@”?";
-"Do you want to save the changes made to these files?" = "Do you want to save the changes made to these files?";
-"Cancel" = "Cancel";
-"Don't Save" = "Don't Save";
+"Save a Copy…" = "Save a Copy…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Editor Only";
@@ -85,6 +90,7 @@
 "Project View" = "Project View";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "The file changed on disk. Your edits have been kept. Save a copy to preserve both versions.";
 "The file is a binary file." = "The file is a binary file.";
 "The file's text encoding could not be determined." = "The file's text encoding could not be determined.";
 "The text cannot be saved in %@." = "The text cannot be saved in %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "No recent files";
 "Recent Files" = "Recent Files";
 "Matches: %1$ld / Files: %2$ld" = "Matches: %1$ld / Files: %2$ld";
-"Close" = "Close";

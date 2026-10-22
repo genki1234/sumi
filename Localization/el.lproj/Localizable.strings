@@ -16,11 +16,13 @@
 "Navigate" = "Πλοήγηση";
 "Window" = "Παράθυρο";
 "About Sumi" = "Σχετικά με το Sumi";
+"Language" = "Γλώσσα";
 "Services" = "Υπηρεσίες";
 "Hide Sumi" = "Απόκρυψη του Sumi";
 "Hide Others" = "Απόκρυψη άλλων";
 "Show All" = "Εμφάνιση όλων";
 "Quit Sumi" = "Έξοδος από το Sumi";
+"System Default" = "Προεπιλογή συστήματος";
 "New File…" = "Νέο αρχείο…";
 "New Folder…" = "Νέος φάκελος…";
 "New Terminal Tab" = "Νέα καρτέλα τερματικού";
@@ -45,6 +47,7 @@
 "Terminal" = "Τερματικό";
 "Swap Terminal and Project" = "Εναλλαγή τερματικού και έργου";
 "Maximize Terminal" = "Μεγιστοποίηση τερματικού";
+"GPU Rendering" = "Απόδοση GPU";
 "Soft-Wrap" = "Μαλακή αναδίπλωση";
 "Toggle Preview" = "Εναλλαγή προεπισκόπησης";
 "Increase Font Size" = "Αύξηση μεγέθους γραμματοσειράς";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Μεταφορά όλων στο προσκήνιο";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Απόκρυψη τερματικού";
 "Local" = "Τοπικό";
 "Local (%ld)" = "Τοπικό (%ld)";
+"Hide Terminal" = "Απόκρυψη τερματικού";
+"Close" = "Κλείσιμο";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Κλείσιμο των συνεδριών τερματικού που εκτελούνται;";
+"These processes will be stopped:" = "Αυτές οι διαδικασίες θα σταματήσουν:";
+"Cancel" = "Ακύρωση";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Οι αλλαγές σας θα χαθούν αν δεν τις αποθηκεύσετε.";
-"Do you want to save the changes made to “%@”?" = "Θέλετε να αποθηκεύσετε τις αλλαγές που κάνατε στο «%@»;";
-"Do you want to save the changes made to these files?" = "Θέλετε να αποθηκεύσετε τις αλλαγές που κάνατε σε αυτά τα αρχεία;";
-"Cancel" = "Ακύρωση";
-"Don't Save" = "Μη αποθήκευση";
+"Save a Copy…" = "Αποθήκευση αντιγράφου…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Μόνο επεξεργαστής";
@@ -85,6 +90,7 @@
 "Project View" = "Προβολή έργου";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Το αρχείο άλλαξε στο δίσκο. Οι τροποποιήσεις σας διατηρήθηκαν. Αποθηκεύστε ένα αντίγραφο για να διατηρήσετε και τις δύο εκδόσεις.";
 "The file is a binary file." = "Το αρχείο είναι δυαδικό.";
 "The file's text encoding could not be determined." = "Δεν ήταν δυνατός ο προσδιορισμός της κωδικοποίησης κειμένου του αρχείου.";
 "The text cannot be saved in %@." = "Το κείμενο δεν μπορεί να αποθηκευτεί σε κωδικοποίηση %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Κανένα πρόσφατο αρχείο";
 "Recent Files" = "Πρόσφατα αρχεία";
 "Matches: %1$ld / Files: %2$ld" = "Αντιστοιχίες: %1$ld / Αρχεία: %2$ld";
-"Close" = "Κλείσιμο";

@@ -1,0 +1,124 @@
+/*
+  Sumi — mn translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Фолдерыг төсөл эсвэл засварлах файл болгон нээнэ үү.";
+"Open" = "Нээлттэй";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Файл";
+"Edit" = "Засварлах";
+"View" = "Харах";
+"Navigate" = "Навигац";
+"Window" = "Цонх";
+"About Sumi" = "Sumi програмын тухай";
+"Language" = "Хэл";
+"Services" = "Үйлчилгээ";
+"Hide Sumi" = "Sumi нуух";
+"Hide Others" = "Бусдыг нуух";
+"Show All" = "Бүгдийг харуулах";
+"Quit Sumi" = "Sumi дугаараас гарна уу";
+"System Default" = "Системийн өгөгдмөл";
+"New File…" = "Шинэ файл…";
+"New Folder…" = "Шинэ хавтас…";
+"New Terminal Tab" = "Шинэ терминалын таб";
+"Open…" = "Нээлттэй…";
+"Save" = "Хадгалах";
+"Save All" = "Бүгдийг хадгалах";
+"Close Tab" = "Табыг хаах";
+"Close Window" = "Цонхыг хаах";
+"Undo" = "Буцаах";
+"Redo" = "Дахин хий";
+"Cut" = "Таслах";
+"Copy" = "Хуулах";
+"Paste" = "Буулгах";
+"Select All" = "Бүгдийг сонгоно уу";
+"Find…" = "Хай...";
+"Replace…" = "Солих...";
+"Find Next" = "Дараахыг олох";
+"Find Previous" = "Өмнөхийг олох";
+"Use Selection for Find" = "Хайлтын сонголтыг ашиглана уу";
+"Find" = "Хай";
+"Project" = "Төсөл";
+"Terminal" = "Терминал";
+"Swap Terminal and Project" = "Терминал ба төслийг солих";
+"Maximize Terminal" = "Терминалыг нэмэгдүүлэх";
+"GPU Rendering" = "GPU дүрслэл";
+"Soft-Wrap" = "Урт текст мөрүүдийг автоматаар боох";
+"Toggle Preview" = "Урьдчилан харахыг асаах/унтраах";
+"Increase Font Size" = "Фонтын хэмжээг нэмэгдүүлэх";
+"Decrease Font Size" = "Фонтын хэмжээг багасгах";
+"Reset Font Size" = "Фонтын хэмжээг дахин тохируулах";
+"Search Everywhere (Double ⇧)" = "Хаа сайгүй хайх (Давхар ⇧)";
+"Select in Project View" = "Төслийн харагдацаас сонгоно уу";
+"Next Tab" = "Дараагийн таб";
+"Previous Tab" = "Өмнөх таб";
+"Minimize" = "Багасгах";
+"Zoom" = "Томруулах";
+"Bring All to Front" = "Бүгдийг урд нь авчир";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Орон нутгийн";
+"Local (%ld)" = "Орон нутгийн (%ld)";
+"Hide Terminal" = "Терминалыг нуух";
+"Close" = "Хаах";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Ажиллаж байгаа терминал сешнүүдийг хаах уу?";
+"These processes will be stopped:" = "Эдгээр процессууд зогсох болно:";
+"Cancel" = "Цуцлах";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Хуулбарыг хадгалах...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Зөвхөн редактор";
+"Editor and Preview" = "Засварлагч ба урьдчилан харах";
+"Preview Only" = "Зөвхөн урьдчилан үзэх";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Зай: %ld";
+"Plain Text" = "Энгийн текст";
+"Search Everywhere" = "Хаа сайгүй хайх";
+"Double ⇧" = "Давхар ⇧";
+"Go to File" = "Файл руу очно уу";
+"Open Folder" = "Фолдер нээх";
+"Project View" = "Төслийн харагдах байдал";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Диск дээрх файл өөрчлөгдсөн. Таны засварууд хадгалагдсан. Хоёр хувилбарыг хадгалахын тулд хуулбарыг хадгална уу.";
+"The file is a binary file." = "Файл нь хоёртын файл юм.";
+"The file's text encoding could not be determined." = "Файлын текст кодчиллыг тодорхойлж чадсангүй.";
+"The text cannot be saved in %@." = "Текстийг %@ дугаарт хадгалах боломжгүй.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Шинэ хавтас";
+"New File" = "Шинэ файл";
+"Enter a name in “%@”. Use / to create nested folders." = "\"%@\"-д нэрийг оруулна уу. Дэд хавтас үүсгэхийн тулд хавтасны нэрийг / тэмдэгтээр тусгаарлана уу.";
+"Rename" = "Нэрээ өөрчлөх";
+"Enter a new name for “%@”." = "\"%@\"-д шинэ нэр оруулна уу.";
+"Move “%@” to the Trash?" = "\"%@\"-г Хогийн сав руу зөөх үү?";
+"The folder and everything in it will be moved to the Trash." = "Фолдер болон доторх бүх зүйлийг Хогийн сав руу зөөнө.";
+"You can restore it from the Trash." = "Та үүнийг хогийн савнаас сэргээх боломжтой.";
+"Move to Trash" = "Хогийн сав руу зөөх";
+"OK" = "OK";
+"Rename…" = "Нэр солих...";
+"Copy Path" = "Замыг хуулах";
+"Copy Relative Path" = "Харьцангуй замыг хуулах";
+"Reveal in Finder" = "Finder дугаарт тодруулна уу";
+"Open in Terminal" = "Терминал дээр нээнэ үү";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Зүүн самбар";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Файлууд";
+"Double ⇧ to search everywhere" = "Хаа сайгүй хайхын тулд давхар ⇧";
+"Type a file name (use / to match the path)" = "Файлын нэрийг бичнэ үү (замыг тохируулахын тулд / ашиглана уу)";
+"No recent files" = "Сүүлийн үеийн файл алга";
+"Recent Files" = "Сүүлийн үеийн файлууд";
+"Matches: %1$ld / Files: %2$ld" = "Олдсон үр дүн: %1$ld / Нийт файл: %2$ld";

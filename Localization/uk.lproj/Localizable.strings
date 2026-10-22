@@ -16,11 +16,13 @@
 "Navigate" = "Навігація";
 "Window" = "Вікно";
 "About Sumi" = "Про Sumi";
+"Language" = "Мова";
 "Services" = "Служби";
 "Hide Sumi" = "Сховати Sumi";
 "Hide Others" = "Сховати інші";
 "Show All" = "Показати все";
 "Quit Sumi" = "Вийти з Sumi";
+"System Default" = "Системне за замовчуванням";
 "New File…" = "Новий файл…";
 "New Folder…" = "Нова папка…";
 "New Terminal Tab" = "Нова вкладка термінала";
@@ -45,6 +47,7 @@
 "Terminal" = "Термінал";
 "Swap Terminal and Project" = "Поміняти місцями термінал і проєкт";
 "Maximize Terminal" = "Розгорнути термінал";
+"GPU Rendering" = "Візуалізація GPU";
 "Soft-Wrap" = "М’яке перенесення";
 "Toggle Preview" = "Показати/сховати попередній перегляд";
 "Increase Font Size" = "Збільшити розмір шрифту";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Усі на передній план";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Сховати термінал";
 "Local" = "Локальний";
 "Local (%ld)" = "Локальний (%ld)";
+"Hide Terminal" = "Сховати термінал";
+"Close" = "Закрити";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Закрити поточні сесії терміналу?";
+"These processes will be stopped:" = "Ці процеси будуть зупинені:";
+"Cancel" = "Скасувати";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Ваші зміни буде втрачено, якщо їх не зберегти.";
-"Do you want to save the changes made to “%@”?" = "Зберегти зміни, внесені до файлу «%@»?";
-"Do you want to save the changes made to these files?" = "Зберегти зміни, внесені до цих файлів?";
-"Cancel" = "Скасувати";
-"Don't Save" = "Не зберігати";
+"Save a Copy…" = "Зберегти копію…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Лише редактор";
@@ -85,6 +90,7 @@
 "Project View" = "Подання проєкту";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл змінено на диску. Ваші правки збережено. Збережіть копію, щоб зберегти обидві версії.";
 "The file is a binary file." = "Файл є двійковим.";
 "The file's text encoding could not be determined." = "Не вдалося визначити кодування тексту файлу.";
 "The text cannot be saved in %@." = "Текст не можна зберегти в кодуванні %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Немає нещодавніх файлів";
 "Recent Files" = "Нещодавні файли";
 "Matches: %1$ld / Files: %2$ld" = "Збіги: %1$ld / Файли: %2$ld";
-"Close" = "Закрити";

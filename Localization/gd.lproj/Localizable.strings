@@ -1,0 +1,124 @@
+/*
+  Sumi — gd translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Fosgail pasgan mar phròiseact, no faidhle ri dheasachadh.";
+"Open" = "Fosgailte";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Faidhle";
+"Edit" = "Deasaich";
+"View" = "Sealladh";
+"Navigate" = "Seòl";
+"Window" = "Uinneag";
+"About Sumi" = "Mu iarrtas Sumi";
+"Language" = "Cànain";
+"Services" = "Seirbheisean";
+"Hide Sumi" = "Falaich Sumi";
+"Hide Others" = "Falaich feadhainn eile";
+"Show All" = "Seall na h-uile";
+"Quit Sumi" = "Fàg Sumi";
+"System Default" = "Default siostam";
+"New File…" = "Faidhle Ùr…";
+"New Folder…" = "Pasgan Ùr…";
+"New Terminal Tab" = "Tab Terminal Ùr";
+"Open…" = "Fosgail…";
+"Save" = "Sàbhail";
+"Save All" = "Sàbhail na h-uile";
+"Close Tab" = "Dùin Tab";
+"Close Window" = "Dùin an uinneag";
+"Undo" = "Neo-dhèanamh";
+"Redo" = "Dèan ath-dhèanamh";
+"Cut" = "Gearr";
+"Copy" = "Dèan lethbhreac";
+"Paste" = "Cuir a-steach teacsa";
+"Select All" = "Tagh Uile";
+"Find…" = "Lorg…";
+"Replace…" = "Cuir an àite…";
+"Find Next" = "Lorg Air adhart";
+"Find Previous" = "Lorg Roimhe";
+"Use Selection for Find" = "Cleachd Taghadh airson Lorg";
+"Find" = "Lorg";
+"Project" = "Pròiseact";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal agus Pròiseact";
+"Maximize Terminal" = "Terminal a mheudachadh";
+"GPU Rendering" = "Taisbeanadh GPU";
+"Soft-Wrap" = "Còmhdaich loidhnichean teacsa fada gu fèin-ghluasadach";
+"Toggle Preview" = "Seall no falaich an ro-shealladh";
+"Increase Font Size" = "Meudaich meud cruth-clò";
+"Decrease Font Size" = "Lùghdaich meud cruth-clò";
+"Reset Font Size" = "Ath-shuidhich meud cruth-clò";
+"Search Everywhere (Double ⇧)" = "Rannsaich anns a h-uile àite (Dùbailte ⇧)";
+"Select in Project View" = "Tagh ann am Project View";
+"Next Tab" = "An ath Chlàr";
+"Previous Tab" = "An taba roimhe";
+"Minimize" = "Lùghdaich";
+"Zoom" = "Sùm";
+"Bring All to Front" = "Thoir a h-uile càil air beulaibh";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Ionadail";
+"Local (%ld)" = "Ionadail (%ld)";
+"Hide Terminal" = "Falaich Terminal";
+"Close" = "Dùin";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "An dùin seiseanan ceann-uidhe ruith?";
+"These processes will be stopped:" = "Thèid stad a chur air na pròiseasan sin:";
+"Cancel" = "Sguir dheth";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Sàbhail leth-bhreac…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Deasaiche a-mhàin";
+"Editor and Preview" = "Deasaiche agus Ro-shealladh";
+"Preview Only" = "Ro-shealladh a-mhàin";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Àite: %ld";
+"Plain Text" = "Teacs soilleir";
+"Search Everywhere" = "Rannsaich anns a h-uile àite";
+"Double ⇧" = "Dùbailte ⇧";
+"Go to File" = "Rach gu File";
+"Open Folder" = "Fosgladh Folder";
+"Project View" = "Sealladh pròiseict";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Dh'atharraich am faidhle air an diosg. Chaidh na deasachaidhean agad a chumail. Sàbhail leth-bhreac gus an dà dhreach a ghlèidheadh.";
+"The file is a binary file." = "Tha am faidhle na fhaidhle binary.";
+"The file's text encoding could not be determined." = "Cha b' urrainn dhuinn còdachadh teacsa an fhaidhle a dhearbhadh.";
+"The text cannot be saved in %@." = "Chan urrainnear an teacsa a shàbhaladh ann an %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Pasgan Ùr";
+"New File" = "Faidhle Ùr";
+"Enter a name in “%@”. Use / to create nested folders." = "Cuir a-steach ainm ann an “%@”. Cuir ainmean pasgan air leth leis a’ charactar / gus fo-phasganan a chruthachadh.";
+"Rename" = "Ath-ainmich";
+"Enter a new name for “%@”." = "Cuir a-steach ainm ùr airson “%@”.";
+"Move “%@” to the Trash?" = "Gluais “%@” dhan sgudal?";
+"The folder and everything in it will be moved to the Trash." = "Thèid am pasgan agus a h-uile càil a tha ann a ghluasad dhan sgudal.";
+"You can restore it from the Trash." = "Faodaidh tu a thoirt air ais bhon sgudal.";
+"Move to Trash" = "Gluais dhan sgudal";
+"OK" = "ceart gu leòr";
+"Rename…" = "Ath-ainmich…";
+"Copy Path" = "Dèan lethbhreac den t-slighe";
+"Copy Relative Path" = "Dèan lethbhreac den t-slighe dàimh";
+"Reveal in Finder" = "Nochdadh ann an Finder";
+"Open in Terminal" = "Fosgailte ann an Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Pannal clì";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Faidhlichean";
+"Double ⇧ to search everywhere" = "Dùbailte ⇧ airson sgrùdadh anns a h-uile àite";
+"Type a file name (use / to match the path)" = "Taidhp a-steach ainm faidhle (cleachd / gus an t-slighe a mhaidseadh)";
+"No recent files" = "Chan eil faidhlichean ann o chionn ghoirid";
+"Recent Files" = "Faidhlichean o chionn ghoirid";
+"Matches: %1$ld / Files: %2$ld" = "Toraidhean air an lorg: %1$ld / Faidhlichean iomlan: %2$ld";

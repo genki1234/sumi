@@ -16,11 +16,13 @@
 "Navigate" = "Naviger";
 "Window" = "Vindu";
 "About Sumi" = "Om Sumi";
+"Language" = "Språk";
 "Services" = "Tjenester";
 "Hide Sumi" = "Skjul Sumi";
 "Hide Others" = "Skjul andre";
 "Show All" = "Vis alle";
 "Quit Sumi" = "Avslutt Sumi";
+"System Default" = "Systemstandard";
 "New File…" = "Ny fil…";
 "New Folder…" = "Ny mappe…";
 "New Terminal Tab" = "Ny terminalfane";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Bytt om terminal og prosjekt";
 "Maximize Terminal" = "Maksimer terminalen";
+"GPU Rendering" = "GPU-gjengivelse";
 "Soft-Wrap" = "Automatisk linjeskift";
 "Toggle Preview" = "Slå forhåndsvisning av/på";
 "Increase Font Size" = "Øk skriftstørrelse";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Flytt alle forrest";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Skjul terminalen";
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
+"Hide Terminal" = "Skjul terminalen";
+"Close" = "Lukk";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Vil du lukke kjørende terminaløkter?";
+"These processes will be stopped:" = "Disse prosessene vil bli stoppet:";
+"Cancel" = "Avbryt";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Endringene dine går tapt hvis du ikke arkiverer dem.";
-"Do you want to save the changes made to “%@”?" = "Vil du arkivere endringene som er gjort i «%@»?";
-"Do you want to save the changes made to these files?" = "Vil du arkivere endringene som er gjort i disse filene?";
-"Cancel" = "Avbryt";
-"Don't Save" = "Ikke arkiver";
+"Save a Copy…" = "Lagre en kopi...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Bare redigering";
@@ -85,6 +90,7 @@
 "Project View" = "Prosjektvisning";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Filen er endret på disken. Endringene dine er beholdt. Lagre en kopi for å bevare begge versjonene.";
 "The file is a binary file." = "Filen er en binærfil.";
 "The file's text encoding could not be determined." = "Filens tekstkoding kunne ikke fastslås.";
 "The text cannot be saved in %@." = "Teksten kan ikke arkiveres i %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Ingen nylige filer";
 "Recent Files" = "Nylige filer";
 "Matches: %1$ld / Files: %2$ld" = "Treff: %1$ld / Filer: %2$ld";
-"Close" = "Lukk";

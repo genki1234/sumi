@@ -25,8 +25,8 @@ final class PanelSlotViewController: NSViewController {
         NSLayoutConstraint.activate([
             controller.view.topAnchor.constraint(equalTo: view.topAnchor),
             controller.view.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            controller.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            controller.view.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            controller.view.leftAnchor.constraint(equalTo: view.leftAnchor),
+            controller.view.rightAnchor.constraint(equalTo: view.rightAnchor),
         ])
     }
 }
@@ -54,8 +54,10 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
     private let centerItem: NSSplitViewItem
     private let editorItem: NSSplitViewItem
     private let bottomItem: NSSplitViewItem
-    /// Collapse state saved while the terminal is maximized.
+    private var closeConfirmationPending = false
+    /// Keep both collapse state and divider ratios so restoring does not squash the editor.
     private var beforeMaximize: [Bool]?
+    private var beforeMaximizeSizes: (left: CGFloat, editor: CGFloat)?
 
     init(rootURL: URL, restoreSession: Bool) {
         self.rootURL = rootURL
@@ -76,6 +78,7 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         window.title = rootURL.lastPathComponent
         window.minSize = NSSize(width: 720, height: 480)
         super.init(window: window)
+        NotificationCenter.default.addObserver(self, selector: #selector(applyLocalization), name: .sumiLanguageDidChange, object: nil)
 
         leftItem.canCollapse = true
         centerItem.canCollapse = true
@@ -191,11 +194,21 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         for (item, collapsed) in zip([leftItem, centerItem, editorItem, bottomItem], saved) {
             item.isCollapsed = collapsed
         }
+        window?.layoutIfNeeded()
+        if let sizes = beforeMaximizeSizes {
+            if !leftItem.isCollapsed && !centerItem.isCollapsed {
+                outerSplit.splitView.setPosition(outerSplit.splitView.bounds.width * sizes.left, ofDividerAt: 0)
+            }
+            if !editorItem.isCollapsed && !bottomItem.isCollapsed {
+                centerSplit.splitView.setPosition(centerSplit.splitView.bounds.height * sizes.editor, ofDividerAt: 0)
+            }
+        }
+        beforeMaximizeSizes = nil
     }
 
     func openTerminal(at directory: URL) {
-        setConsoleVisible(true)
         console.newSession(in: directory)
+        setConsoleVisible(true)
     }
 
     /// A path clicked in the terminal: files open in the editor (at the line, when the output had one),
@@ -265,13 +278,9 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         Preferences.saveSession(for: rootURL, files: editorArea.openFilePaths, selected: max(editorArea.selectedIndex, 0))
     }
 
-    /// Called while quitting. Returns false to cancel the quit.
-    func confirmCloseForTermination() -> Bool {
-        let dirty = editorArea.dirtyDocuments
-        guard !dirty.isEmpty else { return true }
-        window?.makeKeyAndOrderFront(nil)
-        return editorArea.confirmSaveModal(dirty)
-    }
+    /// Saving never asks a routine question; errors keep the project open.
+    func saveBeforeClosing() -> Bool { editorArea.saveBeforeClosing() }
+    var hasPendingCloseConfirmation: Bool { closeConfirmationPending || console.hasPendingCloseConfirmation }
 
     func applyFontSize() {
         editorArea.applyFontSize()
@@ -327,7 +336,7 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
     }
 
     @objc func newTerminalTab(_ sender: Any?) {
-        openTerminal(at: rootURL)
+        openTerminal(at: console.currentSession?.currentDirectory ?? rootURL)
     }
 
     @objc func swapConsoleAndProject(_ sender: Any?) {
@@ -345,6 +354,10 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
             restoreFromMaximize()
             return
         }
+        beforeMaximizeSizes = (
+            left: leftSlot.view.frame.width / max(1, outerSplit.splitView.bounds.width),
+            editor: editorArea.view.frame.height / max(1, centerSplit.splitView.bounds.height)
+        )
         beforeMaximize = [leftItem, centerItem, editorItem, bottomItem].map(\.isCollapsed)
         Preferences.consoleHidden = false
         if Preferences.consoleOnLeft {
@@ -364,7 +377,17 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         editorArea.currentEditor?.togglePreview()
     }
 
+    @objc func performFindAction(_ sender: NSMenuItem) {
+        if console.isFocused, let action = NSTextFinder.Action(rawValue: sender.tag) {
+            console.performFindAction(action)
+        } else { editorArea.currentEditor?.textView.performTextFinderAction(sender) }
+    }
+
     func validateMenuItem(_ item: NSMenuItem) -> Bool {
+        if item.action == #selector(performFindAction(_:)) {
+            if console.isFocused { return item.tag != NSTextFinder.Action.showReplaceInterface.rawValue }
+            return editorArea.currentEditor != nil
+        }
         if item.action == #selector(togglePreview(_:)) { return editorArea.currentEditor?.hasPreview == true }
         return true
     }
@@ -378,10 +401,13 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
     // MARK: NSWindowDelegate
 
     func windowShouldClose(_ sender: NSWindow) -> Bool {
-        let dirty = editorArea.dirtyDocuments
-        guard !dirty.isEmpty else { return true }
-        editorArea.confirmSave(dirty) { [weak self] proceed in
-            if proceed { self?.window?.close() }
+        guard !hasPendingCloseConfirmation, sender.attachedSheet == nil, saveBeforeClosing() else { return false }
+        guard let alert = TerminalCloseConfirmation.alert(jobs: console.runningJobs) else { return true }
+        closeConfirmationPending = true
+        alert.beginSheetModal(for: sender) { [weak self] response in
+            guard let self else { return }
+            self.closeConfirmationPending = false
+            if response == .alertSecondButtonReturn, self.saveBeforeClosing() { sender.close() }
         }
         return false
     }
@@ -395,6 +421,26 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
     }
 
     // MARK: NSToolbarDelegate
+
+    @objc private func applyLocalization() {
+        treeController.applyLocalization()
+        editorArea.applyLocalization()
+        console.applyLocalization()
+        searchController?.applyLocalization()
+        for item in window?.toolbar?.items ?? [] {
+            switch item.itemIdentifier {
+            case .leftPanel:
+                item.label = L("Left Panel")
+                item.toolTip = L("Left Panel")
+                item.image = NSImage(systemSymbolName: "sidebar.left", accessibilityDescription: L("Left Panel"))
+            case .searchEverywhere:
+                item.label = L("Search Everywhere")
+                item.toolTip = L("Search Everywhere (Double ⇧)")
+                item.image = NSImage(systemSymbolName: "magnifyingglass", accessibilityDescription: L("Search Everywhere"))
+            default: break
+            }
+        }
+    }
 
     func toolbarDefaultItemIdentifiers(_ toolbar: NSToolbar) -> [NSToolbarItem.Identifier] {
         [.leftPanel, .leftPanelSeparator, .flexibleSpace, .searchEverywhere]

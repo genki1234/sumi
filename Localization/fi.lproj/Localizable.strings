@@ -16,11 +16,13 @@
 "Navigate" = "Siirry";
 "Window" = "Ikkuna";
 "About Sumi" = "Tietoja: Sumi";
+"Language" = "Kieli";
 "Services" = "Palvelut";
 "Hide Sumi" = "Piilota Sumi";
 "Hide Others" = "Piilota muut";
 "Show All" = "Näytä kaikki";
 "Quit Sumi" = "Lopeta Sumi";
+"System Default" = "Järjestelmän oletusarvo";
 "New File…" = "Uusi tiedosto…";
 "New Folder…" = "Uusi kansio…";
 "New Terminal Tab" = "Uusi päätevälilehti";
@@ -45,6 +47,7 @@
 "Terminal" = "Pääte";
 "Swap Terminal and Project" = "Vaihda päätteen ja projektin paikkaa";
 "Maximize Terminal" = "Suurenna pääte";
+"GPU Rendering" = "GPU-renderöinti";
 "Soft-Wrap" = "Automaattinen rivitys";
 "Toggle Preview" = "Esikatselu päälle/pois";
 "Increase Font Size" = "Suurenna fonttikokoa";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Tuo kaikki eteen";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Piilota pääte";
 "Local" = "Paikallinen";
 "Local (%ld)" = "Paikallinen (%ld)";
+"Hide Terminal" = "Piilota pääte";
+"Close" = "Sulje";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Suljetaanko käynnissä olevat pääte-istunnot?";
+"These processes will be stopped:" = "Nämä prosessit pysäytetään:";
+"Cancel" = "Peruuta";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Muutokset menetetään, jos et tallenna niitä.";
-"Do you want to save the changes made to “%@”?" = "Haluatko tallentaa tiedostoon ”%@” tehdyt muutokset?";
-"Do you want to save the changes made to these files?" = "Haluatko tallentaa näihin tiedostoihin tehdyt muutokset?";
-"Cancel" = "Peruuta";
-"Don't Save" = "Älä tallenna";
+"Save a Copy…" = "Tallenna kopio…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Vain editori";
@@ -85,6 +90,7 @@
 "Project View" = "Projektinäkymä";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Tiedosto vaihtui levylle. Muokkauksesi on säilytetty. Tallenna kopio säilyttääksesi molemmat versiot.";
 "The file is a binary file." = "Tiedosto on binääritiedosto.";
 "The file's text encoding could not be determined." = "Tiedoston tekstikoodausta ei voitu määrittää.";
 "The text cannot be saved in %@." = "Tekstiä ei voi tallentaa koodauksella %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Ei viimeisimpiä tiedostoja";
 "Recent Files" = "Viimeisimmät tiedostot";
 "Matches: %1$ld / Files: %2$ld" = "Osumat: %1$ld / Tiedostot: %2$ld";
-"Close" = "Sulje";

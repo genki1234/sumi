@@ -1,0 +1,124 @@
+/*
+  Sumi — lv translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Atveriet mapi kā projektu vai rediģējamo failu.";
+"Open" = "Atvērt";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fails";
+"Edit" = "Rediģēt";
+"View" = "Skatīt";
+"Navigate" = "Naviģēt";
+"Window" = "Logs";
+"About Sumi" = "Par Sumi pieteikumu";
+"Language" = "Valoda";
+"Services" = "Pakalpojumi";
+"Hide Sumi" = "Paslēpt Sumi";
+"Hide Others" = "Paslēpt citus";
+"Show All" = "Rādīt visu";
+"Quit Sumi" = "Iziet no Sumi";
+"System Default" = "Sistēmas noklusējums";
+"New File…" = "Jauns fails…";
+"New Folder…" = "Jauna mape…";
+"New Terminal Tab" = "Jauna termināļa cilne";
+"Open…" = "Atvērt…";
+"Save" = "Saglabāt";
+"Save All" = "Saglabāt visu";
+"Close Tab" = "Aizvērt cilni";
+"Close Window" = "Aizveriet logu";
+"Undo" = "Atsaukt";
+"Redo" = "Atkārtoti";
+"Cut" = "Izgriezt";
+"Copy" = "Kopēt";
+"Paste" = "Ielīmēt";
+"Select All" = "Atlasiet visu";
+"Find…" = "Atrast…";
+"Replace…" = "Aizstāt…";
+"Find Next" = "Atrodi Tālāk";
+"Find Previous" = "Atrodiet iepriekšējo";
+"Use Selection for Find" = "Izmantojiet atlasi meklēšanai";
+"Find" = "Atrast";
+"Project" = "Projekts";
+"Terminal" = "Terminālis";
+"Swap Terminal and Project" = "Apmainiet termināli un projektu";
+"Maximize Terminal" = "Maksimizējiet termināli";
+"GPU Rendering" = "GPU renderēšana";
+"Soft-Wrap" = "Automātiski aplauzt garās teksta rindiņas";
+"Toggle Preview" = "Pārslēgt priekšskatījumu";
+"Increase Font Size" = "Palieliniet fonta lielumu";
+"Decrease Font Size" = "Samaziniet fonta lielumu";
+"Reset Font Size" = "Atiestatīt fonta lielumu";
+"Search Everywhere (Double ⇧)" = "Meklēt visur (dubultā ⇧)";
+"Select in Project View" = "Projekta skatā atlasiet";
+"Next Tab" = "Nākamā cilne";
+"Previous Tab" = "Iepriekšējā cilne";
+"Minimize" = "Minimizēt";
+"Zoom" = "Tālummaiņa";
+"Bring All to Front" = "Izvediet visus priekšā";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Vietējais";
+"Local (%ld)" = "Vietējais (%ld)";
+"Hide Terminal" = "Paslēpt termināli";
+"Close" = "Aizvērt";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Vai aizvērt darbojošās termināļa sesijas?";
+"These processes will be stopped:" = "Šie procesi tiks apturēti:";
+"Cancel" = "Atcelt";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Saglabāt kopiju…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Tikai redaktors";
+"Editor and Preview" = "Redaktors un priekšskatījums";
+"Preview Only" = "Tikai priekšskatījums";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Vietas: %ld";
+"Plain Text" = "Vienkāršs teksts";
+"Search Everywhere" = "Meklēt visur";
+"Double ⇧" = "Dubults ⇧";
+"Go to File" = "Dodieties uz Fails";
+"Open Folder" = "Atveriet mapi";
+"Project View" = "Projekta skats";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fails ir mainīts diskā. Jūsu labojumi ir saglabāti. Saglabājiet kopiju, lai saglabātu abas versijas.";
+"The file is a binary file." = "Fails ir binārs fails.";
+"The file's text encoding could not be determined." = "Nevarēja noteikt faila teksta kodējumu.";
+"The text cannot be saved in %@." = "Tekstu nevar saglabāt %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Jauna mape";
+"New File" = "Jauns fails";
+"Enter a name in “%@”. Use / to create nested folders." = "Ievadiet nosaukumu “%@”. Atdaliet mapju nosaukumus ar rakstzīmi /, lai izveidotu apakšmapes.";
+"Rename" = "Pārdēvēt";
+"Enter a new name for “%@”." = "Ievadiet jaunu nosaukumu “%@”.";
+"Move “%@” to the Trash?" = "Vai pārvietot “%@” uz atkritni?";
+"The folder and everything in it will be moved to the Trash." = "Mape un viss tajā esošais tiks pārvietots uz miskasti.";
+"You can restore it from the Trash." = "Varat to atjaunot no miskastes.";
+"Move to Trash" = "Pārvietot uz miskasti";
+"OK" = "Labi";
+"Rename…" = "Pārdēvēt…";
+"Copy Path" = "Kopēt ceļu";
+"Copy Relative Path" = "Kopēt relatīvo ceļu";
+"Reveal in Finder" = "Atklājiet Finder";
+"Open in Terminal" = "Atvērt terminālī";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Kreisais panelis";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Faili";
+"Double ⇧ to search everywhere" = "Divkāršot ⇧, lai meklētu visur";
+"Type a file name (use / to match the path)" = "Ierakstiet faila nosaukumu (izmantojiet /, lai atbilstu ceļam)";
+"No recent files" = "Nav jaunāko failu";
+"Recent Files" = "Jaunākie faili";
+"Matches: %1$ld / Files: %2$ld" = "Atrasti rezultāti: %1$ld / Kopā faili: %2$ld";

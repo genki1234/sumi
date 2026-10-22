@@ -16,11 +16,13 @@
 "Navigate" = "Navega";
 "Window" = "Finestra";
 "About Sumi" = "Quant al Sumi";
+"Language" = "Llengua";
 "Services" = "Serveis";
 "Hide Sumi" = "Amaga el Sumi";
 "Hide Others" = "Amaga els altres";
 "Show All" = "Mostra-ho tot";
 "Quit Sumi" = "Surt del Sumi";
+"System Default" = "Sistema per defecte";
 "New File…" = "Nou fitxer…";
 "New Folder…" = "Nova carpeta…";
 "New Terminal Tab" = "Nova pestanya de terminal";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Intercanvia el terminal i el projecte";
 "Maximize Terminal" = "Maximitza el terminal";
+"GPU Rendering" = "Renderització de la GPU";
 "Soft-Wrap" = "Ajust de línia";
 "Toggle Preview" = "Commuta la previsualització";
 "Increase Font Size" = "Augmenta la mida del tipus de lletra";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Porta-ho tot al davant";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Amaga el terminal";
 "Local" = "Local";
 "Local (%ld)" = "Local (%ld)";
+"Hide Terminal" = "Amaga el terminal";
+"Close" = "Tancar";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Tanqueu les sessions de terminal en curs?";
+"These processes will be stopped:" = "Aquests processos s'aturaran:";
+"Cancel" = "Cancel·la";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Es perdran els canvis si no els deseu.";
-"Do you want to save the changes made to “%@”?" = "Voleu desar els canvis fets a «%@»?";
-"Do you want to save the changes made to these files?" = "Voleu desar els canvis fets en aquests fitxers?";
-"Cancel" = "Cancel·la";
-"Don't Save" = "No desis";
+"Save a Copy…" = "Desa una còpia...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Només l'editor";
@@ -85,6 +90,7 @@
 "Project View" = "Vista del projecte";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "El fitxer ha canviat al disc. Les vostres edicions s'han conservat. Deseu una còpia per conservar les dues versions.";
 "The file is a binary file." = "El fitxer és un fitxer binari.";
 "The file's text encoding could not be determined." = "No s’ha pogut determinar la codificació de text del fitxer.";
 "The text cannot be saved in %@." = "El text no es pot desar en %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Cap fitxer recent";
 "Recent Files" = "Fitxers recents";
 "Matches: %1$ld / Files: %2$ld" = "Coincidències: %1$ld / Fitxers: %2$ld";
-"Close" = "Tanca";

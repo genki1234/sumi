@@ -16,11 +16,13 @@
 "Navigate" = "ナビゲート";
 "Window" = "ウインドウ";
 "About Sumi" = "Sumi について";
+"Language" = "言語";
 "Services" = "サービス";
 "Hide Sumi" = "Sumi を非表示";
 "Hide Others" = "ほかを非表示";
 "Show All" = "すべてを表示";
 "Quit Sumi" = "Sumi を終了";
+"System Default" = "システムのデフォルト";
 "New File…" = "新規ファイル…";
 "New Folder…" = "新規フォルダ…";
 "New Terminal Tab" = "新規ターミナルタブ";
@@ -45,6 +47,7 @@
 "Terminal" = "ターミナル";
 "Swap Terminal and Project" = "ターミナルとプロジェクトを入れ替える";
 "Maximize Terminal" = "ターミナルを最大化";
+"GPU Rendering" = "GPU描画";
 "Soft-Wrap" = "ソフトラップ";
 "Toggle Preview" = "プレビューの切り替え";
 "Increase Font Size" = "フォントを大きく";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "すべてを手前に移動";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "ターミナルを隠す";
 "Local" = "ローカル";
 "Local (%ld)" = "ローカル (%ld)";
+"Hide Terminal" = "ターミナルを隠す";
+"Close" = "閉じる";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "実行中のターミナルを閉じますか？";
+"These processes will be stopped:" = "次の処理が停止します：";
+"Cancel" = "キャンセル";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "保存しないと、変更内容は失われます。";
-"Do you want to save the changes made to “%@”?" = "“%@”に加えた変更を保存しますか?";
-"Do you want to save the changes made to these files?" = "これらのファイルに加えた変更を保存しますか?";
-"Cancel" = "キャンセル";
-"Don't Save" = "保存しない";
+"Save a Copy…" = "コピーを保存…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "エディターのみ";
@@ -85,6 +90,7 @@
 "Project View" = "プロジェクトビュー";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ファイルが外部で変更されました。編集中の内容は保持しています。両方の内容を残すにはコピーを保存してください。";
 "The file is a binary file." = "このファイルはバイナリファイルです。";
 "The file's text encoding could not be determined." = "ファイルのテキストエンコーディングを判別できませんでした。";
 "The text cannot be saved in %@." = "このテキストは %@ で保存できません。";
@@ -116,4 +122,3 @@
 "No recent files" = "最近のファイルはありません";
 "Recent Files" = "最近のファイル";
 "Matches: %1$ld / Files: %2$ld" = "一致: %1$ld / ファイル: %2$ld";
-"Close" = "閉じる";

@@ -20,10 +20,12 @@ if [[ "$CONFIG" == release ]]; then
         PARTS+=("$(swift build "${NATIVE[@]}" --show-bin-path)/Sumi")
     done
     BIN=.build/Sumi-universal
+    RESOURCE_DIR="$(dirname "${PARTS[0]}")"
     lipo -create -output "$BIN" "${PARTS[@]}"
 else
     swift build -c debug
     BIN="$(swift build -c debug --show-bin-path)/Sumi"
+    RESOURCE_DIR="$(dirname "$BIN")"
 fi
 
 APP=build/Sumi.app
@@ -31,6 +33,8 @@ rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp "$BIN" "$APP/Contents/MacOS/Sumi"
 cp Resources/Info.plist "$APP/Contents/Info.plist"
+# HighlightResources resolves this bundle from the packaged app's resource directory.
+cp -R "$RESOURCE_DIR/Sumi_Sumi.bundle" "$APP/Contents/Resources/"
 # Release builds set the version from the tag (SUMI_VERSION) and the build number from the CI run (SUMI_BUILD).
 if [[ -n "${SUMI_VERSION:-}" ]]; then /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $SUMI_VERSION" "$APP/Contents/Info.plist"; fi
 if [[ -n "${SUMI_BUILD:-}" ]]; then /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $SUMI_BUILD" "$APP/Contents/Info.plist"; fi

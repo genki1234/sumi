@@ -1,0 +1,124 @@
+/*
+  Sumi — sn translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Vhura folda sepurojekiti, kana faira rekugadzirisa.";
+"Open" = "Vhura";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Faira";
+"Edit" = "Chinja chinyorwa";
+"View" = "Kuratidzwa";
+"Navigate" = "Enda kune faira";
+"Window" = "Hwindo";
+"About Sumi" = "Nezve Sumi application";
+"Language" = "Mutauro";
+"Services" = "Masevhisi ehurongwa";
+"Hide Sumi" = "Vigai Sumi";
+"Hide Others" = "Viga Vamwe";
+"Show All" = "Ratidza Zvose";
+"Quit Sumi" = "Kusiya Sumi";
+"System Default" = "Shandisa mutauro wehurongwa";
+"New File…" = "Faira Idzva...";
+"New Folder…" = "Folder Idzva...";
+"New Terminal Tab" = "Gadzira iyo terminal tab";
+"Open…" = "Vhura...";
+"Save" = "Sevha";
+"Save All" = "Sevha Zvose";
+"Close Tab" = "Vhara iyi tab";
+"Close Window" = "Vhara Hwindi";
+"Undo" = "Dzorera shanduko yekupedzisira";
+"Redo" = "Dzokorora chiito chekupedzisira";
+"Cut" = "Cheka";
+"Copy" = "Kopa zvinyorwa";
+"Paste" = "Namatidza zvinyorwa";
+"Select All" = "Sarudza Zvose";
+"Find…" = "Tsvaga...";
+"Replace…" = "Tsiva…";
+"Find Next" = "Tsvaga mutambo unotevera";
+"Find Previous" = "Tsvaga mutambo wapfuura";
+"Use Selection for Find" = "Shandisa Sarudzo yekutsvaga";
+"Find" = "Tsvaga zvinyorwa";
+"Project" = "Chirongwa";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Chinjana Terminal uye Project";
+"Maximize Terminal" = "Kurisa Terminal";
+"GPU Rendering" = "Tumira mifananidzo uchishandisa iyo GPU";
+"Soft-Wrap" = "Petesa otomatiki mitsara yemavara marefu";
+"Toggle Preview" = "Ratidza kana kuviga chitarisiko";
+"Increase Font Size" = "Wedzera Kukura Kwemavara";
+"Decrease Font Size" = "Derece Font size";
+"Reset Font Size" = "Reset Font size";
+"Search Everywhere (Double ⇧)" = "Tsvaga kwese kwese (Kaviri ⇧)";
+"Select in Project View" = "Sarudza muProjekti View";
+"Next Tab" = "Enda kune inotevera tab";
+"Previous Tab" = "Enda kune yapfuura tab";
+"Minimize" = "Deredza";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Hunza Zvese Kumberi";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Pakombiyuta iyi";
+"Local (%ld)" = "Nharaunda (%ld)";
+"Hide Terminal" = "Viga Terminal";
+"Close" = "Close";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Kuvhara materminal sessions?";
+"These processes will be stopped:" = "Aya maitiro achamiswa:";
+"Cancel" = "Kanzura";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Sevha Kopi...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Editor Chete";
+"Editor and Preview" = "Editor uye Preview";
+"Preview Only" = "Preview Chete";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Nzvimbo: %ld";
+"Plain Text" = "Mavara asina kurongwa";
+"Search Everywhere" = "Tsvaga Kwese";
+"Double ⇧" = "Kaviri ⇧";
+"Go to File" = "Enda kuFaira";
+"Open Folder" = "Vhura Folder";
+"Project View" = "Kuratidzwa kweprojekiti";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Iyo faira yakachinja pane dhisiki. Magadzirirwo ako achengetwa. Sevha kopi kuchengetedza mavhezheni ese ari maviri.";
+"The file is a binary file." = "Iyo faira ibhinari faira.";
+"The file's text encoding could not be determined." = "Mavara efaira haana kukwanisa kuzivikanwa.";
+"The text cannot be saved in %@." = "Mavara haagone kuchengetwa mu%@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folder Itsva";
+"New File" = "Gadzira faira";
+"Enter a name in “%@”. Use / to create nested folders." = "Isa zita mu \"%@\". Kupatsanura mazita eforodha neiyo / hunhu kugadzira maforodha madiki.";
+"Rename" = "Chinja zita";
+"Enter a new name for “%@”." = "Isa zita idzva re \"%@\".";
+"Move “%@” to the Trash?" = "Kufambisa \"%@\" kumarara?";
+"The folder and everything in it will be moved to the Trash." = "Iyo folda nezvese zviri mairi zvichaendeswa kumarara.";
+"You can restore it from the Trash." = "Unogona kudzoreredza kubva muDoti.";
+"Move to Trash" = "Enda kumarara";
+"OK" = "OK";
+"Rename…" = "Rename...";
+"Copy Path" = "Kopa nzira yefaira";
+"Copy Relative Path" = "Kopira iyo hama yefaira nzira";
+"Reveal in Finder" = "Svinura muFinder";
+"Open in Terminal" = "Vhura muTerminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Kuruboshwe Panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Mafaira";
+"Double ⇧ to search everywhere" = "Kaviri ⇧ kutsvaga kwese kwese";
+"Type a file name (use / to match the path)" = "Nyora zita refaira (shandisa / kuenzanisa nzira)";
+"No recent files" = "Hapana mafaira achangoburwa";
+"Recent Files" = "Mafaira achangovhurwa";
+"Matches: %1$ld / Files: %2$ld" = "Mhinduro dzakawanikwa: %1$ld / Mafaera ese: %2$ld";

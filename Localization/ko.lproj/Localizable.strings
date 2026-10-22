@@ -16,11 +16,13 @@
 "Navigate" = "탐색";
 "Window" = "윈도우";
 "About Sumi" = "Sumi 정보";
+"Language" = "언어";
 "Services" = "서비스";
 "Hide Sumi" = "Sumi 가리기";
 "Hide Others" = "다른 항목 가리기";
 "Show All" = "모두 보기";
 "Quit Sumi" = "Sumi 종료";
+"System Default" = "시스템 기본값";
 "New File…" = "새로운 파일…";
 "New Folder…" = "새로운 폴더…";
 "New Terminal Tab" = "새로운 터미널 탭";
@@ -45,6 +47,7 @@
 "Terminal" = "터미널";
 "Swap Terminal and Project" = "터미널과 프로젝트 맞바꾸기";
 "Maximize Terminal" = "터미널 최대화";
+"GPU Rendering" = "GPU 렌더링";
 "Soft-Wrap" = "소프트 랩";
 "Toggle Preview" = "미리 보기 전환";
 "Increase Font Size" = "글꼴 크기 확대";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "모두 앞으로 가져오기";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "터미널 가리기";
 "Local" = "로컬";
 "Local (%ld)" = "로컬 (%ld)";
+"Hide Terminal" = "터미널 가리기";
+"Close" = "닫기";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "실행 중인 터미널 세션을 닫으시겠습니까?";
+"These processes will be stopped:" = "다음 프로세스가 중지됩니다.";
+"Cancel" = "취소";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "저장하지 않으면 변경사항을 잃게 됩니다.";
-"Do you want to save the changes made to “%@”?" = "“%@”에 대한 변경사항을 저장하시겠습니까?";
-"Do you want to save the changes made to these files?" = "이 파일들에 대한 변경사항을 저장하시겠습니까?";
-"Cancel" = "취소";
-"Don't Save" = "저장 안 함";
+"Save a Copy…" = "복사본 저장…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "편집기만";
@@ -85,6 +90,7 @@
 "Project View" = "프로젝트 보기";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "파일이 디스크에서 변경되었습니다. 수정사항이 유지되었습니다. 두 버전을 모두 보존하려면 사본을 저장하세요.";
 "The file is a binary file." = "파일이 바이너리 파일입니다.";
 "The file's text encoding could not be determined." = "파일의 텍스트 인코딩을 확인할 수 없습니다.";
 "The text cannot be saved in %@." = "텍스트를 %@ 인코딩으로 저장할 수 없습니다.";
@@ -116,4 +122,3 @@
 "No recent files" = "최근 파일 없음";
 "Recent Files" = "최근 사용한 파일";
 "Matches: %1$ld / Files: %2$ld" = "일치: %1$ld / 파일: %2$ld";
-"Close" = "닫기";

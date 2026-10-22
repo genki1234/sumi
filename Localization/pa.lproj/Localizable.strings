@@ -1,0 +1,124 @@
+/*
+  Sumi — pa translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "ਇੱਕ ਫੋਲਡਰ ਨੂੰ ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਦੇ ਰੂਪ ਵਿੱਚ, ਜਾਂ ਸੰਪਾਦਿਤ ਕਰਨ ਲਈ ਇੱਕ ਫਾਈਲ ਖੋਲ੍ਹੋ।";
+"Open" = "ਖੋਲ੍ਹੋ";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "ਫਾਈਲ";
+"Edit" = "ਸੰਪਾਦਿਤ ਕਰੋ";
+"View" = "ਦੇਖੋ";
+"Navigate" = "ਨੈਵੀਗੇਟ ਕਰੋ";
+"Window" = "ਵਿੰਡੋ";
+"About Sumi" = "Sumi ਐਪਲੀਕੇਸ਼ਨ ਬਾਰੇ";
+"Language" = "ਭਾਸ਼ਾ";
+"Services" = "ਸੇਵਾਵਾਂ";
+"Hide Sumi" = "Sumi ਨੂੰ ਲੁਕਾਓ";
+"Hide Others" = "ਦੂਜਿਆਂ ਨੂੰ ਲੁਕਾਓ";
+"Show All" = "ਸਭ ਦਿਖਾਓ";
+"Quit Sumi" = "Sumi ਛੱਡੋ";
+"System Default" = "ਸਿਸਟਮ ਪੂਰਵ-ਨਿਰਧਾਰਤ";
+"New File…" = "ਨਵੀਂ ਫ਼ਾਈਲ…";
+"New Folder…" = "ਨਵਾਂ ਫੋਲਡਰ…";
+"New Terminal Tab" = "ਨਵੀਂ ਟਰਮੀਨਲ ਟੈਬ";
+"Open…" = "ਖੋਲ੍ਹੋ…";
+"Save" = "ਸੇਵ ਕਰੋ";
+"Save All" = "ਸਭ ਨੂੰ ਸੰਭਾਲੋ";
+"Close Tab" = "ਟੈਬ ਬੰਦ ਕਰੋ";
+"Close Window" = "ਵਿੰਡੋ ਬੰਦ ਕਰੋ";
+"Undo" = "ਅਣਡੂ";
+"Redo" = "ਦੁਬਾਰਾ ਕਰੋ";
+"Cut" = "ਕੱਟੋ";
+"Copy" = "ਕਾਪੀ ਕਰੋ";
+"Paste" = "ਪੇਸਟ ਕਰੋ";
+"Select All" = "ਸਭ ਚੁਣੋ";
+"Find…" = "ਲੱਭੋ…";
+"Replace…" = "ਬਦਲੋ...";
+"Find Next" = "ਅਗਲਾ ਲੱਭੋ";
+"Find Previous" = "ਪਿਛਲਾ ਲੱਭੋ";
+"Use Selection for Find" = "ਖੋਜ ਲਈ ਚੋਣ ਦੀ ਵਰਤੋਂ ਕਰੋ";
+"Find" = "ਲੱਭੋ";
+"Project" = "ਪ੍ਰੋਜੈਕਟ";
+"Terminal" = "ਟਰਮੀਨਲ";
+"Swap Terminal and Project" = "ਸਵੈਪ ਟਰਮੀਨਲ ਅਤੇ ਪ੍ਰੋਜੈਕਟ";
+"Maximize Terminal" = "ਟਰਮੀਨਲ ਨੂੰ ਵੱਡਾ ਕਰੋ";
+"GPU Rendering" = "GPU ਰੈਂਡਰਿੰਗ";
+"Soft-Wrap" = "ਆਟੋਮੈਟਿਕ ਤੌਰ 'ਤੇ ਲੰਬੀਆਂ ਟੈਕਸਟ ਲਾਈਨਾਂ ਨੂੰ ਲਪੇਟੋ";
+"Toggle Preview" = "ਝਲਕ ਨੂੰ ਟੌਗਲ ਕਰੋ";
+"Increase Font Size" = "ਫੌਂਟ ਦਾ ਆਕਾਰ ਵਧਾਓ";
+"Decrease Font Size" = "ਫੌਂਟ ਦਾ ਆਕਾਰ ਘਟਾਓ";
+"Reset Font Size" = "ਫੌਂਟ ਦਾ ਆਕਾਰ ਰੀਸੈਟ ਕਰੋ";
+"Search Everywhere (Double ⇧)" = "ਹਰ ਥਾਂ ਖੋਜੋ (ਡਬਲ ⇧)";
+"Select in Project View" = "ਪ੍ਰੋਜੈਕਟ ਵਿਊ ਵਿੱਚ ਚੁਣੋ";
+"Next Tab" = "ਅਗਲੀ ਟੈਬ";
+"Previous Tab" = "ਪਿਛਲੀ ਟੈਬ";
+"Minimize" = "ਛੋਟਾ ਕਰੋ";
+"Zoom" = "ਜ਼ੂਮ";
+"Bring All to Front" = "ਸਭ ਨੂੰ ਸਾਹਮਣੇ ਲਿਆਓ";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "ਸਥਾਨਕ";
+"Local (%ld)" = "ਸਥਾਨਕ (%ld)";
+"Hide Terminal" = "ਟਰਮੀਨਲ ਓਹਲੇ";
+"Close" = "ਬੰਦ ਕਰੋ";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "ਚੱਲ ਰਹੇ ਟਰਮੀਨਲ ਸੈਸ਼ਨਾਂ ਨੂੰ ਬੰਦ ਕਰਨਾ ਹੈ?";
+"These processes will be stopped:" = "ਇਹ ਪ੍ਰਕਿਰਿਆਵਾਂ ਬੰਦ ਹੋ ਜਾਣਗੀਆਂ:";
+"Cancel" = "ਰੱਦ ਕਰੋ";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "ਇੱਕ ਕਾਪੀ ਸੁਰੱਖਿਅਤ ਕਰੋ...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "ਕੇਵਲ ਸੰਪਾਦਕ";
+"Editor and Preview" = "ਸੰਪਾਦਕ ਅਤੇ ਝਲਕ";
+"Preview Only" = "ਸਿਰਫ਼ ਝਲਕ";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "ਸਪੇਸ: %ld";
+"Plain Text" = "ਸਾਦਾ ਪਾਠ";
+"Search Everywhere" = "ਹਰ ਜਗ੍ਹਾ ਖੋਜੋ";
+"Double ⇧" = "ਡਬਲ ⇧";
+"Go to File" = "ਫਾਈਲ 'ਤੇ ਜਾਓ";
+"Open Folder" = "ਫੋਲਡਰ ਖੋਲ੍ਹੋ";
+"Project View" = "ਪ੍ਰੋਜੈਕਟ ਦ੍ਰਿਸ਼";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ਡਿਸਕ 'ਤੇ ਫਾਈਲ ਬਦਲੀ ਗਈ ਹੈ। ਤੁਹਾਡੇ ਸੰਪਾਦਨ ਰੱਖੇ ਗਏ ਹਨ। ਦੋਵਾਂ ਸੰਸਕਰਣਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਇੱਕ ਕਾਪੀ ਸੁਰੱਖਿਅਤ ਕਰੋ।";
+"The file is a binary file." = "ਫਾਈਲ ਇੱਕ ਬਾਈਨਰੀ ਫਾਈਲ ਹੈ।";
+"The file's text encoding could not be determined." = "ਫਾਈਲ ਦੀ ਟੈਕਸਟ ਏਨਕੋਡਿੰਗ ਨਿਰਧਾਰਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ ਹੈ।";
+"The text cannot be saved in %@." = "ਟੈਕਸਟ ਨੂੰ %@ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "ਨਵਾਂ ਫੋਲਡਰ";
+"New File" = "ਨਵੀਂ ਫ਼ਾਈਲ";
+"Enter a name in “%@”. Use / to create nested folders." = "\"%@\" ਵਿੱਚ ਇੱਕ ਨਾਮ ਦਰਜ ਕਰੋ। ਸਬਫੋਲਡਰ ਬਣਾਉਣ ਲਈ ਫੋਲਡਰ ਦੇ ਨਾਮ / ਅੱਖਰ ਨਾਲ ਵੱਖ ਕਰੋ।";
+"Rename" = "ਨਾਮ ਬਦਲੋ";
+"Enter a new name for “%@”." = "“%@” ਲਈ ਇੱਕ ਨਵਾਂ ਨਾਮ ਦਾਖਲ ਕਰੋ।";
+"Move “%@” to the Trash?" = "ਕੀ “%@” ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਲਿਜਾਣਾ ਹੈ?";
+"The folder and everything in it will be moved to the Trash." = "ਫੋਲਡਰ ਅਤੇ ਇਸ ਵਿੱਚ ਮੌਜੂਦ ਹਰ ਚੀਜ਼ ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜ ਦਿੱਤਾ ਜਾਵੇਗਾ।";
+"You can restore it from the Trash." = "ਤੁਸੀਂ ਇਸਨੂੰ ਰੱਦੀ ਤੋਂ ਰੀਸਟੋਰ ਕਰ ਸਕਦੇ ਹੋ।";
+"Move to Trash" = "ਰੱਦੀ ਵਿੱਚ ਭੇਜੋ";
+"OK" = "ਠੀਕ ਹੈ";
+"Rename…" = "ਨਾਮ ਬਦਲੋ...";
+"Copy Path" = "ਪਾਥ ਦੀ ਨਕਲ ਕਰੋ";
+"Copy Relative Path" = "ਰਿਸ਼ਤੇਦਾਰ ਮਾਰਗ ਦੀ ਨਕਲ ਕਰੋ";
+"Reveal in Finder" = "Finder ਵਿੱਚ ਪ੍ਰਗਟ ਕਰੋ";
+"Open in Terminal" = "ਟਰਮੀਨਲ ਵਿੱਚ ਖੋਲ੍ਹੋ";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "ਖੱਬਾ ਪੈਨਲ";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "ਫਾਈਲਾਂ";
+"Double ⇧ to search everywhere" = "ਹਰ ਥਾਂ ਖੋਜਣ ਲਈ ਡਬਲ ⇧";
+"Type a file name (use / to match the path)" = "ਇੱਕ ਫਾਈਲ ਨਾਮ ਟਾਈਪ ਕਰੋ (ਪਾਥ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ / ਵਰਤੋ)";
+"No recent files" = "ਕੋਈ ਹਾਲੀਆ ਫ਼ਾਈਲਾਂ ਨਹੀਂ ਹਨ";
+"Recent Files" = "ਹਾਲੀਆ ਫਾਈਲਾਂ";
+"Matches: %1$ld / Files: %2$ld" = "ਨਤੀਜੇ ਮਿਲੇ: %1$ld / ਕੁੱਲ ਫਾਈਲਾਂ: %2$ld";

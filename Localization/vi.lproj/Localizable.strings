@@ -16,11 +16,13 @@
 "Navigate" = "Điều hướng";
 "Window" = "Cửa sổ";
 "About Sumi" = "Giới thiệu về Sumi";
+"Language" = "Ngôn ngữ";
 "Services" = "Dịch vụ";
 "Hide Sumi" = "Ẩn Sumi";
 "Hide Others" = "Ẩn các mục khác";
 "Show All" = "Hiển thị tất cả";
 "Quit Sumi" = "Thoát Sumi";
+"System Default" = "Mặc định hệ thống";
 "New File…" = "Tệp mới…";
 "New Folder…" = "Thư mục mới…";
 "New Terminal Tab" = "Tab Terminal mới";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Hoán đổi Terminal và Dự án";
 "Maximize Terminal" = "Phóng to Terminal";
+"GPU Rendering" = "Kết xuất GPU";
 "Soft-Wrap" = "Tự động ngắt dòng";
 "Toggle Preview" = "Bật/tắt xem trước";
 "Increase Font Size" = "Tăng cỡ chữ";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Đưa tất cả lên phía trước";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Ẩn Terminal";
 "Local" = "Cục bộ";
 "Local (%ld)" = "Cục bộ (%ld)";
+"Hide Terminal" = "Ẩn Terminal";
+"Close" = "Đóng";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Đóng các phiên cuối đang chạy?";
+"These processes will be stopped:" = "Các quá trình này sẽ bị dừng:";
+"Cancel" = "Hủy";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Các thay đổi của bạn sẽ bị mất nếu bạn không lưu.";
-"Do you want to save the changes made to “%@”?" = "Bạn có muốn lưu các thay đổi đã thực hiện đối với “%@” không?";
-"Do you want to save the changes made to these files?" = "Bạn có muốn lưu các thay đổi đã thực hiện đối với các tệp này không?";
-"Cancel" = "Hủy";
-"Don't Save" = "Không lưu";
+"Save a Copy…" = "Lưu một bản sao…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Chỉ trình soạn thảo";
@@ -85,6 +90,7 @@
 "Project View" = "Chế độ xem dự án";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Tập tin đã thay đổi trên đĩa. Các chỉnh sửa của bạn đã được lưu giữ. Lưu một bản sao để bảo tồn cả hai phiên bản.";
 "The file is a binary file." = "Tệp này là tệp nhị phân.";
 "The file's text encoding could not be determined." = "Không thể xác định bảng mã văn bản của tệp.";
 "The text cannot be saved in %@." = "Không thể lưu văn bản bằng bảng mã %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Không có tệp gần đây";
 "Recent Files" = "Tệp gần đây";
 "Matches: %1$ld / Files: %2$ld" = "Khớp: %1$ld / Tệp: %2$ld";
-"Close" = "Đóng";

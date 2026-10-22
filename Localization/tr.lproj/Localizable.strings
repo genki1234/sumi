@@ -16,11 +16,13 @@
 "Navigate" = "Gezin";
 "Window" = "Pencere";
 "About Sumi" = "Sumi Hakkında";
+"Language" = "Dil";
 "Services" = "Servisler";
 "Hide Sumi" = "Sumi'yi Gizle";
 "Hide Others" = "Diğerlerini Gizle";
 "Show All" = "Tümünü Göster";
 "Quit Sumi" = "Sumi'den Çık";
+"System Default" = "Sistem Varsayılanı";
 "New File…" = "Yeni Dosya…";
 "New Folder…" = "Yeni Klasör…";
 "New Terminal Tab" = "Yeni Terminal Sekmesi";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Terminal ile Projeyi Değiştir";
 "Maximize Terminal" = "Terminali Büyüt";
+"GPU Rendering" = "GPU Oluşturma";
 "Soft-Wrap" = "Satır Kaydırma";
 "Toggle Preview" = "Önizlemeyi Aç/Kapat";
 "Increase Font Size" = "Yazı Tipi Boyutunu Büyüt";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Tümünü Öne Getir";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Terminali Gizle";
 "Local" = "Yerel";
 "Local (%ld)" = "Yerel (%ld)";
+"Hide Terminal" = "Terminali Gizle";
+"Close" = "Kapat";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Çalışan terminal oturumları kapatılsın mı?";
+"These processes will be stopped:" = "Bu işlemler durdurulacak:";
+"Cancel" = "Vazgeç";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Kaydetmezseniz değişiklikleriniz kaybolacak.";
-"Do you want to save the changes made to “%@”?" = "\"%@\" üzerinde yaptığınız değişiklikleri kaydetmek istiyor musunuz?";
-"Do you want to save the changes made to these files?" = "Bu dosyalarda yaptığınız değişiklikleri kaydetmek istiyor musunuz?";
-"Cancel" = "Vazgeç";
-"Don't Save" = "Kaydetme";
+"Save a Copy…" = "Bir Kopyasını Kaydet…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Yalnızca Düzenleyici";
@@ -85,6 +90,7 @@
 "Project View" = "Proje Görünümü";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Dosya diskte değişti. Düzenlemeleriniz tutuldu. Her iki sürümü de korumak için bir kopyasını kaydedin.";
 "The file is a binary file." = "Dosya bir ikili dosyadır.";
 "The file's text encoding could not be determined." = "Dosyanın metin kodlaması belirlenemedi.";
 "The text cannot be saved in %@." = "Metin %@ kodlamasında kaydedilemiyor.";
@@ -116,4 +122,3 @@
 "No recent files" = "Son kullanılan dosya yok";
 "Recent Files" = "Son Dosyalar";
 "Matches: %1$ld / Files: %2$ld" = "Eşleşme: %1$ld / Dosya: %2$ld";
-"Close" = "Kapat";

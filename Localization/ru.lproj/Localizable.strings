@@ -16,11 +16,13 @@
 "Navigate" = "Навигация";
 "Window" = "Окно";
 "About Sumi" = "О программе Sumi";
+"Language" = "Язык";
 "Services" = "Службы";
 "Hide Sumi" = "Скрыть Sumi";
 "Hide Others" = "Скрыть остальные";
 "Show All" = "Показать все";
 "Quit Sumi" = "Завершить Sumi";
+"System Default" = "Системные настройки по умолчанию";
 "New File…" = "Новый файл…";
 "New Folder…" = "Новая папка…";
 "New Terminal Tab" = "Новая вкладка терминала";
@@ -45,6 +47,7 @@
 "Terminal" = "Терминал";
 "Swap Terminal and Project" = "Поменять местами терминал и проект";
 "Maximize Terminal" = "Развернуть терминал";
+"GPU Rendering" = "Графический рендеринг";
 "Soft-Wrap" = "Мягкий перенос";
 "Toggle Preview" = "Показать/скрыть предпросмотр";
 "Increase Font Size" = "Увеличить размер шрифта";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Все — на передний план";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Скрыть терминал";
 "Local" = "Локальный";
 "Local (%ld)" = "Локальный (%ld)";
+"Hide Terminal" = "Скрыть терминал";
+"Close" = "Закрыть";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Закрыть запущенные сеансы терминала?";
+"These processes will be stopped:" = "Эти процессы будут остановлены:";
+"Cancel" = "Отменить";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Если Вы не сохраните изменения, они будут потеряны.";
-"Do you want to save the changes made to “%@”?" = "Сохранить изменения, внесённые в файл «%@»?";
-"Do you want to save the changes made to these files?" = "Сохранить изменения, внесённые в эти файлы?";
-"Cancel" = "Отменить";
-"Don't Save" = "Не сохранять";
+"Save a Copy…" = "Сохранить копию…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Только редактор";
@@ -85,6 +90,7 @@
 "Project View" = "Представление проекта";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл изменился на диске. Ваши изменения сохранены. Сохраните копию, чтобы сохранить обе версии.";
 "The file is a binary file." = "Файл является двоичным.";
 "The file's text encoding could not be determined." = "Не удалось определить кодировку текста файла.";
 "The text cannot be saved in %@." = "Текст невозможно сохранить в кодировке %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Нет недавних файлов";
 "Recent Files" = "Недавние файлы";
 "Matches: %1$ld / Files: %2$ld" = "Совпадения: %1$ld / Файлы: %2$ld";
-"Close" = "Закрыть";

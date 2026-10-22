@@ -16,11 +16,13 @@
 "Navigate" = "Navegar";
 "Window" = "Janela";
 "About Sumi" = "Acerca do Sumi";
+"Language" = "Idioma";
 "Services" = "Serviços";
 "Hide Sumi" = "Ocultar Sumi";
 "Hide Others" = "Ocultar outras";
 "Show All" = "Mostrar tudo";
 "Quit Sumi" = "Sair do Sumi";
+"System Default" = "Padrão do sistema";
 "New File…" = "Novo ficheiro…";
 "New Folder…" = "Nova pasta…";
 "New Terminal Tab" = "Novo separador de terminal";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Trocar terminal e projeto";
 "Maximize Terminal" = "Maximizar terminal";
+"GPU Rendering" = "Renderização de GPU";
 "Soft-Wrap" = "Quebra de linha automática";
 "Toggle Preview" = "Alternar pré-visualização";
 "Increase Font Size" = "Aumentar tamanho do tipo de letra";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Trazer tudo para a frente";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Ocultar terminal";
 "Local" = "Local";
 "Local (%ld)" = "Local (%ld)";
+"Hide Terminal" = "Ocultar terminal";
+"Close" = "Fechar";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Fechar sessões de terminal em execução?";
+"These processes will be stopped:" = "Esses processos serão interrompidos:";
+"Cancel" = "Cancelar";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "As suas alterações serão perdidas se não as guardar.";
-"Do you want to save the changes made to “%@”?" = "Pretende guardar as alterações efetuadas em «%@»?";
-"Do you want to save the changes made to these files?" = "Pretende guardar as alterações efetuadas nestes ficheiros?";
-"Cancel" = "Cancelar";
-"Don't Save" = "Não guardar";
+"Save a Copy…" = "Salvar uma cópia…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Apenas editor";
@@ -85,6 +90,7 @@
 "Project View" = "Vista do projeto";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "O arquivo foi alterado no disco. Suas edições foram mantidas. Salve uma cópia para preservar ambas as versões.";
 "The file is a binary file." = "O ficheiro é um ficheiro binário.";
 "The file's text encoding could not be determined." = "Não foi possível determinar a codificação de texto do ficheiro.";
 "The text cannot be saved in %@." = "Não é possível guardar o texto em %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Nenhum ficheiro recente";
 "Recent Files" = "Ficheiros recentes";
 "Matches: %1$ld / Files: %2$ld" = "Correspondências: %1$ld / Ficheiros: %2$ld";
-"Close" = "Fechar";

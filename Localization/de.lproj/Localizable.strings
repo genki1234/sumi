@@ -16,11 +16,13 @@
 "Navigate" = "Navigieren";
 "Window" = "Fenster";
 "About Sumi" = "Über Sumi";
+"Language" = "Sprache";
 "Services" = "Dienste";
 "Hide Sumi" = "Sumi ausblenden";
 "Hide Others" = "Andere ausblenden";
 "Show All" = "Alle einblenden";
 "Quit Sumi" = "Sumi beenden";
+"System Default" = "Systemstandard";
 "New File…" = "Neue Datei…";
 "New Folder…" = "Neuer Ordner…";
 "New Terminal Tab" = "Neuer Terminal-Tab";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Terminal und Projekt tauschen";
 "Maximize Terminal" = "Terminal maximieren";
+"GPU Rendering" = "GPU-Rendering";
 "Soft-Wrap" = "Weicher Zeilenumbruch";
 "Toggle Preview" = "Vorschau ein/aus";
 "Increase Font Size" = "Schrift vergrößern";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Alle nach vorne bringen";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Terminal ausblenden";
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
+"Hide Terminal" = "Terminal ausblenden";
+"Close" = "Schließen";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Laufende Terminalsitzungen schließen?";
+"These processes will be stopped:" = "Diese Prozesse werden gestoppt:";
+"Cancel" = "Abbrechen";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Ihre Änderungen gehen verloren, wenn Sie sie nicht sichern.";
-"Do you want to save the changes made to “%@”?" = "Möchten Sie die Änderungen an „%@“ sichern?";
-"Do you want to save the changes made to these files?" = "Möchten Sie die Änderungen an diesen Dateien sichern?";
-"Cancel" = "Abbrechen";
-"Don't Save" = "Nicht sichern";
+"Save a Copy…" = "Eine Kopie speichern…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Nur Editor";
@@ -85,6 +90,7 @@
 "Project View" = "Projektansicht";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Die Datei wurde auf der Festplatte geändert. Ihre Änderungen wurden beibehalten. Speichern Sie eine Kopie, um beide Versionen zu erhalten.";
 "The file is a binary file." = "Die Datei ist eine Binärdatei.";
 "The file's text encoding could not be determined." = "Die Textcodierung der Datei konnte nicht ermittelt werden.";
 "The text cannot be saved in %@." = "Der Text kann nicht in %@ gesichert werden.";
@@ -116,4 +122,3 @@
 "No recent files" = "Keine zuletzt geöffneten Dateien";
 "Recent Files" = "Zuletzt geöffnete Dateien";
 "Matches: %1$ld / Files: %2$ld" = "Treffer: %1$ld / Dateien: %2$ld";
-"Close" = "Schließen";

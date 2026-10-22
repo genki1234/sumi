@@ -1,0 +1,124 @@
+/*
+  Sumi — et translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Avage kaust projektina või redigeerimiseks failina.";
+"Open" = "Avatud";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fail";
+"Edit" = "Muuda";
+"View" = "Vaade";
+"Navigate" = "Navigeerige";
+"Window" = "Aken";
+"About Sumi" = "Sumi rakenduse kohta";
+"Language" = "Keel";
+"Services" = "Teenused";
+"Hide Sumi" = "Peida Sumi";
+"Hide Others" = "Peida teised";
+"Show All" = "Näita kõiki";
+"Quit Sumi" = "Välju Sumi";
+"System Default" = "Süsteemi vaikeseade";
+"New File…" = "Uus fail…";
+"New Folder…" = "Uus kaust…";
+"New Terminal Tab" = "Uus terminali vahekaart";
+"Open…" = "Ava…";
+"Save" = "Salvesta";
+"Save All" = "Salvesta kõik";
+"Close Tab" = "Sule vahekaart";
+"Close Window" = "Sule aken";
+"Undo" = "Võta tagasi";
+"Redo" = "Tee uuesti";
+"Cut" = "Lõika";
+"Copy" = "Kopeeri";
+"Paste" = "Kleebi";
+"Select All" = "Valige Kõik";
+"Find…" = "Leia…";
+"Replace…" = "Asenda…";
+"Find Next" = "Otsige üles";
+"Find Previous" = "Otsi Eelmine";
+"Use Selection for Find" = "Kasutage otsimiseks valikut";
+"Find" = "Otsi";
+"Project" = "Projekt";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Vahetage terminal ja projekt";
+"Maximize Terminal" = "Terminali maksimeerimine";
+"GPU Rendering" = "GPU renderdamine";
+"Soft-Wrap" = "Mähkige pikad tekstiread automaatselt";
+"Toggle Preview" = "Lülitage eelvaade sisse";
+"Increase Font Size" = "Suurendage fondi suurust";
+"Decrease Font Size" = "Vähenda fondi suurust";
+"Reset Font Size" = "Lähtesta fondi suurus";
+"Search Everywhere (Double ⇧)" = "Otsi kõikjalt (topelt ⇧)";
+"Select in Project View" = "Valige projektivaates";
+"Next Tab" = "Järgmine vahekaart";
+"Previous Tab" = "Eelmine vahekaart";
+"Minimize" = "Minimeeri";
+"Zoom" = "Suumi";
+"Bring All to Front" = "Tooge kõik ette";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Kohalik";
+"Local (%ld)" = "Kohalik (%ld)";
+"Hide Terminal" = "Peida terminal";
+"Close" = "Sule";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Kas sulgeda jooksvad terminaliseansid?";
+"These processes will be stopped:" = "Need protsessid peatatakse:";
+"Cancel" = "Tühista";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Salvesta koopia…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Ainult toimetaja";
+"Editor and Preview" = "Redigeerija ja eelvaade";
+"Preview Only" = "Ainult eelvaade";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Kohad: %ld";
+"Plain Text" = "Lihttekst";
+"Search Everywhere" = "Otsi kõikjal";
+"Double ⇧" = "Topelt ⇧";
+"Go to File" = "Minge menüüsse Fail";
+"Open Folder" = "Ava kaust";
+"Project View" = "Projektivaade";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fail muudeti kettal. Teie muudatused on alles jäetud. Mõlema versiooni säilitamiseks salvestage koopia.";
+"The file is a binary file." = "Fail on binaarfail.";
+"The file's text encoding could not be determined." = "Faili tekstikodeeringut ei õnnestunud määrata.";
+"The text cannot be saved in %@." = "Teksti ei saa salvestada numbrile %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Uus kaust";
+"New File" = "Uus fail";
+"Enter a name in “%@”. Use / to create nested folders." = "Sisestage nimi \"%@\". Alamkaustade loomiseks eraldage kaustanimed / märgiga.";
+"Rename" = "Nimeta ümber";
+"Enter a new name for “%@”." = "Sisestage \"%@\" jaoks uus nimi.";
+"Move “%@” to the Trash?" = "Kas teisaldada „%@” prügikasti?";
+"The folder and everything in it will be moved to the Trash." = "Kaust ja kõik selles olev teisaldatakse prügikasti.";
+"You can restore it from the Trash." = "Saate selle prügikastist taastada.";
+"Move to Trash" = "Teisalda prügikasti";
+"OK" = "OK";
+"Rename…" = "Nimeta ümber…";
+"Copy Path" = "Kopeeri tee";
+"Copy Relative Path" = "Kopeeri suhteline tee";
+"Reveal in Finder" = "Avastage Finder-s";
+"Open in Terminal" = "Avage terminalis";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Vasak paneel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Failid";
+"Double ⇧ to search everywhere" = "Topeltklahvi ⇧, et otsida kõikjalt";
+"Type a file name (use / to match the path)" = "Sisestage faili nimi (tee sobitamiseks kasutage /)";
+"No recent files" = "Hiljutised failid puuduvad";
+"Recent Files" = "Viimased failid";
+"Matches: %1$ld / Files: %2$ld" = "Leitud tulemusi: %1$ld / Faile kokku: %2$ld";

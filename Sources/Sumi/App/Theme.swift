@@ -99,7 +99,7 @@ enum FileIcons {
         case .javascript: return (symbol("j.square.fill"), NSColor(hex: 0xE5B800))
         case .typescript: return (symbol("t.square.fill"), NSColor(hex: 0x3178C6))
         case .python: return (symbol("p.square.fill"), NSColor(hex: 0x3776AB))
-        case nil: return (symbol("doc.text"), .secondaryLabelColor)
+        default: return (symbol("doc.text"), .secondaryLabelColor)
         }
     }
 }

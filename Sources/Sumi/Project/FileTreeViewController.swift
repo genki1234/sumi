@@ -4,6 +4,8 @@ import AppKit
 final class FileTreeViewController: NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegate, NSMenuDelegate {
     let root: FileNode
     private let outlineView = FileOutlineView()
+    private let header = NSTextField(labelWithString: "")
+    private let scroll = NSScrollView()
     var onOpenFile: ((URL) -> Void)?
     var onRenamed: ((URL, URL) -> Void)?
     var onTrashed: ((URL) -> Void)?
@@ -21,7 +23,7 @@ final class FileTreeViewController: NSViewController, NSOutlineViewDataSource, N
     override func loadView() {
         let container = NSView()
 
-        let header = NSTextField(labelWithString: L("Project"))
+        header.stringValue = L("Project")
         header.font = .systemFont(ofSize: 12, weight: .semibold)
         header.textColor = .secondaryLabelColor
         header.translatesAutoresizingMaskIntoConstraints = false
@@ -49,7 +51,6 @@ final class FileTreeViewController: NSViewController, NSOutlineViewDataSource, N
         menu.delegate = self
         outlineView.menu = menu
 
-        let scroll = NSScrollView()
         scroll.documentView = outlineView
         scroll.hasVerticalScroller = true
         scroll.autohidesScrollers = true
@@ -70,6 +71,17 @@ final class FileTreeViewController: NSViewController, NSOutlineViewDataSource, N
         view = container
         outlineView.reloadData()
         outlineView.expandItem(root)
+        applyLocalization()
+    }
+
+    func applyLocalization() {
+        guard isViewLoaded else { return }
+        let direction: NSUserInterfaceLayoutDirection = AppLocalization.isRightToLeft ? .rightToLeft : .leftToRight
+        for child in [view, header, scroll, scroll.contentView, outlineView] {
+            child.userInterfaceLayoutDirection = direction
+        }
+        outlineView.menu?.userInterfaceLayoutDirection = direction
+        header.stringValue = L("Project")
     }
 
     // MARK: Data source
@@ -387,6 +399,10 @@ private final class FileCellView: NSTableCellView {
     init(identifier: NSUserInterfaceItemIdentifier) {
         super.init(frame: .zero)
         self.identifier = identifier
+        userInterfaceLayoutDirection = .leftToRight
+        icon.userInterfaceLayoutDirection = .leftToRight
+        label.userInterfaceLayoutDirection = .leftToRight
+        label.baseWritingDirection = .leftToRight
         icon.translatesAutoresizingMaskIntoConstraints = false
         label.translatesAutoresizingMaskIntoConstraints = false
         label.lineBreakMode = .byTruncatingTail
@@ -395,11 +411,11 @@ private final class FileCellView: NSTableCellView {
         imageView = icon
         textField = label
         NSLayoutConstraint.activate([
-            icon.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 2),
+            icon.leftAnchor.constraint(equalTo: leftAnchor, constant: 2),
             icon.centerYAnchor.constraint(equalTo: centerYAnchor),
             icon.widthAnchor.constraint(equalToConstant: 16),
-            label.leadingAnchor.constraint(equalTo: icon.trailingAnchor, constant: 6),
-            label.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -4),
+            label.leftAnchor.constraint(equalTo: icon.rightAnchor, constant: 6),
+            label.rightAnchor.constraint(equalTo: rightAnchor, constant: -4),
             label.centerYAnchor.constraint(equalTo: centerYAnchor),
         ])
     }

@@ -1,0 +1,124 @@
+/*
+  Sumi — tl translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Magbukas ng folder bilang isang proyekto, o isang file na ie-edit.";
+"Open" = "Bukas";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "file";
+"Edit" = "I-edit";
+"View" = "Tingnan";
+"Navigate" = "Mag-navigate";
+"Window" = "Bintana";
+"About Sumi" = "Tungkol sa Sumi application";
+"Language" = "Wika";
+"Services" = "Mga serbisyo";
+"Hide Sumi" = "Itago ang Sumi";
+"Hide Others" = "Itago ang Iba";
+"Show All" = "Ipakita ang Lahat";
+"Quit Sumi" = "Mag-quit Sumi";
+"System Default" = "Gamitin ang wika ng system";
+"New File…" = "Bagong File...";
+"New Folder…" = "Bagong Folder…";
+"New Terminal Tab" = "Bagong Terminal Tab";
+"Open…" = "Buksan...";
+"Save" = "I-save";
+"Save All" = "I-save ang Lahat";
+"Close Tab" = "Isara ang Tab";
+"Close Window" = "Isara ang Window";
+"Undo" = "I-undo";
+"Redo" = "Gawin muli";
+"Cut" = "Putulin";
+"Copy" = "Kopyahin";
+"Paste" = "Idikit";
+"Select All" = "Piliin ang Lahat";
+"Find…" = "Hanapin…";
+"Replace…" = "Palitan...";
+"Find Next" = "Hanapin ang Susunod";
+"Find Previous" = "Hanapin ang Nakaraan";
+"Use Selection for Find" = "Gamitin ang Selection para sa Find";
+"Find" = "Hanapin";
+"Project" = "Proyekto";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Pagpalitin ang Terminal at Proyekto";
+"Maximize Terminal" = "I-maximize ang Terminal";
+"GPU Rendering" = "Pag-render ng GPU";
+"Soft-Wrap" = "Awtomatikong balutin ang mahahabang linya ng teksto";
+"Toggle Preview" = "I-toggle ang Preview";
+"Increase Font Size" = "Palakihin ang Laki ng Font";
+"Decrease Font Size" = "Bawasan ang Laki ng Font";
+"Reset Font Size" = "I-reset ang Laki ng Font";
+"Search Everywhere (Double ⇧)" = "Maghanap Kahit Saan (Doble ⇧)";
+"Select in Project View" = "Pumili sa Project View";
+"Next Tab" = "Susunod na Tab";
+"Previous Tab" = "Nakaraang Tab";
+"Minimize" = "I-minimize";
+"Zoom" = "Mag-zoom";
+"Bring All to Front" = "Dalhin ang Lahat sa Harap";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Lokal";
+"Local (%ld)" = "Lokal (%ld)";
+"Hide Terminal" = "Itago ang Terminal";
+"Close" = "Isara";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Isara ang tumatakbong mga session sa terminal?";
+"These processes will be stopped:" = "Ang mga prosesong ito ay ititigil:";
+"Cancel" = "Kanselahin";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Mag-save ng Kopya...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Editor Lang";
+"Editor and Preview" = "Editor at Preview";
+"Preview Only" = "Preview Lang";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Mga espasyo: %ld";
+"Plain Text" = "Hindi naka-format na teksto";
+"Search Everywhere" = "Maghanap Kahit Saan";
+"Double ⇧" = "Doble ⇧";
+"Go to File" = "Pumunta sa File";
+"Open Folder" = "Buksan ang Folder";
+"Project View" = "View ng Proyekto";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Nagbago ang file sa disk. Ang iyong mga pag-edit ay napanatili. Mag-save ng kopya para mapanatili ang parehong bersyon.";
+"The file is a binary file." = "Ang file ay isang binary file.";
+"The file's text encoding could not be determined." = "Hindi matukoy ang text encoding ng file.";
+"The text cannot be saved in %@." = "Hindi mase-save ang text sa %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Bagong Folder";
+"New File" = "Bagong File";
+"Enter a name in “%@”. Use / to create nested folders." = "Maglagay ng pangalan sa \"%@\". Paghiwalayin ang mga pangalan ng folder sa / character upang lumikha ng mga subfolder.";
+"Rename" = "Palitan ang pangalan";
+"Enter a new name for “%@”." = "Maglagay ng bagong pangalan para sa \"%@\".";
+"Move “%@” to the Trash?" = "Ilipat ang \"%@\" sa Basurahan?";
+"The folder and everything in it will be moved to the Trash." = "Ang folder at lahat ng nasa loob nito ay ililipat sa Basurahan.";
+"You can restore it from the Trash." = "Maaari mo itong ibalik mula sa Basurahan.";
+"Move to Trash" = "Ilipat sa Basura";
+"OK" = "OK";
+"Rename…" = "Palitan ang pangalan...";
+"Copy Path" = "Kopyahin ang Landas";
+"Copy Relative Path" = "Kopyahin ang Relative Path";
+"Reveal in Finder" = "Ipakita sa Finder";
+"Open in Terminal" = "Buksan sa Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Kaliwang Panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Mga file";
+"Double ⇧ to search everywhere" = "I-double ⇧ upang maghanap kahit saan";
+"Type a file name (use / to match the path)" = "Mag-type ng pangalan ng file (gamitin / para tumugma sa landas)";
+"No recent files" = "Walang kamakailang mga file";
+"Recent Files" = "Mga Kamakailang File";
+"Matches: %1$ld / Files: %2$ld" = "Nakita ang mga resulta: %1$ld / Kabuuang mga file: %2$ld";

@@ -1,0 +1,124 @@
+/*
+  Sumi — tg translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Папкаро ҳамчун лоиҳа кушоед ё файле барои таҳрир.";
+"Open" = "Кушода";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Файл";
+"Edit" = "Таҳрир";
+"View" = "Намоиш";
+"Navigate" = "Гузариш";
+"Window" = "Тиреза";
+"About Sumi" = "Дар бораи аризаи Sumi";
+"Language" = "Забон";
+"Services" = "Хизматҳо";
+"Hide Sumi" = "Пинҳон кардани Sumi";
+"Hide Others" = "Пинҳон кардани дигарон";
+"Show All" = "Ҳамаро нишон диҳед";
+"Quit Sumi" = "Sumi хориҷ шавед";
+"System Default" = "Системаи пешфарз";
+"New File…" = "Файли нав…";
+"New Folder…" = "Папкаи нав…";
+"New Terminal Tab" = "Ҷадвали нави терминал";
+"Open…" = "Кушодан…";
+"Save" = "Захира кунед";
+"Save All" = "Ҳамаро захира кунед";
+"Close Tab" = "Варақаро пӯшед";
+"Close Window" = "Пӯшидани Тиреза";
+"Undo" = "Бекор кардан";
+"Redo" = "Такрор кунед";
+"Cut" = "Бурида";
+"Copy" = "Нусхабардорӣ";
+"Paste" = "Часбонед";
+"Select All" = "Ҳамаро интихоб кунед";
+"Find…" = "Пайдо…";
+"Replace…" = "Иваз кардан…";
+"Find Next" = "Ояндаро пайдо кунед";
+"Find Previous" = "Ҷустуҷӯи гузашта";
+"Use Selection for Find" = "Интихобро барои Ҷустуҷӯ истифода баред";
+"Find" = "Пайдо кунед";
+"Project" = "Лоиҳа";
+"Terminal" = "Терминал";
+"Swap Terminal and Project" = "Терминал ва лоиҳаро иваз кунед";
+"Maximize Terminal" = "Максимум кардани терминал";
+"GPU Rendering" = "Намоиши GPU";
+"Soft-Wrap" = "Ба таври худкор хатҳои дарози матнро печонед";
+"Toggle Preview" = "Гузариш пешнамоиш";
+"Increase Font Size" = "Андозаи шрифтро зиёд кунед";
+"Decrease Font Size" = "Андозаи шрифтро кам кунед";
+"Reset Font Size" = "Андозаи шрифтро аз нав танзим кунед";
+"Search Everywhere (Double ⇧)" = "Ҷустуҷӯ дар ҳама ҷо (Дучандон ⇧)";
+"Select in Project View" = "Дар Намоиши лоиҳа интихоб кунед";
+"Next Tab" = "Ҷадвали навбатӣ";
+"Previous Tab" = "Ҷадвали қаблӣ";
+"Minimize" = "Кам кардан";
+"Zoom" = "Масштаб";
+"Bring All to Front" = "Ҳамаро ба пеш оваред";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "маҳаллӣ";
+"Local (%ld)" = "Маҳаллӣ (%ld)";
+"Hide Terminal" = "Пинҳон кардани терминал";
+"Close" = "Пӯшед";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Сеансҳои терминали иҷрошударо пӯшед?";
+"These processes will be stopped:" = "Ин равандҳо қатъ карда мешаванд:";
+"Cancel" = "Бекор кардан";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Нусхаро захира кунед…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Танҳо муҳаррир";
+"Editor and Preview" = "Муҳаррир ва пешнамоиш";
+"Preview Only" = "Танҳо пешнамоиш";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Ҷойҳо: %ld";
+"Plain Text" = "Матни оддӣ";
+"Search Everywhere" = "Дар ҳама ҷо ҷустуҷӯ кунед";
+"Double ⇧" = "Дучандон ⇧";
+"Go to File" = "Ба Файл гузаред";
+"Open Folder" = "Папкаро кушоед";
+"Project View" = "Намоиши лоиҳа";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл дар диск тағир ёфт. Таҳрирҳои шумо нигоҳ дошта шуданд. Барои нигоҳ доштани ҳарду версия як нусхаро захира кунед.";
+"The file is a binary file." = "Файл як файли дуӣ аст.";
+"The file's text encoding could not be determined." = "Рамзгузории матнии файлро муайян кардан муяссар нашуд.";
+"The text cannot be saved in %@." = "Матнро дар %@ захира кардан мумкин нест.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Папкаи нав";
+"New File" = "Файли нав";
+"Enter a name in “%@”. Use / to create nested folders." = "Номро дар \"%@\" ворид кунед. Номҳои ҷузвдонҳоро бо аломати / ҷудо кунед, то зерпапкаҳоро эҷод кунед.";
+"Rename" = "Номи дигар";
+"Enter a new name for “%@”." = "Номи нав барои \"%@\" ворид кунед.";
+"Move “%@” to the Trash?" = "\"%@\" ба партов интиқол дода шавад?";
+"The folder and everything in it will be moved to the Trash." = "Папка ва ҳама чизҳои дар он буда ба партов интиқол дода мешаванд.";
+"You can restore it from the Trash." = "Шумо метавонед онро аз партов барқарор кунед.";
+"Move to Trash" = "Ба партов гузаред";
+"OK" = "Хуб";
+"Rename…" = "Иваз кардани ном…";
+"Copy Path" = "Роҳи нусхабардорӣ";
+"Copy Relative Path" = "Нусхабардории роҳи нисбӣ";
+"Reveal in Finder" = "Дар Finder ошкор кунед";
+"Open in Terminal" = "Дар Терминал кушоед";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Панели чап";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Файлҳо";
+"Double ⇧ to search everywhere" = "Дучандон ⇧ барои ҷустуҷӯ дар ҳама ҷо";
+"Type a file name (use / to match the path)" = "Номи файлро нависед (барои мувофиқ кардани роҳ / истифода баред)";
+"No recent files" = "Файлҳои охирин нест";
+"Recent Files" = "Файлҳои охирин";
+"Matches: %1$ld / Files: %2$ld" = "Натоиҷи ёфтшуда: %1$ld / Ҳама файлҳо: %2$ld";

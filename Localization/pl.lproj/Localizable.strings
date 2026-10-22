@@ -16,11 +16,13 @@
 "Navigate" = "Nawigacja";
 "Window" = "Okno";
 "About Sumi" = "O aplikacji Sumi";
+"Language" = "Język";
 "Services" = "Usługi";
 "Hide Sumi" = "Ukryj Sumi";
 "Hide Others" = "Ukryj pozostałe";
 "Show All" = "Pokaż wszystko";
 "Quit Sumi" = "Zakończ Sumi";
+"System Default" = "Domyślne systemowe";
 "New File…" = "Nowy plik…";
 "New Folder…" = "Nowy folder…";
 "New Terminal Tab" = "Nowa karta terminala";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Zamień miejscami terminal i projekt";
 "Maximize Terminal" = "Maksymalizuj terminal";
+"GPU Rendering" = "Renderowanie GPU";
 "Soft-Wrap" = "Miękkie zawijanie";
 "Toggle Preview" = "Przełącz podgląd";
 "Increase Font Size" = "Zwiększ rozmiar czcionki";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Przenieś wszystko na wierzch";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Ukryj terminal";
 "Local" = "Lokalny";
 "Local (%ld)" = "Lokalny (%ld)";
+"Hide Terminal" = "Ukryj terminal";
+"Close" = "Zamknij";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Zamknąć działające sesje terminalowe?";
+"These processes will be stopped:" = "Procesy te zostaną zatrzymane:";
+"Cancel" = "Anuluj";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Jeśli ich nie zachowasz, zmiany zostaną utracone.";
-"Do you want to save the changes made to “%@”?" = "Czy chcesz zachować zmiany wprowadzone w pliku „%@”?";
-"Do you want to save the changes made to these files?" = "Czy chcesz zachować zmiany wprowadzone w tych plikach?";
-"Cancel" = "Anuluj";
-"Don't Save" = "Nie zachowuj";
+"Save a Copy…" = "Zapisz kopię…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Tylko edytor";
@@ -85,6 +90,7 @@
 "Project View" = "Widok projektu";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Plik został zmieniony na dysku. Twoje zmiany zostały zachowane. Zapisz kopię, aby zachować obie wersje.";
 "The file is a binary file." = "Plik jest plikiem binarnym.";
 "The file's text encoding could not be determined." = "Nie udało się ustalić kodowania tekstu pliku.";
 "The text cannot be saved in %@." = "Tekstu nie można zachować w kodowaniu %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Brak ostatnich plików";
 "Recent Files" = "Ostatnie pliki";
 "Matches: %1$ld / Files: %2$ld" = "Dopasowania: %1$ld / Pliki: %2$ld";
-"Close" = "Zamknij";

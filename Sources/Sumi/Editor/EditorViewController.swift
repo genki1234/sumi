@@ -12,6 +12,9 @@ final class EditorViewController: NSViewController, NSTextViewDelegate, NSSplitV
     private var splitView: NSSplitView?
     private var modeControl: NSSegmentedControl?
     private(set) var previewMode = PreviewMode.editor
+    private var autosaveTask: Task<Void, Never>?
+    private var autosaveFailed = false
+    var onSaveError: ((Error) -> Void)?
     private var previewTask: Task<Void, Never>?
     private var previewIsStale = true
     /// Share of the width the text takes when text and preview are side by side.
@@ -307,6 +310,16 @@ final class EditorViewController: NSViewController, NSTextViewDelegate, NSSplitV
         highlighter.setLanguage(document.language, buffer: document.utf16Buffer())
     }
 
+    func applyLocalization() {
+        guard let control = modeControl else { return }
+        let labels = [L("Editor Only"), L("Editor and Preview"), L("Preview Only")]
+        let symbols = ["text.alignleft", "rectangle.split.2x1", "eye"]
+        for index in labels.indices {
+            control.setToolTip(labels[index], forSegment: index)
+            control.setImage(NSImage(systemSymbolName: symbols[index], accessibilityDescription: labels[index]), forSegment: index)
+        }
+    }
+
     func reloadFromDisk() {
         let selection = textView.selectedRange()
         do {
@@ -355,8 +368,45 @@ final class EditorViewController: NSViewController, NSTextViewDelegate, NSSplitV
         document.isDirty = true
         refreshAnalysis()
         schedulePreview()
+        scheduleAutosave()
         onStateChange?(becameDirty)
     }
+
+    /// Wait for a pause in typing and for the input method to commit its composition.
+    private func scheduleAutosave() {
+        autosaveTask?.cancel()
+        guard !autosaveFailed else { return }
+        autosaveTask = Task { [weak self] in
+            try? await Task.sleep(for: .milliseconds(500))
+            guard !Task.isCancelled, let self else { return }
+            if self.textView.hasMarkedText() {
+                self.scheduleAutosave()
+                return
+            }
+            self.savePendingChanges()
+        }
+    }
+
+    @discardableResult
+    func savePendingChanges() -> Bool {
+        autosaveTask?.cancel()
+        // Closing commits the input method's current text before writing it.
+        if textView.hasMarkedText() { textView.unmarkText() }
+        do {
+            try document.save()
+            autosaveFailed = false
+            onStateChange?(true)
+            return true
+        } catch {
+            // Keep the tab and its undo history. Retry explicitly instead of showing
+            // a new error sheet on every keystroke after a persistent disk failure.
+            autosaveFailed = true
+            onSaveError?(error)
+            return false
+        }
+    }
+
+    func cancelAutosave() { autosaveTask?.cancel() }
 
     func textViewDidChangeSelection(_ notification: Notification) {
         gutter?.needsDisplay = true

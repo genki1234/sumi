@@ -16,11 +16,13 @@
 "Navigate" = "Navigálás";
 "Window" = "Ablak";
 "About Sumi" = "A Sumi névjegye";
+"Language" = "Nyelv";
 "Services" = "Szolgáltatások";
 "Hide Sumi" = "Sumi elrejtése";
 "Hide Others" = "Többi elrejtése";
 "Show All" = "Összes megjelenítése";
 "Quit Sumi" = "Kilépés a Sumiból";
+"System Default" = "Rendszer alapértelmezett";
 "New File…" = "Új fájl…";
 "New Folder…" = "Új mappa…";
 "New Terminal Tab" = "Új terminállap";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminál";
 "Swap Terminal and Project" = "Terminál és projekt felcserélése";
 "Maximize Terminal" = "Terminál maximalizálása";
+"GPU Rendering" = "GPU renderelés";
 "Soft-Wrap" = "Lágy sortörés";
 "Toggle Preview" = "Előnézet be/ki";
 "Increase Font Size" = "Betűméret növelése";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Összes előtérbe hozása";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Terminál elrejtése";
 "Local" = "Helyi";
 "Local (%ld)" = "Helyi (%ld)";
+"Hide Terminal" = "Terminál elrejtése";
+"Close" = "Bezárás";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Bezárja a futó terminálmunkameneteket?";
+"These processes will be stopped:" = "Ezek a folyamatok leállnak:";
+"Cancel" = "Mégse";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "A módosítások elvesznek, ha nem menti őket.";
-"Do you want to save the changes made to “%@”?" = "Menti a(z) „%@” fájlban végzett módosításokat?";
-"Do you want to save the changes made to these files?" = "Menti az ezekben a fájlokban végzett módosításokat?";
-"Cancel" = "Mégse";
-"Don't Save" = "Ne mentse";
+"Save a Copy…" = "Másolat mentése…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Csak szerkesztő";
@@ -85,6 +90,7 @@
 "Project View" = "Projektnézet";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "A fájl megváltozott a lemezen. A szerkesztéseid megmaradtak. Mentse el a másolatot mindkét verzió megőrzéséhez.";
 "The file is a binary file." = "A fájl bináris fájl.";
 "The file's text encoding could not be determined." = "A fájl szövegkódolását nem sikerült megállapítani.";
 "The text cannot be saved in %@." = "A szöveg nem menthető ebben a kódolásban: %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Nincsenek legutóbbi fájlok";
 "Recent Files" = "Legutóbbi fájlok";
 "Matches: %1$ld / Files: %2$ld" = "Találatok: %1$ld / Fájlok: %2$ld";
-"Close" = "Bezárás";

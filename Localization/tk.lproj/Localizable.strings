@@ -1,0 +1,124 @@
+/*
+  Sumi — tk translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Taslama hökmünde bukjany ýa-da redaktirlemek üçin faýl açyň.";
+"Open" = "Açyň";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Faýl";
+"Edit" = "Redaktirläň";
+"View" = "Gör";
+"Navigate" = "Nawigasiýa";
+"Window" = "Penjire";
+"About Sumi" = "Sumi anketasy barada";
+"Language" = "Dil";
+"Services" = "Hyzmatlar";
+"Hide Sumi" = "Sumi gizläň";
+"Hide Others" = "Başgalary gizläň";
+"Show All" = "Hemmesini görkez";
+"Quit Sumi" = "Sumi taşlaň";
+"System Default" = "Ulgam standarty";
+"New File…" = "Täze faýl…";
+"New Folder…" = "Täze bukja…";
+"New Terminal Tab" = "Täze Terminal goýmasy";
+"Open…" = "Aç ...";
+"Save" = "Saklaň";
+"Save All" = "Hemmesini sakla";
+"Close Tab" = "Salgy ýapyň";
+"Close Window" = "Penjiräni ýapyň";
+"Undo" = "Yza gaýtar";
+"Redo" = "Gaýtadan işlediň";
+"Cut" = "Kesiň";
+"Copy" = "Göçüriň";
+"Paste" = "Goýuň";
+"Select All" = "Hemmesini saýlaň";
+"Find…" = "Tapmak…";
+"Replace…" = "Çalyş ...";
+"Find Next" = "Indiki tap";
+"Find Previous" = "Öňki tap";
+"Use Selection for Find" = "Tapmak üçin saýlamany ulanyň";
+"Find" = "Tap";
+"Project" = "Taslama";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Terminal we taslama çalyşmak";
+"Maximize Terminal" = "Terminaly ulaldyň";
+"GPU Rendering" = "GPU hödürlemek";
+"Soft-Wrap" = "Uzyn tekst setirlerini awtomatiki usulda örtüň";
+"Toggle Preview" = "Öňünden syn";
+"Increase Font Size" = "Şriftiň ululygyny ulaldyň";
+"Decrease Font Size" = "Şriftiň ululygyny kiçeltmek";
+"Reset Font Size" = "Şrift ölçegini täzeden düzmek";
+"Search Everywhere (Double ⇧)" = "Her ýerde gözläň (goşa ⇧)";
+"Select in Project View" = "Taslama görnüşinde saýlaň";
+"Next Tab" = "Indiki goýma";
+"Previous Tab" = "Öňki goýma";
+"Minimize" = "Minimallaşdyryň";
+"Zoom" = "Ulaltmak";
+"Bring All to Front" = "Hemmesini öňe sür";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Localerli";
+"Local (%ld)" = "Localerli (%ld)";
+"Hide Terminal" = "Terminaly gizläň";
+"Close" = ".Akyn";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Işleýän terminal sessiýalaryny ýapyňmy?";
+"These processes will be stopped:" = "Bu amallar bes ediler:";
+"Cancel" = "Elatyr";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Göçürmäni ýazdyryň ...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Diňe redaktor";
+"Editor and Preview" = "Redaktor we deslapky syn";
+"Preview Only" = "Diňe deslapky syn";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Boş ýerler: %ld";
+"Plain Text" = "Tekst tekst";
+"Search Everywhere" = "Her ýerden gözläň";
+"Double ⇧" = "Iki gezek ⇧";
+"Go to File" = "Faýla gidiň";
+"Open Folder" = "Papkany açyň";
+"Project View" = "Taslamanyň görnüşi";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faýl diskde üýtgedi. Üýtgetmeleriňiz saklandy. Iki görnüşini hem saklamak üçin bir nusgasyny ýazdyryň.";
+"The file is a binary file." = "Faýl ikilik faýl.";
+"The file's text encoding could not be determined." = "Faýlyň tekst kodlamagy kesgitlenip bilinmedi.";
+"The text cannot be saved in %@." = "Tekst %@-de saklanyp bilinmez.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Täze bukja";
+"New File" = "Täze faýl";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” -e bir at giriziň. Subfolderleri döretmek üçin bukjanyň atlaryny / nyşan bilen aýratynlaşdyryň.";
+"Rename" = "Adyny üýtgetmek";
+"Enter a new name for “%@”." = "“%@” üçin täze at giriziň.";
+"Move “%@” to the Trash?" = "“%@” -y zibile geçiriň?";
+"The folder and everything in it will be moved to the Trash." = "Papka we içindäki ähli zatlar Zibile geçiriler.";
+"You can restore it from the Trash." = "Hapadan dikeldip bilersiňiz.";
+"Move to Trash" = "Zibile geçiň";
+"OK" = "Bolýar";
+"Rename…" = "Adyny üýtgetmek…";
+"Copy Path" = "Athol göçüriň";
+"Copy Relative Path" = "Nisbi ýoly göçüriň";
+"Reveal in Finder" = "Finder-de açyň";
+"Open in Terminal" = "Terminalda açyň";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Çep panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Faýllar";
+"Double ⇧ to search everywhere" = "Her ýerde gözlemek üçin goşa ⇧";
+"Type a file name (use / to match the path)" = "Faýlyň adyny ýazyň (ýoly deňeşdirmek üçin ulanyň)";
+"No recent files" = "Soňky faýllar ýok";
+"Recent Files" = "Soňky faýllar";
+"Matches: %1$ld / Files: %2$ld" = "Netijeler: %1$ld / Jemi faýllar: %2$ld";

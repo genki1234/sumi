@@ -16,11 +16,13 @@
 "Navigate" = "Navigacija";
 "Window" = "Prozor";
 "About Sumi" = "O aplikaciji Sumi";
+"Language" = "Jezik";
 "Services" = "Usluge";
 "Hide Sumi" = "Sakrij Sumi";
 "Hide Others" = "Sakrij ostale";
 "Show All" = "Prikaži sve";
 "Quit Sumi" = "Zatvori Sumi";
+"System Default" = "Zadane postavke sustava";
 "New File…" = "Nova datoteka…";
 "New Folder…" = "Nova mapa…";
 "New Terminal Tab" = "Nova kartica terminala";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Zamijeni terminal i projekt";
 "Maximize Terminal" = "Maksimiziraj terminal";
+"GPU Rendering" = "GPU renderiranje";
 "Soft-Wrap" = "Meko prelamanje";
 "Toggle Preview" = "Uključi/isključi pregled";
 "Increase Font Size" = "Povećaj veličinu fonta";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Postavi sve u prvi plan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Sakrij terminal";
 "Local" = "Lokalno";
 "Local (%ld)" = "Lokalno (%ld)";
+"Hide Terminal" = "Sakrij terminal";
+"Close" = "Zatvori";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Zatvoriti pokrenute sesije terminala?";
+"These processes will be stopped:" = "Ovi procesi će biti zaustavljeni:";
+"Cancel" = "Odustani";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Promjene će biti izgubljene ako ih ne spremite.";
-"Do you want to save the changes made to “%@”?" = "Želite li spremiti promjene napravljene u datoteci „%@“?";
-"Do you want to save the changes made to these files?" = "Želite li spremiti promjene napravljene u ovim datotekama?";
-"Cancel" = "Odustani";
-"Don't Save" = "Nemoj spremiti";
+"Save a Copy…" = "Spremi kopiju…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Samo uređivač";
@@ -85,6 +90,7 @@
 "Project View" = "Prikaz projekta";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Datoteka je promijenjena na disku. Vaše izmjene su zadržane. Spremite kopiju kako biste sačuvali obje verzije.";
 "The file is a binary file." = "Datoteka je binarna.";
 "The file's text encoding could not be determined." = "Nije moguće odrediti kodiranje teksta datoteke.";
 "The text cannot be saved in %@." = "Tekst nije moguće spremiti u kodiranju %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Nema nedavnih datoteka";
 "Recent Files" = "Nedavne datoteke";
 "Matches: %1$ld / Files: %2$ld" = "Podudaranja: %1$ld / Datoteke: %2$ld";
-"Close" = "Zatvori";

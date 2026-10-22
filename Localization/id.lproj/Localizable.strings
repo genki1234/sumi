@@ -16,11 +16,13 @@
 "Navigate" = "Navigasi";
 "Window" = "Jendela";
 "About Sumi" = "Tentang Sumi";
+"Language" = "Bahasa";
 "Services" = "Layanan";
 "Hide Sumi" = "Sembunyikan Sumi";
 "Hide Others" = "Sembunyikan yang Lain";
 "Show All" = "Tampilkan Semua";
 "Quit Sumi" = "Keluar dari Sumi";
+"System Default" = "Bawaan Sistem";
 "New File…" = "Berkas Baru…";
 "New Folder…" = "Folder Baru…";
 "New Terminal Tab" = "Tab Terminal Baru";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Tukar Terminal dan Proyek";
 "Maximize Terminal" = "Maksimalkan Terminal";
+"GPU Rendering" = "Rendering GPU";
 "Soft-Wrap" = "Bungkus Baris Otomatis";
 "Toggle Preview" = "Alihkan Pratinjau";
 "Increase Font Size" = "Perbesar Ukuran Font";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Bawa Semua ke Depan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Sembunyikan Terminal";
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
+"Hide Terminal" = "Sembunyikan Terminal";
+"Close" = "Tutup";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Tutup sesi terminal yang sedang berjalan?";
+"These processes will be stopped:" = "Proses-proses ini akan dihentikan:";
+"Cancel" = "Batalkan";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Perubahan Anda akan hilang jika Anda tidak menyimpannya.";
-"Do you want to save the changes made to “%@”?" = "Apakah Anda ingin menyimpan perubahan yang dibuat pada “%@”?";
-"Do you want to save the changes made to these files?" = "Apakah Anda ingin menyimpan perubahan yang dibuat pada berkas ini?";
-"Cancel" = "Batalkan";
-"Don't Save" = "Jangan Simpan";
+"Save a Copy…" = "Simpan Salinan…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Hanya Editor";
@@ -85,6 +90,7 @@
 "Project View" = "Tampilan Proyek";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "File diubah pada disk. Hasil edit Anda telah disimpan. Simpan salinan untuk mempertahankan kedua versi.";
 "The file is a binary file." = "Berkas ini adalah berkas biner.";
 "The file's text encoding could not be determined." = "Pengodean teks berkas tidak dapat ditentukan.";
 "The text cannot be saved in %@." = "Teks tidak dapat disimpan dalam %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Tidak ada berkas terbaru";
 "Recent Files" = "Berkas Terbaru";
 "Matches: %1$ld / Files: %2$ld" = "Cocok: %1$ld / Berkas: %2$ld";
-"Close" = "Tutup";

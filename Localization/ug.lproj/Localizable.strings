@@ -1,0 +1,124 @@
+/*
+  Sumi — ug translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "ھۆججەت قىسقۇچنى ياكى تەھرىرلەيدىغان ھۆججەتنى ئېچىڭ.";
+"Open" = "ئېچىڭ";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "ھۆججەت";
+"Edit" = "تەھرىر";
+"View" = "كۆرۈش";
+"Navigate" = "يول باشلاش";
+"Window" = "كۆزنەك";
+"About Sumi" = "تەخمىنەن Sumi ئىلتىماسى";
+"Language" = "تىل";
+"Services" = "مۇلازىمەتلەر";
+"Hide Sumi" = "Sumi نى يوشۇرۇش";
+"Hide Others" = "باشقىلارنى يوشۇر";
+"Show All" = "ھەممىنى كۆرسەت";
+"Quit Sumi" = "Sumi نى تاشلاڭ";
+"System Default" = "سىستېما كۆڭۈلدىكى قىممىتى";
+"New File…" = "يېڭى ھۆججەت…";
+"New Folder…" = "يېڭى ھۆججەت قىسقۇچ…";
+"New Terminal Tab" = "يېڭى تېرمىنال بەتكۈچى";
+"Open…" = "ئېچىڭ…";
+"Save" = "ساقلاش";
+"Save All" = "ھەممىنى ساقلاڭ";
+"Close Tab" = "بەتكۈچنى تاقاش";
+"Close Window" = "كۆزنەكنى تاقاش";
+"Undo" = "ئەمەلدىن قالدۇرۇش";
+"Redo" = "ئاخىرقى ھەرىكەتنى تەكرارلاڭ";
+"Cut" = "كېسىڭ";
+"Copy" = "كۆچۈرۈڭ";
+"Paste" = "چاپلاش";
+"Select All" = "ھەممىنى تاللاڭ";
+"Find…" = "ئىزدەش…";
+"Replace…" = "ئالماشتۇرۇش…";
+"Find Next" = "كېيىنكىسىنى تېپىڭ";
+"Find Previous" = "ئالدىنقىسىنى تېپىش";
+"Use Selection for Find" = "ئىزدەش ئۈچۈن تاللاشنى ئىشلىتىڭ";
+"Find" = "ئىزدەش";
+"Project" = "تۈر";
+"Terminal" = "تېرمىنال";
+"Swap Terminal and Project" = "ئالماشتۇرۇش تېرمىنالى ۋە تۈرى";
+"Maximize Terminal" = "تېرمىنالنى چوڭايتىڭ";
+"GPU Rendering" = "GPU ئارقىلىق گرافىكنى بېرىڭ";
+"Soft-Wrap" = "ئۇزۇن تېكىست قۇرلىرىنى ئاپتوماتىك ئوراپ قويۇڭ";
+"Toggle Preview" = "ئالدىن كۆرۈش";
+"Increase Font Size" = "خەت نۇسخىسىنى چوڭايتىڭ";
+"Decrease Font Size" = "خەت نۇسخىسىنى كىچىكلىتىش";
+"Reset Font Size" = "خەت چوڭلۇقىنى ئەسلىگە كەلتۈرۈڭ";
+"Search Everywhere (Double ⇧)" = "ھەممە يەردىن ئىزدەڭ (قوش ⇧)";
+"Select in Project View" = "تۈر كۆرۈنۈشىدىن تاللاڭ";
+"Next Tab" = "كېيىنكى بەتكۈچ";
+"Previous Tab" = "ئالدىنقى بەتكۈچ";
+"Minimize" = "كىچىكلىتىڭ";
+"Zoom" = "چوڭايتىش";
+"Bring All to Front" = "ھەممىنى ئالدىغا ئېلىپ كېلىڭ";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "يەرلىك";
+"Local (%ld)" = "يەرلىك (%ld)";
+"Hide Terminal" = "تېرمىنالنى يوشۇرۇش";
+"Close" = "تاقاش";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "ئىجرا تېرمىنال يىغىنلىرىنى تاقامسىز؟";
+"These processes will be stopped:" = "بۇ جەريانلار توختىتىلىدۇ:";
+"Cancel" = "بىكار قىلىش";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "بىر نۇسخا ساقلاڭ…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "پەقەت تەھرىر";
+"Editor and Preview" = "تەھرىر ۋە ئالدىن كۆرۈش";
+"Preview Only" = "پەقەت ئالدىن كۆرۈش";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "بوشلۇق: %ld";
+"Plain Text" = "تۈزلەڭلىك تېكىست";
+"Search Everywhere" = "ھەممە يەردىن ئىزدەڭ";
+"Double ⇧" = "⇧ ئىككى قېتىم بېسىڭ";
+"Go to File" = "ھۆججەتكە بېرىڭ";
+"Open Folder" = "ھۆججەت قىسقۇچنى ئېچىڭ";
+"Project View" = "تۈر كۆرۈنۈشى";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ھۆججەت دىسكىدا ئۆزگەردى. تەھرىرلىرىڭىز ساقلاندى. ھەر ئىككى نۇسخىسىنى ساقلاپ قېلىش ئۈچۈن بىر نۇسخا ساقلاڭ.";
+"The file is a binary file." = "بۇ ھۆججەت ئىككىلىك ھۆججەت.";
+"The file's text encoding could not be determined." = "بۇ ھۆججەتنىڭ تېكىست كودلاش ئۇسۇلىنى ئېنىقلىغىلى بولمىدى.";
+"The text cannot be saved in %@." = "بۇ تېكىستنى %@ دە ساقلىغىلى بولمايدۇ.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "يېڭى ھۆججەت قىسقۇچ";
+"New File" = "يېڭى ھۆججەت";
+"Enter a name in “%@”. Use / to create nested folders." = "«%@» غا ئىسىم كىرگۈزۈڭ. ھۆججەت قىسقۇچ نامىنى / ھەرپ بىلەن ئايرىپ تارماق قىسقۇچ قۇرۇش.";
+"Rename" = "ئىسىم ئۆزگەرتىش";
+"Enter a new name for “%@”." = "«%@» نىڭ يېڭى نامىنى كىرگۈزۈڭ.";
+"Move “%@” to the Trash?" = "«%@» نى ئەخلەت ساندۇقىغا يۆتكەڭ؟";
+"The folder and everything in it will be moved to the Trash." = "ھۆججەت قىسقۇچ ۋە ئۇنىڭدىكى بارلىق نەرسىلەر ئەخلەت ساندۇقىغا يۆتكىلىدۇ.";
+"You can restore it from the Trash." = "ئۇنى ئەخلەت ساندۇقىدىن ئەسلىگە كەلتۈرەلەيسىز.";
+"Move to Trash" = "ئەخلەت ساندۇقىغا يۆتكەڭ";
+"OK" = "ماقۇل";
+"Rename…" = "ئىسىمنى ئۆزگەرتىڭ…";
+"Copy Path" = "كۆچۈرۈش يولى";
+"Copy Relative Path" = "نىسپىي يولنى كۆچۈرۈڭ";
+"Reveal in Finder" = "Finder دا ئاشكارىلاش";
+"Open in Terminal" = "تېرمىنالدا ئېچىڭ";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "سول تەرەپ";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "ھۆججەتلەر";
+"Double ⇧ to search everywhere" = "قوش ⇧ ھەممە يەردىن ئىزدەش";
+"Type a file name (use / to match the path)" = "ھۆججەت نامىنى كىرگۈزۈڭ (ئىشلىتىش / يولنى ماسلاشتۇرۇش)";
+"No recent files" = "يېقىنقى ھۆججەت يوق";
+"Recent Files" = "يېقىنقى ھۆججەتلەر";
+"Matches: %1$ld / Files: %2$ld" = "تېپىلغان نەتىجىلەر: %1$ld / ئومۇمىي ھۆججەت: %2$ld";

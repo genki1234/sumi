@@ -16,11 +16,13 @@
 "Navigate" = "Navigace";
 "Window" = "Okno";
 "About Sumi" = "O aplikaci Sumi";
+"Language" = "Jazyk";
 "Services" = "Služby";
 "Hide Sumi" = "Skrýt Sumi";
 "Hide Others" = "Skrýt ostatní";
 "Show All" = "Zobrazit vše";
 "Quit Sumi" = "Ukončit Sumi";
+"System Default" = "Výchozí nastavení systému";
 "New File…" = "Nový soubor…";
 "New Folder…" = "Nová složka…";
 "New Terminal Tab" = "Nový panel terminálu";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminál";
 "Swap Terminal and Project" = "Prohodit terminál a projekt";
 "Maximize Terminal" = "Maximalizovat terminál";
+"GPU Rendering" = "Vykreslování GPU";
 "Soft-Wrap" = "Měkké zalamování";
 "Toggle Preview" = "Přepnout náhled";
 "Increase Font Size" = "Zvětšit velikost písma";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Přenést vše do popředí";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Skrýt terminál";
 "Local" = "Místní";
 "Local (%ld)" = "Místní (%ld)";
+"Hide Terminal" = "Skrýt terminál";
+"Close" = "Zavřít";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Zavřít spuštěné terminálové relace?";
+"These processes will be stopped:" = "Tyto procesy budou zastaveny:";
+"Cancel" = "Zrušit";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Pokud změny neuložíte, budou ztraceny.";
-"Do you want to save the changes made to “%@”?" = "Chcete uložit změny provedené v souboru „%@“?";
-"Do you want to save the changes made to these files?" = "Chcete uložit změny provedené v těchto souborech?";
-"Cancel" = "Zrušit";
-"Don't Save" = "Neukládat";
+"Save a Copy…" = "Uložit kopii…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Pouze editor";
@@ -85,6 +90,7 @@
 "Project View" = "Zobrazení projektu";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Soubor se na disku změnil. Vaše úpravy byly zachovány. Chcete-li zachovat obě verze, uložte kopii.";
 "The file is a binary file." = "Soubor je binární.";
 "The file's text encoding could not be determined." = "Nelze určit kódování textu souboru.";
 "The text cannot be saved in %@." = "Text nelze uložit v kódování %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Žádné nedávné soubory";
 "Recent Files" = "Nedávné soubory";
 "Matches: %1$ld / Files: %2$ld" = "Shody: %1$ld / Soubory: %2$ld";
-"Close" = "Zavřít";

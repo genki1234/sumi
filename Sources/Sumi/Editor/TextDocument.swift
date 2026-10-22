@@ -16,9 +16,11 @@ enum DocumentError: LocalizedError {
     case binary
     case undecodable
     case unencodable(String)
+    case changedOnDisk
 
     var errorDescription: String? {
         switch self {
+        case .changedOnDisk: L("The file changed on disk. Your edits have been kept. Save a copy to preserve both versions.")
         case .binary: L("The file is a binary file.")
         case .undecodable: L("The file's text encoding could not be determined.")
         case .unencodable(let encoding): L("The text cannot be saved in %@.", encoding)
@@ -37,6 +39,7 @@ final class TextDocument {
     private(set) var hasBOM = false
     private(set) var lineEnding: LineEnding = .lf
     private(set) var diskModificationDate: Date?
+    private var diskData = Data()
     var isDirty = false
 
     init(url: URL) throws {
@@ -55,10 +58,12 @@ final class TextDocument {
         let data = try Data(contentsOf: url)
         let (raw, encoding, bom) = try Self.decode(data)
         let (text, ending) = Self.normalizeLineEndings(raw)
+        language = Language(url: url, source: text)
         self.encoding = encoding
         self.hasBOM = bom
         self.lineEnding = ending
         textStorage.setAttributedString(NSAttributedString(string: text, attributes: Theme.textAttributes()))
+        diskData = data
         diskModificationDate = Self.modificationDate(url)
     }
 
@@ -69,6 +74,19 @@ final class TextDocument {
     }
 
     func save() throws {
+        guard isDirty else { return }
+        // Compare bytes, including encoding and line endings: timestamps alone can miss
+        // an agent replacing the file between the last reload and this save.
+        guard try Data(contentsOf: url) == diskData else { throw DocumentError.changedOnDisk }
+        try write(to: url)
+    }
+
+    func saveCopy(to target: URL) throws {
+        try write(to: target)
+        rename(to: target)
+    }
+
+    private func write(to destination: URL) throws {
         var text = textStorage.string
         if lineEnding != .lf {
             let ns = text as NSString
@@ -82,19 +100,20 @@ final class TextDocument {
         }
         // Write through symlinks and keep the file mode (e.g. executable scripts),
         // because an atomic write replaces the file with a new one.
-        let target = url.resolvingSymlinksInPath()
+        let target = destination.resolvingSymlinksInPath()
         let permissions = try? FileManager.default.attributesOfItem(atPath: target.path)[.posixPermissions]
         try data.write(to: target, options: .atomic)
         if let permissions {
             try? FileManager.default.setAttributes([.posixPermissions: permissions], ofItemAtPath: target.path)
         }
-        diskModificationDate = Self.modificationDate(url)
+        diskData = data
+        diskModificationDate = Self.modificationDate(destination)
         isDirty = false
     }
 
     func rename(to newURL: URL) {
         url = newURL
-        language = Language(url: newURL)
+        language = Language(url: newURL, source: textStorage.string)
     }
 
     /// UTF-16 copy of the text, shared by the lexer and the line-number gutter.

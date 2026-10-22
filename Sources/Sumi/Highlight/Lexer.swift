@@ -12,11 +12,17 @@ struct Token: Sendable {
 }
 
 /// Single-pass lexer over UTF-16 code units.
-/// A hand-written scanner (not regular expressions) so multi-line comments and strings
-/// (Kotlin raw strings, Python triple quotes, JS template literals) are tracked correctly
-/// and a whole file is tokenized in one linear pass.
+/// Uses the bundled grammar when available and a linear scanner otherwise.
+/// Kotlin keeps the scanner because its block comments can nest to arbitrary depth.
+/// The scanner also keeps the original four languages available if a grammar fails to load.
 enum Lexer {
+    @MainActor
     static func tokenize(_ c: [UInt16], language: Language) -> [Token] {
+        if language != .kotlin, let grammar = language.grammar,
+           let tokens = GrammarHighlighter.tokenize(c, grammar: grammar) {
+            return tokens
+        }
+
         var tokens: [Token] = []
         tokens.reserveCapacity(c.count / 8)
         let n = c.count

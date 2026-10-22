@@ -16,11 +16,13 @@
 "Navigate" = "नेविगेट करें";
 "Window" = "विंडो";
 "About Sumi" = "Sumi के बारे में";
+"Language" = "भाषा";
 "Services" = "सेवाएँ";
 "Hide Sumi" = "Sumi छिपाएँ";
 "Hide Others" = "अन्य छिपाएँ";
 "Show All" = "सभी दिखाएँ";
 "Quit Sumi" = "Sumi छोड़ें";
+"System Default" = "सिस्टम डिफ़ॉल्ट";
 "New File…" = "नई फ़ाइल…";
 "New Folder…" = "नया फ़ोल्डर…";
 "New Terminal Tab" = "नया टर्मिनल टैब";
@@ -45,6 +47,7 @@
 "Terminal" = "टर्मिनल";
 "Swap Terminal and Project" = "टर्मिनल और प्रोजेक्ट की अदला-बदली करें";
 "Maximize Terminal" = "टर्मिनल को अधिकतम करें";
+"GPU Rendering" = "जीपीयू रेंडरिंग";
 "Soft-Wrap" = "सॉफ़्ट-रैप";
 "Toggle Preview" = "पूर्वावलोकन टॉगल करें";
 "Increase Font Size" = "फ़ॉन्ट आकार बढ़ाएँ";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "सभी को सामने लाएँ";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "टर्मिनल छिपाएँ";
 "Local" = "स्थानीय";
 "Local (%ld)" = "स्थानीय (%ld)";
+"Hide Terminal" = "टर्मिनल छिपाएँ";
+"Close" = "बंद करें";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "चल रहे टर्मिनल सत्र बंद करें?";
+"These processes will be stopped:" = "ये प्रक्रियाएं बंद हो जाएंगी:";
+"Cancel" = "रद्द करें";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "यदि आप सहेजते नहीं हैं, तो आपके बदलाव खो जाएँगे।";
-"Do you want to save the changes made to “%@”?" = "क्या आप “%@” में किए गए बदलावों को सहेजना चाहते हैं?";
-"Do you want to save the changes made to these files?" = "क्या आप इन फ़ाइलों में किए गए बदलावों को सहेजना चाहते हैं?";
-"Cancel" = "रद्द करें";
-"Don't Save" = "न सहेजें";
+"Save a Copy…" = "एक प्रति सहेजें...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "केवल संपादक";
@@ -85,6 +90,7 @@
 "Project View" = "प्रोजेक्ट व्यू";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "डिस्क पर फ़ाइल बदल गई. आपके संपादन रखे गए हैं. दोनों संस्करणों को सुरक्षित रखने के लिए एक प्रति सहेजें।";
 "The file is a binary file." = "यह फ़ाइल एक बाइनरी फ़ाइल है।";
 "The file's text encoding could not be determined." = "फ़ाइल का टेक्स्ट एन्कोडिंग निर्धारित नहीं किया जा सका।";
 "The text cannot be saved in %@." = "टेक्स्ट को %@ में सहेजा नहीं जा सकता।";
@@ -116,4 +122,3 @@
 "No recent files" = "कोई हाल की फ़ाइल नहीं";
 "Recent Files" = "हाल की फ़ाइलें";
 "Matches: %1$ld / Files: %2$ld" = "मिलान: %1$ld / फ़ाइलें: %2$ld";
-"Close" = "बंद करें";

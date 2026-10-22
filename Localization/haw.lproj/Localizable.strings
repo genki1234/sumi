@@ -1,0 +1,124 @@
+/*
+  Sumi — haw translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "E wehe i kahi waihona ma ke ʻano he papahana, a i ʻole he faila e hoʻoponopono ai.";
+"Open" = "Wehe";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "waihona";
+"Edit" = "Hoʻoponopono";
+"View" = "Nānā";
+"Navigate" = "Hoʻokele";
+"Window" = "pukaaniani";
+"About Sumi" = "E pili ana i ka noi Sumi";
+"Language" = "ʻŌlelo";
+"Services" = "Nā lawelawe";
+"Hide Sumi" = "Hūnā Sumi";
+"Hide Others" = "Huna 'ē aʻe";
+"Show All" = "Hōʻike i nā mea a pau";
+"Quit Sumi" = "Haʻalele Sumi";
+"System Default" = "Pūnaehana Default";
+"New File…" = "Kōnae Hou…";
+"New Folder…" = "Palapala Hou…";
+"New Terminal Tab" = "ʻO ka ʻaoʻao Terminal Hou";
+"Open…" = "Wehe…";
+"Save" = "Mālama";
+"Save All" = "Mālama i nā mea a pau";
+"Close Tab" = "Pani i ka Tab";
+"Close Window" = "Pani pukaaniani";
+"Undo" = "Wehe";
+"Redo" = "Hana hou";
+"Cut" = "ʻOki";
+"Copy" = "kope";
+"Paste" = "Hoʻopili";
+"Select All" = "E koho i nā mea a pau";
+"Find…" = "E ʻimi…";
+"Replace…" = "Hoʻololi…";
+"Find Next" = "E huli aʻe";
+"Find Previous" = "E huli mua";
+"Use Selection for Find" = "E hoʻohana i ke koho no ka ʻimi";
+"Find" = "Huli";
+"Project" = "Papahana";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal a me ka Papahana";
+"Maximize Terminal" = "Hoʻonui i ka Terminal";
+"GPU Rendering" = "Hōʻike GPU";
+"Soft-Wrap" = "Hoʻopili ʻakomi i nā laina kikokikona lōʻihi";
+"Toggle Preview" = "E hoʻololi i ka Nāmua";
+"Increase Font Size" = "E hoʻonui i ka nui o nā kikokikona";
+"Decrease Font Size" = "E hoemi i ka nui o ke kikokiko";
+"Reset Font Size" = "Hoʻihoʻi hou i ka nui o ka font";
+"Search Everywhere (Double ⇧)" = "Huli ma nā wahi a pau (Palua ⇧)";
+"Select in Project View" = "E koho ma Project View";
+"Next Tab" = "Tab Aʻe";
+"Previous Tab" = "Ka Pepa Mua";
+"Minimize" = "Hoemi";
+"Zoom" = "Zoom";
+"Bring All to Front" = "E lawe mai i na mea a pau i mua";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Kūloko";
+"Local (%ld)" = "Kaiakū (%ld)";
+"Hide Terminal" = "Hūnā Terminal";
+"Close" = "Pani";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Hoʻopau i nā kau terminal holo?";
+"These processes will be stopped:" = "E hooki ʻia kēia mau kaʻina hana:";
+"Cancel" = "Hoʻopau";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Mālama i kope…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Lunahooponopono Wale";
+"Editor and Preview" = "Lunahooponopono a Namua";
+"Preview Only" = "Nāmua wale nō";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Wahi: %ld";
+"Plain Text" = "Kikokikona";
+"Search Everywhere" = "Huli ma na wahi a pau";
+"Double ⇧" = "Pālua ⇧";
+"Go to File" = "E hele i ka waihona";
+"Open Folder" = "E wehe i ka waihona";
+"Project View" = "Nānā Papahana";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ua hoʻololi ʻia ka faila ma ka disk. Ua mālama ʻia kāu mau hoʻoponopono. E mālama i kope e mālama i nā mana ʻelua.";
+"The file is a binary file." = "He waihona binary ka waihona.";
+"The file's text encoding could not be determined." = "ʻAʻole hiki ke hoʻoholo ʻia ka hoʻopili kikokikona o ka faila.";
+"The text cannot be saved in %@." = "ʻAʻole hiki ke mālama ʻia ka kikokikona ma %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Palapala Hou";
+"New File" = "Kōnae Hou";
+"Enter a name in “%@”. Use / to create nested folders." = "E hoʻokomo i kahi inoa ma \"%@\". E hoʻokaʻawale i nā inoa waihona me ke ʻano / e hana i nā waihona waihona.";
+"Rename" = "inoa hou";
+"Enter a new name for “%@”." = "E hoʻokomo i kahi inoa hou no \"%@\".";
+"Move “%@” to the Trash?" = "E hoʻoneʻe iā \"%@\" i ka ʻōpala?";
+"The folder and everything in it will be moved to the Trash." = "E hoʻoneʻe ʻia ka waihona a me nā mea a pau i loko i ka ʻōpala.";
+"You can restore it from the Trash." = "Hiki iā ʻoe ke hoʻihoʻi mai ka ʻōpala.";
+"Move to Trash" = "Neʻe i ka ʻōpala";
+"OK" = "OK";
+"Rename…" = "Hoʻololi i ka inoa…";
+"Copy Path" = "Alanui kope";
+"Copy Relative Path" = "E kope i ke ala pili";
+"Reveal in Finder" = "Hōʻike ma Finder";
+"Open in Terminal" = "Wehe ma Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Panel hema";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Nā waihona";
+"Double ⇧ to search everywhere" = "ʻElua ⇧ e ʻimi ma nā wahi a pau";
+"Type a file name (use / to match the path)" = "Kākau i kahi inoa faila (hoʻohana / e hoʻohālikelike i ke ala)";
+"No recent files" = "ʻAʻohe faila hou";
+"Recent Files" = "Nā Kōnae Hou";
+"Matches: %1$ld / Files: %2$ld" = "Nā hualoaʻa i loaʻa: %1$ld / Huina waihona: %2$ld";

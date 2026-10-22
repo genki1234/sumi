@@ -16,11 +16,13 @@
 "Navigate" = "Navigare";
 "Window" = "Fereastră";
 "About Sumi" = "Despre Sumi";
+"Language" = "Limba";
 "Services" = "Servicii";
 "Hide Sumi" = "Ascunde Sumi";
 "Hide Others" = "Ascunde celelalte";
 "Show All" = "Afișează tot";
 "Quit Sumi" = "Ieșire din Sumi";
+"System Default" = "Implicit sistem";
 "New File…" = "Fișier nou…";
 "New Folder…" = "Dosar nou…";
 "New Terminal Tab" = "Filă nouă de terminal";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Schimbă locurile terminalului și proiectului";
 "Maximize Terminal" = "Maximizează terminalul";
+"GPU Rendering" = "Redare GPU";
 "Soft-Wrap" = "Încadrare soft";
 "Toggle Preview" = "Comută previzualizarea";
 "Increase Font Size" = "Mărește dimensiunea fontului";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Adu tot în prim-plan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Ascunde terminalul";
 "Local" = "Local";
 "Local (%ld)" = "Local (%ld)";
+"Hide Terminal" = "Ascunde terminalul";
+"Close" = "Închide";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Închideți sesiunile terminale care rulează?";
+"These processes will be stopped:" = "Aceste procese vor fi oprite:";
+"Cancel" = "Anulează";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Modificările vor fi pierdute dacă nu le salvați.";
-"Do you want to save the changes made to “%@”?" = "Doriți să salvați modificările făcute în „%@”?";
-"Do you want to save the changes made to these files?" = "Doriți să salvați modificările făcute în aceste fișiere?";
-"Cancel" = "Anulează";
-"Don't Save" = "Nu salva";
+"Save a Copy…" = "Salvați o copie...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Doar editorul";
@@ -85,6 +90,7 @@
 "Project View" = "Vizualizare proiect";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fișierul s-a schimbat pe disc. Editările dvs. au fost păstrate. Salvați o copie pentru a păstra ambele versiuni.";
 "The file is a binary file." = "Fișierul este un fișier binar.";
 "The file's text encoding could not be determined." = "Nu s-a putut determina codarea textului fișierului.";
 "The text cannot be saved in %@." = "Textul nu poate fi salvat în codarea %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Niciun fișier recent";
 "Recent Files" = "Fișiere recente";
 "Matches: %1$ld / Files: %2$ld" = "Potriviri: %1$ld / Fișiere: %2$ld";
-"Close" = "Închide";

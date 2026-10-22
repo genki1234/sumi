@@ -1,0 +1,124 @@
+/*
+  Sumi — ha translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Bude babban fayil azaman aikin, ko fayil don gyarawa.";
+"Open" = "Bude";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Fayil";
+"Edit" = "Gyara";
+"View" = "Duba";
+"Navigate" = "Kewaya";
+"Window" = "Taga";
+"About Sumi" = "Game da aikace-aikacen Sumi";
+"Language" = "Harshe";
+"Services" = "Ayyuka";
+"Hide Sumi" = "Ɓoye Sumi";
+"Hide Others" = "Boye Wasu";
+"Show All" = "Nuna Duka";
+"Quit Sumi" = "Farashin Sumi";
+"System Default" = "Tsoffin tsarin";
+"New File…" = "Sabon Fayil…";
+"New Folder…" = "Sabuwar Jaka…";
+"New Terminal Tab" = "Sabon Tasha Tab";
+"Open…" = "Bude…";
+"Save" = "Ajiye";
+"Save All" = "Ajiye Duka";
+"Close Tab" = "Rufe Tab";
+"Close Window" = "Rufe taga";
+"Undo" = "Gyara";
+"Redo" = "Maimaita";
+"Cut" = "Yanke";
+"Copy" = "Kwafi";
+"Paste" = "Manna";
+"Select All" = "Zaɓi Duk";
+"Find…" = "Nemo…";
+"Replace…" = "Sauya…";
+"Find Next" = "Nemo Na Gaba";
+"Find Previous" = "Nemo Baya";
+"Use Selection for Find" = "Yi amfani da Zaɓi don Nemo";
+"Find" = "Nemo";
+"Project" = "Aikin";
+"Terminal" = "Tasha";
+"Swap Terminal and Project" = "Musanya Terminal da Project";
+"Maximize Terminal" = "Girman Tasha";
+"GPU Rendering" = "Maida zane-zane ta amfani da GPU";
+"Soft-Wrap" = "Kunna dogayen layin rubutu ta atomatik";
+"Toggle Preview" = "Juya Preview";
+"Increase Font Size" = "Ƙara Girman Font";
+"Decrease Font Size" = "Rage Girman Font";
+"Reset Font Size" = "Sake saita Girman Font";
+"Search Everywhere (Double ⇧)" = "Bincika Ko'ina (Biyu ⇧)";
+"Select in Project View" = "Zaɓi a cikin Duba Project";
+"Next Tab" = "Tab na gaba";
+"Previous Tab" = "Tabbatacce";
+"Minimize" = "Rage girman";
+"Zoom" = "Zuƙowa";
+"Bring All to Front" = "Kawo Duka Gaba";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Na gida";
+"Local (%ld)" = "Na gida (%ld)";
+"Hide Terminal" = "Boye Terminal";
+"Close" = "Kusa";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Rufe zaman tasha mai gudana?";
+"These processes will be stopped:" = "Za a dakatar da waɗannan matakai:";
+"Cancel" = "Soke";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Ajiye Kwafi…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Edita Kawai";
+"Editor and Preview" = "Edita da Preview";
+"Preview Only" = "Dubawa Kawai";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Wurare: %ld";
+"Plain Text" = "Rubutun Babba";
+"Search Everywhere" = "Bincika Ko'ina";
+"Double ⇧" = "Biyu ⇧";
+"Go to File" = "Je zuwa Fayil";
+"Open Folder" = "Buɗe Jaka";
+"Project View" = "Duban Aikin";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fayil ɗin ya canza akan faifai. An adana gyare-gyarenku. Ajiye kwafi don adana nau'ikan biyun.";
+"The file is a binary file." = "Fayil ɗin fayil ɗin binary ne.";
+"The file's text encoding could not be determined." = "An kasa tantance rubutun fayil ɗin.";
+"The text cannot be saved in %@." = "Ba za a iya ajiye rubutun a cikin %@ ba.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Sabuwar Jaka";
+"New File" = "Sabon Fayil";
+"Enter a name in “%@”. Use / to create nested folders." = "Shigar da suna a cikin \"%@\". Rarrabe sunayen babban fayil tare da / hali don ƙirƙirar manyan fayiloli.";
+"Rename" = "Sake suna";
+"Enter a new name for “%@”." = "Shigar da sabon suna don \"%@\".";
+"Move “%@” to the Trash?" = "Matsar da \"%@\" zuwa Shara?";
+"The folder and everything in it will be moved to the Trash." = "Za a matsar da babban fayil ɗin da duk abin da ke cikin Shara.";
+"You can restore it from the Trash." = "Kuna iya dawo da shi daga Sharar.";
+"Move to Trash" = "Matsar zuwa Shara";
+"OK" = "Yayi";
+"Rename…" = "Sake suna…";
+"Copy Path" = "Kwafi Hanya";
+"Copy Relative Path" = "Kwafi Hanyar Dangi";
+"Reveal in Finder" = "Bayani na Finder";
+"Open in Terminal" = "Bude a cikin Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Ƙungiyar Hagu";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Fayiloli";
+"Double ⇧ to search everywhere" = "Sau biyu ⇧ don bincika ko'ina";
+"Type a file name (use / to match the path)" = "Buga sunan fayil (amfani / don dacewa da hanyar)";
+"No recent files" = "Babu fayilolin kwanan nan";
+"Recent Files" = "Fayilolin kwanan nan";
+"Matches: %1$ld / Files: %2$ld" = "An samo sakamako: %1$ld / Jimlar fayiloli: %2$ld";

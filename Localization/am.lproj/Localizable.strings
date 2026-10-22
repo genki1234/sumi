@@ -1,0 +1,124 @@
+/*
+  Sumi — am translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "አቃፊ እንደ ፕሮጀክት ወይም ለማርትዕ ፋይል ይክፈቱ።";
+"Open" = "ክፈት";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "ፋይል";
+"Edit" = "አርትዕ";
+"View" = "ይመልከቱ";
+"Navigate" = "ያስሱ";
+"Window" = "መስኮት";
+"About Sumi" = "ስለ Sumi ማመልከቻ";
+"Language" = "ቋንቋ";
+"Services" = "አገልግሎቶች";
+"Hide Sumi" = "Sumi ደብቅ";
+"Hide Others" = "ሌሎችን ደብቅ";
+"Show All" = "ሁሉንም አሳይ";
+"Quit Sumi" = "Sumi ተወ";
+"System Default" = "የስርዓት ነባሪ";
+"New File…" = "አዲስ ፋይል…";
+"New Folder…" = "አዲስ አቃፊ…";
+"New Terminal Tab" = "አዲስ ተርሚናል ትር";
+"Open…" = "ክፈት…";
+"Save" = "አስቀምጥ";
+"Save All" = "ሁሉንም አስቀምጥ";
+"Close Tab" = "ትርን ዝጋ";
+"Close Window" = "መስኮት ዝጋ";
+"Undo" = "ቀልብስ";
+"Redo" = "ድገም";
+"Cut" = "ቁረጥ";
+"Copy" = "ቅዳ";
+"Paste" = "ለጥፍ";
+"Select All" = "ሁሉንም ይምረጡ";
+"Find…" = "አግኝ…";
+"Replace…" = "ተካ…";
+"Find Next" = "ቀጣይ አግኝ";
+"Find Previous" = "ያለፈውን ያግኙ";
+"Use Selection for Find" = "ለማግኘት ምርጫን ተጠቀም";
+"Find" = "አግኝ";
+"Project" = "ፕሮጀክት";
+"Terminal" = "ተርሚናል";
+"Swap Terminal and Project" = "ተርሚናል እና ፕሮጀክት ይቀያይሩ";
+"Maximize Terminal" = "ተርሚናልን ከፍ ያድርጉ";
+"GPU Rendering" = "የጂፒዩ አቀራረብ";
+"Soft-Wrap" = "ረጅም የጽሑፍ መስመሮችን በራስ-ሰር ጠቅልል።";
+"Toggle Preview" = "ቅድመ እይታን ቀያይር";
+"Increase Font Size" = "የፊደል መጠን ጨምር";
+"Decrease Font Size" = "የቅርጸ ቁምፊ መጠን ቀንስ";
+"Reset Font Size" = "የቅርጸ ቁምፊ መጠንን ዳግም አስጀምር";
+"Search Everywhere (Double ⇧)" = "በሁሉም ቦታ ይፈልጉ (ድርብ ⇧)";
+"Select in Project View" = "በፕሮጀክት እይታ ውስጥ ይምረጡ";
+"Next Tab" = "ቀጣይ ትር";
+"Previous Tab" = "ቀዳሚ ትር";
+"Minimize" = "አሳንስ";
+"Zoom" = "አጉላ";
+"Bring All to Front" = "ሁሉንም ወደ ፊት አምጣ";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "አካባቢያዊ";
+"Local (%ld)" = "አካባቢያዊ (%ld)";
+"Hide Terminal" = "ተርሚናልን ደብቅ";
+"Close" = "ዝጋ";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "የማስኬጃ ተርሚናል ክፍለ ጊዜዎች ይዘጋሉ?";
+"These processes will be stopped:" = "እነዚህ ሂደቶች ይቆማሉ፡-";
+"Cancel" = "ሰርዝ";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "ቅጂ አስቀምጥ…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "አርታዒ ብቻ";
+"Editor and Preview" = "አርታዒ እና ቅድመ እይታ";
+"Preview Only" = "ቅድመ እይታ ብቻ";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "ክፍተቶች: %ld";
+"Plain Text" = "ግልጽ ጽሑፍ";
+"Search Everywhere" = "በሁሉም ቦታ ይፈልጉ";
+"Double ⇧" = "ድርብ ⇧";
+"Go to File" = "ወደ ፋይል ሂድ";
+"Open Folder" = "አቃፊ ክፈት";
+"Project View" = "የፕሮጀክት እይታ";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ፋይሉ በዲስክ ላይ ተቀይሯል. የእርስዎ አርትዖቶች ተጠብቀዋል። ሁለቱንም ስሪቶች ለማቆየት አንድ ቅጂ ያስቀምጡ።";
+"The file is a binary file." = "ፋይሉ ሁለትዮሽ ፋይል ነው።";
+"The file's text encoding could not be determined." = "የፋይሉ ጽሑፍ ኢንኮዲንግ ሊታወቅ አልቻለም።";
+"The text cannot be saved in %@." = "ጽሑፉ በ %@ ውስጥ ሊቀመጥ አይችልም.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "አዲስ አቃፊ";
+"New File" = "አዲስ ፋይል";
+"Enter a name in “%@”. Use / to create nested folders." = "በ \"%@\" ውስጥ ስም አስገባ. ንዑስ አቃፊዎችን ለመፍጠር የአቃፊ ስሞችን ከቁምፊው ጋር ይለያዩ ።";
+"Rename" = "እንደገና ይሰይሙ";
+"Enter a new name for “%@”." = "ለ “%@” አዲስ ስም ያስገቡ።";
+"Move “%@” to the Trash?" = "\"%@\" ወደ መጣያ ይወሰድ?";
+"The folder and everything in it will be moved to the Trash." = "አቃፊው እና በውስጡ ያሉት ሁሉም ነገሮች ወደ መጣያ ይወሰዳሉ።";
+"You can restore it from the Trash." = "ከመጣያው ወደነበረበት መመለስ ይችላሉ።";
+"Move to Trash" = "ወደ መጣያ ውሰድ";
+"OK" = "እሺ";
+"Rename…" = "ዳግም ሰይም…";
+"Copy Path" = "ዱካ ቅዳ";
+"Copy Relative Path" = "አንጻራዊ መንገድ ቅዳ";
+"Reveal in Finder" = "በFinder ተገለጠ";
+"Open in Terminal" = "ተርሚናል ውስጥ ክፈት";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "የግራ ፓነል";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "ፋይሎች";
+"Double ⇧ to search everywhere" = "በየቦታው ለመፈለግ በእጥፍ ⇧";
+"Type a file name (use / to match the path)" = "የፋይል ስም ይተይቡ (ከመንገዱ ጋር ለማዛመድ ይጠቀሙ)";
+"No recent files" = "ምንም የቅርብ ጊዜ ፋይሎች የሉም";
+"Recent Files" = "የቅርብ ጊዜ ፋይሎች";
+"Matches: %1$ld / Files: %2$ld" = "ውጤቶች ተገኝተዋል: %1$ld / ጠቅላላ ፋይሎች: %2$ld";

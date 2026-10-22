@@ -6,6 +6,15 @@ enum Preferences {
     private static let defaults = UserDefaults.standard
     static let defaultFontSize: CGFloat = 13
 
+    /// A missing selection follows the preferred languages in System Settings.
+    static var interfaceLanguage: String? {
+        get { defaults.string(forKey: "interfaceLanguage") }
+        set {
+            if let newValue { defaults.set(newValue, forKey: "interfaceLanguage") }
+            else { defaults.removeObject(forKey: "interfaceLanguage") }
+        }
+    }
+
     static var fontSize: CGFloat {
         get {
             let value = defaults.double(forKey: "fontSize")
@@ -34,6 +43,12 @@ enum Preferences {
     static var consoleHidden: Bool {
         get { defaults.bool(forKey: "consoleHidden") }
         set { defaults.set(newValue, forKey: "consoleHidden") }
+    }
+
+    /// GPU rendering is enabled unless explicitly disabled from the View menu.
+    static var terminalGPU: Bool {
+        get { defaults.object(forKey: "terminalGPU") as? Bool ?? true }
+        set { defaults.set(newValue, forKey: "terminalGPU") }
     }
 
     /// Project folders that were open when the app last quit.

@@ -16,11 +16,13 @@
 "Navigate" = "導覽";
 "Window" = "視窗";
 "About Sumi" = "關於 Sumi";
+"Language" = "語言";
 "Services" = "服務項目";
 "Hide Sumi" = "隱藏 Sumi";
 "Hide Others" = "隱藏其他";
 "Show All" = "全部顯示";
 "Quit Sumi" = "結束 Sumi";
+"System Default" = "系統預設值";
 "New File…" = "新增檔案…";
 "New Folder…" = "新增檔案夾…";
 "New Terminal Tab" = "新增終端機標籤頁";
@@ -45,6 +47,7 @@
 "Terminal" = "終端機";
 "Swap Terminal and Project" = "對調終端機與專案";
 "Maximize Terminal" = "最大化終端機";
+"GPU Rendering" = "GPU渲染";
 "Soft-Wrap" = "軟換行";
 "Toggle Preview" = "切換預覽";
 "Increase Font Size" = "放大字體";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "全部移至最前";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "隱藏終端機";
 "Local" = "本機";
 "Local (%ld)" = "本機 (%ld)";
+"Hide Terminal" = "隱藏終端機";
+"Close" = "關閉";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "關閉正在運行的終端會話？";
+"These processes will be stopped:" = "這些進程將被停止：";
+"Cancel" = "取消";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "如果不儲存，您的更動將會遺失。";
-"Do you want to save the changes made to “%@”?" = "您要儲存對「%@」所做的更動嗎？";
-"Do you want to save the changes made to these files?" = "您要儲存對這些檔案所做的更動嗎？";
-"Cancel" = "取消";
-"Don't Save" = "不要儲存";
+"Save a Copy…" = "儲存副本...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "僅編輯器";
@@ -85,6 +90,7 @@
 "Project View" = "專案檢視";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "文件在磁碟上發生了更改。您的編輯已被保留。儲存副本以保留兩個版本。";
 "The file is a binary file." = "此檔案為二進位檔案。";
 "The file's text encoding could not be determined." = "無法判斷此檔案的文字編碼。";
 "The text cannot be saved in %@." = "無法以 %@ 儲存文字。";
@@ -116,4 +122,3 @@
 "No recent files" = "沒有最近使用的檔案";
 "Recent Files" = "最近使用的檔案";
 "Matches: %1$ld / Files: %2$ld" = "符合：%1$ld / 檔案：%2$ld";
-"Close" = "關閉";

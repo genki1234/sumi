@@ -16,11 +16,13 @@
 "Navigate" = "ניווט";
 "Window" = "חלון";
 "About Sumi" = "אודות Sumi";
+"Language" = "שפה";
 "Services" = "שירותים";
 "Hide Sumi" = "הסתר את Sumi";
 "Hide Others" = "הסתר אחרים";
 "Show All" = "הצג הכול";
 "Quit Sumi" = "צא מ-Sumi";
+"System Default" = "מערכת ברירת מחדל";
 "New File…" = "קובץ חדש…";
 "New Folder…" = "תיקייה חדשה…";
 "New Terminal Tab" = "לשונית מסוף חדשה";
@@ -45,6 +47,7 @@
 "Terminal" = "מסוף";
 "Swap Terminal and Project" = "החלף בין המסוף לפרויקט";
 "Maximize Terminal" = "הגדל את המסוף";
+"GPU Rendering" = "עיבוד GPU";
 "Soft-Wrap" = "גלישת שורות";
 "Toggle Preview" = "הצגה/הסתרה של תצוגה מקדימה";
 "Increase Font Size" = "הגדל את גודל הגופן";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "הבא הכול לחזית";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "הסתר את המסוף";
 "Local" = "מקומי";
 "Local (%ld)" = "מקומי (%ld)";
+"Hide Terminal" = "הסתר את המסוף";
+"Close" = "סגור";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "לסגור הפעלות טרמינל פועלות?";
+"These processes will be stopped:" = "תהליכים אלה יופסקו:";
+"Cancel" = "ביטול";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "השינויים שלך יאבדו אם לא תשמור אותם.";
-"Do you want to save the changes made to “%@”?" = "האם ברצונך לשמור את השינויים שבוצעו ב-\"%@\"?";
-"Do you want to save the changes made to these files?" = "האם ברצונך לשמור את השינויים שבוצעו בקבצים אלה?";
-"Cancel" = "ביטול";
-"Don't Save" = "אל תשמור";
+"Save a Copy…" = "שמור עותק...";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "עורך בלבד";
@@ -85,6 +90,7 @@
 "Project View" = "תצוגת פרויקט";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "הקובץ השתנה בדיסק. העריכות שלך נשמרו. שמור עותק כדי לשמר את שתי הגרסאות.";
 "The file is a binary file." = "הקובץ הוא קובץ בינארי.";
 "The file's text encoding could not be determined." = "לא ניתן היה לקבוע את קידוד הטקסט של הקובץ.";
 "The text cannot be saved in %@." = "לא ניתן לשמור את הטקסט בקידוד %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "אין קבצים אחרונים";
 "Recent Files" = "קבצים אחרונים";
 "Matches: %1$ld / Files: %2$ld" = "התאמות: %1$ld / קבצים: %2$ld";
-"Close" = "סגור";

@@ -1,0 +1,124 @@
+/*
+  Sumi — so translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Fur galka mashruuc ahaan, ama fayl si aad wax uga beddesho.";
+"Open" = "Furan";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Faylka";
+"Edit" = "Wax ka beddel";
+"View" = "Daawo";
+"Navigate" = "Socod";
+"Window" = "Daaqada";
+"About Sumi" = "Ku saabsan codsiga Sumi";
+"Language" = "Luuqad";
+"Services" = "Adeegyada";
+"Hide Sumi" = "Qari Sumi";
+"Hide Others" = "Qari kuwa kale";
+"Show All" = "Muuji Dhammaan";
+"Quit Sumi" = "Jooji Sumi";
+"System Default" = "Nidaamka Default";
+"New File…" = "Fayl cusub…";
+"New Folder…" = "Folder cusub…";
+"New Terminal Tab" = "Tab Terminal Cusub";
+"Open…" = "Furan…";
+"Save" = "Badbaadin";
+"Save All" = "Dhammaan badbaadi";
+"Close Tab" = "Xidh tab";
+"Close Window" = "Xidh daaqada";
+"Undo" = "Ka noqo";
+"Redo" = "Dib u samee";
+"Cut" = "jar";
+"Copy" = "Nuqul";
+"Paste" = "Ku dheji";
+"Select All" = "Dooro Dhammaan";
+"Find…" = "Hel…";
+"Replace…" = "Beddel…";
+"Find Next" = "Hel Ku Xiga";
+"Find Previous" = "Hel Kii Hore";
+"Use Selection for Find" = "Isticmaal Xulashada Helitaanka";
+"Find" = "Hel";
+"Project" = "Mashruuca";
+"Terminal" = "Terminalka";
+"Swap Terminal and Project" = "Beddelka Terminalka iyo Mashruuca";
+"Maximize Terminal" = "Kordhi Terminalka";
+"GPU Rendering" = "Waxqabadka GPU";
+"Soft-Wrap" = "Si toos ah ugu duub khadadka qoraalka dheer";
+"Toggle Preview" = "Beddel Aragtida";
+"Increase Font Size" = "Kordhi cabbirka farta";
+"Decrease Font Size" = "Iska yaree cabbirka farta";
+"Reset Font Size" = "Dib u deji cabbirka farta";
+"Search Everywhere (Double ⇧)" = "Meel walba ka raadi (Laba jeer ⇧)";
+"Select in Project View" = "Dooro Muuqaalka Mashruuca";
+"Next Tab" = "Tab xigta";
+"Previous Tab" = "Tabkii hore";
+"Minimize" = "Yaree";
+"Zoom" = "Soo dhawoow";
+"Bring All to Front" = "Isku soo wada duuboo";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Deegaanka";
+"Local (%ld)" = "Maxalli ah (%ld)";
+"Hide Terminal" = "Qari Terminalka";
+"Close" = "Xir";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Ma xidhaa fadhiyada terminalka socda?";
+"These processes will be stopped:" = "Nidaamyadan waa la joojin doonaa:";
+"Cancel" = "Jooji";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Kaydi nuqul…";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Tafatire Kaliya";
+"Editor and Preview" = "Tifaftiraha iyo Horudhac";
+"Preview Only" = "Horudhac Keliya";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Goobaha: %ld";
+"Plain Text" = "Qoraal Cad";
+"Search Everywhere" = "Meel walba ka raadi";
+"Double ⇧" = "Labanlaab ⇧";
+"Go to File" = "Aad Faylka";
+"Open Folder" = "Fur Folder";
+"Project View" = "Muuqaalka Mashruuca";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faylku waxa uu ku beddelay saxanka Wax ka beddelkaaga waa la hayaa Keydi nuqul si aad u ilaaliso labada nooc.";
+"The file is a binary file." = "Faylku waa faylal binary ah.";
+"The file's text encoding could not be determined." = "Codaynta qoraalka faylka waa la go'aamin waayay";
+"The text cannot be saved in %@." = "Qoraalka laguma kaydin karo %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Folder cusub";
+"New File" = "Fayl cusub";
+"Enter a name in “%@”. Use / to create nested folders." = "Geli magac \"%@\". Kala saar magacyada galleyda oo wata jilaha si aad u abuurto fayl-hoosaadyo.";
+"Rename" = "Magacaabista";
+"Enter a new name for “%@”." = "Geli magac cusub \"%@\".";
+"Move “%@” to the Trash?" = "U guuri \"%@\" qashinka?";
+"The folder and everything in it will be moved to the Trash." = "Galka iyo wax kasta oo ku jira waxaa loo rari doonaa qashinka.";
+"You can restore it from the Trash." = "Waxaad ka soo celin kartaa qashinka";
+"Move to Trash" = "U dhaqaaq qashinka";
+"OK" = "OK";
+"Rename…" = "Magacaabista…";
+"Copy Path" = "Jidka koobbi";
+"Copy Relative Path" = "Nuqul ka samee Waddada Qaraabada";
+"Reveal in Finder" = "Waxaa lagu muujiyey Finder";
+"Open in Terminal" = "Ka furan Terminalka";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Guddiga bidix";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Faylasha";
+"Double ⇧ to search everywhere" = "Laba jibaar ⇧ si aad meel walba uga raadiso";
+"Type a file name (use / to match the path)" = "Ku qor magaca faylka (isticmaal / si aad u waafajiso jidka)";
+"No recent files" = "Ma jiraan galal dhow";
+"Recent Files" = "Files dhawaa";
+"Matches: %1$ld / Files: %2$ld" = "Natiijooyinka la helay: %1$ld / Wadarta faylasha: %2$ld";

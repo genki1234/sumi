@@ -35,7 +35,7 @@ swift scripts/l10n.swift add fr-CA     # language code: fr, pt-BR, zh-Hans, …
 swift scripts/l10n.swift check
 ```
 
-Then open a pull request. A new folder under `Localization/` is all it takes: the build adds every folder to the app's languages automatically.
+Then open a pull request. A new folder under `Localization/` is all it takes: the build adds every folder to the app's languages and the Language menu automatically. Language choices take effect immediately and persist across launches. The 74 newly added locales and the language-menu labels were bootstrapped with machine translation; native-speaker corrections are welcome.
 
 ### Rules for translators
 

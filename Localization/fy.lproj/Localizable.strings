@@ -1,0 +1,124 @@
+/*
+  Sumi — fy translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "Iepenje in map as projekt, of in bestân om te bewurkjen.";
+"Open" = "Iepenje";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "Triem";
+"Edit" = "Bewurkje";
+"View" = "Werjefte";
+"Navigate" = "Navigearje";
+"Window" = "Finster";
+"About Sumi" = "Oer de Sumi-applikaasje";
+"Language" = "Taal";
+"Services" = "Tsjinsten";
+"Hide Sumi" = "Ferbergje Sumi";
+"Hide Others" = "Ferbergje Oaren";
+"Show All" = "Alles sjen litte";
+"Quit Sumi" = "Ofslute Sumi";
+"System Default" = "Systeem Standert";
+"New File…" = "Nije triem...";
+"New Folder…" = "Nije map…";
+"New Terminal Tab" = "Nije Terminal Tab";
+"Open…" = "Iepenje…";
+"Save" = "Bewarje";
+"Save All" = "Alles bewarje";
+"Close Tab" = "Tab slute";
+"Close Window" = "Finster slute";
+"Undo" = "Ungedien meitsje";
+"Redo" = "Opnij";
+"Cut" = "Tekst snije";
+"Copy" = "Kopiearje";
+"Paste" = "Tekst plakke";
+"Select All" = "Selektearje Alles";
+"Find…" = "Fyn…";
+"Replace…" = "Ferfange…";
+"Find Next" = "Folgjende fine";
+"Find Previous" = "Fyn Foarige";
+"Use Selection for Find" = "Brûk Seleksje foar Find";
+"Find" = "Fyn";
+"Project" = "Projekt";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Swap Terminal en Project";
+"Maximize Terminal" = "Terminal maksimalisearje";
+"GPU Rendering" = "Render grafiken mei de GPU";
+"Soft-Wrap" = "Wrap lange tekstrigels automatysk";
+"Toggle Preview" = "Skeakelje Foarbyld";
+"Increase Font Size" = "Lettergrutte fergrutsje";
+"Decrease Font Size" = "Lettertypegrutte ferminderje";
+"Reset Font Size" = "Lettertypegrutte weromsette";
+"Search Everywhere (Double ⇧)" = "Sykje oeral (dûbel ⇧)";
+"Select in Project View" = "Selektearje yn Project View";
+"Next Tab" = "Folgjende Tab";
+"Previous Tab" = "Foarige Tab";
+"Minimize" = "Minimalisearje";
+"Zoom" = "Zoom";
+"Bring All to Front" = "Bring alles nei foaren";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "Lokaal";
+"Local (%ld)" = "Lokaal (%ld)";
+"Hide Terminal" = "Ferbergje Terminal";
+"Close" = "Slút";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Running terminal sesjes slute?";
+"These processes will be stopped:" = "Dizze prosessen sille wurde stoppe:";
+"Cancel" = "Ofbrekke";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "Bewarje in kopy...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "Allinnich bewurker";
+"Editor and Preview" = "Bewurker en Foarbyld";
+"Preview Only" = "Allinnich foarbyld";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "Spaasjes: %ld";
+"Plain Text" = "Plain Tekst";
+"Search Everywhere" = "Sykje oeral";
+"Double ⇧" = "Dûbel ⇧";
+"Go to File" = "Gean nei Triem";
+"Open Folder" = "Iepenje map";
+"Project View" = "Projektpaniel";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "De triem feroare op skiif. Jo bewurkings binne bewarre. Bewarje in kopy om beide ferzjes te bewarjen.";
+"The file is a binary file." = "De triem is in binêre triem.";
+"The file's text encoding could not be determined." = "De tekstkodearring fan it bestân koe net fêststeld wurde.";
+"The text cannot be saved in %@." = "De tekst kin net bewarre wurde yn %@.";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "Nije map";
+"New File" = "Nije triem";
+"Enter a name in “%@”. Use / to create nested folders." = "Fier in namme yn yn \"%@\". Skied mapnammen mei it teken / om submappen te meitsjen.";
+"Rename" = "Omneame";
+"Enter a new name for “%@”." = "Fier in nije namme yn foar \"%@\".";
+"Move “%@” to the Trash?" = "\"%@\" nei it jiskefet ferpleatse?";
+"The folder and everything in it will be moved to the Trash." = "De map en alles dêryn wurdt ferpleatst nei it jiskefet.";
+"You can restore it from the Trash." = "Jo kinne it weromsette út it jiskefet.";
+"Move to Trash" = "Ferpleats nei Jiskefet";
+"OK" = "OK";
+"Rename…" = "Omneame…";
+"Copy Path" = "Paad kopiearje";
+"Copy Relative Path" = "Kopiearje Relative Paad";
+"Reveal in Finder" = "Iepenbiere yn Finder";
+"Open in Terminal" = "Iepenje yn Terminal";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "Linker Panel";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "Bestannen";
+"Double ⇧ to search everywhere" = "Dûbele ⇧ om oeral te sykjen";
+"Type a file name (use / to match the path)" = "Typ in triemnamme (brûk / om it paad te passen)";
+"No recent files" = "Gjin resinte triemmen";
+"Recent Files" = "Resinte triemmen";
+"Matches: %1$ld / Files: %2$ld" = "Resultaten fûn: %1$ld / Totaal triemmen: %2$ld";

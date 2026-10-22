@@ -1,0 +1,124 @@
+/*
+  Sumi — ne translation.
+  Translate only the text on the right of "=". Keep %@, %ld, %1$@ … placeholders.
+  Run `swift scripts/l10n.swift check` before opening a pull request.
+  This file is rewritten by `swift scripts/l10n.swift sync`; comments added by hand are not kept.
+*/
+
+/* Sources/Sumi/App/AppDelegate.swift */
+"Open a folder as a project, or a file to edit." = "परियोजनाको रूपमा फोल्डर खोल्नुहोस्, वा सम्पादन गर्न फाइल।";
+"Open" = "खोल्नुहोस्";
+
+/* Sources/Sumi/App/MainMenu.swift */
+"File" = "फाइल";
+"Edit" = "सम्पादन गर्नुहोस्";
+"View" = "हेर्नुहोस्";
+"Navigate" = "नेभिगेट गर्नुहोस्";
+"Window" = "झ्याल";
+"About Sumi" = "Sumi आवेदन को बारे मा";
+"Language" = "भाषा";
+"Services" = "सेवाहरू";
+"Hide Sumi" = "Sumi लुकाउनुहोस्";
+"Hide Others" = "अरूलाई लुकाउनुहोस्";
+"Show All" = "सबै देखाउनुहोस्";
+"Quit Sumi" = "Sumi छोड्नुहोस्";
+"System Default" = "प्रणाली पूर्वनिर्धारित";
+"New File…" = "नयाँ फाइल…";
+"New Folder…" = "नयाँ फोल्डर…";
+"New Terminal Tab" = "नयाँ टर्मिनल ट्याब";
+"Open…" = "खोल्नुहोस्…";
+"Save" = "बचत गर्नुहोस्";
+"Save All" = "सबै बचत गर्नुहोस्";
+"Close Tab" = "ट्याब बन्द गर्नुहोस्";
+"Close Window" = "सञ्झ्याल बन्द गर्नुहोस्";
+"Undo" = "पूर्ववत गर्नुहोस्";
+"Redo" = "पुन: गर्नुहोस्";
+"Cut" = "काट्नुहोस्";
+"Copy" = "प्रतिलिपि गर्नुहोस्";
+"Paste" = "टाँस्नुहोस्";
+"Select All" = "सबै चयन गर्नुहोस्";
+"Find…" = "फेला पार्नुहोस्...";
+"Replace…" = "प्रतिस्थापन...";
+"Find Next" = "अर्को खोज्नुहोस्";
+"Find Previous" = "अघिल्लो खोज्नुहोस्";
+"Use Selection for Find" = "खोजको लागि चयन प्रयोग गर्नुहोस्";
+"Find" = "फेला पार्नुहोस्";
+"Project" = "परियोजना";
+"Terminal" = "टर्मिनल";
+"Swap Terminal and Project" = "स्वैप टर्मिनल र परियोजना";
+"Maximize Terminal" = "टर्मिनल अधिकतम बनाउनुहोस्";
+"GPU Rendering" = "GPU प्रतिपादन";
+"Soft-Wrap" = "स्वचालित रूपमा लामो पाठ रेखाहरू लपेट्नुहोस्";
+"Toggle Preview" = "पूर्वावलोकन टगल गर्नुहोस्";
+"Increase Font Size" = "फन्ट साइज बढाउनुहोस्";
+"Decrease Font Size" = "फन्ट साइज घटाउनुहोस्";
+"Reset Font Size" = "फन्ट साइज रिसेट गर्नुहोस्";
+"Search Everywhere (Double ⇧)" = "जताततै खोज्नुहोस् (डबल ⇧)";
+"Select in Project View" = "परियोजना दृश्यमा चयन गर्नुहोस्";
+"Next Tab" = "अर्को ट्याब";
+"Previous Tab" = "अघिल्लो ट्याब";
+"Minimize" = "न्यूनतम गर्नुहोस्";
+"Zoom" = "जुम";
+"Bring All to Front" = "सबैलाई अगाडि ल्याउनुहोस्";
+
+/* Sources/Sumi/Console/ConsoleViewController.swift */
+"Local" = "स्थानीय";
+"Local (%ld)" = "स्थानीय (%ld)";
+"Hide Terminal" = "टर्मिनल लुकाउनुहोस्";
+"Close" = "बन्द गर्नुहोस्";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "चलिरहेको टर्मिनल सत्रहरू बन्द गर्ने हो?";
+"These processes will be stopped:" = "यी प्रक्रियाहरू रोकिनेछन्:";
+"Cancel" = "रद्द गर्नुहोस्";
+
+/* Sources/Sumi/Editor/EditorAreaViewController.swift */
+"Save a Copy…" = "एउटा प्रतिलिपि बचत गर्नुहोस्...";
+
+/* Sources/Sumi/Editor/EditorViewController.swift */
+"Editor Only" = "सम्पादक मात्र";
+"Editor and Preview" = "सम्पादक र पूर्वावलोकन";
+"Preview Only" = "पूर्वावलोकन मात्र";
+
+/* Sources/Sumi/Editor/StatusBarView.swift */
+"Spaces: %ld" = "खाली ठाउँहरू: %ld";
+"Plain Text" = "सादा पाठ";
+"Search Everywhere" = "जताततै खोज्नुहोस्";
+"Double ⇧" = "दोब्बर ⇧";
+"Go to File" = "फाइलमा जानुहोस्";
+"Open Folder" = "फोल्डर खोल्नुहोस्";
+"Project View" = "परियोजना दृश्य";
+
+/* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "फाइल डिस्कमा परिवर्तन भयो। तपाईंका सम्पादनहरू राखिएका छन्। दुबै संस्करणहरू सुरक्षित गर्न प्रतिलिपि बचत गर्नुहोस्।";
+"The file is a binary file." = "फाइल बाइनरी फाइल हो।";
+"The file's text encoding could not be determined." = "फाइलको पाठ एन्कोडिङ निर्धारण गर्न सकिएन।";
+"The text cannot be saved in %@." = "पाठ %@ मा बचत गर्न सकिँदैन।";
+
+/* Sources/Sumi/Project/FileTreeViewController.swift */
+"New Folder" = "नयाँ फोल्डर";
+"New File" = "नयाँ फाइल";
+"Enter a name in “%@”. Use / to create nested folders." = "\"%@\" मा नाम प्रविष्ट गर्नुहोस्। सबफोल्डरहरू सिर्जना गर्न / क्यारेक्टरसँग फोल्डर नामहरू अलग गर्नुहोस्।";
+"Rename" = "पुन: नामाकरण गर्नुहोस्";
+"Enter a new name for “%@”." = "\"%@\" को लागि नयाँ नाम प्रविष्ट गर्नुहोस्।";
+"Move “%@” to the Trash?" = "\"%@\" लाई रद्दीटोकरीमा सार्ने हो?";
+"The folder and everything in it will be moved to the Trash." = "फोल्डर र यसमा भएका सबै कुरा रद्दीटोकरीमा सारिनेछ।";
+"You can restore it from the Trash." = "तपाईंले रद्दीटोकरीबाट यसलाई पुनर्स्थापित गर्न सक्नुहुन्छ।";
+"Move to Trash" = "रद्दीटोकरीमा सार्नुहोस्";
+"OK" = "ठीक छ";
+"Rename…" = "पुन: नामाकरण...";
+"Copy Path" = "पथ प्रतिलिपि गर्नुहोस्";
+"Copy Relative Path" = "सापेक्ष मार्ग प्रतिलिपि गर्नुहोस्";
+"Reveal in Finder" = "Finder मा प्रकट गर्नुहोस्";
+"Open in Terminal" = "टर्मिनलमा खोल्नुहोस्";
+
+/* Sources/Sumi/Project/ProjectWindowController.swift */
+"Left Panel" = "बायाँ प्यानल";
+
+/* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Files" = "फाइलहरू";
+"Double ⇧ to search everywhere" = "जताततै खोज्नको लागि डबल ⇧";
+"Type a file name (use / to match the path)" = "फाइल नाम टाइप गर्नुहोस् (प्रयोग / मार्ग मिलाउन)";
+"No recent files" = "हालका फाइलहरू छैनन्";
+"Recent Files" = "हालका फाइलहरू";
+"Matches: %1$ld / Files: %2$ld" = "परिणामहरू फेला पर्यो: %1$ld / कुल फाइलहरू: %2$ld";

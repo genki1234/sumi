@@ -16,11 +16,13 @@
 "Navigate" = "Navigasi";
 "Window" = "Tetingkap";
 "About Sumi" = "Perihal Sumi";
+"Language" = "Bahasa";
 "Services" = "Perkhidmatan";
 "Hide Sumi" = "Sembunyikan Sumi";
 "Hide Others" = "Sembunyikan Yang Lain";
 "Show All" = "Tunjukkan Semua";
 "Quit Sumi" = "Keluar dari Sumi";
+"System Default" = "Lalai Sistem";
 "New File…" = "Fail Baharu…";
 "New Folder…" = "Folder Baharu…";
 "New Terminal Tab" = "Tab Terminal Baharu";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Tukar Terminal dan Projek";
 "Maximize Terminal" = "Maksimumkan Terminal";
+"GPU Rendering" = "Rendering GPU";
 "Soft-Wrap" = "Balut Baris Automatik";
 "Toggle Preview" = "Togol Pratonton";
 "Increase Font Size" = "Besarkan Saiz Fon";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Bawa Semua ke Hadapan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Sembunyikan Terminal";
 "Local" = "Tempatan";
 "Local (%ld)" = "Tempatan (%ld)";
+"Hide Terminal" = "Sembunyikan Terminal";
+"Close" = "tutup";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Tutup sesi terminal yang sedang berjalan?";
+"These processes will be stopped:" = "Proses ini akan dihentikan:";
+"Cancel" = "Batal";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Perubahan anda akan hilang jika anda tidak menyimpannya.";
-"Do you want to save the changes made to “%@”?" = "Adakah anda mahu menyimpan perubahan yang dibuat pada “%@”?";
-"Do you want to save the changes made to these files?" = "Adakah anda mahu menyimpan perubahan yang dibuat pada fail ini?";
-"Cancel" = "Batal";
-"Don't Save" = "Jangan Simpan";
+"Save a Copy…" = "Simpan Salinan…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Editor Sahaja";
@@ -85,6 +90,7 @@
 "Project View" = "Paparan Projek";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fail ditukar pada cakera. Suntingan anda telah disimpan. Simpan salinan untuk mengekalkan kedua-dua versi.";
 "The file is a binary file." = "Fail ini ialah fail binari.";
 "The file's text encoding could not be determined." = "Pengekodan teks fail tidak dapat ditentukan.";
 "The text cannot be saved in %@." = "Teks tidak dapat disimpan dalam %@.";
@@ -116,4 +122,3 @@
 "No recent files" = "Tiada fail terkini";
 "Recent Files" = "Fail Terkini";
 "Matches: %1$ld / Files: %2$ld" = "Padanan: %1$ld / Fail: %2$ld";
-"Close" = "Tutup";

@@ -16,11 +16,13 @@
 "Navigate" = "Navigeer";
 "Window" = "Venster";
 "About Sumi" = "Over Sumi";
+"Language" = "Taal";
 "Services" = "Voorzieningen";
 "Hide Sumi" = "Verberg Sumi";
 "Hide Others" = "Verberg andere";
 "Show All" = "Toon alles";
 "Quit Sumi" = "Stop Sumi";
+"System Default" = "Systeemstandaard";
 "New File…" = "Nieuw bestand…";
 "New Folder…" = "Nieuwe map…";
 "New Terminal Tab" = "Nieuw terminaltabblad";
@@ -45,6 +47,7 @@
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Verwissel terminal en project";
 "Maximize Terminal" = "Maximaliseer terminal";
+"GPU Rendering" = "GPU-weergave";
 "Soft-Wrap" = "Zachte regelafbreking";
 "Toggle Preview" = "Voorvertoning aan/uit";
 "Increase Font Size" = "Vergroot lettergrootte";
@@ -59,16 +62,18 @@
 "Bring All to Front" = "Alles naar voren halen";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Hide Terminal" = "Verberg terminal";
 "Local" = "Lokaal";
 "Local (%ld)" = "Lokaal (%ld)";
+"Hide Terminal" = "Verberg terminal";
+"Close" = "Sluiten";
+
+/* Sources/Sumi/Console/TerminalJobs.swift */
+"Close running terminal sessions?" = "Lopende terminalsessies sluiten?";
+"These processes will be stopped:" = "Deze processen worden gestopt:";
+"Cancel" = "Annuleer";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Your changes will be lost if you don't save them." = "Je wijzigingen gaan verloren als je ze niet bewaart.";
-"Do you want to save the changes made to “%@”?" = "Wil je de wijzigingen in “%@” bewaren?";
-"Do you want to save the changes made to these files?" = "Wil je de wijzigingen in deze bestanden bewaren?";
-"Cancel" = "Annuleer";
-"Don't Save" = "Bewaar niet";
+"Save a Copy…" = "Een kopie opslaan…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Alleen editor";
@@ -85,6 +90,7 @@
 "Project View" = "Projectweergave";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Het bestand is op schijf gewijzigd. Uw bewerkingen zijn bewaard. Sla een kopie op om beide versies te behouden.";
 "The file is a binary file." = "Het bestand is een binair bestand.";
 "The file's text encoding could not be determined." = "De tekstcodering van het bestand kon niet worden bepaald.";
 "The text cannot be saved in %@." = "De tekst kan niet in %@ worden bewaard.";
@@ -116,4 +122,3 @@
 "No recent files" = "Geen recente bestanden";
 "Recent Files" = "Recente bestanden";
 "Matches: %1$ld / Files: %2$ld" = "Treffers: %1$ld / Bestanden: %2$ld";
-"Close" = "Sluit";

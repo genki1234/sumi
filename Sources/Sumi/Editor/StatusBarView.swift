@@ -69,6 +69,10 @@ final class StatusBarView: NSView {
 
 /// Shown when no tab is open.
 final class EmptyEditorView: NSView {
+    private var titleLabels: [NSTextField] = []
+    private var searchShortcut: NSTextField?
+    private var localizedViews: [NSView] = []
+
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
         let hints: [(String, String)] = [
@@ -79,19 +83,23 @@ final class EmptyEditorView: NSView {
         ]
         let rows = hints.map { title, key -> NSView in
             let titleLabel = NSTextField(labelWithString: title)
+            titleLabels.append(titleLabel)
             titleLabel.font = .systemFont(ofSize: 13)
             titleLabel.textColor = .secondaryLabelColor
             titleLabel.alignment = .right
             titleLabel.lineBreakMode = .byTruncatingTail
             titleLabel.widthAnchor.constraint(equalToConstant: 150).isActive = true
             let keyLabel = NSTextField(labelWithString: key)
+            if searchShortcut == nil { searchShortcut = keyLabel }
             keyLabel.font = .systemFont(ofSize: 13)
             keyLabel.textColor = Theme.accent
             let row = NSStackView(views: [titleLabel, keyLabel])
+            localizedViews.append(contentsOf: [row, titleLabel, keyLabel])
             row.spacing = 12
             return row
         }
         let column = NSStackView(views: rows)
+        localizedViews.append(column)
         column.orientation = .vertical
         column.alignment = .leading
         column.spacing = 10
@@ -101,6 +109,19 @@ final class EmptyEditorView: NSView {
             column.centerXAnchor.constraint(equalTo: centerXAnchor, constant: -40),
             column.centerYAnchor.constraint(equalTo: centerYAnchor),
         ])
+        applyLocalization()
+    }
+
+    func applyLocalization() {
+        let direction: NSUserInterfaceLayoutDirection = AppLocalization.isRightToLeft ? .rightToLeft : .leftToRight
+        userInterfaceLayoutDirection = direction
+        localizedViews.forEach { $0.userInterfaceLayoutDirection = direction }
+        let titles = [L("Search Everywhere"), L("Go to File"), L("Open Folder"), L("Project View")]
+        for (label, title) in zip(titleLabels, titles) {
+            label.stringValue = title
+            label.alignment = AppLocalization.isRightToLeft ? .left : .right
+        }
+        searchShortcut?.stringValue = L("Double ⇧")
     }
 
     required init?(coder: NSCoder) {

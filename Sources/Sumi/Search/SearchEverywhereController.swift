@@ -25,6 +25,9 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
     private let field = NSTextField()
     private let table = NSTableView()
     private let footer = NSTextField(labelWithString: "")
+    private let tabLabel = NSTextField(labelWithString: "")
+    private let hint = NSTextField(labelWithString: "")
+    private var localizedViews: [NSView] = []
     private var rows: [Row] = []
     private weak var parentWindow: NSWindow?
     private var isClosing = false
@@ -58,13 +61,13 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         background.state = .active
         panel.contentView = background
 
-        let tabLabel = NSTextField(labelWithString: L("Files"))
+        tabLabel.stringValue = L("Files")
         tabLabel.font = .systemFont(ofSize: 12, weight: .semibold)
         tabLabel.textColor = .labelColor
         let underline = NSView()
         underline.wantsLayer = true
         underline.layer?.backgroundColor = NSColor.controlAccentColor.cgColor
-        let hint = NSTextField(labelWithString: L("Double ⇧ to search everywhere"))
+        hint.stringValue = L("Double ⇧ to search everywhere")
         hint.font = .systemFont(ofSize: 11)
         hint.textColor = .tertiaryLabelColor
 
@@ -109,6 +112,7 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
             view.translatesAutoresizingMaskIntoConstraints = false
             background.addSubview(view)
         }
+        localizedViews = [background, tabLabel, underline, hint, magnifier, field, separator, scroll, scroll.contentView, table, footer]
         NSLayoutConstraint.activate([
             tabLabel.topAnchor.constraint(equalTo: background.topAnchor, constant: 10),
             tabLabel.leadingAnchor.constraint(equalTo: background.leadingAnchor, constant: 18),
@@ -139,6 +143,17 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
             footer.trailingAnchor.constraint(lessThanOrEqualTo: background.trailingAnchor, constant: -16),
             footer.bottomAnchor.constraint(equalTo: background.bottomAnchor, constant: -8),
         ])
+        applyLocalization()
+    }
+
+    func applyLocalization() {
+        let direction: NSUserInterfaceLayoutDirection = AppLocalization.isRightToLeft ? .rightToLeft : .leftToRight
+        localizedViews.forEach { $0.userInterfaceLayoutDirection = direction }
+        field.baseWritingDirection = .leftToRight
+        tabLabel.stringValue = L("Files")
+        hint.stringValue = L("Double ⇧ to search everywhere")
+        field.placeholderString = L("Type a file name (use / to match the path)")
+        refresh()
     }
 
     // MARK: Show / close
@@ -283,22 +298,26 @@ private final class SearchResultCell: NSTableCellView {
     init(identifier: NSUserInterfaceItemIdentifier) {
         super.init(frame: .zero)
         self.identifier = identifier
+        userInterfaceLayoutDirection = .leftToRight
         nameLabel.lineBreakMode = .byTruncatingTail
         pathLabel.lineBreakMode = .byTruncatingHead
         nameLabel.setContentCompressionResistancePriority(.defaultHigh, for: .horizontal)
         pathLabel.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
         for view in [icon, nameLabel, pathLabel] {
+            view.userInterfaceLayoutDirection = .leftToRight
             view.translatesAutoresizingMaskIntoConstraints = false
             addSubview(view)
         }
+        nameLabel.baseWritingDirection = .leftToRight
+        pathLabel.baseWritingDirection = .leftToRight
         NSLayoutConstraint.activate([
-            icon.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
+            icon.leftAnchor.constraint(equalTo: leftAnchor, constant: 10),
             icon.centerYAnchor.constraint(equalTo: centerYAnchor),
             icon.widthAnchor.constraint(equalToConstant: 16),
-            nameLabel.leadingAnchor.constraint(equalTo: icon.trailingAnchor, constant: 8),
+            nameLabel.leftAnchor.constraint(equalTo: icon.rightAnchor, constant: 8),
             nameLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
-            pathLabel.leadingAnchor.constraint(equalTo: nameLabel.trailingAnchor, constant: 10),
-            pathLabel.trailingAnchor.constraint(lessThanOrEqualTo: trailingAnchor, constant: -10),
+            pathLabel.leftAnchor.constraint(equalTo: nameLabel.rightAnchor, constant: 10),
+            pathLabel.rightAnchor.constraint(lessThanOrEqualTo: rightAnchor, constant: -10),
             pathLabel.centerYAnchor.constraint(equalTo: centerYAnchor),
         ])
     }

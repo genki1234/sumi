@@ -5,6 +5,7 @@ import AppKit
 enum MainMenu {
     static func build() -> NSMenu {
         let main = NSMenu()
+        main.userInterfaceLayoutDirection = AppLocalization.isRightToLeft ? .rightToLeft : .leftToRight
         main.addItem(submenu("Sumi", appMenu()))
         main.addItem(submenu(L("File"), fileMenu()))
         main.addItem(submenu(L("Edit"), editMenu()))
@@ -12,6 +13,7 @@ enum MainMenu {
         main.addItem(submenu(L("Navigate"), navigateMenu()))
         let window = windowMenu()
         main.addItem(submenu(L("Window"), window))
+        main.addItem(submenu(L("Language"), languageMenu()))
         NSApp.windowsMenu = window
         return main
     }
@@ -19,6 +21,7 @@ enum MainMenu {
     private static func submenu(_ title: String, _ menu: NSMenu) -> NSMenuItem {
         let item = NSMenuItem(title: title, action: nil, keyEquivalent: "")
         menu.title = title
+        menu.userInterfaceLayoutDirection = AppLocalization.isRightToLeft ? .rightToLeft : .leftToRight
         item.submenu = menu
         return item
     }
@@ -50,6 +53,28 @@ enum MainMenu {
         return menu
     }
 
+    private static func languageMenu() -> NSMenu {
+        let menu = NSMenu()
+        let action = #selector(AppDelegate.selectLanguage(_:))
+        let system = item(L("System Default"), action)
+        system.target = NSApp.delegate
+        system.representedObject = ""
+        system.state = Preferences.interfaceLanguage == nil ? .on : .off
+        menu.addItem(system)
+        menu.addItem(.separator())
+        let codes = AppLocalization.supportedLanguageCodes.sorted {
+            AppLocalization.nativeName(for: $0).localizedStandardCompare(AppLocalization.nativeName(for: $1)) == .orderedAscending
+        }
+        for code in codes {
+            let language = item(AppLocalization.nativeName(for: code), action)
+            language.target = NSApp.delegate
+            language.representedObject = code
+            language.state = Preferences.interfaceLanguage == code ? .on : .off
+            menu.addItem(language)
+        }
+        return menu
+    }
+
     private static func fileMenu() -> NSMenu {
         let menu = NSMenu()
         menu.addItem(item(L("New File…"), #selector(ProjectWindowController.newFile(_:)), "n"))
@@ -76,7 +101,7 @@ enum MainMenu {
         menu.addItem(item(L("Select All"), #selector(NSText.selectAll(_:)), "a"))
         menu.addItem(.separator())
         let find = NSMenu()
-        let action = #selector(NSTextView.performTextFinderAction(_:))
+        let action = #selector(ProjectWindowController.performFindAction(_:))
         find.addItem(item(L("Find…"), action, "f", tag: NSTextFinder.Action.showFindInterface.rawValue))
         find.addItem(item(L("Replace…"), action, "r", tag: NSTextFinder.Action.showReplaceInterface.rawValue))
         find.addItem(item(L("Find Next"), action, "g", tag: NSTextFinder.Action.nextMatch.rawValue))
@@ -93,6 +118,7 @@ enum MainMenu {
         menu.addItem(item(L("Swap Terminal and Project"), #selector(ProjectWindowController.swapConsoleAndProject(_:)), "t", [.command, .control]))
         menu.addItem(item(L("Maximize Terminal"), #selector(ProjectWindowController.toggleMaximizeConsole(_:)), "\r", [.command, .shift]))
         menu.addItem(.separator())
+        menu.addItem(item(L("GPU Rendering"), #selector(AppDelegate.toggleTerminalGPU(_:))))
         menu.addItem(item(L("Soft-Wrap"), #selector(AppDelegate.toggleSoftWrap(_:))))
         menu.addItem(item(L("Toggle Preview"), #selector(ProjectWindowController.togglePreview(_:)), "v", [.command, .shift]))
         menu.addItem(.separator())
