@@ -26,7 +26,7 @@ jobs:
       - name: Build the app
         run: |
           if [[ "$GITHUB_REF_TYPE" == tag ]]; then export SUMI_VERSION="${GITHUB_REF_NAME#v}"; fi
-          export SUMI_BUILD="$GITHUB_RUN_NUMBER" SUMI_REQUIRE_UNIVERSAL=1
+          export SUMI_BUILD="$GITHUB_RUN_NUMBER"
           xcodebuild -version
           scripts/build-app.sh
           for arch in arm64 x86_64; do lipo build/Sumi.app/Contents/MacOS/Sumi -verify_arch "$arch"; done

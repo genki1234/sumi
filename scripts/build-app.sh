@@ -1,6 +1,6 @@
 #!/bin/bash
 # Builds Sumi.app into ./build.
-#   scripts/build-app.sh            release build (universal when both architectures are available)
+#   scripts/build-app.sh            release build (universal: Apple silicon and Intel)
 #   scripts/build-app.sh --debug    debug build for the current machine
 set -euo pipefail
 cd "$(dirname "$0")/.."
@@ -8,19 +8,22 @@ cd "$(dirname "$0")/.."
 CONFIG=release
 if [[ "${1:-}" == "--debug" ]]; then CONFIG=debug; fi
 
-UNIVERSAL=(-c release --arch arm64 --arch x86_64)
-mkdir -p .build
-if [[ "$CONFIG" == release ]] && swift build "${UNIVERSAL[@]}" >.build/universal.log 2>&1; then
-    BIN="$(swift build "${UNIVERSAL[@]}" --show-bin-path)/Sumi"
+if [[ "$CONFIG" == release ]]; then
+    # One build per architecture with the native build system, joined with lipo. Building both architectures in
+    # one `swift build` uses the Xcode build system, which on Xcode 26 cannot resolve SwiftTerm's build plugin; the
+    # newer default build system compiles that plugin for the target architecture, so an Intel build cannot run it
+    # on Apple silicon. The native build system compiles plugins for the build machine.
+    PARTS=()
+    for arch in arm64 x86_64; do
+        NATIVE=(-c release --build-system native --triple "$arch-apple-macosx")
+        swift build "${NATIVE[@]}"
+        PARTS+=("$(swift build "${NATIVE[@]}" --show-bin-path)/Sumi")
+    done
+    BIN=.build/Sumi-universal
+    lipo -create -output "$BIN" "${PARTS[@]}"
 else
-    if [[ "$CONFIG" == release ]]; then
-        echo "Universal build failed; the last lines of its log:" >&2
-        tail -40 .build/universal.log >&2
-        # CI publishes only universal builds.
-        if [[ -n "${SUMI_REQUIRE_UNIVERSAL:-}" ]]; then exit 1; fi
-    fi
-    swift build -c "$CONFIG"
-    BIN="$(swift build -c "$CONFIG" --show-bin-path)/Sumi"
+    swift build -c debug
+    BIN="$(swift build -c debug --show-bin-path)/Sumi"
 fi
 
 APP=build/Sumi.app
