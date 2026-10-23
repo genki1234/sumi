@@ -44,7 +44,7 @@
 
 ## አውርድ
 
-- [የቅርብ ጊዜ ልቀት](../../releases/latest)
+- [ልቀቶች](../../releases)
 - [የሌሊት ግንባታ](../../releases/tag/nightly)፦ `main` በተቀየረ ቁጥር ይገነባል።
 
 `Sumi.zip`ን ያውርዱ፣ ይፍቱትና Sumiን ወደ Applications ያንቀሳቅሱ። አንድ ግንባታ በApple silicon እና Intel Mac ላይ ይሠራል።

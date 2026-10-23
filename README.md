@@ -44,7 +44,7 @@ Run your agent in the built-in terminal, click the files it touches to open them
 
 ## Download
 
-- [Latest release](../../releases/latest)
+- [Releases](../../releases)
 - [Nightly build](../../releases/tag/nightly): rebuilt on every change to `main`.
 
 Download `Sumi.zip`, unzip it and move Sumi to Applications. One build runs on both Apple silicon and Intel Macs.

@@ -42,7 +42,7 @@ Tsamaisa moemedi wa hao ho terminal e hahelletsweng, tobetsa difaele tseo a di f
 
 ## Khoasolla
 
-- [Tokollo ya moraorao](../../releases/latest)
+- [Litokollo](../../releases)
 - [Mohaho wa bosiu](../../releases/tag/nightly): o hahwa botjha phetohong e nngwe le e nngwe ya `main`.
 
 Khoasolla `Sumi.zip`, e ntsha sephuthelong, ebe o isa Sumi ho Applications. Mohaho o le mong o sebetsa ho Mac tsa Apple silicon le Intel.

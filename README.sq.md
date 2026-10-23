@@ -42,7 +42,7 @@ Ekzekutoni agjentin në terminalin e integruar, klikoni skedarët që ai ndrysho
 
 ## Shkarkimi
 
-- [Versioni më i fundit](../../releases/latest)
+- [Versionet](../../releases)
 - [Ndërtimi i natës](../../releases/tag/nightly): rindërtohet pas çdo ndryshimi në `main`.
 
 Shkarkoni `Sumi.zip`, çpaketojeni dhe zhvendosni Sumi te Applications. I njëjti ndërtim punon në Mac me Apple silicon dhe Intel.

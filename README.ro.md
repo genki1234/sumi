@@ -42,7 +42,7 @@ Rulați agentul în terminalul integrat, faceți clic pe fișierele pe care le m
 
 ## Descărcare
 
-- [Ultima versiune](../../releases/latest)
+- [Versiuni](../../releases)
 - [Versiune nocturnă](../../releases/tag/nightly): recompilată la fiecare modificare a ramurii `main`.
 
 Descărcați `Sumi.zip`, dezarhivați-l și mutați Sumi în Aplicații. Aceeași versiune rulează pe Mac-uri cu Apple silicon și Intel.

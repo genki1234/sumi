@@ -42,7 +42,7 @@ Kör agenten i den inbyggda terminalen, klicka på filerna den ändrar för att 
 
 ## Hämta
 
-- [Senaste versionen](../../releases/latest)
+- [Utgåvor](../../releases)
 - [Nattbygge](../../releases/tag/nightly): byggs om vid varje ändring i `main`.
 
 Hämta `Sumi.zip`, packa upp och flytta Sumi till Program. Samma bygge fungerar på Mac med Apple silicon och Intel.

@@ -42,7 +42,7 @@ Agentni ichki terminalda ishga tushiring, u o‘zgartirgan fayllarni bosib ochin
 
 ## Yuklab olish
 
-- [Eng so‘nggi nashr](../../releases/latest)
+- [Nashrlar](../../releases)
 - [Tungi yig‘ilma](../../releases/tag/nightly): `main` har o‘zgarganda qayta yig‘iladi.
 
 `Sumi.zip`ni yuklab oling, arxivdan chiqaring va Sumi’ni Applications’ga ko‘chiring. Bitta yig‘ilma Apple silicon va Intel Mac’larda ishlaydi.

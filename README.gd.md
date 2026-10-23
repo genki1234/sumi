@@ -44,7 +44,7 @@ Ruith an t-àidseant agad san tèirmineal thogte a-steach, briog air na faidhlic
 
 ## Luchdadh a-nuas
 
-- [An tionndadh as ùire](../../releases/latest)
+- [Tionndaidhean](../../releases)
 - [Togail oidhcheil](../../releases/tag/nightly): air ath-thogail leis gach atharrachadh air `main`.
 
 Luchdaich a-nuas `Sumi.zip`, dì-dhùmhlaich e agus gluais Sumi gu Applications. Ruithidh an aon togail air Mac le Apple silicon agus Intel.

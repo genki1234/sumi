@@ -42,7 +42,7 @@ macOS لاءِ هلڪو ٽيڪسٽ ايڊيٽر، جيڪو AI ڪوڊنگ ايج�
 
 ## ڊائون لوڊ
 
-- [تازو رليز](../../releases/latest)
+- [رليزن جي فهرست](../../releases)
 - [رات وارو بلڊ](../../releases/tag/nightly): `main` جي هر تبديلي تي ٻيهر ٺهي ٿو.
 
 `Sumi.zip` ڊائون لوڊ ڪري کوليو ۽ Sumi کي Applications ۾ منتقل ڪريو. هڪ بلڊ Apple silicon ۽ Intel ٻنهي Mac تي هلي ٿو.

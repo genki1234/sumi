@@ -42,7 +42,7 @@ Agentiňizi içerki terminalda işlediň, onuň üýtgedýän faýllaryny basyp 
 
 ## Göçürip almak
 
-- [Iň soňky çykarylyş](../../releases/latest)
+- [Çykarylyşlar](../../releases)
 - [Gijeki gurluş](../../releases/tag/nightly): `main` her üýtgände täzeden gurulýar.
 
 `Sumi.zip` faýlyny alyň, açyň we Sumi-ni Applications içine geçiriň. Bir gurluş Apple silicon we Intel Mac-laryň ikisinde-de işleýär.

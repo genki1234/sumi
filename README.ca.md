@@ -44,7 +44,7 @@ Executeu l'agent al terminal integrat, obriu amb un clic els fitxers amb què tr
 
 ## Baixada
 
-- [Darrera versió](../../releases/latest)
+- [Versions](../../releases)
 - [Compilació nocturna](../../releases/tag/nightly): es torna a compilar amb cada canvi a `main`.
 
 Baixeu `Sumi.zip`, descomprimiu-lo i moveu el Sumi a Aplicacions. Una sola compilació funciona tant en Mac amb Apple silicon com amb Intel.

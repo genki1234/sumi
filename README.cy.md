@@ -44,7 +44,7 @@ Rhedwch eich asiant yn y derfynell fewnol, cliciwch y ffeiliau y mae'n gweithio 
 
 ## Lawrlwytho
 
-- [Y fersiwn ddiweddaraf](../../releases/latest)
+- [Fersiynau](../../releases)
 - [Adeilad nosweithiol](../../releases/tag/nightly): yn cael ei ailadeiladu ar bob newid i `main`.
 
 Lawrlwythwch `Sumi.zip`, dadsipiwch ef a symudwch Sumi i Applications. Mae un adeilad yn rhedeg ar gyfrifiaduron Mac Apple silicon ac Intel.

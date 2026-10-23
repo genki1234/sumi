@@ -42,7 +42,7 @@
 
 ## ទាញយក
 
-- [កំណែចុងក្រោយ](../../releases/latest)
+- [កំណែដែលបានចេញផ្សាយ](../../releases)
 - [កំណែពេលយប់](../../releases/tag/nightly): បង្កើតឡើងវិញរាល់ការផ្លាស់ប្ដូរនៅ `main`។
 
 ទាញយក `Sumi.zip` ពន្លាឯកសារ ហើយផ្លាស់ទី Sumi ទៅ Applications។ កំណែតែមួយដំណើរការលើ Mac Apple silicon និង Intel។

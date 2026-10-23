@@ -1,22 +1,56 @@
 name: CI
 
-# Pushes to main are built and published by release.yml.
 on:
   pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Fork pull requests run the same checks without repository secrets or write access.
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   translations:
     name: Translations
     runs-on: macos-26
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
       - name: Check every language
         run: swift scripts/l10n.swift check
+
+  documentation:
+    name: Documentation
+    runs-on: macos-26
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check every README and local link
+        run: python3 scripts/check-readmes.py
 
   build:
     name: Build
     runs-on: macos-26
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - name: Build the app
-        run: scripts/build-app.sh
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Build and verify both architectures
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          scripts/build-app.sh
+          for arch in arm64 x86_64; do
+            lipo build/Sumi.app/Contents/MacOS/Sumi -verify_arch "$arch"
+          done
+          codesign --verify --deep --strict build/Sumi.app

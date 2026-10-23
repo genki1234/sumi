@@ -44,7 +44,7 @@ AI 코딩 에이전트와 함께 쓰기 위해 만든 가벼운 macOS 텍스트 
 
 ## 다운로드
 
-- [최신 릴리스](../../releases/latest)
+- [릴리스 목록](../../releases)
 - [Nightly 빌드](../../releases/tag/nightly): `main`이 변경될 때마다 다시 빌드합니다.
 
 `Sumi.zip`을 다운로드해 압축을 풀고 Sumi를 응용 프로그램 폴더로 옮기세요. 하나의 빌드가 Apple silicon과 Intel Mac 모두에서 실행됩니다.

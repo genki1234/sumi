@@ -44,7 +44,7 @@ Rith do ghníomhaire sa teirminéal ionsuite, cliceáil na comhaid lena n-oibrí
 
 ## Íoslódáil
 
-- [An eisiúint is déanaí](../../releases/latest)
+- [Eisiúintí](../../releases)
 - [Tógáil oíche](../../releases/tag/nightly): atógtar í le gach athrú ar `main`.
 
 Íoslódáil `Sumi.zip`, dízipeáil é agus bog Sumi go Applications. Ritheann an tógáil chéanna ar Mac le Apple silicon agus Intel.

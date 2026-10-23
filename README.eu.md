@@ -44,7 +44,7 @@ Exekutatu agentea terminal integratuan, ireki lantzen dituen fitxategiak klik eg
 
 ## Deskargatu
 
-- [Azken bertsioa](../../releases/latest)
+- [Argitalpenak](../../releases)
 - [Gaueko konpilazioa](../../releases/tag/nightly): `main` aldatzen den bakoitzean berriro eraikitzen da.
 
 Deskargatu `Sumi.zip`, deskonprimitu eta eraman Sumi Applications karpetara. Konpilazio berak Apple silicon zein Intel Macetan funtzionatzen du.

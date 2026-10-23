@@ -44,7 +44,7 @@ Uruchom agenta we wbudowanym terminalu, klikaj modyfikowane przez niego pliki, a
 
 ## Pobieranie
 
-- [Najnowsze wydanie](../../releases/latest)
+- [Wydania](../../releases)
 - [Wersja nightly](../../releases/tag/nightly): budowana po każdej zmianie w `main`.
 
 Pobierz `Sumi.zip`, rozpakuj i przenieś Sumi do folderu Aplikacje. Ta sama wersja działa na Macach z układami Apple silicon i procesorami Intel.

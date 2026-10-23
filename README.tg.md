@@ -42,7 +42,7 @@
 
 ## Боргирӣ
 
-- [Нашри охирин](../../releases/latest)
+- [Нашрҳо](../../releases)
 - [Сохти шабона](../../releases/tag/nightly): бо ҳар тағйири `main` аз нав сохта мешавад.
 
 `Sumi.zip`-ро боргирӣ ва боз кунед, сипас Sumi-ро ба Applications гузаронед. Як сохт ҳам дар Mac-и Apple silicon ва ҳам Intel кор мекунад.

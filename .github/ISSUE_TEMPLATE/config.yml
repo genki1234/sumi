@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/genki1234/sumi/security/advisories/new
+    about: Use a private report for vulnerabilities. Do not publish exploit details in an issue.

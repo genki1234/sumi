@@ -44,7 +44,7 @@ macOS ਲਈ ਇੱਕ ਹਲਕਾ ਟੈਕਸਟ ਸੰਪਾਦਕ, ਜੋ A
 
 ## ਡਾਊਨਲੋਡ
 
-- [ਸਭ ਤੋਂ ਨਵਾਂ ਰਿਲੀਜ਼](../../releases/latest)
+- [ਰਿਲੀਜ਼ਾਂ](../../releases)
 - [Nightly ਬਿਲਡ](../../releases/tag/nightly): `main` ਵਿੱਚ ਹਰ ਬਦਲਾਅ ਉੱਤੇ ਮੁੜ ਬਣਦਾ ਹੈ।
 
 `Sumi.zip` ਡਾਊਨਲੋਡ ਕਰੋ, ਖੋਲ੍ਹ ਕੇ ਉਸ ਵਿੱਚੋਂ Sumi ਨੂੰ Applications ਵਿੱਚ ਰੱਖੋ। ਇੱਕੋ ਬਿਲਡ Apple silicon ਅਤੇ Intel ਦੋਹਾਂ ਕਿਸਮਾਂ ਦੇ Mac ਉੱਤੇ ਚੱਲਦਾ ਹੈ।

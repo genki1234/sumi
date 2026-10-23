@@ -42,7 +42,7 @@ Esegui il tuo agente nel terminale integrato, fai clic sui file che modifica per
 
 ## Download
 
-- [Ultima versione](../../releases/latest)
+- [Versioni](../../releases)
 - [Build notturna](../../releases/tag/nightly): ricompilata a ogni modifica di `main`.
 
 Scarica `Sumi.zip`, decomprimilo e sposta Sumi in Applications. Un'unica build funziona sui Mac Apple silicon e Intel.

@@ -42,7 +42,7 @@ Alefaso ao amin'ny terminal anatiny ny mpiasanao, tsindrio ny rakitra novainy ha
 
 ## Fampidinana
 
-- [Famoahana farany](../../releases/latest)
+- [Famoahana](../../releases)
 - [Fanamboarana isan'alina](../../releases/tag/nightly): amboarina indray isaky ny fanovana ao amin'ny `main`.
 
 Ampidino ny `Sumi.zip`, vahao ary afindrao ao amin'ny Applications i Sumi. Fanamboarana iray no mandeha amin'ny Mac Apple silicon sy Intel.

@@ -44,7 +44,7 @@ Voer je agent uit in de ingebouwde terminal, klik op de bestanden die hij wijzig
 
 ## Downloaden
 
-- [Nieuwste versie](../../releases/latest)
+- [Uitgaven](../../releases)
 - [Nightly-build](../../releases/tag/nightly): opnieuw gebouwd bij elke wijziging in `main`.
 
 Download `Sumi.zip`, pak het uit en verplaats Sumi naar Apps. Dezelfde versie werkt op Macs met Apple silicon en Intel.

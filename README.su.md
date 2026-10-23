@@ -42,7 +42,7 @@ Jalankeun agén anjeun dina terminal bawaan, klik berkas anu dirobahna pikeun mu
 
 ## Unduh
 
-- [Rilis panganyarna](../../releases/latest)
+- [Daptar rilis](../../releases)
 - [Wangunan peuting](../../releases/tag/nightly): diwangun deui dina unggal parobahan `main`.
 
 Unduh `Sumi.zip`, ékstrak, tuluy pindahkeun Sumi ka Applications. Hiji wangunan jalan dina Mac Apple silicon jeung Intel.

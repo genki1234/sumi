@@ -42,7 +42,7 @@ Patakbuhin ang agent sa built-in na terminal, i-click ang mga file na binabago n
 
 ## I-download
 
-- [Pinakabagong release](../../releases/latest)
+- [Mga inilabas na bersiyon](../../releases)
 - [Bersyon gabi-gabi](../../releases/tag/nightly): muling binubuo sa bawat pagbabago sa `main`.
 
 I-download ang `Sumi.zip`, i-unzip ito at ilipat ang Sumi sa Applications. Iisang build ang gumagana sa Apple silicon at Intel Mac.

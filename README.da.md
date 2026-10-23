@@ -44,7 +44,7 @@ Kør din agent i den indbyggede terminal, klik på de filer, den arbejder med, f
 
 ## Hent
 
-- [Seneste udgivelse](../../releases/latest)
+- [Udgivelser](../../releases)
 - [Natlig version](../../releases/tag/nightly): bygges igen ved hver ændring i `main`.
 
 Hent `Sumi.zip`, pak den ud, og flyt Sumi til Programmer. Én version kører på både Apple silicon- og Intel-Macs.

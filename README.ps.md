@@ -42,7 +42,7 @@
 
 ## ښکته کول
 
-- [وروستۍ خپرونه](../../releases/latest)
+- [خپرونې](../../releases)
 - [شپنۍ جوړونه](../../releases/tag/nightly): په `main` کې له هر بدلون سره بیا جوړېږي.
 
 `Sumi.zip` ښکته کړئ، له زېپ څخه یې وباسئ او Sumi د Applications پوښۍ ته یوسئ. یوه جوړونه د Apple silicon او Intel په دواړو Mac کمپیوټرونو کار کوي.

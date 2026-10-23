@@ -44,7 +44,7 @@ Lit dyn agent yn de ynboude terminal rinne, iepenje de bestannen dêr't er oan w
 
 ## Ynlade
 
-- [Nijste útjefte](../../releases/latest)
+- [Útjeften](../../releases)
 - [Nachtlike bouferzje](../../releases/tag/nightly): wurdt by elke feroaring oan `main` opnij boud.
 
 Laad `Sumi.zip` yn, pak it út en ferpleats Sumi nei Applications. Deselde bouferzje wurket op Macs mei Apple silicon en Intel.

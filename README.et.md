@@ -44,7 +44,7 @@ Käivita agent sisseehitatud terminalis, ava tema kasutatavad failid klõpsuga j
 
 ## Allalaadimine
 
-- [Uusim väljalase](../../releases/latest)
+- [Väljalasked](../../releases)
 - [Öine järk](../../releases/tag/nightly): ehitatakse uuesti iga `main`-i muudatusega.
 
 Laadi alla `Sumi.zip`, paki lahti ja teisalda Sumi kausta Applications. Sama järk töötab nii Apple siliconi kui ka Inteliga Macides.

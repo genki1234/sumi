@@ -16,3 +16,12 @@ body:
     id: version
     attributes:
       label: macOS version and Mac (Apple silicon or Intel)
+    validations:
+      required: true
+  - type: input
+    id: sumi-version
+    attributes:
+      label: Sumi version or nightly build
+      description: Include the release tag or commit if you built from source.
+    validations:
+      required: true

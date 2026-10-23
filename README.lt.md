@@ -42,7 +42,7 @@ Paleiskite agentą integruotame terminale, spustelėkite jo keičiamus failus, k
 
 ## Atsisiuntimas
 
-- [Naujausias leidimas](../../releases/latest)
+- [Leidimai](../../releases)
 - [Naktinis komponavimas](../../releases/tag/nightly): komponuojamas iš naujo po kiekvieno `main` pakeitimo.
 
 Atsisiųskite `Sumi.zip`, išskleiskite ir perkelkite Sumi į Applications. Tas pats paketas veikia Apple silicon ir Intel Mac kompiuteriuose.

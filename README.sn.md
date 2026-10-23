@@ -42,7 +42,7 @@ Mhanyisa mumiriri wako muterminal yakavakirwa mukati, tinya mafaira aanochinja k
 
 ## Dhawunirodha
 
-- [Shanduro itsva](../../releases/latest)
+- [Shanduro dzakaburitswa](../../releases)
 - [Yakavakwa yehusiku](../../releases/tag/nightly): inovakwazve pachinja chimwe nechimwe mu`main`.
 
 Dhawunirodha `Sumi.zip`, sunungura faira racho, woisa Sumi muApplications. Yakavakwa imwe chete inoshanda paMac dzeApple silicon neIntel.

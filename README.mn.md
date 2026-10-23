@@ -42,7 +42,7 @@
 
 ## Татах
 
-- [Хамгийн сүүлийн хувилбар](../../releases/latest)
+- [Хувилбарууд](../../releases)
 - [Шөнийн бүтээлт](../../releases/tag/nightly): `main` өөрчлөгдөх бүрд дахин бүтээнэ.
 
 `Sumi.zip`-ийг татаж задлаад Sumi-г Applications руу зөөнө. Нэг бүтээлт Apple silicon болон Intel Mac дээр ажиллана.

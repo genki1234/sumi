@@ -44,7 +44,7 @@ Gudanar da wakilinka a tashar umarni da ke ciki, danna fayilolin da yake aiki da
 
 ## Saukewa
 
-- [Sabon saki](../../releases/latest)
+- [Sakakkun sigogi](../../releases)
 - [Ginin dare](../../releases/tag/nightly): ana sake ginawa a duk canjin `main`.
 
 Sauke `Sumi.zip`, cire shi daga zip, sannan matsar da Sumi zuwa Applications. Gini ɗaya yana aiki a Mac na Apple silicon da Intel.

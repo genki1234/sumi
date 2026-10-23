@@ -44,7 +44,7 @@
 
 ## Спампаваць
 
-- [Апошні выпуск](../../releases/latest)
+- [Выпускі](../../releases)
 - [Начная зборка](../../releases/tag/nightly): перазбіраецца пасля кожнай змены ў `main`.
 
 Спампуйце `Sumi.zip`, распакуйце і перамясціце Sumi ў Applications. Адна зборка працуе на Mac як з Apple silicon, так і з Intel.

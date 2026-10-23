@@ -44,7 +44,7 @@ Käytä agenttiasi sisäänrakennetussa päätteessä, avaa sen muokkaamat tiedo
 
 ## Lataaminen
 
-- [Uusin julkaisu](../../releases/latest)
+- [Julkaisut](../../releases)
 - [Nightly-koonti](../../releases/tag/nightly): rakennetaan jokaisen `main`-haaran muutoksen yhteydessä.
 
 Lataa `Sumi.zip`, pura se ja siirrä Sumi Ohjelmat-kansioon. Sama sovellus toimii sekä Applen sirulla että Intel-suorittimella varustetuissa Maceissa.

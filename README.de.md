@@ -44,7 +44,7 @@ Starte deinen Agenten im eingebauten Terminal, öffne die Dateien, mit denen er 
 
 ## Download
 
-- [Neueste Veröffentlichung](../../releases/latest)
+- [Veröffentlichungen](../../releases)
 - [Nightly-Version](../../releases/tag/nightly): wird bei jeder Änderung an `main` neu erstellt.
 
 Lade `Sumi.zip` herunter, entpacke es und verschiebe Sumi in „Programme“. Derselbe Build läuft auf Macs mit Apple silicon und Intel.

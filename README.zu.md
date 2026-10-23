@@ -42,7 +42,7 @@ Sebenzisa i-ejenti yakho kutheminali eyakhelwe ngaphakathi, chofoza amafayela ew
 
 ## Landa
 
-- [Ukukhishwa kwakamuva](../../releases/latest)
+- [Izinguqulo ezikhishiwe](../../releases)
 - [Ukwakhiwa kwasebusuku](../../releases/tag/nightly): kwakhiwa kabusha kulo lonke ushintsho lwe`main`.
 
 Landa `Sumi.zip`, uyikhiphe ephaketheni, uhambise iSumi kuApplications. Ukwakhiwa okukodwa kusebenza kumaMac eApple silicon neIntel.

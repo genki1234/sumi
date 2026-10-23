@@ -42,7 +42,7 @@ Jalankan agen di terminal bawaan, klik berkas yang disentuhnya untuk membukanya,
 
 ## Unduh
 
-- [Rilis terbaru](../../releases/latest)
+- [Rilis](../../releases)
 - [Build malam](../../releases/tag/nightly): dibangun ulang pada setiap perubahan di `main`.
 
 Unduh `Sumi.zip`, ekstrak, lalu pindahkan Sumi ke Applications. Satu build berjalan di Mac Apple silicon maupun Intel.

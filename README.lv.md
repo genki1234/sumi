@@ -42,7 +42,7 @@ Palaidiet aģentu iebūvētajā terminālī, klikšķiniet uz tā mainītajiem f
 
 ## Lejupielāde
 
-- [Jaunākais laidiens](../../releases/latest)
+- [Laidieni](../../releases)
 - [Nakts būvējums](../../releases/tag/nightly): tiek veidots no jauna pēc katras izmaiņas `main`.
 
 Lejupielādējiet `Sumi.zip`, atspiediet to un pārvietojiet Sumi uz Applications. Viens būvējums darbojas gan Apple silicon, gan Intel Mac datoros.

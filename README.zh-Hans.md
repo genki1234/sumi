@@ -44,7 +44,7 @@
 
 ## 下载
 
-- [最新正式版](../../releases/latest)
+- [发布版本列表](../../releases)
 - [Nightly 构建](../../releases/tag/nightly)：每次 `main` 发生变更时重新构建。
 
 下载 `Sumi.zip`，解压后将 Sumi 移到“应用程序”。同一个构建可在 Apple 芯片和 Intel Mac 上运行。

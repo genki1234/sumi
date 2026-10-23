@@ -42,7 +42,7 @@
 
 ## Преземање
 
-- [Најново издание](../../releases/latest)
+- [Изданија](../../releases)
 - [Ноќна верзија](../../releases/tag/nightly): се гради повторно при секоја промена на `main`.
 
 Преземете `Sumi.zip`, распакувајте го и преместете го Sumi во Applications. Една верзија работи на Mac со Apple silicon и Intel.

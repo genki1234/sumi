@@ -44,7 +44,7 @@
 
 ## Изтегляне
 
-- [Последна версия](../../releases/latest)
+- [Версии](../../releases)
 - [Нощна компилация](../../releases/tag/nightly): създава се отново при всяка промяна в `main`.
 
 Изтеглете `Sumi.zip`, разархивирайте го и преместете Sumi в Applications. Една компилация работи на Mac с Apple silicon и Intel.

@@ -44,7 +44,7 @@ Ajanınızı yerleşik terminalde çalıştırın, değiştirdiği dosyaları t�
 
 ## İndirme
 
-- [Son sürüm](../../releases/latest)
+- [Sürümler](../../releases)
 - [Nightly derlemesi](../../releases/tag/nightly): `main` dalındaki her değişiklikte yeniden derlenir.
 
 `Sumi.zip` dosyasını indirin, açın ve Sumi’yi Uygulamalar’a taşıyın. Aynı derleme hem Apple silicon hem Intel Mac’lerde çalışır.

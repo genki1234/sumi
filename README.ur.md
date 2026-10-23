@@ -42,7 +42,7 @@ macOS کا ہلکا متنی مدیر، جو AI کوڈنگ ایجنٹوں کے �
 
 ## ڈاؤن لوڈ
 
-- [تازہ ترین اجرا](../../releases/latest)
+- [اجرا کی فہرست](../../releases)
 - [رات کا بلڈ](../../releases/tag/nightly): `main` میں ہر تبدیلی پر دوبارہ بنتا ہے۔
 
 `Sumi.zip` ڈاؤن لوڈ کریں، کھولیں اور Sumi کو Applications میں منتقل کریں۔ ایک ہی بلڈ Apple silicon اور Intel Mac دونوں پر چلتا ہے۔

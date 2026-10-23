@@ -44,7 +44,7 @@ AI કોડિંગ એજન્ટો સાથે કામ કરવા મ
 
 ## ડાઉનલોડ
 
-- [નવીનતમ પ્રકાશન](../../releases/latest)
+- [પ્રકાશનો](../../releases)
 - [રાત્રિ બિલ્ડ](../../releases/tag/nightly): `main`ના દરેક ફેરફાર પર ફરી બને છે.
 
 `Sumi.zip` ડાઉનલોડ કરી ખોલો અને Sumiને Applicationsમાં ખસેડો. એક જ બિલ્ડ Apple silicon અને Intel Mac બંને પર ચાલે છે.

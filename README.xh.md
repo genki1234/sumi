@@ -42,7 +42,7 @@ Sebenzisa iarhente yakho kwitheminali eyakhelwe ngaphakathi, cofa iifayile ezits
 
 ## Khuphela
 
-- [Ukhululo lwamva nje](../../releases/latest)
+- [Iinguqulelo ezikhutshiweyo](../../releases)
 - [Ulwakhiwo lwasebusuku](../../releases/tag/nightly): lwakhiwa ngokutsha kutshintsho ngalunye lwe`main`.
 
 Khuphela `Sumi.zip`, yikhuphe kwiphakheji, uhambise iSumi kwiApplications. Ulwakhiwo olunye lusebenza kwiMac zeApple silicon neIntel.

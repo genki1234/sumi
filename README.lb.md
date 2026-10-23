@@ -42,7 +42,7 @@ Start Ären Agent am agebauten Terminal, klickt op d'Dateien, déi e verännert,
 
 ## Eroflueden
 
-- [Neist Versioun](../../releases/latest)
+- [Verëffentlechungen](../../releases)
 - [Nuetsversioun](../../releases/tag/nightly): gëtt bei all Ännerung op `main` nei gebaut.
 
 Luet `Sumi.zip` erof, entpaakt et a réckelt Sumi an Applications. Déi selwecht Versioun leeft op Apple silicon an Intel Macs.

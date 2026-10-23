@@ -44,7 +44,7 @@ Laat jou agent in die ingeboude terminaal loop, klik op die lêers waarmee dit w
 
 ## Aflaai
 
-- [Jongste vrystelling](../../releases/latest)
+- [Vrystellings](../../releases)
 - [Nagbou](../../releases/tag/nightly): word by elke verandering aan `main` herbou.
 
 Laai `Sumi.zip` af, pak dit uit en skuif Sumi na Applications. Een bouweergawe werk op beide Apple silicon- en Intel-Macs.

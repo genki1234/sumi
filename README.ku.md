@@ -42,7 +42,7 @@ Ajanê xwe di termînala hundirîn de bimeşîne, ji bo vekirinê li pelên ku e
 
 ## Daxistin
 
-- [Weşana herî nû](../../releases/latest)
+- [Weşan](../../releases)
 - [Avakirina şevê](../../releases/tag/nightly): bi her guherîna `main` ji nû ve tê avakirin.
 
 `Sumi.zip` daxe, ji arşîvê derxe û Sumi bibe Applications. Yek avakirin li ser Mac-ên Apple silicon û Intel dixebite.

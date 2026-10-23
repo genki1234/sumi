@@ -42,7 +42,7 @@ Olóòtú ọ̀rọ̀ macOS tí kò wuwo, tí a dá láti ṣiṣẹ́ pọ̀ p�
 
 ## Gba sílẹ̀
 
-- [Ẹ̀yà tuntun jù](../../releases/latest)
+- [Àwọn ẹ̀yà tí a tú síta](../../releases)
 - [Ẹ̀yà òru](../../releases/tag/nightly): a tún ń kọ́ ọ ní gbogbo ìyípadà sí `main`.
 
 Gba `Sumi.zip` sílẹ̀, tú u, kí o sì gbé Sumi sí Applications. Ẹ̀yà kan ń ṣiṣẹ́ lórí Mac Apple silicon àti Intel méjèèjì.

@@ -44,7 +44,7 @@ Padagana ang imong agent sa built-in nga terminal, i-klik ang mga file nga iyang
 
 ## Pag-download
 
-- [Pinakabag-ong release](../../releases/latest)
+- [Mga gipagawas nga bersiyon](../../releases)
 - [Gabii nga build](../../releases/tag/nightly): himoon pag-usab sa matag pag-usab sa `main`.
 
 I-download ang `Sumi.zip`, i-unzip ug ibalhin ang Sumi ngadto sa Applications. Usa ra ka build ang modagan sa Apple silicon ug Intel Mac.

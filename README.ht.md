@@ -42,7 +42,7 @@ Kouri ajan ou nan tèminal entegre a, klike sou fichye li manyen yo pou ouvri yo
 
 ## Telechaje
 
-- [Dènye vèsyon](../../releases/latest)
+- [Vèsyon yo](../../releases)
 - [Konpilasyon chak swa](../../releases/tag/nightly): li rekonpile chak fwa gen yon chanjman nan `main`.
 
 Telechaje `Sumi.zip`, dekonprese l epi deplase Sumi nan Applications. Menm konpilasyon an mache sou Mac Apple silicon ak Intel.

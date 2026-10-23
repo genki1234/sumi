@@ -42,7 +42,7 @@
 
 ## ດາວໂຫຼດ
 
-- [ຮຸ່ນຫຼ້າສຸດ](../../releases/latest)
+- [ລາຍການລຸ້ນ](../../releases)
 - [ຮຸ່ນກາງຄືນ](../../releases/tag/nightly): ສ້າງໃໝ່ທຸກການປ່ຽນໃນ `main`.
 
 ດາວໂຫຼດ `Sumi.zip`, ແຕກໄຟລ໌ ແລະຍ້າຍ Sumi ໄປ Applications. ຮຸ່ນດຽວເຮັດວຽກໄດ້ໃນ Mac Apple silicon ແລະ Intel.

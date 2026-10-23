@@ -44,7 +44,7 @@ Kjør agenten i den innebygde terminalen, klikk på filene den endrer for å åp
 
 ## Last ned
 
-- [Nyeste utgivelse](../../releases/latest)
+- [Utgivelser](../../releases)
 - [Nightly-bygg](../../releases/tag/nightly): bygges på nytt ved hver endring i `main`.
 
 Last ned `Sumi.zip`, pakk den ut og flytt Sumi til Programmer. Samme bygg fungerer på Macer med både Apple silicon og Intel.

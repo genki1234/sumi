@@ -42,7 +42,7 @@ Yendetsani wothandizira mu terminal yomangidwamo, dinani mafayilo amene wasintha
 
 ## Tsitsani
 
-- [Mtundu waposachedwa](../../releases/latest)
+- [Mitundu yotulutsidwa](../../releases)
 - [Mtundu wa usiku](../../releases/tag/nightly): umamangidwanso nthawi iliyonse `main` ikasintha.
 
 Tsitsani `Sumi.zip`, tulutsani mafayilo ake ndi kusamutsira Sumi ku Applications. Mtundu umodzi umagwira pa Mac za Apple silicon ndi Intel.

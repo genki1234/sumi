@@ -42,7 +42,7 @@ Pokrenite agenta u ugrađenom terminalu, kliknite datoteke koje mijenja da biste
 
 ## Preuzimanje
 
-- [Najnovije izdanje](../../releases/latest)
+- [Izdanja](../../releases)
 - [Noćna verzija](../../releases/tag/nightly): ponovno se izrađuje pri svakoj promjeni grane `main`.
 
 Preuzmite `Sumi.zip`, raspakirajte ga i premjestite Sumi u Applications. Ista verzija radi na Macovima s Apple silicon i Intel procesorima.

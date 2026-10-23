@@ -44,7 +44,7 @@ Execute o seu agente no terminal integrado, abra com um clique os ficheiros que 
 
 ## Transferir
 
-- [Versão mais recente](../../releases/latest)
+- [Versões](../../releases)
 - [Compilação nightly](../../releases/tag/nightly): recompilada sempre que há uma alteração em `main`.
 
 Transfira `Sumi.zip`, descomprima-o e mova o Sumi para Aplicações. A mesma versão funciona em Macs com Apple silicon e Intel.

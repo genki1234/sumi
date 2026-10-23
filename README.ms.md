@@ -44,7 +44,7 @@ Jalankan ejen anda dalam terminal terbina dalam, klik fail yang diubahnya untuk 
 
 ## Muat turun
 
-- [Keluaran terkini](../../releases/latest)
+- [Keluaran](../../releases)
 - [Binaan nightly](../../releases/tag/nightly): dibina semula pada setiap perubahan kepada `main`.
 
 Muat turun `Sumi.zip`, nyahmampatkannya dan pindahkan Sumi ke Applications. Binaan yang sama berjalan pada Mac Apple silicon dan Intel.

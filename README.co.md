@@ -44,7 +44,7 @@ Lanciate u vostru agente in u terminale integratu, cliccate nant'à i schedarii 
 
 ## Scaricamentu
 
-- [Ultima versione](../../releases/latest)
+- [Versioni](../../releases)
 - [Custruzzione di notte](../../releases/tag/nightly): rifatta à ogni cambiamentu di `main`.
 
 Scaricate `Sumi.zip`, scumprimetelu è spustate Sumi in Applications. Una sola custruzzione viaghja nant'à i Mac Apple silicon è Intel.

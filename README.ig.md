@@ -42,7 +42,7 @@ Gbaa onye nnọchi anya gị n'ọnụ iwu dị n'ime ya, pịa faịlụ ọ me
 
 ## Budata
 
-- [Mbipụta kacha ọhụrụ](../../releases/latest)
+- [Mbipụta](../../releases)
 - [Ụdị abalị](../../releases/tag/nightly): a na-ewughachi ya mgbe ọ bụla `main` gbanwere.
 
 Budata `Sumi.zip`, wepụ faịlụ ndị dị n'ime ya, bugharịa Sumi na Applications. Otu ụdị a na-arụ ọrụ na Mac Apple silicon na Intel.

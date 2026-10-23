@@ -42,7 +42,7 @@ Whakahaerehia tō māngai ki te kāpeka kua whakaurua, pāwhiria ngā kōnae ka 
 
 ## Tikiake
 
-- [Putanga hou rawa](../../releases/latest)
+- [Ngā putanga](../../releases)
 - [Hanga ā-pō](../../releases/tag/nightly): ka hangaia anō ia whakarerekētanga ki `main`.
 
 Tīkina te `Sumi.zip`, wetewetehia, ka nukuhia a Sumi ki Applications. Kotahi te hanga e rere ana i runga i ngā Mac Apple silicon me Intel.

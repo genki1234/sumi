@@ -42,7 +42,7 @@ Koresha umukozi wawe muri terminal yubatswemo, ukande dosiye ahindura kugira ngo
 
 ## Gukuramo
 
-- [Verisiyo iheruka](../../releases/latest)
+- [Verisiyo zasohotse](../../releases)
 - [Verisiyo ya nijoro](../../releases/tag/nightly): yongera kubakwa kuri buri gihindutse muri `main`.
 
 Kuramo `Sumi.zip`, uyifungure, wimure Sumi muri Applications. Verisiyo imwe ikorera kuri Mac za Apple silicon n'iza Intel.

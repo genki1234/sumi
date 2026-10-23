@@ -44,7 +44,7 @@ E holo i kāu ʻelele ma ka terminal i kūkulu ʻia i loko, e kaomi i nā faila 
 
 ## Hoʻoiho
 
-- [Ka hoʻokuʻu hou loa](../../releases/latest)
+- [Nā hoʻokuʻu](../../releases)
 - [Ke kūkulu pō](../../releases/tag/nightly): kūkulu hou ʻia ma kēlā me kēia loli o `main`.
 
 E hoʻoiho iā `Sumi.zip`, wehe i ka pūʻolo a hoʻoneʻe iā Sumi i Applications. Holo ke kūkulu hoʻokahi ma nā Mac Apple silicon a me Intel.

@@ -42,7 +42,7 @@ Futtasd az ágenst a beépített terminálban, kattints az általa módosított 
 
 ## Letöltés
 
-- [Legújabb kiadás](../../releases/latest)
+- [Kiadások](../../releases)
 - [Éjszakai build](../../releases/tag/nightly): a `main` minden módosításakor újra elkészül.
 
 Töltsd le a `Sumi.zip` fájlt, csomagold ki, és helyezd a Sumit az Applications mappába. Egyetlen build fut Apple silicon és Intel Macen is.

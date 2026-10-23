@@ -1,49 +1,222 @@
 name: Release
 
-# Every push to main publishes the app as the "nightly" pre-release (replaced each time).
-# Pushing a tag such as v0.2.0 publishes a versioned release.
+# main publishes an explicitly labelled nightly; version tags require Developer ID and notarization.
 on:
   push:
     branches: [main]
     tags: ["v*"]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: release-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref_type == 'branch' }}
 
 jobs:
-  release:
+  package:
+    name: Package universal app
     runs-on: macos-26
+    timeout-minutes: 60
+    permissions:
+      contents: read
+    outputs:
+      signed: ${{ steps.credentials.outputs.signed }}
+    env:
+      SUMI_BUILD: ${{ github.run_number }}
+      SUMI_NOTARY_PROFILE: sumi-notary-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Check translations
-        run: swift scripts/l10n.swift check
-
-      - name: Build the app
+      - name: Choose the temporary signing keychain path
         run: |
-          if [[ "$GITHUB_REF_TYPE" == tag ]]; then export SUMI_VERSION="${GITHUB_REF_NAME#v}"; fi
-          export SUMI_BUILD="$GITHUB_RUN_NUMBER"
+          set -euo pipefail
+          keychain_path="$RUNNER_TEMP/sumi-signing-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT.keychain-db"
+          echo "SUMI_SIGNING_KEYCHAIN=$keychain_path" >> "$GITHUB_ENV"
+          echo "SUMI_NOTARY_KEYCHAIN=$keychain_path" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Check translations and documentation
+        run: |
+          set -euo pipefail
+          swift scripts/l10n.swift check
+          python3 scripts/check-readmes.py
+
+      - name: Require complete signing credentials for version tags
+        id: credentials
+        env:
+          APPLE_CERTIFICATE_P12_BASE64: ${{ secrets.APPLE_CERTIFICATE_P12_BASE64 }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+        run: |
+          set -euo pipefail
+          present=0
+          for name in APPLE_CERTIFICATE_P12_BASE64 APPLE_CERTIFICATE_PASSWORD APPLE_TEAM_ID APPLE_ID APPLE_APP_SPECIFIC_PASSWORD; do
+            if [[ -n "${!name}" ]]; then present=$((present + 1)); fi
+          done
+          if [[ "$present" == 5 ]]; then
+            echo "signed=true" >> "$GITHUB_OUTPUT"
+          elif [[ "$GITHUB_REF_TYPE" == tag || "$present" != 0 ]]; then
+            echo "::error::Signed releases require all five Apple secrets: APPLE_CERTIFICATE_P12_BASE64, APPLE_CERTIFICATE_PASSWORD, APPLE_TEAM_ID, APPLE_ID, APPLE_APP_SPECIFIC_PASSWORD. Partial configuration also blocks nightly publication."
+            exit 1
+          else
+            echo "signed=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No Apple credentials configured. This nightly will be ad-hoc signed, not Developer ID signed or notarized."
+          fi
+
+      - name: Import Developer ID and notarization credentials into a temporary keychain
+        if: steps.credentials.outputs.signed == 'true'
+        env:
+          APPLE_CERTIFICATE_P12_BASE64: ${{ secrets.APPLE_CERTIFICATE_P12_BASE64 }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+        run: |
+          set -euo pipefail
+          umask 077
+          keychain_password="$(openssl rand -hex 32)"
+          echo "::add-mask::$keychain_password"
+          security create-keychain -p "$keychain_password" "$SUMI_SIGNING_KEYCHAIN"
+          security set-keychain-settings -lut 21600 "$SUMI_SIGNING_KEYCHAIN"
+          security unlock-keychain -p "$keychain_password" "$SUMI_SIGNING_KEYCHAIN"
+          certificate_path="$RUNNER_TEMP/sumi-certificate.p12"
+          printf '%s' "$APPLE_CERTIFICATE_P12_BASE64" | base64 --decode > "$certificate_path"
+          security import "$certificate_path" -k "$SUMI_SIGNING_KEYCHAIN" \
+            -P "$APPLE_CERTIFICATE_PASSWORD" -T /usr/bin/codesign -T /usr/bin/security
+          rm -f "$certificate_path"
+          security set-key-partition-list -S apple-tool:,apple:,codesign: \
+            -s -k "$keychain_password" "$SUMI_SIGNING_KEYCHAIN" > /dev/null
+          # Select exactly one valid Developer ID Application identity belonging to the configured team.
+          identities="$(security find-identity -v -p codesigning "$SUMI_SIGNING_KEYCHAIN")"
+          signing_identity="$(SIGNING_IDENTITIES="$identities" python3 - <<'PY'
+          import os, re, sys
+          pattern = r'^\s*\d+\)\s+([0-9A-Fa-f]{40})\s+"Developer ID Application: .* \(' + re.escape(os.environ['APPLE_TEAM_ID']) + r'\)"'
+          matches = re.findall(pattern, os.environ['SIGNING_IDENTITIES'], re.MULTILINE)
+          if len(matches) != 1:
+              sys.exit('Expected exactly one valid Developer ID Application identity for APPLE_TEAM_ID.')
+          print(matches[0])
+          PY
+          )"
+          echo "SUMI_SIGNING_IDENTITY=$signing_identity" >> "$GITHUB_ENV"
+          xcrun notarytool store-credentials "$SUMI_NOTARY_PROFILE" \
+            --apple-id "$APPLE_ID" --team-id "$APPLE_TEAM_ID" \
+            --password "$APPLE_APP_SPECIFIC_PASSWORD" --keychain "$SUMI_NOTARY_KEYCHAIN" > /dev/null
+
+      - name: Build and verify both architectures
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF_TYPE" == tag ]]; then
+            export SUMI_VERSION="${GITHUB_REF_NAME#v}"
+          fi
           xcodebuild -version
           scripts/build-app.sh
-          for arch in arm64 x86_64; do lipo build/Sumi.app/Contents/MacOS/Sumi -verify_arch "$arch"; done
-          ditto -c -k --keepParent build/Sumi.app Sumi.zip
+          for arch in arm64 x86_64; do
+            lipo build/Sumi.app/Contents/MacOS/Sumi -verify_arch "$arch"
+          done
+          codesign --verify --deep --strict build/Sumi.app
+
+      - name: Notarize and staple the Developer ID signed app
+        if: steps.credentials.outputs.signed == 'true'
+        run: scripts/notarize-app.sh build/Sumi.app
+
+      - name: Package the final app and write SHA-256 checksums
+        env:
+          SIGNED: ${{ steps.credentials.outputs.signed }}
+        run: |
+          set -euo pipefail
+          # Archive only after the signed app has passed notarization and stapling.
+          mkdir -p dist
+          ditto -c -k --keepParent build/Sumi.app dist/Sumi.zip
+          if [[ "$SIGNED" == true ]]; then
+            status="Developer ID signed, notarized by Apple, and stapled."
+          else
+            status="Ad-hoc signed only. Not Developer ID signed or notarized; macOS may block the first launch."
+          fi
+          cat > dist/RELEASE_NOTES.md <<EOF
+          Commit: $GITHUB_SHA
+
+          Signing: $status
+
+          Universal macOS app for Apple silicon and Intel. Requires macOS 14 or later.
+
+          Verify the downloaded archive with \`shasum -a 256 -c SHA256SUMS.txt\` in the directory containing both release assets.
+          EOF
+          cd dist
+          shasum -a 256 Sumi.zip > SHA256SUMS.txt
+          shasum -a 256 -c SHA256SUMS.txt
+
+      - name: Remove temporary signing material
+        if: always()
+        run: |
+          set -euo pipefail
+          rm -f "$RUNNER_TEMP/sumi-certificate.p12"
+          if [[ -n "${SUMI_SIGNING_KEYCHAIN:-}" && -e "$SUMI_SIGNING_KEYCHAIN" ]]; then
+            security delete-keychain "$SUMI_SIGNING_KEYCHAIN"
+          fi
+
+      - name: Retain release assets for publication
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: release-assets
+          path: dist/
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    name: Publish release assets
+    needs: package
+    runs-on: macos-26
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      SIGNED: ${{ needs.package.outputs.signed }}
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: release-assets
+          path: dist
+
+      - name: Verify downloaded release assets
+        working-directory: dist
+        run: shasum -a 256 -c SHA256SUMS.txt
 
       - name: Publish nightly
         if: github.ref_type == 'branch'
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete nightly --cleanup-tag --yes || true
-          gh release create nightly Sumi.zip --prerelease --target "$GITHUB_SHA" \
-            --title "Nightly build" \
-            --notes "Latest build of main (${GITHUB_SHA:0:7}). Rebuilt on every push."
+          set -euo pipefail
+          if [[ "$SIGNED" == true ]]; then
+            title="Nightly build — signed and notarized"
+          else
+            title="Nightly build — ad-hoc signed, not notarized"
+          fi
+          nightly_release="$(gh api --paginate "repos/$GH_REPO/releases" --jq '.[] | select(.tag_name == "nightly") | .tag_name')"
+          if [[ -n "$nightly_release" ]]; then
+            gh release delete nightly --cleanup-tag --yes
+          fi
+          # A cancelled previous run can leave a tag without a release; remove that tag before recreating it.
+          nightly_ref="$(gh api "repos/$GH_REPO/git/matching-refs/tags/nightly" --jq '.[] | select(.ref == "refs/tags/nightly") | .ref')"
+          if [[ -n "$nightly_ref" ]]; then
+            gh api --method DELETE "repos/$GH_REPO/git/refs/tags/nightly"
+          fi
+          gh release create nightly dist/Sumi.zip dist/SHA256SUMS.txt \
+            --prerelease --latest=false --target "$GITHUB_SHA" \
+            --title "$title" --notes-file dist/RELEASE_NOTES.md
 
-      - name: Publish release
+      - name: Publish versioned release
         if: github.ref_type == 'tag'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" Sumi.zip --title "Sumi ${GITHUB_REF_NAME#v}" --generate-notes
+        run: |
+          set -euo pipefail
+          if [[ "$SIGNED" != true ]]; then
+            echo "::error::Versioned releases must be Developer ID signed and notarized."
+            exit 1
+          fi
+          gh release create "$GITHUB_REF_NAME" dist/Sumi.zip dist/SHA256SUMS.txt \
+            --verify-tag --title "Sumi ${GITHUB_REF_NAME#v}" \
+            --notes-file dist/RELEASE_NOTES.md --generate-notes

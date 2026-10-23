@@ -44,7 +44,7 @@ Exécutez votre agent dans le terminal intégré, ouvrez les fichiers qu’il mo
 
 ## Téléchargement
 
-- [Dernière version](../../releases/latest)
+- [Versions](../../releases)
 - [Version nightly](../../releases/tag/nightly) : reconstruite à chaque modification de `main`.
 
 Téléchargez `Sumi.zip`, décompressez-le et placez Sumi dans Applications. La même version fonctionne sur les Mac avec puce Apple et les Mac Intel.

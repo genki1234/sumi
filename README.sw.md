@@ -42,7 +42,7 @@ Endesha wakala wako katika terminal iliyojumuishwa, bofya faili anazobadilisha i
 
 ## Pakua
 
-- [Toleo la karibuni](../../releases/latest)
+- [Matoleo](../../releases)
 - [Toleo la usiku](../../releases/tag/nightly): hujengwa upya kwa kila badiliko katika `main`.
 
 Pakua `Sumi.zip`, ifungue kutoka kwenye kifurushi na uhamishe Sumi hadi Applications. Toleo moja hufanya kazi kwenye Mac za Apple silicon na Intel.

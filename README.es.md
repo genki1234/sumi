@@ -44,7 +44,7 @@ Ejecuta tu agente en el terminal integrado, abre con un clic los archivos con lo
 
 ## Descarga
 
-- [Última versión](../../releases/latest)
+- [Versiones](../../releases)
 - [Compilación nocturna](../../releases/tag/nightly): se vuelve a compilar con cada cambio en `main`.
 
 Descarga `Sumi.zip`, descomprímelo y mueve Sumi a Aplicaciones. Una sola compilación funciona en Mac con Apple silicon e Intel.

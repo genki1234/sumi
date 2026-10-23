@@ -44,7 +44,7 @@ Rulu vian agenton en la enkonstruita terminalo, alklaku la dosierojn kun kiuj ĝ
 
 ## Elŝuto
 
-- [Plej nova eldono](../../releases/latest)
+- [Eldonoj](../../releases)
 - [Nokta versio](../../releases/tag/nightly): rekonstruiĝas ĉe ĉiu ŝanĝo al `main`.
 
 Elŝutu `Sumi.zip`, malpaku ĝin kaj movu Sumi al Applications. Unu kompilaĵo funkcias sur Mac-komputiloj kun Apple silicon kaj Intel.

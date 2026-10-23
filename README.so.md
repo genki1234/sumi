@@ -42,7 +42,7 @@ Wakiilkaaga ku socodsii terminalka ku dhex jira, guji faylasha uu taabto si aad 
 
 ## Soo dejin
 
-- [Sii-dayntii ugu dambaysay](../../releases/latest)
+- [Sii-daynnada](../../releases)
 - [Dhismaha habeenkii](../../releases/tag/nightly): dib ayaa loo dhisaa isbeddel kasta oo `main` ah.
 
 Soo dejiso `Sumi.zip`, fur xirmada oo Sumi u rar Applications. Hal dhisme ayaa ku shaqeeya Mac-yada Apple silicon iyo Intel labadaba.

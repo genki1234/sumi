@@ -44,7 +44,7 @@ Chạy tác nhân trong terminal tích hợp, bấm vào các tệp mà tác nh�
 
 ## Tải xuống
 
-- [Bản phát hành mới nhất](../../releases/latest)
+- [Các bản phát hành](../../releases)
 - [Bản dựng nightly](../../releases/tag/nightly): được dựng lại mỗi khi `main` thay đổi.
 
 Tải `Sumi.zip`, giải nén và chuyển Sumi vào Applications. Cùng một bản dựng chạy được trên cả Mac dùng Apple silicon và Intel.

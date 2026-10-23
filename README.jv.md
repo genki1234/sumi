@@ -42,7 +42,7 @@ Lakokake agen ing terminal bawaan, klik berkas sing diowahi kanggo mbukak, lan w
 
 ## Undhuh
 
-- [Rilis paling anyar](../../releases/latest)
+- [Dhaptar rilis](../../releases)
 - [Build wengi](../../releases/tag/nightly): dibangun maneh saben ana owahan ing `main`.
 
 Undhuh `Sumi.zip`, ekstrak, banjur pindhahake Sumi menyang Applications. Siji build bisa mlaku ing Mac Apple silicon lan Intel.

@@ -44,7 +44,7 @@
 
 ## ダウンロード
 
-- [最新の正式版](../../releases/latest)
+- [リリース一覧](../../releases)
 - [最新ビルド（nightly）](../../releases/tag/nightly): `main` が更新されるたびに作り直します。
 
 `Sumi.zip` をダウンロードして展開し、Sumi をアプリケーションフォルダへ移します。Apple シリコンと Intel のどちらの Mac でも動きます。

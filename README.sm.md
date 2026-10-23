@@ -42,7 +42,7 @@ Faagaoioi lau sui i le terminal ua tuufaatasia, kiliki faila na te suia e tatala
 
 ## La'u mai
 
-- [Lomiga aupito fou](../../releases/latest)
+- [Lomiga](../../releases)
 - [Fausaga o le po](../../releases/tag/nightly): e toe fausia i suiga uma o le `main`.
 
 La'u mai le `Sumi.zip`, tatala lona afifi, ma ave Sumi i Applications. E tasi le fausaga e galue i Mac Apple silicon ma Intel.

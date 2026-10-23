@@ -42,7 +42,7 @@ Editur tat-test ħafif għal macOS, mibni biex jaħdem flimkien ma' aġenti tal-
 
 ## Niżżel
 
-- [L-aħħar verżjoni](../../releases/latest)
+- [Verżjonijiet](../../releases)
 - [Verżjoni ta' billejl](../../releases/tag/nightly): tinbena mill-ġdid ma' kull bidla f'`main`.
 
 Niżżel `Sumi.zip`, oħorġu mill-arkivju u mexxi Sumi għal Applications. L-istess verżjoni taħdem fuq Macs Apple silicon u Intel.

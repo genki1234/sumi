@@ -42,7 +42,7 @@ Keyrðu fulltrúann í innbyggða skjáherminum, smelltu á skrárnar sem hann b
 
 ## Niðurhal
 
-- [Nýjasta útgáfa](../../releases/latest)
+- [Útgáfur](../../releases)
 - [Næturútgáfa](../../releases/tag/nightly): byggð að nýju við hverja breytingu á `main`.
 
 Sæktu `Sumi.zip`, afþjappaðu og færðu Sumi í Applications. Sama útgáfan keyrir á bæði Apple silicon og Intel Mac-tölvum.

@@ -44,7 +44,7 @@ Spusťte agenta ve vestavěném terminálu, kliknutím otevírejte soubory, se k
 
 ## Stažení
 
-- [Nejnovější vydání](../../releases/latest)
+- [Vydání](../../releases)
 - [Noční sestavení](../../releases/tag/nightly): vytváří se při každé změně v `main`.
 
 Stáhněte `Sumi.zip`, rozbalte jej a přesuňte Sumi do Aplikací. Jediné sestavení funguje na Macích s Apple silicon i Intel.

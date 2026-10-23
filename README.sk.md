@@ -42,7 +42,7 @@ Spustite agenta vo vstavanom termináli, kliknutím otvárajte súbory, ktoré m
 
 ## Stiahnutie
 
-- [Najnovšie vydanie](../../releases/latest)
+- [Vydania](../../releases)
 - [Nočná zostava](../../releases/tag/nightly): zostavuje sa pri každej zmene `main`.
 
 Stiahnite `Sumi.zip`, rozbaľte ho a presuňte Sumi do Aplikácií. Jedna zostava funguje na Macoch s Apple silicon aj Intel.

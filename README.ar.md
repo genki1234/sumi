@@ -44,7 +44,7 @@
 
 ## التنزيل
 
-- [أحدث إصدار](../../releases/latest)
+- [الإصدارات](../../releases)
 - [البناء الليلي](../../releases/tag/nightly): يُعاد بناؤه عند كل تغيير في `main`.
 
 نزّل `Sumi.zip`، وفك ضغطه، وانقل Sumi إلى Applications. يعمل البناء نفسه على أجهزة Mac بمعالجات Apple silicon وIntel.

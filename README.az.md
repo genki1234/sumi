@@ -44,7 +44,7 @@ Agentinizi daxili terminalda işə salın, işlədiyi fayllara klikləyərək on
 
 ## Endirmə
 
-- [Son buraxılış](../../releases/latest)
+- [Buraxılışlar](../../releases)
 - [Gecə yığımı](../../releases/tag/nightly): `main` hər dəyişəndə yenidən yığılır.
 
 `Sumi.zip` faylını endirin, arxivdən çıxarın və Sumi-ni Applications qovluğuna köçürün. Eyni yığım həm Apple silicon, həm də Intel Mac-larda işləyir.
