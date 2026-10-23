@@ -7,118 +7,118 @@
 
 /* Sources/Sumi/App/AppDelegate.swift */
 "Open a folder as a project, or a file to edit." = "Адкрыйце папку як праект або файл для рэдагавання.";
-"Open" = "Адкрыты";
+"Open" = "Адкрыць";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Файл";
-"Edit" = "Рэдагаваць";
+"Edit" = "Праўка";
 "View" = "Выгляд";
-"Navigate" = "Перамяшчацца";
+"Navigate" = "Пераход";
 "Window" = "Акно";
-"About Sumi" = "Аб дадатку Sumi";
-"Language" = "мова";
-"Services" = "Паслугі";
+"Language" = "Мова";
+"About Sumi" = "Пра Sumi";
+"Services" = "Службы";
 "Hide Sumi" = "Схаваць Sumi";
-"Hide Others" = "Схаваць іншыя";
+"Hide Others" = "Схаваць астатнія";
 "Show All" = "Паказаць усе";
 "Quit Sumi" = "Выйсці з Sumi";
-"System Default" = "Сістэма па змаўчанні";
+"System Default" = "Як у сістэме";
 "New File…" = "Новы файл…";
 "New Folder…" = "Новая папка…";
 "New Terminal Tab" = "Новая ўкладка тэрмінала";
 "Open…" = "Адкрыць…";
 "Save" = "Захаваць";
-"Save All" = "Захаваць усе";
+"Save All" = "Захаваць усё";
 "Close Tab" = "Закрыць укладку";
-"Close Window" = "Зачыніць акно";
+"Close Window" = "Закрыць акно";
 "Undo" = "Адмяніць";
 "Redo" = "Паўтарыць";
 "Cut" = "Выразаць";
-"Copy" = "Копія";
+"Copy" = "Капіяваць";
 "Paste" = "Уставіць";
-"Select All" = "Выбраць усе";
+"Select All" = "Выбраць усё";
 "Find…" = "Знайсці…";
 "Replace…" = "Замяніць…";
-"Find Next" = "Знайсці далей";
-"Find Previous" = "Знайсці папярэдні";
-"Use Selection for Find" = "Выкарыстоўвайце выбар для пошуку";
-"Find" = "Знайсці";
+"Find Next" = "Знайсці наступнае";
+"Find Previous" = "Знайсці папярэдняе";
+"Use Selection for Find" = "Шукаць вылучаны тэкст";
+"Find" = "Пошук";
 "Project" = "Праект";
 "Terminal" = "Тэрмінал";
-"Swap Terminal and Project" = "Памяняць тэрмінал і праект";
+"Swap Terminal and Project" = "Памяняць месцамі тэрмінал і праект";
 "Maximize Terminal" = "Разгарнуць тэрмінал";
-"GPU Rendering" = "Візуалізацыя GPU";
-"Soft-Wrap" = "Аўтаматычны перанос доўгіх тэкставых радкоў";
-"Toggle Preview" = "Пераключыць папярэдні прагляд";
-"Increase Font Size" = "Павялічыць памер шрыфта";
-"Decrease Font Size" = "Паменшыць памер шрыфта";
-"Reset Font Size" = "Скінуць памер шрыфта";
-"Search Everywhere (Double ⇧)" = "Шукаць усюды (падвойнае ⇧)";
-"Select in Project View" = "Выберыце ў праглядзе праекта";
+"GPU Rendering" = "Маляванне праз GPU";
+"Soft-Wrap" = "Перанос радкоў";
+"Toggle Preview" = "Паказаць/схаваць перадпрагляд";
+"Increase Font Size" = "Павялічыць шрыфт";
+"Decrease Font Size" = "Паменшыць шрыфт";
+"Reset Font Size" = "Скінуць памер шрыфту";
+"Search Everywhere (Double ⇧)" = "Шукаць усюды (двойчы ⇧)";
+"Select in Project View" = "Выбраць у выглядзе праекта";
 "Next Tab" = "Наступная ўкладка";
 "Previous Tab" = "Папярэдняя ўкладка";
-"Minimize" = "Мінімізаваць";
-"Zoom" = "маштабаванне";
-"Bring All to Front" = "Вывесці ўсіх на першы план";
+"Minimize" = "Згарнуць";
+"Zoom" = "Павялічыць акно";
+"Bring All to Front" = "Вывесці ўсе вокны наперад";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Мясцовы";
-"Local (%ld)" = "Мясцовы (%ld)";
+"Local" = "Лакальны";
+"Local (%ld)" = "Лакальны (%ld)";
 "Hide Terminal" = "Схаваць тэрмінал";
-"Close" = "Блізка";
+"Close" = "Закрыць";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Закрыць запушчаныя тэрмінальныя сеансы?";
-"These processes will be stopped:" = "Гэтыя працэсы будуць спынены:";
-"Cancel" = "Адмяніць";
+"Close running terminal sessions?" = "Закрыць актыўныя сеансы тэрмінала?";
+"These processes will be stopped:" = "Гэтыя працэсы будуць спыненыя:";
+"Cancel" = "Скасаваць";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
 "Save a Copy…" = "Захаваць копію…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Толькі рэдактар";
-"Editor and Preview" = "Рэдактар і папярэдні прагляд";
-"Preview Only" = "Толькі папярэдні прагляд";
+"Editor and Preview" = "Рэдактар і перадпрагляд";
+"Preview Only" = "Толькі перадпрагляд";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Прабелы: %ld";
+"Spaces: %ld" = "Прабелаў: %ld";
 "Plain Text" = "Звычайны тэкст";
 "Search Everywhere" = "Шукаць усюды";
-"Double ⇧" = "Двайны ⇧";
+"Double ⇧" = "Двойчы ⇧";
 "Go to File" = "Перайсці да файла";
-"Open Folder" = "Адкрыць тэчку";
+"Open Folder" = "Адкрыць папку";
 "Project View" = "Выгляд праекта";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл зменены на дыску. Вашы праўкі захаваны. Захавайце копію, каб захаваць абедзве версіі.";
-"The file is a binary file." = "Файл з'яўляецца двайковым.";
-"The file's text encoding could not be determined." = "Не ўдалося вызначыць кадыроўку тэксту файла.";
-"The text cannot be saved in %@." = "Тэкст немагчыма захаваць у %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл на дыску змяніўся. Вашы праўкі яшчэ ў рэдактары. Захавайце копію, каб пакінуць абедзве версіі.";
+"The file is a binary file." = "Гэта двайковы файл.";
+"The file's text encoding could not be determined." = "Не ўдалося вызначыць кадаванне тэксту файла.";
+"The text cannot be saved in %@." = "Немагчыма захаваць тэкст у кадаванні %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Новая тэчка";
+"New Folder" = "Новая папка";
 "New File" = "Новы файл";
-"Enter a name in “%@”. Use / to create nested folders." = "Увядзіце імя ў «%@». Падзяляйце назвы тэчак сімвалам /, каб ствараць падпапкі.";
+"Enter a name in “%@”. Use / to create nested folders." = "Увядзіце назву ў «%@». Выкарыстоўвайце / для стварэння ўкладзеных папак.";
 "Rename" = "Перайменаваць";
 "Enter a new name for “%@”." = "Увядзіце новую назву для «%@».";
 "Move “%@” to the Trash?" = "Перамясціць «%@» у сметніцу?";
-"The folder and everything in it will be moved to the Trash." = "Тэчка і ўсё, што ў ёй знаходзіцца, будуць перамешчаны ў Сметніцу.";
-"You can restore it from the Trash." = "Вы можаце аднавіць яго са сметніцы.";
+"The folder and everything in it will be moved to the Trash." = "Папка і ўсё яе змесціва будуць перамешчаныя ў сметніцу.";
+"You can restore it from the Trash." = "Гэта можна аднавіць са сметніцы.";
 "Move to Trash" = "Перамясціць у сметніцу";
-"OK" = "добра";
+"OK" = "Добра";
 "Rename…" = "Перайменаваць…";
 "Copy Path" = "Капіяваць шлях";
-"Copy Relative Path" = "Скапіруйце адносны шлях";
-"Reveal in Finder" = "Выявіць у Finder";
-"Open in Terminal" = "Адкрыйце ў тэрмінале";
+"Copy Relative Path" = "Капіяваць адносны шлях";
+"Reveal in Finder" = "Паказаць у Finder";
+"Open in Terminal" = "Адкрыць у тэрмінале";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Левая панэль";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Файлы";
-"Double ⇧ to search everywhere" = "Падвоіце ⇧, каб шукаць усюды";
-"Type a file name (use / to match the path)" = "Увядзіце імя файла (выкарыстоўвайце /, каб адпавядаць шляху)";
-"No recent files" = "Апошніх файлаў няма";
-"Recent Files" = "Апошнія файлы";
-"Matches: %1$ld / Files: %2$ld" = "Знойдзена вынікаў: %1$ld / Усяго файлаў: %2$ld";
+"Double ⇧ to search everywhere" = "Націсніце ⇧ двойчы, каб шукаць усюды";
+"Type a file name (use / to match the path)" = "Увядзіце назву файла (для пошуку па шляху выкарыстоўвайце /)";
+"No recent files" = "Няма нядаўніх файлаў";
+"Recent Files" = "Нядаўнія файлы";
+"Matches: %1$ld / Files: %2$ld" = "Супадзенні: %1$ld / Файлы: %2$ld";

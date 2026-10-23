@@ -11,18 +11,18 @@
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Súbor";
-"Edit" = "Úpravy";
-"View" = "Zobrazenie";
-"Navigate" = "Navigácia";
+"Edit" = "Upraviť";
+"View" = "Zobraziť";
+"Navigate" = "Prejsť";
 "Window" = "Okno";
-"About Sumi" = "O aplikácii Sumi";
 "Language" = "Jazyk";
+"About Sumi" = "O aplikácii Sumi";
 "Services" = "Služby";
 "Hide Sumi" = "Skryť Sumi";
 "Hide Others" = "Skryť ostatné";
 "Show All" = "Zobraziť všetko";
 "Quit Sumi" = "Ukončiť Sumi";
-"System Default" = "Predvolené nastavenie systému";
+"System Default" = "Podľa systému";
 "New File…" = "Nový súbor…";
 "New Folder…" = "Nový priečinok…";
 "New Terminal Tab" = "Nová karta terminálu";
@@ -31,35 +31,35 @@
 "Save All" = "Uložiť všetko";
 "Close Tab" = "Zavrieť kartu";
 "Close Window" = "Zavrieť okno";
-"Undo" = "Späť";
-"Redo" = "Opakovať";
+"Undo" = "Odvolať";
+"Redo" = "Zopakovať";
 "Cut" = "Vystrihnúť";
 "Copy" = "Kopírovať";
 "Paste" = "Vložiť";
 "Select All" = "Vybrať všetko";
 "Find…" = "Nájsť…";
 "Replace…" = "Nahradiť…";
-"Find Next" = "Nájsť ďalšie";
-"Find Previous" = "Nájsť predchádzajúce";
-"Use Selection for Find" = "Použiť výber na hľadanie";
-"Find" = "Nájsť";
+"Find Next" = "Nájsť ďalší výskyt";
+"Find Previous" = "Nájsť predošlý výskyt";
+"Use Selection for Find" = "Hľadať vybraný text";
+"Find" = "Hľadať";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
 "Swap Terminal and Project" = "Vymeniť terminál a projekt";
 "Maximize Terminal" = "Maximalizovať terminál";
-"GPU Rendering" = "Vykresľovanie GPU";
-"Soft-Wrap" = "Mäkké zalamovanie";
+"GPU Rendering" = "Vykresľovanie cez GPU";
+"Soft-Wrap" = "Zalamovať podľa šírky";
 "Toggle Preview" = "Prepnúť náhľad";
-"Increase Font Size" = "Zväčšiť veľkosť písma";
-"Decrease Font Size" = "Zmenšiť veľkosť písma";
+"Increase Font Size" = "Zväčšiť písmo";
+"Decrease Font Size" = "Zmenšiť písmo";
 "Reset Font Size" = "Obnoviť veľkosť písma";
-"Search Everywhere (Double ⇧)" = "Hľadať všade (dvojitý ⇧)";
-"Select in Project View" = "Vybrať v zobrazení projektu";
+"Search Everywhere (Double ⇧)" = "Hľadať všade (dvakrát ⇧)";
+"Select in Project View" = "Vybrať v strome projektu";
 "Next Tab" = "Ďalšia karta";
-"Previous Tab" = "Predchádzajúca karta";
+"Previous Tab" = "Predošlá karta";
 "Minimize" = "Minimalizovať";
-"Zoom" = "Priblížiť";
-"Bring All to Front" = "Preniesť všetko do popredia";
+"Zoom" = "Zväčšiť okno";
+"Bring All to Front" = "Preniesť všetky okná dopredu";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokálny";
@@ -68,8 +68,8 @@
 "Close" = "Zavrieť";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Zatvoriť spustené terminálové relácie?";
-"These processes will be stopped:" = "Tieto procesy budú zastavené:";
+"Close running terminal sessions?" = "Zavrieť bežiace relácie terminálu?";
+"These processes will be stopped:" = "Tieto procesy sa zastavia:";
 "Cancel" = "Zrušiť";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -84,16 +84,16 @@
 "Spaces: %ld" = "Medzery: %ld";
 "Plain Text" = "Obyčajný text";
 "Search Everywhere" = "Hľadať všade";
-"Double ⇧" = "Dvojitý ⇧";
+"Double ⇧" = "Dvakrát ⇧";
 "Go to File" = "Prejsť na súbor";
 "Open Folder" = "Otvoriť priečinok";
-"Project View" = "Zobrazenie projektu";
+"Project View" = "Strom projektu";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Súbor sa na disku zmenil. Vaše úpravy boli zachované. Ak chcete zachovať obe verzie, uložte kópiu.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Súbor na disku sa zmenil. Vaše úpravy sú stále v editore. Uložte kópiu, aby ste zachovali obe verzie.";
 "The file is a binary file." = "Súbor je binárny.";
-"The file's text encoding could not be determined." = "Kódovanie textu súboru sa nepodarilo určiť.";
-"The text cannot be saved in %@." = "Text nie je možné uložiť v kódovaní %@.";
+"The file's text encoding could not be determined." = "Nepodarilo sa určiť kódovanie textu súboru.";
+"The text cannot be saved in %@." = "Text sa nedá uložiť v kódovaní %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Nový priečinok";
@@ -101,10 +101,10 @@
 "Enter a name in “%@”. Use / to create nested folders." = "Zadajte názov v „%@“. Pomocou / vytvoríte vnorené priečinky.";
 "Rename" = "Premenovať";
 "Enter a new name for “%@”." = "Zadajte nový názov pre „%@“.";
-"Move “%@” to the Trash?" = "Presunúť „%@“ do koša?";
-"The folder and everything in it will be moved to the Trash." = "Priečinok a všetok jeho obsah sa presunú do koša.";
-"You can restore it from the Trash." = "Položku môžete obnoviť z koša.";
-"Move to Trash" = "Presunúť do koša";
+"Move “%@” to the Trash?" = "Presunúť „%@“ do Koša?";
+"The folder and everything in it will be moved to the Trash." = "Priečinok aj celý jeho obsah sa presunie do Koša.";
+"You can restore it from the Trash." = "Položku môžete obnoviť z Koša.";
+"Move to Trash" = "Presunúť do Koša";
 "OK" = "OK";
 "Rename…" = "Premenovať…";
 "Copy Path" = "Kopírovať cestu";
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Súbory";
-"Double ⇧ to search everywhere" = "Dvojitý ⇧ — hľadať všade";
-"Type a file name (use / to match the path)" = "Zadajte názov súboru (pomocou / sa hľadá aj v ceste)";
+"Double ⇧ to search everywhere" = "Stlačte dvakrát ⇧ na hľadanie všade";
+"Type a file name (use / to match the path)" = "Zadajte názov súboru (použite / na hľadanie podľa cesty)";
 "No recent files" = "Žiadne nedávne súbory";
 "Recent Files" = "Nedávne súbory";
 "Matches: %1$ld / Files: %2$ld" = "Zhody: %1$ld / Súbory: %2$ld";

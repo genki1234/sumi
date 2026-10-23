@@ -11,18 +11,18 @@
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Datoteka";
-"Edit" = "Uredi";
+"Edit" = "Uređivanje";
 "View" = "Prikaz";
 "Navigate" = "Navigacija";
 "Window" = "Prozor";
-"About Sumi" = "O aplikaciji Sumi";
 "Language" = "Jezik";
+"About Sumi" = "O aplikaciji Sumi";
 "Services" = "Usluge";
 "Hide Sumi" = "Sakrij Sumi";
 "Hide Others" = "Sakrij ostale";
 "Show All" = "Prikaži sve";
-"Quit Sumi" = "Zatvori Sumi";
-"System Default" = "Zadane postavke sustava";
+"Quit Sumi" = "Izađi iz aplikacije Sumi";
+"System Default" = "Zadano u sustavu";
 "New File…" = "Nova datoteka…";
 "New Folder…" = "Nova mapa…";
 "New Terminal Tab" = "Nova kartica terminala";
@@ -41,25 +41,25 @@
 "Replace…" = "Zamijeni…";
 "Find Next" = "Pronađi sljedeće";
 "Find Previous" = "Pronađi prethodno";
-"Use Selection for Find" = "Koristi odabir za traženje";
-"Find" = "Pronađi";
+"Use Selection for Find" = "Traži odabrani tekst";
+"Find" = "Pretraživanje";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Zamijeni terminal i projekt";
+"Swap Terminal and Project" = "Zamijeni mjesta terminala i projekta";
 "Maximize Terminal" = "Maksimiziraj terminal";
-"GPU Rendering" = "GPU renderiranje";
-"Soft-Wrap" = "Meko prelamanje";
-"Toggle Preview" = "Uključi/isključi pregled";
-"Increase Font Size" = "Povećaj veličinu fonta";
-"Decrease Font Size" = "Smanji veličinu fonta";
+"GPU Rendering" = "Iscrtavanje pomoću GPU-a";
+"Soft-Wrap" = "Prelamanje redaka";
+"Toggle Preview" = "Prikaži/sakrij pretpregled";
+"Increase Font Size" = "Povećaj font";
+"Decrease Font Size" = "Smanji font";
 "Reset Font Size" = "Vrati veličinu fonta";
-"Search Everywhere (Double ⇧)" = "Traži svugdje (dvostruki ⇧)";
+"Search Everywhere (Double ⇧)" = "Traži svugdje (dvaput ⇧)";
 "Select in Project View" = "Odaberi u prikazu projekta";
 "Next Tab" = "Sljedeća kartica";
 "Previous Tab" = "Prethodna kartica";
 "Minimize" = "Minimiziraj";
-"Zoom" = "Zumiraj";
-"Bring All to Front" = "Postavi sve u prvi plan";
+"Zoom" = "Povećaj prozor";
+"Bring All to Front" = "Postavi sve prozore u prvi plan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokalno";
@@ -68,8 +68,8 @@
 "Close" = "Zatvori";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Zatvoriti pokrenute sesije terminala?";
-"These processes will be stopped:" = "Ovi procesi će biti zaustavljeni:";
+"Close running terminal sessions?" = "Zatvoriti aktivne sesije terminala?";
+"These processes will be stopped:" = "Ovi će se procesi zaustaviti:";
 "Cancel" = "Odustani";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -77,35 +77,35 @@
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Samo uređivač";
-"Editor and Preview" = "Uređivač i pregled";
-"Preview Only" = "Samo pregled";
+"Editor and Preview" = "Uređivač i pretpregled";
+"Preview Only" = "Samo pretpregled";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Razmaci: %ld";
 "Plain Text" = "Običan tekst";
 "Search Everywhere" = "Traži svugdje";
-"Double ⇧" = "Dvostruki ⇧";
+"Double ⇧" = "Dvaput ⇧";
 "Go to File" = "Idi na datoteku";
 "Open Folder" = "Otvori mapu";
 "Project View" = "Prikaz projekta";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Datoteka je promijenjena na disku. Vaše izmjene su zadržane. Spremite kopiju kako biste sačuvali obje verzije.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Datoteka na disku je promijenjena. Vaše su izmjene još u uređivaču. Spremite kopiju kako biste sačuvali obje verzije.";
 "The file is a binary file." = "Datoteka je binarna.";
 "The file's text encoding could not be determined." = "Nije moguće odrediti kodiranje teksta datoteke.";
-"The text cannot be saved in %@." = "Tekst nije moguće spremiti u kodiranju %@.";
+"The text cannot be saved in %@." = "Tekst se ne može spremiti u kodiranju %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Nova mapa";
 "New File" = "Nova datoteka";
-"Enter a name in “%@”. Use / to create nested folders." = "Unesite naziv u „%@“. Koristite / za stvaranje ugniježđenih mapa.";
+"Enter a name in “%@”. Use / to create nested folders." = "Unesite naziv u „%@”. Upotrijebite / za izradu ugniježđenih mapa.";
 "Rename" = "Preimenuj";
-"Enter a new name for “%@”." = "Unesite novi naziv za „%@“.";
-"Move “%@” to the Trash?" = "Premjestiti „%@“ u smeće?";
-"The folder and everything in it will be moved to the Trash." = "Mapa i cijeli njezin sadržaj bit će premješteni u smeće.";
-"You can restore it from the Trash." = "Možete to vratiti iz smeća.";
+"Enter a new name for “%@”." = "Unesite novi naziv za „%@”.";
+"Move “%@” to the Trash?" = "Premjestiti „%@” u smeće?";
+"The folder and everything in it will be moved to the Trash." = "Mapa i sav njezin sadržaj premjestit će se u smeće.";
+"You can restore it from the Trash." = "Stavku možete vratiti iz smeća.";
 "Move to Trash" = "Premjesti u smeće";
-"OK" = "OK";
+"OK" = "U redu";
 "Rename…" = "Preimenuj…";
 "Copy Path" = "Kopiraj putanju";
 "Copy Relative Path" = "Kopiraj relativnu putanju";
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Datoteke";
-"Double ⇧ to search everywhere" = "Dvostruki ⇧ — traži svugdje";
-"Type a file name (use / to match the path)" = "Upišite naziv datoteke (koristite / za podudaranje putanje)";
+"Double ⇧ to search everywhere" = "Pritisnite ⇧ dvaput za pretraživanje svugdje";
+"Type a file name (use / to match the path)" = "Unesite naziv datoteke (upotrijebite / za pretraživanje putanje)";
 "No recent files" = "Nema nedavnih datoteka";
 "Recent Files" = "Nedavne datoteke";
 "Matches: %1$ld / Files: %2$ld" = "Podudaranja: %1$ld / Datoteke: %2$ld";

@@ -7,118 +7,118 @@
 
 /* Sources/Sumi/App/AppDelegate.swift */
 "Open a folder as a project, or a file to edit." = "Opnaðu möppu sem verkefni eða skrá til að breyta.";
-"Open" = "Opið";
+"Open" = "Opna";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Skrá";
 "Edit" = "Breyta";
 "View" = "Skoða";
-"Navigate" = "Sigla";
+"Navigate" = "Fara";
 "Window" = "Gluggi";
-"About Sumi" = "Um Sumi umsóknina";
 "Language" = "Tungumál";
-"Services" = "Þjónusta";
+"About Sumi" = "Um Sumi";
+"Services" = "Þjónustur";
 "Hide Sumi" = "Fela Sumi";
-"Hide Others" = "Fela aðra";
+"Hide Others" = "Fela annað";
 "Show All" = "Sýna allt";
-"Quit Sumi" = "Hætta Sumi";
-"System Default" = "Kerfi Sjálfgefið";
+"Quit Sumi" = "Hætta í Sumi";
+"System Default" = "Sjálfgefið í kerfi";
 "New File…" = "Ný skrá…";
 "New Folder…" = "Ný mappa…";
-"New Terminal Tab" = "Nýr flugstöðvarflipi";
-"Open…" = "Opið…";
+"New Terminal Tab" = "Nýr flipi í skjáhermi";
+"Open…" = "Opna…";
 "Save" = "Vista";
 "Save All" = "Vista allt";
 "Close Tab" = "Loka flipa";
-"Close Window" = "Lokaðu glugga";
+"Close Window" = "Loka glugga";
 "Undo" = "Afturkalla";
 "Redo" = "Endurtaka";
-"Cut" = "Skera";
+"Cut" = "Klippa";
 "Copy" = "Afrita";
 "Paste" = "Líma";
-"Select All" = "Veldu Allt";
-"Find…" = "Finndu…";
+"Select All" = "Velja allt";
+"Find…" = "Finna…";
 "Replace…" = "Skipta út…";
-"Find Next" = "Finndu næst";
-"Find Previous" = "Finndu fyrri";
-"Use Selection for Find" = "Notaðu Val til að finna";
-"Find" = "Finndu";
+"Find Next" = "Finna næsta";
+"Find Previous" = "Finna fyrra";
+"Use Selection for Find" = "Leita að völdum texta";
+"Find" = "Finna";
 "Project" = "Verkefni";
-"Terminal" = "Flugstöð";
-"Swap Terminal and Project" = "Skiptu um flugstöð og verkefni";
-"Maximize Terminal" = "Hámarka flugstöðina";
-"GPU Rendering" = "GPU flutningur";
-"Soft-Wrap" = "Vefja sjálfkrafa langar textalínur";
-"Toggle Preview" = "Skiptu um forskoðun";
-"Increase Font Size" = "Auka leturstærð";
-"Decrease Font Size" = "Minnka leturstærð";
+"Terminal" = "Skjáhermir";
+"Swap Terminal and Project" = "Víxla skjáhermi og verkefni";
+"Maximize Terminal" = "Hámarka skjáhermi";
+"GPU Rendering" = "GPU-teikning";
+"Soft-Wrap" = "Línuskipting á skjá";
+"Toggle Preview" = "Sýna/fela forskoðun";
+"Increase Font Size" = "Stækka letur";
+"Decrease Font Size" = "Minnka letur";
 "Reset Font Size" = "Endurstilla leturstærð";
-"Search Everywhere (Double ⇧)" = "Leita alls staðar (tvöfalt ⇧)";
-"Select in Project View" = "Veldu í verkefnasýn";
+"Search Everywhere (Double ⇧)" = "Leita alls staðar (tvisvar á ⇧)";
+"Select in Project View" = "Velja í verkefnistré";
 "Next Tab" = "Næsti flipi";
 "Previous Tab" = "Fyrri flipi";
-"Minimize" = "Lágmarka";
-"Zoom" = "Aðdráttur";
-"Bring All to Front" = "Komdu öllu fram";
+"Minimize" = "Fela í bryggju";
+"Zoom" = "Stækka glugga";
+"Bring All to Front" = "Færa alla glugga fremst";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Staðbundið";
 "Local (%ld)" = "Staðbundið (%ld)";
-"Hide Terminal" = "Fela flugstöðina";
+"Hide Terminal" = "Fela skjáhermi";
 "Close" = "Loka";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Loka hlaupandi lokalotum?";
-"These processes will be stopped:" = "Þessum ferlum verður hætt:";
+"Close running terminal sessions?" = "Loka virkum skjáhermislotum?";
+"These processes will be stopped:" = "Eftirfarandi ferli verða stöðvuð:";
 "Cancel" = "Hætta við";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
 "Save a Copy…" = "Vista afrit…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Aðeins ritstjóri";
-"Editor and Preview" = "Ritstjóri og forskoðun";
+"Editor Only" = "Aðeins ritill";
+"Editor and Preview" = "Ritill og forskoðun";
 "Preview Only" = "Aðeins forskoðun";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Pláss: %ld";
-"Plain Text" = "Venjulegur texti";
-"Search Everywhere" = "Leitaðu alls staðar";
-"Double ⇧" = "Tvöfaldur ⇧";
-"Go to File" = "Farðu í File";
+"Spaces: %ld" = "Bil: %ld";
+"Plain Text" = "Hreinn texti";
+"Search Everywhere" = "Leita alls staðar";
+"Double ⇧" = "Tvisvar á ⇧";
+"Go to File" = "Fara í skrá";
 "Open Folder" = "Opna möppu";
-"Project View" = "Verkefnasýn";
+"Project View" = "Verkefnistré";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Skráin breyttist á disknum. Breytingum þínum hefur verið haldið. Vistaðu afrit til að varðveita báðar útgáfurnar.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Skránni var breytt á diskinum. Breytingarnar þínar eru enn í ritlinum. Vistaðu afrit til að halda báðum útgáfum.";
 "The file is a binary file." = "Skráin er tvíundarskrá.";
-"The file's text encoding could not be determined." = "Ekki var hægt að ákvarða textakóðun skráarinnar.";
-"The text cannot be saved in %@." = "Ekki er hægt að vista textann í %@.";
+"The file's text encoding could not be determined." = "Ekki tókst að ákvarða textakóðun skrárinnar.";
+"The text cannot be saved in %@." = "Ekki er hægt að vista textann með kóðuninni %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Ný mappa";
 "New File" = "Ný skrá";
-"Enter a name in “%@”. Use / to create nested folders." = "Sláðu inn nafn í \"%@\". Aðskildu möppunöfn með / stafnum til að búa til undirmöppur.";
+"Enter a name in “%@”. Use / to create nested folders." = "Sláðu inn heiti í „%@“. Notaðu / til að búa til undirmöppur.";
 "Rename" = "Endurnefna";
-"Enter a new name for “%@”." = "Sláðu inn nýtt nafn fyrir \"%@\".";
+"Enter a new name for “%@”." = "Sláðu inn nýtt heiti fyrir „%@“.";
 "Move “%@” to the Trash?" = "Færa „%@“ í ruslið?";
-"The folder and everything in it will be moved to the Trash." = "Mappan og allt í henni verður flutt í ruslið.";
+"The folder and everything in it will be moved to the Trash." = "Mappan og allt innihald hennar verður fært í ruslið.";
 "You can restore it from the Trash." = "Þú getur endurheimt það úr ruslinu.";
 "Move to Trash" = "Færa í ruslið";
-"OK" = "Allt í lagi";
+"OK" = "Í lagi";
 "Rename…" = "Endurnefna…";
 "Copy Path" = "Afrita slóð";
-"Copy Relative Path" = "Afritaðu hlutfallslega slóð";
+"Copy Relative Path" = "Afrita afstæða slóð";
 "Reveal in Finder" = "Sýna í Finder";
-"Open in Terminal" = "Opið í Terminal";
+"Open in Terminal" = "Opna í skjáhermi";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Vinstri spjaldið";
+"Left Panel" = "Vinstra spjald";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Skrár";
-"Double ⇧ to search everywhere" = "Tvöfalda ⇧ til að leita alls staðar";
-"Type a file name (use / to match the path)" = "Sláðu inn skráarnafn (notaðu / til að passa við slóðina)";
+"Double ⇧ to search everywhere" = "Ýttu tvisvar á ⇧ til að leita alls staðar";
+"Type a file name (use / to match the path)" = "Sláðu inn skráarheiti (notaðu / til að leita eftir slóð)";
 "No recent files" = "Engar nýlegar skrár";
 "Recent Files" = "Nýlegar skrár";
-"Matches: %1$ld / Files: %2$ld" = "Niðurstöður fundnar: %1$ld / Samtals skrár: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Samsvaranir: %1$ld / Skrár: %2$ld";

@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Bude babban fayil azaman aikin, ko fayil don gyarawa.";
-"Open" = "Bude";
+"Open a folder as a project, or a file to edit." = "Buɗe babban fayil a matsayin aiki, ko fayil don gyarawa.";
+"Open" = "Buɗe";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fayil";
 "Edit" = "Gyara";
 "View" = "Duba";
-"Navigate" = "Kewaya";
+"Navigate" = "Kewayawa";
 "Window" = "Taga";
-"About Sumi" = "Game da aikace-aikacen Sumi";
 "Language" = "Harshe";
-"Services" = "Ayyuka";
+"About Sumi" = "Game da Sumi";
+"Services" = "Ayyukan hidima";
 "Hide Sumi" = "Ɓoye Sumi";
-"Hide Others" = "Boye Wasu";
-"Show All" = "Nuna Duka";
-"Quit Sumi" = "Farashin Sumi";
-"System Default" = "Tsoffin tsarin";
-"New File…" = "Sabon Fayil…";
-"New Folder…" = "Sabuwar Jaka…";
-"New Terminal Tab" = "Sabon Tasha Tab";
-"Open…" = "Bude…";
+"Hide Others" = "Ɓoye sauran";
+"Show All" = "Nuna duka";
+"Quit Sumi" = "Fita daga Sumi";
+"System Default" = "Tsohon saitin tsarin";
+"New File…" = "Sabon fayil…";
+"New Folder…" = "Sabon babban fayil…";
+"New Terminal Tab" = "Sabon shafin tashar umarni";
+"Open…" = "Buɗe…";
 "Save" = "Ajiye";
-"Save All" = "Ajiye Duka";
-"Close Tab" = "Rufe Tab";
+"Save All" = "Ajiye duka";
+"Close Tab" = "Rufe shafin";
 "Close Window" = "Rufe taga";
-"Undo" = "Gyara";
-"Redo" = "Maimaita";
+"Undo" = "Soke canji";
+"Redo" = "Maimaita canji";
 "Cut" = "Yanke";
-"Copy" = "Kwafi";
+"Copy" = "Kwafa";
 "Paste" = "Manna";
-"Select All" = "Zaɓi Duk";
-"Find…" = "Nemo…";
+"Select All" = "Zaɓi duka";
+"Find…" = "Nema…";
 "Replace…" = "Sauya…";
-"Find Next" = "Nemo Na Gaba";
-"Find Previous" = "Nemo Baya";
-"Use Selection for Find" = "Yi amfani da Zaɓi don Nemo";
-"Find" = "Nemo";
-"Project" = "Aikin";
-"Terminal" = "Tasha";
-"Swap Terminal and Project" = "Musanya Terminal da Project";
-"Maximize Terminal" = "Girman Tasha";
-"GPU Rendering" = "Maida zane-zane ta amfani da GPU";
-"Soft-Wrap" = "Kunna dogayen layin rubutu ta atomatik";
-"Toggle Preview" = "Juya Preview";
-"Increase Font Size" = "Ƙara Girman Font";
-"Decrease Font Size" = "Rage Girman Font";
-"Reset Font Size" = "Sake saita Girman Font";
-"Search Everywhere (Double ⇧)" = "Bincika Ko'ina (Biyu ⇧)";
-"Select in Project View" = "Zaɓi a cikin Duba Project";
-"Next Tab" = "Tab na gaba";
-"Previous Tab" = "Tabbatacce";
-"Minimize" = "Rage girman";
-"Zoom" = "Zuƙowa";
-"Bring All to Front" = "Kawo Duka Gaba";
+"Find Next" = "Nemo na gaba";
+"Find Previous" = "Nemo na baya";
+"Use Selection for Find" = "Nemo rubutun da aka zaɓa";
+"Find" = "Bincike";
+"Project" = "Aiki";
+"Terminal" = "Tashar umarni";
+"Swap Terminal and Project" = "Musanya wuraren tashar umarni da aiki";
+"Maximize Terminal" = "Faɗaɗa tashar umarni";
+"GPU Rendering" = "Zanawa da GPU";
+"Soft-Wrap" = "Nannaɗe layuka";
+"Toggle Preview" = "Nuna/ɓoye samfoti";
+"Increase Font Size" = "Ƙara girman rubutu";
+"Decrease Font Size" = "Rage girman rubutu";
+"Reset Font Size" = "Mayar da girman rubutu";
+"Search Everywhere (Double ⇧)" = "Nema ko'ina (⇧ sau biyu)";
+"Select in Project View" = "Zaɓa a duba aikin";
+"Next Tab" = "Shafi na gaba";
+"Previous Tab" = "Shafi na baya";
+"Minimize" = "Rage taga";
+"Zoom" = "Faɗaɗa taga";
+"Bring All to Front" = "Kawo duk tagogi gaba";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Na gida";
 "Local (%ld)" = "Na gida (%ld)";
-"Hide Terminal" = "Boye Terminal";
-"Close" = "Kusa";
+"Hide Terminal" = "Ɓoye tashar umarni";
+"Close" = "Rufe";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Rufe zaman tasha mai gudana?";
+"Close running terminal sessions?" = "A rufe zaman tashar umarni da ke gudana?";
 "These processes will be stopped:" = "Za a dakatar da waɗannan matakai:";
 "Cancel" = "Soke";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Ajiye Kwafi…";
+"Save a Copy…" = "Ajiye kwafi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Edita Kawai";
-"Editor and Preview" = "Edita da Preview";
-"Preview Only" = "Dubawa Kawai";
+"Editor Only" = "Edita kaɗai";
+"Editor and Preview" = "Edita da samfoti";
+"Preview Only" = "Samfoti kaɗai";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Wurare: %ld";
-"Plain Text" = "Rubutun Babba";
-"Search Everywhere" = "Bincika Ko'ina";
-"Double ⇧" = "Biyu ⇧";
-"Go to File" = "Je zuwa Fayil";
-"Open Folder" = "Buɗe Jaka";
-"Project View" = "Duban Aikin";
+"Spaces: %ld" = "Sarari: %ld";
+"Plain Text" = "Rubutu marar tsari";
+"Search Everywhere" = "Nema ko'ina";
+"Double ⇧" = "⇧ sau biyu";
+"Go to File" = "Je zuwa fayil";
+"Open Folder" = "Buɗe babban fayil";
+"Project View" = "Duba aikin";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fayil ɗin ya canza akan faifai. An adana gyare-gyarenku. Ajiye kwafi don adana nau'ikan biyun.";
-"The file is a binary file." = "Fayil ɗin fayil ɗin binary ne.";
-"The file's text encoding could not be determined." = "An kasa tantance rubutun fayil ɗin.";
-"The text cannot be saved in %@." = "Ba za a iya ajiye rubutun a cikin %@ ba.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fayil ɗin da ke faifai ya canza. Gyare-gyarenka suna nan a edita. Ajiye kwafi don riƙe sigogin biyu.";
+"The file is a binary file." = "Wannan fayil ne na binary.";
+"The file's text encoding could not be determined." = "An kasa gano encoding na rubutun fayil.";
+"The text cannot be saved in %@." = "Ba za a iya ajiye rubutun da encoding %@ ba.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Sabuwar Jaka";
-"New File" = "Sabon Fayil";
-"Enter a name in “%@”. Use / to create nested folders." = "Shigar da suna a cikin \"%@\". Rarrabe sunayen babban fayil tare da / hali don ƙirƙirar manyan fayiloli.";
-"Rename" = "Sake suna";
-"Enter a new name for “%@”." = "Shigar da sabon suna don \"%@\".";
-"Move “%@” to the Trash?" = "Matsar da \"%@\" zuwa Shara?";
-"The folder and everything in it will be moved to the Trash." = "Za a matsar da babban fayil ɗin da duk abin da ke cikin Shara.";
-"You can restore it from the Trash." = "Kuna iya dawo da shi daga Sharar.";
+"New Folder" = "Sabon babban fayil";
+"New File" = "Sabon fayil";
+"Enter a name in “%@”. Use / to create nested folders." = "Shigar da suna a cikin “%@”. Yi amfani da / don ƙirƙirar manyan fayiloli a cikin wasu.";
+"Rename" = "Sauya suna";
+"Enter a new name for “%@”." = "Shigar da sabon suna don “%@”.";
+"Move “%@” to the Trash?" = "A matsar da “%@” zuwa Kwandon Shara?";
+"The folder and everything in it will be moved to the Trash." = "Za a matsar da babban fayil da duk abin da ke cikinsa zuwa Kwandon Shara.";
+"You can restore it from the Trash." = "Za ka iya dawo da abin daga Kwandon Shara.";
 "Move to Trash" = "Matsar zuwa Shara";
-"OK" = "Yayi";
-"Rename…" = "Sake suna…";
-"Copy Path" = "Kwafi Hanya";
-"Copy Relative Path" = "Kwafi Hanyar Dangi";
-"Reveal in Finder" = "Bayani na Finder";
-"Open in Terminal" = "Bude a cikin Terminal";
+"OK" = "To";
+"Rename…" = "Sauya suna…";
+"Copy Path" = "Kwafi hanya";
+"Copy Relative Path" = "Kwafi hanya ta dangantaka";
+"Reveal in Finder" = "Nuna a Finder";
+"Open in Terminal" = "Buɗe a tashar umarni";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Ƙungiyar Hagu";
+"Left Panel" = "Bangaren hagu";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fayiloli";
-"Double ⇧ to search everywhere" = "Sau biyu ⇧ don bincika ko'ina";
-"Type a file name (use / to match the path)" = "Buga sunan fayil (amfani / don dacewa da hanyar)";
-"No recent files" = "Babu fayilolin kwanan nan";
-"Recent Files" = "Fayilolin kwanan nan";
-"Matches: %1$ld / Files: %2$ld" = "An samo sakamako: %1$ld / Jimlar fayiloli: %2$ld";
+"Double ⇧ to search everywhere" = "Danna ⇧ sau biyu don nema ko'ina";
+"Type a file name (use / to match the path)" = "Rubuta sunan fayil (yi amfani da / don nema a hanya)";
+"No recent files" = "Babu fayilolin baya-bayan nan";
+"Recent Files" = "Fayilolin baya-bayan nan";
+"Matches: %1$ld / Files: %2$ld" = "Masu dacewa: %1$ld / Fayiloli: %2$ld";

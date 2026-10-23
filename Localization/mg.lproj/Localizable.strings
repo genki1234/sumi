@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Sokafy ny lahatahiry ho toy ny tetikasa, na ny rakitra ho ovaina.";
-"Open" = "Misokatra";
+"Open a folder as a project, or a file to edit." = "Sokafy ho tetikasa ny lahatahiry, na sokafy ny rakitra hovaina.";
+"Open" = "Sokafy";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Rakitra";
-"Edit" = "Ahitsio";
-"View" = "Asehoy";
-"Navigate" = "Mandehana";
-"Window" = "Varavarankely fampiharana";
-"About Sumi" = "Momba ny fampiharana Sumi";
+"Edit" = "Fanovana";
+"View" = "Fijery";
+"Navigate" = "Fitetezana";
+"Window" = "Varavarankely";
 "Language" = "Fiteny";
-"Services" = "Serivisy";
-"Hide Sumi" = "Afeno ny Sumi";
-"Hide Others" = "Afeno ny hafa";
-"Show All" = "Asehoy daholo";
-"Quit Sumi" = "Atsaharo ny Sumi";
-"System Default" = "Ampiasao ny fiteny rafitra";
-"New File…" = "File vaovao…";
-"New Folder…" = "Lahatahiry vaovao…";
-"New Terminal Tab" = "Tab Terminal vaovao";
-"Open…" = "Misokatra…";
-"Save" = "Vonjeo";
-"Save All" = "Vonjeo daholo";
-"Close Tab" = "Akatona ny Tab";
-"Close Window" = "Akatona Window";
-"Undo" = "Esory";
-"Redo" = "Avereno";
-"Cut" = "Tapaho";
-"Copy" = "kopia";
-"Paste" = "Mametaka";
-"Select All" = "Safidio ny lahatsoratra rehetra";
+"About Sumi" = "Momba an'i Sumi";
+"Services" = "Tolotra";
+"Hide Sumi" = "Afeno Sumi";
+"Hide Others" = "Afeno ny Hafa";
+"Show All" = "Asehoy Rehetra";
+"Quit Sumi" = "Hiala amin'i Sumi";
+"System Default" = "Fikirana Fototry ny Rafitra";
+"New File…" = "Rakitra Vaovao…";
+"New Folder…" = "Lahatahiry Vaovao…";
+"New Terminal Tab" = "Kiheba Terminal Vaovao";
+"Open…" = "Sokafy…";
+"Save" = "Tehirizo";
+"Save All" = "Tehirizo Rehetra";
+"Close Tab" = "Akatona ny Kiheba";
+"Close Window" = "Akatona ny Varavarankely";
+"Undo" = "Foano ny Fanovana";
+"Redo" = "Avereno ny Fanovana";
+"Cut" = "Hetezo";
+"Copy" = "Adikao";
+"Paste" = "Apetaho";
+"Select All" = "Safidio Rehetra";
 "Find…" = "Tadiavo…";
 "Replace…" = "Soloy…";
-"Find Next" = "Mitadiava Manaraka";
-"Find Previous" = "Tadiavo teo aloha";
-"Use Selection for Find" = "Ampiasao ny Selection for Find";
+"Find Next" = "Tadiavo ny Manaraka";
+"Find Previous" = "Tadiavo ny Teo Aloha";
+"Use Selection for Find" = "Tadiavo ny Lahatsoratra Voafantina";
 "Find" = "Tadiavo";
 "Project" = "Tetikasa";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal sy Project";
-"Maximize Terminal" = "Hanitatra ny terminal";
-"GPU Rendering" = "Manomeza sary amin'ny fampiasana ny GPU";
-"Soft-Wrap" = "Ampidiro ho azy ny andalana lahatsoratra lava";
-"Toggle Preview" = "Asehoy na afeno ny fijery";
-"Increase Font Size" = "Ampitomboy ny haben'ny endritsoratra";
-"Decrease Font Size" = "Ahena ny haben'ny endritsoratra";
-"Reset Font Size" = "Avereno ny haben'ny endritsoratra";
-"Search Everywhere (Double ⇧)" = "Karoka eny rehetra eny (Double ⇧)";
-"Select in Project View" = "Safidio ao amin'ny Project View";
-"Next Tab" = "Tab manaraka";
-"Previous Tab" = "Tab teo aloha";
-"Minimize" = "Manamaivana";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Ento ny rehetra ho eo anoloana";
+"Swap Terminal and Project" = "Ampifamadiho ny Terminal sy ny Tetikasa";
+"Maximize Terminal" = "Ampitomboy Hatrany ny Terminal";
+"GPU Rendering" = "Fanehoana amin'ny GPU";
+"Soft-Wrap" = "Famonosana Andalana";
+"Toggle Preview" = "Asehoy/Afeno ny Topi-maso";
+"Increase Font Size" = "Ampitomboy ny Haben'ny Soratra";
+"Decrease Font Size" = "Ahena ny Haben'ny Soratra";
+"Reset Font Size" = "Avereno ny Haben'ny Soratra Fototra";
+"Search Everywhere (Double ⇧)" = "Karohy Eny Rehetra (⇧ Indroa)";
+"Select in Project View" = "Safidio ao amin'ny Hazon'ny Tetikasa";
+"Next Tab" = "Kiheba Manaraka";
+"Previous Tab" = "Kiheba Teo Aloha";
+"Minimize" = "Ahena";
+"Zoom" = "Ampitomboy ny Varavarankely";
+"Bring All to Front" = "Ento Eo Aloha ny Varavarankely Rehetra";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "eo an-toerana";
-"Local (%ld)" = "eo an-toerana (%ld)";
+"Local" = "Eto an-toerana";
+"Local (%ld)" = "Eto an-toerana (%ld)";
 "Hide Terminal" = "Afeno ny Terminal";
 "Close" = "Akatona";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Akatona ny fivoriana terminal mandeha?";
-"These processes will be stopped:" = "Hatsahatra ireto dingana ireto:";
-"Cancel" = "Manafoana";
+"Close running terminal sessions?" = "Hakatona ve ireo fotoam-piasana terminal mandeha?";
+"These processes will be stopped:" = "Hatsahatra ireto zotram-piasana ireto:";
+"Cancel" = "Aoka Ihany";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Tehirizo kopia…";
+"Save a Copy…" = "Tehirizo ny Dika Mitovy…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Mpanonta ihany";
-"Editor and Preview" = "Mpanonta sy Preview";
-"Preview Only" = "Preview Ihany";
+"Editor Only" = "Mpanova Ihany";
+"Editor and Preview" = "Mpanova sy Topi-maso";
+"Preview Only" = "Topi-maso Ihany";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Ampahany : %ld";
-"Plain Text" = "Text tsotra";
-"Search Everywhere" = "Mitadiava na aiza na aiza";
-"Double ⇧" = "Tsindrio ⇧ indroa";
-"Go to File" = "Mandehana any amin'ny File";
-"Open Folder" = "Sokafy ny lahatahiry";
-"Project View" = "tontonana tetikasa";
+"Spaces: %ld" = "Elanelana: %ld";
+"Plain Text" = "Lahatsoratra Tsotra";
+"Search Everywhere" = "Karohy Eny Rehetra";
+"Double ⇧" = "⇧ Indroa";
+"Go to File" = "Mandehana any amin'ny Rakitra";
+"Open Folder" = "Sokafy ny Lahatahiry";
+"Project View" = "Hazon'ny Tetikasa";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Niova ny rakitra tamin'ny kapila. Notazonina ny fanovana nataonao. Tehirizo dika iray hitahiry ireo dikan-teny roa.";
-"The file is a binary file." = "Ny rakitra dia rakitra binary.";
-"The file's text encoding could not be determined." = "Tsy azo fantarina ny fandiovana lahatsoratra an'ilay rakitra.";
-"The text cannot be saved in %@." = "Tsy azo tehirizina amin'ny %@ ny lahatsoratra.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Niova ny rakitra ao amin'ny kapila. Mbola ao amin'ny mpanova ny fanovanao. Tehirizo ny dika mitovy mba hitazonana ireo kinova roa.";
+"The file is a binary file." = "Rakitra mimari-droa ity rakitra ity.";
+"The file's text encoding could not be determined." = "Tsy fantatra ny fandikana tarehin-tsoratra ampiasain'ny rakitra.";
+"The text cannot be saved in %@." = "Tsy azo tehirizina amin'ny fandikana tarehin-tsoratra %@ ny lahatsoratra.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Folder vaovao";
-"New File" = "File vaovao";
-"Enter a name in “%@”. Use / to create nested folders." = "Ampidiro anarana ao amin'ny \"%@\". Saraho ny anaran'ny lahatahiry miaraka amin'ny tarehintsoratra / mba hamoronana zana-taratasy.";
-"Rename" = "Ovao anarana";
-"Enter a new name for “%@”." = "Ampidiro anarana vaovao ho an'ny \"%@\".";
-"Move “%@” to the Trash?" = "Alefaso any amin'ny Fako ny \"%@\"?";
-"The folder and everything in it will be moved to the Trash." = "Ny lahatahiry sy izay rehetra ao anatiny dia hafindra any amin'ny Fako.";
-"You can restore it from the Trash." = "Azonao atao ny mamerina azy avy amin'ny Fako.";
-"Move to Trash" = "Hiverina any amin'ny Trash";
-"OK" = "OK";
-"Rename…" = "Hanova anarana…";
-"Copy Path" = "Adikao ny lalan'ny rakitra";
-"Copy Relative Path" = "Adikao ny lalan'ny rakitra mifandraika";
-"Reveal in Finder" = "Asehoy ny Finder";
-"Open in Terminal" = "Sokafy amin'ny Terminal";
+"New Folder" = "Lahatahiry Vaovao";
+"New File" = "Rakitra Vaovao";
+"Enter a name in “%@”. Use / to create nested folders." = "Mampidira anarana ao amin'ny “%@”. Ampiasao / hamoronana lahatahiry ao anatin'ny lahatahiry.";
+"Rename" = "Ovay Anarana";
+"Enter a new name for “%@”." = "Mampidira anarana vaovao ho an'ny “%@”.";
+"Move “%@” to the Trash?" = "Afindra any amin'ny Fako ve ny “%@”?";
+"The folder and everything in it will be moved to the Trash." = "Hafindra any amin'ny Fako ny lahatahiry sy ny ao anatiny rehetra.";
+"You can restore it from the Trash." = "Azonao averina avy ao amin'ny Fako izany.";
+"Move to Trash" = "Afindrao any amin'ny Fako";
+"OK" = "Eny";
+"Rename…" = "Ovay Anarana…";
+"Copy Path" = "Adikao ny Lalana";
+"Copy Relative Path" = "Adikao ny Lalana Mifandraika";
+"Reveal in Finder" = "Asehoy ao amin'ny Finder";
+"Open in Terminal" = "Sokafy ao amin'ny Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel havia";
+"Left Panel" = "Takelaka Havia";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Rakitra";
-"Double ⇧ to search everywhere" = "Double ⇧ hikaroka na aiza na aiza";
-"Type a file name (use / to match the path)" = "Manorata anarana rakitra (ampiasao / hifanaraka amin'ny lalana)";
-"No recent files" = "Tsy misy rakitra vao haingana";
-"Recent Files" = "Files vao haingana";
-"Matches: %1$ld / Files: %2$ld" = "Vokatra hita: %1$ld / Total rakitra: %2$ld";
+"Double ⇧ to search everywhere" = "Tsindrio indroa ny ⇧ hikarohana eny rehetra";
+"Type a file name (use / to match the path)" = "Soraty ny anaran'ny rakitra (ampiasao / hikarohana amin'ny lalana)";
+"No recent files" = "Tsy misy rakitra vao nosokafana";
+"Recent Files" = "Rakitra Vao Nosokafana";
+"Matches: %1$ld / Files: %2$ld" = "Valiny Mifanaraka: %1$ld / Rakitra: %2$ld";

@@ -15,14 +15,14 @@
 "View" = "תצוגה";
 "Navigate" = "ניווט";
 "Window" = "חלון";
-"About Sumi" = "אודות Sumi";
 "Language" = "שפה";
+"About Sumi" = "אודות Sumi";
 "Services" = "שירותים";
 "Hide Sumi" = "הסתר את Sumi";
 "Hide Others" = "הסתר אחרים";
 "Show All" = "הצג הכול";
-"Quit Sumi" = "צא מ-Sumi";
-"System Default" = "מערכת ברירת מחדל";
+"Quit Sumi" = "צא מ־Sumi";
+"System Default" = "ברירת המחדל של המערכת";
 "New File…" = "קובץ חדש…";
 "New Folder…" = "תיקייה חדשה…";
 "New Terminal Tab" = "לשונית מסוף חדשה";
@@ -31,7 +31,7 @@
 "Save All" = "שמור הכול";
 "Close Tab" = "סגור לשונית";
 "Close Window" = "סגור חלון";
-"Undo" = "בטל";
+"Undo" = "בטל פעולה";
 "Redo" = "בצע שוב";
 "Cut" = "גזור";
 "Copy" = "העתק";
@@ -39,27 +39,27 @@
 "Select All" = "בחר הכול";
 "Find…" = "חפש…";
 "Replace…" = "החלף…";
-"Find Next" = "חפש הבא";
-"Find Previous" = "חפש קודם";
-"Use Selection for Find" = "השתמש בבחירה לחיפוש";
+"Find Next" = "חפש את הבא";
+"Find Previous" = "חפש את הקודם";
+"Use Selection for Find" = "חפש את הטקסט שנבחר";
 "Find" = "חיפוש";
 "Project" = "פרויקט";
 "Terminal" = "מסוף";
-"Swap Terminal and Project" = "החלף בין המסוף לפרויקט";
+"Swap Terminal and Project" = "החלף את מיקומי המסוף והפרויקט";
 "Maximize Terminal" = "הגדל את המסוף";
-"GPU Rendering" = "עיבוד GPU";
+"GPU Rendering" = "ציור באמצעות GPU";
 "Soft-Wrap" = "גלישת שורות";
-"Toggle Preview" = "הצגה/הסתרה של תצוגה מקדימה";
-"Increase Font Size" = "הגדל את גודל הגופן";
-"Decrease Font Size" = "הקטן את גודל הגופן";
+"Toggle Preview" = "הצג/הסתר תצוגה מקדימה";
+"Increase Font Size" = "הגדל גופן";
+"Decrease Font Size" = "הקטן גופן";
 "Reset Font Size" = "אפס את גודל הגופן";
-"Search Everywhere (Double ⇧)" = "חיפוש בכל מקום (⇧ פעמיים)";
+"Search Everywhere (Double ⇧)" = "חפש בכל מקום (⇧ פעמיים)";
 "Select in Project View" = "בחר בתצוגת הפרויקט";
 "Next Tab" = "הלשונית הבאה";
 "Previous Tab" = "הלשונית הקודמת";
 "Minimize" = "מזער";
-"Zoom" = "זום";
-"Bring All to Front" = "הבא הכול לחזית";
+"Zoom" = "שנה את גודל החלון";
+"Bring All to Front" = "הבא את כל החלונות לחזית";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "מקומי";
@@ -68,12 +68,12 @@
 "Close" = "סגור";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "לסגור הפעלות טרמינל פועלות?";
-"These processes will be stopped:" = "תהליכים אלה יופסקו:";
+"Close running terminal sessions?" = "לסגור את הפעלות המסוף הפעילות?";
+"These processes will be stopped:" = "התהליכים הבאים ייעצרו:";
 "Cancel" = "ביטול";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "שמור עותק...";
+"Save a Copy…" = "שמור עותק…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "עורך בלבד";
@@ -83,33 +83,33 @@
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "רווחים: %ld";
 "Plain Text" = "טקסט רגיל";
-"Search Everywhere" = "חיפוש בכל מקום";
+"Search Everywhere" = "חפש בכל מקום";
 "Double ⇧" = "⇧ פעמיים";
-"Go to File" = "מעבר לקובץ";
+"Go to File" = "עבור לקובץ";
 "Open Folder" = "פתח תיקייה";
-"Project View" = "תצוגת פרויקט";
+"Project View" = "תצוגת הפרויקט";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "הקובץ השתנה בדיסק. העריכות שלך נשמרו. שמור עותק כדי לשמר את שתי הגרסאות.";
-"The file is a binary file." = "הקובץ הוא קובץ בינארי.";
-"The file's text encoding could not be determined." = "לא ניתן היה לקבוע את קידוד הטקסט של הקובץ.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "הקובץ בדיסק השתנה. השינויים שלך עדיין נמצאים בעורך. שמור עותק כדי לשמור על שתי הגרסאות.";
+"The file is a binary file." = "זהו קובץ בינארי.";
+"The file's text encoding could not be determined." = "לא ניתן היה לזהות את קידוד הטקסט של הקובץ.";
 "The text cannot be saved in %@." = "לא ניתן לשמור את הטקסט בקידוד %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "תיקייה חדשה";
 "New File" = "קובץ חדש";
-"Enter a name in “%@”. Use / to create nested folders." = "הזן שם ב-\"%@\". השתמש ב-/ כדי ליצור תיקיות מקוננות.";
+"Enter a name in “%@”. Use / to create nested folders." = "הזן שם בתוך ״%@״. השתמש ב־/ ליצירת תיקיות מקוננות.";
 "Rename" = "שנה שם";
-"Enter a new name for “%@”." = "הזן שם חדש עבור \"%@\".";
-"Move “%@” to the Trash?" = "להעביר את \"%@\" לאשפה?";
-"The folder and everything in it will be moved to the Trash." = "התיקייה וכל מה שבתוכה יועברו לאשפה.";
-"You can restore it from the Trash." = "אפשר לשחזר זאת מהאשפה.";
-"Move to Trash" = "העבר לאשפה";
+"Enter a new name for “%@”." = "הזן שם חדש עבור ״%@״.";
+"Move “%@” to the Trash?" = "להעביר את ״%@״ לפח?";
+"The folder and everything in it will be moved to the Trash." = "התיקייה וכל תוכנה יועברו לפח.";
+"You can restore it from the Trash." = "ניתן לשחזר את הפריט מהפח.";
+"Move to Trash" = "העבר לפח";
 "OK" = "אישור";
 "Rename…" = "שנה שם…";
 "Copy Path" = "העתק נתיב";
 "Copy Relative Path" = "העתק נתיב יחסי";
-"Reveal in Finder" = "הצג ב-Finder";
+"Reveal in Finder" = "הצג ב־Finder";
 "Open in Terminal" = "פתח במסוף";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "קבצים";
-"Double ⇧ to search everywhere" = "לחץ ⇧ פעמיים כדי לחפש בכל מקום";
-"Type a file name (use / to match the path)" = "הקלד שם קובץ (השתמש ב-/ כדי להתאים לנתיב)";
+"Double ⇧ to search everywhere" = "לחץ על ⇧ פעמיים כדי לחפש בכל מקום";
+"Type a file name (use / to match the path)" = "הקלד שם קובץ (השתמש ב־/ לחיפוש בנתיב)";
 "No recent files" = "אין קבצים אחרונים";
 "Recent Files" = "קבצים אחרונים";
 "Matches: %1$ld / Files: %2$ld" = "התאמות: %1$ld / קבצים: %2$ld";

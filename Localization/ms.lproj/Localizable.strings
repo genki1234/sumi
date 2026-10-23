@@ -6,22 +6,22 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Buka folder sebagai projek, atau fail untuk diedit.";
+"Open a folder as a project, or a file to edit." = "Buka folder sebagai projek, atau fail untuk disunting.";
 "Open" = "Buka";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fail";
-"Edit" = "Edit";
-"View" = "Lihat";
+"Edit" = "Sunting";
+"View" = "Paparan";
 "Navigate" = "Navigasi";
 "Window" = "Tetingkap";
-"About Sumi" = "Perihal Sumi";
 "Language" = "Bahasa";
+"About Sumi" = "Perihal Sumi";
 "Services" = "Perkhidmatan";
 "Hide Sumi" = "Sembunyikan Sumi";
-"Hide Others" = "Sembunyikan Yang Lain";
+"Hide Others" = "Sembunyikan yang Lain";
 "Show All" = "Tunjukkan Semua";
-"Quit Sumi" = "Keluar dari Sumi";
+"Quit Sumi" = "Keluar daripada Sumi";
 "System Default" = "Lalai Sistem";
 "New File…" = "Fail Baharu…";
 "New Folder…" = "Folder Baharu…";
@@ -41,31 +41,31 @@
 "Replace…" = "Ganti…";
 "Find Next" = "Cari Seterusnya";
 "Find Previous" = "Cari Sebelumnya";
-"Use Selection for Find" = "Gunakan Pilihan untuk Mencari";
+"Use Selection for Find" = "Cari Teks yang Dipilih";
 "Find" = "Cari";
 "Project" = "Projek";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Tukar Terminal dan Projek";
+"Swap Terminal and Project" = "Tukar Kedudukan Terminal dan Projek";
 "Maximize Terminal" = "Maksimumkan Terminal";
-"GPU Rendering" = "Rendering GPU";
-"Soft-Wrap" = "Balut Baris Automatik";
-"Toggle Preview" = "Togol Pratonton";
+"GPU Rendering" = "Pemaparan GPU";
+"Soft-Wrap" = "Balut Baris";
+"Toggle Preview" = "Tunjukkan/Sembunyikan Pratonton";
 "Increase Font Size" = "Besarkan Saiz Fon";
 "Decrease Font Size" = "Kecilkan Saiz Fon";
 "Reset Font Size" = "Tetapkan Semula Saiz Fon";
-"Search Everywhere (Double ⇧)" = "Cari di Mana-mana (Tekan ⇧ Dua Kali)";
-"Select in Project View" = "Pilih dalam Paparan Projek";
+"Search Everywhere (Double ⇧)" = "Cari di Mana-mana (⇧ Dua Kali)";
+"Select in Project View" = "Pilih dalam Pepohon Projek";
 "Next Tab" = "Tab Seterusnya";
 "Previous Tab" = "Tab Sebelumnya";
 "Minimize" = "Minimumkan";
-"Zoom" = "Zum";
-"Bring All to Front" = "Bawa Semua ke Hadapan";
+"Zoom" = "Besarkan Tetingkap";
+"Bring All to Front" = "Bawa Semua Tetingkap ke Hadapan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Tempatan";
-"Local (%ld)" = "Tempatan (%ld)";
+"Local" = "Setempat";
+"Local (%ld)" = "Setempat (%ld)";
 "Hide Terminal" = "Sembunyikan Terminal";
-"Close" = "tutup";
+"Close" = "Tutup";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
 "Close running terminal sessions?" = "Tutup sesi terminal yang sedang berjalan?";
@@ -84,16 +84,16 @@
 "Spaces: %ld" = "Ruang: %ld";
 "Plain Text" = "Teks Biasa";
 "Search Everywhere" = "Cari di Mana-mana";
-"Double ⇧" = "Tekan ⇧ Dua Kali";
+"Double ⇧" = "⇧ Dua Kali";
 "Go to File" = "Pergi ke Fail";
 "Open Folder" = "Buka Folder";
-"Project View" = "Paparan Projek";
+"Project View" = "Pepohon Projek";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fail ditukar pada cakera. Suntingan anda telah disimpan. Simpan salinan untuk mengekalkan kedua-dua versi.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fail pada cakera telah berubah. Suntingan anda masih ada dalam editor. Simpan salinan untuk mengekalkan kedua-dua versi.";
 "The file is a binary file." = "Fail ini ialah fail binari.";
 "The file's text encoding could not be determined." = "Pengekodan teks fail tidak dapat ditentukan.";
-"The text cannot be saved in %@." = "Teks tidak dapat disimpan dalam %@.";
+"The text cannot be saved in %@." = "Teks tidak dapat disimpan dengan pengekodan %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Folder Baharu";
@@ -101,10 +101,10 @@
 "Enter a name in “%@”. Use / to create nested folders." = "Masukkan nama dalam “%@”. Gunakan / untuk mencipta folder bersarang.";
 "Rename" = "Namakan Semula";
 "Enter a new name for “%@”." = "Masukkan nama baharu untuk “%@”.";
-"Move “%@” to the Trash?" = "Alih “%@” ke Tong Sampah?";
-"The folder and everything in it will be moved to the Trash." = "Folder dan semua kandungannya akan dialihkan ke Tong Sampah.";
-"You can restore it from the Trash." = "Anda boleh memulihkannya daripada Tong Sampah.";
-"Move to Trash" = "Alih ke Tong Sampah";
+"Move “%@” to the Trash?" = "Alihkan “%@” ke Sampah?";
+"The folder and everything in it will be moved to the Trash." = "Folder dan semua kandungannya akan dialihkan ke Sampah.";
+"You can restore it from the Trash." = "Anda boleh memulihkannya daripada Sampah.";
+"Move to Trash" = "Alihkan ke Sampah";
 "OK" = "OK";
 "Rename…" = "Namakan Semula…";
 "Copy Path" = "Salin Laluan";
@@ -118,7 +118,7 @@
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fail";
 "Double ⇧ to search everywhere" = "Tekan ⇧ dua kali untuk mencari di mana-mana";
-"Type a file name (use / to match the path)" = "Taip nama fail (gunakan / untuk memadankan laluan)";
+"Type a file name (use / to match the path)" = "Taip nama fail (gunakan / untuk mencari mengikut laluan)";
 "No recent files" = "Tiada fail terkini";
 "Recent Files" = "Fail Terkini";
 "Matches: %1$ld / Files: %2$ld" = "Padanan: %1$ld / Fail: %2$ld";

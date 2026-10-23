@@ -13,16 +13,16 @@
 "File" = "ファイル";
 "Edit" = "編集";
 "View" = "表示";
-"Navigate" = "ナビゲート";
+"Navigate" = "移動";
 "Window" = "ウインドウ";
+"Language" = "表示言語";
 "About Sumi" = "Sumi について";
-"Language" = "言語";
 "Services" = "サービス";
 "Hide Sumi" = "Sumi を非表示";
 "Hide Others" = "ほかを非表示";
 "Show All" = "すべてを表示";
 "Quit Sumi" = "Sumi を終了";
-"System Default" = "システムのデフォルト";
+"System Default" = "システム設定に従う";
 "New File…" = "新規ファイル…";
 "New Folder…" = "新規フォルダ…";
 "New Terminal Tab" = "新規ターミナルタブ";
@@ -41,47 +41,47 @@
 "Replace…" = "置換…";
 "Find Next" = "次を検索";
 "Find Previous" = "前を検索";
-"Use Selection for Find" = "選択部分を検索に使用";
+"Use Selection for Find" = "選択範囲を検索文字列にする";
 "Find" = "検索";
 "Project" = "プロジェクト";
 "Terminal" = "ターミナル";
 "Swap Terminal and Project" = "ターミナルとプロジェクトを入れ替える";
 "Maximize Terminal" = "ターミナルを最大化";
-"GPU Rendering" = "GPU描画";
-"Soft-Wrap" = "ソフトラップ";
-"Toggle Preview" = "プレビューの切り替え";
-"Increase Font Size" = "フォントを大きく";
-"Decrease Font Size" = "フォントを小さく";
-"Reset Font Size" = "フォントサイズをリセット";
-"Search Everywhere (Double ⇧)" = "どこでも検索 (⇧ 2 回)";
+"GPU Rendering" = "GPU 描画";
+"Soft-Wrap" = "表示幅で折り返す";
+"Toggle Preview" = "プレビューを切り替える";
+"Increase Font Size" = "文字を大きくする";
+"Decrease Font Size" = "文字を小さくする";
+"Reset Font Size" = "文字サイズを元に戻す";
+"Search Everywhere (Double ⇧)" = "どこでも検索（⇧ 2 回）";
 "Select in Project View" = "プロジェクトビューで選択";
 "Next Tab" = "次のタブ";
 "Previous Tab" = "前のタブ";
 "Minimize" = "しまう";
-"Zoom" = "拡大/縮小";
+"Zoom" = "拡大／縮小";
 "Bring All to Front" = "すべてを手前に移動";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "ローカル";
-"Local (%ld)" = "ローカル (%ld)";
-"Hide Terminal" = "ターミナルを隠す";
+"Local (%ld)" = "ローカル（%ld）";
+"Hide Terminal" = "ターミナルを非表示";
 "Close" = "閉じる";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "実行中のターミナルを閉じますか？";
-"These processes will be stopped:" = "次の処理が停止します：";
+"Close running terminal sessions?" = "実行中のターミナルセッションを閉じますか？";
+"These processes will be stopped:" = "次のプロセスを停止します：";
 "Cancel" = "キャンセル";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
 "Save a Copy…" = "コピーを保存…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "エディターのみ";
-"Editor and Preview" = "エディターとプレビュー";
+"Editor Only" = "エディタのみ";
+"Editor and Preview" = "エディタとプレビュー";
 "Preview Only" = "プレビューのみ";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "スペース: %ld";
+"Spaces: %ld" = "インデント: %ld スペース";
 "Plain Text" = "プレーンテキスト";
 "Search Everywhere" = "どこでも検索";
 "Double ⇧" = "⇧ 2 回";
@@ -90,19 +90,19 @@
 "Project View" = "プロジェクトビュー";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ファイルが外部で変更されました。編集中の内容は保持しています。両方の内容を残すにはコピーを保存してください。";
-"The file is a binary file." = "このファイルはバイナリファイルです。";
-"The file's text encoding could not be determined." = "ファイルのテキストエンコーディングを判別できませんでした。";
-"The text cannot be saved in %@." = "このテキストは %@ で保存できません。";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ファイルが外部で変更されました。編集中の内容はエディタに残っています。両方の内容を残すにはコピーを保存してください。";
+"The file is a binary file." = "このファイルはバイナリ形式です。";
+"The file's text encoding could not be determined." = "ファイルの文字コードを判別できませんでした。";
+"The text cannot be saved in %@." = "このテキストは %@ では保存できません。";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "新規フォルダ";
 "New File" = "新規ファイル";
-"Enter a name in “%@”. Use / to create nested folders." = "“%@”内に作成する名前を入力してください。/ で区切るとフォルダを階層ごと作成します。";
+"Enter a name in “%@”. Use / to create nested folders." = "「%@」内に作成する名前を入力してください。/ で区切ると階層ごとにフォルダを作成できます。";
 "Rename" = "名前を変更";
-"Enter a new name for “%@”." = "“%@”の新しい名前を入力してください。";
-"Move “%@” to the Trash?" = "“%@”をゴミ箱に入れますか?";
-"The folder and everything in it will be moved to the Trash." = "フォルダとその中身がすべてゴミ箱に入ります。";
+"Enter a new name for “%@”." = "「%@」の新しい名前を入力してください。";
+"Move “%@” to the Trash?" = "「%@」をゴミ箱に入れますか？";
+"The folder and everything in it will be moved to the Trash." = "フォルダとその中身をすべてゴミ箱に入れます。";
 "You can restore it from the Trash." = "ゴミ箱から元に戻せます。";
 "Move to Trash" = "ゴミ箱に入れる";
 "OK" = "OK";
@@ -113,12 +113,12 @@
 "Open in Terminal" = "ターミナルで開く";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "左パネル";
+"Left Panel" = "左のパネル";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "ファイル";
 "Double ⇧ to search everywhere" = "⇧ 2 回でどこでも検索";
-"Type a file name (use / to match the path)" = "ファイル名を入力 (/ を含めるとパスで一致)";
+"Type a file name (use / to match the path)" = "ファイル名を入力（/ を含めるとパスを検索）";
 "No recent files" = "最近のファイルはありません";
 "Recent Files" = "最近のファイル";
-"Matches: %1$ld / Files: %2$ld" = "一致: %1$ld / ファイル: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "一致件数: %1$ld / ファイル数: %2$ld";

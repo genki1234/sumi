@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Abre un cartafol como proxecto ou un ficheiro para editar.";
-"Open" = "Aberto";
+"Open a folder as a project, or a file to edit." = "Abre un cartafol como proxecto ou un ficheiro para editalo.";
+"Open" = "Abrir";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Arquivo";
+"File" = "Ficheiro";
 "Edit" = "Editar";
-"View" = "Ver";
-"Navigate" = "Navega";
-"Window" = "Fiestra";
-"About Sumi" = "Sobre a aplicación Sumi";
-"Language" = "Linguaxe";
+"View" = "Vista";
+"Navigate" = "Navegación";
+"Window" = "Xanela";
+"Language" = "Idioma";
+"About Sumi" = "Sobre Sumi";
 "Services" = "Servizos";
-"Hide Sumi" = "Ocultar Sumi";
-"Hide Others" = "Ocultar Outros";
-"Show All" = "Mostrar todo";
-"Quit Sumi" = "Saír do Sumi";
-"System Default" = "Sistema predeterminado";
-"New File…" = "Novo ficheiro...";
-"New Folder…" = "Novo cartafol...";
-"New Terminal Tab" = "Nova pestana Terminal";
+"Hide Sumi" = "Agochar Sumi";
+"Hide Others" = "Agochar as outras";
+"Show All" = "Amosar todo";
+"Quit Sumi" = "Saír de Sumi";
+"System Default" = "Predeterminado do sistema";
+"New File…" = "Novo ficheiro…";
+"New Folder…" = "Novo cartafol…";
+"New Terminal Tab" = "Nova lapela de terminal";
 "Open…" = "Abrir…";
 "Save" = "Gardar";
 "Save All" = "Gardar todo";
-"Close Tab" = "Pechar a pestana";
+"Close Tab" = "Pechar a lapela";
 "Close Window" = "Pechar a xanela";
 "Undo" = "Desfacer";
 "Redo" = "Refacer";
-"Cut" = "Corte";
+"Cut" = "Cortar";
 "Copy" = "Copiar";
 "Paste" = "Pegar";
-"Select All" = "Seleccione Todo";
-"Find…" = "Atopar…";
+"Select All" = "Seleccionar todo";
+"Find…" = "Buscar…";
 "Replace…" = "Substituír…";
-"Find Next" = "Buscar Seguinte";
-"Find Previous" = "Buscar o anterior";
-"Use Selection for Find" = "Use a selección para buscar";
-"Find" = "Atopar";
+"Find Next" = "Buscar seguinte";
+"Find Previous" = "Buscar anterior";
+"Use Selection for Find" = "Buscar o texto seleccionado";
+"Find" = "Buscar";
 "Project" = "Proxecto";
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Intercambiar terminal e proxecto";
 "Maximize Terminal" = "Maximizar o terminal";
-"GPU Rendering" = "Renderizado da GPU";
-"Soft-Wrap" = "Envolve automaticamente liñas de texto longas";
-"Toggle Preview" = "Alternar vista previa";
-"Increase Font Size" = "Aumenta o tamaño da fonte";
-"Decrease Font Size" = "Diminuír o tamaño da fonte";
-"Reset Font Size" = "Restablecer o tamaño da fonte";
-"Search Everywhere (Double ⇧)" = "Busca en todas partes (dobre ⇧)";
-"Select in Project View" = "Seleccione na vista do proxecto";
-"Next Tab" = "Seguinte pestana";
-"Previous Tab" = "Pestana anterior";
+"GPU Rendering" = "Renderización con GPU";
+"Soft-Wrap" = "Axuste de liñas";
+"Toggle Preview" = "Amosar/agochar a vista previa";
+"Increase Font Size" = "Aumentar o tamaño da letra";
+"Decrease Font Size" = "Reducir o tamaño da letra";
+"Reset Font Size" = "Restablecer o tamaño da letra";
+"Search Everywhere (Double ⇧)" = "Buscar en todas partes (⇧ dúas veces)";
+"Select in Project View" = "Seleccionar na vista do proxecto";
+"Next Tab" = "Seguinte lapela";
+"Previous Tab" = "Lapela anterior";
 "Minimize" = "Minimizar";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Trae todo á fronte";
+"Zoom" = "Ampliar a xanela";
+"Bring All to Front" = "Traer todas as xanelas á fronte";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Local";
 "Local (%ld)" = "Local (%ld)";
-"Hide Terminal" = "Ocultar terminal";
+"Hide Terminal" = "Agochar o terminal";
 "Close" = "Pechar";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Queres pechar as sesións de terminal en execución?";
-"These processes will be stopped:" = "Estes procesos pararanse:";
+"Close running terminal sessions?" = "Pechar as sesións de terminal en execución?";
+"These processes will be stopped:" = "Deteranse estes procesos:";
 "Cancel" = "Cancelar";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Gardar unha copia...";
+"Save a Copy…" = "Gardar unha copia…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Só editor";
-"Editor and Preview" = "Editor e Vista previa";
-"Preview Only" = "Só vista previa";
+"Editor Only" = "Só o editor";
+"Editor and Preview" = "Editor e vista previa";
+"Preview Only" = "Só a vista previa";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Prazas: %ld";
+"Spaces: %ld" = "Espazos: %ld";
 "Plain Text" = "Texto simple";
-"Search Everywhere" = "Busca por todas partes";
-"Double ⇧" = "Dobre ⇧";
-"Go to File" = "Vaia a Ficheiro";
+"Search Everywhere" = "Buscar en todas partes";
+"Double ⇧" = "⇧ dúas veces";
+"Go to File" = "Ir ao ficheiro";
 "Open Folder" = "Abrir cartafol";
 "Project View" = "Vista do proxecto";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "O ficheiro cambiou no disco. Conserváronse as túas edicións. Garda unha copia para conservar as dúas versións.";
-"The file is a binary file." = "O ficheiro é un ficheiro binario.";
-"The file's text encoding could not be determined." = "Non se puido determinar a codificación de texto do ficheiro.";
-"The text cannot be saved in %@." = "Non se pode gardar o texto no %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "O ficheiro cambiou no disco. As túas modificacións seguen no editor. Garda unha copia para conservar ambas as versións.";
+"The file is a binary file." = "O ficheiro é binario.";
+"The file's text encoding could not be determined." = "Non se puido determinar a codificación do texto do ficheiro.";
+"The text cannot be saved in %@." = "Non se pode gardar o texto coa codificación %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Novo cartafol";
 "New File" = "Novo ficheiro";
-"Enter a name in “%@”. Use / to create nested folders." = "Introduza un nome en \"%@\". Separa os nomes dos cartafoles co carácter / para crear subcartafoles.";
-"Rename" = "Cambiar o nome";
-"Enter a new name for “%@”." = "Introduza un novo nome para \"%@\".";
-"Move “%@” to the Trash?" = "Queres mover \"%@\" á papeleira?";
-"The folder and everything in it will be moved to the Trash." = "O cartafol e todo o que hai nel moveranse ao lixo.";
-"You can restore it from the Trash." = "Podes restauralo desde o lixo.";
-"Move to Trash" = "Mover á papeleira";
-"OK" = "OK";
-"Rename…" = "Cambiar o nome…";
-"Copy Path" = "Percorrido de copia";
-"Copy Relative Path" = "Copiar o camiño relativo";
-"Reveal in Finder" = "Revelar no Finder";
-"Open in Terminal" = "Abrir no Terminal";
+"Enter a name in “%@”. Use / to create nested folders." = "Introduce un nome en «%@». Usa / para crear cartafoles aniñados.";
+"Rename" = "Renomear";
+"Enter a new name for “%@”." = "Introduce un nome novo para «%@».";
+"Move “%@” to the Trash?" = "Mover «%@» ao lixo?";
+"The folder and everything in it will be moved to the Trash." = "O cartafol e todo o seu contido moveranse ao lixo.";
+"You can restore it from the Trash." = "Podes recuperar o elemento do lixo.";
+"Move to Trash" = "Mover ao lixo";
+"OK" = "Aceptar";
+"Rename…" = "Renomear…";
+"Copy Path" = "Copiar a ruta";
+"Copy Relative Path" = "Copiar a ruta relativa";
+"Reveal in Finder" = "Amosar no Finder";
+"Open in Terminal" = "Abrir no terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Panel esquerdo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Arquivos";
-"Double ⇧ to search everywhere" = "Dobre ⇧ para buscar en todas partes";
-"Type a file name (use / to match the path)" = "Escriba un nome de ficheiro (use / para que coincida coa ruta)";
+"Files" = "Ficheiros";
+"Double ⇧ to search everywhere" = "Preme ⇧ dúas veces para buscar en todas partes";
+"Type a file name (use / to match the path)" = "Escribe un nome de ficheiro (usa / para buscar na ruta)";
 "No recent files" = "Non hai ficheiros recentes";
-"Recent Files" = "Arquivos recentes";
-"Matches: %1$ld / Files: %2$ld" = "Resultados atopados: %1$ld / Total de ficheiros: %2$ld";
+"Recent Files" = "Ficheiros recentes";
+"Matches: %1$ld / Files: %2$ld" = "Coincidencias: %1$ld / Ficheiros: %2$ld";

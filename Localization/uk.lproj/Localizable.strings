@@ -11,18 +11,18 @@
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Файл";
-"Edit" = "Редагувати";
+"Edit" = "Редагування";
 "View" = "Вигляд";
-"Navigate" = "Навігація";
+"Navigate" = "Перехід";
 "Window" = "Вікно";
-"About Sumi" = "Про Sumi";
 "Language" = "Мова";
+"About Sumi" = "Про Sumi";
 "Services" = "Служби";
 "Hide Sumi" = "Сховати Sumi";
 "Hide Others" = "Сховати інші";
-"Show All" = "Показати все";
-"Quit Sumi" = "Вийти з Sumi";
-"System Default" = "Системне за замовчуванням";
+"Show All" = "Показати всі";
+"Quit Sumi" = "Завершити Sumi";
+"System Default" = "Мова системи";
 "New File…" = "Новий файл…";
 "New Folder…" = "Нова папка…";
 "New Terminal Tab" = "Нова вкладка термінала";
@@ -31,35 +31,35 @@
 "Save All" = "Зберегти все";
 "Close Tab" = "Закрити вкладку";
 "Close Window" = "Закрити вікно";
-"Undo" = "Скасувати";
+"Undo" = "Скасувати дію";
 "Redo" = "Повторити";
 "Cut" = "Вирізати";
-"Copy" = "Скопіювати";
+"Copy" = "Копіювати";
 "Paste" = "Вставити";
 "Select All" = "Вибрати все";
 "Find…" = "Знайти…";
 "Replace…" = "Замінити…";
-"Find Next" = "Знайти наступне";
+"Find Next" = "Знайти далі";
 "Find Previous" = "Знайти попереднє";
-"Use Selection for Find" = "Використати вибране для пошуку";
-"Find" = "Знайти";
+"Use Selection for Find" = "Шукати вибраний текст";
+"Find" = "Пошук";
 "Project" = "Проєкт";
 "Terminal" = "Термінал";
 "Swap Terminal and Project" = "Поміняти місцями термінал і проєкт";
 "Maximize Terminal" = "Розгорнути термінал";
-"GPU Rendering" = "Візуалізація GPU";
-"Soft-Wrap" = "М’яке перенесення";
-"Toggle Preview" = "Показати/сховати попередній перегляд";
-"Increase Font Size" = "Збільшити розмір шрифту";
-"Decrease Font Size" = "Зменшити розмір шрифту";
+"GPU Rendering" = "Відтворення через GPU";
+"Soft-Wrap" = "Перенесення за шириною";
+"Toggle Preview" = "Увімкнути або сховати перегляд";
+"Increase Font Size" = "Збільшити шрифт";
+"Decrease Font Size" = "Зменшити шрифт";
 "Reset Font Size" = "Скинути розмір шрифту";
-"Search Everywhere (Double ⇧)" = "Шукати всюди (подвійний ⇧)";
-"Select in Project View" = "Вибрати в поданні проєкту";
+"Search Everywhere (Double ⇧)" = "Шукати всюди (двічі ⇧)";
+"Select in Project View" = "Вибрати в дереві проєкту";
 "Next Tab" = "Наступна вкладка";
 "Previous Tab" = "Попередня вкладка";
 "Minimize" = "Згорнути";
-"Zoom" = "Масштаб";
-"Bring All to Front" = "Усі на передній план";
+"Zoom" = "Збільшити вікно";
+"Bring All to Front" = "Усі вікна на передній план";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Локальний";
@@ -68,8 +68,8 @@
 "Close" = "Закрити";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Закрити поточні сесії терміналу?";
-"These processes will be stopped:" = "Ці процеси будуть зупинені:";
+"Close running terminal sessions?" = "Закрити активні сеанси термінала?";
+"These processes will be stopped:" = "Ці процеси буде зупинено:";
 "Cancel" = "Скасувати";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -77,38 +77,38 @@
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Лише редактор";
-"Editor and Preview" = "Редактор і попередній перегляд";
-"Preview Only" = "Лише попередній перегляд";
+"Editor and Preview" = "Редактор і перегляд";
+"Preview Only" = "Лише перегляд";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Пробіли: %ld";
 "Plain Text" = "Звичайний текст";
 "Search Everywhere" = "Шукати всюди";
-"Double ⇧" = "Подвійний ⇧";
+"Double ⇧" = "Двічі ⇧";
 "Go to File" = "Перейти до файлу";
 "Open Folder" = "Відкрити папку";
-"Project View" = "Подання проєкту";
+"Project View" = "Дерево проєкту";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл змінено на диску. Ваші правки збережено. Збережіть копію, щоб зберегти обидві версії.";
-"The file is a binary file." = "Файл є двійковим.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл на диску змінено. Ваші правки залишилися в редакторі. Збережіть копію, щоб залишити обидві версії.";
+"The file is a binary file." = "Це двійковий файл.";
 "The file's text encoding could not be determined." = "Не вдалося визначити кодування тексту файлу.";
-"The text cannot be saved in %@." = "Текст не можна зберегти в кодуванні %@.";
+"The text cannot be saved in %@." = "Не вдається зберегти текст у кодуванні %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Нова папка";
 "New File" = "Новий файл";
-"Enter a name in “%@”. Use / to create nested folders." = "Введіть назву в «%@». Використовуйте /, щоб створити вкладені папки.";
+"Enter a name in “%@”. Use / to create nested folders." = "Введіть назву в «%@». Використовуйте / для створення вкладених папок.";
 "Rename" = "Перейменувати";
 "Enter a new name for “%@”." = "Введіть нову назву для «%@».";
-"Move “%@” to the Trash?" = "Перемістити «%@» до Смітника?";
-"The folder and everything in it will be moved to the Trash." = "Папку та весь її вміст буде переміщено до Смітника.";
-"You can restore it from the Trash." = "Його можна відновити зі Смітника.";
-"Move to Trash" = "Перемістити до Смітника";
-"OK" = "OK";
+"Move “%@” to the Trash?" = "Перемістити «%@» у Смітник?";
+"The folder and everything in it will be moved to the Trash." = "Папку та весь її вміст буде переміщено у Смітник.";
+"You can restore it from the Trash." = "Об’єкт можна відновити зі Смітника.";
+"Move to Trash" = "Перемістити у Смітник";
+"OK" = "Гаразд";
 "Rename…" = "Перейменувати…";
-"Copy Path" = "Скопіювати шлях";
-"Copy Relative Path" = "Скопіювати відносний шлях";
+"Copy Path" = "Копіювати шлях";
+"Copy Relative Path" = "Копіювати відносний шлях";
 "Reveal in Finder" = "Показати у Finder";
 "Open in Terminal" = "Відкрити в терміналі";
 
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Файли";
-"Double ⇧ to search everywhere" = "Подвійний ⇧ — шукати всюди";
-"Type a file name (use / to match the path)" = "Введіть назву файлу (/ — пошук за шляхом)";
-"No recent files" = "Немає нещодавніх файлів";
-"Recent Files" = "Нещодавні файли";
+"Double ⇧ to search everywhere" = "Натисніть ⇧ двічі для пошуку всюди";
+"Type a file name (use / to match the path)" = "Введіть назву файлу (використовуйте / для пошуку за шляхом)";
+"No recent files" = "Немає недавніх файлів";
+"Recent Files" = "Недавні файли";
 "Matches: %1$ld / Files: %2$ld" = "Збіги: %1$ld / Файли: %2$ld";

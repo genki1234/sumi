@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Aprite un cartulare cum'è un prughjettu, o un schedariu per edità.";
-"Open" = "Apertu";
+"Open a folder as a project, or a file to edit." = "Aprite un cartulare cum'è prughjettu, o un schedariu da mudificà.";
+"Open" = "Apri";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "I schedari";
-"Edit" = "Edità u testu";
-"View" = "Vede";
+"File" = "Schedariu";
+"Edit" = "Mudificà";
+"View" = "Vista";
 "Navigate" = "Navigazione";
 "Window" = "Finestra";
-"About Sumi" = "Circa l'applicazione Sumi";
 "Language" = "Lingua";
-"Services" = "servizii";
-"Hide Sumi" = "Oculta Sumi";
-"Hide Others" = "Nascondi l'altri";
-"Show All" = "Mostra tuttu";
-"Quit Sumi" = "Surtitu Sumi";
-"System Default" = "Sistema Default";
-"New File…" = "New File...";
+"About Sumi" = "À prupositu di Sumi";
+"Services" = "Servizii";
+"Hide Sumi" = "Piattà Sumi";
+"Hide Others" = "Piattà l'altri";
+"Show All" = "Mustrà tuttu";
+"Quit Sumi" = "Esce da Sumi";
+"System Default" = "Predefinitu di u sistema";
+"New File…" = "Novu schedariu…";
 "New Folder…" = "Novu cartulare…";
-"New Terminal Tab" = "Crea una tabulazione di terminal";
-"Open…" = "Apertu…";
+"New Terminal Tab" = "Nova linguetta di terminale";
+"Open…" = "Apri…";
 "Save" = "Salvà";
 "Save All" = "Salvà tuttu";
-"Close Tab" = "Chiudi Tab";
-"Close Window" = "Chiudi Finestra";
-"Undo" = "Annulla";
+"Close Tab" = "Chjode a linguetta";
+"Close Window" = "Chjode a finestra";
+"Undo" = "Annullà";
 "Redo" = "Rifà";
-"Cut" = "Tagliate";
-"Copy" = "Copia";
-"Paste" = "Incolla u testu";
+"Cut" = "Taglià";
+"Copy" = "Cupià";
+"Paste" = "Incollà";
 "Select All" = "Selezziunà tuttu";
-"Find…" = "Truvate…";
-"Replace…" = "Sustituisce…";
-"Find Next" = "Truvà Next";
-"Find Previous" = "Truvà Previous";
-"Use Selection for Find" = "Aduprà Selezzione per Truvà";
-"Find" = "Truvà";
+"Find…" = "Circà…";
+"Replace…" = "Rimpiazzà…";
+"Find Next" = "Circà u prossimu";
+"Find Previous" = "Circà u precedente";
+"Use Selection for Find" = "Circà u testu selezziunatu";
+"Find" = "Ricerca";
 "Project" = "Prughjettu";
-"Terminal" = "Terminal";
-"Swap Terminal and Project" = "Scambià Terminal è Prughjettu";
-"Maximize Terminal" = "Ingrandà u terminal";
-"GPU Rendering" = "Rendering GPU";
-"Soft-Wrap" = "Imbulighjate automaticamente linee di testu longu";
-"Toggle Preview" = "Mostra o oculta l'anteprima";
-"Increase Font Size" = "Aumentà a dimensione di u font";
-"Decrease Font Size" = "Diminuisce a dimensione di u font";
-"Reset Font Size" = "Resetta a dimensione di u font";
-"Search Everywhere (Double ⇧)" = "Cerca in ogni locu (Doppiu ⇧)";
-"Select in Project View" = "Selezziunate in Project View";
-"Next Tab" = "Andà à a tabulazione dopu";
-"Previous Tab" = "Andà à a tabulazione precedente";
+"Terminal" = "Terminale";
+"Swap Terminal and Project" = "Scambià terminale è prughjettu";
+"Maximize Terminal" = "Ingrandisce u terminale";
+"GPU Rendering" = "Disegnu cù GPU";
+"Soft-Wrap" = "Ripiegà e linee";
+"Toggle Preview" = "Mustrà/piattà l'anteprima";
+"Increase Font Size" = "Ingrandisce i caratteri";
+"Decrease Font Size" = "Riduce i caratteri";
+"Reset Font Size" = "Ristabilisce a taglia di i caratteri";
+"Search Everywhere (Double ⇧)" = "Circà dapertuttu (⇧ duie volte)";
+"Select in Project View" = "Selezziunà in a vista di u prughjettu";
+"Next Tab" = "Linguetta prossima";
+"Previous Tab" = "Linguetta precedente";
 "Minimize" = "Minimizà";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Purtate tuttu in fronte";
+"Zoom" = "Ingrandisce a finestra";
+"Bring All to Front" = "Purtà tutte e finestre davanti";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Locale";
-"Local (%ld)" = "Locale (%ld)";
-"Hide Terminal" = "Oculta u panel terminal";
-"Close" = "Chiudi";
+"Local" = "Lucale";
+"Local (%ld)" = "Lucale (%ld)";
+"Hide Terminal" = "Piattà u terminale";
+"Close" = "Chjode";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Chiudi sessioni di terminal in esecuzione?";
-"These processes will be stopped:" = "Questi prucessi seranu fermati:";
-"Cancel" = "Cancella";
+"Close running terminal sessions?" = "Chjode e sessioni di terminale in corsu?";
+"These processes will be stopped:" = "Sti prucessi seranu firmati:";
+"Cancel" = "Annullà";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Salvà una copia...";
+"Save a Copy…" = "Salvà una copia…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Solu editore";
-"Editor and Preview" = "Editore è Preview";
-"Preview Only" = "Preview solu";
+"Editor and Preview" = "Editore è anteprima";
+"Preview Only" = "Solu anteprima";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Spazi: %ld";
-"Plain Text" = "Testu pianu";
-"Search Everywhere" = "Cerca in ogni locu";
-"Double ⇧" = "Doppiu ⇧";
-"Go to File" = "Andà à File";
-"Open Folder" = "Aprite un cartulare";
+"Spaces: %ld" = "Spazii: %ld";
+"Plain Text" = "Testu simplice";
+"Search Everywhere" = "Circà dapertuttu";
+"Double ⇧" = "⇧ duie volte";
+"Go to File" = "Andà à u schedariu";
+"Open Folder" = "Apri un cartulare";
 "Project View" = "Vista di u prughjettu";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "U schedariu hà cambiatu nantu à u discu. I vostri editi sò stati guardati. Salvà una copia per priservà e duie versioni.";
-"The file is a binary file." = "U schedariu hè un schedariu binariu.";
-"The file's text encoding could not be determined." = "A codificazione di testu di u schedariu ùn pudia esse determinata.";
-"The text cannot be saved in %@." = "U testu ùn pò esse salvatu in %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "U schedariu hè cambiatu nant'à u discu. E vostre mudifiche sò sempre in l'editore. Salvate una copia per cunservà e duie versioni.";
+"The file is a binary file." = "U schedariu hè binariu.";
+"The file's text encoding could not be determined." = "Ùn si hè pussutu determinà a cudificazione di u testu di u schedariu.";
+"The text cannot be saved in %@." = "U testu ùn si pò salvà cù a cudificazione %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Crea un cartulare";
-"New File" = "Crea u schedariu";
-"Enter a name in “%@”. Use / to create nested folders." = "Inserite un nome in \"%@\". Separate i nomi di cartulare cù u caratteru / per creà sottocartulari.";
-"Rename" = "Rinomina";
-"Enter a new name for “%@”." = "Inserite un novu nome per \"%@\".";
-"Move “%@” to the Trash?" = "Sposta \"%@\" à a Trash?";
-"The folder and everything in it will be moved to the Trash." = "U cartulare è tuttu in questu serà spustatu in u Trash.";
-"You can restore it from the Trash." = "Pudete restaurà da u Trash.";
-"Move to Trash" = "Sposta in Trash";
-"OK" = "OK";
-"Rename…" = "Rinominate…";
-"Copy Path" = "Copia a strada di u schedariu";
-"Copy Relative Path" = "Copy Path Relativu";
-"Reveal in Finder" = "Revelà in Finder";
-"Open in Terminal" = "Apertura in Terminal";
+"New Folder" = "Novu cartulare";
+"New File" = "Novu schedariu";
+"Enter a name in “%@”. Use / to create nested folders." = "Intrite un nome in «%@». Aduprate / per creà sottucartulari.";
+"Rename" = "Rinumà";
+"Enter a new name for “%@”." = "Intrite un nome novu per «%@».";
+"Move “%@” to the Trash?" = "Spustà «%@» in u Cestinu?";
+"The folder and everything in it will be moved to the Trash." = "U cartulare è tuttu u so cuntenutu seranu spustati in u Cestinu.";
+"You can restore it from the Trash." = "Pudete ricuperà l'elementu da u Cestinu.";
+"Move to Trash" = "Spustà in u Cestinu";
+"OK" = "D'accordu";
+"Rename…" = "Rinumà…";
+"Copy Path" = "Cupià u percorsu";
+"Copy Relative Path" = "Cupià u percorsu relativu";
+"Reveal in Finder" = "Mustrà in Finder";
+"Open in Terminal" = "Apri in u terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel di manca";
+"Left Panel" = "Pannellu di manca";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "I schedari";
-"Double ⇧ to search everywhere" = "Doppiu ⇧ per circà in ogni locu";
-"Type a file name (use / to match the path)" = "Scrivite un nome di fugliale (utilizate / per currisponde à u percorsu)";
-"No recent files" = "Nisun schedariu recenti";
-"Recent Files" = "File recenti";
-"Matches: %1$ld / Files: %2$ld" = "Risultati trovati: %1$ld / I schedari: %2$ld";
+"Files" = "Schedarii";
+"Double ⇧ to search everywhere" = "Appughjate ⇧ duie volte per circà dapertuttu";
+"Type a file name (use / to match the path)" = "Scrivite un nome di schedariu (aduprate / per circà in u percorsu)";
+"No recent files" = "Nisun schedariu recente";
+"Recent Files" = "Schedarii recenti";
+"Matches: %1$ld / Files: %2$ld" = "Currispundenze: %1$ld / Schedarii: %2$ld";

@@ -15,21 +15,21 @@
 "View" = "عرض";
 "Navigate" = "تنقّل";
 "Window" = "نافذة";
-"About Sumi" = "حول Sumi";
 "Language" = "اللغة";
+"About Sumi" = "حول Sumi";
 "Services" = "الخدمات";
 "Hide Sumi" = "إخفاء Sumi";
 "Hide Others" = "إخفاء الآخرين";
 "Show All" = "إظهار الكل";
 "Quit Sumi" = "إنهاء Sumi";
-"System Default" = "النظام الافتراضي";
+"System Default" = "إعداد النظام الافتراضي";
 "New File…" = "ملف جديد…";
 "New Folder…" = "مجلد جديد…";
-"New Terminal Tab" = "تبويب طرفية جديد";
+"New Terminal Tab" = "علامة تبويب طرفية جديدة";
 "Open…" = "فتح…";
 "Save" = "حفظ";
 "Save All" = "حفظ الكل";
-"Close Tab" = "إغلاق التبويب";
+"Close Tab" = "إغلاق علامة التبويب";
 "Close Window" = "إغلاق النافذة";
 "Undo" = "تراجع";
 "Redo" = "إعادة";
@@ -39,27 +39,27 @@
 "Select All" = "تحديد الكل";
 "Find…" = "بحث…";
 "Replace…" = "استبدال…";
-"Find Next" = "بحث عن التالي";
-"Find Previous" = "بحث عن السابق";
-"Use Selection for Find" = "استخدام التحديد للبحث";
+"Find Next" = "البحث عن التالي";
+"Find Previous" = "البحث عن السابق";
+"Use Selection for Find" = "البحث بالنص المحدد";
 "Find" = "بحث";
 "Project" = "المشروع";
 "Terminal" = "الطرفية";
-"Swap Terminal and Project" = "تبديل الطرفية والمشروع";
+"Swap Terminal and Project" = "تبديل موضعي الطرفية والمشروع";
 "Maximize Terminal" = "تكبير الطرفية";
-"GPU Rendering" = "عرض GPU";
-"Soft-Wrap" = "التفاف تلقائي للسطور";
-"Toggle Preview" = "تبديل المعاينة";
-"Increase Font Size" = "تكبير حجم الخط";
-"Decrease Font Size" = "تصغير حجم الخط";
-"Reset Font Size" = "إعادة تعيين حجم الخط";
+"GPU Rendering" = "الرسم باستخدام GPU";
+"Soft-Wrap" = "التفاف الأسطر";
+"Toggle Preview" = "إظهار/إخفاء المعاينة";
+"Increase Font Size" = "زيادة حجم الخط";
+"Decrease Font Size" = "تقليل حجم الخط";
+"Reset Font Size" = "إعادة ضبط حجم الخط";
 "Search Everywhere (Double ⇧)" = "البحث في كل مكان (⇧ مرتين)";
 "Select in Project View" = "تحديد في عرض المشروع";
-"Next Tab" = "التبويب التالي";
-"Previous Tab" = "التبويب السابق";
+"Next Tab" = "علامة التبويب التالية";
+"Previous Tab" = "علامة التبويب السابقة";
 "Minimize" = "تصغير";
-"Zoom" = "تكبير/تصغير";
-"Bring All to Front" = "إحضار الكل إلى الأمام";
+"Zoom" = "تكبير النافذة";
+"Bring All to Front" = "إحضار جميع النوافذ إلى المقدمة";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "محلي";
@@ -68,12 +68,12 @@
 "Close" = "إغلاق";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "هل تريد إغلاق جلسات العمل الطرفية قيد التشغيل؟";
+"Close running terminal sessions?" = "إغلاق جلسات الطرفية قيد التشغيل؟";
 "These processes will be stopped:" = "سيتم إيقاف هذه العمليات:";
 "Cancel" = "إلغاء";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "حفظ نسخة...";
+"Save a Copy…" = "حفظ نسخة…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "المحرر فقط";
@@ -90,22 +90,22 @@
 "Project View" = "عرض المشروع";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "تم تغيير الملف على القرص. تم الاحتفاظ بتعديلاتك. احفظ نسخة للحفاظ على كلا الإصدارين.";
-"The file is a binary file." = "الملف ملف ثنائي.";
-"The file's text encoding could not be determined." = "تعذر تحديد ترميز نص الملف.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "تغيّر الملف على القرص. لا تزال تعديلاتك في المحرر. احفظ نسخة للاحتفاظ بالإصدارين.";
+"The file is a binary file." = "هذا ملف ثنائي.";
+"The file's text encoding could not be determined." = "تعذّر تحديد ترميز النص في الملف.";
 "The text cannot be saved in %@." = "لا يمكن حفظ النص بترميز %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "مجلد جديد";
 "New File" = "ملف جديد";
-"Enter a name in “%@”. Use / to create nested folders." = "أدخل اسمًا في \"%@\". استخدم / لإنشاء مجلدات متداخلة.";
+"Enter a name in “%@”. Use / to create nested folders." = "أدخل اسمًا في «%@». استخدم / لإنشاء مجلدات متداخلة.";
 "Rename" = "إعادة تسمية";
-"Enter a new name for “%@”." = "أدخل اسمًا جديدًا لـ\"%@\".";
-"Move “%@” to the Trash?" = "هل تريد نقل \"%@\" إلى سلة المهملات؟";
-"The folder and everything in it will be moved to the Trash." = "سيتم نقل المجلد وكل ما فيه إلى سلة المهملات.";
+"Enter a new name for “%@”." = "أدخل اسمًا جديدًا لـ«%@».";
+"Move “%@” to the Trash?" = "نقل «%@» إلى سلة المهملات؟";
+"The folder and everything in it will be moved to the Trash." = "سيتم نقل المجلد وكل محتوياته إلى سلة المهملات.";
 "You can restore it from the Trash." = "يمكنك استعادته من سلة المهملات.";
 "Move to Trash" = "نقل إلى سلة المهملات";
-"OK" = "حسنًا";
+"OK" = "موافق";
 "Rename…" = "إعادة تسمية…";
 "Copy Path" = "نسخ المسار";
 "Copy Relative Path" = "نسخ المسار النسبي";
@@ -118,7 +118,7 @@
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "الملفات";
 "Double ⇧ to search everywhere" = "اضغط ⇧ مرتين للبحث في كل مكان";
-"Type a file name (use / to match the path)" = "اكتب اسم ملف (استخدم / لمطابقة المسار)";
+"Type a file name (use / to match the path)" = "اكتب اسم ملف (استخدم / للبحث في المسار)";
 "No recent files" = "لا توجد ملفات حديثة";
 "Recent Files" = "الملفات الحديثة";
 "Matches: %1$ld / Files: %2$ld" = "التطابقات: %1$ld / الملفات: %2$ld";

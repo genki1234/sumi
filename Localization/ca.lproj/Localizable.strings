@@ -12,20 +12,20 @@
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fitxer";
 "Edit" = "Edita";
-"View" = "Visualitza";
-"Navigate" = "Navega";
+"View" = "Visualització";
+"Navigate" = "Navegació";
 "Window" = "Finestra";
-"About Sumi" = "Quant al Sumi";
 "Language" = "Llengua";
+"About Sumi" = "Quant al Sumi";
 "Services" = "Serveis";
 "Hide Sumi" = "Amaga el Sumi";
-"Hide Others" = "Amaga els altres";
+"Hide Others" = "Amaga les altres";
 "Show All" = "Mostra-ho tot";
 "Quit Sumi" = "Surt del Sumi";
-"System Default" = "Sistema per defecte";
-"New File…" = "Nou fitxer…";
-"New Folder…" = "Nova carpeta…";
-"New Terminal Tab" = "Nova pestanya de terminal";
+"System Default" = "Per defecte del sistema";
+"New File…" = "Fitxer nou…";
+"New Folder…" = "Carpeta nova…";
+"New Terminal Tab" = "Pestanya de terminal nova";
 "Open…" = "Obre…";
 "Save" = "Desa";
 "Save All" = "Desa-ho tot";
@@ -39,41 +39,41 @@
 "Select All" = "Selecciona-ho tot";
 "Find…" = "Cerca…";
 "Replace…" = "Substitueix…";
-"Find Next" = "Cerca el següent";
-"Find Previous" = "Cerca l’anterior";
-"Use Selection for Find" = "Usa la selecció per a la cerca";
+"Find Next" = "Cerca la següent";
+"Find Previous" = "Cerca l'anterior";
+"Use Selection for Find" = "Cerca el text seleccionat";
 "Find" = "Cerca";
 "Project" = "Projecte";
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Intercanvia el terminal i el projecte";
 "Maximize Terminal" = "Maximitza el terminal";
-"GPU Rendering" = "Renderització de la GPU";
-"Soft-Wrap" = "Ajust de línia";
-"Toggle Preview" = "Commuta la previsualització";
-"Increase Font Size" = "Augmenta la mida del tipus de lletra";
-"Decrease Font Size" = "Redueix la mida del tipus de lletra";
-"Reset Font Size" = "Restableix la mida del tipus de lletra";
-"Search Everywhere (Double ⇧)" = "Cerca a tot arreu (⇧ doble)";
+"GPU Rendering" = "Renderització amb GPU";
+"Soft-Wrap" = "Ajusta les línies";
+"Toggle Preview" = "Mostra/amaga la previsualització";
+"Increase Font Size" = "Augmenta la mida de lletra";
+"Decrease Font Size" = "Redueix la mida de lletra";
+"Reset Font Size" = "Restableix la mida de lletra";
+"Search Everywhere (Double ⇧)" = "Cerca arreu (⇧ dues vegades)";
 "Select in Project View" = "Selecciona a la vista del projecte";
 "Next Tab" = "Pestanya següent";
 "Previous Tab" = "Pestanya anterior";
 "Minimize" = "Minimitza";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Porta-ho tot al davant";
+"Zoom" = "Amplia la finestra";
+"Bring All to Front" = "Porta totes les finestres al davant";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Local";
 "Local (%ld)" = "Local (%ld)";
 "Hide Terminal" = "Amaga el terminal";
-"Close" = "Tancar";
+"Close" = "Tanca";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Tanqueu les sessions de terminal en curs?";
-"These processes will be stopped:" = "Aquests processos s'aturaran:";
+"Close running terminal sessions?" = "Voleu tancar les sessions de terminal actives?";
+"These processes will be stopped:" = "S'aturaran aquests processos:";
 "Cancel" = "Cancel·la";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Desa una còpia...";
+"Save a Copy…" = "Desa una còpia…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Només l'editor";
@@ -83,29 +83,29 @@
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Espais: %ld";
 "Plain Text" = "Text sense format";
-"Search Everywhere" = "Cerca a tot arreu";
-"Double ⇧" = "⇧ doble";
-"Go to File" = "Vés al fitxer";
+"Search Everywhere" = "Cerca arreu";
+"Double ⇧" = "⇧ dues vegades";
+"Go to File" = "Ves al fitxer";
 "Open Folder" = "Obre una carpeta";
 "Project View" = "Vista del projecte";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "El fitxer ha canviat al disc. Les vostres edicions s'han conservat. Deseu una còpia per conservar les dues versions.";
-"The file is a binary file." = "El fitxer és un fitxer binari.";
-"The file's text encoding could not be determined." = "No s’ha pogut determinar la codificació de text del fitxer.";
-"The text cannot be saved in %@." = "El text no es pot desar en %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "El fitxer ha canviat al disc. Les vostres modificacions encara són a l'editor. Deseu una còpia per conservar totes dues versions.";
+"The file is a binary file." = "El fitxer és binari.";
+"The file's text encoding could not be determined." = "No s'ha pogut determinar la codificació del text del fitxer.";
+"The text cannot be saved in %@." = "El text no es pot desar amb la codificació %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Nova carpeta";
-"New File" = "Nou fitxer";
-"Enter a name in “%@”. Use / to create nested folders." = "Introduïu un nom a «%@». Useu / per crear carpetes niuades.";
+"New Folder" = "Carpeta nova";
+"New File" = "Fitxer nou";
+"Enter a name in “%@”. Use / to create nested folders." = "Introduïu un nom a «%@». Feu servir / per crear carpetes imbricades.";
 "Rename" = "Canvia el nom";
 "Enter a new name for “%@”." = "Introduïu un nom nou per a «%@».";
-"Move “%@” to the Trash?" = "Voleu moure «%@» a la paperera?";
-"The folder and everything in it will be moved to the Trash." = "La carpeta i tot el que conté es mouran a la paperera.";
-"You can restore it from the Trash." = "El podeu restaurar des de la paperera.";
-"Move to Trash" = "Mou a la paperera";
-"OK" = "D’acord";
+"Move “%@” to the Trash?" = "Voleu traslladar «%@» a la paperera?";
+"The folder and everything in it will be moved to the Trash." = "La carpeta i tot el seu contingut es traslladaran a la paperera.";
+"You can restore it from the Trash." = "Podeu recuperar l'element de la paperera.";
+"Move to Trash" = "Trasllada a la paperera";
+"OK" = "D'acord";
 "Rename…" = "Canvia el nom…";
 "Copy Path" = "Copia el camí";
 "Copy Relative Path" = "Copia el camí relatiu";
@@ -113,12 +113,12 @@
 "Open in Terminal" = "Obre al terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panell esquerre";
+"Left Panel" = "Tauler esquerre";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fitxers";
-"Double ⇧ to search everywhere" = "⇧ doble per cercar a tot arreu";
-"Type a file name (use / to match the path)" = "Escriviu un nom de fitxer (useu / per cercar al camí)";
-"No recent files" = "Cap fitxer recent";
+"Double ⇧ to search everywhere" = "Premeu ⇧ dues vegades per cercar arreu";
+"Type a file name (use / to match the path)" = "Escriviu un nom de fitxer (feu servir / per cercar al camí)";
+"No recent files" = "No hi ha fitxers recents";
 "Recent Files" = "Fitxers recents";
 "Matches: %1$ld / Files: %2$ld" = "Coincidències: %1$ld / Fitxers: %2$ld";

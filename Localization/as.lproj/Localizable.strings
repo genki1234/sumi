@@ -6,60 +6,60 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "এটা ফোল্ডাৰ এটা প্ৰকল্প হিচাপে খোলক, বা সম্পাদনা কৰিবলৈ এটা ফাইল।";
-"Open" = "খোলা";
+"Open a folder as a project, or a file to edit." = "ফোল্ডাৰ এটা প্ৰকল্প হিচাপে, বা সম্পাদনা কৰিবলৈ ফাইল এটা খোলক।";
+"Open" = "খোলক";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "ফাইল";
-"Edit" = "সম্পাদনা কৰক";
+"Edit" = "সম্পাদনা";
 "View" = "দৃশ্য";
-"Navigate" = "নেভিগেট কৰক";
-"Window" = "উইণ্ডো";
-"About Sumi" = "Sumi আবেদনৰ বিষয়ে";
+"Navigate" = "নেভিগেচন";
+"Window" = "উইণ্ড’";
 "Language" = "ভাষা";
+"About Sumi" = "Sumiৰ বিষয়ে";
 "Services" = "সেৱাসমূহ";
 "Hide Sumi" = "Sumi লুকুৱাওক";
-"Hide Others" = "আনক লুকুৱাওক";
+"Hide Others" = "অন্যবোৰ লুকুৱাওক";
 "Show All" = "সকলো দেখুৱাওক";
-"Quit Sumi" = "Sumi এৰি দিয়ক";
-"System Default" = "চিস্টেম অবিকল্পিত";
-"New File…" = "নতুন ফাইল...";
-"New Folder…" = "নতুন ফোল্ডাৰ...";
+"Quit Sumi" = "Sumi বন্ধ কৰক";
+"System Default" = "ছিষ্টেমৰ অবিকল্পিত";
+"New File…" = "নতুন ফাইল…";
+"New Folder…" = "নতুন ফোল্ডাৰ…";
 "New Terminal Tab" = "নতুন টাৰ্মিনেল টেব";
-"Open…" = "খোলা...";
+"Open…" = "খোলক…";
 "Save" = "সংৰক্ষণ কৰক";
 "Save All" = "সকলো সংৰক্ষণ কৰক";
 "Close Tab" = "টেব বন্ধ কৰক";
-"Close Window" = "উইণ্ড' বন্ধ কৰক";
-"Undo" = "পূৰ্বৱৰ্তী অৱস্থালৈ ঘূৰাই আনিব";
+"Close Window" = "উইণ্ড’ বন্ধ কৰক";
+"Undo" = "পূৰ্বৱৎ কৰক";
 "Redo" = "পুনৰ কৰক";
-"Cut" = "কাটি পেলাওক";
+"Cut" = "কাটক";
 "Copy" = "কপি কৰক";
 "Paste" = "পেষ্ট কৰক";
-"Select All" = "সকলো নিৰ্ব্বাচন কৰক";
-"Find…" = "বিচাৰি পাওক...";
-"Replace…" = "সলনি কৰক...";
-"Find Next" = "পৰৱৰ্তী বিচাৰি উলিয়াওক";
-"Find Previous" = "পূৰ্বৰ বিচাৰি উলিয়াওক";
-"Use Selection for Find" = "বিচাৰি উলিওৱাৰ বাবে নিৰ্বাচন ব্যৱহাৰ কৰক";
-"Find" = "বিচাৰি উলিয়াওক";
+"Select All" = "সকলো বাছক";
+"Find…" = "বিচাৰক…";
+"Replace…" = "সলনি কৰক…";
+"Find Next" = "পৰৱৰ্তীটো বিচাৰক";
+"Find Previous" = "আগৰটো বিচাৰক";
+"Use Selection for Find" = "বাছনি কৰা পাঠেৰে বিচাৰক";
+"Find" = "বিচাৰ";
 "Project" = "প্ৰকল্প";
 "Terminal" = "টাৰ্মিনেল";
-"Swap Terminal and Project" = "টাৰ্মিনেল আৰু প্ৰকল্প শ্বেপ কৰক";
-"Maximize Terminal" = "টাৰ্মিনেল সৰ্বাধিক কৰক";
-"GPU Rendering" = "GPU ৰেণ্ডাৰ";
-"Soft-Wrap" = "দীঘলীয়া লিখনী শাৰীসমূহ স্বয়ংক্ৰিয়ভাৱে ৰেপ কৰক";
-"Toggle Preview" = "পূৰ্বদৰ্শন টগল কৰক";
-"Increase Font Size" = "ফন্টৰ আকাৰ বৃদ্ধি কৰক";
-"Decrease Font Size" = "ফন্টৰ আকাৰ হ্ৰাস কৰক";
-"Reset Font Size" = "ফন্টৰ আকাৰ পুনৰায় সেট কৰক";
-"Search Everywhere (Double ⇧)" = "সকলোতে সন্ধান কৰক (ডাবল ⇧)";
-"Select in Project View" = "প্ৰকল্প দৰ্শনত নিৰ্ব্বাচন কৰক";
+"Swap Terminal and Project" = "টাৰ্মিনেল আৰু প্ৰকল্পৰ স্থান সলাওক";
+"Maximize Terminal" = "টাৰ্মিনেল ডাঙৰ কৰক";
+"GPU Rendering" = "GPUৰে অংকন";
+"Soft-Wrap" = "শাৰী মেৰিয়াওক";
+"Toggle Preview" = "পূৰ্বদৰ্শন দেখুৱাওক/লুকুৱাওক";
+"Increase Font Size" = "আখৰৰ আকাৰ বঢ়াওক";
+"Decrease Font Size" = "আখৰৰ আকাৰ কমাওক";
+"Reset Font Size" = "আখৰৰ আকাৰ পুনঃস্থাপন কৰক";
+"Search Everywhere (Double ⇧)" = "সকলোতে বিচাৰক (⇧ দুবাৰ)";
+"Select in Project View" = "প্ৰকল্পৰ দৃশ্যত বাছক";
 "Next Tab" = "পৰৱৰ্তী টেব";
-"Previous Tab" = "পূৰ্বৰ টেব";
-"Minimize" = "নূন্যতম কৰক";
-"Zoom" = "জুম কৰক";
-"Bring All to Front" = "সকলোকে সন্মুখলৈ আনিব";
+"Previous Tab" = "আগৰ টেব";
+"Minimize" = "সৰু কৰক";
+"Zoom" = "উইণ্ড’ ডাঙৰ কৰক";
+"Bring All to Front" = "সকলো উইণ্ড’ আগলৈ আনক";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "স্থানীয়";
@@ -68,12 +68,12 @@
 "Close" = "বন্ধ কৰক";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "চলি থকা টাৰ্মিনেল অধিবেশনসমূহ বন্ধ কৰক?";
-"These processes will be stopped:" = "এই প্ৰক্ৰিয়াসমূহ বন্ধ কৰা হ'ব:";
+"Close running terminal sessions?" = "চলি থকা টাৰ্মিনেল অধিবেশনবোৰ বন্ধ কৰিবনে?";
+"These processes will be stopped:" = "এই প্ৰক্ৰিয়াবোৰ বন্ধ হ’ব:";
 "Cancel" = "বাতিল কৰক";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "এটা কপি সংৰক্ষণ কৰক...";
+"Save a Copy…" = "প্ৰতিলিপি সংৰক্ষণ কৰক…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "কেৱল সম্পাদক";
@@ -81,44 +81,44 @@
 "Preview Only" = "কেৱল পূৰ্বদৰ্শন";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "স্থান: %ld";
-"Plain Text" = "সাধাৰণ লিখনী";
-"Search Everywhere" = "সকলোতে সন্ধান কৰক";
-"Double ⇧" = "ডাবল ⇧";
+"Spaces: %ld" = "স্পেচ: %ld";
+"Plain Text" = "সাধাৰণ পাঠ";
+"Search Everywhere" = "সকলোতে বিচাৰক";
+"Double ⇧" = "⇧ দুবাৰ";
 "Go to File" = "ফাইললৈ যাওক";
 "Open Folder" = "ফোল্ডাৰ খোলক";
-"Project View" = "প্ৰকল্প দৰ্শন";
+"Project View" = "প্ৰকল্পৰ দৃশ্য";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ফাইলটো ডিস্কত সলনি হ'ল। আপোনাৰ সম্পাদনাবোৰ ৰখা হৈছে। দুয়োটা সংস্কৰণ সংৰক্ষণ কৰিবলে এটা কপি সংৰক্ষণ কৰক।";
-"The file is a binary file." = "ফাইলটো এটা বাইনাৰী ফাইল।";
-"The file's text encoding could not be determined." = "ফাইলৰ লিখনী এনকোডিং নিৰ্ধাৰণ কৰিব পৰা নগ'ল।";
-"The text cannot be saved in %@." = "লিখনীটো %@ চনত সংৰক্ষণ কৰিব নোৱাৰি।";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ডিস্কত থকা ফাইলটো সলনি হৈছে। আপোনাৰ সম্পাদনাবোৰ এতিয়াও সম্পাদকত আছে। দুয়োটা সংস্কৰণ ৰাখিবলৈ এটা প্ৰতিলিপি সংৰক্ষণ কৰক।";
+"The file is a binary file." = "ফাইলটো বাইনেৰী ফাইল।";
+"The file's text encoding could not be determined." = "ফাইলৰ পাঠৰ এনক’ডিং নিৰ্ণয় কৰিব পৰা নগ’ল।";
+"The text cannot be saved in %@." = "পাঠটো %@ত সংৰক্ষণ কৰিব নোৱাৰি।";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "নতুন ফোল্ডাৰ";
 "New File" = "নতুন ফাইল";
-"Enter a name in “%@”. Use / to create nested folders." = "“%@” ত এটা নাম লিখক। উপফোল্ডাৰ সৃষ্টি কৰিবলৈ / আখৰৰ সৈতে ফোল্ডাৰৰ নাম পৃথক কৰক।";
-"Rename" = "পুনৰ নামকৰণ কৰক";
-"Enter a new name for “%@”." = "“%@” ৰ বাবে এটা নতুন নাম দিয়ক।";
-"Move “%@” to the Trash?" = "“%@”ক আৱৰ্জনালৈ লৈ যাওক?";
-"The folder and everything in it will be moved to the Trash." = "ফোল্ডাৰ আৰু ইয়াৰ সকলো বস্তু আৱৰ্জনালৈ স্থানান্তৰ কৰা হ’ব।";
-"You can restore it from the Trash." = "আপুনি ইয়াক Trash ৰ পৰা পুনৰুদ্ধাৰ কৰিব পাৰে।";
-"Move to Trash" = "আৱৰ্জনালৈ যাওক";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@”ত নাম এটা দিয়ক। উপফোল্ডাৰ সৃষ্টি কৰিবলৈ / ব্যৱহাৰ কৰক।";
+"Rename" = "নাম সলাওক";
+"Enter a new name for “%@”." = "“%@”ৰ বাবে নতুন নাম এটা দিয়ক।";
+"Move “%@” to the Trash?" = "“%@” আৱৰ্জনালৈ পঠিয়াবনে?";
+"The folder and everything in it will be moved to the Trash." = "ফোল্ডাৰটো আৰু ইয়াৰ সকলো বস্তু আৱৰ্জনালৈ পঠিওৱা হ’ব।";
+"You can restore it from the Trash." = "আপুনি ইয়াক আৱৰ্জনাৰ পৰা ঘূৰাই আনিব পাৰে।";
+"Move to Trash" = "আৱৰ্জনালৈ পঠিয়াওক";
 "OK" = "ঠিক আছে";
-"Rename…" = "Rename...";
-"Copy Path" = "কপি পথ";
+"Rename…" = "নাম সলাওক…";
+"Copy Path" = "পথ কপি কৰক";
 "Copy Relative Path" = "আপেক্ষিক পথ কপি কৰক";
-"Reveal in Finder" = "Finder চনত প্ৰকাশ কৰা";
-"Open in Terminal" = "টাৰ্মিনেলত খোলা";
+"Reveal in Finder" = "Finderত দেখুৱাওক";
+"Open in Terminal" = "টাৰ্মিনেলত খোলক";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "বাওঁফালৰ পেনেল";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "ফাইলসমূহ";
-"Double ⇧ to search everywhere" = "সকলোতে বিচাৰিবলৈ দুগুণ ⇧";
-"Type a file name (use / to match the path)" = "এটা ফাইলৰ নাম লিখক (পথৰ সৈতে মিলাবলৈ / ব্যৱহাৰ কৰক)";
+"Double ⇧ to search everywhere" = "সকলোতে বিচাৰিবলৈ ⇧ দুবাৰ টিপক";
+"Type a file name (use / to match the path)" = "ফাইলৰ নাম লিখক (পথত মিলাবলৈ / ব্যৱহাৰ কৰক)";
 "No recent files" = "শেহতীয়া ফাইল নাই";
-"Recent Files" = "শেহতীয়া ফাইলসমূহ";
-"Matches: %1$ld / Files: %2$ld" = "ফলাফল পোৱা গৈছে: %1$ld / মুঠ ফাইল: %2$ld";
+"Recent Files" = "শেহতীয়া ফাইল";
+"Matches: %1$ld / Files: %2$ld" = "মিল: %1$ld / ফাইল: %2$ld";

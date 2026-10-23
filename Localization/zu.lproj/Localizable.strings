@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Vula ifolda njengephrojekthi, noma ifayela ozolihlela.";
+"Open a folder as a project, or a file to edit." = "Vula ifolda njengephrojekthi noma ifayela ozolihlela.";
 "Open" = "Vula";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Ifayela";
 "Edit" = "Hlela";
-"View" = "Buka";
-"Navigate" = "Zulazula";
+"View" = "Ukubuka";
+"Navigate" = "Iya ku";
 "Window" = "Iwindi";
-"About Sumi" = "Mayelana nesicelo sika-Sumi";
 "Language" = "Ulimi";
+"About Sumi" = "Mayelana neSumi";
 "Services" = "Amasevisi";
-"Hide Sumi" = "Fihla Sumi";
-"Hide Others" = "Fihla Abanye";
-"Show All" = "Bonisa Konke";
-"Quit Sumi" = "Phuma ku-Sumi";
-"System Default" = "Okuzenzakalelayo Kwesistimu";
-"New File…" = "Ifayela Elisha...";
-"New Folder…" = "Ifolda Entsha...";
-"New Terminal Tab" = "Ithebhu Yetheminali Entsha";
-"Open…" = "Vula...";
+"Hide Sumi" = "Fihla iSumi";
+"Hide Others" = "Fihla okunye";
+"Show All" = "Bonisa konke";
+"Quit Sumi" = "Phuma kuSumi";
+"System Default" = "Okuzenzakalelayo kwesistimu";
+"New File…" = "Ifayela elisha…";
+"New Folder…" = "Ifolda entsha…";
+"New Terminal Tab" = "Ithebhu entsha yetheminali";
+"Open…" = "Vula…";
 "Save" = "Londoloza";
-"Save All" = "Londoloza Konke";
-"Close Tab" = "Vala Ithebhu";
-"Close Window" = "Vala Iwindi";
+"Save All" = "Londoloza konke";
+"Close Tab" = "Vala ithebhu";
+"Close Window" = "Vala iwindi";
 "Undo" = "Hlehlisa";
-"Redo" = "Yenza futhi";
+"Redo" = "Phinda wenze";
 "Cut" = "Sika";
 "Copy" = "Kopisha";
 "Paste" = "Namathisela";
-"Select All" = "Khetha Konke";
-"Find…" = "Thola...";
-"Replace…" = "Faka esikhundleni...";
-"Find Next" = "Thola Okulandelayo";
-"Find Previous" = "Thola Okudlule";
-"Use Selection for Find" = "Sebenzisa Ukukhetha ukuze uthole";
-"Find" = "Thola";
+"Select All" = "Khetha konke";
+"Find…" = "Thola…";
+"Replace…" = "Faka esikhundleni…";
+"Find Next" = "Thola okulandelayo";
+"Find Previous" = "Thola okwangaphambilini";
+"Use Selection for Find" = "Sesha umbhalo okhethiwe";
+"Find" = "Sesha";
 "Project" = "Iphrojekthi";
 "Terminal" = "Itheminali";
-"Swap Terminal and Project" = "Shintshanisa Terminal kanye Project";
-"Maximize Terminal" = "Khulisa Terminal";
-"GPU Rendering" = "Ukunikezwa kwe-GPU";
-"Soft-Wrap" = "Goqa ngokuzenzakalelayo imigqa yombhalo emide";
-"Toggle Preview" = "Guqula ukubuka kuqala";
-"Increase Font Size" = "Khulisa Usayizi Wefonti";
-"Decrease Font Size" = "Nciphisa Usayizi Wefonti";
-"Reset Font Size" = "Setha kabusha Usayizi Wefonti";
-"Search Everywhere (Double ⇧)" = "Sesha Yonke indawo (Double ⇧)";
-"Select in Project View" = "Khetha kokuthi Ukubuka Kwephrojekthi";
-"Next Tab" = "Ithebhu Elandelayo";
-"Previous Tab" = "Ithebhu Engaphambili";
-"Minimize" = "Nciphisa";
-"Zoom" = "Sondeza";
-"Bring All to Front" = "Letha Konke Ngaphambili";
+"Swap Terminal and Project" = "Shintshanisa izindawo zetheminali nephrojekthi";
+"Maximize Terminal" = "Khulisa itheminali";
+"GPU Rendering" = "Ukudweba ngeGPU";
+"Soft-Wrap" = "Songa imigqa ngobubanzi";
+"Toggle Preview" = "Bonisa noma ufihle ukubuka kuqala";
+"Increase Font Size" = "Khulisa usayizi wefonti";
+"Decrease Font Size" = "Nciphisa usayizi wefonti";
+"Reset Font Size" = "Buyisela usayizi wefonti";
+"Search Everywhere (Double ⇧)" = "Sesha yonke indawo (⇧ kabili)";
+"Select in Project View" = "Khetha ekubukeni kwephrojekthi";
+"Next Tab" = "Ithebhu elandelayo";
+"Previous Tab" = "Ithebhu yangaphambilini";
+"Minimize" = "Nciphisa iwindi";
+"Zoom" = "Khulisa iwindi";
+"Bring All to Front" = "Letha wonke amawindi phambili";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Indawo";
-"Local (%ld)" = "Indawo (%ld)";
-"Hide Terminal" = "Fihla Itheminali";
+"Local" = "Kule khompyutha";
+"Local (%ld)" = "Kule khompyutha (%ld)";
+"Hide Terminal" = "Fihla itheminali";
 "Close" = "Vala";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Vala amaseshini etheminali asebenzayo?";
+"Close running terminal sessions?" = "Kuvalwe amaseshini etheminali asebenzayo?";
 "These processes will be stopped:" = "Lezi zinqubo zizomiswa:";
 "Cancel" = "Khansela";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Londoloza Ikhophi...";
+"Save a Copy…" = "Londoloza ikhophi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Umhleli Kuphela";
-"Editor and Preview" = "Umhleli kanye nokuhlola kuqala";
-"Preview Only" = "Buka kuqala Kuphela";
+"Editor Only" = "Umhleli kuphela";
+"Editor and Preview" = "Umhleli nokubuka kuqala";
+"Preview Only" = "Ukubuka kuqala kuphela";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Izikhala: %ld";
-"Plain Text" = "Umbhalo Ongenalutho";
+"Plain Text" = "Umbhalo ongenafomethi";
 "Search Everywhere" = "Sesha yonke indawo";
-"Double ⇧" = "Okukabili ⇧";
-"Go to File" = "Iya kokuthi Ifayela";
-"Open Folder" = "Vula Ifolda";
-"Project View" = "Ukubuka Kwephrojekthi";
+"Double ⇧" = "⇧ kabili";
+"Go to File" = "Iya efayeleni";
+"Open Folder" = "Vula ifolda";
+"Project View" = "Ukubuka kwephrojekthi";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ifayela lishintshile kudiski. Ukuhlela kwakho kugciniwe. Londoloza ikhophi ukuze ulondoloze zombili izinguqulo.";
-"The file is a binary file." = "Ifayela yifayela kanambambili.";
-"The file's text encoding could not be determined." = "Umbhalo wekhodi wombhalo wefayela awukwazanga ukunqunywa.";
-"The text cannot be saved in %@." = "Umbhalo awukwazi ukulondolozwa ku-%@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ifayela elikudiski lishintshile. Izinguquko zakho zisekhona kumhleli. Londoloza ikhophi ukuze ugcine zombili izinguqulo.";
+"The file is a binary file." = "Leli yifayela le-binary.";
+"The file's text encoding could not be determined." = "Ukubhalwa ngekhodi kombhalo wefayela akutholakalanga.";
+"The text cannot be saved in %@." = "Umbhalo awukwazi ukulondolozwa nge%@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Ifolda Entsha";
-"New File" = "Ifayela Elisha";
-"Enter a name in “%@”. Use / to create nested folders." = "Faka igama kokuthi “%@”. Hlukanisa amagama amafolda ngohlamvu / ukuze wakhe amafolda amancane.";
+"New Folder" = "Ifolda entsha";
+"New File" = "Ifayela elisha";
+"Enter a name in “%@”. Use / to create nested folders." = "Faka igama ku-“%@”. Sebenzisa / ukwakha amafolda angaphakathi kwamanye.";
 "Rename" = "Qamba kabusha";
-"Enter a new name for “%@”." = "Faka igama elisha le-“%@”.";
-"Move “%@” to the Trash?" = "Hambisa okuthi “%@” Kudoti?";
-"The folder and everything in it will be moved to the Trash." = "Ifolda nakho konke okukuyo kuzothuthelwa kudoti.";
-"You can restore it from the Trash." = "Ungayibuyisela ukusuka kudoti.";
-"Move to Trash" = "Hambisa Kudoti";
-"OK" = "KULUNGILE";
-"Rename…" = "Qamba kabusha...";
-"Copy Path" = "Kopisha Indlela";
-"Copy Relative Path" = "Kopisha Indlela Ehlobene";
-"Reveal in Finder" = "Dala ku-Finder";
-"Open in Terminal" = "Vula kuTheminali";
+"Enter a new name for “%@”." = "Faka igama elisha lika-“%@”.";
+"Move “%@” to the Trash?" = "Kuyiswe “%@” kudoti?";
+"The folder and everything in it will be moved to the Trash." = "Ifolda nakho konke okukuyo kuzoyiswa kudoti.";
+"You can restore it from the Trash." = "Ungakubuyisela kudoti.";
+"Move to Trash" = "Yisa kudoti";
+"OK" = "Kulungile";
+"Rename…" = "Qamba kabusha…";
+"Copy Path" = "Kopisha indlela";
+"Copy Relative Path" = "Kopisha indlela esuka kuphrojekthi";
+"Reveal in Finder" = "Bonisa kuFinder";
+"Open in Terminal" = "Vula kutheminali";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Iphaneli yesokunxele";
+"Left Panel" = "Iphaneli yangakwesobunxele";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Amafayela";
-"Double ⇧ to search everywhere" = "Kabili ⇧ ukuze useshe yonke indawo";
-"Type a file name (use / to match the path)" = "Thayipha igama lefayela (sebenzisa / ukufanisa indlela)";
+"Double ⇧ to search everywhere" = "Cindezela ⇧ kabili ukuze useshe yonke indawo";
+"Type a file name (use / to match the path)" = "Thayipha igama lefayela (sebenzisa / ukusesha ngendlela)";
 "No recent files" = "Awekho amafayela akamuva";
-"Recent Files" = "Amafayela Akamuva";
-"Matches: %1$ld / Files: %2$ld" = "Imiphumela etholakele: %1$ld / Isamba samafayela: %2$ld";
+"Recent Files" = "Amafayela akamuva";
+"Matches: %1$ld / Files: %2$ld" = "Okufanayo: %1$ld / Amafayela: %2$ld";

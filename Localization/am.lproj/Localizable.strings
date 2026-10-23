@@ -6,60 +6,60 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "አቃፊ እንደ ፕሮጀክት ወይም ለማርትዕ ፋይል ይክፈቱ።";
+"Open a folder as a project, or a file to edit." = "አቃፊን እንደ ፕሮጀክት፣ ወይም ፋይልን ለማርትዕ ይክፈቱ።";
 "Open" = "ክፈት";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "ፋይል";
 "Edit" = "አርትዕ";
-"View" = "ይመልከቱ";
-"Navigate" = "ያስሱ";
+"View" = "እይታ";
+"Navigate" = "ዳሰሳ";
 "Window" = "መስኮት";
-"About Sumi" = "ስለ Sumi ማመልከቻ";
 "Language" = "ቋንቋ";
+"About Sumi" = "ስለ Sumi";
 "Services" = "አገልግሎቶች";
-"Hide Sumi" = "Sumi ደብቅ";
+"Hide Sumi" = "Sumiን ደብቅ";
 "Hide Others" = "ሌሎችን ደብቅ";
 "Show All" = "ሁሉንም አሳይ";
-"Quit Sumi" = "Sumi ተወ";
-"System Default" = "የስርዓት ነባሪ";
+"Quit Sumi" = "ከSumi ውጣ";
+"System Default" = "የስርዓቱ ነባሪ";
 "New File…" = "አዲስ ፋይል…";
 "New Folder…" = "አዲስ አቃፊ…";
-"New Terminal Tab" = "አዲስ ተርሚናል ትር";
+"New Terminal Tab" = "አዲስ የተርሚናል ትር";
 "Open…" = "ክፈት…";
 "Save" = "አስቀምጥ";
 "Save All" = "ሁሉንም አስቀምጥ";
-"Close Tab" = "ትርን ዝጋ";
-"Close Window" = "መስኮት ዝጋ";
+"Close Tab" = "ትሩን ዝጋ";
+"Close Window" = "መስኮቱን ዝጋ";
 "Undo" = "ቀልብስ";
 "Redo" = "ድገም";
 "Cut" = "ቁረጥ";
 "Copy" = "ቅዳ";
 "Paste" = "ለጥፍ";
-"Select All" = "ሁሉንም ይምረጡ";
-"Find…" = "አግኝ…";
+"Select All" = "ሁሉንም ምረጥ";
+"Find…" = "ፈልግ…";
 "Replace…" = "ተካ…";
-"Find Next" = "ቀጣይ አግኝ";
-"Find Previous" = "ያለፈውን ያግኙ";
-"Use Selection for Find" = "ለማግኘት ምርጫን ተጠቀም";
-"Find" = "አግኝ";
+"Find Next" = "ቀጣዩን ፈልግ";
+"Find Previous" = "ቀዳሚውን ፈልግ";
+"Use Selection for Find" = "በተመረጠው ጽሑፍ ፈልግ";
+"Find" = "ፍለጋ";
 "Project" = "ፕሮጀክት";
 "Terminal" = "ተርሚናል";
-"Swap Terminal and Project" = "ተርሚናል እና ፕሮጀክት ይቀያይሩ";
-"Maximize Terminal" = "ተርሚናልን ከፍ ያድርጉ";
-"GPU Rendering" = "የጂፒዩ አቀራረብ";
-"Soft-Wrap" = "ረጅም የጽሑፍ መስመሮችን በራስ-ሰር ጠቅልል።";
-"Toggle Preview" = "ቅድመ እይታን ቀያይር";
+"Swap Terminal and Project" = "ተርሚናልንና ፕሮጀክትን አቀያይር";
+"Maximize Terminal" = "ተርሚናልን አስፋ";
+"GPU Rendering" = "በGPU መሳል";
+"Soft-Wrap" = "መስመሮችን በማሳያው ስፋት ልክ አስማማ";
+"Toggle Preview" = "ቅድመ እይታን አሳይ/ደብቅ";
 "Increase Font Size" = "የፊደል መጠን ጨምር";
-"Decrease Font Size" = "የቅርጸ ቁምፊ መጠን ቀንስ";
-"Reset Font Size" = "የቅርጸ ቁምፊ መጠንን ዳግም አስጀምር";
-"Search Everywhere (Double ⇧)" = "በሁሉም ቦታ ይፈልጉ (ድርብ ⇧)";
-"Select in Project View" = "በፕሮጀክት እይታ ውስጥ ይምረጡ";
+"Decrease Font Size" = "የፊደል መጠን ቀንስ";
+"Reset Font Size" = "የፊደል መጠን መልስ";
+"Search Everywhere (Double ⇧)" = "በሁሉም ቦታ ፈልግ (⇧ ሁለት ጊዜ)";
+"Select in Project View" = "በፕሮጀክት እይታ ምረጥ";
 "Next Tab" = "ቀጣይ ትር";
 "Previous Tab" = "ቀዳሚ ትር";
 "Minimize" = "አሳንስ";
-"Zoom" = "አጉላ";
-"Bring All to Front" = "ሁሉንም ወደ ፊት አምጣ";
+"Zoom" = "መስኮቱን አስፋ";
+"Bring All to Front" = "ሁሉንም መስኮቶች ወደ ፊት አምጣ";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "አካባቢያዊ";
@@ -68,57 +68,57 @@
 "Close" = "ዝጋ";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "የማስኬጃ ተርሚናል ክፍለ ጊዜዎች ይዘጋሉ?";
-"These processes will be stopped:" = "እነዚህ ሂደቶች ይቆማሉ፡-";
-"Cancel" = "ሰርዝ";
+"Close running terminal sessions?" = "እየሠሩ ያሉትን የተርሚናል ክፍለ ጊዜዎች ይዝጉ?";
+"These processes will be stopped:" = "እነዚህ ሂደቶች ይቆማሉ፦";
+"Cancel" = "ይቅር";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
 "Save a Copy…" = "ቅጂ አስቀምጥ…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "አርታዒ ብቻ";
-"Editor and Preview" = "አርታዒ እና ቅድመ እይታ";
+"Editor and Preview" = "አርታዒና ቅድመ እይታ";
 "Preview Only" = "ቅድመ እይታ ብቻ";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "ክፍተቶች: %ld";
-"Plain Text" = "ግልጽ ጽሑፍ";
-"Search Everywhere" = "በሁሉም ቦታ ይፈልጉ";
-"Double ⇧" = "ድርብ ⇧";
+"Spaces: %ld" = "ክፍተቶች፦ %ld";
+"Plain Text" = "ቀላል ጽሑፍ";
+"Search Everywhere" = "በሁሉም ቦታ ፈልግ";
+"Double ⇧" = "⇧ ሁለት ጊዜ";
 "Go to File" = "ወደ ፋይል ሂድ";
 "Open Folder" = "አቃፊ ክፈት";
 "Project View" = "የፕሮጀክት እይታ";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ፋይሉ በዲስክ ላይ ተቀይሯል. የእርስዎ አርትዖቶች ተጠብቀዋል። ሁለቱንም ስሪቶች ለማቆየት አንድ ቅጂ ያስቀምጡ።";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "በዲስክ ላይ ያለው ፋይል ተቀይሯል። ለውጦችዎ አሁንም በአርታዒው ውስጥ አሉ። ሁለቱንም ስሪቶች ለማስቀመጥ ቅጂ ያስቀምጡ።";
 "The file is a binary file." = "ፋይሉ ሁለትዮሽ ፋይል ነው።";
-"The file's text encoding could not be determined." = "የፋይሉ ጽሑፍ ኢንኮዲንግ ሊታወቅ አልቻለም።";
-"The text cannot be saved in %@." = "ጽሑፉ በ %@ ውስጥ ሊቀመጥ አይችልም.";
+"The file's text encoding could not be determined." = "የፋይሉን የጽሑፍ ኢንኮዲንግ መለየት አልተቻለም።";
+"The text cannot be saved in %@." = "ጽሑፉን በ%@ ማስቀመጥ አይቻልም።";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "አዲስ አቃፊ";
 "New File" = "አዲስ ፋይል";
-"Enter a name in “%@”. Use / to create nested folders." = "በ \"%@\" ውስጥ ስም አስገባ. ንዑስ አቃፊዎችን ለመፍጠር የአቃፊ ስሞችን ከቁምፊው ጋር ይለያዩ ።";
-"Rename" = "እንደገና ይሰይሙ";
-"Enter a new name for “%@”." = "ለ “%@” አዲስ ስም ያስገቡ።";
-"Move “%@” to the Trash?" = "\"%@\" ወደ መጣያ ይወሰድ?";
-"The folder and everything in it will be moved to the Trash." = "አቃፊው እና በውስጡ ያሉት ሁሉም ነገሮች ወደ መጣያ ይወሰዳሉ።";
-"You can restore it from the Trash." = "ከመጣያው ወደነበረበት መመለስ ይችላሉ።";
-"Move to Trash" = "ወደ መጣያ ውሰድ";
+"Enter a name in “%@”. Use / to create nested folders." = "በ“%@” ውስጥ ስም ያስገቡ። ንዑስ አቃፊዎችን ለመፍጠር / ይጠቀሙ።";
+"Rename" = "ስም ቀይር";
+"Enter a new name for “%@”." = "ለ“%@” አዲስ ስም ያስገቡ።";
+"Move “%@” to the Trash?" = "“%@”ን ወደ ቆሻሻ ማጠራቀሚያ ይውሰዱ?";
+"The folder and everything in it will be moved to the Trash." = "አቃፊውና በውስጡ ያለው ሁሉ ወደ ቆሻሻ ማጠራቀሚያ ይወሰዳሉ።";
+"You can restore it from the Trash." = "ከቆሻሻ ማጠራቀሚያው መመለስ ይችላሉ።";
+"Move to Trash" = "ወደ ቆሻሻ ውሰድ";
 "OK" = "እሺ";
-"Rename…" = "ዳግም ሰይም…";
+"Rename…" = "ስም ቀይር…";
 "Copy Path" = "ዱካ ቅዳ";
-"Copy Relative Path" = "አንጻራዊ መንገድ ቅዳ";
-"Reveal in Finder" = "በFinder ተገለጠ";
-"Open in Terminal" = "ተርሚናል ውስጥ ክፈት";
+"Copy Relative Path" = "አንጻራዊ ዱካ ቅዳ";
+"Reveal in Finder" = "በFinder አሳይ";
+"Open in Terminal" = "በተርሚናል ክፈት";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "የግራ ፓነል";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "ፋይሎች";
-"Double ⇧ to search everywhere" = "በየቦታው ለመፈለግ በእጥፍ ⇧";
-"Type a file name (use / to match the path)" = "የፋይል ስም ይተይቡ (ከመንገዱ ጋር ለማዛመድ ይጠቀሙ)";
-"No recent files" = "ምንም የቅርብ ጊዜ ፋይሎች የሉም";
+"Double ⇧ to search everywhere" = "በሁሉም ቦታ ለመፈለግ ⇧ን ሁለት ጊዜ ይጫኑ";
+"Type a file name (use / to match the path)" = "የፋይል ስም ይጻፉ (በዱካ ለመፈለግ / ይጠቀሙ)";
+"No recent files" = "የቅርብ ጊዜ ፋይሎች የሉም";
 "Recent Files" = "የቅርብ ጊዜ ፋይሎች";
-"Matches: %1$ld / Files: %2$ld" = "ውጤቶች ተገኝተዋል: %1$ld / ጠቅላላ ፋይሎች: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "የተገኙ፦ %1$ld / ፋይሎች፦ %2$ld";

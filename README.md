@@ -20,7 +20,7 @@ Run your agent in the built-in terminal, click the files it touches to open them
 - Search Everywhere: press Shift twice to find any file in the project by fuzzy name.
 - Recognizes source files using a catalog of 915 language and file-format names, including filenames, compound extensions and script interpreters. All 297 Prism components (291 standalone grammars and six helpers) are bundled and loaded on demand. Formats without a grammar use basic text highlighting.
 - The UI has 108 language options. Use the Language menu to switch immediately, or follow the system language. The choice is remembered; open files, unsaved edits and terminal sessions stay open. Arabic, Hebrew and other right-to-left interfaces keep code, previews and terminal output left to right.
-  Newly added translations use machine translation and need review by native speakers. System-provided panels follow macOS language settings. This catalog does not cover every natural or programming language. See [Translating Sumi](CONTRIBUTING.md#translating-sumi).
+  Translations are written directly from the English strings with their editor and terminal context. System-provided panels follow macOS language settings. This catalog does not cover every natural or programming language. See [Translating Sumi](CONTRIBUTING.md#translating-sumi).
 - Light and dark appearance follow the system.
 
 ## Download

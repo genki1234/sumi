@@ -15,51 +15,51 @@
 "View" = "Widok";
 "Navigate" = "Nawigacja";
 "Window" = "Okno";
-"About Sumi" = "O aplikacji Sumi";
 "Language" = "Język";
+"About Sumi" = "O Sumi";
 "Services" = "Usługi";
 "Hide Sumi" = "Ukryj Sumi";
 "Hide Others" = "Ukryj pozostałe";
-"Show All" = "Pokaż wszystko";
+"Show All" = "Pokaż wszystkie";
 "Quit Sumi" = "Zakończ Sumi";
-"System Default" = "Domyślne systemowe";
+"System Default" = "Używaj języka systemu";
 "New File…" = "Nowy plik…";
 "New Folder…" = "Nowy folder…";
 "New Terminal Tab" = "Nowa karta terminala";
 "Open…" = "Otwórz…";
-"Save" = "Zachowaj";
-"Save All" = "Zachowaj wszystko";
+"Save" = "Zapisz";
+"Save All" = "Zapisz wszystko";
 "Close Tab" = "Zamknij kartę";
 "Close Window" = "Zamknij okno";
 "Undo" = "Cofnij";
-"Redo" = "Powtórz";
+"Redo" = "Ponów";
 "Cut" = "Wytnij";
 "Copy" = "Kopiuj";
 "Paste" = "Wklej";
 "Select All" = "Zaznacz wszystko";
 "Find…" = "Znajdź…";
-"Replace…" = "Zamień…";
-"Find Next" = "Znajdź następny";
-"Find Previous" = "Znajdź poprzedni";
+"Replace…" = "Zastąp…";
+"Find Next" = "Znajdź następne";
+"Find Previous" = "Znajdź poprzednie";
 "Use Selection for Find" = "Użyj zaznaczenia do wyszukiwania";
 "Find" = "Znajdź";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Zamień miejscami terminal i projekt";
 "Maximize Terminal" = "Maksymalizuj terminal";
-"GPU Rendering" = "Renderowanie GPU";
-"Soft-Wrap" = "Miękkie zawijanie";
+"GPU Rendering" = "Renderowanie przez GPU";
+"Soft-Wrap" = "Zawijaj wiersze do szerokości okna";
 "Toggle Preview" = "Przełącz podgląd";
-"Increase Font Size" = "Zwiększ rozmiar czcionki";
-"Decrease Font Size" = "Zmniejsz rozmiar czcionki";
-"Reset Font Size" = "Przywróć rozmiar czcionki";
-"Search Everywhere (Double ⇧)" = "Szukaj wszędzie (podwójny ⇧)";
+"Increase Font Size" = "Powiększ tekst";
+"Decrease Font Size" = "Pomniejsz tekst";
+"Reset Font Size" = "Przywróć rozmiar tekstu";
+"Search Everywhere (Double ⇧)" = "Szukaj wszędzie (dwa razy ⇧)";
 "Select in Project View" = "Zaznacz w widoku projektu";
 "Next Tab" = "Następna karta";
 "Previous Tab" = "Poprzednia karta";
-"Minimize" = "Zminimalizuj";
-"Zoom" = "Powiększ";
-"Bring All to Front" = "Przenieś wszystko na wierzch";
+"Minimize" = "Minimalizuj";
+"Zoom" = "Dopasuj rozmiar okna";
+"Bring All to Front" = "Przenieś wszystkie okna na wierzch";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokalny";
@@ -68,8 +68,8 @@
 "Close" = "Zamknij";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Zamknąć działające sesje terminalowe?";
-"These processes will be stopped:" = "Procesy te zostaną zatrzymane:";
+"Close running terminal sessions?" = "Zamknąć aktywne sesje terminala?";
+"These processes will be stopped:" = "Następujące procesy zostaną zatrzymane:";
 "Cancel" = "Anuluj";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -84,27 +84,27 @@
 "Spaces: %ld" = "Spacje: %ld";
 "Plain Text" = "Zwykły tekst";
 "Search Everywhere" = "Szukaj wszędzie";
-"Double ⇧" = "Podwójny ⇧";
+"Double ⇧" = "Dwa razy ⇧";
 "Go to File" = "Przejdź do pliku";
 "Open Folder" = "Otwórz folder";
 "Project View" = "Widok projektu";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Plik został zmieniony na dysku. Twoje zmiany zostały zachowane. Zapisz kopię, aby zachować obie wersje.";
-"The file is a binary file." = "Plik jest plikiem binarnym.";
-"The file's text encoding could not be determined." = "Nie udało się ustalić kodowania tekstu pliku.";
-"The text cannot be saved in %@." = "Tekstu nie można zachować w kodowaniu %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Plik został zmieniony na dysku. Twoje zmiany pozostały w edytorze. Zapisz kopię, aby zachować obie wersje.";
+"The file is a binary file." = "Ten plik jest plikiem binarnym.";
+"The file's text encoding could not be determined." = "Nie można ustalić kodowania tekstu w pliku.";
+"The text cannot be saved in %@." = "Nie można zapisać tekstu przy użyciu kodowania %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Nowy folder";
 "New File" = "Nowy plik";
-"Enter a name in “%@”. Use / to create nested folders." = "Wpisz nazwę w „%@”. Użyj /, aby utworzyć zagnieżdżone foldery.";
+"Enter a name in “%@”. Use / to create nested folders." = "Wprowadź nazwę w folderze „%@”. Użyj /, aby utworzyć zagnieżdżone foldery.";
 "Rename" = "Zmień nazwę";
-"Enter a new name for “%@”." = "Wpisz nową nazwę dla „%@”.";
-"Move “%@” to the Trash?" = "Przenieść „%@” do kosza?";
-"The folder and everything in it will be moved to the Trash." = "Folder i cała jego zawartość zostaną przeniesione do kosza.";
-"You can restore it from the Trash." = "Możesz go przywrócić z kosza.";
-"Move to Trash" = "Przenieś do kosza";
+"Enter a new name for “%@”." = "Wprowadź nową nazwę dla „%@”.";
+"Move “%@” to the Trash?" = "Przenieść „%@” do Kosza?";
+"The folder and everything in it will be moved to the Trash." = "Folder wraz z całą zawartością zostanie przeniesiony do Kosza.";
+"You can restore it from the Trash." = "Możesz przywrócić ten element z Kosza.";
+"Move to Trash" = "Przenieś do Kosza";
 "OK" = "OK";
 "Rename…" = "Zmień nazwę…";
 "Copy Path" = "Kopiuj ścieżkę";
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Pliki";
-"Double ⇧ to search everywhere" = "Podwójny ⇧ — szukaj wszędzie";
-"Type a file name (use / to match the path)" = "Wpisz nazwę pliku (użyj /, aby dopasować ścieżkę)";
-"No recent files" = "Brak ostatnich plików";
-"Recent Files" = "Ostatnie pliki";
+"Double ⇧ to search everywhere" = "Naciśnij dwa razy ⇧, aby szukać wszędzie";
+"Type a file name (use / to match the path)" = "Wpisz nazwę pliku (użyj /, aby szukać w ścieżce)";
+"No recent files" = "Brak ostatnio używanych plików";
+"Recent Files" = "Ostatnio używane pliki";
 "Matches: %1$ld / Files: %2$ld" = "Dopasowania: %1$ld / Pliki: %2$ld";

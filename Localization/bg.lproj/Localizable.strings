@@ -7,73 +7,73 @@
 
 /* Sources/Sumi/App/AppDelegate.swift */
 "Open a folder as a project, or a file to edit." = "Отворете папка като проект или файл за редактиране.";
-"Open" = "Отворете";
+"Open" = "Отваряне";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Файл";
 "Edit" = "Редактиране";
-"View" = "Преглед";
-"Navigate" = "Навигирайте";
-"Window" = "прозорец";
-"About Sumi" = "Относно приложението Sumi";
-"Language" = "език";
+"View" = "Изглед";
+"Navigate" = "Навигация";
+"Window" = "Прозорец";
+"Language" = "Език";
+"About Sumi" = "За Sumi";
 "Services" = "Услуги";
-"Hide Sumi" = "Скрий Sumi";
-"Hide Others" = "Скриване на други";
-"Show All" = "Покажи всички";
-"Quit Sumi" = "Излезте от Sumi";
-"System Default" = "Системни настройки по подразбиране";
+"Hide Sumi" = "Скриване на Sumi";
+"Hide Others" = "Скриване на останалите";
+"Show All" = "Показване на всички";
+"Quit Sumi" = "Изход от Sumi";
+"System Default" = "Системна настройка";
 "New File…" = "Нов файл…";
-"New Folder…" = "Нова папка...";
-"New Terminal Tab" = "Нов раздел Терминал";
-"Open…" = "Отворете...";
+"New Folder…" = "Нова папка…";
+"New Terminal Tab" = "Нов раздел на терминала";
+"Open…" = "Отваряне…";
 "Save" = "Запазване";
-"Save All" = "Запазване на всички";
+"Save All" = "Запазване на всичко";
 "Close Tab" = "Затваряне на раздела";
 "Close Window" = "Затваряне на прозореца";
 "Undo" = "Отмяна";
-"Redo" = "Повторете";
-"Cut" = "Изрежете";
-"Copy" = "копие";
-"Paste" = "Залепете";
-"Select All" = "Изберете Всички";
-"Find…" = "Намери...";
-"Replace…" = "Замени...";
-"Find Next" = "Намиране на следващия";
-"Find Previous" = "Намерете предишния";
-"Use Selection for Find" = "Използвайте селекция за намиране";
-"Find" = "Намерете";
+"Redo" = "Повтаряне";
+"Cut" = "Изрязване";
+"Copy" = "Копиране";
+"Paste" = "Поставяне";
+"Select All" = "Избиране на всичко";
+"Find…" = "Търсене…";
+"Replace…" = "Замяна…";
+"Find Next" = "Следващо съвпадение";
+"Find Previous" = "Предишно съвпадение";
+"Use Selection for Find" = "Търсене на избрания текст";
+"Find" = "Търсене";
 "Project" = "Проект";
 "Terminal" = "Терминал";
-"Swap Terminal and Project" = "Разменете терминал и проект";
-"Maximize Terminal" = "Увеличете терминала";
-"GPU Rendering" = "Рендиране на GPU";
-"Soft-Wrap" = "Автоматично обвиване на дълги текстови редове";
-"Toggle Preview" = "Превключване на визуализация";
-"Increase Font Size" = "Увеличете размера на шрифта";
-"Decrease Font Size" = "Намалете размера на шрифта";
-"Reset Font Size" = "Нулиране на размера на шрифта";
-"Search Everywhere (Double ⇧)" = "Търсене навсякъде (Двойно ⇧)";
-"Select in Project View" = "Изберете в изгледа на проекта";
+"Swap Terminal and Project" = "Размяна на терминала и проекта";
+"Maximize Terminal" = "Разгъване на терминала";
+"GPU Rendering" = "Изобразяване чрез GPU";
+"Soft-Wrap" = "Пренасяне на редовете";
+"Toggle Preview" = "Показване/скриване на прегледа";
+"Increase Font Size" = "Увеличаване на шрифта";
+"Decrease Font Size" = "Намаляване на шрифта";
+"Reset Font Size" = "Възстановяване на размера на шрифта";
+"Search Everywhere (Double ⇧)" = "Търсене навсякъде (два пъти ⇧)";
+"Select in Project View" = "Избиране в изгледа на проекта";
 "Next Tab" = "Следващ раздел";
 "Previous Tab" = "Предишен раздел";
 "Minimize" = "Минимизиране";
-"Zoom" = "мащабиране";
-"Bring All to Front" = "Изведете всички отпред";
+"Zoom" = "Увеличаване на прозореца";
+"Bring All to Front" = "Всички прозорци отпред";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Местен";
-"Local (%ld)" = "Местен (%ld)";
+"Local" = "Локален";
+"Local (%ld)" = "Локален (%ld)";
 "Hide Terminal" = "Скриване на терминала";
-"Close" = "затвори";
+"Close" = "Затваряне";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Затваряне на работещи терминални сесии?";
-"These processes will be stopped:" = "Тези процеси ще бъдат спрени:";
+"Close running terminal sessions?" = "Затваряне на работещите терминални сесии?";
+"These processes will be stopped:" = "Следните процеси ще бъдат спрени:";
 "Cancel" = "Отказ";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Запазване на копие...";
+"Save a Copy…" = "Запазване на копие…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Само редактор";
@@ -81,44 +81,44 @@
 "Preview Only" = "Само преглед";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Места: %ld";
+"Spaces: %ld" = "Интервали: %ld";
 "Plain Text" = "Обикновен текст";
-"Search Everywhere" = "Търсете навсякъде";
-"Double ⇧" = "Двойно ⇧";
-"Go to File" = "Отидете на Файл";
-"Open Folder" = "Отворете папката";
+"Search Everywhere" = "Търсене навсякъде";
+"Double ⇧" = "Два пъти ⇧";
+"Go to File" = "Към файл";
+"Open Folder" = "Отваряне на папка";
 "Project View" = "Изглед на проекта";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файлът е променен на диска. Вашите редакции са запазени. Запазете копие, за да запазите и двете версии.";
-"The file is a binary file." = "Файлът е двоичен файл.";
-"The file's text encoding could not be determined." = "Кодирането на текста на файла не може да бъде определено.";
-"The text cannot be saved in %@." = "Текстът не може да бъде запазен в %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файлът на диска е променен. Редакциите ви все още са в редактора. Запазете копие, за да съхраните и двете версии.";
+"The file is a binary file." = "Файлът е двоичен.";
+"The file's text encoding could not be determined." = "Кодирането на текста във файла не може да бъде определено.";
+"The text cannot be saved in %@." = "Текстът не може да се запази с кодиране %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Нова папка";
 "New File" = "Нов файл";
-"Enter a name in “%@”. Use / to create nested folders." = "Въведете име в „%@“. Разделете имената на папките със знака /, за да създадете подпапки.";
+"Enter a name in “%@”. Use / to create nested folders." = "Въведете име в „%@“. Използвайте / за създаване на вложени папки.";
 "Rename" = "Преименуване";
 "Enter a new name for “%@”." = "Въведете ново име за „%@“.";
 "Move “%@” to the Trash?" = "Преместване на „%@“ в кошчето?";
-"The folder and everything in it will be moved to the Trash." = "Папката и всичко в нея ще бъдат преместени в кошчето.";
-"You can restore it from the Trash." = "Можете да го възстановите от кошчето.";
+"The folder and everything in it will be moved to the Trash." = "Папката и цялото ѝ съдържание ще бъдат преместени в кошчето.";
+"You can restore it from the Trash." = "Можете да възстановите елемента от кошчето.";
 "Move to Trash" = "Преместване в кошчето";
-"OK" = "добре";
-"Rename…" = "Преименуване...";
+"OK" = "Добре";
+"Rename…" = "Преименуване…";
 "Copy Path" = "Копиране на пътя";
-"Copy Relative Path" = "Копиране на относителен път";
-"Reveal in Finder" = "Разкрийте в Finder";
-"Open in Terminal" = "Отворете в терминал";
+"Copy Relative Path" = "Копиране на относителния път";
+"Reveal in Finder" = "Показване във Finder";
+"Open in Terminal" = "Отваряне в терминала";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Ляв панел";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "файлове";
-"Double ⇧ to search everywhere" = "Удвоете ⇧, за да търсите навсякъде";
-"Type a file name (use / to match the path)" = "Въведете име на файл (използвайте /, за да съответства на пътя)";
+"Files" = "Файлове";
+"Double ⇧ to search everywhere" = "Натиснете ⇧ два пъти за търсене навсякъде";
+"Type a file name (use / to match the path)" = "Въведете име на файл (използвайте / за търсене по пътя)";
 "No recent files" = "Няма скорошни файлове";
-"Recent Files" = "Последни файлове";
-"Matches: %1$ld / Files: %2$ld" = "Намерени резултати: %1$ld / Общо файлове: %2$ld";
+"Recent Files" = "Скорошни файлове";
+"Matches: %1$ld / Files: %2$ld" = "Съвпадения: %1$ld / Файлове: %2$ld";

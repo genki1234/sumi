@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Louvri yon katab kòm yon pwojè, oswa yon dosye pou edite.";
+"Open a folder as a project, or a file to edit." = "Louvri yon dosye kòm pwojè, oswa yon fichye pou modifye.";
 "Open" = "Louvri";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Dosye";
-"Edit" = "Edit tèks";
-"View" = "Ekspozisyon";
-"Navigate" = "Navige";
+"File" = "Fichye";
+"Edit" = "Modifye";
+"View" = "Afichaj";
+"Navigate" = "Navigasyon";
 "Window" = "Fenèt";
-"About Sumi" = "Konsènan aplikasyon Sumi la";
 "Language" = "Lang";
+"About Sumi" = "Konsènan Sumi";
 "Services" = "Sèvis";
 "Hide Sumi" = "Kache Sumi";
-"Hide Others" = "Kache lòt moun";
+"Hide Others" = "Kache lòt yo";
 "Show All" = "Montre tout";
 "Quit Sumi" = "Kite Sumi";
-"System Default" = "Sistèm Default";
-"New File…" = "Nouvo dosye...";
-"New Folder…" = "Nouvo Dosye...";
-"New Terminal Tab" = "Nouvo Tab Tèminal";
+"System Default" = "Chwa pa defo sistèm nan";
+"New File…" = "Nouvo fichye…";
+"New Folder…" = "Nouvo dosye…";
+"New Terminal Tab" = "Nouvo onglet tèminal";
 "Open…" = "Louvri…";
-"Save" = "Sove";
-"Save All" = "Sove tout";
-"Close Tab" = "Fèmen Tab";
-"Close Window" = "Fèmen Fenèt la";
-"Undo" = "Defèt";
+"Save" = "Anrejistre";
+"Save All" = "Anrejistre tout";
+"Close Tab" = "Fèmen onglet la";
+"Close Window" = "Fèmen fenèt la";
+"Undo" = "Defè";
 "Redo" = "Refè";
 "Cut" = "Koupe";
-"Copy" = "Kopi";
+"Copy" = "Kopye";
 "Paste" = "Kole";
-"Select All" = "Chwazi Tout";
-"Find…" = "Jwenn…";
+"Select All" = "Chwazi tout";
+"Find…" = "Chèche…";
 "Replace…" = "Ranplase…";
-"Find Next" = "Jwenn Next";
-"Find Previous" = "Jwenn Previous";
-"Use Selection for Find" = "Sèvi ak Seleksyon pou Jwenn";
-"Find" = "Jwenn";
+"Find Next" = "Chèche pwochen an";
+"Find Previous" = "Chèche anvan an";
+"Use Selection for Find" = "Chèche tèks ki chwazi a";
+"Find" = "Rechèch";
 "Project" = "Pwojè";
 "Terminal" = "Tèminal";
-"Swap Terminal and Project" = "Boukante Tèminal ak Pwojè";
-"Maximize Terminal" = "Maksimize Tèminal";
-"GPU Rendering" = "Rann GPU";
-"Soft-Wrap" = "Otomatikman vlope liy tèks long";
-"Toggle Preview" = "Aktive Preview";
-"Increase Font Size" = "Ogmante Gwosè Font";
-"Decrease Font Size" = "Diminye Gwosè Font";
-"Reset Font Size" = "Reyajiste Gwosè Font";
-"Search Everywhere (Double ⇧)" = "Chèche tout kote (double ⇧)";
-"Select in Project View" = "Chwazi nan View Pwojè";
-"Next Tab" = "Ale nan pwochen tab la";
-"Previous Tab" = "Ale nan tab anvan an";
-"Minimize" = "Minimize fenèt la";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Pote tout devan";
+"Swap Terminal and Project" = "Chanje plas tèminal la ak pwojè a";
+"Maximize Terminal" = "Maksimize tèminal la";
+"GPU Rendering" = "Desen ak GPU";
+"Soft-Wrap" = "Pliye liy yo sou lajè a";
+"Toggle Preview" = "Montre/kache apèsi a";
+"Increase Font Size" = "Ogmante gwosè polis la";
+"Decrease Font Size" = "Diminye gwosè polis la";
+"Reset Font Size" = "Reyinisyalize gwosè polis la";
+"Search Everywhere (Double ⇧)" = "Chèche tout kote (⇧ de fwa)";
+"Select in Project View" = "Chwazi nan afichaj pwojè a";
+"Next Tab" = "Pwochen onglet";
+"Previous Tab" = "Onglet anvan an";
+"Minimize" = "Minimize";
+"Zoom" = "Elaji fenèt la";
+"Bring All to Front" = "Mete tout fenèt yo devan";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
-"Hide Terminal" = "Kache Tèminal";
+"Hide Terminal" = "Kache tèminal la";
 "Close" = "Fèmen";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Fèmen sesyon tèminal kouri yo?";
-"These processes will be stopped:" = "Pwosesis sa yo pral sispann:";
+"Close running terminal sessions?" = "Fèmen sesyon tèminal k ap mache yo?";
+"These processes will be stopped:" = "Pwosesis sa yo pral kanpe:";
 "Cancel" = "Anile";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Sove yon kopi...";
+"Save a Copy…" = "Anrejistre yon kopi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Editè sèlman";
-"Editor and Preview" = "Editè ak Preview";
-"Preview Only" = "Preview sèlman";
+"Editor and Preview" = "Editè ak apèsi";
+"Preview Only" = "Apèsi sèlman";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Espas: %ld";
-"Plain Text" = "Tèks Plain";
+"Plain Text" = "Tèks senp";
 "Search Everywhere" = "Chèche tout kote";
-"Double ⇧" = "Peze ⇧ de fwa";
-"Go to File" = "Ale nan File";
-"Open Folder" = "Louvri Dosye";
-"Project View" = "Pwojè View";
+"Double ⇧" = "⇧ de fwa";
+"Go to File" = "Ale nan fichye";
+"Open Folder" = "Louvri dosye";
+"Project View" = "Afichaj pwojè a";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fichye a chanje sou disk la. Yo te kenbe modifikasyon ou yo. Sove yon kopi pou konsève tou de vèsyon yo.";
-"The file is a binary file." = "Fichye a se yon dosye binè.";
-"The file's text encoding could not be determined." = "Tèks kodaj dosye a pa t 'kapab detèmine.";
-"The text cannot be saved in %@." = "Tèks la pa ka sove nan %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fichye ki sou disk la chanje. Modifikasyon ou yo toujou nan editè a. Anrejistre yon kopi pou kenbe toude vèsyon yo.";
+"The file is a binary file." = "Fichye sa a se yon fichye binè.";
+"The file's text encoding could not be determined." = "Nou pa t ka detèmine kodaj tèks fichye a.";
+"The text cannot be saved in %@." = "Tèks la pa ka anrejistre ak kodaj %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Nouvo Dosye";
-"New File" = "Nouvo File";
-"Enter a name in “%@”. Use / to create nested folders." = "Antre yon non nan \"%@\". Separe non katab ak karaktè / pou kreye subfolders.";
+"New Folder" = "Nouvo dosye";
+"New File" = "Nouvo fichye";
+"Enter a name in “%@”. Use / to create nested folders." = "Antre yon non nan “%@”. Sèvi ak / pou kreye dosye anndan dosye.";
 "Rename" = "Chanje non";
-"Enter a new name for “%@”." = "Antre yon nouvo non pou \"%@\".";
-"Move “%@” to the Trash?" = "Deplase \"%@\" nan fatra a?";
-"The folder and everything in it will be moved to the Trash." = "Katab la ak tout bagay ki ladan l yo pral deplase nan fatra a.";
-"You can restore it from the Trash." = "Ou ka restore li nan fatra a.";
+"Enter a new name for “%@”." = "Antre yon nouvo non pou “%@”.";
+"Move “%@” to the Trash?" = "Deplase “%@” nan fatra?";
+"The folder and everything in it will be moved to the Trash." = "Dosye a ak tout sa ki ladan l pral deplase nan fatra.";
+"You can restore it from the Trash." = "Ou ka retabli eleman an nan fatra a.";
 "Move to Trash" = "Deplase nan fatra";
-"OK" = "OK";
-"Rename…" = "Chanje non...";
-"Copy Path" = "Kopi Chemen";
-"Copy Relative Path" = "Kopi chemen relatif";
-"Reveal in Finder" = "Devwale nan Finder";
-"Open in Terminal" = "Louvri nan Tèminal";
+"OK" = "Dakò";
+"Rename…" = "Chanje non…";
+"Copy Path" = "Kopye chemen an";
+"Copy Relative Path" = "Kopye chemen relatif la";
+"Reveal in Finder" = "Montre nan Finder";
+"Open in Terminal" = "Louvri nan tèminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel sou bò gòch la";
+"Left Panel" = "Pano agoch";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Dosye";
-"Double ⇧ to search everywhere" = "Double ⇧ pou fè rechèch toupatou";
-"Type a file name (use / to match the path)" = "Tape yon non fichye (itilize / pou matche ak chemen an)";
-"No recent files" = "Pa gen dosye resan";
-"Recent Files" = "Dosye ki sot pase yo";
-"Matches: %1$ld / Files: %2$ld" = "Rezilta yo jwenn: %1$ld / Total fichye: %2$ld";
+"Files" = "Fichye yo";
+"Double ⇧ to search everywhere" = "Peze ⇧ de fwa pou chèche tout kote";
+"Type a file name (use / to match the path)" = "Tape yon non fichye (sèvi ak / pou chèche nan chemen an)";
+"No recent files" = "Pa gen fichye resan";
+"Recent Files" = "Fichye resan yo";
+"Matches: %1$ld / Files: %2$ld" = "Korespondans: %1$ld / Fichye: %2$ld";

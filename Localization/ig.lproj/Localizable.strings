@@ -12,113 +12,113 @@
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Faịlụ";
 "Edit" = "Dezie";
-"View" = "Lelee";
-"Navigate" = "Ịnyagharịa";
-"Window" = "Ohere";
-"About Sumi" = "Ihe gbasara ngwa Sumi";
+"View" = "Nlele";
+"Navigate" = "Gaa";
+"Window" = "Windo";
 "Language" = "Asụsụ";
+"About Sumi" = "Banyere Sumi";
 "Services" = "Ọrụ";
 "Hide Sumi" = "Zoo Sumi";
 "Hide Others" = "Zoo Ndị Ọzọ";
-"Show All" = "Gosi ihe niile";
-"Quit Sumi" = "Hapụ Sumi";
-"System Default" = "Sistemụ ndabara";
-"New File…" = "Faịlụ ọhụrụ…";
-"New Folder…" = "nchekwa ọhụrụ…";
-"New Terminal Tab" = "Taabụ Terminal ọhụrụ";
+"Show All" = "Gosi Ha Niile";
+"Quit Sumi" = "Pụọ na Sumi";
+"System Default" = "Ntọala Sistemụ";
+"New File…" = "Faịlụ Ọhụrụ…";
+"New Folder…" = "Folda Ọhụrụ…";
+"New Terminal Tab" = "Taabụ Ọnụ Iwu Ọhụrụ";
 "Open…" = "Mepee…";
-"Save" = "Chekwa";
-"Save All" = "Chekwaa Ha niile";
-"Close Tab" = "Mechie Tab";
-"Close Window" = "Mechie windo";
-"Undo" = "Megharịa";
-"Redo" = "Megharịa";
+"Save" = "Chekwaa";
+"Save All" = "Chekwaa Ha Niile";
+"Close Tab" = "Mechie Taabụ";
+"Close Window" = "Mechie Windo";
+"Undo" = "Weghachite";
+"Redo" = "Mee Ọzọ";
 "Cut" = "Bee";
 "Copy" = "Detuo";
 "Paste" = "Tapawa";
-"Select All" = "Họrọ Ha niile";
+"Select All" = "Họrọ Ha Niile";
 "Find…" = "Chọta…";
 "Replace…" = "Dochie…";
-"Find Next" = "Chọta Ọzọ";
-"Find Previous" = "Chọta Nke gara aga";
-"Use Selection for Find" = "Jiri Nhọrọ maka Chọta";
+"Find Next" = "Chọta Nke Ọzọ";
+"Find Previous" = "Chọta Nke Gara Aga";
+"Use Selection for Find" = "Chọọ Ederede Ahọpụtara";
 "Find" = "Chọta";
-"Project" = "Ihe oru ngo";
-"Terminal" = "Ebe njedebe";
-"Swap Terminal and Project" = "Gbanwee Terminal na Project";
-"Maximize Terminal" = "Mee ka ọnụ ala dị elu";
-"GPU Rendering" = "GPU ngosi";
-"Soft-Wrap" = "Kechie ahịrị ederede ogologo na-akpaghị aka";
-"Toggle Preview" = "Gbanwee nlele anya";
-"Increase Font Size" = "Mụbaa nha mkpụrụedemede";
-"Decrease Font Size" = "Wedata nha mkpụrụedemede";
-"Reset Font Size" = "Tọgharia nha mkpụrụedemede";
-"Search Everywhere (Double ⇧)" = "Chọọ ebe niile (Ugboro abụọ ⇧)";
-"Select in Project View" = "Họrọ na Project View";
-"Next Tab" = "Tab na-esote";
-"Previous Tab" = "Tab gara aga";
-"Minimize" = "Wedata";
-"Zoom" = "Bugharịa";
-"Bring All to Front" = "Weta ihe niile n'ihu";
+"Project" = "Ọrụ";
+"Terminal" = "Ọnụ Iwu";
+"Swap Terminal and Project" = "Gbanwee Ọnọdụ Ọnụ Iwu na Ọrụ";
+"Maximize Terminal" = "Mee Ọnụ Iwu Kacha Nnukwu";
+"GPU Rendering" = "Jiri GPU See Ihe";
+"Soft-Wrap" = "Kechie Ahịrị";
+"Toggle Preview" = "Gosi/Zoo Nlele Mbụ";
+"Increase Font Size" = "Mee Mkpụrụedemede Nnukwu";
+"Decrease Font Size" = "Mee Mkpụrụedemede Obere";
+"Reset Font Size" = "Tọgharịa Nha Mkpụrụedemede";
+"Search Everywhere (Double ⇧)" = "Chọọ Ebe Niile (⇧ Ugboro Abụọ)";
+"Select in Project View" = "Họrọ n'Osisi Faịlụ Ọrụ";
+"Next Tab" = "Taabụ Na-esote";
+"Previous Tab" = "Taabụ Gara Aga";
+"Minimize" = "Mee Obere";
+"Zoom" = "Buwanye Windo";
+"Bring All to Front" = "Weta Windo Niile n'Ihu";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Mpaghara";
-"Local (%ld)" = "Mpaghara (%ld)";
-"Hide Terminal" = "Zoo Terminal";
+"Local" = "Nke Ebe A";
+"Local (%ld)" = "Nke Ebe A (%ld)";
+"Hide Terminal" = "Zoo Ọnụ Iwu";
 "Close" = "Mechie";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Mechie oge ngwụcha ngwụcha?";
+"Close running terminal sessions?" = "Mechie oge ọrụ ọnụ iwu ndị ka na-agba?";
 "These processes will be stopped:" = "A ga-akwụsị usoro ndị a:";
 "Cancel" = "Kagbuo";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Chekwaa oyiri…";
+"Save a Copy…" = "Chekwaa Nnomi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Naanị nchịkọta akụkọ";
-"Editor and Preview" = "Editor na Preview";
-"Preview Only" = "Nhụchalụ naanị";
+"Editor Only" = "Naanị Ebe Ndezi";
+"Editor and Preview" = "Ebe Ndezi na Nlele Mbụ";
+"Preview Only" = "Naanị Nlele Mbụ";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Oghere: %ld";
-"Plain Text" = "Ederede dị larịị";
-"Search Everywhere" = "Chọọ ebe ọ bụla";
-"Double ⇧" = "Ugboro abụọ ⇧";
-"Go to File" = "Gaa na faịlụ";
-"Open Folder" = "Mepee folda";
-"Project View" = "Nlele oru ngo";
+"Plain Text" = "Ederede Nkịtị";
+"Search Everywhere" = "Chọọ Ebe Niile";
+"Double ⇧" = "⇧ Ugboro Abụọ";
+"Go to File" = "Gaa na Faịlụ";
+"Open Folder" = "Mepee Folda";
+"Project View" = "Osisi Faịlụ Ọrụ";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faịlụ gbanwere na diski. Edokwala ndezi gị. Chekwa otu oyiri iji chekwaa ụdị abụọ ahụ.";
-"The file is a binary file." = "Faịlụ bụ faịlụ ọnụọgụ abụọ.";
-"The file's text encoding could not be determined." = "Enweghị ike ikpebi ntinye ederede faịlụ ahụ.";
-"The text cannot be saved in %@." = "Enweghị ike ịchekwa ederede na %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faịlụ agbanweela na diski. Ndezi gị ka dị n’ebe ndezi. Chekwaa nnomi ka e wee debe ụdị abụọ ahụ.";
+"The file is a binary file." = "Faịlụ a bụ faịlụ ọnụọgụ abụọ.";
+"The file's text encoding could not be determined." = "Enweghị ike ịchọpụta koodu ederede faịlụ a.";
+"The text cannot be saved in %@." = "Enweghị ike ichekwa ederede ahụ na koodu %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "nchekwa ọhụrụ";
-"New File" = "Faịlụ ọhụrụ";
-"Enter a name in “%@”. Use / to create nested folders." = "Tinye aha na \"%@\". Kewapụ aha nchekwa na / agwa iji mepụta folda nchekwa.";
-"Rename" = "Nyegharịa aha";
-"Enter a new name for “%@”." = "Tinye aha ọhụrụ maka \"%@\".";
-"Move “%@” to the Trash?" = "Bugharịa \"%@\" na ahịhịa?";
-"The folder and everything in it will be moved to the Trash." = "A ga-ebuga folda ahụ na ihe niile dị na ya na ahịhịa.";
-"You can restore it from the Trash." = "Ị nwere ike weghachite ya na ahịhịa.";
-"Move to Trash" = "Gaa na ahịhịa";
-"OK" = "OK";
-"Rename…" = "Nyegharịa aha…";
-"Copy Path" = "Detuo ụzọ";
-"Copy Relative Path" = "Detuo ụzọ ikwu";
-"Reveal in Finder" = "Mkpughe na Finder";
-"Open in Terminal" = "Mepee na Terminal";
+"New Folder" = "Folda Ọhụrụ";
+"New File" = "Faịlụ Ọhụrụ";
+"Enter a name in “%@”. Use / to create nested folders." = "Tinye aha na “%@”. Jiri / mepụta folda dị n'ime folda ndị ọzọ.";
+"Rename" = "Gbanwee Aha";
+"Enter a new name for “%@”." = "Tinye aha ọhụrụ maka “%@”.";
+"Move “%@” to the Trash?" = "Bugharịa “%@” na Mkpofu?";
+"The folder and everything in it will be moved to the Trash." = "A ga-ebuga folda ahụ na ihe niile dị n'ime ya na Mkpofu.";
+"You can restore it from the Trash." = "Ị nwere ike iweghachite ya na Mkpofu.";
+"Move to Trash" = "Bugharịa na Mkpofu";
+"OK" = "Ọ Dị Mma";
+"Rename…" = "Gbanwee Aha…";
+"Copy Path" = "Detuo Ụzọ Faịlụ";
+"Copy Relative Path" = "Detuo Ụzọ Site na Folda Ọrụ";
+"Reveal in Finder" = "Gosi na Finder";
+"Open in Terminal" = "Mepee n'Ọnụ Iwu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Ogwe aka ekpe";
+"Left Panel" = "Ogwe Aka Ekpe";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Faịlụ";
-"Double ⇧ to search everywhere" = "Ugboro abụọ ⇧ ka ịchọọ ebe niile";
-"Type a file name (use / to match the path)" = "Pịnye aha faịlụ (jiri / dakọtara ụzọ)";
-"No recent files" = "Enweghị faịlụ ọhụrụ";
-"Recent Files" = "Faịlụ ọhụrụ";
-"Matches: %1$ld / Files: %2$ld" = "Achọpụtara nsonaazụ ya: %1$ld / mkpokọta faịlụ: %2$ld";
+"Double ⇧ to search everywhere" = "Pịa ⇧ ugboro abụọ ka ịchọọ ebe niile";
+"Type a file name (use / to match the path)" = "Dee aha faịlụ (jiri / chọọ ụzọ faịlụ)";
+"No recent files" = "Enweghị faịlụ e meghere nso nso a";
+"Recent Files" = "Faịlụ E Meghere Nso Nso A";
+"Matches: %1$ld / Files: %2$ld" = "Ndị Dakọtara: %1$ld / Faịlụ: %2$ld";

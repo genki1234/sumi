@@ -12,11 +12,11 @@
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Dosya";
 "Edit" = "Düzen";
-"View" = "Görüntü";
-"Navigate" = "Gezin";
+"View" = "Görünüm";
+"Navigate" = "Git";
 "Window" = "Pencere";
-"About Sumi" = "Sumi Hakkında";
 "Language" = "Dil";
+"About Sumi" = "Sumi Hakkında";
 "Services" = "Servisler";
 "Hide Sumi" = "Sumi'yi Gizle";
 "Hide Others" = "Diğerlerini Gizle";
@@ -41,25 +41,25 @@
 "Replace…" = "Değiştir…";
 "Find Next" = "Sonrakini Bul";
 "Find Previous" = "Öncekini Bul";
-"Use Selection for Find" = "Seçimi Bulma İçin Kullan";
+"Use Selection for Find" = "Seçili Metni Ara";
 "Find" = "Bul";
 "Project" = "Proje";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Terminal ile Projeyi Değiştir";
+"Swap Terminal and Project" = "Terminal ve Projenin Yerini Değiştir";
 "Maximize Terminal" = "Terminali Büyüt";
-"GPU Rendering" = "GPU Oluşturma";
-"Soft-Wrap" = "Satır Kaydırma";
+"GPU Rendering" = "GPU ile Çizim";
+"Soft-Wrap" = "Genişliğe Göre Satır Kaydır";
 "Toggle Preview" = "Önizlemeyi Aç/Kapat";
-"Increase Font Size" = "Yazı Tipi Boyutunu Büyüt";
-"Decrease Font Size" = "Yazı Tipi Boyutunu Küçült";
-"Reset Font Size" = "Yazı Tipi Boyutunu Sıfırla";
-"Search Everywhere (Double ⇧)" = "Her Yerde Ara (Çift ⇧)";
+"Increase Font Size" = "Yazı Boyutunu Artır";
+"Decrease Font Size" = "Yazı Boyutunu Azalt";
+"Reset Font Size" = "Yazı Boyutunu Sıfırla";
+"Search Everywhere (Double ⇧)" = "Her Yerde Ara (İki Kez ⇧)";
 "Select in Project View" = "Proje Görünümünde Seç";
 "Next Tab" = "Sonraki Sekme";
 "Previous Tab" = "Önceki Sekme";
-"Minimize" = "Küçült";
-"Zoom" = "Yakınlaştır";
-"Bring All to Front" = "Tümünü Öne Getir";
+"Minimize" = "Simge Durumuna Küçült";
+"Zoom" = "Pencereyi Büyüt";
+"Bring All to Front" = "Tüm Pencereleri Öne Getir";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Yerel";
@@ -69,11 +69,11 @@
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
 "Close running terminal sessions?" = "Çalışan terminal oturumları kapatılsın mı?";
-"These processes will be stopped:" = "Bu işlemler durdurulacak:";
+"These processes will be stopped:" = "Şu işlemler durdurulacak:";
 "Cancel" = "Vazgeç";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Bir Kopyasını Kaydet…";
+"Save a Copy…" = "Kopyasını Kaydet…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Yalnızca Düzenleyici";
@@ -84,33 +84,33 @@
 "Spaces: %ld" = "Boşluk: %ld";
 "Plain Text" = "Düz Metin";
 "Search Everywhere" = "Her Yerde Ara";
-"Double ⇧" = "Çift ⇧";
+"Double ⇧" = "İki Kez ⇧";
 "Go to File" = "Dosyaya Git";
-"Open Folder" = "Klasörü Aç";
+"Open Folder" = "Klasör Aç";
 "Project View" = "Proje Görünümü";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Dosya diskte değişti. Düzenlemeleriniz tutuldu. Her iki sürümü de korumak için bir kopyasını kaydedin.";
-"The file is a binary file." = "Dosya bir ikili dosyadır.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Diskteki dosya değişti. Düzenlemeleriniz düzenleyicide tutuluyor. Her iki sürümü de korumak için bir kopya kaydedin.";
+"The file is a binary file." = "Bu bir ikili dosya.";
 "The file's text encoding could not be determined." = "Dosyanın metin kodlaması belirlenemedi.";
-"The text cannot be saved in %@." = "Metin %@ kodlamasında kaydedilemiyor.";
+"The text cannot be saved in %@." = "Metin %@ kodlamasıyla kaydedilemiyor.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Yeni Klasör";
 "New File" = "Yeni Dosya";
-"Enter a name in “%@”. Use / to create nested folders." = "\"%@\" içinde bir ad girin. İç içe klasörler oluşturmak için / kullanın.";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” içinde bir ad girin. İç içe klasörler oluşturmak için / kullanın.";
 "Rename" = "Yeniden Adlandır";
-"Enter a new name for “%@”." = "\"%@\" için yeni bir ad girin.";
-"Move “%@” to the Trash?" = "\"%@\" Çöp Sepeti'ne taşınsın mı?";
+"Enter a new name for “%@”." = "“%@” için yeni bir ad girin.";
+"Move “%@” to the Trash?" = "“%@” Çöp Sepeti'ne taşınsın mı?";
 "The folder and everything in it will be moved to the Trash." = "Klasör ve içindeki her şey Çöp Sepeti'ne taşınacak.";
-"You can restore it from the Trash." = "Çöp Sepeti'nden geri yükleyebilirsiniz.";
+"You can restore it from the Trash." = "Öğeyi Çöp Sepeti'nden geri yükleyebilirsiniz.";
 "Move to Trash" = "Çöp Sepeti'ne Taşı";
 "OK" = "Tamam";
 "Rename…" = "Yeniden Adlandır…";
 "Copy Path" = "Yolu Kopyala";
 "Copy Relative Path" = "Göreli Yolu Kopyala";
 "Reveal in Finder" = "Finder'da Göster";
-"Open in Terminal" = "Terminal'de Aç";
+"Open in Terminal" = "Terminalde Aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Sol Panel";
@@ -118,7 +118,7 @@
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Dosyalar";
 "Double ⇧ to search everywhere" = "Her yerde aramak için ⇧ tuşuna iki kez basın";
-"Type a file name (use / to match the path)" = "Bir dosya adı yazın (yolla eşleştirmek için / kullanın)";
+"Type a file name (use / to match the path)" = "Bir dosya adı yazın (yola göre aramak için / kullanın)";
 "No recent files" = "Son kullanılan dosya yok";
-"Recent Files" = "Son Dosyalar";
-"Matches: %1$ld / Files: %2$ld" = "Eşleşme: %1$ld / Dosya: %2$ld";
+"Recent Files" = "Son Kullanılan Dosyalar";
+"Matches: %1$ld / Files: %2$ld" = "Eşleşmeler: %1$ld / Dosyalar: %2$ld";

@@ -13,62 +13,62 @@
 "File" = "Ffeil";
 "Edit" = "Golygu";
 "View" = "Golwg";
-"Navigate" = "Llywiwch";
+"Navigate" = "Llywio";
 "Window" = "Ffenestr";
-"About Sumi" = "Am y cais Sumi";
 "Language" = "Iaith";
+"About Sumi" = "Ynghylch Sumi";
 "Services" = "Gwasanaethau";
 "Hide Sumi" = "Cuddio Sumi";
-"Hide Others" = "Cuddio Eraill";
-"Show All" = "Dangos Pawb";
+"Hide Others" = "Cuddio'r lleill";
+"Show All" = "Dangos popeth";
 "Quit Sumi" = "Gadael Sumi";
-"System Default" = "System ddiofyn";
-"New File…" = "Ffeil Newydd…";
-"New Folder…" = "Ffolder Newydd…";
-"New Terminal Tab" = "Tab Terfynell Newydd";
+"System Default" = "Rhagosodiad y system";
+"New File…" = "Ffeil newydd…";
+"New Folder…" = "Ffolder newydd…";
+"New Terminal Tab" = "Tab terfynell newydd";
 "Open…" = "Agor…";
-"Save" = "Arbed";
-"Save All" = "Arbed Pawb";
-"Close Tab" = "Cau Tab";
-"Close Window" = "Cau Ffenestr";
+"Save" = "Cadw";
+"Save All" = "Cadw popeth";
+"Close Tab" = "Cau'r tab";
+"Close Window" = "Cau'r ffenestr";
 "Undo" = "Dadwneud";
-"Redo" = "Ail-wneud";
+"Redo" = "Ailwneud";
 "Cut" = "Torri";
-"Copy" = "Copi";
+"Copy" = "Copïo";
 "Paste" = "Gludo";
-"Select All" = "Dewiswch Pawb";
-"Find…" = "Dod o hyd i…";
-"Replace…" = "Disodli…";
-"Find Next" = "Darganfod Nesaf";
-"Find Previous" = "Darganfod Blaenorol";
-"Use Selection for Find" = "Defnyddiwch Dewis ar gyfer Darganfod";
-"Find" = "Darganfod";
+"Select All" = "Dewis popeth";
+"Find…" = "Canfod…";
+"Replace…" = "Amnewid…";
+"Find Next" = "Canfod y nesaf";
+"Find Previous" = "Canfod y blaenorol";
+"Use Selection for Find" = "Chwilio am y testun a ddewiswyd";
+"Find" = "Canfod";
 "Project" = "Prosiect";
 "Terminal" = "Terfynell";
-"Swap Terminal and Project" = "Terfynell a Phrosiect Cyfnewid";
-"Maximize Terminal" = "Uchafu Terfynell";
-"GPU Rendering" = "Rendro GPU";
-"Soft-Wrap" = "Lapio llinellau testun hir yn awtomatig";
-"Toggle Preview" = "Toglo Rhagolwg";
-"Increase Font Size" = "Cynyddu Maint Ffont";
-"Decrease Font Size" = "Lleihau Maint Ffont";
-"Reset Font Size" = "Ailosod Maint Ffont";
-"Search Everywhere (Double ⇧)" = "Chwilio ym mhobman (Dwbl ⇧)";
-"Select in Project View" = "Dewiswch yn Project View";
-"Next Tab" = "Tab Nesaf";
-"Previous Tab" = "Tab Blaenorol";
-"Minimize" = "Lleihewch";
-"Zoom" = "Chwyddo";
-"Bring All to Front" = "Dewch â Phob i'r Blaen";
+"Swap Terminal and Project" = "Cyfnewid y derfynell a'r prosiect";
+"Maximize Terminal" = "Ehangu'r derfynell";
+"GPU Rendering" = "Rendro â GPU";
+"Soft-Wrap" = "Amlapio llinellau";
+"Toggle Preview" = "Dangos/cuddio'r rhagolwg";
+"Increase Font Size" = "Cynyddu maint y ffont";
+"Decrease Font Size" = "Lleihau maint y ffont";
+"Reset Font Size" = "Ailosod maint y ffont";
+"Search Everywhere (Double ⇧)" = "Chwilio ym mhobman (⇧ ddwywaith)";
+"Select in Project View" = "Dewis yng ngolwg y prosiect";
+"Next Tab" = "Tab nesaf";
+"Previous Tab" = "Tab blaenorol";
+"Minimize" = "Lleihau";
+"Zoom" = "Ehangu'r ffenestr";
+"Bring All to Front" = "Dod â phob ffenestr i'r blaen";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lleol";
 "Local (%ld)" = "Lleol (%ld)";
-"Hide Terminal" = "Cuddio Terfynell";
+"Hide Terminal" = "Cuddio'r derfynell";
 "Close" = "Cau";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Cau sesiynau terfynell rhedeg?";
+"Close running terminal sessions?" = "Cau'r sesiynau terfynell sy'n rhedeg?";
 "These processes will be stopped:" = "Bydd y prosesau hyn yn cael eu hatal:";
 "Cancel" = "Canslo";
 
@@ -76,49 +76,49 @@
 "Save a Copy…" = "Cadw copi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Golygydd yn Unig";
-"Editor and Preview" = "Golygydd a Rhagolwg";
-"Preview Only" = "Rhagolwg yn Unig";
+"Editor Only" = "Golygydd yn unig";
+"Editor and Preview" = "Golygydd a rhagolwg";
+"Preview Only" = "Rhagolwg yn unig";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Llefydd: %ld";
-"Plain Text" = "Testun Plaen";
+"Spaces: %ld" = "Bylchau: %ld";
+"Plain Text" = "Testun plaen";
 "Search Everywhere" = "Chwilio ym mhobman";
-"Double ⇧" = "Dwbl ⇧";
-"Go to File" = "Ewch i Ffeil";
-"Open Folder" = "Agor Ffolder";
-"Project View" = "Golwg Prosiect";
+"Double ⇧" = "⇧ ddwywaith";
+"Go to File" = "Mynd i ffeil";
+"Open Folder" = "Agor ffolder";
+"Project View" = "Golwg y prosiect";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Newidiodd y ffeil ar ddisg. Mae eich golygiadau wedi'u cadw. Cadwch gopi i gadw'r ddau fersiwn.";
-"The file is a binary file." = "Mae'r ffeil yn ffeil ddeuaidd.";
-"The file's text encoding could not be determined." = "Nid oedd modd pennu amgodio testun y ffeil.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Mae'r ffeil ar y ddisg wedi newid. Mae eich golygiadau yn dal yn y golygydd. Cadwch gopi i gadw'r ddwy fersiwn.";
+"The file is a binary file." = "Ffeil ddeuaidd yw hon.";
+"The file's text encoding could not be determined." = "Methu pennu amgodiad testun y ffeil.";
 "The text cannot be saved in %@." = "Ni ellir cadw'r testun yn %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Ffolder Newydd";
-"New File" = "Ffeil Newydd";
-"Enter a name in “%@”. Use / to create nested folders." = "Rhowch enw yn “%@”. Gwahanwch enwau ffolder gyda'r / nod i greu is-ffolderi.";
+"New Folder" = "Ffolder newydd";
+"New File" = "Ffeil newydd";
+"Enter a name in “%@”. Use / to create nested folders." = "Rhowch enw yn “%@”. Defnyddiwch / i greu ffolderi nythol.";
 "Rename" = "Ailenwi";
-"Enter a new name for “%@”." = "Rhowch enw newydd ar gyfer “%@”.";
+"Enter a new name for “%@”." = "Rhowch enw newydd ar “%@”.";
 "Move “%@” to the Trash?" = "Symud “%@” i'r Sbwriel?";
-"The folder and everything in it will be moved to the Trash." = "Bydd y ffolder a phopeth ynddo yn cael eu symud i'r Sbwriel.";
-"You can restore it from the Trash." = "Gallwch ei adfer o'r Sbwriel.";
+"The folder and everything in it will be moved to the Trash." = "Bydd y ffolder a'i holl gynnwys yn cael eu symud i'r Sbwriel.";
+"You can restore it from the Trash." = "Gallwch adfer yr eitem o'r Sbwriel.";
 "Move to Trash" = "Symud i'r Sbwriel";
-"OK" = "iawn";
-"Rename…" = "Ail-enwi…";
-"Copy Path" = "Copïo Llwybr";
-"Copy Relative Path" = "Copïo Llwybr Cymharol";
-"Reveal in Finder" = "Datgelwch yn Finder";
-"Open in Terminal" = "Agor yn y Terfynell";
+"OK" = "Iawn";
+"Rename…" = "Ailenwi…";
+"Copy Path" = "Copïo'r llwybr";
+"Copy Relative Path" = "Copïo'r llwybr cymharol";
+"Reveal in Finder" = "Dangos yn Finder";
+"Open in Terminal" = "Agor yn y derfynell";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel Chwith";
+"Left Panel" = "Panel chwith";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Ffeiliau";
-"Double ⇧ to search everywhere" = "Dwbl ⇧ i chwilio ym mhobman";
-"Type a file name (use / to match the path)" = "Teipiwch enw ffeil (defnyddiwch / i gyd-fynd â'r llwybr)";
+"Double ⇧ to search everywhere" = "Pwyswch ⇧ ddwywaith i chwilio ym mhobman";
+"Type a file name (use / to match the path)" = "Teipiwch enw ffeil (defnyddiwch / i chwilio'r llwybr)";
 "No recent files" = "Dim ffeiliau diweddar";
-"Recent Files" = "Ffeiliau Diweddar";
-"Matches: %1$ld / Files: %2$ld" = "Canlyniadau a ganfuwyd: %1$ld / Cyfanswm y ffeiliau: %2$ld";
+"Recent Files" = "Ffeiliau diweddar";
+"Matches: %1$ld / Files: %2$ld" = "Cyfatebiadau: %1$ld / Ffeiliau: %2$ld";

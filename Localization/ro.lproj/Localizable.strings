@@ -15,14 +15,14 @@
 "View" = "Vizualizare";
 "Navigate" = "Navigare";
 "Window" = "Fereastră";
+"Language" = "Limbă";
 "About Sumi" = "Despre Sumi";
-"Language" = "Limba";
 "Services" = "Servicii";
 "Hide Sumi" = "Ascunde Sumi";
 "Hide Others" = "Ascunde celelalte";
-"Show All" = "Afișează tot";
-"Quit Sumi" = "Ieșire din Sumi";
-"System Default" = "Implicit sistem";
+"Show All" = "Arată tot";
+"Quit Sumi" = "Închide Sumi";
+"System Default" = "Implicită a sistemului";
 "New File…" = "Fișier nou…";
 "New Folder…" = "Dosar nou…";
 "New Terminal Tab" = "Filă nouă de terminal";
@@ -31,35 +31,35 @@
 "Save All" = "Salvează tot";
 "Close Tab" = "Închide fila";
 "Close Window" = "Închide fereastra";
-"Undo" = "Anulează";
+"Undo" = "Anulează acțiunea";
 "Redo" = "Refă";
 "Cut" = "Decupează";
 "Copy" = "Copiază";
 "Paste" = "Lipește";
 "Select All" = "Selectează tot";
-"Find…" = "Găsește…";
+"Find…" = "Caută…";
 "Replace…" = "Înlocuiește…";
-"Find Next" = "Găsește următorul";
-"Find Previous" = "Găsește anteriorul";
-"Use Selection for Find" = "Folosește selecția pentru căutare";
-"Find" = "Găsește";
+"Find Next" = "Caută următoarea apariție";
+"Find Previous" = "Caută apariția precedentă";
+"Use Selection for Find" = "Caută textul selectat";
+"Find" = "Caută";
 "Project" = "Proiect";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Schimbă locurile terminalului și proiectului";
+"Swap Terminal and Project" = "Interschimbă terminalul și proiectul";
 "Maximize Terminal" = "Maximizează terminalul";
-"GPU Rendering" = "Redare GPU";
-"Soft-Wrap" = "Încadrare soft";
+"GPU Rendering" = "Randare GPU";
+"Soft-Wrap" = "Încadrare pe lățime";
 "Toggle Preview" = "Comută previzualizarea";
-"Increase Font Size" = "Mărește dimensiunea fontului";
-"Decrease Font Size" = "Micșorează dimensiunea fontului";
+"Increase Font Size" = "Mărește fontul";
+"Decrease Font Size" = "Micșorează fontul";
 "Reset Font Size" = "Resetează dimensiunea fontului";
-"Search Everywhere (Double ⇧)" = "Caută peste tot (dublu ⇧)";
-"Select in Project View" = "Selectează în vizualizarea proiectului";
+"Search Everywhere (Double ⇧)" = "Caută peste tot (⇧ de două ori)";
+"Select in Project View" = "Selectează în panoul proiectului";
 "Next Tab" = "Fila următoare";
-"Previous Tab" = "Fila anterioară";
+"Previous Tab" = "Fila precedentă";
 "Minimize" = "Minimizează";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Adu tot în prim-plan";
+"Zoom" = "Mărește fereastra";
+"Bring All to Front" = "Adu toate ferestrele în față";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Local";
@@ -68,12 +68,12 @@
 "Close" = "Închide";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Închideți sesiunile terminale care rulează?";
+"Close running terminal sessions?" = "Închideți sesiunile de terminal active?";
 "These processes will be stopped:" = "Aceste procese vor fi oprite:";
-"Cancel" = "Anulează";
+"Cancel" = "Renunță";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Salvați o copie...";
+"Save a Copy…" = "Salvează o copie…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Doar editorul";
@@ -84,16 +84,16 @@
 "Spaces: %ld" = "Spații: %ld";
 "Plain Text" = "Text simplu";
 "Search Everywhere" = "Caută peste tot";
-"Double ⇧" = "Dublu ⇧";
+"Double ⇧" = "⇧ de două ori";
 "Go to File" = "Mergi la fișier";
 "Open Folder" = "Deschide dosarul";
-"Project View" = "Vizualizare proiect";
+"Project View" = "Panoul proiectului";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fișierul s-a schimbat pe disc. Editările dvs. au fost păstrate. Salvați o copie pentru a păstra ambele versiuni.";
-"The file is a binary file." = "Fișierul este un fișier binar.";
-"The file's text encoding could not be determined." = "Nu s-a putut determina codarea textului fișierului.";
-"The text cannot be saved in %@." = "Textul nu poate fi salvat în codarea %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fișierul a fost modificat pe disc. Modificările dvs. sunt încă în editor. Salvați o copie pentru a păstra ambele versiuni.";
+"The file is a binary file." = "Fișierul este binar.";
+"The file's text encoding could not be determined." = "Codificarea textului din fișier nu a putut fi determinată.";
+"The text cannot be saved in %@." = "Textul nu poate fi salvat în %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Dosar nou";
@@ -103,22 +103,22 @@
 "Enter a new name for “%@”." = "Introduceți un nume nou pentru „%@”.";
 "Move “%@” to the Trash?" = "Mutați „%@” în Coș?";
 "The folder and everything in it will be moved to the Trash." = "Dosarul și tot conținutul său vor fi mutate în Coș.";
-"You can restore it from the Trash." = "Îl puteți restaura din Coș.";
+"You can restore it from the Trash." = "Puteți restaura elementul din Coș.";
 "Move to Trash" = "Mută în Coș";
 "OK" = "OK";
 "Rename…" = "Redenumește…";
 "Copy Path" = "Copiază calea";
 "Copy Relative Path" = "Copiază calea relativă";
-"Reveal in Finder" = "Afișează în Finder";
-"Open in Terminal" = "Deschide în Terminal";
+"Reveal in Finder" = "Arată în Finder";
+"Open in Terminal" = "Deschide în terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panou stâng";
+"Left Panel" = "Panoul din stânga";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fișiere";
-"Double ⇧ to search everywhere" = "Dublu ⇧ — caută peste tot";
-"Type a file name (use / to match the path)" = "Introduceți un nume de fișier (folosiți / pentru a potrivi calea)";
+"Double ⇧ to search everywhere" = "Apăsați ⇧ de două ori pentru a căuta peste tot";
+"Type a file name (use / to match the path)" = "Scrieți un nume de fișier (folosiți / pentru a căuta după cale)";
 "No recent files" = "Niciun fișier recent";
 "Recent Files" = "Fișiere recente";
 "Matches: %1$ld / Files: %2$ld" = "Potriviri: %1$ld / Fișiere: %2$ld";

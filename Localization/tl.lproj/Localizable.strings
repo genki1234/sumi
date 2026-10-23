@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Magbukas ng folder bilang isang proyekto, o isang file na ie-edit.";
-"Open" = "Bukas";
+"Open a folder as a project, or a file to edit." = "Magbukas ng folder bilang proyekto o file na ie-edit.";
+"Open" = "Buksan";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "file";
+"File" = "File";
 "Edit" = "I-edit";
 "View" = "Tingnan";
-"Navigate" = "Mag-navigate";
-"Window" = "Bintana";
-"About Sumi" = "Tungkol sa Sumi application";
+"Navigate" = "Pumunta";
+"Window" = "Window";
 "Language" = "Wika";
+"About Sumi" = "Tungkol sa Sumi";
 "Services" = "Mga serbisyo";
 "Hide Sumi" = "Itago ang Sumi";
-"Hide Others" = "Itago ang Iba";
-"Show All" = "Ipakita ang Lahat";
-"Quit Sumi" = "Mag-quit Sumi";
-"System Default" = "Gamitin ang wika ng system";
-"New File…" = "Bagong File...";
-"New Folder…" = "Bagong Folder…";
-"New Terminal Tab" = "Bagong Terminal Tab";
-"Open…" = "Buksan...";
+"Hide Others" = "Itago ang iba";
+"Show All" = "Ipakita lahat";
+"Quit Sumi" = "Lumabas sa Sumi";
+"System Default" = "Default ng system";
+"New File…" = "Bagong file…";
+"New Folder…" = "Bagong folder…";
+"New Terminal Tab" = "Bagong tab ng terminal";
+"Open…" = "Buksan…";
 "Save" = "I-save";
-"Save All" = "I-save ang Lahat";
-"Close Tab" = "Isara ang Tab";
-"Close Window" = "Isara ang Window";
+"Save All" = "I-save lahat";
+"Close Tab" = "Isara ang tab";
+"Close Window" = "Isara ang window";
 "Undo" = "I-undo";
 "Redo" = "Gawin muli";
-"Cut" = "Putulin";
+"Cut" = "Gupitin";
 "Copy" = "Kopyahin";
-"Paste" = "Idikit";
-"Select All" = "Piliin ang Lahat";
+"Paste" = "I-paste";
+"Select All" = "Piliin lahat";
 "Find…" = "Hanapin…";
-"Replace…" = "Palitan...";
-"Find Next" = "Hanapin ang Susunod";
-"Find Previous" = "Hanapin ang Nakaraan";
-"Use Selection for Find" = "Gamitin ang Selection para sa Find";
+"Replace…" = "Palitan…";
+"Find Next" = "Hanapin ang kasunod";
+"Find Previous" = "Hanapin ang nauna";
+"Use Selection for Find" = "Hanapin ang napiling teksto";
 "Find" = "Hanapin";
 "Project" = "Proyekto";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Pagpalitin ang Terminal at Proyekto";
-"Maximize Terminal" = "I-maximize ang Terminal";
-"GPU Rendering" = "Pag-render ng GPU";
-"Soft-Wrap" = "Awtomatikong balutin ang mahahabang linya ng teksto";
-"Toggle Preview" = "I-toggle ang Preview";
-"Increase Font Size" = "Palakihin ang Laki ng Font";
-"Decrease Font Size" = "Bawasan ang Laki ng Font";
-"Reset Font Size" = "I-reset ang Laki ng Font";
-"Search Everywhere (Double ⇧)" = "Maghanap Kahit Saan (Doble ⇧)";
-"Select in Project View" = "Pumili sa Project View";
-"Next Tab" = "Susunod na Tab";
-"Previous Tab" = "Nakaraang Tab";
+"Swap Terminal and Project" = "Magpalit ng puwesto ang terminal at proyekto";
+"Maximize Terminal" = "Palakihin ang terminal";
+"GPU Rendering" = "Pag-render gamit ang GPU";
+"Soft-Wrap" = "Ibalot ang linya ayon sa lapad";
+"Toggle Preview" = "Ipakita o itago ang preview";
+"Increase Font Size" = "Lakihan ang font";
+"Decrease Font Size" = "Liitan ang font";
+"Reset Font Size" = "Ibalik ang laki ng font";
+"Search Everywhere (Double ⇧)" = "Maghanap saanman (⇧ nang dalawang beses)";
+"Select in Project View" = "Piliin sa view ng proyekto";
+"Next Tab" = "Susunod na tab";
+"Previous Tab" = "Nakaraang tab";
 "Minimize" = "I-minimize";
-"Zoom" = "Mag-zoom";
-"Bring All to Front" = "Dalhin ang Lahat sa Harap";
+"Zoom" = "Palakihin ang window";
+"Bring All to Front" = "Dalhin lahat ng window sa harap";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
-"Hide Terminal" = "Itago ang Terminal";
+"Hide Terminal" = "Itago ang terminal";
 "Close" = "Isara";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Isara ang tumatakbong mga session sa terminal?";
-"These processes will be stopped:" = "Ang mga prosesong ito ay ititigil:";
+"Close running terminal sessions?" = "Isara ang mga aktibong session ng terminal?";
+"These processes will be stopped:" = "Ihihinto ang mga prosesong ito:";
 "Cancel" = "Kanselahin";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Mag-save ng Kopya...";
+"Save a Copy…" = "Mag-save ng kopya…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Editor Lang";
-"Editor and Preview" = "Editor at Preview";
-"Preview Only" = "Preview Lang";
+"Editor Only" = "Editor lang";
+"Editor and Preview" = "Editor at preview";
+"Preview Only" = "Preview lang";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Mga espasyo: %ld";
-"Plain Text" = "Hindi naka-format na teksto";
-"Search Everywhere" = "Maghanap Kahit Saan";
-"Double ⇧" = "Doble ⇧";
-"Go to File" = "Pumunta sa File";
-"Open Folder" = "Buksan ang Folder";
-"Project View" = "View ng Proyekto";
+"Plain Text" = "Plain na teksto";
+"Search Everywhere" = "Maghanap saanman";
+"Double ⇧" = "⇧ nang dalawang beses";
+"Go to File" = "Pumunta sa file";
+"Open Folder" = "Buksan ang folder";
+"Project View" = "View ng proyekto";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Nagbago ang file sa disk. Ang iyong mga pag-edit ay napanatili. Mag-save ng kopya para mapanatili ang parehong bersyon.";
-"The file is a binary file." = "Ang file ay isang binary file.";
-"The file's text encoding could not be determined." = "Hindi matukoy ang text encoding ng file.";
-"The text cannot be saved in %@." = "Hindi mase-save ang text sa %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Nagbago ang file sa disk. Nananatili sa editor ang iyong mga pagbabago. Mag-save ng kopya para mapanatili ang dalawang bersyon.";
+"The file is a binary file." = "Binary ang file na ito.";
+"The file's text encoding could not be determined." = "Hindi matukoy ang encoding ng teksto ng file.";
+"The text cannot be saved in %@." = "Hindi mai-save ang teksto sa %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Bagong Folder";
-"New File" = "Bagong File";
-"Enter a name in “%@”. Use / to create nested folders." = "Maglagay ng pangalan sa \"%@\". Paghiwalayin ang mga pangalan ng folder sa / character upang lumikha ng mga subfolder.";
+"New Folder" = "Bagong folder";
+"New File" = "Bagong file";
+"Enter a name in “%@”. Use / to create nested folders." = "Maglagay ng pangalan sa “%@”. Gumamit ng / upang gumawa ng mga folder sa loob ng ibang folder.";
 "Rename" = "Palitan ang pangalan";
-"Enter a new name for “%@”." = "Maglagay ng bagong pangalan para sa \"%@\".";
-"Move “%@” to the Trash?" = "Ilipat ang \"%@\" sa Basurahan?";
-"The folder and everything in it will be moved to the Trash." = "Ang folder at lahat ng nasa loob nito ay ililipat sa Basurahan.";
-"You can restore it from the Trash." = "Maaari mo itong ibalik mula sa Basurahan.";
-"Move to Trash" = "Ilipat sa Basura";
+"Enter a new name for “%@”." = "Maglagay ng bagong pangalan para sa “%@”.";
+"Move “%@” to the Trash?" = "Ilipat ang “%@” sa Basurahan?";
+"The folder and everything in it will be moved to the Trash." = "Ililipat sa Basurahan ang folder at lahat ng laman nito.";
+"You can restore it from the Trash." = "Maaari itong ibalik mula sa Basurahan.";
+"Move to Trash" = "Ilipat sa Basurahan";
 "OK" = "OK";
-"Rename…" = "Palitan ang pangalan...";
-"Copy Path" = "Kopyahin ang Landas";
-"Copy Relative Path" = "Kopyahin ang Relative Path";
+"Rename…" = "Palitan ang pangalan…";
+"Copy Path" = "Kopyahin ang path";
+"Copy Relative Path" = "Kopyahin ang relatibong path";
 "Reveal in Finder" = "Ipakita sa Finder";
-"Open in Terminal" = "Buksan sa Terminal";
+"Open in Terminal" = "Buksan sa terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Kaliwang Panel";
+"Left Panel" = "Kaliwang panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Mga file";
-"Double ⇧ to search everywhere" = "I-double ⇧ upang maghanap kahit saan";
-"Type a file name (use / to match the path)" = "Mag-type ng pangalan ng file (gamitin / para tumugma sa landas)";
-"No recent files" = "Walang kamakailang mga file";
-"Recent Files" = "Mga Kamakailang File";
-"Matches: %1$ld / Files: %2$ld" = "Nakita ang mga resulta: %1$ld / Kabuuang mga file: %2$ld";
+"Double ⇧ to search everywhere" = "Pindutin ang ⇧ nang dalawang beses para maghanap saanman";
+"Type a file name (use / to match the path)" = "I-type ang pangalan ng file (gumamit ng / para maghanap ayon sa path)";
+"No recent files" = "Walang kamakailang file";
+"Recent Files" = "Mga kamakailang file";
+"Matches: %1$ld / Files: %2$ld" = "Mga tugma: %1$ld / Mga file: %2$ld";

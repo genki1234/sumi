@@ -6,110 +6,110 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Проект буларак папка яки редакцияләү өчен файл ачыгыз.";
-"Open" = "Ачык";
+"Open a folder as a project, or a file to edit." = "Папканы проект итеп яки файлны төзәтү өчен ачыгыз.";
+"Open" = "Ачу";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Файл";
-"Edit" = "Редакцияләү";
-"View" = "Карарга";
-"Navigate" = "Навигация";
+"Edit" = "Төзәтү";
+"View" = "Күренеш";
+"Navigate" = "Күчү";
 "Window" = "Тәрәзә";
-"About Sumi" = "Sumi гаризасы турында";
 "Language" = "Тел";
+"About Sumi" = "Sumi турында";
 "Services" = "Хезмәтләр";
-"Hide Sumi" = "Sumi яшер";
-"Hide Others" = "Башкаларны яшерегез";
-"Show All" = "Барысын да күрсәт";
-"Quit Sumi" = "Sumi ташлагыз";
-"System Default" = "Килешү системасы";
+"Hide Sumi" = "Sumi яшерү";
+"Hide Others" = "Башкаларны яшерү";
+"Show All" = "Барысын күрсәтү";
+"Quit Sumi" = "Sumi эшен тәмамлау";
+"System Default" = "Система теле";
 "New File…" = "Яңа файл…";
-"New Folder…" = "Яңа Папка…";
-"New Terminal Tab" = "Яңа Терминал";
-"Open…" = "Ачык…";
-"Save" = "Саклагыз";
-"Save All" = "Барысын да саклагыз";
-"Close Tab" = "Ябу";
+"New Folder…" = "Яңа папка…";
+"New Terminal Tab" = "Яңа терминал салынмасы";
+"Open…" = "Ачу…";
+"Save" = "Саклау";
+"Save All" = "Барысын саклау";
+"Close Tab" = "Салынманы ябу";
 "Close Window" = "Тәрәзәне ябу";
-"Undo" = "Кире кайтару";
+"Undo" = "Гамәлне кире кайтару";
 "Redo" = "Кабатлау";
-"Cut" = "Кис";
-"Copy" = "Күчермә";
-"Paste" = "Паста";
-"Select All" = "Барысын да сайлагыз";
-"Find…" = "Табыгыз…";
-"Replace…" = "Алмаштырыгыз…";
-"Find Next" = "Киләсе табыгыз";
-"Find Previous" = "Алдагысын табыгыз";
-"Use Selection for Find" = "Табу өчен сайлау кулланыгыз";
+"Cut" = "Кисеп алу";
+"Copy" = "Күчереп алу";
+"Paste" = "Өстәү";
+"Select All" = "Барысын сайлау";
+"Find…" = "Табу…";
+"Replace…" = "Алыштыру…";
+"Find Next" = "Киләсен табу";
+"Find Previous" = "Алдагысын табу";
+"Use Selection for Find" = "Сайланган текстны эзләү";
 "Find" = "Эзләү";
 "Project" = "Проект";
 "Terminal" = "Терминал";
-"Swap Terminal and Project" = "Терминалны алыштыру һәм проект";
-"Maximize Terminal" = "Терминалны максимальләштерегез";
-"GPU Rendering" = "GPU Рендеринг";
-"Soft-Wrap" = "Озын текст сызыкларын автоматик рәвештә урыгыз";
-"Toggle Preview" = "Алдан карау";
-"Increase Font Size" = "Шрифт күләмен арттыру";
-"Decrease Font Size" = "Шрифт күләмен киметү";
-"Reset Font Size" = "Шрифт размерын яңарту";
-"Search Everywhere (Double ⇧)" = "Everyәркайда эзләгез (икеләтә ⇧)";
-"Select in Project View" = "Проект күренешендә сайлагыз";
-"Next Tab" = "Киләсе кыстыргыч";
+"Swap Terminal and Project" = "Терминал белән проект урыннарын алыштыру";
+"Maximize Terminal" = "Терминалны зурайту";
+"GPU Rendering" = "GPU аша сурәтләү";
+"Soft-Wrap" = "Юлларны киңлеккә карап төрү";
+"Toggle Preview" = "Алдан карауны күрсәтү яки яшерү";
+"Increase Font Size" = "Хәрефләрне зурайту";
+"Decrease Font Size" = "Хәрефләрне кечерәйтү";
+"Reset Font Size" = "Хәреф зурлыгын торгызу";
+"Search Everywhere (Double ⇧)" = "Һәркайда эзләү (⇧ ике тапкыр)";
+"Select in Project View" = "Проект агачында сайлау";
+"Next Tab" = "Киләсе салынма";
 "Previous Tab" = "Алдагы салынма";
-"Minimize" = "Минимум";
-"Zoom" = "Зурайту";
-"Bring All to Front" = "Барысын да фронтка китерегез";
+"Minimize" = "Тәрәзәне җыю";
+"Zoom" = "Тәрәзәне зурайту";
+"Bring All to Front" = "Барлык тәрәзәләрне алга чыгару";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Localирле";
-"Local (%ld)" = "Localирле (%ld)";
-"Hide Terminal" = "Терминалны яшерегез";
+"Local" = "Җирле";
+"Local (%ld)" = "Җирле (%ld)";
+"Hide Terminal" = "Терминалны яшерү";
 "Close" = "Ябу";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Терминал сессияләрен ябу?";
+"Close running terminal sessions?" = "Эшләүче терминал сеансларын ябаргамы?";
 "These processes will be stopped:" = "Бу процесслар туктатылачак:";
 "Cancel" = "Баш тарту";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Күчермәне саклагыз ...";
+"Save a Copy…" = "Күчермәне саклау…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Редактор гына";
-"Editor and Preview" = "Редактор һәм алдан карау";
-"Preview Only" = "Алдан карау";
+"Editor Only" = "Мөхәррир генә";
+"Editor and Preview" = "Мөхәррир һәм алдан карау";
+"Preview Only" = "Алдан карау гына";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Бәйлекләр: %ld";
+"Spaces: %ld" = "Бушлыклар: %ld";
 "Plain Text" = "Гади текст";
-"Search Everywhere" = "Everyәркайда эзләгез";
-"Double ⇧" = "Ике тапкыр ⇧";
-"Go to File" = "Файлга керегез";
-"Open Folder" = "Ачык папка";
-"Project View" = "Проект күренеше";
+"Search Everywhere" = "Һәркайда эзләү";
+"Double ⇧" = "⇧ ике тапкыр";
+"Go to File" = "Файлга күчү";
+"Open Folder" = "Папканы ачу";
+"Project View" = "Проект агачы";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Файл дискта үзгәрде. Сезнең редакцияләр сакланган. Ике версиясен дә саклап калу өчен күчермәсен саклагыз.";
-"The file is a binary file." = "Файл - икеләтә файл.";
-"The file's text encoding could not be determined." = "Файлның текст кодлау билгеләнә алмады.";
-"The text cannot be saved in %@." = "%@ текстны саклап булмый.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Дисктагы файл үзгәрде. Сезнең төзәтүләр мөхәррирдә тотыла. Ике версияне дә калдыру өчен күчермәне саклагыз.";
+"The file is a binary file." = "Бу икеле файл.";
+"The file's text encoding could not be determined." = "Файл текстының кодланышын билгеләп булмады.";
+"The text cannot be saved in %@." = "Текстны %@ кодланышында саклап булмый.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Яңа папка";
 "New File" = "Яңа файл";
-"Enter a name in “%@”. Use / to create nested folders." = "\"%@\" дә исем кертегез. Субфолдерлар ясау өчен папка исемнәрен / символ белән аерыгыз.";
-"Rename" = "Исемнең исемен үзгәртү";
-"Enter a new name for “%@”." = "\"%@\" өчен яңа исем кертегез.";
-"Move “%@” to the Trash?" = "\"%@\" ны чүпкә күчерегез?";
-"The folder and everything in it will be moved to the Trash." = "Папка һәм андагы бар нәрсә чүпкә күчереләчәк.";
-"You can restore it from the Trash." = "Сез аны чүплектән торгыза аласыз.";
-"Move to Trash" = "Чүпкә күчегез";
-"OK" = "Ярар";
-"Rename…" = "Исемен үзгәртү ...";
-"Copy Path" = "Pлны күчерү";
-"Copy Relative Path" = "Нисби юлны күчерү";
-"Reveal in Finder" = "Finder";
+"Enter a name in “%@”. Use / to create nested folders." = "«%@» эчендә исем кертегез. Эчке папкалар ясау өчен / кулланыгыз.";
+"Rename" = "Исемен үзгәртү";
+"Enter a new name for “%@”." = "«%@» өчен яңа исем кертегез.";
+"Move “%@” to the Trash?" = "«%@» объектын чүплеккә күчерергәме?";
+"The folder and everything in it will be moved to the Trash." = "Папка һәм аның бөтен эчтәлеге чүплеккә күчереләчәк.";
+"You can restore it from the Trash." = "Аны чүплектән торгызып була.";
+"Move to Trash" = "Чүплеккә күчерү";
+"OK" = "Ярый";
+"Rename…" = "Исемен үзгәртү…";
+"Copy Path" = "Юлны күчереп алу";
+"Copy Relative Path" = "Чагыштырма юлны күчереп алу";
+"Reveal in Finder" = "Finder эчендә күрсәтү";
 "Open in Terminal" = "Терминалда ачу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Файллар";
-"Double ⇧ to search everywhere" = "Ике тапкыр everywhere бөтен җирдә эзләү";
-"Type a file name (use / to match the path)" = "Файл исемен языгыз (юлны куллану өчен / кулланыгыз)";
+"Double ⇧ to search everywhere" = "Һәркайда эзләү өчен ⇧ төймәсенә ике тапкыр басыгыз";
+"Type a file name (use / to match the path)" = "Файл исемен языгыз (юл буенча эзләү өчен / кулланыгыз)";
 "No recent files" = "Соңгы файллар юк";
 "Recent Files" = "Соңгы файллар";
-"Matches: %1$ld / Files: %2$ld" = "Нәтиҗә табылды: %1$ld / Барлык файллар: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Тәңгәл килүләр: %1$ld / Файллар: %2$ld";

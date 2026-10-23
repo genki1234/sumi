@@ -6,70 +6,70 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Bukak folder minangka proyek, utawa file sing arep diowahi.";
-"Open" = "Mbukak";
+"Open a folder as a project, or a file to edit." = "Bukak folder minangka proyek, utawa berkas kanggo diowahi.";
+"Open" = "Bukak";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "File";
+"File" = "Berkas";
 "Edit" = "Sunting";
-"View" = "Ndeleng";
+"View" = "Tampilan";
 "Navigate" = "Navigasi";
-"Window" = "jendhela";
-"About Sumi" = "Babagan aplikasi Sumi";
+"Window" = "Jendhela";
 "Language" = "Basa";
+"About Sumi" = "Babagan Sumi";
 "Services" = "Layanan";
-"Hide Sumi" = "Singidaken Sumi";
-"Hide Others" = "Singidaken Liyane";
+"Hide Sumi" = "Singidake Sumi";
+"Hide Others" = "Singidake Liyane";
 "Show All" = "Tampilake Kabeh";
-"Quit Sumi" = "Mung Sumi";
-"System Default" = "Sistem Default";
-"New File…" = "File anyar…";
-"New Folder…" = "Folder anyar…";
+"Quit Sumi" = "Metu saka Sumi";
+"System Default" = "Gawan Sistem";
+"New File…" = "Berkas Anyar…";
+"New Folder…" = "Folder Anyar…";
 "New Terminal Tab" = "Tab Terminal Anyar";
 "Open…" = "Bukak…";
 "Save" = "Simpen";
 "Save All" = "Simpen Kabeh";
 "Close Tab" = "Tutup Tab";
-"Close Window" = "Tutup Jendela";
-"Undo" = "batalaken";
-"Redo" = "Baleni maneh";
-"Cut" = "Cut teks";
-"Copy" = "Nyalin";
+"Close Window" = "Tutup Jendhela";
+"Undo" = "Batalake Owahan";
+"Redo" = "Baleni Owahan";
+"Cut" = "Cuthet";
+"Copy" = "Salin";
 "Paste" = "Tempel";
 "Select All" = "Pilih Kabeh";
-"Find…" = "Golek…";
+"Find…" = "Goleki…";
 "Replace…" = "Ganti…";
-"Find Next" = "Golek Sabanjure";
-"Find Previous" = "Golek Sadurunge";
-"Use Selection for Find" = "Gunakake Pilihan kanggo Golek";
-"Find" = "Golek";
+"Find Next" = "Goleki Sabanjure";
+"Find Previous" = "Goleki Sadurunge";
+"Use Selection for Find" = "Goleki Teks sing Dipilih";
+"Find" = "Goleki";
 "Project" = "Proyek";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal lan Proyek";
-"Maximize Terminal" = "Maksimalkan Terminal";
-"GPU Rendering" = "Render grafis nggunakake GPU";
-"Soft-Wrap" = "Lebokake garis teks dawa kanthi otomatis";
-"Toggle Preview" = "Tampilake utawa ndhelikake pratinjau";
-"Increase Font Size" = "Tambah Ukuran Font";
-"Decrease Font Size" = "Ngurangi Ukuran Font";
-"Reset Font Size" = "Reset Ukuran Font";
-"Search Everywhere (Double ⇧)" = "Telusuri nang endi wae (Dobel ⇧)";
-"Select in Project View" = "Pilih ing Tampilan Proyek";
+"Swap Terminal and Project" = "Ijolake Terminal lan Proyek";
+"Maximize Terminal" = "Gedhekake Terminal Sakabehe";
+"GPU Rendering" = "Panggambaran GPU";
+"Soft-Wrap" = "Larik Otomatis";
+"Toggle Preview" = "Tampilake/Singidake Pratinjau";
+"Increase Font Size" = "Gedhekake Aksara";
+"Decrease Font Size" = "Cilikake Aksara";
+"Reset Font Size" = "Balekake Ukuran Aksara";
+"Search Everywhere (Double ⇧)" = "Goleki ing Endi Wae (⇧ Kaping Pindho)";
+"Select in Project View" = "Pilih ing Wit Proyek";
 "Next Tab" = "Tab Sabanjure";
-"Previous Tab" = "Tab sadurunge";
-"Minimize" = "nyilikake";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Nggawa Kabeh menyang Ngarep";
+"Previous Tab" = "Tab Sadurunge";
+"Minimize" = "Cilikake";
+"Zoom" = "Gedhekake Jendhela";
+"Bring All to Front" = "Gawa Kabeh Jendhela menyang Ngarep";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokal";
 "Local (%ld)" = "Lokal (%ld)";
-"Hide Terminal" = "Singidaken Terminal";
-"Close" = "Nutup";
+"Hide Terminal" = "Singidake Terminal";
+"Close" = "Tutup";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Nutup sesi terminal sing mlaku?";
-"These processes will be stopped:" = "Proses iki bakal mandheg:";
+"Close running terminal sessions?" = "Tutup sesi terminal sing isih mlaku?";
+"These processes will be stopped:" = "Proses iki bakal diendhegake:";
 "Cancel" = "Batal";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -78,47 +78,47 @@
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Mung Editor";
 "Editor and Preview" = "Editor lan Pratinjau";
-"Preview Only" = "Pratinjau Mung";
+"Preview Only" = "Mung Pratinjau";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Spasi: %ld";
-"Plain Text" = "Teks Plain";
-"Search Everywhere" = "Telusuri nang endi wae";
-"Double ⇧" = "Pindho ⇧";
-"Go to File" = "Pindhah menyang File";
+"Plain Text" = "Teks Biasa";
+"Search Everywhere" = "Goleki ing Endi Wae";
+"Double ⇧" = "⇧ Kaping Pindho";
+"Go to File" = "Menyang Berkas";
 "Open Folder" = "Bukak Folder";
-"Project View" = "Tampilan Proyek";
+"Project View" = "Wit Proyek";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "File diganti ing disk. Suntingan sampeyan wis disimpen. Simpen salinan kanggo ngreksa versi loro.";
-"The file is a binary file." = "Berkas kasebut minangka file binar.";
-"The file's text encoding could not be determined." = "Encoding teks file ora bisa ditemtokake.";
-"The text cannot be saved in %@." = "Teks ora bisa disimpen ing %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Berkas ing disk wis owah. Suntingan sampeyan tetep ana ing editor. Simpen salinan supaya loro versi tetep ana.";
+"The file is a binary file." = "Berkas iki berkas biner.";
+"The file's text encoding could not be determined." = "Enkoding teks berkas ora bisa ditemtokake.";
+"The text cannot be saved in %@." = "Teks ora bisa disimpen nganggo enkoding %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Folder anyar";
-"New File" = "File anyar";
-"Enter a name in “%@”. Use / to create nested folders." = "Ketik jeneng ing \"%@\". Pisahake jeneng folder kanthi karakter / kanggo nggawe subfolder.";
-"Rename" = "Ganti jeneng";
-"Enter a new name for “%@”." = "Ketik jeneng anyar kanggo \"%@\".";
-"Move “%@” to the Trash?" = "Pindhah \"%@\" menyang Trash?";
-"The folder and everything in it will be moved to the Trash." = "Folder lan kabeh isine bakal dipindhah menyang Trash.";
-"You can restore it from the Trash." = "Sampeyan bisa mulihake saka Trash.";
-"Move to Trash" = "Pindhah menyang Trash";
+"New Folder" = "Folder Anyar";
+"New File" = "Berkas Anyar";
+"Enter a name in “%@”. Use / to create nested folders." = "Lebokake jeneng ing “%@”. Gunakake / kanggo nggawe folder ing njero folder.";
+"Rename" = "Ganti Jeneng";
+"Enter a new name for “%@”." = "Lebokake jeneng anyar kanggo “%@”.";
+"Move “%@” to the Trash?" = "Pindhah “%@” menyang Uwuh?";
+"The folder and everything in it will be moved to the Trash." = "Folder lan kabeh isine bakal dipindhah menyang Uwuh.";
+"You can restore it from the Trash." = "Sampeyan bisa mbalekake saka Uwuh.";
+"Move to Trash" = "Pindhah menyang Uwuh";
 "OK" = "OK";
-"Rename…" = "Ganti jeneng…";
+"Rename…" = "Ganti Jeneng…";
 "Copy Path" = "Salin Path";
 "Copy Relative Path" = "Salin Path Relatif";
-"Reveal in Finder" = "Dicethakaké ana ing Finder";
+"Reveal in Finder" = "Tampilake ing Finder";
 "Open in Terminal" = "Bukak ing Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel kiwa";
+"Left Panel" = "Panel Kiwa";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "File";
-"Double ⇧ to search everywhere" = "Pindho ⇧ kanggo nggoleki ing endi wae";
-"Type a file name (use / to match the path)" = "Ketik jeneng file (gunakake / kanggo cocog path)";
-"No recent files" = "Ora ana file anyar";
-"Recent Files" = "File paling anyar";
-"Matches: %1$ld / Files: %2$ld" = "Asil ditemokake: %1$ld / Total file: %2$ld";
+"Files" = "Berkas";
+"Double ⇧ to search everywhere" = "Pencet ⇧ kaping pindho kanggo nggoleki ing endi wae";
+"Type a file name (use / to match the path)" = "Ketik jeneng berkas (gunakake / kanggo nggoleki path)";
+"No recent files" = "Ora ana berkas pungkasan";
+"Recent Files" = "Berkas Pungkasan";
+"Matches: %1$ld / Files: %2$ld" = "Sing Cocog: %1$ld / Berkas: %2$ld";

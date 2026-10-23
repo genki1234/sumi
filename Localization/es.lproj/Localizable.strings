@@ -13,16 +13,16 @@
 "File" = "Archivo";
 "Edit" = "Edición";
 "View" = "Visualización";
-"Navigate" = "Navegar";
+"Navigate" = "Navegación";
 "Window" = "Ventana";
-"About Sumi" = "Acerca de Sumi";
 "Language" = "Idioma";
+"About Sumi" = "Acerca de Sumi";
 "Services" = "Servicios";
 "Hide Sumi" = "Ocultar Sumi";
 "Hide Others" = "Ocultar otros";
 "Show All" = "Mostrar todo";
 "Quit Sumi" = "Salir de Sumi";
-"System Default" = "Valor predeterminado del sistema";
+"System Default" = "Predeterminado del sistema";
 "New File…" = "Nuevo archivo…";
 "New Folder…" = "Nueva carpeta…";
 "New Terminal Tab" = "Nueva pestaña de terminal";
@@ -41,25 +41,25 @@
 "Replace…" = "Reemplazar…";
 "Find Next" = "Buscar siguiente";
 "Find Previous" = "Buscar anterior";
-"Use Selection for Find" = "Usar selección para buscar";
+"Use Selection for Find" = "Buscar el texto seleccionado";
 "Find" = "Buscar";
 "Project" = "Proyecto";
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Intercambiar terminal y proyecto";
 "Maximize Terminal" = "Maximizar terminal";
-"GPU Rendering" = "Representación de GPU";
+"GPU Rendering" = "Renderizado con GPU";
 "Soft-Wrap" = "Ajuste de línea";
-"Toggle Preview" = "Alternar vista previa";
-"Increase Font Size" = "Aumentar tamaño de fuente";
-"Decrease Font Size" = "Reducir tamaño de fuente";
-"Reset Font Size" = "Restablecer tamaño de fuente";
-"Search Everywhere (Double ⇧)" = "Buscar en todas partes (doble ⇧)";
+"Toggle Preview" = "Mostrar/ocultar vista previa";
+"Increase Font Size" = "Aumentar tamaño de letra";
+"Decrease Font Size" = "Reducir tamaño de letra";
+"Reset Font Size" = "Restablecer tamaño de letra";
+"Search Everywhere (Double ⇧)" = "Buscar en todas partes (⇧ dos veces)";
 "Select in Project View" = "Seleccionar en la vista del proyecto";
 "Next Tab" = "Pestaña siguiente";
 "Previous Tab" = "Pestaña anterior";
 "Minimize" = "Minimizar";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Traer todo al frente";
+"Zoom" = "Ampliar ventana";
+"Bring All to Front" = "Traer todas las ventanas al frente";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Local";
@@ -68,8 +68,8 @@
 "Close" = "Cerrar";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "¿Cerrar sesiones de terminal en ejecución?";
-"These processes will be stopped:" = "Estos procesos se detendrán:";
+"Close running terminal sessions?" = "¿Cerrar las sesiones de terminal en ejecución?";
+"These processes will be stopped:" = "Se detendrán estos procesos:";
 "Cancel" = "Cancelar";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -84,16 +84,16 @@
 "Spaces: %ld" = "Espacios: %ld";
 "Plain Text" = "Texto sin formato";
 "Search Everywhere" = "Buscar en todas partes";
-"Double ⇧" = "Doble ⇧";
+"Double ⇧" = "⇧ dos veces";
 "Go to File" = "Ir al archivo";
 "Open Folder" = "Abrir carpeta";
 "Project View" = "Vista del proyecto";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "El archivo cambió en el disco. Tus ediciones se han conservado. Guarde una copia para conservar ambas versiones.";
-"The file is a binary file." = "El archivo es un archivo binario.";
-"The file's text encoding could not be determined." = "No se ha podido determinar la codificación de texto del archivo.";
-"The text cannot be saved in %@." = "El texto no se puede guardar en %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "El archivo cambió en el disco. Tus cambios siguen en el editor. Guarda una copia para conservar ambas versiones.";
+"The file is a binary file." = "El archivo es binario.";
+"The file's text encoding could not be determined." = "No se pudo determinar la codificación del texto del archivo.";
+"The text cannot be saved in %@." = "El texto no se puede guardar con la codificación %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Nueva carpeta";
@@ -103,21 +103,21 @@
 "Enter a new name for “%@”." = "Introduce un nombre nuevo para «%@».";
 "Move “%@” to the Trash?" = "¿Mover «%@» a la papelera?";
 "The folder and everything in it will be moved to the Trash." = "La carpeta y todo su contenido se moverán a la papelera.";
-"You can restore it from the Trash." = "Puedes recuperarlo desde la papelera.";
+"You can restore it from the Trash." = "Puedes restaurar el elemento desde la papelera.";
 "Move to Trash" = "Mover a la papelera";
-"OK" = "OK";
+"OK" = "Aceptar";
 "Rename…" = "Cambiar nombre…";
 "Copy Path" = "Copiar ruta";
 "Copy Relative Path" = "Copiar ruta relativa";
-"Reveal in Finder" = "Mostrar en el Finder";
-"Open in Terminal" = "Abrir en el terminal";
+"Reveal in Finder" = "Mostrar en Finder";
+"Open in Terminal" = "Abrir en terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Panel izquierdo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Archivos";
-"Double ⇧ to search everywhere" = "Doble ⇧ para buscar en todas partes";
+"Double ⇧ to search everywhere" = "Pulsa ⇧ dos veces para buscar en todas partes";
 "Type a file name (use / to match the path)" = "Escribe un nombre de archivo (usa / para buscar en la ruta)";
 "No recent files" = "No hay archivos recientes";
 "Recent Files" = "Archivos recientes";

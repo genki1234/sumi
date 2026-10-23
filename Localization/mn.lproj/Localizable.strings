@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Фолдерыг төсөл эсвэл засварлах файл болгон нээнэ үү.";
-"Open" = "Нээлттэй";
+"Open a folder as a project, or a file to edit." = "Хавтсыг төсөл болгон эсвэл засах файлаа нээнэ үү.";
+"Open" = "Нээх";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Файл";
-"Edit" = "Засварлах";
-"View" = "Харах";
-"Navigate" = "Навигац";
+"Edit" = "Засах";
+"View" = "Харагдац";
+"Navigate" = "Шилжих";
 "Window" = "Цонх";
-"About Sumi" = "Sumi програмын тухай";
 "Language" = "Хэл";
-"Services" = "Үйлчилгээ";
-"Hide Sumi" = "Sumi нуух";
+"About Sumi" = "Sumi-ийн тухай";
+"Services" = "Үйлчилгээнүүд";
+"Hide Sumi" = "Sumi-г нуух";
 "Hide Others" = "Бусдыг нуух";
 "Show All" = "Бүгдийг харуулах";
-"Quit Sumi" = "Sumi дугаараас гарна уу";
+"Quit Sumi" = "Sumi-ээс гарах";
 "System Default" = "Системийн өгөгдмөл";
 "New File…" = "Шинэ файл…";
 "New Folder…" = "Шинэ хавтас…";
-"New Terminal Tab" = "Шинэ терминалын таб";
-"Open…" = "Нээлттэй…";
+"New Terminal Tab" = "Терминалын шинэ таб";
+"Open…" = "Нээх…";
 "Save" = "Хадгалах";
 "Save All" = "Бүгдийг хадгалах";
 "Close Tab" = "Табыг хаах";
 "Close Window" = "Цонхыг хаах";
 "Undo" = "Буцаах";
-"Redo" = "Дахин хий";
-"Cut" = "Таслах";
+"Redo" = "Дахин хийх";
+"Cut" = "Хайчлах";
 "Copy" = "Хуулах";
 "Paste" = "Буулгах";
-"Select All" = "Бүгдийг сонгоно уу";
-"Find…" = "Хай...";
-"Replace…" = "Солих...";
-"Find Next" = "Дараахыг олох";
-"Find Previous" = "Өмнөхийг олох";
-"Use Selection for Find" = "Хайлтын сонголтыг ашиглана уу";
-"Find" = "Хай";
+"Select All" = "Бүгдийг сонгох";
+"Find…" = "Хайх…";
+"Replace…" = "Орлуулах…";
+"Find Next" = "Дараагийнхыг хайх";
+"Find Previous" = "Өмнөхийг хайх";
+"Use Selection for Find" = "Сонгосон бичвэрийг хайх";
+"Find" = "Хайх";
 "Project" = "Төсөл";
 "Terminal" = "Терминал";
-"Swap Terminal and Project" = "Терминал ба төслийг солих";
-"Maximize Terminal" = "Терминалыг нэмэгдүүлэх";
+"Swap Terminal and Project" = "Терминал ба төслийн байрыг солих";
+"Maximize Terminal" = "Терминалыг дээд хэмжээнд томруулах";
 "GPU Rendering" = "GPU дүрслэл";
-"Soft-Wrap" = "Урт текст мөрүүдийг автоматаар боох";
-"Toggle Preview" = "Урьдчилан харахыг асаах/унтраах";
-"Increase Font Size" = "Фонтын хэмжээг нэмэгдүүлэх";
-"Decrease Font Size" = "Фонтын хэмжээг багасгах";
-"Reset Font Size" = "Фонтын хэмжээг дахин тохируулах";
-"Search Everywhere (Double ⇧)" = "Хаа сайгүй хайх (Давхар ⇧)";
-"Select in Project View" = "Төслийн харагдацаас сонгоно уу";
+"Soft-Wrap" = "Мөр нугалах";
+"Toggle Preview" = "Урьдчилан харахыг харуулах/нуух";
+"Increase Font Size" = "Үсгийн хэмжээг томруулах";
+"Decrease Font Size" = "Үсгийн хэмжээг багасгах";
+"Reset Font Size" = "Үсгийн хэмжээг сэргээх";
+"Search Everywhere (Double ⇧)" = "Хаа сайгүй хайх (⇧ хоёр удаа)";
+"Select in Project View" = "Төслийн модонд сонгох";
 "Next Tab" = "Дараагийн таб";
 "Previous Tab" = "Өмнөх таб";
-"Minimize" = "Багасгах";
-"Zoom" = "Томруулах";
-"Bring All to Front" = "Бүгдийг урд нь авчир";
+"Minimize" = "Хураах";
+"Zoom" = "Цонхыг томруулах";
+"Bring All to Front" = "Бүх цонхыг урд гаргах";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Орон нутгийн";
-"Local (%ld)" = "Орон нутгийн (%ld)";
+"Local" = "Дотоод";
+"Local (%ld)" = "Дотоод (%ld)";
 "Hide Terminal" = "Терминалыг нуух";
 "Close" = "Хаах";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Ажиллаж байгаа терминал сешнүүдийг хаах уу?";
-"These processes will be stopped:" = "Эдгээр процессууд зогсох болно:";
+"Close running terminal sessions?" = "Ажиллаж буй терминалын сессүүдийг хаах уу?";
+"These processes will be stopped:" = "Дараах процессууд зогсоно:";
 "Cancel" = "Цуцлах";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Хуулбарыг хадгалах...";
+"Save a Copy…" = "Хуулбарыг хадгалах…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Зөвхөн редактор";
+"Editor Only" = "Зөвхөн засварлагч";
 "Editor and Preview" = "Засварлагч ба урьдчилан харах";
-"Preview Only" = "Зөвхөн урьдчилан үзэх";
+"Preview Only" = "Зөвхөн урьдчилан харах";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Зай: %ld";
-"Plain Text" = "Энгийн текст";
+"Plain Text" = "Энгийн бичвэр";
 "Search Everywhere" = "Хаа сайгүй хайх";
-"Double ⇧" = "Давхар ⇧";
-"Go to File" = "Файл руу очно уу";
-"Open Folder" = "Фолдер нээх";
-"Project View" = "Төслийн харагдах байдал";
+"Double ⇧" = "⇧ хоёр удаа";
+"Go to File" = "Файл руу очих";
+"Open Folder" = "Хавтас нээх";
+"Project View" = "Төслийн мод";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Диск дээрх файл өөрчлөгдсөн. Таны засварууд хадгалагдсан. Хоёр хувилбарыг хадгалахын тулд хуулбарыг хадгална уу.";
-"The file is a binary file." = "Файл нь хоёртын файл юм.";
-"The file's text encoding could not be determined." = "Файлын текст кодчиллыг тодорхойлж чадсангүй.";
-"The text cannot be saved in %@." = "Текстийг %@ дугаарт хадгалах боломжгүй.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Диск дээрх файл өөрчлөгдсөн байна. Таны засварууд засварлагчид хэвээр байна. Хоёр хувилбарыг хоёуланг нь үлдээхийн тулд хуулбарыг хадгална уу.";
+"The file is a binary file." = "Энэ нь хоёртын файл байна.";
+"The file's text encoding could not be determined." = "Файлын бичвэрийн кодчиллыг тодорхойлж чадсангүй.";
+"The text cannot be saved in %@." = "Бичвэрийг %@ кодчиллоор хадгалах боломжгүй.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Шинэ хавтас";
 "New File" = "Шинэ файл";
-"Enter a name in “%@”. Use / to create nested folders." = "\"%@\"-д нэрийг оруулна уу. Дэд хавтас үүсгэхийн тулд хавтасны нэрийг / тэмдэгтээр тусгаарлана уу.";
-"Rename" = "Нэрээ өөрчлөх";
-"Enter a new name for “%@”." = "\"%@\"-д шинэ нэр оруулна уу.";
-"Move “%@” to the Trash?" = "\"%@\"-г Хогийн сав руу зөөх үү?";
-"The folder and everything in it will be moved to the Trash." = "Фолдер болон доторх бүх зүйлийг Хогийн сав руу зөөнө.";
-"You can restore it from the Trash." = "Та үүнийг хогийн савнаас сэргээх боломжтой.";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” дотор нэр оруулна уу. Давхар хавтас үүсгэхдээ / ашиглана уу.";
+"Rename" = "Нэрийг өөрчлөх";
+"Enter a new name for “%@”." = "“%@”-ийн шинэ нэрийг оруулна уу.";
+"Move “%@” to the Trash?" = "“%@”-г хогийн сав руу зөөх үү?";
+"The folder and everything in it will be moved to the Trash." = "Хавтас болон доторх бүх зүйл хогийн сав руу зөөгдөнө.";
+"You can restore it from the Trash." = "Үүнийг хогийн савнаас сэргээж болно.";
 "Move to Trash" = "Хогийн сав руу зөөх";
-"OK" = "OK";
-"Rename…" = "Нэр солих...";
+"OK" = "За";
+"Rename…" = "Нэрийг өөрчлөх…";
 "Copy Path" = "Замыг хуулах";
 "Copy Relative Path" = "Харьцангуй замыг хуулах";
-"Reveal in Finder" = "Finder дугаарт тодруулна уу";
-"Open in Terminal" = "Терминал дээр нээнэ үү";
+"Reveal in Finder" = "Finder-т харуулах";
+"Open in Terminal" = "Терминалд нээх";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Зүүн самбар";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Файлууд";
-"Double ⇧ to search everywhere" = "Хаа сайгүй хайхын тулд давхар ⇧";
-"Type a file name (use / to match the path)" = "Файлын нэрийг бичнэ үү (замыг тохируулахын тулд / ашиглана уу)";
-"No recent files" = "Сүүлийн үеийн файл алга";
-"Recent Files" = "Сүүлийн үеийн файлууд";
-"Matches: %1$ld / Files: %2$ld" = "Олдсон үр дүн: %1$ld / Нийт файл: %2$ld";
+"Double ⇧ to search everywhere" = "Хаа сайгүй хайхын тулд ⇧ товчийг хоёр удаа дарна уу";
+"Type a file name (use / to match the path)" = "Файлын нэрийг бичнэ үү (замаар хайхдаа / ашиглана уу)";
+"No recent files" = "Саяхны файл алга";
+"Recent Files" = "Саяхны файлууд";
+"Matches: %1$ld / Files: %2$ld" = "Тохирол: %1$ld / Файлууд: %2$ld";

@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Layihə kimi qovluğu və ya redaktə etmək üçün faylı açın.";
-"Open" = "Açıq";
+"Open a folder as a project, or a file to edit." = "Qovluğu layihə kimi və ya redaktə etmək üçün fayl açın.";
+"Open" = "Aç";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fayl";
-"Edit" = "Redaktə et";
-"View" = "Baxın";
-"Navigate" = "Naviqasiya edin";
+"Edit" = "Redaktə";
+"View" = "Görünüş";
+"Navigate" = "Naviqasiya";
 "Window" = "Pəncərə";
-"About Sumi" = "Sumi tətbiqi haqqında";
 "Language" = "Dil";
+"About Sumi" = "Sumi haqqında";
 "Services" = "Xidmətlər";
-"Hide Sumi" = "Sumi gizlət";
-"Hide Others" = "Başqalarını gizlət";
+"Hide Sumi" = "Sumi-ni gizlət";
+"Hide Others" = "Digərlərini gizlət";
 "Show All" = "Hamısını göstər";
-"Quit Sumi" = "Sumi-dən çıxın";
-"System Default" = "Sistem Defolt";
-"New File…" = "Yeni Fayl...";
-"New Folder…" = "Yeni Qovluq...";
-"New Terminal Tab" = "Yeni Terminal Tab";
-"Open…" = "Açıq...";
+"Quit Sumi" = "Sumi-dən çıx";
+"System Default" = "Sistemin standartı";
+"New File…" = "Yeni fayl…";
+"New Folder…" = "Yeni qovluq…";
+"New Terminal Tab" = "Yeni terminal vərəqi";
+"Open…" = "Aç…";
 "Save" = "Saxla";
-"Save All" = "Hamısını Saxla";
-"Close Tab" = "Nişanı bağlayın";
-"Close Window" = "Pəncərəni Bağlayın";
+"Save All" = "Hamısını saxla";
+"Close Tab" = "Vərəqi bağla";
+"Close Window" = "Pəncərəni bağla";
 "Undo" = "Geri al";
-"Redo" = "Yenidən edin";
-"Cut" = "kəsmək";
-"Copy" = "Kopyalayın";
-"Paste" = "Yapışdırın";
-"Select All" = "Hamısını seçin";
-"Find…" = "Tap...";
-"Replace…" = "Əvəz et...";
-"Find Next" = "Sonrakı tap";
-"Find Previous" = "Əvvəlkini tapın";
-"Use Selection for Find" = "Tapmaq üçün Seçimdən istifadə edin";
-"Find" = "Tapın";
+"Redo" = "Təkrar et";
+"Cut" = "Kəs";
+"Copy" = "Kopyala";
+"Paste" = "Yapışdır";
+"Select All" = "Hamısını seç";
+"Find…" = "Tap…";
+"Replace…" = "Əvəz et…";
+"Find Next" = "Növbətini tap";
+"Find Previous" = "Əvvəlkini tap";
+"Use Selection for Find" = "Seçilmiş mətnlə axtar";
+"Find" = "Axtarış";
 "Project" = "Layihə";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Terminal və Layihəni dəyişdirin";
-"Maximize Terminal" = "Terminalı maksimuma çatdırın";
-"GPU Rendering" = "GPU göstərilməsi";
-"Soft-Wrap" = "Uzun mətn sətirlərini avtomatik sarın";
-"Toggle Preview" = "Önizləməni dəyişin";
-"Increase Font Size" = "Şrift ölçüsünü artırın";
-"Decrease Font Size" = "Şrift ölçüsünü azaldın";
-"Reset Font Size" = "Şrift Ölçüsünü Sıfırlayın";
-"Search Everywhere (Double ⇧)" = "Hər yerdə axtarın (İkiqat ⇧)";
-"Select in Project View" = "Layihə Görünüşündə seçin";
-"Next Tab" = "Növbəti Tab";
-"Previous Tab" = "Əvvəlki Tab";
-"Minimize" = "minimuma endir";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Hamısını Önə Çətin";
+"Swap Terminal and Project" = "Terminal və layihənin yerini dəyiş";
+"Maximize Terminal" = "Terminalı böyüt";
+"GPU Rendering" = "GPU ilə çəkmə";
+"Soft-Wrap" = "Sətirləri bük";
+"Toggle Preview" = "Önizləməni göstər/gizlət";
+"Increase Font Size" = "Şrifti böyüt";
+"Decrease Font Size" = "Şrifti kiçilt";
+"Reset Font Size" = "Şrift ölçüsünü sıfırla";
+"Search Everywhere (Double ⇧)" = "Hər yerdə axtar (⇧ iki dəfə)";
+"Select in Project View" = "Layihə görünüşündə seç";
+"Next Tab" = "Növbəti vərəq";
+"Previous Tab" = "Əvvəlki vərəq";
+"Minimize" = "Kiçilt";
+"Zoom" = "Pəncərəni böyüt";
+"Bring All to Front" = "Bütün pəncərələri önə gətir";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "yerli";
+"Local" = "Yerli";
 "Local (%ld)" = "Yerli (%ld)";
-"Hide Terminal" = "Terminalı gizlədin";
-"Close" = "Bağlayın";
+"Hide Terminal" = "Terminalı gizlət";
+"Close" = "Bağla";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Çalışan terminal seansları bağlansın?";
+"Close running terminal sessions?" = "İşləyən terminal seansları bağlansın?";
 "These processes will be stopped:" = "Bu proseslər dayandırılacaq:";
 "Cancel" = "Ləğv et";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Kopyasını Saxla...";
+"Save a Copy…" = "Nüsxə saxla…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Yalnız redaktor";
-"Editor and Preview" = "Redaktor və Ön Baxış";
-"Preview Only" = "Yalnız Ön Baxış";
+"Editor and Preview" = "Redaktor və önizləmə";
+"Preview Only" = "Yalnız önizləmə";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Boşluqlar: %ld";
-"Plain Text" = "Düz Mətn";
-"Search Everywhere" = "Hər yerdə axtarın";
-"Double ⇧" = "İkiqat ⇧";
-"Go to File" = "Fayla keçin";
-"Open Folder" = "Qovluğu açın";
-"Project View" = "Layihə Görünüşü";
+"Plain Text" = "Sadə mətn";
+"Search Everywhere" = "Hər yerdə axtar";
+"Double ⇧" = "⇧ iki dəfə";
+"Go to File" = "Fayla keç";
+"Open Folder" = "Qovluq aç";
+"Project View" = "Layihə görünüşü";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fayl diskdə dəyişdi. Redaktələriniz saxlanılıb. Hər iki versiyanı qorumaq üçün bir nüsxəni saxlayın.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Diskdəki fayl dəyişib. Düzəlişləriniz hələ redaktordadır. Hər iki versiyanı qorumaq üçün nüsxə saxlayın.";
 "The file is a binary file." = "Fayl ikili fayldır.";
-"The file's text encoding could not be determined." = "Faylın mətn kodlamasını müəyyən etmək mümkün olmadı.";
-"The text cannot be saved in %@." = "Mətni %@-də saxlamaq mümkün deyil.";
+"The file's text encoding could not be determined." = "Faylın mətn kodlaşdırmasını müəyyən etmək mümkün olmadı.";
+"The text cannot be saved in %@." = "Mətni %@ kodlaşdırmasında saxlamaq mümkün deyil.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Yeni Qovluq";
-"New File" = "Yeni Fayl";
-"Enter a name in “%@”. Use / to create nested folders." = "“%@” ə bir ad daxil edin. Alt qovluqlar yaratmaq üçün qovluq adlarını / simvolu ilə ayırın.";
-"Rename" = "Adını dəyişdirin";
-"Enter a new name for “%@”." = "“%@” üçün yeni ad daxil edin.";
-"Move “%@” to the Trash?" = "“%@” Zibil qutusuna daşınsın?";
-"The folder and everything in it will be moved to the Trash." = "Qovluq və içindəki hər şey Zibil qutusuna köçürüləcək.";
-"You can restore it from the Trash." = "Siz onu Zibil qutusundan bərpa edə bilərsiniz.";
-"Move to Trash" = "Zibil qutusuna köçürün";
-"OK" = "OK";
-"Rename…" = "Adını dəyişdir...";
-"Copy Path" = "Yolu Kopyala";
-"Copy Relative Path" = "Nisbi yolu kopyalayın";
-"Reveal in Finder" = "Finder-də aşkar edin";
-"Open in Terminal" = "Terminalda açın";
+"New Folder" = "Yeni qovluq";
+"New File" = "Yeni fayl";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” daxilində ad yazın. İç-içə qovluqlar yaratmaq üçün / istifadə edin.";
+"Rename" = "Adını dəyiş";
+"Enter a new name for “%@”." = "“%@” üçün yeni ad yazın.";
+"Move “%@” to the Trash?" = "“%@” zibil qutusuna köçürülsün?";
+"The folder and everything in it will be moved to the Trash." = "Qovluq və bütün məzmunu zibil qutusuna köçürüləcək.";
+"You can restore it from the Trash." = "Onu zibil qutusundan bərpa edə bilərsiniz.";
+"Move to Trash" = "Zibil qutusuna köçür";
+"OK" = "Oldu";
+"Rename…" = "Adını dəyiş…";
+"Copy Path" = "Yolu kopyala";
+"Copy Relative Path" = "Nisbi yolu kopyala";
+"Reveal in Finder" = "Finder-də göstər";
+"Open in Terminal" = "Terminalda aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Sol Panel";
+"Left Panel" = "Sol panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fayllar";
-"Double ⇧ to search everywhere" = "Hər yerdə axtarmaq üçün ikiqat ⇧";
-"Type a file name (use / to match the path)" = "Fayl adını yazın (yola uyğunlaşmaq üçün / istifadə edin)";
-"No recent files" = "Ən son fayllar yoxdur";
-"Recent Files" = "Son Fayllar";
-"Matches: %1$ld / Files: %2$ld" = "Tapılan nəticələr: %1$ld / Ümumi fayl: %2$ld";
+"Double ⇧ to search everywhere" = "Hər yerdə axtarmaq üçün ⇧ düyməsini iki dəfə basın";
+"Type a file name (use / to match the path)" = "Fayl adı yazın (yolda axtarmaq üçün / istifadə edin)";
+"No recent files" = "Son fayl yoxdur";
+"Recent Files" = "Son fayllar";
+"Matches: %1$ld / Files: %2$ld" = "Uyğunluqlar: %1$ld / Fayllar: %2$ld";

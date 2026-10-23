@@ -15,17 +15,17 @@
 "View" = "Visualizar";
 "Navigate" = "Navegar";
 "Window" = "Janela";
-"About Sumi" = "Sobre o Sumi";
 "Language" = "Idioma";
+"About Sumi" = "Sobre o Sumi";
 "Services" = "Serviços";
 "Hide Sumi" = "Ocultar Sumi";
 "Hide Others" = "Ocultar Outros";
 "Show All" = "Mostrar Tudo";
 "Quit Sumi" = "Encerrar Sumi";
-"System Default" = "Padrão do sistema";
+"System Default" = "Seguir o idioma do sistema";
 "New File…" = "Novo Arquivo…";
 "New Folder…" = "Nova Pasta…";
-"New Terminal Tab" = "Nova Aba de Terminal";
+"New Terminal Tab" = "Nova Aba do Terminal";
 "Open…" = "Abrir…";
 "Save" = "Salvar";
 "Save All" = "Salvar Tudo";
@@ -39,27 +39,27 @@
 "Select All" = "Selecionar Tudo";
 "Find…" = "Buscar…";
 "Replace…" = "Substituir…";
-"Find Next" = "Buscar Próxima";
+"Find Next" = "Buscar Próximo";
 "Find Previous" = "Buscar Anterior";
-"Use Selection for Find" = "Usar Seleção para Buscar";
+"Use Selection for Find" = "Usar Seleção na Busca";
 "Find" = "Buscar";
 "Project" = "Projeto";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Trocar Terminal e Projeto";
+"Swap Terminal and Project" = "Trocar Terminal e Projeto de Lugar";
 "Maximize Terminal" = "Maximizar Terminal";
-"GPU Rendering" = "Renderização de GPU";
-"Soft-Wrap" = "Quebra de Linha Automática";
-"Toggle Preview" = "Alternar pré-visualização";
-"Increase Font Size" = "Aumentar Tamanho da Fonte";
-"Decrease Font Size" = "Diminuir Tamanho da Fonte";
-"Reset Font Size" = "Redefinir Tamanho da Fonte";
-"Search Everywhere (Double ⇧)" = "Pesquisar em Todo Lugar (⇧ duplo)";
-"Select in Project View" = "Selecionar na Visualização do Projeto";
+"GPU Rendering" = "Renderização por GPU";
+"Soft-Wrap" = "Quebrar Linhas na Largura da Janela";
+"Toggle Preview" = "Alternar Pré-visualização";
+"Increase Font Size" = "Aumentar Texto";
+"Decrease Font Size" = "Diminuir Texto";
+"Reset Font Size" = "Restaurar Tamanho do Texto";
+"Search Everywhere (Double ⇧)" = "Buscar em Todo Lugar (⇧ duas vezes)";
+"Select in Project View" = "Selecionar na Árvore do Projeto";
 "Next Tab" = "Próxima Aba";
 "Previous Tab" = "Aba Anterior";
 "Minimize" = "Minimizar";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Trazer Tudo para a Frente";
+"Zoom" = "Ajustar Tamanho da Janela";
+"Bring All to Front" = "Trazer Todas as Janelas para Frente";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Local";
@@ -68,42 +68,42 @@
 "Close" = "Fechar";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Fechar sessões de terminal em execução?";
-"These processes will be stopped:" = "Esses processos serão interrompidos:";
+"Close running terminal sessions?" = "Fechar as sessões de terminal em execução?";
+"These processes will be stopped:" = "Estes processos serão interrompidos:";
 "Cancel" = "Cancelar";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Salvar uma cópia…";
+"Save a Copy…" = "Salvar uma Cópia…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Somente editor";
-"Editor and Preview" = "Editor e pré-visualização";
-"Preview Only" = "Somente pré-visualização";
+"Editor Only" = "Somente Editor";
+"Editor and Preview" = "Editor e Pré-visualização";
+"Preview Only" = "Somente Pré-visualização";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Espaços: %ld";
 "Plain Text" = "Texto Simples";
-"Search Everywhere" = "Pesquisar em Todo Lugar";
-"Double ⇧" = "⇧ duplo";
+"Search Everywhere" = "Buscar em Todo Lugar";
+"Double ⇧" = "⇧ duas vezes";
 "Go to File" = "Ir para Arquivo";
 "Open Folder" = "Abrir Pasta";
-"Project View" = "Visualização do Projeto";
+"Project View" = "Árvore do Projeto";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "O arquivo foi alterado no disco. Suas edições foram mantidas. Salve uma cópia para preservar ambas as versões.";
-"The file is a binary file." = "O arquivo é um arquivo binário.";
-"The file's text encoding could not be determined." = "Não foi possível determinar a codificação de texto do arquivo.";
-"The text cannot be saved in %@." = "Não é possível salvar o texto em %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "O arquivo foi alterado no disco. Suas edições continuam no editor. Salve uma cópia para preservar as duas versões.";
+"The file is a binary file." = "Este arquivo é binário.";
+"The file's text encoding could not be determined." = "Não foi possível identificar a codificação de texto do arquivo.";
+"The text cannot be saved in %@." = "Não é possível salvar o texto com a codificação %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Nova Pasta";
 "New File" = "Novo Arquivo";
-"Enter a name in “%@”. Use / to create nested folders." = "Digite um nome em “%@”. Use / para criar pastas aninhadas.";
+"Enter a name in “%@”. Use / to create nested folders." = "Digite um nome em “%@”. Use / para criar pastas em vários níveis.";
 "Rename" = "Renomear";
 "Enter a new name for “%@”." = "Digite um novo nome para “%@”.";
 "Move “%@” to the Trash?" = "Mover “%@” para o Lixo?";
-"The folder and everything in it will be moved to the Trash." = "A pasta e tudo o que está nela serão movidos para o Lixo.";
-"You can restore it from the Trash." = "Você pode restaurá-lo a partir do Lixo.";
+"The folder and everything in it will be moved to the Trash." = "A pasta e todo o seu conteúdo serão movidos para o Lixo.";
+"You can restore it from the Trash." = "Você pode restaurar o item a partir do Lixo.";
 "Move to Trash" = "Mover para o Lixo";
 "OK" = "OK";
 "Rename…" = "Renomear…";
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Arquivos";
-"Double ⇧ to search everywhere" = "⇧ duplo para pesquisar em todo lugar";
+"Double ⇧ to search everywhere" = "Pressione ⇧ duas vezes para buscar em todo lugar";
 "Type a file name (use / to match the path)" = "Digite um nome de arquivo (use / para buscar no caminho)";
 "No recent files" = "Nenhum arquivo recente";
 "Recent Files" = "Arquivos Recentes";
-"Matches: %1$ld / Files: %2$ld" = "Correspondências: %1$ld / Arquivos: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Resultados: %1$ld / Arquivos: %2$ld";

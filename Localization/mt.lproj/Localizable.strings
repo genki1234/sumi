@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Iftaħ folder bħala proġett, jew fajl biex teditja.";
-"Open" = "Miftuħa";
+"Open a folder as a project, or a file to edit." = "Iftaħ folder bħala proġett, jew fajl biex teditjah.";
+"Open" = "Iftaħ";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fajl";
 "Edit" = "Editja";
-"View" = "Ara";
-"Navigate" = "Innaviga";
+"View" = "Dehra";
+"Navigate" = "Navigazzjoni";
 "Window" = "Tieqa";
-"About Sumi" = "Dwar l-applikazzjoni Sumi";
 "Language" = "Lingwa";
+"About Sumi" = "Dwar Sumi";
 "Services" = "Servizzi";
 "Hide Sumi" = "Aħbi Sumi";
-"Hide Others" = "Aħbi Oħrajn";
-"Show All" = "Uri Kollha";
-"Quit Sumi" = "Nieqaf Sumi";
-"System Default" = "Default tas-Sistema";
-"New File…" = "Fajl Ġdid...";
-"New Folder…" = "Folder ġdid...";
-"New Terminal Tab" = "Tab Terminal Ġdid";
-"Open…" = "Iftaħ...";
-"Save" = "Ħlief";
-"Save All" = "Ħlief Kollox";
-"Close Tab" = "Agħlaq Tab";
-"Close Window" = "Agħlaq Tieqa";
-"Undo" = "Ħoll";
-"Redo" = "Erġa' jagħmel";
-"Cut" = "Aqta’";
-"Copy" = "Kopja";
-"Paste" = "Pejst";
-"Select All" = "Agħżel Kollha";
-"Find…" = "Sib...";
-"Replace…" = "Ibdel...";
-"Find Next" = "Sib Li jmiss";
-"Find Previous" = "Sib Preċedenti";
-"Use Selection for Find" = "Uża l-Għażla għal Sib";
+"Hide Others" = "Aħbi l-Oħrajn";
+"Show All" = "Uri Kollox";
+"Quit Sumi" = "Oħroġ minn Sumi";
+"System Default" = "Għażla Predefinita tas-Sistema";
+"New File…" = "Fajl Ġdid…";
+"New Folder…" = "Folder Ġdid…";
+"New Terminal Tab" = "Tab Ġdida tat-Terminal";
+"Open…" = "Iftaħ…";
+"Save" = "Issejvja";
+"Save All" = "Issejvja Kollox";
+"Close Tab" = "Agħlaq it-Tab";
+"Close Window" = "Agħlaq it-Tieqa";
+"Undo" = "Treġġa' Lura";
+"Redo" = "Erġa' Agħmel";
+"Cut" = "Aqta'";
+"Copy" = "Ikkopja";
+"Paste" = "Waħħal";
+"Select All" = "Agħżel Kollox";
+"Find…" = "Sib…";
+"Replace…" = "Ibdel…";
+"Find Next" = "Sib li Jmiss";
+"Find Previous" = "Sib ta' Qabel";
+"Use Selection for Find" = "Fittex it-Test Magħżul";
 "Find" = "Sib";
 "Project" = "Proġett";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal u Proġett";
-"Maximize Terminal" = "Timmassimizza Terminal";
-"GPU Rendering" = "Agħti grafika billi tuża l-GPU";
-"Soft-Wrap" = "Kebbeb awtomatikament linji twal tat-test";
-"Toggle Preview" = "Uri jew aħbi l-previżjoni";
-"Increase Font Size" = "Żid Daqs tat-Tipa";
-"Decrease Font Size" = "Naqqas id-Daqs tat-Tipa";
-"Reset Font Size" = "Irrisettja Daqs tat-Tipa";
-"Search Everywhere (Double ⇧)" = "Fittex kullimkien (Doppju ⇧)";
-"Select in Project View" = "Agħżel fil-Proġett View";
-"Next Tab" = "Li jmiss Tab";
-"Previous Tab" = "Preċedenti Tab";
+"Swap Terminal and Project" = "Ibdel il-Pożizzjoni tat-Terminal u tal-Proġett";
+"Maximize Terminal" = "Kabbar it-Terminal għall-Massimu";
+"GPU Rendering" = "Tpinġija bil-GPU";
+"Soft-Wrap" = "Tqassim tal-Linji fuq l-Iskrin";
+"Toggle Preview" = "Uri/Aħbi l-Previżjoni";
+"Increase Font Size" = "Kabbar it-Tipa";
+"Decrease Font Size" = "Ċekken it-Tipa";
+"Reset Font Size" = "Irrisettja d-Daqs tat-Tipa";
+"Search Everywhere (Double ⇧)" = "Fittex Kullimkien (⇧ Darbtejn)";
+"Select in Project View" = "Agħżel fis-Siġra tal-Proġett";
+"Next Tab" = "Tab li Jmiss";
+"Previous Tab" = "Tab ta' Qabel";
 "Minimize" = "Imminimizza";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Ġib Kollha quddiem";
+"Zoom" = "Kabbar it-Tieqa";
+"Bring All to Front" = "Ġib it-Twieqi Kollha Quddiem";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokali";
 "Local (%ld)" = "Lokali (%ld)";
-"Hide Terminal" = "Aħbi Terminal";
+"Hide Terminal" = "Aħbi t-Terminal";
 "Close" = "Agħlaq";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Agħlaq is-sessjonijiet tat-terminal tal-ġiri?";
+"Close running terminal sessions?" = "Tagħlaq is-sessjonijiet tat-terminal li għadhom għaddejjin?";
 "These processes will be stopped:" = "Dawn il-proċessi se jitwaqqfu:";
 "Cancel" = "Ikkanċella";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Issejvja Kopja...";
+"Save a Copy…" = "Issejvja Kopja…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Editur Biss";
-"Editor and Preview" = "Editur u Preview";
-"Preview Only" = "Preview Biss";
+"Editor and Preview" = "Editur u Previżjoni";
+"Preview Only" = "Previżjoni Biss";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Spazji: %ld";
-"Plain Text" = "Test sempliċi";
+"Plain Text" = "Test Sempliċi";
 "Search Everywhere" = "Fittex Kullimkien";
-"Double ⇧" = "Agħfas ⇧ darbtejn";
+"Double ⇧" = "⇧ Darbtejn";
 "Go to File" = "Mur fil-Fajl";
 "Open Folder" = "Iftaħ Folder";
-"Project View" = "View tal-Proġett";
+"Project View" = "Siġra tal-Proġett";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Il-fajl inbidel fuq id-diska. Il-modifiki tiegħek inżammu. Issejvja kopja biex tippreserva ż-żewġ verżjonijiet.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Il-fajl fuq id-diska nbidel. Il-bidliet tiegħek għadhom fl-editur. Issejvja kopja biex iżżomm iż-żewġ verżjonijiet.";
 "The file is a binary file." = "Il-fajl huwa fajl binarju.";
-"The file's text encoding could not be determined." = "Il-kodifikazzjoni tat-test tal-fajl ma setgħetx tiġi determinata.";
-"The text cannot be saved in %@." = "It-test ma jistax jiġi ssejvjat f'%@.";
+"The file's text encoding could not be determined." = "Ma setax jiġi ddeterminat il-kodifikar tat-test tal-fajl.";
+"The text cannot be saved in %@." = "It-test ma jistax jiġi ssejvjat bil-kodifikar %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Folder Ġdid";
 "New File" = "Fajl Ġdid";
-"Enter a name in “%@”. Use / to create nested folders." = "Daħħal isem f'\"%@\". Separa l-ismijiet tal-folders bil-karattru / biex toħloq subfolders.";
-"Rename" = "Semmi mill-ġdid";
-"Enter a new name for “%@”." = "Daħħal isem ġdid għal \"%@\".";
-"Move “%@” to the Trash?" = "Mexxi \"%@\" lejn it-Trash?";
-"The folder and everything in it will be moved to the Trash." = "Il-folder u dak kollu li fih se jiġu mċaqalqa lejn it-Trash.";
-"You can restore it from the Trash." = "Tista' tirrestawraha mit-Trash.";
-"Move to Trash" = "Nimxu lejn Trash";
+"Enter a name in “%@”. Use / to create nested folders." = "Daħħal isem f’“%@”. Uża / biex toħloq folders ġewwa folders oħra.";
+"Rename" = "Ibdel l-Isem";
+"Enter a new name for “%@”." = "Daħħal isem ġdid għal “%@”.";
+"Move “%@” to the Trash?" = "Tmexxi “%@” għat-Trash?";
+"The folder and everything in it will be moved to the Trash." = "Il-folder u kull ma fih se jitmexxew għat-Trash.";
+"You can restore it from the Trash." = "Tista' tirrestawrah mit-Trash.";
+"Move to Trash" = "Mexxi għat-Trash";
 "OK" = "OK";
-"Rename…" = "Semmi mill-ġdid...";
-"Copy Path" = "Ikkopja Path";
-"Copy Relative Path" = "Ikkopja Mogħdija Relattiva";
-"Reveal in Finder" = "Ikxef f'Finder";
+"Rename…" = "Ibdel l-Isem…";
+"Copy Path" = "Ikkopja l-Mogħdija";
+"Copy Relative Path" = "Ikkopja l-Mogħdija Relattiva";
+"Reveal in Finder" = "Uri fil-Finder";
 "Open in Terminal" = "Iftaħ fit-Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel tax-Xellug";
+"Left Panel" = "Panew tax-Xellug";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fajls";
-"Double ⇧ to search everywhere" = "Irdoppja ⇧ biex tfittex kullimkien";
-"Type a file name (use / to match the path)" = "Ittajpja isem tal-fajl (uża / biex taqbel mal-mogħdija)";
-"No recent files" = "Ebda fajls riċenti";
-"Recent Files" = "Fajls riċenti";
-"Matches: %1$ld / Files: %2$ld" = "Riżultati misjuba: %1$ld / Fajls totali: %2$ld";
+"Double ⇧ to search everywhere" = "Agħfas ⇧ darbtejn biex tfittex kullimkien";
+"Type a file name (use / to match the path)" = "Ikteb isem ta' fajl (uża / biex tfittex fil-mogħdija)";
+"No recent files" = "Ebda fajl riċenti";
+"Recent Files" = "Fajls Riċenti";
+"Matches: %1$ld / Files: %2$ld" = "Qbil: %1$ld / Fajls: %2$ld";

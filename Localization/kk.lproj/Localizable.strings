@@ -7,22 +7,22 @@
 
 /* Sources/Sumi/App/AppDelegate.swift */
 "Open a folder as a project, or a file to edit." = "Қалтаны жоба ретінде немесе өңдеу үшін файлды ашыңыз.";
-"Open" = "Ашық";
+"Open" = "Ашу";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Файл";
 "Edit" = "Өңдеу";
-"View" = "Көру";
+"View" = "Көрініс";
 "Navigate" = "Шарлау";
 "Window" = "Терезе";
-"About Sumi" = "Sumi қолданбасы туралы";
 "Language" = "Тіл";
+"About Sumi" = "Sumi туралы";
 "Services" = "Қызметтер";
 "Hide Sumi" = "Sumi жасыру";
-"Hide Others" = "Басқаларды жасыру";
+"Hide Others" = "Басқаларын жасыру";
 "Show All" = "Барлығын көрсету";
-"Quit Sumi" = "Sumi нөмірінен шығыңыз";
-"System Default" = "Жүйе әдепкі";
+"Quit Sumi" = "Sumi-ден шығу";
+"System Default" = "Жүйелік әдепкі";
 "New File…" = "Жаңа файл…";
 "New Folder…" = "Жаңа қалта…";
 "New Terminal Tab" = "Жаңа терминал қойындысы";
@@ -33,33 +33,33 @@
 "Close Window" = "Терезені жабу";
 "Undo" = "Болдырмау";
 "Redo" = "Қайталау";
-"Cut" = "Кесу";
+"Cut" = "Қиып алу";
 "Copy" = "Көшіру";
 "Paste" = "Қою";
-"Select All" = "Барлығын таңдаңыз";
+"Select All" = "Барлығын таңдау";
 "Find…" = "Табу…";
 "Replace…" = "Ауыстыру…";
-"Find Next" = "Келесіні табу";
-"Find Previous" = "Алдыңғыны табу";
-"Use Selection for Find" = "Табу үшін таңдауды пайдаланыңыз";
+"Find Next" = "Келесісін табу";
+"Find Previous" = "Алдыңғысын табу";
+"Use Selection for Find" = "Таңдалған мәтінді іздеу";
 "Find" = "Табу";
 "Project" = "Жоба";
 "Terminal" = "Терминал";
-"Swap Terminal and Project" = "Терминал мен жобаны ауыстыру";
-"Maximize Terminal" = "Терминалды ұлғайту";
-"GPU Rendering" = "GPU көрсету";
-"Soft-Wrap" = "Ұзын мәтін жолдарын автоматты түрде орау";
+"Swap Terminal and Project" = "Терминал мен жобаның орнын ауыстыру";
+"Maximize Terminal" = "Терминалды барынша үлкейту";
+"GPU Rendering" = "GPU арқылы бейнелеу";
+"Soft-Wrap" = "Жолдарды тасымалдау";
 "Toggle Preview" = "Алдын ала қарауды қосу/өшіру";
-"Increase Font Size" = "Қаріп өлшемін үлкейту";
-"Decrease Font Size" = "Қаріп өлшемін кішірейту";
+"Increase Font Size" = "Қаріпті үлкейту";
+"Decrease Font Size" = "Қаріпті кішірейту";
 "Reset Font Size" = "Қаріп өлшемін қалпына келтіру";
-"Search Everywhere (Double ⇧)" = "Барлық жерден іздеу (қос ⇧)";
-"Select in Project View" = "Жоба көрінісінде таңдаңыз";
+"Search Everywhere (Double ⇧)" = "Барлық жерден іздеу (⇧ екі рет)";
+"Select in Project View" = "Жоба ағашында таңдау";
 "Next Tab" = "Келесі қойынды";
 "Previous Tab" = "Алдыңғы қойынды";
-"Minimize" = "Кішірейту";
-"Zoom" = "Масштабтау";
-"Bring All to Front" = "Барлығын алдыға апарыңыз";
+"Minimize" = "Қайыру";
+"Zoom" = "Терезені үлкейту";
+"Bring All to Front" = "Барлық терезелерді алға шығару";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Жергілікті";
@@ -68,57 +68,57 @@
 "Close" = "Жабу";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Іске қосылған терминал сеанстарын жабу керек пе?";
-"These processes will be stopped:" = "Бұл процестер тоқтатылады:";
-"Cancel" = "Болдырмау";
+"Close running terminal sessions?" = "Іске қосылған терминал сеанстары жабылсын ба?";
+"These processes will be stopped:" = "Мына процестер тоқтатылады:";
+"Cancel" = "Бас тарту";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Көшірмені сақтау…";
+"Save a Copy…" = "Көшірмесін сақтау…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Тек редактор";
-"Editor and Preview" = "Өңдеу және алдын ала қарау";
+"Editor Only" = "Тек өңдегіш";
+"Editor and Preview" = "Өңдегіш және алдын ала қарау";
 "Preview Only" = "Тек алдын ала қарау";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Бос орындар: %ld";
-"Plain Text" = "Қарапайым мәтін";
-"Search Everywhere" = "Барлық жерде іздеу";
-"Double ⇧" = "Қос ⇧";
-"Go to File" = "Файлға өтіңіз";
+"Plain Text" = "Жай мәтін";
+"Search Everywhere" = "Барлық жерден іздеу";
+"Double ⇧" = "⇧ екі рет";
+"Go to File" = "Файлға өту";
 "Open Folder" = "Қалтаны ашу";
-"Project View" = "Жоба көрінісі";
+"Project View" = "Жоба ағашы";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Дискідегі файл өзгерді. Сіздің өзгертулеріңіз сақталды. Екі нұсқаны сақтау үшін көшірмені сақтаңыз.";
-"The file is a binary file." = "Файл екілік файл болып табылады.";
-"The file's text encoding could not be determined." = "Файлдың мәтіндік кодтауын анықтау мүмкін болмады.";
-"The text cannot be saved in %@." = "Мәтінді %@ ішінде сақтау мүмкін емес.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Дискідегі файл өзгерді. Түзетулеріңіз өңдегіште қалды. Екі нұсқаны да сақтау үшін көшірме сақтаңыз.";
+"The file is a binary file." = "Бұл екілік файл.";
+"The file's text encoding could not be determined." = "Файл мәтінінің кодтамасын анықтау мүмкін болмады.";
+"The text cannot be saved in %@." = "Мәтінді %@ кодтамасында сақтау мүмкін емес.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Жаңа қалта";
 "New File" = "Жаңа файл";
-"Enter a name in “%@”. Use / to create nested folders." = "«%@» ішіне атау енгізіңіз. Ішкі қалталарды жасау үшін қалта атауларын / таңбасымен бөліңіз.";
-"Rename" = "Атын өзгерту";
+"Enter a name in “%@”. Use / to create nested folders." = "«%@» ішінде атау енгізіңіз. Ішкі қалталар жасау үшін / пайдаланыңыз.";
+"Rename" = "Атауын өзгерту";
 "Enter a new name for “%@”." = "«%@» үшін жаңа атау енгізіңіз.";
-"Move “%@” to the Trash?" = "\"%@\" себетіне жылжыту керек пе?";
-"The folder and everything in it will be moved to the Trash." = "Қалта және ондағы барлық нәрсе Себетке жіберіледі.";
+"Move “%@” to the Trash?" = "«%@» себетке жылжытылсын ба?";
+"The folder and everything in it will be moved to the Trash." = "Қалта мен оның барлық мазмұны себетке жылжытылады.";
 "You can restore it from the Trash." = "Оны себеттен қалпына келтіруге болады.";
 "Move to Trash" = "Себетке жылжыту";
 "OK" = "Жарайды";
-"Rename…" = "Атын өзгерту…";
+"Rename…" = "Атауын өзгерту…";
 "Copy Path" = "Жолды көшіру";
-"Copy Relative Path" = "Қатысты жолды көшіру";
-"Reveal in Finder" = "Finder-де ашыңыз";
-"Open in Terminal" = "Терминалда ашыңыз";
+"Copy Relative Path" = "Салыстырмалы жолды көшіру";
+"Reveal in Finder" = "Finder ішінде көрсету";
+"Open in Terminal" = "Терминалда ашу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Сол жақ панель";
+"Left Panel" = "Сол жақ тақта";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Файлдар";
-"Double ⇧ to search everywhere" = "Барлық жерде іздеу үшін ⇧ екі еселенген";
-"Type a file name (use / to match the path)" = "Файл атын теріңіз (жолды сәйкестендіру үшін / пайдаланыңыз)";
+"Double ⇧ to search everywhere" = "Барлық жерден іздеу үшін ⇧ пернесін екі рет басыңыз";
+"Type a file name (use / to match the path)" = "Файл атауын теріңіз (жолды іздеу үшін / пайдаланыңыз)";
 "No recent files" = "Соңғы файлдар жоқ";
 "Recent Files" = "Соңғы файлдар";
-"Matches: %1$ld / Files: %2$ld" = "Табылған нәтижелер: %1$ld / Барлық файлдар: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Сәйкестіктер: %1$ld / Файлдар: %2$ld";

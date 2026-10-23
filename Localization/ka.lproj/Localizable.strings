@@ -6,8 +6,8 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "გახსენით საქაღალდე, როგორც პროექტი, ან ფაილი რედაქტირებისთვის.";
-"Open" = "გახსენით";
+"Open a folder as a project, or a file to edit." = "გახსენით საქაღალდე პროექტად ან ფაილი რედაქტირებისთვის.";
+"Open" = "გახსნა";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "ფაილი";
@@ -15,61 +15,61 @@
 "View" = "ხედი";
 "Navigate" = "ნავიგაცია";
 "Window" = "ფანჯარა";
-"About Sumi" = "Sumi განაცხადის შესახებ";
 "Language" = "ენა";
+"About Sumi" = "Sumi-ს შესახებ";
 "Services" = "სერვისები";
-"Hide Sumi" = "დამალე Sumi";
+"Hide Sumi" = "Sumi-ს დამალვა";
 "Hide Others" = "სხვების დამალვა";
 "Show All" = "ყველას ჩვენება";
-"Quit Sumi" = "გამოდით Sumi";
+"Quit Sumi" = "Sumi-დან გასვლა";
 "System Default" = "სისტემის ნაგულისხმევი";
 "New File…" = "ახალი ფაილი…";
 "New Folder…" = "ახალი საქაღალდე…";
-"New Terminal Tab" = "ახალი ტერმინალის ჩანართი";
+"New Terminal Tab" = "ტერმინალის ახალი ჩანართი";
 "Open…" = "გახსნა…";
 "Save" = "შენახვა";
-"Save All" = "შეინახეთ ყველა";
+"Save All" = "ყველას შენახვა";
 "Close Tab" = "ჩანართის დახურვა";
 "Close Window" = "ფანჯრის დახურვა";
 "Undo" = "გაუქმება";
-"Redo" = "ხელახლა";
-"Cut" = "გაჭრა";
+"Redo" = "გამეორება";
+"Cut" = "ამოჭრა";
 "Copy" = "კოპირება";
-"Paste" = "პასტა";
-"Select All" = "აირჩიეთ ყველა";
-"Find…" = "იპოვე…";
+"Paste" = "ჩასმა";
+"Select All" = "ყველას მონიშვნა";
+"Find…" = "პოვნა…";
 "Replace…" = "ჩანაცვლება…";
-"Find Next" = "იპოვეთ შემდეგი";
-"Find Previous" = "იპოვე წინა";
-"Use Selection for Find" = "გამოიყენეთ შერჩევა პოვნისთვის";
-"Find" = "იპოვე";
+"Find Next" = "მომდევნოს პოვნა";
+"Find Previous" = "წინას პოვნა";
+"Use Selection for Find" = "მონიშნული ტექსტის ძიება";
+"Find" = "პოვნა";
 "Project" = "პროექტი";
 "Terminal" = "ტერმინალი";
-"Swap Terminal and Project" = "გაცვალეთ ტერმინალი და პროექტი";
-"Maximize Terminal" = "ტერმინალის მაქსიმიზაცია";
-"GPU Rendering" = "GPU რენდერი";
-"Soft-Wrap" = "ტექსტის გრძელი ხაზების ავტომატურად გადატანა";
-"Toggle Preview" = "გადახედვის გადართვა";
-"Increase Font Size" = "შრიფტის ზომის გაზრდა";
-"Decrease Font Size" = "შრიფტის ზომის შემცირება";
-"Reset Font Size" = "შრიფტის ზომის გადატვირთვა";
-"Search Everywhere (Double ⇧)" = "ძიება ყველგან (ორმაგი ⇧)";
-"Select in Project View" = "აირჩიეთ Project View-ში";
-"Next Tab" = "შემდეგი ჩანართი";
+"Swap Terminal and Project" = "ტერმინალისა და პროექტის ადგილების გაცვლა";
+"Maximize Terminal" = "ტერმინალის გაშლა";
+"GPU Rendering" = "GPU-ით გამოსახვა";
+"Soft-Wrap" = "სტრიქონების გადატანა";
+"Toggle Preview" = "წინასწარი ხედის ჩვენება/დამალვა";
+"Increase Font Size" = "შრიფტის გადიდება";
+"Decrease Font Size" = "შრიფტის შემცირება";
+"Reset Font Size" = "შრიფტის ზომის აღდგენა";
+"Search Everywhere (Double ⇧)" = "ძიება ყველგან (ორჯერ ⇧)";
+"Select in Project View" = "მონიშვნა პროექტის ხეში";
+"Next Tab" = "მომდევნო ჩანართი";
 "Previous Tab" = "წინა ჩანართი";
-"Minimize" = "მინიმიზაცია";
-"Zoom" = "მასშტაბირება";
-"Bring All to Front" = "მიიყვანეთ ყველა წინ";
+"Minimize" = "ჩაკეცვა";
+"Zoom" = "ფანჯრის გადიდება";
+"Bring All to Front" = "ყველა ფანჯრის წინ გამოტანა";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "ადგილობრივი";
-"Local (%ld)" = "ადგილობრივი (%ld)";
+"Local" = "ლოკალური";
+"Local (%ld)" = "ლოკალური (%ld)";
 "Hide Terminal" = "ტერმინალის დამალვა";
 "Close" = "დახურვა";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "დაიხუროს გაშვებული ტერმინალის სესიები?";
-"These processes will be stopped:" = "ეს პროცესები შეჩერდება:";
+"Close running terminal sessions?" = "დაიხუროს ტერმინალის აქტიური სესიები?";
+"These processes will be stopped:" = "შემდეგი პროცესები შეჩერდება:";
 "Cancel" = "გაუქმება";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -77,48 +77,48 @@
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "მხოლოდ რედაქტორი";
-"Editor and Preview" = "რედაქტორი და გადახედვა";
-"Preview Only" = "მხოლოდ წინასწარი გადახედვა";
+"Editor and Preview" = "რედაქტორი და წინასწარი ხედი";
+"Preview Only" = "მხოლოდ წინასწარი ხედი";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "ფართები: %ld";
-"Plain Text" = "უბრალო ტექსტი";
-"Search Everywhere" = "მოძებნე ყველგან";
-"Double ⇧" = "ორმაგი ⇧";
-"Go to File" = "გადადით ფაილზე";
-"Open Folder" = "გახსენით საქაღალდე";
-"Project View" = "პროექტის ხედი";
+"Spaces: %ld" = "გამოტოვებები: %ld";
+"Plain Text" = "ჩვეულებრივი ტექსტი";
+"Search Everywhere" = "ძიება ყველგან";
+"Double ⇧" = "ორჯერ ⇧";
+"Go to File" = "ფაილზე გადასვლა";
+"Open Folder" = "საქაღალდის გახსნა";
+"Project View" = "პროექტის ხე";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ფაილი შეიცვალა დისკზე. თქვენი რედაქტირებები შენახულია. შეინახეთ ასლი ორივე ვერსიის შესანარჩუნებლად.";
-"The file is a binary file." = "ფაილი არის ორობითი ფაილი.";
-"The file's text encoding could not be determined." = "ფაილის ტექსტის კოდირების დადგენა ვერ მოხერხდა.";
-"The text cannot be saved in %@." = "ტექსტის შენახვა შეუძლებელია %@-ში.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ფაილი დისკზე შეიცვალა. თქვენი ცვლილებები რედაქტორში დარჩა. ორივე ვერსიის შესანარჩუნებლად შეინახეთ ასლი.";
+"The file is a binary file." = "ფაილი ბინარულია.";
+"The file's text encoding could not be determined." = "ფაილის ტექსტის კოდირება ვერ განისაზღვრა.";
+"The text cannot be saved in %@." = "ტექსტის %@ კოდირებით შენახვა შეუძლებელია.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "ახალი საქაღალდე";
 "New File" = "ახალი ფაილი";
-"Enter a name in “%@”. Use / to create nested folders." = "შეიყვანეთ სახელი \"%@\". გამოყავით საქაღალდეების სახელები / სიმბოლოთი ქვესაქაღალდის შესაქმნელად.";
-"Rename" = "გადარქმევა";
-"Enter a new name for “%@”." = "შეიყვანეთ ახალი სახელი \"%@\".";
-"Move “%@” to the Trash?" = "გადაიტანეთ „%@“ სანაგვეში?";
-"The folder and everything in it will be moved to the Trash." = "საქაღალდე და ყველაფერი მასში გადავა ნაგავში.";
-"You can restore it from the Trash." = "შეგიძლიათ აღადგინოთ ის ნაგვიდან.";
-"Move to Trash" = "ნაგავში გადატანა";
-"OK" = "OK";
-"Rename…" = "გადარქმევა…";
-"Copy Path" = "დააკოპირეთ გზა";
-"Copy Relative Path" = "დააკოპირეთ შედარებითი გზა";
-"Reveal in Finder" = "გამოავლინეთ Finder-ში";
-"Open in Terminal" = "გახსენით ტერმინალში";
+"Enter a name in “%@”. Use / to create nested folders." = "შეიყვანეთ სახელი „%@“-ში. ჩადგმული საქაღალდეების შესაქმნელად გამოიყენეთ /.";
+"Rename" = "სახელის შეცვლა";
+"Enter a new name for “%@”." = "შეიყვანეთ „%@“-ის ახალი სახელი.";
+"Move “%@” to the Trash?" = "გადავიტანოთ „%@“ სანაგვეში?";
+"The folder and everything in it will be moved to the Trash." = "საქაღალდე და მთელი მისი შიგთავსი სანაგვეში გადავა.";
+"You can restore it from the Trash." = "მისი აღდგენა სანაგვიდან შეგიძლიათ.";
+"Move to Trash" = "სანაგვეში გადატანა";
+"OK" = "კარგი";
+"Rename…" = "სახელის შეცვლა…";
+"Copy Path" = "ბილიკის კოპირება";
+"Copy Relative Path" = "ფარდობითი ბილიკის კოპირება";
+"Reveal in Finder" = "Finder-ში ჩვენება";
+"Open in Terminal" = "ტერმინალში გახსნა";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "მარცხენა პანელი";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "ფაილები";
-"Double ⇧ to search everywhere" = "ორმაგი ⇧ ყველგან მოსაძებნად";
-"Type a file name (use / to match the path)" = "ჩაწერეთ ფაილის სახელი (გამოიყენეთ / ბილიკის შესატყვისად)";
+"Double ⇧ to search everywhere" = "ყველგან ძიებისთვის ორჯერ დააჭირეთ ⇧-ს";
+"Type a file name (use / to match the path)" = "აკრიფეთ ფაილის სახელი (ბილიკის მოსაძებნად გამოიყენეთ /)";
 "No recent files" = "ბოლო ფაილები არ არის";
 "Recent Files" = "ბოლო ფაილები";
-"Matches: %1$ld / Files: %2$ld" = "ნაპოვნია შედეგები: %1$ld / სულ ფაილები: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "დამთხვევები: %1$ld / ფაილები: %2$ld";

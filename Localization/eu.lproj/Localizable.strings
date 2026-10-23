@@ -6,7 +6,7 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Ireki karpeta bat proiektu gisa edo editatzeko fitxategi bat.";
+"Open a folder as a project, or a file to edit." = "Ireki karpeta bat proiektu gisa, edo fitxategi bat editatzeko.";
 "Open" = "Ireki";
 
 /* Sources/Sumi/App/MainMenu.swift */
@@ -15,60 +15,60 @@
 "View" = "Ikusi";
 "Navigate" = "Nabigatu";
 "Window" = "Leihoa";
-"About Sumi" = "Sumi aplikazioari buruz";
 "Language" = "Hizkuntza";
+"About Sumi" = "Sumi aplikazioari buruz";
 "Services" = "Zerbitzuak";
 "Hide Sumi" = "Ezkutatu Sumi";
-"Hide Others" = "Ezkutatu Besteak";
-"Show All" = "Erakutsi guztiak";
-"Quit Sumi" = "Irten Sumi";
-"System Default" = "Sistema lehenetsia";
+"Hide Others" = "Ezkutatu besteak";
+"Show All" = "Erakutsi denak";
+"Quit Sumi" = "Irten Sumi aplikaziotik";
+"System Default" = "Sistemaren lehenetsia";
 "New File…" = "Fitxategi berria…";
 "New Folder…" = "Karpeta berria…";
-"New Terminal Tab" = "Terminal berria fitxa";
+"New Terminal Tab" = "Terminal-fitxa berria";
 "Open…" = "Ireki…";
 "Save" = "Gorde";
-"Save All" = "Gorde guztiak";
+"Save All" = "Gorde dena";
 "Close Tab" = "Itxi fitxa";
 "Close Window" = "Itxi leihoa";
 "Undo" = "Desegin";
 "Redo" = "Berregin";
-"Cut" = "Moztu";
+"Cut" = "Ebaki";
 "Copy" = "Kopiatu";
 "Paste" = "Itsatsi";
-"Select All" = "Hautatu Guztiak";
-"Find…" = "Aurkitu…";
+"Select All" = "Hautatu dena";
+"Find…" = "Bilatu…";
 "Replace…" = "Ordeztu…";
-"Find Next" = "Bilatu Hurrengoa";
-"Find Previous" = "Bilatu Aurrekoa";
-"Use Selection for Find" = "Erabili Hautaketa Bilatzeko";
-"Find" = "Aurkitu";
+"Find Next" = "Bilatu hurrengoa";
+"Find Previous" = "Bilatu aurrekoa";
+"Use Selection for Find" = "Bilatu hautatutako testua";
+"Find" = "Bilatu";
 "Project" = "Proiektua";
 "Terminal" = "Terminala";
-"Swap Terminal and Project" = "Trukatu terminala eta proiektua";
-"Maximize Terminal" = "Maximizatu Terminala";
-"GPU Rendering" = "GPU errendatzea";
-"Soft-Wrap" = "Itzulbiratu automatikoki testu-lerro luzeak";
-"Toggle Preview" = "Aldatu aurrebista";
+"Swap Terminal and Project" = "Trukatu terminalaren eta proiektuaren kokapenak";
+"Maximize Terminal" = "Maximizatu terminala";
+"GPU Rendering" = "GPU bidez marraztea";
+"Soft-Wrap" = "Egokitu lerroak zabalerara";
+"Toggle Preview" = "Erakutsi/ezkutatu aurrebista";
 "Increase Font Size" = "Handitu letra-tamaina";
-"Decrease Font Size" = "Murriztu letra-tamaina";
+"Decrease Font Size" = "Txikitu letra-tamaina";
 "Reset Font Size" = "Berrezarri letra-tamaina";
-"Search Everywhere (Double ⇧)" = "Bilatu edonon (bikoitza ⇧)";
-"Select in Project View" = "Hautatu Proiektuaren ikuspegian";
+"Search Everywhere (Double ⇧)" = "Bilatu edonon (⇧ bi aldiz)";
+"Select in Project View" = "Hautatu proiektuaren ikuspegian";
 "Next Tab" = "Hurrengo fitxa";
 "Previous Tab" = "Aurreko fitxa";
 "Minimize" = "Minimizatu";
-"Zoom" = "Zoomatu";
-"Bring All to Front" = "Ekarri dena Aurrera";
+"Zoom" = "Handitu leihoa";
+"Bring All to Front" = "Ekarri leiho guztiak aurrera";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Tokikoa";
-"Local (%ld)" = "Tokikoa (%ld)";
+"Local" = "Lokala";
+"Local (%ld)" = "Lokala (%ld)";
 "Hide Terminal" = "Ezkutatu terminala";
 "Close" = "Itxi";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Exekutatzen diren terminaleko saioak itxi?";
+"Close running terminal sessions?" = "Itxi martxan dauden terminal-saioak?";
 "These processes will be stopped:" = "Prozesu hauek geldituko dira:";
 "Cancel" = "Utzi";
 
@@ -77,48 +77,48 @@
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Editorea soilik";
-"Editor and Preview" = "Editorea eta Aurrebista";
+"Editor and Preview" = "Editorea eta aurrebista";
 "Preview Only" = "Aurrebista soilik";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Plazak: %ld";
+"Spaces: %ld" = "Zuriuneak: %ld";
 "Plain Text" = "Testu arrunta";
-"Search Everywhere" = "Bilatu nonahi";
-"Double ⇧" = "⇧ bikoitza";
-"Go to File" = "Joan Fitxategira";
-"Open Folder" = "Ireki Karpeta";
+"Search Everywhere" = "Bilatu edonon";
+"Double ⇧" = "⇧ bi aldiz";
+"Go to File" = "Joan fitxategira";
+"Open Folder" = "Ireki karpeta";
 "Project View" = "Proiektuaren ikuspegia";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fitxategia diskoan aldatu da. Zure aldaketak gorde dira. Gorde kopia bat bi bertsioak gordetzeko.";
-"The file is a binary file." = "Fitxategia fitxategi bitar bat da.";
-"The file's text encoding could not be determined." = "Ezin izan da zehaztu fitxategiaren testu-kodeketa.";
-"The text cannot be saved in %@." = "Testua ezin da gorde %@ zenbakian.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Diskoko fitxategia aldatu da. Zure aldaketak editorean daude oraindik. Gorde kopia bat bi bertsioak mantentzeko.";
+"The file is a binary file." = "Fitxategia bitarra da.";
+"The file's text encoding could not be determined." = "Ezin izan da fitxategiaren testu-kodeketa zehaztu.";
+"The text cannot be saved in %@." = "Ezin da testua %@ kodeketarekin gorde.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Karpeta berria";
 "New File" = "Fitxategi berria";
-"Enter a name in “%@”. Use / to create nested folders." = "Idatzi izen bat \"%@\" atalean. Bereizi karpeta-izenak / karakterearekin azpikarpetak sortzeko.";
+"Enter a name in “%@”. Use / to create nested folders." = "Idatzi izen bat «%@» barruan. Erabili / habiaratutako karpetak sortzeko.";
 "Rename" = "Aldatu izena";
-"Enter a new name for “%@”." = "Sartu \"%@\" izen berri bat.";
-"Move “%@” to the Trash?" = "\"%@\" Zaborrontzira eraman nahi duzu?";
-"The folder and everything in it will be moved to the Trash." = "Karpeta eta bertan dagoen guztia Zaborrontzira eramango dira.";
-"You can restore it from the Trash." = "Zaborrontzitik leheneratu dezakezu.";
-"Move to Trash" = "Eraman zaborrontzira";
+"Enter a new name for “%@”." = "Idatzi «%@» elementuaren izen berria.";
+"Move “%@” to the Trash?" = "Eraman «%@» zakarrontzira?";
+"The folder and everything in it will be moved to the Trash." = "Karpeta eta bere eduki guztia zakarrontzira eramango dira.";
+"You can restore it from the Trash." = "Zakarrontzitik lehenera dezakezu elementua.";
+"Move to Trash" = "Eraman zakarrontzira";
 "OK" = "Ados";
 "Rename…" = "Aldatu izena…";
 "Copy Path" = "Kopiatu bidea";
 "Copy Relative Path" = "Kopiatu bide erlatiboa";
-"Reveal in Finder" = "Erakutsi Finder zenbakian";
-"Open in Terminal" = "Ireki Terminalean";
+"Reveal in Finder" = "Erakutsi Finder aplikazioan";
+"Open in Terminal" = "Ireki terminalean";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Ezkerreko panela";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fitxategiak";
-"Double ⇧ to search everywhere" = "Bikoiztu ⇧ nonahi bilatzeko";
-"Type a file name (use / to match the path)" = "Idatzi fitxategi-izen bat (erabili / bidearekin bat etortzeko)";
+"Double ⇧ to search everywhere" = "Sakatu ⇧ bi aldiz edonon bilatzeko";
+"Type a file name (use / to match the path)" = "Idatzi fitxategi-izena (erabili / bidean bilatzeko)";
 "No recent files" = "Ez dago azken fitxategirik";
 "Recent Files" = "Azken fitxategiak";
-"Matches: %1$ld / Files: %2$ld" = "Aurkitutako emaitzak: %1$ld / Fitxategiak guztira: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Bat-etortzeak: %1$ld / Fitxategiak: %2$ld";

@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "עפֿענען אַ טעקע ווי אַ פּרויעקט, אָדער אַ טעקע צו רעדאַגירן.";
-"Open" = "עפענען";
+"Open a folder as a project, or a file to edit." = "עפֿנט אַ טעקע־זאַמלונג ווי אַ פּראָיעקט, אָדער אַ טעקע צום רעדאַקטירן.";
+"Open" = "עפֿענען";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "טעקע";
-"Edit" = "רעדאַגירן";
-"View" = "ווייַז";
+"Edit" = "רעדאַקטירן";
+"View" = "זען";
 "Navigate" = "נאַוויגירן";
 "Window" = "פֿענצטער";
-"About Sumi" = "וועגן די Sumi אַפּלאַקיישאַן";
 "Language" = "שפּראַך";
-"Services" = "סערוויסעס";
+"About Sumi" = "וועגן Sumi";
+"Services" = "דינסטן";
 "Hide Sumi" = "באַהאַלטן Sumi";
-"Hide Others" = "באַהאַלטן אנדערע";
-"Show All" = "ווייַזן אַלע";
-"Quit Sumi" = "פאַרלאָזן Sumi";
-"System Default" = "סיסטעם פעליקייַט";
-"New File…" = "נייַ טעקע…";
-"New Folder…" = "נייַ טעקע…";
-"New Terminal Tab" = "ניו טערמינאַל טאַב";
-"Open…" = "עפענען...";
-"Save" = "היט";
-"Save All" = "היט אַלע";
-"Close Tab" = "נאָענט טאַב";
-"Close Window" = "נאָענט פֿענצטער";
-"Undo" = "ופמאַכן";
-"Redo" = "רעדאָ";
-"Cut" = "שנייַדן";
-"Copy" = "קאָפּי";
-"Paste" = "פּאַפּ";
-"Select All" = "אויסקלייַבן אַלע";
+"Hide Others" = "באַהאַלטן אַנדערע";
+"Show All" = "ווײַזן אַלץ";
+"Quit Sumi" = "אַרויסגיין פֿון Sumi";
+"System Default" = "לויטן סיסטעם";
+"New File…" = "נײַע טעקע…";
+"New Folder…" = "נײַע טעקע־זאַמלונג…";
+"New Terminal Tab" = "נײַער טערמינאַל־קוויטל";
+"Open…" = "עפֿענען…";
+"Save" = "אָפּהיטן";
+"Save All" = "אָפּהיטן אַלץ";
+"Close Tab" = "פֿאַרמאַכן קוויטל";
+"Close Window" = "פֿאַרמאַכן פֿענצטער";
+"Undo" = "צוריקנעמען";
+"Redo" = "איבערמאַכן";
+"Cut" = "אויסשנײַדן";
+"Copy" = "קאָפּירן";
+"Paste" = "אַרײַנקלעבן";
+"Select All" = "אויסקלײַבן אַלץ";
 "Find…" = "געפֿינען…";
-"Replace…" = "פאַרבייַטן…";
-"Find Next" = "געפֿינען ווייַטער";
-"Find Previous" = "געפֿינען פֿריִערדיקע";
-"Use Selection for Find" = "ניצן סעלעקציע פֿאַר געפֿינען";
-"Find" = "געפֿינען";
+"Replace…" = "פֿאַרבײַטן…";
+"Find Next" = "געפֿינען דאָס קומעדיקע";
+"Find Previous" = "געפֿינען דאָס פֿריִערדיקע";
+"Use Selection for Find" = "זוכן דעם אויסגעקליבענעם טעקסט";
+"Find" = "זוכן";
 "Project" = "פּראָיעקט";
 "Terminal" = "טערמינאַל";
-"Swap Terminal and Project" = "ויסבייַטן טערמינאַל און פּראָיעקט";
-"Maximize Terminal" = "מאַקסאַמייז טערמינאַל";
-"GPU Rendering" = "גפּו רענדערינג";
-"Soft-Wrap" = "אויטאָמאַטיש ייַנוויקלען לאַנג טעקסט שורות";
-"Toggle Preview" = "באַשטימען פאָרויסיקע ווייַזונג";
-"Increase Font Size" = "פאַרגרעסערן פאָנט גרייס";
-"Decrease Font Size" = "פאַרמינערן פאָנט גרייס";
-"Reset Font Size" = "באַשטעטיק פאָנט גרייס";
-"Search Everywhere (Double ⇧)" = "זוכן אומעטום (טאָפּל ⇧)";
-"Select in Project View" = "סעלעקטירן אין Project View";
-"Next Tab" = "ווייַטער טאַב";
-"Previous Tab" = "פֿריִערדיקע טאַב";
-"Minimize" = "מינאַמייז";
-"Zoom" = "פארגרעסער";
-"Bring All to Front" = "ברענגען אַלע צו פראָנט";
+"Swap Terminal and Project" = "אויסטוישן די ערטער פֿון טערמינאַל און פּראָיעקט";
+"Maximize Terminal" = "פֿאַרגרעסערן טערמינאַל";
+"GPU Rendering" = "צייכענען מיט GPU";
+"Soft-Wrap" = "אײַנברעכן שורות לויט דער ברייט";
+"Toggle Preview" = "ווײַזן אָדער באַהאַלטן פֿאָרויסווײַז";
+"Increase Font Size" = "פֿאַרגרעסערן שריפֿט";
+"Decrease Font Size" = "פֿאַרקלענערן שריפֿט";
+"Reset Font Size" = "צוריקשטעלן שריפֿטגרייס";
+"Search Everywhere (Double ⇧)" = "זוכן אומעטום (צוויי מאָל ⇧)";
+"Select in Project View" = "אויסקלײַבן אין פּראָיעקט־בוים";
+"Next Tab" = "קומעדיקער קוויטל";
+"Previous Tab" = "פֿריִערדיקער קוויטל";
+"Minimize" = "מינימיזירן";
+"Zoom" = "פֿאַרגרעסערן פֿענצטער";
+"Bring All to Front" = "ברענגען אַלע פֿענצטער פֿאָרויס";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "לאקאלע";
-"Local (%ld)" = "לאקאלע (%ld)";
+"Local" = "לאָקאַל";
+"Local (%ld)" = "לאָקאַל (%ld)";
 "Hide Terminal" = "באַהאַלטן טערמינאַל";
-"Close" = "נאָענט";
+"Close" = "פֿאַרמאַכן";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "נאָענט פליסנדיק וואָקזאַל סעשאַנז?";
-"These processes will be stopped:" = "די פּראַסעסאַז וועט זיין סטאַפּט:";
-"Cancel" = "באָטל מאַכן";
+"Close running terminal sessions?" = "פֿאַרמאַכן אַקטיווע טערמינאַל־סעסיעס?";
+"These processes will be stopped:" = "די דאָזיקע פּראָצעסן וועלן אָפּגעשטעלט ווערן:";
+"Cancel" = "אַנולירן";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "היט אַ קאָפּיע…";
+"Save a Copy…" = "אָפּהיטן אַ קאָפּיע…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "רעדאַקטאָר בלויז";
-"Editor and Preview" = "עדיטאָר און פּריוויו";
-"Preview Only" = "פּריוויו בלויז";
+"Editor Only" = "בלויז רעדאַקטאָר";
+"Editor and Preview" = "רעדאַקטאָר און פֿאָרויסווײַז";
+"Preview Only" = "בלויז פֿאָרויסווײַז";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "ספּייסאַז: %ld";
-"Plain Text" = "קלאָר טעקסט";
+"Spaces: %ld" = "ליידיקע פּלעצער: %ld";
+"Plain Text" = "פּשוטער טעקסט";
 "Search Everywhere" = "זוכן אומעטום";
-"Double ⇧" = "טאָפּל ⇧";
+"Double ⇧" = "צוויי מאָל ⇧";
 "Go to File" = "גיין צו טעקע";
-"Open Folder" = "עפֿן טעקע";
-"Project View" = "פּראָיעקט טאַפליע";
+"Open Folder" = "עפֿענען טעקע־זאַמלונג";
+"Project View" = "פּראָיעקט־בוים";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "די טעקע איז געביטן אויף דיסק. דיינע רעדאקציעס זענען אפגעהיט געווארן. היט אַ קאָפּיע צו ופהיטן ביידע ווערסיעס.";
-"The file is a binary file." = "דער טעקע איז אַ ביינערי טעקע.";
-"The file's text encoding could not be determined." = "די טעקסט קאָדירונג פון דער טעקע קען נישט זיין באשלאסן.";
-"The text cannot be saved in %@." = "דער טעקסט קענען ניט זיין געראטעוועט אין %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "די טעקע אויפֿן דיסק האָט זיך געביטן. אײַערע ענדערונגען בלײַבן אינעם רעדאַקטאָר. היט אָפּ אַ קאָפּיע כּדי צו האַלטן ביידע ווערסיעס.";
+"The file is a binary file." = "דאָס איז אַ בינערע טעקע.";
+"The file's text encoding could not be determined." = "די טעקסט־קאָדירונג פֿון דער טעקע האָט מען נישט געקענט באַשטימען.";
+"The text cannot be saved in %@." = "מען קען נישט אָפּהיטן דעם טעקסט אין %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "ניו פאָלדער";
-"New File" = "ניו טעקע";
-"Enter a name in “%@”. Use / to create nested folders." = "אַרייַן אַ נאָמען אין \"%@\". באַזונדער טעקע נעמען מיט די / כאַראַקטער צו שאַפֿן סובפאָלדערס.";
-"Rename" = "רענאַמע";
-"Enter a new name for “%@”." = "אַרייַן אַ נייַע נאָמען פֿאַר \"%@\".";
-"Move “%@” to the Trash?" = "מאַך \"%@\" צו די אָפּפאַל?";
-"The folder and everything in it will be moved to the Trash." = "דער טעקע און אַלץ אין עס וועט זיין אריבערגעפארן צו די אָפּפאַל.";
-"You can restore it from the Trash." = "איר קענען ומקערן עס פֿון די אָפּפאַל.";
-"Move to Trash" = "מאַך צו אָפּפאַל";
+"New Folder" = "נײַע טעקע־זאַמלונג";
+"New File" = "נײַע טעקע";
+"Enter a name in “%@”. Use / to create nested folders." = "שרײַבט אַ נאָמען אין „%@“. ניצט / צו שאַפֿן טעקע־זאַמלונגען איינע אין דער אַנדערער.";
+"Rename" = "אומנענען";
+"Enter a new name for “%@”." = "שרײַבט אַ נײַעם נאָמען פֿאַר „%@“.";
+"Move “%@” to the Trash?" = "אַריבערפֿירן „%@“ אין מיסטקאַסטן?";
+"The folder and everything in it will be moved to the Trash." = "די טעקע־זאַמלונג און איר גאַנצער אינהאַלט וועלן אַריבערגעפֿירט ווערן אין מיסטקאַסטן.";
+"You can restore it from the Trash." = "איר קענט עס צוריקשטעלן פֿון מיסטקאַסטן.";
+"Move to Trash" = "אַריבערפֿירן אין מיסטקאַסטן";
 "OK" = "גוט";
-"Rename…" = "רענאַמע...";
-"Copy Path" = "קאָפּי פּאַט";
-"Copy Relative Path" = "קאָפּיע קאָרעוו פּאַט";
-"Reveal in Finder" = "אַנטדעקן אין Finder";
-"Open in Terminal" = "עפענען אין טערמינאַל";
+"Rename…" = "אומנענען…";
+"Copy Path" = "קאָפּירן פּאַט";
+"Copy Relative Path" = "קאָפּירן רעלאַטיוון פּאַט";
+"Reveal in Finder" = "ווײַזן אין Finder";
+"Open in Terminal" = "עפֿענען אין טערמינאַל";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "לינקס פּאַנעל";
+"Left Panel" = "לינקער פּאַנעל";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "טעקעס";
-"Double ⇧ to search everywhere" = "טאָפּל ⇧ צו זוכן אומעטום";
-"Type a file name (use / to match the path)" = "טיפּ אַ טעקע נאָמען (נוצן / צו גלייַכן דעם דרך)";
-"No recent files" = "קיין פריש טעקעס";
-"Recent Files" = "לעצטע פילעס";
-"Matches: %1$ld / Files: %2$ld" = "רעזולטאַטן געפֿונען: %1$ld / גאַנץ טעקעס: %2$ld";
+"Double ⇧ to search everywhere" = "דריקט ⇧ צוויי מאָל צו זוכן אומעטום";
+"Type a file name (use / to match the path)" = "שרײַבט אַ טעקע־נאָמען (ניצט / צו זוכן לויטן פּאַט)";
+"No recent files" = "קיין לעצטיקע טעקעס";
+"Recent Files" = "לעצטיקע טעקעס";
+"Matches: %1$ld / Files: %2$ld" = "צופּאַסונגען: %1$ld / טעקעס: %2$ld";

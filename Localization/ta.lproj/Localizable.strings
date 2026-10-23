@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "திட்டப்பணியாக கோப்புறையைத் திறக்கவும் அல்லது திருத்த கோப்பைத் திறக்கவும்.";
+"Open a folder as a project, or a file to edit." = "கோப்புறையைத் திட்டமாக அல்லது கோப்பைத் திருத்தத் திறக்கவும்.";
 "Open" = "திற";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "கோப்பு";
-"Edit" = "திருத்தவும்";
-"View" = "காண்க";
-"Navigate" = "வழிசெலுத்து";
-"Window" = "ஜன்னல்";
-"About Sumi" = "Sumi விண்ணப்பத்தைப் பற்றி";
+"Edit" = "திருத்து";
+"View" = "காட்சி";
+"Navigate" = "செல்";
+"Window" = "சாளரம்";
 "Language" = "மொழி";
+"About Sumi" = "Sumi பற்றி";
 "Services" = "சேவைகள்";
 "Hide Sumi" = "Sumi ஐ மறை";
-"Hide Others" = "மற்றவர்களை மறை";
+"Hide Others" = "மற்றவற்றை மறை";
 "Show All" = "அனைத்தையும் காட்டு";
-"Quit Sumi" = "வெளியேறு Sumi";
+"Quit Sumi" = "Sumi இலிருந்து வெளியேறு";
 "System Default" = "கணினி இயல்புநிலை";
 "New File…" = "புதிய கோப்பு…";
 "New Folder…" = "புதிய கோப்புறை…";
-"New Terminal Tab" = "புதிய டெர்மினல் டேப்";
+"New Terminal Tab" = "புதிய முனையத் தாவல்";
 "Open…" = "திற…";
-"Save" = "சேமிக்கவும்";
-"Save All" = "அனைத்தையும் சேமிக்கவும்";
+"Save" = "சேமி";
+"Save All" = "அனைத்தையும் சேமி";
 "Close Tab" = "தாவலை மூடு";
 "Close Window" = "சாளரத்தை மூடு";
 "Undo" = "செயல்தவிர்";
 "Redo" = "மீண்டும் செய்";
 "Cut" = "வெட்டு";
-"Copy" = "நகலெடுக்கவும்";
-"Paste" = "ஒட்டவும்";
-"Select All" = "அனைத்தையும் தேர்ந்தெடுக்கவும்";
+"Copy" = "நகலெடு";
+"Paste" = "ஒட்டு";
+"Select All" = "அனைத்தையும் தேர்ந்தெடு";
 "Find…" = "கண்டுபிடி…";
 "Replace…" = "மாற்று…";
-"Find Next" = "அடுத்து கண்டுபிடி";
+"Find Next" = "அடுத்ததைக் கண்டுபிடி";
 "Find Previous" = "முந்தையதைக் கண்டுபிடி";
-"Use Selection for Find" = "தேடலைப் பயன்படுத்தவும்";
-"Find" = "கண்டுபிடி";
+"Use Selection for Find" = "தேர்ந்தெடுத்த உரையைத் தேடு";
+"Find" = "தேடு";
 "Project" = "திட்டம்";
 "Terminal" = "முனையம்";
-"Swap Terminal and Project" = "ஸ்வாப் டெர்மினல் மற்றும் ப்ராஜெக்ட்";
-"Maximize Terminal" = "முனையத்தை அதிகரிக்கவும்";
-"GPU Rendering" = "GPU ரெண்டரிங்";
-"Soft-Wrap" = "நீண்ட உரை வரிகளை தானாக மடிக்கவும்";
-"Toggle Preview" = "முன்னோட்டத்தை நிலைமாற்று";
-"Increase Font Size" = "எழுத்துரு அளவை அதிகரிக்கவும்";
-"Decrease Font Size" = "எழுத்துரு அளவைக் குறைக்கவும்";
-"Reset Font Size" = "எழுத்துரு அளவை மீட்டமைக்கவும்";
-"Search Everywhere (Double ⇧)" = "எல்லா இடங்களிலும் தேடு (இரட்டை ⇧)";
-"Select in Project View" = "திட்டக் காட்சியில் தேர்ந்தெடுக்கவும்";
+"Swap Terminal and Project" = "முனையத்தையும் திட்டத்தையும் இடமாற்று";
+"Maximize Terminal" = "முனையத்தைப் பெரிதாக்கு";
+"GPU Rendering" = "GPU வரைதல்";
+"Soft-Wrap" = "அகலத்திற்கேற்ப வரிகளை மடக்கு";
+"Toggle Preview" = "முன்னோட்டத்தைக் காட்டு அல்லது மறை";
+"Increase Font Size" = "எழுத்தளவை அதிகரி";
+"Decrease Font Size" = "எழுத்தளவைக் குறை";
+"Reset Font Size" = "எழுத்தளவை மீட்டமை";
+"Search Everywhere (Double ⇧)" = "எங்கும் தேடு (⇧ இருமுறை)";
+"Select in Project View" = "திட்டக் காட்சியில் தேர்ந்தெடு";
 "Next Tab" = "அடுத்த தாவல்";
 "Previous Tab" = "முந்தைய தாவல்";
-"Minimize" = "குறைக்கவும்";
-"Zoom" = "பெரிதாக்கு";
-"Bring All to Front" = "அனைத்தையும் முன் கொண்டு வாருங்கள்";
+"Minimize" = "சாளரத்தைச் சிறிதாக்கு";
+"Zoom" = "சாளரத்தைப் பெரிதாக்கு";
+"Bring All to Front" = "அனைத்து சாளரங்களையும் முன்னே கொண்டு வா";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "உள்ளூர்";
 "Local (%ld)" = "உள்ளூர் (%ld)";
-"Hide Terminal" = "டெர்மினலை மறை";
+"Hide Terminal" = "முனையத்தை மறை";
 "Close" = "மூடு";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
 "Close running terminal sessions?" = "இயங்கும் முனைய அமர்வுகளை மூடவா?";
-"These processes will be stopped:" = "இந்த செயல்முறைகள் நிறுத்தப்படும்:";
-"Cancel" = "ரத்து செய்";
+"These processes will be stopped:" = "இந்தச் செயல்முறைகள் நிறுத்தப்படும்:";
+"Cancel" = "ரத்துசெய்";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "நகலை சேமிக்கவும்…";
+"Save a Copy…" = "நகலைச் சேமி…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "எடிட்டர் மட்டும்";
-"Editor and Preview" = "எடிட்டர் மற்றும் முன்னோட்டம்";
+"Editor Only" = "திருத்தி மட்டும்";
+"Editor and Preview" = "திருத்தியும் முன்னோட்டமும்";
 "Preview Only" = "முன்னோட்டம் மட்டும்";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "இடங்கள்: %ld";
-"Plain Text" = "எளிய உரை";
-"Search Everywhere" = "எல்லா இடங்களிலும் தேடுங்கள்";
-"Double ⇧" = "இரட்டை ⇧";
-"Go to File" = "கோப்பிற்குச் செல்லவும்";
-"Open Folder" = "கோப்புறையைத் திறக்கவும்";
-"Project View" = "திட்டப் பார்வை";
+"Spaces: %ld" = "இடைவெளிகள்: %ld";
+"Plain Text" = "சாதாரண உரை";
+"Search Everywhere" = "எங்கும் தேடு";
+"Double ⇧" = "⇧ இருமுறை";
+"Go to File" = "கோப்பிற்குச் செல்";
+"Open Folder" = "கோப்புறையைத் திற";
+"Project View" = "திட்டக் காட்சி";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "கோப்பு வட்டில் மாற்றப்பட்டது. உங்கள் திருத்தங்கள் வைக்கப்பட்டுள்ளன. இரண்டு பதிப்புகளையும் பாதுகாக்க ஒரு நகலை சேமிக்கவும்.";
-"The file is a binary file." = "கோப்பு ஒரு பைனரி கோப்பு.";
-"The file's text encoding could not be determined." = "கோப்பின் உரை குறியாக்கத்தை தீர்மானிக்க முடியவில்லை.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "வட்டில் கோப்பு மாறிவிட்டது. உங்கள் திருத்தங்கள் இன்னும் திருத்தியில் உள்ளன. இரு பதிப்புகளையும் வைத்திருக்க நகலைச் சேமிக்கவும்.";
+"The file is a binary file." = "இது இருமக் கோப்பு.";
+"The file's text encoding could not be determined." = "கோப்பின் உரைக் குறியாக்கத்தைக் கண்டறிய முடியவில்லை.";
 "The text cannot be saved in %@." = "உரையை %@ இல் சேமிக்க முடியாது.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "புதிய கோப்புறை";
 "New File" = "புதிய கோப்பு";
-"Enter a name in “%@”. Use / to create nested folders." = "\"%@\" இல் ஒரு பெயரை உள்ளிடவும். துணை கோப்புறைகளை உருவாக்க / எழுத்துடன் கோப்புறை பெயர்களை பிரிக்கவும்.";
-"Rename" = "மறுபெயரிடவும்";
-"Enter a new name for “%@”." = "“%@”க்கான புதிய பெயரை உள்ளிடவும்.";
-"Move “%@” to the Trash?" = "\"%@\"ஐ குப்பைக்கு நகர்த்தவா?";
-"The folder and everything in it will be moved to the Trash." = "கோப்புறை மற்றும் அதில் உள்ள அனைத்தும் குப்பைக்கு நகர்த்தப்படும்.";
-"You can restore it from the Trash." = "நீங்கள் அதை குப்பையிலிருந்து மீட்டெடுக்கலாம்.";
-"Move to Trash" = "குப்பைக்கு நகர்த்தவும்";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” இல் பெயரை உள்ளிடவும். உள்ளடங்கிய கோப்புறைகளை உருவாக்க / ஐப் பயன்படுத்தவும்.";
+"Rename" = "மறுபெயரிடு";
+"Enter a new name for “%@”." = "“%@” என்பதற்குப் புதிய பெயரை உள்ளிடவும்.";
+"Move “%@” to the Trash?" = "“%@” ஐக் குப்பைக்கு நகர்த்தவா?";
+"The folder and everything in it will be moved to the Trash." = "கோப்புறையும் அதன் அனைத்து உள்ளடக்கமும் குப்பைக்கு நகர்த்தப்படும்.";
+"You can restore it from the Trash." = "குப்பையிலிருந்து மீட்டெடுக்கலாம்.";
+"Move to Trash" = "குப்பைக்கு நகர்த்து";
 "OK" = "சரி";
-"Rename…" = "மறுபெயரிடுங்கள்…";
-"Copy Path" = "நகல் பாதை";
-"Copy Relative Path" = "உறவினர் பாதையை நகலெடுக்கவும்";
-"Reveal in Finder" = "Finder இல் வெளிப்படுத்தவும்";
-"Open in Terminal" = "டெர்மினலில் திறக்கவும்";
+"Rename…" = "மறுபெயரிடு…";
+"Copy Path" = "பாதையை நகலெடு";
+"Copy Relative Path" = "சார்புப் பாதையை நகலெடு";
+"Reveal in Finder" = "Finder இல் காட்டு";
+"Open in Terminal" = "முனையத்தில் திற";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "இடது பேனல்";
+"Left Panel" = "இடது பலகம்";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "கோப்புகள்";
-"Double ⇧ to search everywhere" = "எல்லா இடங்களிலும் தேட இருமுறை ⇧";
-"Type a file name (use / to match the path)" = "கோப்பின் பெயரைத் தட்டச்சு செய்யவும் (பாதையைப் பொருத்த / பயன்படுத்தவும்)";
+"Double ⇧ to search everywhere" = "எங்கும் தேட ⇧ ஐ இருமுறை அழுத்தவும்";
+"Type a file name (use / to match the path)" = "கோப்புப் பெயரை உள்ளிடவும் (பாதையைப் பொருத்த / ஐப் பயன்படுத்தவும்)";
 "No recent files" = "சமீபத்திய கோப்புகள் இல்லை";
 "Recent Files" = "சமீபத்திய கோப்புகள்";
-"Matches: %1$ld / Files: %2$ld" = "முடிவுகள் கிடைத்தன: %1$ld / மொத்த கோப்புகள்: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "பொருத்தங்கள்: %1$ld / கோப்புகள்: %2$ld";

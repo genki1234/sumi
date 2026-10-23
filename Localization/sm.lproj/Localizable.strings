@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Tatala se faila o se poloketi, poʻo se faila e faʻasaʻo.";
+"Open a folder as a project, or a file to edit." = "Tatala se faila teu e fai ma poloketi, po o se faila e faatonutonu.";
 "Open" = "Tatala";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "faila";
-"Edit" = "Fa'atonu";
-"View" = "Va'aiga";
-"Navigate" = "Su'e";
-"Window" = "Fa'amalama";
-"About Sumi" = "E uiga i le talosaga Sumi";
+"File" = "Faila";
+"Edit" = "Faatonutonu";
+"View" = "Vaaiga";
+"Navigate" = "Alu i";
+"Window" = "Faamalama";
 "Language" = "Gagana";
-"Services" = "Au'aunaga";
-"Hide Sumi" = "Natia Sumi";
-"Hide Others" = "Natia Isi";
+"About Sumi" = "E uiga i Sumi";
+"Services" = "Auaunaga";
+"Hide Sumi" = "Nana Sumi";
+"Hide Others" = "Nana isi";
 "Show All" = "Faaali uma";
-"Quit Sumi" = "Tu'u Sumi";
-"System Default" = "Fa'aoga le gagana fa'atonu";
-"New File…" = "Faila Fou…";
-"New Folder…" = "Fou faila...";
-"New Terminal Tab" = "Fou Terminal Tab";
+"Quit Sumi" = "Tuua Sumi";
+"System Default" = "Faatulagaga a le masini";
+"New File…" = "Faila fou…";
+"New Folder…" = "Faila teu fou…";
+"New Terminal Tab" = "Itulau terminal fou";
 "Open…" = "Tatala…";
-"Save" = "Faasaoina";
-"Save All" = "Faasaoina Uma";
-"Close Tab" = "Tapuni le Tab";
-"Close Window" = "Tapuni Faamalama";
-"Undo" = "Tatala";
+"Save" = "Teu";
+"Save All" = "Teu uma";
+"Close Tab" = "Tapuni le itulau";
+"Close Window" = "Tapuni le faamalama";
+"Undo" = "Toe faafoi";
 "Redo" = "Toe fai";
-"Cut" = "tipi";
+"Cut" = "Tipi";
 "Copy" = "Kopi";
-"Paste" = "Fa'apipi'i";
-"Select All" = "Filifili Mea uma";
-"Find…" = "Su'e...";
+"Paste" = "Faapipii";
+"Select All" = "Filifili uma";
+"Find…" = "Saili…";
 "Replace…" = "Sui…";
-"Find Next" = "Su'e Soso'o";
-"Find Previous" = "Su'e Muamua";
-"Use Selection for Find" = "Fa'aaoga Filifiliga mo Su'e";
-"Find" = "Su'e";
+"Find Next" = "Saili le isi";
+"Find Previous" = "Saili le muamua";
+"Use Selection for Find" = "Saili le tusitusiga filifilia";
+"Find" = "Saili";
 "Project" = "Poloketi";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal ma Poloketi";
-"Maximize Terminal" = "Fa'ateleina le Terminal";
-"GPU Rendering" = "Fa'aliliuga GPU";
-"Soft-Wrap" = "Otometi ona afifi laina o tusitusiga uumi";
+"Swap Terminal and Project" = "Fesuiai le terminal ma le poloketi";
+"Maximize Terminal" = "Faatele le terminal";
+"GPU Rendering" = "Ata e faaaogā ai le GPU";
+"Soft-Wrap" = "Afifi laina i le lautele";
 "Toggle Preview" = "Faaali pe nana le muai vaaiga";
-"Increase Font Size" = "Fa'atuputeleina le Tele o Font";
-"Decrease Font Size" = "Fa'aiti'i le Tele o Font";
-"Reset Font Size" = "Toe seti le tele o le Font";
-"Search Everywhere (Double ⇧)" = "Su'esu'e i So'o se mea (Faalua ⇧)";
-"Select in Project View" = "Filifili i le Project View";
-"Next Tab" = "Sosoo Tab";
-"Previous Tab" = "Taimi muamua";
-"Minimize" = "Fa'aitiitiga";
-"Zoom" = "Sa'o";
-"Bring All to Front" = "Aumai Uma i Luma";
+"Increase Font Size" = "Faatele mataitusi";
+"Decrease Font Size" = "Faaitiiti mataitusi";
+"Reset Font Size" = "Toe seti le tele o mataitusi";
+"Search Everywhere (Double ⇧)" = "Saili i mea uma (⇧ faalua)";
+"Select in Project View" = "Filifili i le vaaiga o le poloketi";
+"Next Tab" = "Itulau e sosoo ai";
+"Previous Tab" = "Itulau muamua";
+"Minimize" = "Faaitiiti le faamalama";
+"Zoom" = "Faatele le faamalama";
+"Bring All to Front" = "Aumai faamalama uma i luma";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Fa'alotoifale";
-"Local (%ld)" = "Fa'alotoifale (%ld)";
-"Hide Terminal" = "Natia le Terminal";
+"Local" = "I lenei masini";
+"Local (%ld)" = "I lenei masini (%ld)";
+"Hide Terminal" = "Nana le terminal";
 "Close" = "Tapuni";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Tapuni sauniga fa'amuta?";
-"These processes will be stopped:" = "O nei faiga o le a taofia:";
-"Cancel" = "Fa'aleaogaina";
+"Close running terminal sessions?" = "Tapuni sauniga terminal o loo galue?";
+"These processes will be stopped:" = "O le a taofia nei faagasologa:";
+"Cancel" = "Faaleaogā";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Faasaoina se Kopi…";
+"Save a Copy…" = "Teu se kopi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Fa'atonu Na'o";
-"Editor and Preview" = "Fa'atonu ma le Va'aiga";
-"Preview Only" = "Na'o Fa'aaliga";
+"Editor Only" = "Na o le faatonu";
+"Editor and Preview" = "Faatonu ma le muai vaaiga";
+"Preview Only" = "Na o le muai vaaiga";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Avanoa: %ld";
-"Plain Text" = "Fa'amatalaga Fa'amatalaga";
-"Search Everywhere" = "Su'e i Soo se mea";
-"Double ⇧" = "Faalua ⇧";
-"Go to File" = "Alu ile faila";
-"Open Folder" = "Tatala le Folder";
-"Project View" = "Va'aiga Poloketi";
+"Plain Text" = "Tusitusiga faigofie";
+"Search Everywhere" = "Saili i mea uma";
+"Double ⇧" = "⇧ faalua";
+"Go to File" = "Alu i le faila";
+"Open Folder" = "Tatala le faila teu";
+"Project View" = "Vaaiga o le poloketi";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ua suia le faila ile disk. Ua tausia au teuteuga. Fa'asaoina se kopi e fa'asao uma fa'aliliuga.";
-"The file is a binary file." = "O le faila o se faila binary.";
-"The file's text encoding could not be determined." = "E le mafai ona iloa le fa'ailoga o tusitusiga a le faila.";
-"The text cannot be saved in %@." = "E le mafai ona sefe le tusitusiga i le %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ua suia le faila i le tisiki. O loo iai pea au suiga i le faatonu. Teu se kopi e taofi ai lomiga uma e lua.";
+"The file is a binary file." = "O lenei faila e binari.";
+"The file's text encoding could not be determined." = "E le mafai ona iloa le faiga o le faailogaina o mataitusi o le faila.";
+"The text cannot be saved in %@." = "E le mafai ona teu le tusitusiga i le %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Fou faila";
-"New File" = "Faila Fou";
-"Enter a name in “%@”. Use / to create nested folders." = "Ulufale se igoa ile “%@”. Vaevae igoa faila ma le / amio e fai ai subfolders.";
-"Rename" = "Toe sui igoa";
-"Enter a new name for “%@”." = "Ulufale se igoa fou mo \"%@\".";
-"Move “%@” to the Trash?" = "Si'i le \"%@\" ile lapisi?";
-"The folder and everything in it will be moved to the Trash." = "O le faila ma mea uma i totonu o le a ave i le lapisi.";
-"You can restore it from the Trash." = "E mafai ona e toe fa'afo'isia mai le lapisi.";
-"Move to Trash" = "Si'i ile lapisi";
+"New Folder" = "Faila teu fou";
+"New File" = "Faila fou";
+"Enter a name in “%@”. Use / to create nested folders." = "Tusi se igoa i le “%@”. Faaaogā / e fai ai faila teu i totonu o isi.";
+"Rename" = "Toe faaigoa";
+"Enter a new name for “%@”." = "Tusi se igoa fou mo le “%@”.";
+"Move “%@” to the Trash?" = "Ave le “%@” i le lapisi?";
+"The folder and everything in it will be moved to the Trash." = "O le a ave le faila teu ma mea uma o iai i le lapisi.";
+"You can restore it from the Trash." = "E mafai ona toe faafoi mai le lapisi.";
+"Move to Trash" = "Ave i le lapisi";
 "OK" = "Ua lelei";
-"Rename…" = "Toe fa'aigoa...";
-"Copy Path" = "Kopi Ala";
-"Copy Relative Path" = "Kopi le Relative Path";
-"Reveal in Finder" = "Fa'aalia ile Finder";
-"Open in Terminal" = "Tatala i le Terminal";
+"Rename…" = "Toe faaigoa…";
+"Copy Path" = "Kopi le ala";
+"Copy Relative Path" = "Kopi le ala mai le poloketi";
+"Reveal in Finder" = "Faaali i le Finder";
+"Open in Terminal" = "Tatala i le terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Laupapa agavale";
+"Left Panel" = "Vaega agavale";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Faila";
-"Double ⇧ to search everywhere" = "Faalua ⇧ e su'e so'o se mea";
-"Type a file name (use / to match the path)" = "Fa'aigoa se igoa faila (fa'aoga / fa'afetaui le ala)";
+"Double ⇧ to search everywhere" = "Oomi faalua le ⇧ e saili ai i mea uma";
+"Type a file name (use / to match the path)" = "Tusi le igoa o le faila (faaaogā / e saili ai le ala)";
 "No recent files" = "Leai ni faila lata mai";
 "Recent Files" = "Faila lata mai";
-"Matches: %1$ld / Files: %2$ld" = "I'uga maua: %1$ld / Aofa'i faila: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Mea tutusa: %1$ld / Faila: %2$ld";

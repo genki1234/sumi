@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "د پروژې په توګه فولډر خلاص کړئ، یا د ترمیم لپاره فایل.";
-"Open" = "خلاص";
+"Open a folder as a project, or a file to edit." = "پوښۍ د پروژې په توګه یا د سمون لپاره یوه دوتنه پرانیزئ.";
+"Open" = "پرانیزئ";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "دوتنه";
 "Edit" = "سمون";
 "View" = "لید";
-"Navigate" = "نیول";
+"Navigate" = "لارموندنه";
 "Window" = "کړکۍ";
-"About Sumi" = "د Sumi غوښتنلیک په اړه";
 "Language" = "ژبه";
-"Services" = "خدمتونه";
+"About Sumi" = "د Sumi په اړه";
+"Services" = "چوپړونه";
 "Hide Sumi" = "Sumi پټ کړئ";
 "Hide Others" = "نور پټ کړئ";
-"Show All" = "ټول وښایاست";
-"Quit Sumi" = "Sumi پریږدئ";
-"System Default" = "د سیسټم ډیفالټ";
+"Show All" = "ټول وښایئ";
+"Quit Sumi" = "له Sumi ووځئ";
+"System Default" = "د سیسټم تلواله";
 "New File…" = "نوې دوتنه…";
-"New Folder…" = "نوی فولډر…";
-"New Terminal Tab" = "نوی ټرمینل ټب";
-"Open…" = "خلاص…";
+"New Folder…" = "نوې پوښۍ…";
+"New Terminal Tab" = "د ټرمینل نوی ټب";
+"Open…" = "پرانیزئ…";
 "Save" = "خوندي کړئ";
 "Save All" = "ټول خوندي کړئ";
-"Close Tab" = "ټب بند کړئ";
-"Close Window" = "کړکۍ بنده کړئ";
-"Undo" = "بیرته راګرځول";
-"Redo" = "بیا کول";
-"Cut" = "کټ";
-"Copy" = "کاپي";
-"Paste" = "پیسټ";
+"Close Tab" = "ټب وتړئ";
+"Close Window" = "کړکۍ وتړئ";
+"Undo" = "بېرته واړوئ";
+"Redo" = "بیا یې وکړئ";
+"Cut" = "پرې کړئ";
+"Copy" = "کاپي کړئ";
+"Paste" = "ونښلوئ";
 "Select All" = "ټول وټاکئ";
-"Find…" = "موندل…";
-"Replace…" = "ځای په ځای…";
-"Find Next" = "بل ومومئ";
+"Find…" = "ومومئ…";
+"Replace…" = "ځایناستی کړئ…";
+"Find Next" = "راتلونکی ومومئ";
 "Find Previous" = "مخکینی ومومئ";
-"Use Selection for Find" = "د موندلو لپاره انتخاب وکاروئ";
-"Find" = "موندل";
+"Use Selection for Find" = "ټاکل شوی متن ولټوئ";
+"Find" = "ومومئ";
 "Project" = "پروژه";
-"Terminal" = "ترمینل";
-"Swap Terminal and Project" = "ټرمینل او پروژه بدل کړئ";
-"Maximize Terminal" = "ټرمینل اعظمي کړئ";
-"GPU Rendering" = "د GPU رینډینګ";
-"Soft-Wrap" = "په اوتومات ډول د اوږد متن لینونه وتړئ";
-"Toggle Preview" = "د مخکتنې بدلول";
-"Increase Font Size" = "د فونټ اندازه زیاته کړئ";
-"Decrease Font Size" = "د فونټ اندازه کمه کړئ";
-"Reset Font Size" = "د فونټ اندازه بیا تنظیم کړئ";
-"Search Everywhere (Double ⇧)" = "په هر ځای کې لټون وکړئ (ډبل ⇧)";
-"Select in Project View" = "د پروژې لید کې غوره کړئ";
-"Next Tab" = "بل ټب";
+"Terminal" = "ټرمینل";
+"Swap Terminal and Project" = "د ټرمینل او پروژې ځایونه بدل کړئ";
+"Maximize Terminal" = "ټرمینل تر ټولو لوی کړئ";
+"GPU Rendering" = "د GPU په وسیله انځورول";
+"Soft-Wrap" = "کرښې د پلنوالي سره تاوول";
+"Toggle Preview" = "مخکتنه وښایئ/پټه کړئ";
+"Increase Font Size" = "د لیک اندازه زیاته کړئ";
+"Decrease Font Size" = "د لیک اندازه کمه کړئ";
+"Reset Font Size" = "د لیک اندازه بېرته تلواله کړئ";
+"Search Everywhere (Double ⇧)" = "هر ځای ولټوئ (⇧ دوه ځله)";
+"Select in Project View" = "د پروژې په ونه کې یې وټاکئ";
+"Next Tab" = "راتلونکی ټب";
 "Previous Tab" = "مخکینی ټب";
-"Minimize" = "ټیټ کړئ";
-"Zoom" = "زوم";
-"Bring All to Front" = "ټول مخ ته راوړئ";
+"Minimize" = "کوچنۍ کړئ";
+"Zoom" = "کړکۍ لویه کړئ";
+"Bring All to Front" = "ټولې کړکۍ مخې ته راوړئ";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "ځايي";
 "Local (%ld)" = "ځايي (%ld)";
 "Hide Terminal" = "ټرمینل پټ کړئ";
-"Close" = "تړل";
+"Close" = "وتړئ";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "د چلولو ترمینل ناستې بندې کړئ؟";
-"These processes will be stopped:" = "دا پروسې به ودرول شي:";
+"Close running terminal sessions?" = "د ټرمینل روانې ناستې وتړل شي؟";
+"These processes will be stopped:" = "دا بهیرونه به ودرول شي:";
 "Cancel" = "لغوه کړئ";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
 "Save a Copy…" = "یوه کاپي خوندي کړئ…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "یوازې مدیر";
-"Editor and Preview" = "مدیر او مخکتنه";
+"Editor Only" = "یوازې سمونګر";
+"Editor and Preview" = "سمونګر او مخکتنه";
 "Preview Only" = "یوازې مخکتنه";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "ځایونه: %ld";
+"Spaces: %ld" = "تشې: %ld";
 "Plain Text" = "ساده متن";
-"Search Everywhere" = "په هر ځای کې لټون وکړئ";
-"Double ⇧" = "دوه چنده ⇧";
-"Go to File" = "فایل ته لاړ شئ";
-"Open Folder" = "فولډر خلاص کړئ";
-"Project View" = "د پروژې لید";
+"Search Everywhere" = "هر ځای ولټوئ";
+"Double ⇧" = "⇧ دوه ځله";
+"Go to File" = "دوتنې ته لاړ شئ";
+"Open Folder" = "پوښۍ پرانیزئ";
+"Project View" = "د پروژې ونه";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "فایل په ډیسک کې بدل شو. ستاسو سمونونه ساتل شوي دي. د دواړو نسخو ساتلو لپاره یوه کاپي خوندي کړئ.";
-"The file is a binary file." = "فایل یو بائنری فایل دی.";
-"The file's text encoding could not be determined." = "د فایل متن کوډ کول نشي ټاکل کیدی.";
-"The text cannot be saved in %@." = "متن په %@ کې نشي خوندي کیدی.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "د ډیسک دوتنه بدله شوې ده. ستاسو سمونونه په سمونګر کې پاتې دي. د دواړو بڼو د ساتلو لپاره یوه کاپي خوندي کړئ.";
+"The file is a binary file." = "دا دوتنه دوه ییزه دوتنه ده.";
+"The file's text encoding could not be determined." = "د دوتنې د متن کوډیزونه ونه پېژندل شوه.";
+"The text cannot be saved in %@." = "متن په %@ کوډیزونه کې نه شي خوندي کېدای.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "نوی فولډر";
+"New Folder" = "نوې پوښۍ";
 "New File" = "نوې دوتنه";
-"Enter a name in “%@”. Use / to create nested folders." = "په \"%@\" کې یو نوم ولیکئ. د فرعي فولډرونو جوړولو لپاره د فولډر نومونه د / کرکټر سره جلا کړئ.";
+"Enter a name in “%@”. Use / to create nested folders." = "په «%@» کې نوم ولیکئ. د پوښیو دننه د پوښیو جوړولو لپاره / وکاروئ.";
 "Rename" = "نوم بدل کړئ";
-"Enter a new name for “%@”." = "د \"%@\" لپاره نوی نوم دننه کړئ.";
-"Move “%@” to the Trash?" = "\"%@\" کثافاتو ته انتقال کړئ؟";
-"The folder and everything in it will be moved to the Trash." = "فولډر او په دې کې هرڅه به کثافاتو ته لیږدول کیږي.";
-"You can restore it from the Trash." = "تاسو کولی شئ دا د کثافاتو څخه بیرته راوباسئ.";
-"Move to Trash" = "کثافاتو ته لاړ شئ";
+"Enter a new name for “%@”." = "د «%@» لپاره نوی نوم ولیکئ.";
+"Move “%@” to the Trash?" = "«%@» کثافاتو ته ولېږدول شي؟";
+"The folder and everything in it will be moved to the Trash." = "پوښۍ او ټول منځپانګه به یې کثافاتو ته ولېږدول شي.";
+"You can restore it from the Trash." = "تاسو یې له کثافاتو بېرته راګرځولی شئ.";
+"Move to Trash" = "کثافاتو ته ولېږدوئ";
 "OK" = "سمه ده";
 "Rename…" = "نوم بدل کړئ…";
-"Copy Path" = "کاپي لاره";
-"Copy Relative Path" = "د اړونده لاره کاپي";
-"Reveal in Finder" = "په Finder کې ښکاره کړئ";
-"Open in Terminal" = "په ټرمینل کې خلاص کړئ";
+"Copy Path" = "لار کاپي کړئ";
+"Copy Relative Path" = "نسبي لار کاپي کړئ";
+"Reveal in Finder" = "په Finder کې یې وښایئ";
+"Open in Terminal" = "په ټرمینل کې یې پرانیزئ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "کیڼ پینل";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "فایلونه";
-"Double ⇧ to search everywhere" = "د هر ځای د لټون لپاره دوه ⇧";
-"Type a file name (use / to match the path)" = "د دوتنې نوم ولیکئ (د لارې سره سمون لپاره / کارول)";
-"No recent files" = "وروستي فایلونه نشته";
-"Recent Files" = "وروستي فایلونه";
-"Matches: %1$ld / Files: %2$ld" = "پایلې وموندل شوې: %1$ld / ټول فایلونه: %2$ld";
+"Files" = "دوتنې";
+"Double ⇧ to search everywhere" = "د هر ځای لټون لپاره ⇧ دوه ځله کېکاږئ";
+"Type a file name (use / to match the path)" = "د دوتنې نوم ولیکئ (د لارې د لټون لپاره / وکاروئ)";
+"No recent files" = "وروستۍ دوتنې نشته";
+"Recent Files" = "وروستۍ دوتنې";
+"Matches: %1$ld / Files: %2$ld" = "سمون لرونکې پایلې: %1$ld / دوتنې: %2$ld";

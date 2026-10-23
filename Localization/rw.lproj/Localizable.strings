@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Fungura ububiko nkumushinga, cyangwa dosiye yo guhindura.";
+"Open a folder as a project, or a file to edit." = "Fungura ububiko nk'umushinga cyangwa dosiye yo guhindura.";
 "Open" = "Fungura";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Idosiye";
+"File" = "Dosiye";
 "Edit" = "Hindura";
 "View" = "Reba";
-"Navigate" = "Kuyobora";
+"Navigate" = "Jya kuri";
 "Window" = "Idirishya";
-"About Sumi" = "Ibyifuzo Sumi";
 "Language" = "Ururimi";
+"About Sumi" = "Ibyerekeye Sumi";
 "Services" = "Serivisi";
 "Hide Sumi" = "Hisha Sumi";
-"Hide Others" = "Hisha Abandi";
-"Show All" = "Erekana Byose";
-"Quit Sumi" = "Kureka Sumi";
-"System Default" = "Sisitemu Mburabuzi";
-"New File…" = "Idosiye Nshya…";
+"Hide Others" = "Hisha ibindi";
+"Show All" = "Erekana byose";
+"Quit Sumi" = "Sohoka muri Sumi";
+"System Default" = "Igenamiterere rya sisitemu";
+"New File…" = "Dosiye nshya…";
 "New Folder…" = "Ububiko bushya…";
-"New Terminal Tab" = "Agasanduku gashya";
+"New Terminal Tab" = "Agafishi gashya ka terminal";
 "Open…" = "Fungura…";
 "Save" = "Bika";
-"Save All" = "Bika Byose";
-"Close Tab" = "Funga Tab";
-"Close Window" = "Funga Idirishya";
-"Undo" = "Kuraho";
-"Redo" = "Ongera";
+"Save All" = "Bika byose";
+"Close Tab" = "Funga agafishi";
+"Close Window" = "Funga idirishya";
+"Undo" = "Subiza inyuma";
+"Redo" = "Ongera ukore";
 "Cut" = "Kata";
-"Copy" = "Gukoporora";
-"Paste" = "Shyira";
-"Select All" = "Hitamo Byose";
-"Find…" = "Shakisha…";
+"Copy" = "Koporora";
+"Paste" = "Komeka";
+"Select All" = "Hitamo byose";
+"Find…" = "Shaka…";
 "Replace…" = "Simbuza…";
-"Find Next" = "Shakisha Ibikurikira";
-"Find Previous" = "Shakisha Mbere";
-"Use Selection for Find" = "Koresha Guhitamo Kubona";
-"Find" = "Shakisha";
+"Find Next" = "Shaka ibikurikira";
+"Find Previous" = "Shaka ibibanjirije";
+"Use Selection for Find" = "Shaka ibyatoranyijwe";
+"Find" = "Shaka";
 "Project" = "Umushinga";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal n'umushinga";
-"Maximize Terminal" = "Kugwiza Terminal";
-"GPU Rendering" = "GPU";
-"Soft-Wrap" = "Mu buryo bwikora uzinga imirongo miremire";
-"Toggle Preview" = "Toggle";
-"Increase Font Size" = "Ongera Ingano yimyandikire";
-"Decrease Font Size" = "Kugabanya Ingano yimyandikire";
-"Reset Font Size" = "Kugarura Ingano yimyandikire";
-"Search Everywhere (Double ⇧)" = "Shakisha Ahantu hose (Double ⇧)";
-"Select in Project View" = "Hitamo muri Reba Reba";
-"Next Tab" = "Ibikurikira";
-"Previous Tab" = "Tab";
-"Minimize" = "Gabanya";
-"Zoom" = "Kuzamura";
-"Bring All to Front" = "Zana Byose Imbere";
+"Swap Terminal and Project" = "Hinduranya terminal n'umushinga";
+"Maximize Terminal" = "Agura terminal";
+"GPU Rendering" = "Kwerekana hakoreshejwe GPU";
+"Soft-Wrap" = "Gabanya imirongo ku bugari";
+"Toggle Preview" = "Erekana cyangwa uhishe igaragaza ribanza";
+"Increase Font Size" = "Ongera ingano y'inyuguti";
+"Decrease Font Size" = "Gabanya ingano y'inyuguti";
+"Reset Font Size" = "Subiza ingano y'inyuguti";
+"Search Everywhere (Double ⇧)" = "Shaka hose (⇧ kabiri)";
+"Select in Project View" = "Hitamo mu mushinga";
+"Next Tab" = "Agafishi gakurikira";
+"Previous Tab" = "Agafishi kabanziriza";
+"Minimize" = "Gabanya idirishya";
+"Zoom" = "Agura idirishya";
+"Bring All to Front" = "Zana amadirishya yose imbere";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Byaho";
-"Local (%ld)" = "Bya hafi (%ld)";
-"Hide Terminal" = "Hisha Terminal";
+"Local" = "Kuri iyi mudasobwa";
+"Local (%ld)" = "Kuri iyi mudasobwa (%ld)";
+"Hide Terminal" = "Hisha terminal";
 "Close" = "Funga";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Gufunga amasomo ya terefone?";
-"These processes will be stopped:" = "Izi nzira zizahagarikwa:";
-"Cancel" = "Kureka";
+"Close running terminal sessions?" = "Gufunga terminal zirimo gukora?";
+"These processes will be stopped:" = "Izi porogaramu zirahagarikwa:";
+"Cancel" = "Reka";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Bika Kopi…";
+"Save a Copy…" = "Bika kopi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Muhinduzi Gusa";
-"Editor and Preview" = "Muhinduzi no kureba";
-"Preview Only" = "Reba gusa";
+"Editor Only" = "Muhinduzi w'inyandiko gusa";
+"Editor and Preview" = "Muhinduzi n'igaragaza ribanza";
+"Preview Only" = "Igaragaza ribanza gusa";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Umwanya: %ld";
-"Plain Text" = "Inyandiko";
-"Search Everywhere" = "Shakisha Ahantu hose";
-"Double ⇧" = "Kabiri ⇧";
+"Spaces: %ld" = "Imyanya: %ld";
+"Plain Text" = "Umwandiko usanzwe";
+"Search Everywhere" = "Shaka hose";
+"Double ⇧" = "⇧ kabiri";
 "Go to File" = "Jya kuri dosiye";
-"Open Folder" = "Fungura Ububiko";
-"Project View" = "Reba Umushinga";
+"Open Folder" = "Fungura ububiko";
+"Project View" = "Igaragaza ry'umushinga";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Idosiye yahinduwe kuri disiki. Ibyo wahinduye byabitswe. Bika kopi kugirango ubike verisiyo zombi.";
-"The file is a binary file." = "Idosiye ni dosiye ebyiri.";
-"The file's text encoding could not be determined." = "Inyandiko ya kodegisi ya dosiye ntishobora kumenyekana.";
-"The text cannot be saved in %@." = "Inyandiko ntishobora gukizwa muri %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Dosiye yahindutse kuri disiki. Ibyo wahinduye biracyari mu muhinduzi w'inyandiko. Bika kopi kugira ngo ugumane verisiyo zombi.";
+"The file is a binary file." = "Dosiye ni iyo mu buryo bwa binari.";
+"The file's text encoding could not be determined." = "Uburyo inyuguti za dosiye zibitswe ntibwashoboye kumenyekana.";
+"The text cannot be saved in %@." = "Umwandiko ntushobora kubikwa mu buryo bwa %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Ububiko bushya";
-"New File" = "Idosiye nshya";
-"Enter a name in “%@”. Use / to create nested folders." = "Injiza izina muri “%@”. Tandukanya ububiko bwububiko hamwe na / inyuguti kugirango ukore subfolders.";
+"New File" = "Dosiye nshya";
+"Enter a name in “%@”. Use / to create nested folders." = "Andika izina muri “%@”. Koresha / kugira ngo ureme ububiko buri mu bundi.";
 "Rename" = "Hindura izina";
-"Enter a new name for “%@”." = "Injiza izina rishya rya “%@”.";
-"Move “%@” to the Trash?" = "Himura “%@” kuri myanda?";
-"The folder and everything in it will be moved to the Trash." = "Ububiko nibintu byose birimo bizimurirwa mumyanda.";
-"You can restore it from the Trash." = "Urashobora kuyisubiza mumyanda.";
-"Move to Trash" = "Himura imyanda";
-"OK" = "Nibyo";
+"Enter a new name for “%@”." = "Andika izina rishya rya “%@”.";
+"Move “%@” to the Trash?" = "Kwimurira “%@” mu myanda?";
+"The folder and everything in it will be moved to the Trash." = "Ububiko n'ibirimo byose birimurirwa mu myanda.";
+"You can restore it from the Trash." = "Ushobora kubigarura ubivanye mu myanda.";
+"Move to Trash" = "Imurira mu myanda";
+"OK" = "Yego";
 "Rename…" = "Hindura izina…";
-"Copy Path" = "Gukoporora Inzira";
-"Copy Relative Path" = "Gukoporora Inzira";
-"Reveal in Finder" = "Hishura muri Finder";
-"Open in Terminal" = "Fungura muri Terminal";
+"Copy Path" = "Koporora inzira";
+"Copy Relative Path" = "Koporora inzira uhereye ku mushinga";
+"Reveal in Finder" = "Erekana muri Finder";
+"Open in Terminal" = "Fungura muri terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Ibumoso";
+"Left Panel" = "Igice cy'ibumoso";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Amadosiye";
-"Double ⇧ to search everywhere" = "Kabiri ⇧ gushakisha ahantu hose";
-"Type a file name (use / to match the path)" = "Andika izina rya dosiye (koresha / guhuza inzira)";
-"No recent files" = "Nta dosiye ziherutse";
-"Recent Files" = "Amadosiye ya vuba";
-"Matches: %1$ld / Files: %2$ld" = "Ibisubizo byabonetse: %1$ld / Amadosiye yose: %2$ld";
+"Files" = "Dosiye";
+"Double ⇧ to search everywhere" = "Kanda ⇧ kabiri kugira ngo ushake hose";
+"Type a file name (use / to match the path)" = "Andika izina rya dosiye (koresha / gushaka mu nzira)";
+"No recent files" = "Nta dosiye ziheruka";
+"Recent Files" = "Dosiye ziheruka";
+"Matches: %1$ld / Files: %2$ld" = "Ibihuye: %1$ld / Dosiye: %2$ld";

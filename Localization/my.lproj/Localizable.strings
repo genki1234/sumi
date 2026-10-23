@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "ပရောဂျက်တစ်ခုအဖြစ် ဖိုင်တွဲတစ်ခု သို့မဟုတ် တည်းဖြတ်ရန် ဖိုင်တစ်ခုကို ဖွင့်ပါ။";
-"Open" = "ဖွင့်သည်။";
+"Open a folder as a project, or a file to edit." = "ဖိုင်တွဲကို ပရောဂျက်အဖြစ် ဖွင့်ပါ၊ သို့မဟုတ် တည်းဖြတ်ရန် ဖိုင်တစ်ခု ဖွင့်ပါ။";
+"Open" = "ဖွင့်ရန်";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "ဖို";
-"Edit" = "တည်းဖြတ်ပါ။";
-"View" = "အမြင်";
+"File" = "ဖိုင်";
+"Edit" = "တည်းဖြတ်ရန်";
+"View" = "မြင်ကွင်း";
 "Navigate" = "သွားလာရန်";
-"Window" = "ပြတင်းပေါက်";
-"About Sumi" = "Sumi လျှောက်လွှာအကြောင်း";
+"Window" = "ဝင်းဒိုး";
 "Language" = "ဘာသာစကား";
+"About Sumi" = "Sumi အကြောင်း";
 "Services" = "ဝန်ဆောင်မှုများ";
-"Hide Sumi" = "Sumi ကို ဝှက်ပါ။";
-"Hide Others" = "အခြားသူများကို ဝှက်ထားပါ။";
-"Show All" = "အားလုံးပြပါ။";
-"Quit Sumi" = "Sumi ထွက်လိုက်ပါ။";
-"System Default" = "စနစ် ပုံသေ";
+"Hide Sumi" = "Sumi ကို ဖျောက်ရန်";
+"Hide Others" = "အခြားအရာများကို ဖျောက်ရန်";
+"Show All" = "အားလုံးပြရန်";
+"Quit Sumi" = "Sumi မှ ထွက်ရန်";
+"System Default" = "စနစ်မူလသတ်မှတ်ချက်";
 "New File…" = "ဖိုင်အသစ်…";
 "New Folder…" = "ဖိုင်တွဲအသစ်…";
-"New Terminal Tab" = "Terminal တက်ဘ်အသစ်";
-"Open…" = "ဖွင့်…";
-"Save" = "သိမ်းဆည်းပါ။";
-"Save All" = "အားလုံးကို သိမ်းဆည်းပါ။";
-"Close Tab" = "တက်ဘ်ကို ပိတ်ပါ။";
-"Close Window" = "Window ကိုပိတ်ပါ။";
-"Undo" = "မလုပ်တော့";
-"Redo" = "ပြန်လုပ်ပါ။";
-"Cut" = "ဖြတ်";
-"Copy" = "ကော်ပီ";
-"Paste" = "ငါးပိ";
-"Select All" = "အားလုံးကို ရွေးပါ။";
-"Find…" = "ရှာပါ...";
-"Replace…" = "အစားထိုး...";
-"Find Next" = "နောက်တစ်ခုရှာပါ။";
-"Find Previous" = "အရင်ရှာပါ။";
-"Use Selection for Find" = "Find အတွက် Selection ကိုသုံးပါ။";
-"Find" = "ရှာပါ။";
+"New Terminal Tab" = "တာမီနယ်တက်ဘ်အသစ်";
+"Open…" = "ဖွင့်ရန်…";
+"Save" = "သိမ်းရန်";
+"Save All" = "အားလုံးသိမ်းရန်";
+"Close Tab" = "တက်ဘ်ပိတ်ရန်";
+"Close Window" = "ဝင်းဒိုးပိတ်ရန်";
+"Undo" = "ပြန်ဖြည်ရန်";
+"Redo" = "ပြန်လုပ်ရန်";
+"Cut" = "ဖြတ်ရန်";
+"Copy" = "ကူးယူရန်";
+"Paste" = "ကူးထည့်ရန်";
+"Select All" = "အားလုံးရွေးရန်";
+"Find…" = "ရှာရန်…";
+"Replace…" = "အစားထိုးရန်…";
+"Find Next" = "နောက်တစ်ခုရှာရန်";
+"Find Previous" = "ယခင်တစ်ခုရှာရန်";
+"Use Selection for Find" = "ရွေးထားသောစာသားကို ရှာရန်";
+"Find" = "ရှာရန်";
 "Project" = "ပရောဂျက်";
-"Terminal" = "ဂိတ်";
-"Swap Terminal and Project" = "Terminal နှင့် Project ကို လဲလှယ်ပါ။";
-"Maximize Terminal" = "Terminal ကို ချဲ့ပါ။";
-"GPU Rendering" = "GPU တင်ဆက်ခြင်း။";
-"Soft-Wrap" = "ရှည်လျားသော စာသားလိုင်းများကို အလိုအလျောက် ခြုံပေးသည်။";
-"Toggle Preview" = "အစမ်းကြည့်ခြင်းကို ပြောင်းရန်";
-"Increase Font Size" = "ဖောင့်အရွယ်အစားကို မြှင့်တင်ပါ။";
-"Decrease Font Size" = "ဖောင့်အရွယ်အစားကို လျှော့ပါ။";
-"Reset Font Size" = "ဖောင့်အရွယ်အစားကို ပြန်လည်သတ်မှတ်ပါ။";
-"Search Everywhere (Double ⇧)" = "နေရာတိုင်းကို ရှာပါ (နှစ်ကြိမ် ⇧)";
-"Select in Project View" = "Project View တွင် ရွေးချယ်ပါ။";
-"Next Tab" = "နောက်တဘ်";
-"Previous Tab" = "ယခင် Tab";
-"Minimize" = "လျှော့ပါ။";
-"Zoom" = "ချဲ့ပါ။";
-"Bring All to Front" = "အားလုံးကို ရှေ့တန်းတင်ပါ။";
+"Terminal" = "တာမီနယ်";
+"Swap Terminal and Project" = "တာမီနယ်နှင့် ပရောဂျက်နေရာ လဲရန်";
+"Maximize Terminal" = "တာမီနယ်ကို အကြီးဆုံးချဲ့ရန်";
+"GPU Rendering" = "GPU ဖြင့် ပုံဖော်ခြင်း";
+"Soft-Wrap" = "မြင်ကွင်းအကျယ်အလိုက် စာကြောင်းချိုးရန်";
+"Toggle Preview" = "အစမ်းမြင်ကွင်း ပြရန်/ဖျောက်ရန်";
+"Increase Font Size" = "စာလုံးအရွယ်အစား တိုးရန်";
+"Decrease Font Size" = "စာလုံးအရွယ်အစား လျှော့ရန်";
+"Reset Font Size" = "စာလုံးအရွယ်အစား မူလအတိုင်းပြန်ထားရန်";
+"Search Everywhere (Double ⇧)" = "နေရာတိုင်းရှာရန် (⇧ နှစ်ချက်)";
+"Select in Project View" = "ပရောဂျက်ဖိုင်ပင်တွင် ရွေးရန်";
+"Next Tab" = "နောက်တက်ဘ်";
+"Previous Tab" = "ယခင်တက်ဘ်";
+"Minimize" = "အငယ်ဆုံးချုံ့ရန်";
+"Zoom" = "ဝင်းဒိုးချဲ့ရန်";
+"Bring All to Front" = "ဝင်းဒိုးအားလုံး ရှေ့သို့ယူရန်";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "ပြည်တွင်း";
-"Local (%ld)" = "ပြည်တွင်း (%ld)၊";
-"Hide Terminal" = "Terminal ကို ဖျောက်ပါ။";
-"Close" = "ပိတ်လိုက်";
+"Local" = "ဤစက်ပေါ်";
+"Local (%ld)" = "ဤစက်ပေါ် (%ld)";
+"Hide Terminal" = "တာမီနယ်ကို ဖျောက်ရန်";
+"Close" = "ပိတ်ရန်";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "လည်ပတ်နေသော Terminal စက်ရှင်များကို ပိတ်မလား။";
-"These processes will be stopped:" = "ဤလုပ်ငန်းစဉ်များကို ရပ်တန့်ပါမည်-";
-"Cancel" = "မလုပ်တော့";
+"Close running terminal sessions?" = "လည်ပတ်နေသော တာမီနယ်ဆက်ရှင်များကို ပိတ်မလား။";
+"These processes will be stopped:" = "ဤလုပ်ငန်းစဉ်များကို ရပ်ဆိုင်းပါမည်။";
+"Cancel" = "မလုပ်တော့ပါ";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "ကော်ပီကို သိမ်းဆည်းပါ…";
+"Save a Copy…" = "မိတ္တူသိမ်းရန်…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "တည်းဖြတ်သူသာ";
-"Editor and Preview" = "တည်းဖြတ်သူနှင့် အစမ်းကြည့်ရှုပါ။";
-"Preview Only" = "အစမ်းကြည့်ရန်သာ";
+"Editor Only" = "တည်းဖြတ်ကိရိယာသာ";
+"Editor and Preview" = "တည်းဖြတ်ကိရိယာနှင့် အစမ်းမြင်ကွင်း";
+"Preview Only" = "အစမ်းမြင်ကွင်းသာ";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "နေရာများ- %ld";
+"Spaces: %ld" = "ကွက်လပ်: %ld";
 "Plain Text" = "ရိုးရိုးစာသား";
-"Search Everywhere" = "နေရာတိုင်းကို ရှာပါ။";
-"Double ⇧" = "နှစ်ဆ ⇧";
-"Go to File" = "File သို့သွားပါ။";
-"Open Folder" = "Folder ကိုဖွင့်ပါ။";
-"Project View" = "ပရောဂျက်မြင်ကွင်း";
+"Search Everywhere" = "နေရာတိုင်းရှာရန်";
+"Double ⇧" = "⇧ နှစ်ချက်";
+"Go to File" = "ဖိုင်သို့ သွားရန်";
+"Open Folder" = "ဖိုင်တွဲဖွင့်ရန်";
+"Project View" = "ပရောဂျက်ဖိုင်ပင်";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ဖိုင်သည် ဒစ်ခ်ပေါ်တွင် ပြောင်းသွားသည်။ သင်၏တည်းဖြတ်မှုများကို သိမ်းဆည်းထားသည်။ ဗားရှင်းနှစ်မျိုးလုံးကို ထိန်းသိမ်းရန် မိတ္တူကို သိမ်းဆည်းပါ။";
-"The file is a binary file." = "ဖိုင်သည် binary ဖိုင်တစ်ခုဖြစ်သည်။";
-"The file's text encoding could not be determined." = "ဖိုင်၏ စာသားကုဒ်သွင်းခြင်းကို မဆုံးဖြတ်နိုင်ပါ။";
-"The text cannot be saved in %@." = "စာသားကို %@ တွင် သိမ်းဆည်း၍မရပါ။";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ဒစ်ပေါ်ရှိဖိုင် ပြောင်းလဲသွားပါပြီ။ သင်တည်းဖြတ်ထားသည့်အရာများသည် တည်းဖြတ်ကိရိယာထဲတွင် ရှိနေဆဲဖြစ်သည်။ မူနှစ်မျိုးလုံး ကျန်ရှိစေရန် မိတ္တူသိမ်းပါ။";
+"The file is a binary file." = "ဤဖိုင်သည် ဘိုင်နရီဖိုင်ဖြစ်သည်။";
+"The file's text encoding could not be determined." = "ဖိုင်၏စာသားကုဒ်စနစ်ကို မသတ်မှတ်နိုင်ပါ။";
+"The text cannot be saved in %@." = "စာသားကို %@ ကုဒ်စနစ်ဖြင့် မသိမ်းနိုင်ပါ။";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "ဖိုင်တွဲအသစ်";
 "New File" = "ဖိုင်အသစ်";
-"Enter a name in “%@”. Use / to create nested folders." = "“%@” တွင် အမည်တစ်ခုထည့်ပါ။ ဖိုင်တွဲခွဲများဖန်တီးရန် ဖိုင်တွဲအမည်များကို / အက္ခရာဖြင့် ခွဲခြားပါ။";
-"Rename" = "အမည်ပြောင်းပါ။";
-"Enter a new name for “%@”." = "“%@” အတွက် အမည်အသစ်ကို ထည့်ပါ။";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” ထဲတွင် အမည်ထည့်ပါ။ အဆင့်ဆင့်ဖိုင်တွဲများ ဖန်တီးရန် / ကို သုံးပါ။";
+"Rename" = "အမည်ပြောင်းရန်";
+"Enter a new name for “%@”." = "“%@” အတွက် အမည်အသစ်ထည့်ပါ။";
 "Move “%@” to the Trash?" = "“%@” ကို အမှိုက်ပုံးသို့ ရွှေ့မလား။";
-"The folder and everything in it will be moved to the Trash." = "ဖိုင်တွဲနှင့် ၎င်းရှိအရာအားလုံးကို အမှိုက်ပုံးသို့ ရွှေ့လိုက်ပါမည်။";
-"You can restore it from the Trash." = "၎င်းကို အမှိုက်ပုံးမှ ပြန်ယူနိုင်သည်။";
-"Move to Trash" = "အမှိုက်ပုံးသို့ ရွှေ့ပါ။";
+"The folder and everything in it will be moved to the Trash." = "ဖိုင်တွဲနှင့် ၎င်းထဲရှိအရာအားလုံးကို အမှိုက်ပုံးသို့ ရွှေ့ပါမည်။";
+"You can restore it from the Trash." = "အမှိုက်ပုံးမှ ပြန်ယူနိုင်ပါသည်။";
+"Move to Trash" = "အမှိုက်ပုံးသို့ ရွှေ့ရန်";
 "OK" = "အိုကေ";
-"Rename…" = "အမည်ပြောင်း…";
-"Copy Path" = "လမ်းကြောင်းကို ကူးယူပါ။";
-"Copy Relative Path" = "Relative Path ကို ကူးယူပါ။";
-"Reveal in Finder" = "Finder တွင် ဖော်ပြပါ။";
-"Open in Terminal" = "Terminal တွင်ဖွင့်ပါ။";
+"Rename…" = "အမည်ပြောင်းရန်…";
+"Copy Path" = "လမ်းကြောင်းကူးယူရန်";
+"Copy Relative Path" = "နှိုင်းရလမ်းကြောင်းကူးယူရန်";
+"Reveal in Finder" = "Finder တွင် ပြရန်";
+"Open in Terminal" = "တာမီနယ်တွင် ဖွင့်ရန်";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "ဘယ်ဘက် အကန့်";
+"Left Panel" = "ဘယ်ဘက်အကန့်";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ဖို";
-"Double ⇧ to search everywhere" = "နေရာတိုင်းကိုရှာဖွေရန် နှစ်ချက် ⇧";
-"Type a file name (use / to match the path)" = "ဖိုင်အမည်ကို ရိုက်ထည့်ပါ (လမ်းကြောင်းနှင့် ကိုက်ညီစေရန် အသုံးပြုပါ)";
-"No recent files" = "လတ်တလောဖိုင်များမရှိပါ။";
-"Recent Files" = "လတ်တလော ဖိုင်များ";
-"Matches: %1$ld / Files: %2$ld" = "တွေ့ရှိသောရလဒ်များ: %1$ld / စုစုပေါင်းဖိုင်များ: %2$ld";
+"Files" = "ဖိုင်များ";
+"Double ⇧ to search everywhere" = "နေရာတိုင်းရှာရန် ⇧ ကို နှစ်ချက်နှိပ်ပါ";
+"Type a file name (use / to match the path)" = "ဖိုင်အမည်ရိုက်ပါ (လမ်းကြောင်းဖြင့်ရှာရန် / ကို သုံးပါ)";
+"No recent files" = "မကြာသေးမီက ဖိုင်များ မရှိပါ";
+"Recent Files" = "မကြာသေးမီက ဖိုင်များ";
+"Matches: %1$ld / Files: %2$ld" = "ကိုက်ညီမှု: %1$ld / ဖိုင်များ: %2$ld";

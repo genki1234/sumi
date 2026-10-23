@@ -7,118 +7,118 @@
 
 /* Sources/Sumi/App/AppDelegate.swift */
 "Open a folder as a project, or a file to edit." = "Malfermu dosierujon kiel projekton, aŭ dosieron por redakti.";
-"Open" = "Malfermu";
+"Open" = "Malfermi";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Dosiero";
 "Edit" = "Redakti";
 "View" = "Vido";
-"Navigate" = "Navigu";
+"Navigate" = "Navigado";
 "Window" = "Fenestro";
-"About Sumi" = "Pri la aplikaĵo Sumi";
 "Language" = "Lingvo";
+"About Sumi" = "Pri Sumi";
 "Services" = "Servoj";
 "Hide Sumi" = "Kaŝi Sumi";
-"Hide Others" = "Kaŝi Aliajn";
-"Show All" = "Montri Ĉion";
-"Quit Sumi" = "Forlasu Sumi";
-"System Default" = "Sistemo Defaŭlto";
-"New File…" = "Nova Dosiero...";
-"New Folder…" = "Nova dosierujo...";
-"New Terminal Tab" = "Nova Terminalo Tab";
-"Open…" = "Malfermu…";
-"Save" = "Konservu";
-"Save All" = "Konservu Ĉion";
-"Close Tab" = "Fermu Tab";
-"Close Window" = "Fermu Fenestron";
+"Hide Others" = "Kaŝi la aliajn";
+"Show All" = "Montri ĉiujn";
+"Quit Sumi" = "Eliri el Sumi";
+"System Default" = "Sistema defaŭlto";
+"New File…" = "Nova dosiero…";
+"New Folder…" = "Nova dosierujo…";
+"New Terminal Tab" = "Nova terminala langeto";
+"Open…" = "Malfermi…";
+"Save" = "Konservi";
+"Save All" = "Konservi ĉiujn";
+"Close Tab" = "Fermi langeton";
+"Close Window" = "Fermi fenestron";
 "Undo" = "Malfari";
 "Redo" = "Refari";
-"Cut" = "Tranĉi";
-"Copy" = "Kopiu";
+"Cut" = "Eltondi";
+"Copy" = "Kopii";
 "Paste" = "Alglui";
-"Select All" = "Elektu Ĉiujn";
-"Find…" = "Trovu…";
+"Select All" = "Elekti ĉion";
+"Find…" = "Trovi…";
 "Replace…" = "Anstataŭigi…";
-"Find Next" = "Trovu Sekva";
-"Find Previous" = "Trovu Antaŭan";
-"Use Selection for Find" = "Uzu Elekton por Trovi";
-"Find" = "Trovu";
+"Find Next" = "Trovi la sekvan";
+"Find Previous" = "Trovi la antaŭan";
+"Use Selection for Find" = "Serĉi la elektitan tekston";
+"Find" = "Serĉo";
 "Project" = "Projekto";
 "Terminal" = "Terminalo";
-"Swap Terminal and Project" = "Interŝanĝi Terminalon kaj Projekton";
-"Maximize Terminal" = "Maksimumigu Terminalon";
-"GPU Rendering" = "GPU-prezentado";
-"Soft-Wrap" = "Aŭtomate envolvu longajn tekstajn liniojn";
-"Toggle Preview" = "Baskuligi Antaŭrigardon";
-"Increase Font Size" = "Pliigi Tiparo Grandeco";
-"Decrease Font Size" = "Malpliigu Tipargrandon";
-"Reset Font Size" = "Restarigi Tiparo Grandeco";
-"Search Everywhere (Double ⇧)" = "Serĉu Ĉie (Duoble ⇧)";
-"Select in Project View" = "Elektu en Projekta Vido";
-"Next Tab" = "Sekva Tab";
-"Previous Tab" = "Antaŭa Tab";
+"Swap Terminal and Project" = "Interŝanĝi terminalon kaj projekton";
+"Maximize Terminal" = "Maksimumigi terminalon";
+"GPU Rendering" = "Bildigo per GPU";
+"Soft-Wrap" = "Aŭtomata linifaldo";
+"Toggle Preview" = "Montri/kaŝi antaŭrigardon";
+"Increase Font Size" = "Pligrandigi tiparon";
+"Decrease Font Size" = "Malpligrandigi tiparon";
+"Reset Font Size" = "Restarigi tipargrandon";
+"Search Everywhere (Double ⇧)" = "Serĉi ĉie (dufoje ⇧)";
+"Select in Project View" = "Elekti en la projekta vido";
+"Next Tab" = "Sekva langeto";
+"Previous Tab" = "Antaŭa langeto";
 "Minimize" = "Minimumigi";
-"Zoom" = "Zomi";
-"Bring All to Front" = "Alportu Ĉion al la Fronto";
+"Zoom" = "Pligrandigi fenestron";
+"Bring All to Front" = "Antaŭenigi ĉiujn fenestrojn";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Loka";
 "Local (%ld)" = "Loka (%ld)";
-"Hide Terminal" = "Kaŝi Terminalon";
-"Close" = "Fermu";
+"Hide Terminal" = "Kaŝi terminalon";
+"Close" = "Fermi";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Ĉu fermi kurantajn finajn sesiojn?";
-"These processes will be stopped:" = "Ĉi tiuj procezoj estos ĉesigitaj:";
+"Close running terminal sessions?" = "Ĉu fermi la aktivajn terminalajn seancojn?";
+"These processes will be stopped:" = "Ĉi tiuj procezoj estos haltigitaj:";
 "Cancel" = "Nuligi";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Konservu Kopion...";
+"Save a Copy…" = "Konservi kopion…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Nur Redaktoro";
-"Editor and Preview" = "Redaktoro kaj Antaŭrigardo";
-"Preview Only" = "Antaŭrigardo Nur";
+"Editor Only" = "Nur redaktilo";
+"Editor and Preview" = "Redaktilo kaj antaŭrigardo";
+"Preview Only" = "Nur antaŭrigardo";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Spacoj: %ld";
-"Plain Text" = "Klara Teksto";
-"Search Everywhere" = "Serĉu Ĉie";
-"Double ⇧" = "Duobla ⇧";
-"Go to File" = "Iru al Dosiero";
-"Open Folder" = "Malfermu Dosierujon";
-"Project View" = "Projekta Vido";
+"Spaces: %ld" = "Spacetoj: %ld";
+"Plain Text" = "Simpla teksto";
+"Search Everywhere" = "Serĉi ĉie";
+"Double ⇧" = "Dufoje ⇧";
+"Go to File" = "Iri al dosiero";
+"Open Folder" = "Malfermi dosierujon";
+"Project View" = "Projekta vido";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "La dosiero ŝanĝiĝis sur disko. Viaj redaktoj estas konservitaj. Konservu kopion por konservi ambaŭ versiojn.";
-"The file is a binary file." = "La dosiero estas binara dosiero.";
-"The file's text encoding could not be determined." = "La tekstokodado de la dosiero ne povis esti determinita.";
-"The text cannot be saved in %@." = "La teksto ne estas konservita en %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "La dosiero sur la disko ŝanĝiĝis. Viaj redaktoj ankoraŭ estas en la redaktilo. Konservu kopion por teni ambaŭ versiojn.";
+"The file is a binary file." = "La dosiero estas duuma.";
+"The file's text encoding could not be determined." = "Ne eblis determini la tekstan kodoprezenton de la dosiero.";
+"The text cannot be saved in %@." = "Ne eblas konservi la tekston per %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Nova Dosierujo";
-"New File" = "Nova Dosiero";
-"Enter a name in “%@”. Use / to create nested folders." = "Enigu nomon en \"%@\". Apartigu dosierujojn per la signo / por krei subdosierujojn.";
+"New Folder" = "Nova dosierujo";
+"New File" = "Nova dosiero";
+"Enter a name in “%@”. Use / to create nested folders." = "Enigu nomon en «%@». Uzu / por krei ingitajn dosierujojn.";
 "Rename" = "Alinomi";
-"Enter a new name for “%@”." = "Enigu novan nomon por \"%@\".";
-"Move “%@” to the Trash?" = "Ĉu movi \"%@\" al la Rubujo?";
-"The folder and everything in it will be moved to the Trash." = "La dosierujo kaj ĉio en ĝi estos movitaj al la Rubujo.";
-"You can restore it from the Trash." = "Vi povas restarigi ĝin el la Rubujo.";
-"Move to Trash" = "Movu al Rubujo";
+"Enter a new name for “%@”." = "Enigu novan nomon por «%@».";
+"Move “%@” to the Trash?" = "Ĉu movi «%@» en la rubujon?";
+"The folder and everything in it will be moved to the Trash." = "La dosierujo kaj ĝia tuta enhavo estos movitaj en la rubujon.";
+"You can restore it from the Trash." = "Vi povas restaŭri la eron el la rubujo.";
+"Move to Trash" = "Movi en rubujon";
 "OK" = "Bone";
-"Rename…" = "Alinomi...";
-"Copy Path" = "Kopiu Vojo";
-"Copy Relative Path" = "Kopiu Relativa Vojo";
-"Reveal in Finder" = "Malkaŝu en Finder";
-"Open in Terminal" = "Malfermu en Terminalo";
+"Rename…" = "Alinomi…";
+"Copy Path" = "Kopii vojon";
+"Copy Relative Path" = "Kopii relativan vojon";
+"Reveal in Finder" = "Montri en Finder";
+"Open in Terminal" = "Malfermi en terminalo";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Maldekstra Panelo";
+"Left Panel" = "Maldekstra panelo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Dosieroj";
-"Double ⇧ to search everywhere" = "Duobligu ⇧ por serĉi ĉie";
-"Type a file name (use / to match the path)" = "Tajpu dosiernomon (uzu / por kongrui kun la vojo)";
+"Double ⇧ to search everywhere" = "Premu ⇧ dufoje por serĉi ĉie";
+"Type a file name (use / to match the path)" = "Tajpu dosiernomon (uzu / por serĉi en la vojo)";
 "No recent files" = "Neniuj lastatempaj dosieroj";
-"Recent Files" = "Lastatempaj Dosieroj";
-"Matches: %1$ld / Files: %2$ld" = "Rezultoj trovitaj: %1$ld / Sumaj dosieroj: %2$ld";
+"Recent Files" = "Lastatempaj dosieroj";
+"Matches: %1$ld / Files: %2$ld" = "Kongruoj: %1$ld / Dosieroj: %2$ld";

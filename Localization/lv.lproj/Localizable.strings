@@ -6,20 +6,20 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Atveriet mapi kā projektu vai rediģējamo failu.";
+"Open a folder as a project, or a file to edit." = "Atveriet mapi kā projektu vai failu rediģēšanai.";
 "Open" = "Atvērt";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fails";
 "Edit" = "Rediģēt";
-"View" = "Skatīt";
-"Navigate" = "Naviģēt";
+"View" = "Skats";
+"Navigate" = "Navigācija";
 "Window" = "Logs";
-"About Sumi" = "Par Sumi pieteikumu";
 "Language" = "Valoda";
+"About Sumi" = "Par Sumi";
 "Services" = "Pakalpojumi";
 "Hide Sumi" = "Paslēpt Sumi";
-"Hide Others" = "Paslēpt citus";
+"Hide Others" = "Paslēpt pārējās";
 "Show All" = "Rādīt visu";
 "Quit Sumi" = "Iziet no Sumi";
 "System Default" = "Sistēmas noklusējums";
@@ -30,45 +30,45 @@
 "Save" = "Saglabāt";
 "Save All" = "Saglabāt visu";
 "Close Tab" = "Aizvērt cilni";
-"Close Window" = "Aizveriet logu";
+"Close Window" = "Aizvērt logu";
 "Undo" = "Atsaukt";
-"Redo" = "Atkārtoti";
+"Redo" = "Atcelt atsaukšanu";
 "Cut" = "Izgriezt";
 "Copy" = "Kopēt";
 "Paste" = "Ielīmēt";
-"Select All" = "Atlasiet visu";
-"Find…" = "Atrast…";
+"Select All" = "Atlasīt visu";
+"Find…" = "Meklēt…";
 "Replace…" = "Aizstāt…";
-"Find Next" = "Atrodi Tālāk";
-"Find Previous" = "Atrodiet iepriekšējo";
-"Use Selection for Find" = "Izmantojiet atlasi meklēšanai";
-"Find" = "Atrast";
+"Find Next" = "Meklēt nākamo";
+"Find Previous" = "Meklēt iepriekšējo";
+"Use Selection for Find" = "Meklēt atlasīto tekstu";
+"Find" = "Meklēt";
 "Project" = "Projekts";
 "Terminal" = "Terminālis";
-"Swap Terminal and Project" = "Apmainiet termināli un projektu";
-"Maximize Terminal" = "Maksimizējiet termināli";
-"GPU Rendering" = "GPU renderēšana";
-"Soft-Wrap" = "Automātiski aplauzt garās teksta rindiņas";
-"Toggle Preview" = "Pārslēgt priekšskatījumu";
-"Increase Font Size" = "Palieliniet fonta lielumu";
-"Decrease Font Size" = "Samaziniet fonta lielumu";
+"Swap Terminal and Project" = "Samainīt termināli un projektu";
+"Maximize Terminal" = "Maksimizēt termināli";
+"GPU Rendering" = "Atveide ar GPU";
+"Soft-Wrap" = "Rindu aplaušana";
+"Toggle Preview" = "Rādīt/paslēpt priekšskatījumu";
+"Increase Font Size" = "Palielināt fontu";
+"Decrease Font Size" = "Samazināt fontu";
 "Reset Font Size" = "Atiestatīt fonta lielumu";
-"Search Everywhere (Double ⇧)" = "Meklēt visur (dubultā ⇧)";
-"Select in Project View" = "Projekta skatā atlasiet";
+"Search Everywhere (Double ⇧)" = "Meklēt visur (divreiz ⇧)";
+"Select in Project View" = "Atlasīt projekta kokā";
 "Next Tab" = "Nākamā cilne";
 "Previous Tab" = "Iepriekšējā cilne";
 "Minimize" = "Minimizēt";
-"Zoom" = "Tālummaiņa";
-"Bring All to Front" = "Izvediet visus priekšā";
+"Zoom" = "Palielināt logu";
+"Bring All to Front" = "Pārvietot visus logus priekšplānā";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Vietējais";
-"Local (%ld)" = "Vietējais (%ld)";
+"Local" = "Lokāls";
+"Local (%ld)" = "Lokāls (%ld)";
 "Hide Terminal" = "Paslēpt termināli";
 "Close" = "Aizvērt";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Vai aizvērt darbojošās termināļa sesijas?";
+"Close running terminal sessions?" = "Aizvērt aktīvās termināļa sesijas?";
 "These processes will be stopped:" = "Šie procesi tiks apturēti:";
 "Cancel" = "Atcelt";
 
@@ -81,35 +81,35 @@
 "Preview Only" = "Tikai priekšskatījums";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Vietas: %ld";
+"Spaces: %ld" = "Atstarpes: %ld";
 "Plain Text" = "Vienkāršs teksts";
 "Search Everywhere" = "Meklēt visur";
-"Double ⇧" = "Dubults ⇧";
-"Go to File" = "Dodieties uz Fails";
-"Open Folder" = "Atveriet mapi";
-"Project View" = "Projekta skats";
+"Double ⇧" = "Divreiz ⇧";
+"Go to File" = "Doties uz failu";
+"Open Folder" = "Atvērt mapi";
+"Project View" = "Projekta koks";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fails ir mainīts diskā. Jūsu labojumi ir saglabāti. Saglabājiet kopiju, lai saglabātu abas versijas.";
-"The file is a binary file." = "Fails ir binārs fails.";
-"The file's text encoding could not be determined." = "Nevarēja noteikt faila teksta kodējumu.";
-"The text cannot be saved in %@." = "Tekstu nevar saglabāt %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fails diskā ir mainījies. Jūsu labojumi paliek redaktorā. Saglabājiet kopiju, lai paturētu abas versijas.";
+"The file is a binary file." = "Šis fails ir binārs fails.";
+"The file's text encoding could not be determined." = "Neizdevās noteikt faila teksta kodējumu.";
+"The text cannot be saved in %@." = "Tekstu nevar saglabāt kodējumā %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Jauna mape";
 "New File" = "Jauns fails";
-"Enter a name in “%@”. Use / to create nested folders." = "Ievadiet nosaukumu “%@”. Atdaliet mapju nosaukumus ar rakstzīmi /, lai izveidotu apakšmapes.";
+"Enter a name in “%@”. Use / to create nested folders." = "Ievadiet nosaukumu mapē “%@”. Izmantojiet /, lai veidotu ligzdotas mapes.";
 "Rename" = "Pārdēvēt";
-"Enter a new name for “%@”." = "Ievadiet jaunu nosaukumu “%@”.";
-"Move “%@” to the Trash?" = "Vai pārvietot “%@” uz atkritni?";
-"The folder and everything in it will be moved to the Trash." = "Mape un viss tajā esošais tiks pārvietots uz miskasti.";
-"You can restore it from the Trash." = "Varat to atjaunot no miskastes.";
-"Move to Trash" = "Pārvietot uz miskasti";
+"Enter a new name for “%@”." = "Ievadiet jaunu nosaukumu failam vai mapei “%@”.";
+"Move “%@” to the Trash?" = "Pārvietot “%@” uz atkritni?";
+"The folder and everything in it will be moved to the Trash." = "Mape un viss tās saturs tiks pārvietots uz atkritni.";
+"You can restore it from the Trash." = "To var atjaunot no atkritnes.";
+"Move to Trash" = "Pārvietot uz atkritni";
 "OK" = "Labi";
 "Rename…" = "Pārdēvēt…";
 "Copy Path" = "Kopēt ceļu";
 "Copy Relative Path" = "Kopēt relatīvo ceļu";
-"Reveal in Finder" = "Atklājiet Finder";
+"Reveal in Finder" = "Parādīt Finder";
 "Open in Terminal" = "Atvērt terminālī";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Faili";
-"Double ⇧ to search everywhere" = "Divkāršot ⇧, lai meklētu visur";
-"Type a file name (use / to match the path)" = "Ierakstiet faila nosaukumu (izmantojiet /, lai atbilstu ceļam)";
-"No recent files" = "Nav jaunāko failu";
-"Recent Files" = "Jaunākie faili";
-"Matches: %1$ld / Files: %2$ld" = "Atrasti rezultāti: %1$ld / Kopā faili: %2$ld";
+"Double ⇧ to search everywhere" = "Divreiz nospiediet ⇧, lai meklētu visur";
+"Type a file name (use / to match the path)" = "Ievadiet faila nosaukumu (izmantojiet /, lai meklētu pēc ceļa)";
+"No recent files" = "Nav neseno failu";
+"Recent Files" = "Nesenie faili";
+"Matches: %1$ld / Files: %2$ld" = "Atbilstības: %1$ld / Faili: %2$ld";

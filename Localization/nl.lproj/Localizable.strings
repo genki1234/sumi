@@ -10,19 +10,19 @@
 "Open" = "Open";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Archief";
+"File" = "Bestand";
 "Edit" = "Wijzig";
 "View" = "Weergave";
-"Navigate" = "Navigeer";
+"Navigate" = "Navigatie";
 "Window" = "Venster";
-"About Sumi" = "Over Sumi";
 "Language" = "Taal";
+"About Sumi" = "Over Sumi";
 "Services" = "Voorzieningen";
 "Hide Sumi" = "Verberg Sumi";
 "Hide Others" = "Verberg andere";
 "Show All" = "Toon alles";
 "Quit Sumi" = "Stop Sumi";
-"System Default" = "Systeemstandaard";
+"System Default" = "Volg de systeemtaal";
 "New File…" = "Nieuw bestand…";
 "New Folder…" = "Nieuwe map…";
 "New Terminal Tab" = "Nieuw terminaltabblad";
@@ -41,39 +41,39 @@
 "Replace…" = "Vervang…";
 "Find Next" = "Zoek volgende";
 "Find Previous" = "Zoek vorige";
-"Use Selection for Find" = "Gebruik selectie om te zoeken";
+"Use Selection for Find" = "Gebruik selectie als zoektekst";
 "Find" = "Zoek";
 "Project" = "Project";
 "Terminal" = "Terminal";
 "Swap Terminal and Project" = "Verwissel terminal en project";
 "Maximize Terminal" = "Maximaliseer terminal";
-"GPU Rendering" = "GPU-weergave";
-"Soft-Wrap" = "Zachte regelafbreking";
-"Toggle Preview" = "Voorvertoning aan/uit";
-"Increase Font Size" = "Vergroot lettergrootte";
-"Decrease Font Size" = "Verklein lettergrootte";
-"Reset Font Size" = "Zet lettergrootte terug";
-"Search Everywhere (Double ⇧)" = "Zoek overal (dubbele ⇧)";
+"GPU Rendering" = "Weergave via GPU";
+"Soft-Wrap" = "Regels afbreken op vensterbreedte";
+"Toggle Preview" = "Toon/verberg voorvertoning";
+"Increase Font Size" = "Vergroot tekst";
+"Decrease Font Size" = "Verklein tekst";
+"Reset Font Size" = "Herstel tekstgrootte";
+"Search Everywhere (Double ⇧)" = "Zoek overal (tweemaal ⇧)";
 "Select in Project View" = "Selecteer in projectweergave";
 "Next Tab" = "Volgend tabblad";
 "Previous Tab" = "Vorig tabblad";
-"Minimize" = "Zet in het Dock";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Alles naar voren halen";
+"Minimize" = "Minimaliseer";
+"Zoom" = "Pas venstergrootte aan";
+"Bring All to Front" = "Breng alle vensters naar voren";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokaal";
 "Local (%ld)" = "Lokaal (%ld)";
 "Hide Terminal" = "Verberg terminal";
-"Close" = "Sluiten";
+"Close" = "Sluit";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Lopende terminalsessies sluiten?";
+"Close running terminal sessions?" = "Actieve terminalsessies sluiten?";
 "These processes will be stopped:" = "Deze processen worden gestopt:";
 "Cancel" = "Annuleer";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Een kopie opslaan…";
+"Save a Copy…" = "Bewaar een kopie…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Alleen editor";
@@ -84,26 +84,26 @@
 "Spaces: %ld" = "Spaties: %ld";
 "Plain Text" = "Platte tekst";
 "Search Everywhere" = "Zoek overal";
-"Double ⇧" = "Dubbele ⇧";
+"Double ⇧" = "Tweemaal ⇧";
 "Go to File" = "Ga naar bestand";
 "Open Folder" = "Open map";
 "Project View" = "Projectweergave";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Het bestand is op schijf gewijzigd. Uw bewerkingen zijn bewaard. Sla een kopie op om beide versies te behouden.";
-"The file is a binary file." = "Het bestand is een binair bestand.";
-"The file's text encoding could not be determined." = "De tekstcodering van het bestand kon niet worden bepaald.";
-"The text cannot be saved in %@." = "De tekst kan niet in %@ worden bewaard.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Het bestand is op schijf gewijzigd. Je bewerkingen staan nog in de editor. Bewaar een kopie om beide versies te behouden.";
+"The file is a binary file." = "Dit is een binair bestand.";
+"The file's text encoding could not be determined." = "De tekencodering van het bestand kon niet worden vastgesteld.";
+"The text cannot be saved in %@." = "De tekst kan niet worden bewaard met tekencodering %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Nieuwe map";
 "New File" = "Nieuw bestand";
-"Enter a name in “%@”. Use / to create nested folders." = "Geef een naam op in “%@”. Gebruik / om geneste mappen te maken.";
+"Enter a name in “%@”. Use / to create nested folders." = "Voer een naam in voor een item in ‘%@’. Gebruik / om mappen op meerdere niveaus te maken.";
 "Rename" = "Wijzig naam";
-"Enter a new name for “%@”." = "Geef een nieuwe naam op voor “%@”.";
-"Move “%@” to the Trash?" = "“%@” naar de prullenmand verplaatsen?";
-"The folder and everything in it will be moved to the Trash." = "De map en alles wat erin zit, worden naar de prullenmand verplaatst.";
-"You can restore it from the Trash." = "Je kunt het terugzetten vanuit de prullenmand.";
+"Enter a new name for “%@”." = "Voer een nieuwe naam in voor ‘%@’.";
+"Move “%@” to the Trash?" = "‘%@’ naar de prullenmand verplaatsen?";
+"The folder and everything in it will be moved to the Trash." = "De map en alle inhoud worden naar de prullenmand verplaatst.";
+"You can restore it from the Trash." = "Je kunt het onderdeel uit de prullenmand terugzetten.";
 "Move to Trash" = "Verplaats naar prullenmand";
 "OK" = "OK";
 "Rename…" = "Wijzig naam…";
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Bestanden";
-"Double ⇧ to search everywhere" = "Dubbele ⇧ om overal te zoeken";
-"Type a file name (use / to match the path)" = "Typ een bestandsnaam (gebruik / om op het pad te zoeken)";
+"Double ⇧ to search everywhere" = "Druk tweemaal op ⇧ om overal te zoeken";
+"Type a file name (use / to match the path)" = "Typ een bestandsnaam (gebruik / om in het pad te zoeken)";
 "No recent files" = "Geen recente bestanden";
 "Recent Files" = "Recente bestanden";
-"Matches: %1$ld / Files: %2$ld" = "Treffers: %1$ld / Bestanden: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Overeenkomsten: %1$ld / Bestanden: %2$ld";

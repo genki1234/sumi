@@ -6,60 +6,60 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Öffnen en Dossier als Projet, oder e Fichier fir z'änneren.";
-"Open" = "Oppen";
+"Open a folder as a project, or a file to edit." = "Maacht en Dossier als Projet op oder eng Datei fir se ze änneren.";
+"Open" = "Opmaachen";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Fichier";
-"Edit" = "Text änneren";
-"View" = "Vue";
+"File" = "Datei";
+"Edit" = "Beaarbechten";
+"View" = "Usiicht";
 "Navigate" = "Navigéieren";
 "Window" = "Fënster";
-"About Sumi" = "Iwwer d'Sumi Applikatioun";
 "Language" = "Sprooch";
+"About Sumi" = "Iwwer Sumi";
 "Services" = "Servicer";
-"Hide Sumi" = "Verstoppen Sumi";
-"Hide Others" = "Aner verstoppen";
+"Hide Sumi" = "Sumi verstoppen";
+"Hide Others" = "Anerer verstoppen";
 "Show All" = "Alles weisen";
-"Quit Sumi" = "Gitt op Sumi";
-"System Default" = "System Standard";
-"New File…" = "Neie Fichier…";
+"Quit Sumi" = "Sumi verloossen";
+"System Default" = "Systemstandard";
+"New File…" = "Nei Datei…";
 "New Folder…" = "Neien Dossier…";
-"New Terminal Tab" = "Neien Terminal Tab";
-"Open…" = "Oppen…";
-"Save" = "Spueren";
+"New Terminal Tab" = "Neien Terminaltab";
+"Open…" = "Opmaachen…";
+"Save" = "Späicheren";
 "Save All" = "Alles späicheren";
-"Close Tab" = "Zoumaachen Tab";
-"Close Window" = "Zoumaachen Fënster";
-"Undo" = "Undoen";
-"Redo" = "Widderhuelen déi lescht Aktioun";
-"Cut" = "Schnëtt";
-"Copy" = "Kopie";
-"Paste" = "Paste Text";
-"Select All" = "Wielt All";
-"Find…" = "Fannt…";
+"Close Tab" = "Tab zoumaachen";
+"Close Window" = "Fënster zoumaachen";
+"Undo" = "Réckgängeg maachen";
+"Redo" = "Widderhuelen";
+"Cut" = "Ausschneiden";
+"Copy" = "Kopéieren";
+"Paste" = "Asetzen";
+"Select All" = "Alles auswielen";
+"Find…" = "Sichen…";
 "Replace…" = "Ersetzen…";
-"Find Next" = "Fannt Nächst";
-"Find Previous" = "Fannt virdrun";
-"Use Selection for Find" = "Benotzt Selektioun fir Fannt";
-"Find" = "Fannen";
+"Find Next" = "Nächst sichen";
+"Find Previous" = "Viregt sichen";
+"Use Selection for Find" = "Ausgewielten Text sichen";
+"Find" = "Sichen";
 "Project" = "Projet";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal a Projet";
+"Swap Terminal and Project" = "Terminal a Projet tauschen";
 "Maximize Terminal" = "Terminal maximéieren";
-"GPU Rendering" = "Render Grafik mat der GPU";
-"Soft-Wrap" = "Automatesch laang Textlinnen wéckelen";
-"Toggle Preview" = "Show oder verstoppt d'Virschau";
-"Increase Font Size" = "Erhéijung Schrëftgréisst";
-"Decrease Font Size" = "Schrëftgréisst reduzéieren";
-"Reset Font Size" = "Zerécksetzen Schrëftgréisst";
-"Search Everywhere (Double ⇧)" = "Sich iwwerall (Double ⇧)";
-"Select in Project View" = "Wielt an Project View";
-"Next Tab" = "Nächst Tab";
-"Previous Tab" = "Virdrun Tab";
-"Minimize" = "Minimiséieren";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Bréngt Alles op Front";
+"GPU Rendering" = "GPU-Duerstellung";
+"Soft-Wrap" = "Zeilenëmbroch";
+"Toggle Preview" = "Virschau weisen/verstoppen";
+"Increase Font Size" = "Schrëft vergréisseren";
+"Decrease Font Size" = "Schrëft verklengeren";
+"Reset Font Size" = "Schrëftgréisst zerécksetzen";
+"Search Everywhere (Double ⇧)" = "Iwwerall sichen (zweemol ⇧)";
+"Select in Project View" = "Am Projetbam auswielen";
+"Next Tab" = "Nächsten Tab";
+"Previous Tab" = "Viregten Tab";
+"Minimize" = "Miniméieren";
+"Zoom" = "Fënster vergréisseren";
+"Bring All to Front" = "All Fënsteren no vir bréngen";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Lokal";
@@ -68,57 +68,57 @@
 "Close" = "Zoumaachen";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Lafen Terminal Sessiounen zoumaachen?";
-"These processes will be stopped:" = "Dës Prozesser ginn gestoppt:";
+"Close running terminal sessions?" = "Lafend Terminalsessiounen zoumaachen?";
+"These processes will be stopped:" = "Dës Prozesser gi gestoppt:";
 "Cancel" = "Ofbriechen";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Späichert eng Kopie ...";
+"Save a Copy…" = "Eng Kopie späicheren…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Nëmmen Redakter";
-"Editor and Preview" = "Redakter an Virschau";
+"Editor Only" = "Nëmmen Editor";
+"Editor and Preview" = "Editor a Virschau";
 "Preview Only" = "Nëmmen Virschau";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Plazen: %ld";
-"Plain Text" = "Einfach Text";
-"Search Everywhere" = "Sich iwwerall";
-"Double ⇧" = "Duebel ⇧";
-"Go to File" = "Gitt op Datei";
-"Open Folder" = "Open Dossier";
-"Project View" = "Projet Vue";
+"Spaces: %ld" = "Eidelzeechen: %ld";
+"Plain Text" = "Einfachen Text";
+"Search Everywhere" = "Iwwerall sichen";
+"Double ⇧" = "Zweemol ⇧";
+"Go to File" = "Bei d'Datei goen";
+"Open Folder" = "Dossier opmaachen";
+"Project View" = "Projetbam";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "D'Datei geännert op Disk. Är Ännerunge goufen behalen. Späichert eng Kopie fir béid Versiounen ze erhaalen.";
-"The file is a binary file." = "D'Datei ass eng binär Datei.";
-"The file's text encoding could not be determined." = "D'Textkodéierung vum Fichier konnt net festgeluecht ginn.";
-"The text cannot be saved in %@." = "Den Text kann net am %@ gespäichert ginn.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "D'Datei gouf um Disk geännert. Är Ännerunge sinn nach am Editor. Späichert eng Kopie fir béid Versiounen ze behalen.";
+"The file is a binary file." = "D'Datei ass eng Binärdatei.";
+"The file's text encoding could not be determined." = "D'Textkodéierung vun der Datei konnt net bestëmmt ginn.";
+"The text cannot be saved in %@." = "Den Text kann net mat der Kodéierung %@ gespäichert ginn.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Neien Dossier";
-"New File" = "Neie Fichier";
-"Enter a name in “%@”. Use / to create nested folders." = "Gitt en Numm an \"%@\". Trennt Dossiernimm mam Charakter / fir Ënnerfolder ze kreéieren.";
-"Rename" = "ëmbenennen";
-"Enter a new name for “%@”." = "Gitt en neien Numm fir \"%@\".";
-"Move “%@” to the Trash?" = "\"%@\" an den Dreck réckelen?";
-"The folder and everything in it will be moved to the Trash." = "Den Dossier an alles dran ginn an den Trash geplënnert.";
-"You can restore it from the Trash." = "Dir kënnt et aus dem Trash restauréieren.";
-"Move to Trash" = "Plënneren an den Dreck";
+"New File" = "Nei Datei";
+"Enter a name in “%@”. Use / to create nested folders." = "Gitt en Numm a „%@“ an. Benotzt / fir Ënnerdossieren unzeleeën.";
+"Rename" = "Ëmbenennen";
+"Enter a new name for “%@”." = "Gitt en neien Numm fir „%@“ an.";
+"Move “%@” to the Trash?" = "„%@“ an de Pabeierkuerf réckelen?";
+"The folder and everything in it will be moved to the Trash." = "Den Dossier an de ganzen Inhalt ginn an de Pabeierkuerf geréckelt.";
+"You can restore it from the Trash." = "Dir kënnt et aus dem Pabeierkuerf zeréckhuelen.";
+"Move to Trash" = "An de Pabeierkuerf réckelen";
 "OK" = "OK";
-"Rename…" = "Umbenennen…";
-"Copy Path" = "Kopéieren Wee";
-"Copy Relative Path" = "Copie Relative Wee";
-"Reveal in Finder" = "Entdeckt am Finder";
-"Open in Terminal" = "Open am Terminal";
+"Rename…" = "Ëmbenennen…";
+"Copy Path" = "Wee kopéieren";
+"Copy Relative Path" = "Relative Wee kopéieren";
+"Reveal in Finder" = "Am Finder weisen";
+"Open in Terminal" = "Am Terminal opmaachen";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Lénks Panel";
+"Left Panel" = "Lénk Säiteleeschte";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fichieren";
-"Double ⇧ to search everywhere" = "Duebel ⇧ fir iwwerall ze sichen";
-"Type a file name (use / to match the path)" = "Gitt e Dateinumm (benotzt / fir de Wee ze passen)";
+"Files" = "Dateien";
+"Double ⇧ to search everywhere" = "Dréckt zweemol op ⇧ fir iwwerall ze sichen";
+"Type a file name (use / to match the path)" = "Gitt e Dateinumm an (benotzt / fir nom Wee ze sichen)";
 "No recent files" = "Keng rezent Dateien";
 "Recent Files" = "Rezent Dateien";
-"Matches: %1$ld / Files: %2$ld" = "Resultater fonnt: %1$ld / Total Dateien: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Treffer: %1$ld / Dateien: %2$ld";

@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Whakatuwheratia he kōpaki hei kaupapa, he konae ranei hei whakatika.";
-"Open" = "Tuwhera";
+"Open a folder as a project, or a file to edit." = "Whakatuwheratia he kōpaki hei kaupapa, he kōnae rānei hei whakatika.";
+"Open" = "Whakatuwhera";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Kōnae";
-"Edit" = "Whakatikatika";
+"Edit" = "Whakatika";
 "View" = "Tirohanga";
 "Navigate" = "Whakatere";
 "Window" = "Matapihi";
-"About Sumi" = "Mo te tono Sumi";
 "Language" = "Reo";
+"About Sumi" = "Mō Sumi";
 "Services" = "Ratonga";
-"Hide Sumi" = "Huna Sumi";
-"Hide Others" = "Huna etahi atu";
+"Hide Sumi" = "Hunaia a Sumi";
+"Hide Others" = "Hunaia Ētahi Atu";
 "Show All" = "Whakaatu Katoa";
-"Quit Sumi" = "Whakamutua Sumi";
-"System Default" = "Pūnaha Taunoa";
-"New File…" = "Kōnae Hōu…";
-"New Folder…" = "Kōpaki Hōu…";
+"Quit Sumi" = "Whakamutu i a Sumi";
+"System Default" = "Taunoa Pūnaha";
+"New File…" = "Kōnae Hou…";
+"New Folder…" = "Kōpaki Hou…";
 "New Terminal Tab" = "Ripa Kāpeka Hou";
-"Open…" = "Tuwhera…";
+"Open…" = "Whakatuwhera…";
 "Save" = "Tiaki";
 "Save All" = "Tiaki Katoa";
-"Close Tab" = "Katia Ripa";
+"Close Tab" = "Katia te Ripa";
 "Close Window" = "Katia te Matapihi";
-"Undo" = "Wetekina";
-"Redo" = "Mahi ano";
-"Cut" = "Tapahia";
+"Undo" = "Wete";
+"Redo" = "Mahi Anō";
+"Cut" = "Tapahi";
 "Copy" = "Tārua";
 "Paste" = "Whakapiri";
-"Select All" = "Tīpakohia Katoa";
-"Find…" = "Kimihia…";
-"Replace…" = "Whakakapia…";
-"Find Next" = "Kimihia Panuku";
-"Find Previous" = "Kimihia Tuhinga o mua";
-"Use Selection for Find" = "Whakamahia te Kōwhiringa mo te Kimi";
-"Find" = "Kimihia";
+"Select All" = "Tīpako Katoa";
+"Find…" = "Rapu…";
+"Replace…" = "Whakakapi…";
+"Find Next" = "Rapua te Panuku";
+"Find Previous" = "Rapua te Mea o Mua";
+"Use Selection for Find" = "Rapua te Kuputuhi kua Tīpakohia";
+"Find" = "Rapu";
 "Project" = "Kaupapa";
-"Terminal" = "tauranga";
-"Swap Terminal and Project" = "Hurihia te tauranga me te kaupapa";
-"Maximize Terminal" = "Whakamōrahi Kāpeka";
-"GPU Rendering" = "Whakaaturanga GPU";
-"Soft-Wrap" = "Tākai aunoatia ngā rārangi kuputuhi roa";
-"Toggle Preview" = "Takahuri Arokite";
-"Increase Font Size" = "Whakanuia te Rahi Momotuhi";
-"Decrease Font Size" = "Whakaitihia te Rahi Momotuhi";
-"Reset Font Size" = "Tautuhi Rahi Momotuhi";
-"Search Everywhere (Double ⇧)" = "Rapua ki nga waahi katoa (Taarua ⇧)";
-"Select in Project View" = "Tīpakohia ki te Tirohanga Kaupapa";
+"Terminal" = "Kāpeka";
+"Swap Terminal and Project" = "Whakawhitia te Kāpeka me te Kaupapa";
+"Maximize Terminal" = "Whakarahi Mōrahi i te Kāpeka";
+"GPU Rendering" = "Tā Pikitia mā te GPU";
+"Soft-Wrap" = "Tākai Rārangi";
+"Toggle Preview" = "Whakaatu/Huna Arokite";
+"Increase Font Size" = "Whakanuia te Momotuhi";
+"Decrease Font Size" = "Whakaitia te Momotuhi";
+"Reset Font Size" = "Tautuhi Anō i te Rahi Momotuhi";
+"Search Everywhere (Double ⇧)" = "Rapu i Ngā Wāhi Katoa (⇧ Rua ngā Pēhi)";
+"Select in Project View" = "Tīpako i te Rākau Kaupapa";
 "Next Tab" = "Ripa Panuku";
-"Previous Tab" = "Ripa o mua";
+"Previous Tab" = "Ripa o Mua";
 "Minimize" = "Whakaiti";
-"Zoom" = "Topa";
-"Bring All to Front" = "Kawea Katoa ki Mua";
+"Zoom" = "Whakarahi i te Matapihi";
+"Bring All to Front" = "Kawea Mai ngā Matapihi Katoa ki Mua";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "rohe";
+"Local" = "Paetata";
 "Local (%ld)" = "Paetata (%ld)";
-"Hide Terminal" = "Huna te tauranga";
-"Close" = "Katia";
+"Hide Terminal" = "Hunaia te Kāpeka";
+"Close" = "Kati";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Katia nga waahi kapeka whakahaere?";
-"These processes will be stopped:" = "Ka mutu enei tukanga:";
+"Close running terminal sessions?" = "Katia ngā wātū kāpeka e haere ana?";
+"These processes will be stopped:" = "Ka whakamutua ēnei tukanga:";
 "Cancel" = "Whakakore";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Tiakina he kape…";
+"Save a Copy…" = "Tiaki i tētahi Tārua…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Etita Anake";
-"Editor and Preview" = "Etita me te Arokite";
+"Editor Only" = "Pūwhakatika Anake";
+"Editor and Preview" = "Pūwhakatika me te Arokite";
 "Preview Only" = "Arokite Anake";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Mokowā: %ld";
-"Plain Text" = "Kuputuhi Maama";
-"Search Everywhere" = "Rapu ki nga wahi katoa";
-"Double ⇧" = "Taurua ⇧";
+"Plain Text" = "Kuputuhi Noa";
+"Search Everywhere" = "Rapu i Ngā Wāhi Katoa";
+"Double ⇧" = "⇧ Rua ngā Pēhi";
 "Go to File" = "Haere ki te Kōnae";
 "Open Folder" = "Whakatuwhera Kōpaki";
-"Project View" = "Tirohanga Kaupapa";
+"Project View" = "Rākau Kaupapa";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "I hurihia te konae i runga i te kōpae. Kua puritia o whakatika. Tiakina he kape hei pupuri i nga putanga e rua.";
-"The file is a binary file." = "He kōnae rua te kōnae.";
-"The file's text encoding could not be determined." = "Ko te whakawaehere kuputuhi o te konae kaore i taea te whakatau.";
-"The text cannot be saved in %@." = "Kaore e taea te tiaki i te kupu ki te %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Kua rerekē te kōnae i te kōpae. Kei te pūwhakatika tonu āu whakarerekētanga. Tiakina he tārua kia puritia ngā putanga e rua.";
+"The file is a binary file." = "He kōnae ā-rua tēnei.";
+"The file's text encoding could not be determined." = "Kāore i taea te tautuhi i te whakawaehere kuputuhi o te kōnae.";
+"The text cannot be saved in %@." = "Kāore e taea te tiaki i te kuputuhi mā te whakawaehere %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Kōpaki Hou";
 "New File" = "Kōnae Hou";
-"Enter a name in “%@”. Use / to create nested folders." = "Whakauruhia he ingoa ki \"%@\". Whakawehea nga ingoa kōpaki me te / pūāhua hei waihanga kōpakiroto.";
-"Rename" = "Whakaingoa ano";
-"Enter a new name for “%@”." = "Whakauruhia he ingoa hou mo \"%@\".";
-"Move “%@” to the Trash?" = "Nuku \"%@\" ki te Parapara?";
-"The folder and everything in it will be moved to the Trash." = "Ka nukuhia te kōpaki me nga mea katoa kei roto ki te Parapara.";
-"You can restore it from the Trash." = "Ka taea e koe te whakaora mai i te Parapara.";
-"Move to Trash" = "Nuku ki te paru";
-"OK" = "pai";
-"Rename…" = "Whakaingoa anō…";
-"Copy Path" = "Ara Tārua";
-"Copy Relative Path" = "Tārua Ara Whanaunga";
-"Reveal in Finder" = "Whakaatuhia i te Finder";
-"Open in Terminal" = "Tuwhera ki te Terminal";
+"Enter a name in “%@”. Use / to create nested folders." = "Tāurua he ingoa ki “%@”. Whakamahia te / hei hanga kōpaki i roto i ētahi atu kōpaki.";
+"Rename" = "Whakaingoa Anō";
+"Enter a new name for “%@”." = "Tāurua he ingoa hou mō “%@”.";
+"Move “%@” to the Trash?" = "Nukuhia a “%@” ki te Para?";
+"The folder and everything in it will be moved to the Trash." = "Ka nukuhia te kōpaki me ōna ihirangi katoa ki te Para.";
+"You can restore it from the Trash." = "Ka taea te whakahoki mai i te Para.";
+"Move to Trash" = "Nuku ki te Para";
+"OK" = "Āe";
+"Rename…" = "Whakaingoa Anō…";
+"Copy Path" = "Tārua Ara";
+"Copy Relative Path" = "Tārua Ara Pātahi";
+"Reveal in Finder" = "Whakaatu ki Finder";
+"Open in Terminal" = "Whakatuwhera ki te Kāpeka";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Paepae Mauī";
+"Left Panel" = "Paewhiri Mauī";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Kōnae";
-"Double ⇧ to search everywhere" = "Taurua ⇧ ki te rapu i nga waahi katoa";
-"Type a file name (use / to match the path)" = "Patohia he ingoa kōnae (whakamahia / kia rite ki te ara)";
-"No recent files" = "Karekau he konae tata";
-"Recent Files" = "Ngā Kōnae Hou";
-"Matches: %1$ld / Files: %2$ld" = "Hua i kitea: %1$ld / Tapeke kōnae: %2$ld";
+"Double ⇧ to search everywhere" = "Pēhia te ⇧ kia rua hei rapu i ngā wāhi katoa";
+"Type a file name (use / to match the path)" = "Patohia he ingoa kōnae (whakamahia te / hei rapu i te ara)";
+"No recent files" = "Kāore he kōnae nō nā tata nei";
+"Recent Files" = "Kōnae Nō Nā Tata Nei";
+"Matches: %1$ld / Files: %2$ld" = "Ngā Ōritenga: %1$ld / Kōnae: %2$ld";

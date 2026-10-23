@@ -6,7 +6,7 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Otevřete složku jako projekt nebo soubor k úpravě.";
+"Open a folder as a project, or a file to edit." = "Otevřete složku jako projekt nebo soubor k úpravám.";
 "Open" = "Otevřít";
 
 /* Sources/Sumi/App/MainMenu.swift */
@@ -15,14 +15,14 @@
 "View" = "Zobrazení";
 "Navigate" = "Navigace";
 "Window" = "Okno";
-"About Sumi" = "O aplikaci Sumi";
 "Language" = "Jazyk";
+"About Sumi" = "O aplikaci Sumi";
 "Services" = "Služby";
 "Hide Sumi" = "Skrýt Sumi";
 "Hide Others" = "Skrýt ostatní";
 "Show All" = "Zobrazit vše";
 "Quit Sumi" = "Ukončit Sumi";
-"System Default" = "Výchozí nastavení systému";
+"System Default" = "Podle systému";
 "New File…" = "Nový soubor…";
 "New Folder…" = "Nová složka…";
 "New Terminal Tab" = "Nový panel terminálu";
@@ -41,25 +41,25 @@
 "Replace…" = "Nahradit…";
 "Find Next" = "Najít další";
 "Find Previous" = "Najít předchozí";
-"Use Selection for Find" = "Použít výběr pro hledání";
-"Find" = "Najít";
+"Use Selection for Find" = "Hledat vybraný text";
+"Find" = "Hledání";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
 "Swap Terminal and Project" = "Prohodit terminál a projekt";
 "Maximize Terminal" = "Maximalizovat terminál";
-"GPU Rendering" = "Vykreslování GPU";
-"Soft-Wrap" = "Měkké zalamování";
-"Toggle Preview" = "Přepnout náhled";
-"Increase Font Size" = "Zvětšit velikost písma";
-"Decrease Font Size" = "Zmenšit velikost písma";
+"GPU Rendering" = "Vykreslování přes GPU";
+"Soft-Wrap" = "Zalamování řádků";
+"Toggle Preview" = "Zobrazit/skrýt náhled";
+"Increase Font Size" = "Zvětšit písmo";
+"Decrease Font Size" = "Zmenšit písmo";
 "Reset Font Size" = "Obnovit velikost písma";
-"Search Everywhere (Double ⇧)" = "Hledat všude (dvojitý ⇧)";
+"Search Everywhere (Double ⇧)" = "Hledat všude (dvakrát ⇧)";
 "Select in Project View" = "Vybrat v zobrazení projektu";
 "Next Tab" = "Další panel";
 "Previous Tab" = "Předchozí panel";
 "Minimize" = "Minimalizovat";
-"Zoom" = "Zvětšit/zmenšit";
-"Bring All to Front" = "Přenést vše do popředí";
+"Zoom" = "Zvětšit okno";
+"Bring All to Front" = "Přenést všechna okna do popředí";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Místní";
@@ -68,7 +68,7 @@
 "Close" = "Zavřít";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Zavřít spuštěné terminálové relace?";
+"Close running terminal sessions?" = "Zavřít běžící relace terminálu?";
 "These processes will be stopped:" = "Tyto procesy budou zastaveny:";
 "Cancel" = "Zrušit";
 
@@ -84,15 +84,15 @@
 "Spaces: %ld" = "Mezery: %ld";
 "Plain Text" = "Prostý text";
 "Search Everywhere" = "Hledat všude";
-"Double ⇧" = "Dvojitý ⇧";
+"Double ⇧" = "Dvakrát ⇧";
 "Go to File" = "Přejít na soubor";
 "Open Folder" = "Otevřít složku";
 "Project View" = "Zobrazení projektu";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Soubor se na disku změnil. Vaše úpravy byly zachovány. Chcete-li zachovat obě verze, uložte kopii.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Soubor na disku se změnil. Vaše úpravy jsou stále v editoru. Uložte kopii, abyste uchovali obě verze.";
 "The file is a binary file." = "Soubor je binární.";
-"The file's text encoding could not be determined." = "Nelze určit kódování textu souboru.";
+"The file's text encoding could not be determined." = "Nepodařilo se určit kódování textu souboru.";
 "The text cannot be saved in %@." = "Text nelze uložit v kódování %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Soubory";
-"Double ⇧ to search everywhere" = "Dvojitý ⇧ — hledat všude";
-"Type a file name (use / to match the path)" = "Zadejte název souboru (pomocí / se hledá i v cestě)";
+"Double ⇧ to search everywhere" = "Dvojím stisknutím ⇧ můžete hledat všude";
+"Type a file name (use / to match the path)" = "Zadejte název souboru (pro hledání v cestě použijte /)";
 "No recent files" = "Žádné nedávné soubory";
 "Recent Files" = "Nedávné soubory";
 "Matches: %1$ld / Files: %2$ld" = "Shody: %1$ld / Soubory: %2$ld";

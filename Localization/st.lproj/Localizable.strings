@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Bula sephutheli joalo ka morero, kapa faele eo u lokelang ho e hlophisa.";
+"Open a folder as a project, or a file to edit." = "Bula foldara e le projeke kapa faele ho e hlophisa.";
 "Open" = "Bula";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Faele";
-"Edit" = "Fetola";
-"View" = "Sheba";
-"Navigate" = "Tsamaisa";
-"Window" = "Fesetere";
-"About Sumi" = "Mabapi le kopo ea Sumi";
+"Edit" = "Hlophisa";
+"View" = "Pono";
+"Navigate" = "Eya ho";
+"Window" = "Fensetere";
 "Language" = "Puo";
-"Services" = "Litšebeletso";
+"About Sumi" = "Ka Sumi";
+"Services" = "Ditshebeletso";
 "Hide Sumi" = "Pata Sumi";
-"Hide Others" = "Pata Ba Bang";
-"Show All" = "Bontša Tsohle";
-"Quit Sumi" = "Tlohela Sumi";
-"System Default" = "Sistimi ea kamehla";
-"New File…" = "Faele e Ncha...";
-"New Folder…" = "Sephutheli se Secha…";
-"New Terminal Tab" = "Taba e Ncha ea Terminal";
-"Open…" = "Bula...";
+"Hide Others" = "Pata tse ding";
+"Show All" = "Bontsha tsohle";
+"Quit Sumi" = "Tswa ho Sumi";
+"System Default" = "Ya kamehla ya sistimi";
+"New File…" = "Faele e ntjha…";
+"New Folder…" = "Foldara e ntjha…";
+"New Terminal Tab" = "Thebo e ntjha ya terminal";
+"Open…" = "Bula…";
 "Save" = "Boloka";
-"Save All" = "Boloka Tsohle";
-"Close Tab" = "Koala Tab";
-"Close Window" = "Koala Fesetere";
+"Save All" = "Boloka tsohle";
+"Close Tab" = "Kwala thebo";
+"Close Window" = "Kwala fensetere";
 "Undo" = "Etsolla";
 "Redo" = "Etsa hape";
-"Cut" = "Khaola";
+"Cut" = "Seha";
 "Copy" = "Kopitsa";
-"Paste" = "Beha";
-"Select All" = "Kgetha Tsohle";
-"Find…" = "Fumana…";
-"Replace…" = "Fetola…";
-"Find Next" = "Fumana E latelang";
-"Find Previous" = "Fumana Pele";
-"Use Selection for Find" = "Sebelisa Khetho ho Fumana";
-"Find" = "Fumana";
-"Project" = "Morero";
-"Terminal" = "Theminale";
-"Swap Terminal and Project" = "Fetola Terminal le Project";
-"Maximize Terminal" = "Eketsa Terminal";
-"GPU Rendering" = "Tlhahiso ea GPU";
-"Soft-Wrap" = "Ngola mela e melelele ea mongolo";
-"Toggle Preview" = "Bontša kapa u pate ponelo-pele";
-"Increase Font Size" = "Eketsa Boholo ba Fonte";
-"Decrease Font Size" = "Fokotsa Boholo ba Mongolo";
-"Reset Font Size" = "Seta Botjha Boholo ba Mongolo";
-"Search Everywhere (Double ⇧)" = "Batla Hohle (Habeli ⇧)";
-"Select in Project View" = "Khetha ho Project View";
-"Next Tab" = "Taba e latelang";
-"Previous Tab" = "Taba e Fetileng";
-"Minimize" = "Fokotsa";
-"Zoom" = "Atometsa";
-"Bring All to Front" = "Tlisa Tsohle ka Pele";
+"Paste" = "Peista";
+"Select All" = "Kgetha tsohle";
+"Find…" = "Batla…";
+"Replace…" = "Nkela sebaka…";
+"Find Next" = "Batla e latelang";
+"Find Previous" = "Batla e fetileng";
+"Use Selection for Find" = "Batla mongolo o kgethilweng";
+"Find" = "Batla";
+"Project" = "Projeke";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Fapanyetsana terminal le projeke";
+"Maximize Terminal" = "Hodisa terminal";
+"GPU Rendering" = "Ho taka ka GPU";
+"Soft-Wrap" = "Phuthela mela bophareng ba pono";
+"Toggle Preview" = "Bontsha kapa pata ponelopele";
+"Increase Font Size" = "Hodisa ditlhaku";
+"Decrease Font Size" = "Nyenyefatsa ditlhaku";
+"Reset Font Size" = "Kgutlisetsa boholo ba ditlhaku";
+"Search Everywhere (Double ⇧)" = "Batla hohle (⇧ habedi)";
+"Select in Project View" = "Kgetha ponong ya projeke";
+"Next Tab" = "Thebo e latelang";
+"Previous Tab" = "Thebo e fetileng";
+"Minimize" = "Nyenyefatsa fensetere";
+"Zoom" = "Hodisa fensetere";
+"Bring All to Front" = "Tlisa difensetere tsohle ka pele";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Sebakeng";
-"Local (%ld)" = "Lehae (%ld)";
-"Hide Terminal" = "Pata Terminal";
-"Close" = "Koala";
+"Local" = "Khomphuteng ena";
+"Local (%ld)" = "Khomphuteng ena (%ld)";
+"Hide Terminal" = "Pata terminal";
+"Close" = "Kwala";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Koala litheminale tse sebetsang?";
-"These processes will be stopped:" = "Mekhoa ena e tla emisoa:";
+"Close running terminal sessions?" = "Na ho kwalwe diseshene tsa terminal tse sebetsang?";
+"These processes will be stopped:" = "Ditshebetso tsena di tla emiswa:";
 "Cancel" = "Hlakola";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Boloka Kopi...";
+"Save a Copy…" = "Boloka kopi…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Mohlophisi Feela";
-"Editor and Preview" = "Mohlophisi le Preview";
-"Preview Only" = "Preview Feela";
+"Editor Only" = "Sehlophisi feela";
+"Editor and Preview" = "Sehlophisi le ponelopele";
+"Preview Only" = "Ponelopele feela";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Libaka: %ld";
-"Plain Text" = "Mongolo o sa Tšoaneng";
-"Search Everywhere" = "Batla Hohle";
-"Double ⇧" = "Habeli ⇧";
-"Go to File" = "Eya ho File";
-"Open Folder" = "Bula Sephutheli";
-"Project View" = "Pono ea morero";
+"Spaces: %ld" = "Dikgeo: %ld";
+"Plain Text" = "Mongolo o tlwaelehileng";
+"Search Everywhere" = "Batla hohle";
+"Double ⇧" = "⇧ habedi";
+"Go to File" = "Eya faeleng";
+"Open Folder" = "Bula foldara";
+"Project View" = "Pono ya projeke";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faele e fetohile ho disk. Liphetoho tsa hau li bolokiloe. Boloka kopi ho boloka liphetolelo tseo ka bobeli.";
-"The file is a binary file." = "Faele ke faele ea binary.";
-"The file's text encoding could not be determined." = "Mongolo oa khouto oa faele ha oa tsebahatsoa.";
-"The text cannot be saved in %@." = "Mongolo o ka se bolokehe ho %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faele e fetohile diskeng. Diphetoho tsa hao di ntse di le ka hara sehlophisi. Boloka kopi hore o boloke mefuta ka bobedi.";
+"The file is a binary file." = "Faele ena ke ya binary.";
+"The file's text encoding could not be determined." = "Khouto ya mongolo wa faele ha e a tsejwa.";
+"The text cannot be saved in %@." = "Mongolo ha o kgone ho bolokwa ka %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Sephutheli se Secha";
-"New File" = "Faele e Ncha";
-"Enter a name in “%@”. Use / to create nested folders." = "Kenya lebitso ho \"%@\". Arola mabitso a lifoldara ka / tlhaku ho theha lifoldara tse nyane.";
-"Rename" = "Reha lebitso bocha";
-"Enter a new name for “%@”." = "Kenya lebitso le lecha bakeng sa \"%@\".";
-"Move “%@” to the Trash?" = "Susumelletsa \"%@\" ho Lithōle?";
-"The folder and everything in it will be moved to the Trash." = "Sephutheli le ntho e 'ngoe le e 'ngoe e ho eona li tla fetisetsoa ho Trash.";
-"You can restore it from the Trash." = "U ka e khutlisa ho tsoa ho Trash.";
-"Move to Trash" = "Suthela ho Matlakala";
+"New Folder" = "Foldara e ntjha";
+"New File" = "Faele e ntjha";
+"Enter a name in “%@”. Use / to create nested folders." = "Kenya lebitso ho “%@”. Sebedisa / ho etsa difoldara ka hara tse ding.";
+"Rename" = "Reha botjha";
+"Enter a new name for “%@”." = "Kenya lebitso le letjha la “%@”.";
+"Move “%@” to the Trash?" = "Isa “%@” ditholeng?";
+"The folder and everything in it will be moved to the Trash." = "Foldara le tsohle tse ho yona di tla iswa ditholeng.";
+"You can restore it from the Trash." = "O ka e kgutlisa ho tswa ditholeng.";
+"Move to Trash" = "Isa ditholeng";
 "OK" = "Ho lokile";
-"Rename…" = "Reha lebitso bocha...";
-"Copy Path" = "Kopitsa Tsela";
-"Copy Relative Path" = "Kopitsa Tsela e Batlang";
-"Reveal in Finder" = "Hlahisa ho Finder";
-"Open in Terminal" = "Bula ho Theminale";
+"Rename…" = "Reha botjha…";
+"Copy Path" = "Kopitsa tsela";
+"Copy Relative Path" = "Kopitsa tsela e amanang le projeke";
+"Reveal in Finder" = "Bontsha ho Finder";
+"Open in Terminal" = "Bula ho terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Phanele ka ho le letšehali";
+"Left Panel" = "Phanele e ka leqeleng";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Lifaele";
-"Double ⇧ to search everywhere" = "Habeli ⇧ ho batla hohle";
-"Type a file name (use / to match the path)" = "Ngola lebitso la faele (sebelisa / ho tsamaisana le tsela)";
-"No recent files" = "Ha ho lifaele tsa morao-rao";
-"Recent Files" = "Lifaele tsa morao-rao";
-"Matches: %1$ld / Files: %2$ld" = "Liphetho tse fumanoeng: %1$ld / Kakaretso ea lifaele: %2$ld";
+"Files" = "Difaele";
+"Double ⇧ to search everywhere" = "Tobetsa ⇧ habedi ho batla hohle";
+"Type a file name (use / to match the path)" = "Ngola lebitso la faele (sebedisa / ho batla ka tsela)";
+"No recent files" = "Ha ho difaele tsa moraorao";
+"Recent Files" = "Difaele tsa moraorao";
+"Matches: %1$ld / Files: %2$ld" = "Tse tsamaellanang: %1$ld / Difaele: %2$ld";

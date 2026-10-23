@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "ఫోల్డర్‌ను ప్రాజెక్ట్‌గా లేదా సవరించడానికి ఫైల్‌ని తెరవండి.";
-"Open" = "తెరవండి";
+"Open a folder as a project, or a file to edit." = "ఫోల్డర్‌ను ప్రాజెక్ట్‌గా లేదా ఫైల్‌ను సవరించడానికి తెరవండి.";
+"Open" = "తెరువు";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "ఫైల్";
 "Edit" = "సవరించు";
-"View" = "చూడండి";
-"Navigate" = "నావిగేట్ చేయండి";
+"View" = "వీక్షణ";
+"Navigate" = "వెళ్ళు";
 "Window" = "విండో";
-"About Sumi" = "Sumi అప్లికేషన్ గురించి";
 "Language" = "భాష";
+"About Sumi" = "Sumi గురించి";
 "Services" = "సేవలు";
-"Hide Sumi" = "Sumiని దాచండి";
-"Hide Others" = "ఇతరులను దాచండి";
-"Show All" = "అన్నీ చూపించు";
-"Quit Sumi" = "Sumi నుండి నిష్క్రమించండి";
+"Hide Sumi" = "Sumi దాచు";
+"Hide Others" = "ఇతరవి దాచు";
+"Show All" = "అన్నీ చూపు";
+"Quit Sumi" = "Sumi నుండి నిష్క్రమించు";
 "System Default" = "సిస్టమ్ డిఫాల్ట్";
 "New File…" = "కొత్త ఫైల్…";
 "New Folder…" = "కొత్త ఫోల్డర్…";
 "New Terminal Tab" = "కొత్త టెర్మినల్ ట్యాబ్";
-"Open…" = "తెరువు...";
-"Save" = "సేవ్ చేయండి";
-"Save All" = "అన్నింటినీ సేవ్ చేయండి";
-"Close Tab" = "ట్యాబ్‌ను మూసివేయండి";
-"Close Window" = "విండోను మూసివేయండి";
-"Undo" = "అన్డు";
-"Redo" = "పునరావృతం చేయండి";
-"Cut" = "కట్";
-"Copy" = "కాపీ చేయండి";
-"Paste" = "అతికించండి";
-"Select All" = "అన్నీ ఎంచుకోండి";
-"Find…" = "కనుగొను...";
-"Replace…" = "భర్తీ చేయి...";
-"Find Next" = "తదుపరి కనుగొనండి";
-"Find Previous" = "మునుపటిది కనుగొనండి";
-"Use Selection for Find" = "కనుగొనడానికి ఎంపికను ఉపయోగించండి";
-"Find" = "కనుగొనండి";
+"Open…" = "తెరువు…";
+"Save" = "భద్రపరచు";
+"Save All" = "అన్నీ భద్రపరచు";
+"Close Tab" = "ట్యాబ్ మూసివేయి";
+"Close Window" = "విండో మూసివేయి";
+"Undo" = "రద్దుచేయి";
+"Redo" = "మళ్లీ చేయి";
+"Cut" = "కత్తిరించు";
+"Copy" = "కాపీ చేయి";
+"Paste" = "అతికించు";
+"Select All" = "అన్నీ ఎంచుకో";
+"Find…" = "కనుగొను…";
+"Replace…" = "భర్తీ చేయి…";
+"Find Next" = "తదుపరిది కనుగొను";
+"Find Previous" = "మునుపటిది కనుగొను";
+"Use Selection for Find" = "ఎంచుకున్న వచనాన్ని వెతుకు";
+"Find" = "వెతుకు";
 "Project" = "ప్రాజెక్ట్";
 "Terminal" = "టెర్మినల్";
-"Swap Terminal and Project" = "టెర్మినల్ మరియు ప్రాజెక్ట్‌ను మార్చుకోండి";
-"Maximize Terminal" = "టెర్మినల్‌ను గరిష్టీకరించండి";
+"Swap Terminal and Project" = "టెర్మినల్, ప్రాజెక్ట్ స్థానాలు మార్చు";
+"Maximize Terminal" = "టెర్మినల్‌ను పెద్దదిచేయి";
 "GPU Rendering" = "GPU రెండరింగ్";
-"Soft-Wrap" = "పొడవైన వచన పంక్తులను స్వయంచాలకంగా చుట్టండి";
-"Toggle Preview" = "ప్రివ్యూను టోగుల్ చేయండి";
-"Increase Font Size" = "ఫాంట్ పరిమాణాన్ని పెంచండి";
-"Decrease Font Size" = "ఫాంట్ పరిమాణాన్ని తగ్గించండి";
-"Reset Font Size" = "ఫాంట్ పరిమాణాన్ని రీసెట్ చేయండి";
-"Search Everywhere (Double ⇧)" = "ప్రతిచోటా శోధించండి (డబుల్ ⇧)";
-"Select in Project View" = "ప్రాజెక్ట్ వ్యూలో ఎంచుకోండి";
+"Soft-Wrap" = "వెడల్పుకు అనుగుణంగా పంక్తులు మడుచు";
+"Toggle Preview" = "ముందస్తు వీక్షణ చూపు లేదా దాచు";
+"Increase Font Size" = "అక్షర పరిమాణం పెంచు";
+"Decrease Font Size" = "అక్షర పరిమాణం తగ్గించు";
+"Reset Font Size" = "అక్షర పరిమాణం పునరుద్ధరించు";
+"Search Everywhere (Double ⇧)" = "అంతటా వెతుకు (⇧ రెండుసార్లు)";
+"Select in Project View" = "ప్రాజెక్ట్ వీక్షణలో ఎంచుకో";
 "Next Tab" = "తదుపరి ట్యాబ్";
 "Previous Tab" = "మునుపటి ట్యాబ్";
-"Minimize" = "కనిష్టీకరించు";
-"Zoom" = "జూమ్ చేయండి";
-"Bring All to Front" = "అందరినీ ముందుకి తీసుకురండి";
+"Minimize" = "విండోను కనిష్ఠీకరించు";
+"Zoom" = "విండోను పెద్దదిచేయి";
+"Bring All to Front" = "అన్ని విండోలను ముందుకు తెచ్చు";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "స్థానిక";
 "Local (%ld)" = "స్థానిక (%ld)";
-"Hide Terminal" = "టెర్మినల్‌ను దాచండి";
+"Hide Terminal" = "టెర్మినల్ దాచు";
 "Close" = "మూసివేయి";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "నడుస్తున్న టెర్మినల్ సెషన్‌లను మూసివేయాలా?";
-"These processes will be stopped:" = "ఈ ప్రక్రియలు నిలిపివేయబడతాయి:";
-"Cancel" = "రద్దు చేయి";
+"Close running terminal sessions?" = "నడుస్తున్న టెర్మినల్ సెషన్లు మూసివేయాలా?";
+"These processes will be stopped:" = "ఈ ప్రక్రియలు ఆపబడతాయి:";
+"Cancel" = "రద్దు";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "కాపీని సేవ్ చేయండి...";
+"Save a Copy…" = "కాపీ భద్రపరచు…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "ఎడిటర్ మాత్రమే";
-"Editor and Preview" = "ఎడిటర్ మరియు ప్రివ్యూ";
-"Preview Only" = "ప్రివ్యూ మాత్రమే";
+"Editor and Preview" = "ఎడిటర్, ముందస్తు వీక్షణ";
+"Preview Only" = "ముందస్తు వీక్షణ మాత్రమే";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "ఖాళీలు: %ld";
-"Plain Text" = "సాదా వచనం";
-"Search Everywhere" = "ప్రతిచోటా శోధించండి";
-"Double ⇧" = "డబుల్ ⇧";
-"Go to File" = "ఫైల్‌కి వెళ్లండి";
-"Open Folder" = "ఫోల్డర్ తెరవండి";
+"Plain Text" = "సాధారణ వచనం";
+"Search Everywhere" = "అంతటా వెతుకు";
+"Double ⇧" = "⇧ రెండుసార్లు";
+"Go to File" = "ఫైల్‌కు వెళ్ళు";
+"Open Folder" = "ఫోల్డర్ తెరువు";
 "Project View" = "ప్రాజెక్ట్ వీక్షణ";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "ఫైల్ డిస్క్‌లో మార్చబడింది. మీ సవరణలు ఉంచబడ్డాయి. రెండు వెర్షన్‌లను భద్రపరచడానికి కాపీని సేవ్ చేయండి.";
-"The file is a binary file." = "ఫైల్ బైనరీ ఫైల్.";
-"The file's text encoding could not be determined." = "ఫైల్ టెక్స్ట్ ఎన్‌కోడింగ్‌ని నిర్ణయించడం సాధ్యం కాలేదు.";
-"The text cannot be saved in %@." = "టెక్స్ట్ %@లో సేవ్ చేయబడదు.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "డిస్క్‌లో ఫైల్ మారింది. మీ సవరణలు ఇంకా ఎడిటర్‌లో ఉన్నాయి. రెండు సంస్కరణలను ఉంచడానికి కాపీ భద్రపరచండి.";
+"The file is a binary file." = "ఇది బైనరీ ఫైల్.";
+"The file's text encoding could not be determined." = "ఫైల్ వచన ఎన్‌కోడింగ్‌ను గుర్తించలేకపోయాము.";
+"The text cannot be saved in %@." = "వచనాన్ని %@ లో భద్రపరచలేము.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "కొత్త ఫోల్డర్";
 "New File" = "కొత్త ఫైల్";
-"Enter a name in “%@”. Use / to create nested folders." = "“%@”లో పేరును నమోదు చేయండి. సబ్ ఫోల్డర్‌లను సృష్టించడానికి ఫోల్డర్ పేర్లను / అక్షరంతో వేరు చేయండి.";
-"Rename" = "పేరు మార్చండి";
-"Enter a new name for “%@”." = "“%@” కోసం కొత్త పేరును నమోదు చేయండి.";
-"Move “%@” to the Trash?" = "“%@”ని ట్రాష్‌కి తరలించాలా?";
-"The folder and everything in it will be moved to the Trash." = "ఫోల్డర్ మరియు దానిలోని ప్రతిదీ ట్రాష్‌కి తరలించబడుతుంది.";
-"You can restore it from the Trash." = "మీరు దానిని ట్రాష్ నుండి పునరుద్ధరించవచ్చు.";
-"Move to Trash" = "ట్రాష్‌కి తరలించండి";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” లో పేరు నమోదు చేయండి. లోపలి ఫోల్డర్లను సృష్టించడానికి / వాడండి.";
+"Rename" = "పేరు మార్చు";
+"Enter a new name for “%@”." = "“%@” కోసం కొత్త పేరు నమోదు చేయండి.";
+"Move “%@” to the Trash?" = "“%@” ను చెత్తకు తరలించాలా?";
+"The folder and everything in it will be moved to the Trash." = "ఫోల్డర్, అందులోని అన్నీ చెత్తకు తరలించబడతాయి.";
+"You can restore it from the Trash." = "దానిని చెత్త నుండి పునరుద్ధరించవచ్చు.";
+"Move to Trash" = "చెత్తకు తరలించు";
 "OK" = "సరే";
-"Rename…" = "పేరు మార్చు...";
-"Copy Path" = "కాపీ మార్గం";
-"Copy Relative Path" = "సాపేక్ష మార్గాన్ని కాపీ చేయండి";
-"Reveal in Finder" = "Finderలో వెల్లడించండి";
-"Open in Terminal" = "టెర్మినల్‌లో తెరవండి";
+"Rename…" = "పేరు మార్చు…";
+"Copy Path" = "పాత్ కాపీ చేయి";
+"Copy Relative Path" = "సాపేక్ష పాత్ కాపీ చేయి";
+"Reveal in Finder" = "Finder లో చూపు";
+"Open in Terminal" = "టెర్మినల్‌లో తెరువు";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "ఎడమ ప్యానెల్";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ఫైల్‌లు";
-"Double ⇧ to search everywhere" = "ప్రతిచోటా శోధించడానికి ⇧ రెట్టింపు చేయండి";
-"Type a file name (use / to match the path)" = "ఫైల్ పేరును టైప్ చేయండి (మార్గాన్ని సరిపోల్చడానికి / ఉపయోగించండి)";
-"No recent files" = "ఇటీవలి ఫైల్‌లు లేవు";
-"Recent Files" = "ఇటీవలి ఫైల్‌లు";
-"Matches: %1$ld / Files: %2$ld" = "ఫలితాలు కనుగొనబడ్డాయి: %1$ld / మొత్తం ఫైల్‌లు: %2$ld";
+"Files" = "ఫైళ్లు";
+"Double ⇧ to search everywhere" = "అంతటా వెతకడానికి ⇧ రెండుసార్లు నొక్కండి";
+"Type a file name (use / to match the path)" = "ఫైల్ పేరు టైప్ చేయండి (పాత్‌ను సరిపోల్చడానికి / వాడండి)";
+"No recent files" = "ఇటీవలి ఫైళ్లు లేవు";
+"Recent Files" = "ఇటీవలి ఫైళ్లు";
+"Matches: %1$ld / Files: %2$ld" = "సరిపోలికలు: %1$ld / ఫైళ్లు: %2$ld";

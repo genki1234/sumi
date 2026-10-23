@@ -15,13 +15,13 @@
 "View" = "Προβολή";
 "Navigate" = "Πλοήγηση";
 "Window" = "Παράθυρο";
-"About Sumi" = "Σχετικά με το Sumi";
 "Language" = "Γλώσσα";
+"About Sumi" = "Πληροφορίες για το Sumi";
 "Services" = "Υπηρεσίες";
-"Hide Sumi" = "Απόκρυψη του Sumi";
+"Hide Sumi" = "Απόκρυψη Sumi";
 "Hide Others" = "Απόκρυψη άλλων";
 "Show All" = "Εμφάνιση όλων";
-"Quit Sumi" = "Έξοδος από το Sumi";
+"Quit Sumi" = "Τερματισμός Sumi";
 "System Default" = "Προεπιλογή συστήματος";
 "New File…" = "Νέο αρχείο…";
 "New Folder…" = "Νέος φάκελος…";
@@ -41,25 +41,25 @@
 "Replace…" = "Αντικατάσταση…";
 "Find Next" = "Εύρεση επόμενου";
 "Find Previous" = "Εύρεση προηγούμενου";
-"Use Selection for Find" = "Χρήση επιλογής για εύρεση";
+"Use Selection for Find" = "Εύρεση επιλεγμένου κειμένου";
 "Find" = "Εύρεση";
 "Project" = "Έργο";
 "Terminal" = "Τερματικό";
-"Swap Terminal and Project" = "Εναλλαγή τερματικού και έργου";
+"Swap Terminal and Project" = "Εναλλαγή θέσεων τερματικού και έργου";
 "Maximize Terminal" = "Μεγιστοποίηση τερματικού";
-"GPU Rendering" = "Απόδοση GPU";
-"Soft-Wrap" = "Μαλακή αναδίπλωση";
-"Toggle Preview" = "Εναλλαγή προεπισκόπησης";
+"GPU Rendering" = "Απόδοση με GPU";
+"Soft-Wrap" = "Αναδίπλωση γραμμών";
+"Toggle Preview" = "Εμφάνιση/απόκρυψη προεπισκόπησης";
 "Increase Font Size" = "Αύξηση μεγέθους γραμματοσειράς";
 "Decrease Font Size" = "Μείωση μεγέθους γραμματοσειράς";
 "Reset Font Size" = "Επαναφορά μεγέθους γραμματοσειράς";
-"Search Everywhere (Double ⇧)" = "Αναζήτηση παντού (διπλό ⇧)";
+"Search Everywhere (Double ⇧)" = "Αναζήτηση παντού (δύο φορές ⇧)";
 "Select in Project View" = "Επιλογή στην προβολή έργου";
 "Next Tab" = "Επόμενη καρτέλα";
 "Previous Tab" = "Προηγούμενη καρτέλα";
 "Minimize" = "Ελαχιστοποίηση";
-"Zoom" = "Ζουμ";
-"Bring All to Front" = "Μεταφορά όλων στο προσκήνιο";
+"Zoom" = "Μεγέθυνση παραθύρου";
+"Bring All to Front" = "Μεταφορά όλων των παραθύρων μπροστά";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Τοπικό";
@@ -68,8 +68,8 @@
 "Close" = "Κλείσιμο";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Κλείσιμο των συνεδριών τερματικού που εκτελούνται;";
-"These processes will be stopped:" = "Αυτές οι διαδικασίες θα σταματήσουν:";
+"Close running terminal sessions?" = "Να κλείσουν οι ενεργές συνεδρίες τερματικού;";
+"These processes will be stopped:" = "Αυτές οι διεργασίες θα διακοπούν:";
 "Cancel" = "Ακύρωση";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -81,44 +81,44 @@
 "Preview Only" = "Μόνο προεπισκόπηση";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Κενά: %ld";
+"Spaces: %ld" = "Διαστήματα: %ld";
 "Plain Text" = "Απλό κείμενο";
 "Search Everywhere" = "Αναζήτηση παντού";
-"Double ⇧" = "Διπλό ⇧";
+"Double ⇧" = "Δύο φορές ⇧";
 "Go to File" = "Μετάβαση σε αρχείο";
 "Open Folder" = "Άνοιγμα φακέλου";
 "Project View" = "Προβολή έργου";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Το αρχείο άλλαξε στο δίσκο. Οι τροποποιήσεις σας διατηρήθηκαν. Αποθηκεύστε ένα αντίγραφο για να διατηρήσετε και τις δύο εκδόσεις.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Το αρχείο στον δίσκο άλλαξε. Οι αλλαγές σας παραμένουν στον επεξεργαστή. Αποθηκεύστε ένα αντίγραφο για να διατηρήσετε και τις δύο εκδόσεις.";
 "The file is a binary file." = "Το αρχείο είναι δυαδικό.";
 "The file's text encoding could not be determined." = "Δεν ήταν δυνατός ο προσδιορισμός της κωδικοποίησης κειμένου του αρχείου.";
-"The text cannot be saved in %@." = "Το κείμενο δεν μπορεί να αποθηκευτεί σε κωδικοποίηση %@.";
+"The text cannot be saved in %@." = "Το κείμενο δεν μπορεί να αποθηκευτεί με κωδικοποίηση %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Νέος φάκελος";
 "New File" = "Νέο αρχείο";
-"Enter a name in “%@”. Use / to create nested folders." = "Εισαγάγετε ένα όνομα στο «%@». Χρησιμοποιήστε / για να δημιουργήσετε εμφωλευμένους φακέλους.";
+"Enter a name in “%@”. Use / to create nested folders." = "Εισαγάγετε όνομα στο «%@». Χρησιμοποιήστε / για δημιουργία ένθετων φακέλων.";
 "Rename" = "Μετονομασία";
-"Enter a new name for “%@”." = "Εισαγάγετε ένα νέο όνομα για το «%@».";
-"Move “%@” to the Trash?" = "Να μετακινηθεί το «%@» στα Απορρίμματα;";
-"The folder and everything in it will be moved to the Trash." = "Ο φάκελος και όλο το περιεχόμενό του θα μετακινηθούν στα Απορρίμματα.";
-"You can restore it from the Trash." = "Μπορείτε να το επαναφέρετε από τα Απορρίμματα.";
-"Move to Trash" = "Μετακίνηση στα Απορρίμματα";
-"OK" = "OK";
+"Enter a new name for “%@”." = "Εισαγάγετε νέο όνομα για το «%@».";
+"Move “%@” to the Trash?" = "Μετακίνηση του «%@» στον Κάδο;";
+"The folder and everything in it will be moved to the Trash." = "Ο φάκελος και όλα τα περιεχόμενά του θα μετακινηθούν στον Κάδο.";
+"You can restore it from the Trash." = "Μπορείτε να επαναφέρετε το στοιχείο από τον Κάδο.";
+"Move to Trash" = "Μετακίνηση στον Κάδο";
+"OK" = "Εντάξει";
 "Rename…" = "Μετονομασία…";
 "Copy Path" = "Αντιγραφή διαδρομής";
 "Copy Relative Path" = "Αντιγραφή σχετικής διαδρομής";
 "Reveal in Finder" = "Εμφάνιση στο Finder";
-"Open in Terminal" = "Άνοιγμα στο Τερματικό";
+"Open in Terminal" = "Άνοιγμα στο τερματικό";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Αριστερό πλαίσιο";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Αρχεία";
-"Double ⇧ to search everywhere" = "Διπλό ⇧ — αναζήτηση παντού";
-"Type a file name (use / to match the path)" = "Πληκτρολογήστε όνομα αρχείου (χρησιμοποιήστε / για αντιστοίχιση της διαδρομής)";
-"No recent files" = "Κανένα πρόσφατο αρχείο";
+"Double ⇧ to search everywhere" = "Πατήστε ⇧ δύο φορές για αναζήτηση παντού";
+"Type a file name (use / to match the path)" = "Πληκτρολογήστε όνομα αρχείου (χρησιμοποιήστε / για αναζήτηση στη διαδρομή)";
+"No recent files" = "Δεν υπάρχουν πρόσφατα αρχεία";
 "Recent Files" = "Πρόσφατα αρχεία";
 "Matches: %1$ld / Files: %2$ld" = "Αντιστοιχίες: %1$ld / Αρχεία: %2$ld";

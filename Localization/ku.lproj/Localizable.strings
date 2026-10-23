@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Peldankek wekî projeyek, an pelek ji bo guherandinê vekin.";
-"Open" = "Vekirin";
+"Open a folder as a project, or a file to edit." = "Peldankekê wek projeyê an pelekê ji bo sererastkirinê veke.";
+"Open" = "Veke";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Pelên";
-"Edit" = "Biguherîne";
+"File" = "Pel";
+"Edit" = "Sererastkirin";
 "View" = "Dîtin";
-"Navigate" = "Navîgasyon";
-"Window" = "Pencereya serîlêdanê";
-"About Sumi" = "Di derbarê serîlêdana Sumi de";
+"Navigate" = "Rêgerî";
+"Window" = "Pace";
 "Language" = "Ziman";
-"Services" = "xizmetên System";
+"About Sumi" = "Derbarê Sumi de";
+"Services" = "Xizmet";
 "Hide Sumi" = "Sumi veşêre";
-"Hide Others" = "Yên din veşêrin";
-"Show All" = "Hemî nîşan bide";
-"Quit Sumi" = "Ji Sumi derkeve";
-"System Default" = "Zimanê pergalê bikar bînin";
-"New File…" = "Dosyaya Nû…";
+"Hide Others" = "Yên Din Veşêre";
+"Show All" = "Hemûyan Nîşan Bide";
+"Quit Sumi" = "Ji Sumi Derkeve";
+"System Default" = "Mîhenga Bingehîn a Pergalê";
+"New File…" = "Pela Nû…";
 "New Folder…" = "Peldanka Nû…";
-"New Terminal Tab" = "Taba Termînala Nû";
-"Open…" = "Vekirin…";
-"Save" = "Pelê tomar bike";
-"Save All" = "Hemî pelan hilînin";
-"Close Tab" = "Tabê bigire";
-"Close Window" = "Pencere bigire";
-"Undo" = "Guhertina paşîn betal bike";
-"Redo" = "Çalakiya dawîn dubare bikin";
-"Cut" = "Metnê birrîn";
-"Copy" = "Kopî kirin";
-"Paste" = "Nivîsar bixin";
-"Select All" = "Hemî Hilbijêre";
-"Find…" = "Bibînin…";
+"New Terminal Tab" = "Hilpekîna Nû ya Termînalê";
+"Open…" = "Veke…";
+"Save" = "Tomar Bike";
+"Save All" = "Hemûyan Tomar Bike";
+"Close Tab" = "Hilpekînê Bigire";
+"Close Window" = "Paceyê Bigire";
+"Undo" = "Vegerîne";
+"Redo" = "Dîsa Bike";
+"Cut" = "Jê Bike";
+"Copy" = "Kopî Bike";
+"Paste" = "Pê Ve Bike";
+"Select All" = "Hemûyan Hilbijêre";
+"Find…" = "Bibîne…";
 "Replace…" = "Biguherîne…";
-"Find Next" = "Li maça paşîn bigerin";
-"Find Previous" = "Li maça berê bigerin";
-"Use Selection for Find" = "Hilbijartinê ji bo Findê bikar bînin";
-"Find" = "Li nivîsê bigerin";
+"Find Next" = "Ya Pişt Re Bibîne";
+"Find Previous" = "Ya Berê Bibîne";
+"Use Selection for Find" = "Nivîsa Hilbijartî Bigere";
+"Find" = "Bibîne";
 "Project" = "Proje";
-"Terminal" = "Terminal";
-"Swap Terminal and Project" = "Swap Terminal û Proje";
-"Maximize Terminal" = "Termînalê herî zêde bikin";
-"GPU Rendering" = "Rendering GPU";
-"Soft-Wrap" = "Xweserî rêzikên nivîsê yên dirêj bipêçin";
-"Toggle Preview" = "Pêşdîtin biguherîne";
-"Increase Font Size" = "Mezinahiya Fontê Zêde Bike";
-"Decrease Font Size" = "Mezinahiya Fontê Kêm Bikin";
-"Reset Font Size" = "Mezinahiya Fontê Vegerîne";
-"Search Everywhere (Double ⇧)" = "Li Her derê Bigerin (Double ⇧)";
-"Select in Project View" = "Di Dîtina Projeyê de hilbijêrin";
-"Next Tab" = "Tab Next";
-"Previous Tab" = "Tabloya Berê";
-"Minimize" = "Kêmkirin";
-"Zoom" = "Zoom";
-"Bring All to Front" = "Hemûyan bînin pêş";
+"Terminal" = "Termînal";
+"Swap Terminal and Project" = "Cihê Termînal û Projeyê Biguherîne";
+"Maximize Terminal" = "Termînalê Herî Mezin Bike";
+"GPU Rendering" = "Xêzkirina bi GPU";
+"Soft-Wrap" = "Pêçana Rêzan";
+"Toggle Preview" = "Pêşdîtinê Nîşan Bide/Veşêre";
+"Increase Font Size" = "Tîpan Mezin Bike";
+"Decrease Font Size" = "Tîpan Biçûk Bike";
+"Reset Font Size" = "Mezinahiya Tîpan Vegerîne";
+"Search Everywhere (Double ⇧)" = "Li Her Derê Bigere (Du Caran ⇧)";
+"Select in Project View" = "Di Dara Projeyê de Hilbijêre";
+"Next Tab" = "Hilpekîna Pişt Re";
+"Previous Tab" = "Hilpekîna Berê";
+"Minimize" = "Biçûk Bike";
+"Zoom" = "Mezinahiya Paceyê Biguherîne";
+"Bring All to Front" = "Hemû Paceyan Bîne Pêş";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Herêmî";
 "Local (%ld)" = "Herêmî (%ld)";
-"Hide Terminal" = "Termînalê veşêre";
-"Close" = "Close";
+"Hide Terminal" = "Termînalê Veşêre";
+"Close" = "Bigire";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Danişînên termînalê têne girtin?";
-"These processes will be stopped:" = "Ev pêvajo dê bêne rawestandin:";
-"Cancel" = "Betal bike";
+"Close running terminal sessions?" = "Danişînên termînalê yên çalak bên girtin?";
+"These processes will be stopped:" = "Ev pêvajo dê bên rawestandin:";
+"Cancel" = "Betal Bike";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Kopiyek tomar bike…";
+"Save a Copy…" = "Kopiyekê Tomar Bike…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Edîtor Tenê";
+"Editor Only" = "Tenê Edîtor";
 "Editor and Preview" = "Edîtor û Pêşdîtin";
-"Preview Only" = "Pêşdîtin Tenê";
+"Preview Only" = "Tenê Pêşdîtin";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Cih: %ld";
-"Plain Text" = "Nivîsara Sade";
-"Search Everywhere" = "Li her derê bigerin";
-"Double ⇧" = "Ducarî ⇧";
-"Go to File" = "Biçe pelê";
-"Open Folder" = "Peldanka veke";
-"Project View" = "Dîtina Projeyê";
+"Spaces: %ld" = "Valahî: %ld";
+"Plain Text" = "Nivîsa Sade";
+"Search Everywhere" = "Li Her Derê Bigere";
+"Double ⇧" = "Du Caran ⇧";
+"Go to File" = "Biçe Pelê";
+"Open Folder" = "Peldankê Veke";
+"Project View" = "Dara Projeyê";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Pelê li ser dîskê guherî. Guherandinên we hatine parastin. Ji bo parastina herdu guhertoyan kopiyek hilînin.";
-"The file is a binary file." = "Dosya pelek binary e.";
-"The file's text encoding could not be determined." = "Şîfrekirina nivîsê ya pelê nehat diyarkirin.";
-"The text cannot be saved in %@." = "Nivîsar di %@ de nayê tomar kirin.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Pel li ser dîskê guheriye. Sererastkirinên te hîn di edîtorê de ne. Ji bo parastina her du guhertoyan kopiyekê tomar bike.";
+"The file is a binary file." = "Ev pel pelekî ducarî ye.";
+"The file's text encoding could not be determined." = "Kodkirina nivîsa pelê nehat diyarkirin.";
+"The text cannot be saved in %@." = "Nivîs bi kodkirina %@ nayê tomarkirin.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Peldanka Nû";
 "New File" = "Pela Nû";
-"Enter a name in “%@”. Use / to create nested folders." = "Navekî \"%@\" binivîse. Navên peldankan bi karaktera / ji hev veqetînin da ku binpeldankan biafirînin.";
-"Rename" = "Navê biguherînin";
-"Enter a new name for “%@”." = "Navekî nû ji bo \"%@\" binivîse.";
-"Move “%@” to the Trash?" = "\"%@\" biçînin Çopê?";
-"The folder and everything in it will be moved to the Trash." = "Peldank û her tiştê tê de dê were guheztin Çopê.";
-"You can restore it from the Trash." = "Hûn dikarin wê ji Çopê vegerînin.";
-"Move to Trash" = "Biçe Çopê";
-"OK" = "OK";
-"Rename…" = "Biguherîne…";
-"Copy Path" = "Rêça kopî bikin";
-"Copy Relative Path" = "Riya Relatîf Kopî bikin";
-"Reveal in Finder" = "Di Finder de eşkere bike";
-"Open in Terminal" = "Li Termînalê vekin";
+"Enter a name in “%@”. Use / to create nested folders." = "Di “%@” de navekî binivîse. Ji bo çêkirina peldankên navhev / bi kar bîne.";
+"Rename" = "Nav Biguherîne";
+"Enter a new name for “%@”." = "Ji bo “%@” navekî nû binivîse.";
+"Move “%@” to the Trash?" = "“%@” biçe Çopê?";
+"The folder and everything in it will be moved to the Trash." = "Peldank û hemû tiştên di navê de dê biçin Çopê.";
+"You can restore it from the Trash." = "Tu dikarî wê ji Çopê vegerînî.";
+"Move to Trash" = "Bibe Çopê";
+"OK" = "Temam";
+"Rename…" = "Nav Biguherîne…";
+"Copy Path" = "Riyê Kopî Bike";
+"Copy Relative Path" = "Riya Têkildar Kopî Bike";
+"Reveal in Finder" = "Di Finder de Nîşan Bide";
+"Open in Terminal" = "Di Termînalê de Veke";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panela Çep";
+"Left Panel" = "Panela Çepê";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Pelên";
-"Double ⇧ to search everywhere" = "Ducarî ⇧ ji bo lêgerînê li her derê";
-"Type a file name (use / to match the path)" = "Navekî pelê binivîsin (bikar bînin / ji bo ku rê li hev bikin)";
-"No recent files" = "Pelên dawî tune";
+"Files" = "Pel";
+"Double ⇧ to search everywhere" = "Ji bo lêgerîna li her derê du caran ⇧ bitikîne";
+"Type a file name (use / to match the path)" = "Navê pelê binivîse (ji bo lêgerîna riyê / bi kar bîne)";
+"No recent files" = "Pelên dawî tune ne";
 "Recent Files" = "Pelên Dawî";
-"Matches: %1$ld / Files: %2$ld" = "Encam hatin dîtin: %1$ld / Bi tevahî pel: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Lihevhatin: %1$ld / Pel: %2$ld";

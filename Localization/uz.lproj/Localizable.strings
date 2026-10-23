@@ -6,60 +6,60 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Loyiha sifatida papkani yoki tahrirlash uchun faylni oching.";
-"Open" = "Ochiq";
+"Open a folder as a project, or a file to edit." = "Jildni loyiha sifatida yoki faylni tahrirlash uchun oching.";
+"Open" = "Ochish";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Fayl";
 "Edit" = "Tahrirlash";
-"View" = "Ko'rish";
-"Navigate" = "Navigatsiya";
+"View" = "Ko‘rinish";
+"Navigate" = "O‘tish";
 "Window" = "Oyna";
-"About Sumi" = "Sumi ilovasi haqida";
 "Language" = "Til";
+"About Sumi" = "Sumi haqida";
 "Services" = "Xizmatlar";
-"Hide Sumi" = "Sumini yashirish";
+"Hide Sumi" = "Sumi’ni yashirish";
 "Hide Others" = "Boshqalarni yashirish";
-"Show All" = "Hammasini ko'rsatish";
-"Quit Sumi" = "Sumi raqamidan chiqing";
-"System Default" = "Tizim standarti";
+"Show All" = "Hammasini ko‘rsatish";
+"Quit Sumi" = "Sumi’dan chiqish";
+"System Default" = "Tizim tili";
 "New File…" = "Yangi fayl…";
 "New Folder…" = "Yangi jild…";
-"New Terminal Tab" = "Yangi terminal yorlig'i";
+"New Terminal Tab" = "Yangi terminal varag‘i";
 "Open…" = "Ochish…";
 "Save" = "Saqlash";
 "Save All" = "Hammasini saqlash";
-"Close Tab" = "Tabni yopish";
+"Close Tab" = "Varaqni yopish";
 "Close Window" = "Oynani yopish";
-"Undo" = "Bekor qilish";
-"Redo" = "Qayta qiling";
+"Undo" = "Amalni bekor qilish";
+"Redo" = "Qaytarish";
 "Cut" = "Kesish";
 "Copy" = "Nusxalash";
-"Paste" = "joylashtirish";
-"Select All" = "Hammasini tanlang";
-"Find…" = "Top…";
-"Replace…" = "Oʻzgartirish…";
-"Find Next" = "Keyingisini toping";
-"Find Previous" = "Oldingisini toping";
-"Use Selection for Find" = "Topish uchun tanlovdan foydalaning";
-"Find" = "Toping";
+"Paste" = "Joylash";
+"Select All" = "Hammasini tanlash";
+"Find…" = "Topish…";
+"Replace…" = "Almashtirish…";
+"Find Next" = "Keyingisini topish";
+"Find Previous" = "Oldingisini topish";
+"Use Selection for Find" = "Tanlangan matnni qidirish";
+"Find" = "Qidirish";
 "Project" = "Loyiha";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Terminal va loyihani almashtirish";
-"Maximize Terminal" = "Terminalni maksimal darajaga ko'tarish";
-"GPU Rendering" = "GPU renderlash";
-"Soft-Wrap" = "Uzoq matn satrlarini avtomatik ravishda o'rash";
-"Toggle Preview" = "Ko‘rib chiqish";
-"Increase Font Size" = "Shrift hajmini kattalashtirish";
-"Decrease Font Size" = "Shrift hajmini kamaytirish";
-"Reset Font Size" = "Shrift hajmini tiklash";
-"Search Everywhere (Double ⇧)" = "Hamma joyda qidirish (ikki marta ⇧)";
-"Select in Project View" = "Loyiha ko'rinishida tanlang";
-"Next Tab" = "Keyingi tab";
-"Previous Tab" = "Oldingi tab";
-"Minimize" = "Minimallashtirish";
-"Zoom" = "Kattalashtirish";
-"Bring All to Front" = "Hammasini oldinga olib keling";
+"Swap Terminal and Project" = "Terminal va loyiha o‘rnini almashtirish";
+"Maximize Terminal" = "Terminalni kattalashtirish";
+"GPU Rendering" = "GPU orqali chizish";
+"Soft-Wrap" = "Satrlarni eniga moslash";
+"Toggle Preview" = "Oldindan ko‘rishni ochish yoki yashirish";
+"Increase Font Size" = "Shriftni kattalashtirish";
+"Decrease Font Size" = "Shriftni kichraytirish";
+"Reset Font Size" = "Shrift o‘lchamini tiklash";
+"Search Everywhere (Double ⇧)" = "Hamma joyda qidirish (⇧ ikki marta)";
+"Select in Project View" = "Loyiha ko‘rinishida tanlash";
+"Next Tab" = "Keyingi varaq";
+"Previous Tab" = "Oldingi varaq";
+"Minimize" = "Oynani kichraytirish";
+"Zoom" = "Oynani kattalashtirish";
+"Bring All to Front" = "Barcha oynalarni oldinga chiqarish";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Mahalliy";
@@ -69,7 +69,7 @@
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
 "Close running terminal sessions?" = "Ishlayotgan terminal seanslari yopilsinmi?";
-"These processes will be stopped:" = "Ushbu jarayonlar to'xtatiladi:";
+"These processes will be stopped:" = "Bu jarayonlar to‘xtatiladi:";
 "Cancel" = "Bekor qilish";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -77,48 +77,48 @@
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Faqat muharrir";
-"Editor and Preview" = "Tahrirlovchi va oldindan ko'rish";
-"Preview Only" = "Faqat oldindan ko'rish";
+"Editor and Preview" = "Muharrir va oldindan ko‘rish";
+"Preview Only" = "Faqat oldindan ko‘rish";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Bo'shliqlar: %ld";
+"Spaces: %ld" = "Bo‘shliqlar: %ld";
 "Plain Text" = "Oddiy matn";
 "Search Everywhere" = "Hamma joyda qidirish";
-"Double ⇧" = "Ikki marta ⇧";
-"Go to File" = "Faylga o'ting";
+"Double ⇧" = "⇧ ikki marta";
+"Go to File" = "Faylga o‘tish";
 "Open Folder" = "Jildni ochish";
-"Project View" = "Loyiha ko'rinishi";
+"Project View" = "Loyiha ko‘rinishi";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Diskdagi fayl o'zgartirildi. Tahrirlaringiz saqlanib qoldi. Ikkala versiyani ham saqlab qolish uchun nusxasini saqlang.";
-"The file is a binary file." = "Fayl ikkilik fayldir.";
-"The file's text encoding could not be determined." = "Faylning matn kodlashini aniqlab bo‘lmadi.";
-"The text cannot be saved in %@." = "Matnni %@ raqamida saqlab bo'lmaydi.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Diskdagi fayl o‘zgardi. Tahrirlaringiz muharrirda turibdi. Har ikki versiyani saqlab qolish uchun nusxasini saqlang.";
+"The file is a binary file." = "Bu ikkilik fayl.";
+"The file's text encoding could not be determined." = "Fayl matnining kodlash usuli aniqlanmadi.";
+"The text cannot be saved in %@." = "Matnni %@ kodlashida saqlab bo‘lmaydi.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Yangi jild";
 "New File" = "Yangi fayl";
-"Enter a name in “%@”. Use / to create nested folders." = "“%@” qatoriga ism kiriting. Pastki papkalarni yaratish uchun papka nomlarini / belgisi bilan ajrating.";
-"Rename" = "Nomini o'zgartirish";
+"Enter a name in “%@”. Use / to create nested folders." = "“%@” ichida nom kiriting. Ichma-ich jildlar yaratish uchun / belgisidan foydalaning.";
+"Rename" = "Nomini o‘zgartirish";
 "Enter a new name for “%@”." = "“%@” uchun yangi nom kiriting.";
-"Move “%@” to the Trash?" = "“%@” chiqitdonga tashlansinmi?";
-"The folder and everything in it will be moved to the Trash." = "Jild va undagi barcha narsalar Chiqindiga ko'chiriladi.";
-"You can restore it from the Trash." = "Siz uni axlat qutisidan tiklashingiz mumkin.";
-"Move to Trash" = "Chiqindiga o‘tkazish";
-"OK" = "OK";
-"Rename…" = "Nomini oʻzgartirish…";
-"Copy Path" = "Yo'lni nusxalash";
-"Copy Relative Path" = "Nisbiy yoʻlni nusxalash";
-"Reveal in Finder" = "Finder da oshkor qiling";
-"Open in Terminal" = "Terminalda oching";
+"Move “%@” to the Trash?" = "“%@” chiqindiga ko‘chirilsinmi?";
+"The folder and everything in it will be moved to the Trash." = "Jild va ichidagi barcha narsalar chiqindiga ko‘chiriladi.";
+"You can restore it from the Trash." = "Uni chiqindidan tiklashingiz mumkin.";
+"Move to Trash" = "Chiqindiga ko‘chirish";
+"OK" = "Xo‘p";
+"Rename…" = "Nomini o‘zgartirish…";
+"Copy Path" = "Yo‘lni nusxalash";
+"Copy Relative Path" = "Nisbiy yo‘lni nusxalash";
+"Reveal in Finder" = "Finder’da ko‘rsatish";
+"Open in Terminal" = "Terminalda ochish";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Chap panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Fayllar";
-"Double ⇧ to search everywhere" = "Hamma joyda qidirish uchun ikki marta ⇧";
-"Type a file name (use / to match the path)" = "Fayl nomini kiriting (yo'lga mos kelish uchun / dan foydalaning)";
-"No recent files" = "Oxirgi fayllar yo'q";
-"Recent Files" = "Oxirgi fayllar";
-"Matches: %1$ld / Files: %2$ld" = "Topilgan natijalar: %1$ld / Jami fayllar: %2$ld";
+"Double ⇧ to search everywhere" = "Hamma joyda qidirish uchun ⇧ tugmasini ikki marta bosing";
+"Type a file name (use / to match the path)" = "Fayl nomini yozing (yo‘l bo‘yicha qidirish uchun / ishlating)";
+"No recent files" = "So‘nggi fayllar yo‘q";
+"Recent Files" = "So‘nggi fayllar";
+"Matches: %1$ld / Files: %2$ld" = "Mos kelganlar: %1$ld / Fayllar: %2$ld";

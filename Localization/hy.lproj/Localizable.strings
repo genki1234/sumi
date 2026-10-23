@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Բացեք թղթապանակը որպես նախագիծ կամ ֆայլ՝ խմբագրելու համար:";
-"Open" = "Բաց";
+"Open a folder as a project, or a file to edit." = "Բացեք պանակը որպես նախագիծ կամ ֆայլը՝ խմբագրելու համար։";
+"Open" = "Բացել";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Ֆայլ";
-"Edit" = "Խմբագրել";
-"View" = "Դիտել";
-"Navigate" = "Նավարկություն";
+"Edit" = "Խմբագրում";
+"View" = "Տեսք";
+"Navigate" = "Նավարկում";
 "Window" = "Պատուհան";
-"About Sumi" = "Sumi հավելվածի մասին";
 "Language" = "Լեզու";
+"About Sumi" = "Sumi-ի մասին";
 "Services" = "Ծառայություններ";
-"Hide Sumi" = "Թաքցնել Sumi";
-"Hide Others" = "Թաքցնել Ուրիշներին";
+"Hide Sumi" = "Թաքցնել Sumi-ն";
+"Hide Others" = "Թաքցնել մյուսները";
 "Show All" = "Ցույց տալ բոլորը";
-"Quit Sumi" = "Դուրս գալ Sumi";
-"System Default" = "Համակարգի լռելյայն";
+"Quit Sumi" = "Դուրս գալ Sumi-ից";
+"System Default" = "Համակարգի լռելյայնը";
 "New File…" = "Նոր ֆայլ…";
-"New Folder…" = "Նոր թղթապանակ…";
+"New Folder…" = "Նոր պանակ…";
 "New Terminal Tab" = "Տերմինալի նոր ներդիր";
 "Open…" = "Բացել…";
-"Save" = "Պահպանել";
-"Save All" = "Պահպանել բոլորը";
+"Save" = "Պահել";
+"Save All" = "Պահել բոլորը";
 "Close Tab" = "Փակել ներդիրը";
 "Close Window" = "Փակել պատուհանը";
 "Undo" = "Հետարկել";
 "Redo" = "Կրկնել";
 "Cut" = "Կտրել";
 "Copy" = "Պատճենել";
-"Paste" = "Կպցնել";
-"Select All" = "Ընտրեք Բոլորը";
+"Paste" = "Տեղադրել";
+"Select All" = "Ընտրել բոլորը";
 "Find…" = "Գտնել…";
 "Replace…" = "Փոխարինել…";
-"Find Next" = "Գտեք Հաջորդը";
-"Find Previous" = "Գտնել Նախորդը";
-"Use Selection for Find" = "Օգտագործեք ընտրությունը գտնելու համար";
-"Find" = "Գտեք";
+"Find Next" = "Գտնել հաջորդը";
+"Find Previous" = "Գտնել նախորդը";
+"Use Selection for Find" = "Որոնել ընտրված տեքստը";
+"Find" = "Գտնել";
 "Project" = "Նախագիծ";
 "Terminal" = "Տերմինալ";
-"Swap Terminal and Project" = "Փոխանակեք տերմինալը և նախագիծը";
-"Maximize Terminal" = "Առավելագույնի հասցնել տերմինալը";
-"GPU Rendering" = "GPU-ի մատուցում";
-"Soft-Wrap" = "Ավտոմատ կերպով փաթաթել երկար տեքստային տողերը";
-"Toggle Preview" = "Միացնել նախադիտումը";
+"Swap Terminal and Project" = "Փոխանակել տերմինալն ու նախագիծը";
+"Maximize Terminal" = "Առավելացնել տերմինալը";
+"GPU Rendering" = "Արտապատկերում GPU-ով";
+"Soft-Wrap" = "Տողերի փաթաթում";
+"Toggle Preview" = "Միացնել կամ անջատել նախադիտումը";
 "Increase Font Size" = "Մեծացնել տառաչափը";
-"Decrease Font Size" = "Նվազեցնել տառատեսակի չափը";
-"Reset Font Size" = "Վերականգնել տառատեսակի չափը";
-"Search Everywhere (Double ⇧)" = "Որոնել ամենուր (Կրկնակի ⇧)";
-"Select in Project View" = "Ընտրեք Project View-ում";
-"Next Tab" = "Հաջորդ ներդիր";
-"Previous Tab" = "Նախորդ ներդիր";
-"Minimize" = "Նվազագույնի հասցնել";
-"Zoom" = "Մեծացնել";
-"Bring All to Front" = "Բոլորին առաջ բերեք";
+"Decrease Font Size" = "Փոքրացնել տառաչափը";
+"Reset Font Size" = "Վերակայել տառաչափը";
+"Search Everywhere (Double ⇧)" = "Որոնել ամենուր (կրկնակի ⇧)";
+"Select in Project View" = "Ընտրել նախագծի ծառում";
+"Next Tab" = "Հաջորդ ներդիրը";
+"Previous Tab" = "Նախորդ ներդիրը";
+"Minimize" = "Փոքրացնել";
+"Zoom" = "Մեծացնել պատուհանը";
+"Bring All to Front" = "Բոլոր պատուհանները բերել առաջ";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Տեղական";
-"Local (%ld)" = "Տեղական (%ld)";
+"Local" = "Տեղային";
+"Local (%ld)" = "Տեղային (%ld)";
 "Hide Terminal" = "Թաքցնել տերմինալը";
 "Close" = "Փակել";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Փակե՞լ գործող տերմինալի աշխատաշրջանները:";
-"These processes will be stopped:" = "Այս գործընթացները կդադարեցվեն.";
+"Close running terminal sessions?" = "Փակե՞լ տերմինալի գործող աշխատաշրջանները։";
+"These processes will be stopped:" = "Այս գործընթացները կդադարեցվեն․";
 "Cancel" = "Չեղարկել";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Պահպանել պատճենը…";
+"Save a Copy…" = "Պահել պատճենը…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Միայն խմբագիր";
-"Editor and Preview" = "Խմբագիր և նախադիտում";
-"Preview Only" = "Միայն նախադիտում";
+"Editor Only" = "Միայն խմբագրիչը";
+"Editor and Preview" = "Խմբագրիչ և նախադիտում";
+"Preview Only" = "Միայն նախադիտումը";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Տարածքներ՝ %ld";
-"Plain Text" = "Պարզ տեքստ";
+"Spaces: %ld" = "Բացատներ՝ %ld";
+"Plain Text" = "Սովորական տեքստ";
 "Search Everywhere" = "Որոնել ամենուր";
 "Double ⇧" = "Կրկնակի ⇧";
-"Go to File" = "Գնալ դեպի Ֆայլ";
-"Open Folder" = "Բացեք Թղթապանակը";
-"Project View" = "Ծրագրի դիտում";
+"Go to File" = "Անցնել ֆայլին";
+"Open Folder" = "Բացել պանակը";
+"Project View" = "Նախագծի ծառ";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ֆայլը փոխվել է սկավառակի վրա: Ձեր խմբագրումները պահպանվել են: Պահպանեք պատճենը երկու տարբերակները պահպանելու համար:";
-"The file is a binary file." = "Ֆայլը երկուական ֆայլ է:";
-"The file's text encoding could not be determined." = "Չհաջողվեց որոշել ֆայլի տեքստային կոդավորումը:";
-"The text cannot be saved in %@." = "Տեքստը չի կարող պահպանվել %@-ում:";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Ֆայլը փոխվել է սկավառակի վրա։ Ձեր խմբագրումները մնացել են խմբագրիչում։ Երկու տարբերակն էլ պահելու համար պահեք պատճենը։";
+"The file is a binary file." = "Այս ֆայլը երկուական ֆայլ է։";
+"The file's text encoding could not be determined." = "Չհաջողվեց որոշել ֆայլի տեքստային կոդավորումը։";
+"The text cannot be saved in %@." = "Տեքստը հնարավոր չէ պահել %@ կոդավորմամբ։";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Նոր թղթապանակ";
+"New Folder" = "Նոր պանակ";
 "New File" = "Նոր ֆայլ";
-"Enter a name in “%@”. Use / to create nested folders." = "Մուտքագրեք անունը «%@»: Ենթաթղթապանակներ ստեղծելու համար առանձնացրեք թղթապանակների անունները / նիշով:";
+"Enter a name in “%@”. Use / to create nested folders." = "Մուտքագրեք անունը «%@»-ում։ Ներդրված պանակներ ստեղծելու համար օգտագործեք /։";
 "Rename" = "Վերանվանել";
-"Enter a new name for “%@”." = "Մուտքագրեք նոր անուն «%@»:";
-"Move “%@” to the Trash?" = "Տեղափոխե՞լ «%@»-ը աղբարկղ:";
-"The folder and everything in it will be moved to the Trash." = "Թղթապանակը և դրա մեջ եղած ամեն ինչ կտեղափոխվեն աղբարկղ:";
-"You can restore it from the Trash." = "Դուք կարող եք վերականգնել այն աղբարկղից:";
-"Move to Trash" = "Տեղափոխել աղբարկղ";
+"Enter a new name for “%@”." = "Մուտքագրեք «%@»-ի նոր անունը։";
+"Move “%@” to the Trash?" = "«%@»-ը տեղափոխե՞լ աղբաման։";
+"The folder and everything in it will be moved to the Trash." = "Պանակն ու դրա ամբողջ պարունակությունը կտեղափոխվեն աղբաման։";
+"You can restore it from the Trash." = "Այն կարող եք վերականգնել աղբամանից։";
+"Move to Trash" = "Տեղափոխել աղբաման";
 "OK" = "Լավ";
 "Rename…" = "Վերանվանել…";
 "Copy Path" = "Պատճենել ուղին";
 "Copy Relative Path" = "Պատճենել հարաբերական ուղին";
-"Reveal in Finder" = "Բացահայտեք Finder-ում";
-"Open in Terminal" = "Բացեք տերմինալում";
+"Reveal in Finder" = "Ցույց տալ Finder-ում";
+"Open in Terminal" = "Բացել տերմինալում";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Ձախ վահանակ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Ֆայլեր";
-"Double ⇧ to search everywhere" = "Կրկնակի ⇧՝ ամենուր որոնելու համար";
-"Type a file name (use / to match the path)" = "Մուտքագրեք ֆայլի անունը (օգտագործեք / ուղին համապատասխանելու համար)";
+"Double ⇧ to search everywhere" = "Ամենուր որոնելու համար երկու անգամ սեղմեք ⇧";
+"Type a file name (use / to match the path)" = "Մուտքագրեք ֆայլի անունը (ուղին համընկեցնելու համար օգտագործեք /)";
 "No recent files" = "Վերջին ֆայլեր չկան";
-"Recent Files" = "Վերջին ֆայլեր";
-"Matches: %1$ld / Files: %2$ld" = "Գտնված արդյունքներ՝ %1$ld / Ընդհանուր ֆայլեր՝ %2$ld";
+"Recent Files" = "Վերջին ֆայլերը";
+"Matches: %1$ld / Files: %2$ld" = "Համընկնումներ՝ %1$ld / Ֆայլեր՝ %2$ld";

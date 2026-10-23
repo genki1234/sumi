@@ -10,19 +10,19 @@
 "Open" = "Avaa";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Arkisto";
+"File" = "Tiedosto";
 "Edit" = "Muokkaa";
 "View" = "Näytä";
 "Navigate" = "Siirry";
 "Window" = "Ikkuna";
-"About Sumi" = "Tietoja: Sumi";
-"Language" = "Kieli";
+"Language" = "Käyttöliittymän kieli";
+"About Sumi" = "Tietoja Sumi-sovelluksesta";
 "Services" = "Palvelut";
-"Hide Sumi" = "Piilota Sumi";
-"Hide Others" = "Piilota muut";
+"Hide Sumi" = "Kätke Sumi";
+"Hide Others" = "Kätke muut";
 "Show All" = "Näytä kaikki";
 "Quit Sumi" = "Lopeta Sumi";
-"System Default" = "Järjestelmän oletusarvo";
+"System Default" = "Käytä järjestelmän kieltä";
 "New File…" = "Uusi tiedosto…";
 "New Folder…" = "Uusi kansio…";
 "New Terminal Tab" = "Uusi päätevälilehti";
@@ -41,35 +41,35 @@
 "Replace…" = "Korvaa…";
 "Find Next" = "Etsi seuraava";
 "Find Previous" = "Etsi edellinen";
-"Use Selection for Find" = "Käytä valintaa etsimiseen";
+"Use Selection for Find" = "Etsi valittua tekstiä";
 "Find" = "Etsi";
 "Project" = "Projekti";
 "Terminal" = "Pääte";
-"Swap Terminal and Project" = "Vaihda päätteen ja projektin paikkaa";
+"Swap Terminal and Project" = "Vaihda päätteen ja projektin paikkoja";
 "Maximize Terminal" = "Suurenna pääte";
-"GPU Rendering" = "GPU-renderöinti";
-"Soft-Wrap" = "Automaattinen rivitys";
-"Toggle Preview" = "Esikatselu päälle/pois";
-"Increase Font Size" = "Suurenna fonttikokoa";
-"Decrease Font Size" = "Pienennä fonttikokoa";
-"Reset Font Size" = "Palauta fonttikoko";
-"Search Everywhere (Double ⇧)" = "Hae kaikkialta (⇧ kahdesti)";
+"GPU Rendering" = "GPU-piirto";
+"Soft-Wrap" = "Rivitä ikkunan leveyteen";
+"Toggle Preview" = "Vaihda esikatselun näkyvyyttä";
+"Increase Font Size" = "Suurenna tekstikokoa";
+"Decrease Font Size" = "Pienennä tekstikokoa";
+"Reset Font Size" = "Palauta tekstikoko";
+"Search Everywhere (Double ⇧)" = "Etsi kaikkialta (⇧ kahdesti)";
 "Select in Project View" = "Valitse projektinäkymässä";
 "Next Tab" = "Seuraava välilehti";
 "Previous Tab" = "Edellinen välilehti";
-"Minimize" = "Minimoi";
-"Zoom" = "Zoomaa";
-"Bring All to Front" = "Tuo kaikki eteen";
+"Minimize" = "Pienennä";
+"Zoom" = "Muuta ikkunan kokoa";
+"Bring All to Front" = "Tuo kaikki etualalle";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Paikallinen";
 "Local (%ld)" = "Paikallinen (%ld)";
-"Hide Terminal" = "Piilota pääte";
+"Hide Terminal" = "Kätke pääte";
 "Close" = "Sulje";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Suljetaanko käynnissä olevat pääte-istunnot?";
-"These processes will be stopped:" = "Nämä prosessit pysäytetään:";
+"Close running terminal sessions?" = "Suljetaanko käynnissä olevat pääteistunnot?";
+"These processes will be stopped:" = "Seuraavat prosessit pysäytetään:";
 "Cancel" = "Peruuta";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
@@ -81,26 +81,26 @@
 "Preview Only" = "Vain esikatselu";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Välilyönnit: %ld";
+"Spaces: %ld" = "Välilyöntejä: %ld";
 "Plain Text" = "Pelkkä teksti";
-"Search Everywhere" = "Hae kaikkialta";
+"Search Everywhere" = "Etsi kaikkialta";
 "Double ⇧" = "⇧ kahdesti";
 "Go to File" = "Siirry tiedostoon";
 "Open Folder" = "Avaa kansio";
 "Project View" = "Projektinäkymä";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Tiedosto vaihtui levylle. Muokkauksesi on säilytetty. Tallenna kopio säilyttääksesi molemmat versiot.";
-"The file is a binary file." = "Tiedosto on binääritiedosto.";
-"The file's text encoding could not be determined." = "Tiedoston tekstikoodausta ei voitu määrittää.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Tiedosto on muuttunut levyllä. Muokkauksesi ovat yhä editorissa. Tallenna kopio, jos haluat säilyttää molemmat versiot.";
+"The file is a binary file." = "Tiedosto on binaaritiedosto.";
+"The file's text encoding could not be determined." = "Tiedoston merkistökoodausta ei voitu tunnistaa.";
 "The text cannot be saved in %@." = "Tekstiä ei voi tallentaa koodauksella %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Uusi kansio";
 "New File" = "Uusi tiedosto";
-"Enter a name in “%@”. Use / to create nested folders." = "Anna nimi kohteessa ”%@”. Luo sisäkkäisiä kansioita käyttämällä merkkiä /.";
+"Enter a name in “%@”. Use / to create nested folders." = "Anna nimi kansioon ”%@”. Luo sisäkkäisiä kansioita erottamalla nimet merkillä /.";
 "Rename" = "Nimeä uudelleen";
-"Enter a new name for “%@”." = "Anna kohteelle ”%@” uusi nimi.";
+"Enter a new name for “%@”." = "Anna uusi nimi kohteelle ”%@”.";
 "Move “%@” to the Trash?" = "Siirretäänkö ”%@” roskakoriin?";
 "The folder and everything in it will be moved to the Trash." = "Kansio ja kaikki sen sisältö siirretään roskakoriin.";
 "You can restore it from the Trash." = "Voit palauttaa sen roskakorista.";
@@ -117,8 +117,8 @@
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Tiedostot";
-"Double ⇧ to search everywhere" = "Hae kaikkialta painamalla ⇧ kahdesti";
-"Type a file name (use / to match the path)" = "Kirjoita tiedoston nimi (käytä merkkiä / polun täsmäämiseen)";
-"No recent files" = "Ei viimeisimpiä tiedostoja";
-"Recent Files" = "Viimeisimmät tiedostot";
-"Matches: %1$ld / Files: %2$ld" = "Osumat: %1$ld / Tiedostot: %2$ld";
+"Double ⇧ to search everywhere" = "Paina ⇧ kahdesti etsiäksesi kaikkialta";
+"Type a file name (use / to match the path)" = "Kirjoita tiedoston nimi (käytä merkkiä / etsiäksesi polusta)";
+"No recent files" = "Ei viimeaikaisia tiedostoja";
+"Recent Files" = "Viimeaikaiset tiedostot";
+"Matches: %1$ld / Files: %2$ld" = "Osumia: %1$ld / Tiedostoja: %2$ld";

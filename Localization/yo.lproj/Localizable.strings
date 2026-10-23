@@ -6,119 +6,119 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Ṣii folda kan bi iṣẹ akanṣe, tabi faili lati ṣatunkọ.";
-"Open" = "Ṣii";
+"Open a folder as a project, or a file to edit." = "Ṣí fódà gẹ́gẹ́ bí iṣẹ́ àkànṣe tàbí fáìlì láti ṣàtúnṣe.";
+"Open" = "Ṣí";
 
 /* Sources/Sumi/App/MainMenu.swift */
-"File" = "Faili";
-"Edit" = "Ṣatunkọ";
-"View" = "Wo";
-"Navigate" = "Lilọ kiri";
-"Window" = "Ferese";
-"About Sumi" = "Nipa ohun elo Sumi";
-"Language" = "Ede";
-"Services" = "Awọn iṣẹ";
-"Hide Sumi" = "Tọju Sumi";
-"Hide Others" = "Tọju Awọn miiran";
-"Show All" = "Fihan Gbogbo";
-"Quit Sumi" = "Pade Sumi";
-"System Default" = "Eto Aiyipada";
-"New File…" = "Faili Tuntun…";
-"New Folder…" = "Folda Tuntun…";
-"New Terminal Tab" = "Taabu Terminal Tuntun";
-"Open…" = "Ṣii…";
-"Save" = "Fipamọ";
-"Save All" = "Fi Gbogbo wa pamọ";
-"Close Tab" = "Pa Taabu";
-"Close Window" = "Pa Ferese";
-"Undo" = "Yipada";
-"Redo" = "Tunṣe";
-"Cut" = "Ge";
-"Copy" = "Daakọ";
-"Paste" = "Lẹẹmọ";
-"Select All" = "Yan Gbogbo";
-"Find…" = "Wa…";
-"Replace…" = "Rọpo…";
-"Find Next" = "Wa Next";
-"Find Previous" = "Wa Ti tẹlẹ";
-"Use Selection for Find" = "Lo Aṣayan fun Wa";
-"Find" = "Wa";
-"Project" = "Ise agbese";
-"Terminal" = "Ebute";
-"Swap Terminal and Project" = "Siwopu ebute ati Project";
-"Maximize Terminal" = "Ti o pọju Terminal";
-"GPU Rendering" = "Ṣe awọn eya aworan nipa lilo GPU";
-"Soft-Wrap" = "Fi ipari si awọn laini ọrọ gigun ni adaṣe";
-"Toggle Preview" = "Yi Awotẹlẹ";
-"Increase Font Size" = "Mu Font Iwon";
-"Decrease Font Size" = "Din Iwon Font";
-"Reset Font Size" = "Tun iwọn Font";
-"Search Everywhere (Double ⇧)" = "Wa Nibikibi (Double ⇧)";
-"Select in Project View" = "Yan ni Project View";
-"Next Tab" = "Next Taabu";
-"Previous Tab" = "Taabu ti tẹlẹ";
-"Minimize" = "Gbe sẹgbẹ";
-"Zoom" = "Sun-un";
-"Bring All to Front" = "Mu Gbogbo wa si Iwaju";
+"File" = "Fáìlì";
+"Edit" = "Ṣàtúnṣe";
+"View" = "Ìwò";
+"Navigate" = "Lọ sí";
+"Window" = "Fèrèsé";
+"Language" = "Èdè";
+"About Sumi" = "Nípa Sumi";
+"Services" = "Àwọn iṣẹ́";
+"Hide Sumi" = "Fi Sumi pamọ́";
+"Hide Others" = "Fi àwọn yòókù pamọ́";
+"Show All" = "Fi gbogbo hàn";
+"Quit Sumi" = "Jáde kúrò ní Sumi";
+"System Default" = "Ètò àiyipada ẹ̀rọ";
+"New File…" = "Fáìlì tuntun…";
+"New Folder…" = "Fódà tuntun…";
+"New Terminal Tab" = "Táàbù terminal tuntun";
+"Open…" = "Ṣí…";
+"Save" = "Fipamọ́";
+"Save All" = "Fipamọ́ gbogbo";
+"Close Tab" = "Ti táàbù";
+"Close Window" = "Ti fèrèsé";
+"Undo" = "Yí ìṣe padà";
+"Redo" = "Tún ṣe";
+"Cut" = "Gé";
+"Copy" = "Dàkọ";
+"Paste" = "Lẹ̀ mọ́";
+"Select All" = "Yan gbogbo";
+"Find…" = "Wá…";
+"Replace…" = "Rọ́pò…";
+"Find Next" = "Wá èyí tó kàn";
+"Find Previous" = "Wá èyí tó ṣáájú";
+"Use Selection for Find" = "Wá ọ̀rọ̀ tí a yàn";
+"Find" = "Wá";
+"Project" = "Iṣẹ́ àkànṣe";
+"Terminal" = "Terminal";
+"Swap Terminal and Project" = "Pààrọ̀ ipò terminal àti iṣẹ́ àkànṣe";
+"Maximize Terminal" = "Mú terminal tóbi";
+"GPU Rendering" = "Yíya àwòrán pẹ̀lú GPU";
+"Soft-Wrap" = "Yí àwọn ìlà padà sí ìbú ìwò";
+"Toggle Preview" = "Fi àwòtẹ́lẹ̀ hàn tàbí pamọ́";
+"Increase Font Size" = "Mú ìwọ̀n lẹ́tà pọ̀ sí i";
+"Decrease Font Size" = "Dín ìwọ̀n lẹ́tà kù";
+"Reset Font Size" = "Dá ìwọ̀n lẹ́tà padà";
+"Search Everywhere (Double ⇧)" = "Wá níbi gbogbo (⇧ lẹ́ẹ̀mejì)";
+"Select in Project View" = "Yan nínú ìwò iṣẹ́ àkànṣe";
+"Next Tab" = "Táàbù tó kàn";
+"Previous Tab" = "Táàbù tó ṣáájú";
+"Minimize" = "Dín fèrèsé kù";
+"Zoom" = "Mú fèrèsé tóbi";
+"Bring All to Front" = "Mú gbogbo fèrèsé wá síwájú";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
-"Local" = "Agbegbe";
-"Local (%ld)" = "Agbegbe (%ld)";
-"Hide Terminal" = "Tọju Terminal";
-"Close" = "Sunmọ";
+"Local" = "Lórí ẹ̀rọ yìí";
+"Local (%ld)" = "Lórí ẹ̀rọ yìí (%ld)";
+"Hide Terminal" = "Fi terminal pamọ́";
+"Close" = "Ti";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Pa awọn akoko ebute nṣiṣẹ sunmọ?";
-"These processes will be stopped:" = "Awọn ilana wọnyi yoo duro:";
-"Cancel" = "Fagilee";
+"Close running terminal sessions?" = "Ṣé kí a ti àwọn àkókò terminal tó ń ṣiṣẹ́?";
+"These processes will be stopped:" = "Àwọn ìlànà wọ̀nyí yóò dá dúró:";
+"Cancel" = "Fagilé";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Fi ẹda kan pamọ…";
+"Save a Copy…" = "Fipamọ́ ẹ̀dà kan…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
-"Editor Only" = "Olootu Nikan";
-"Editor and Preview" = "Olootu ati Awotẹlẹ";
-"Preview Only" = "Awotẹlẹ Nikan";
+"Editor Only" = "Olóòtú nìkan";
+"Editor and Preview" = "Olóòtú àti àwòtẹ́lẹ̀";
+"Preview Only" = "Àwòtẹ́lẹ̀ nìkan";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Awọn aaye: %ld";
-"Plain Text" = "Ọrọ itele";
-"Search Everywhere" = "Wa Nibikibi";
-"Double ⇧" = "Ilọpo meji ⇧";
-"Go to File" = "Lọ si Faili";
-"Open Folder" = "Ṣii folda";
-"Project View" = "Wiwo Project";
+"Spaces: %ld" = "Àwọn àlàfo: %ld";
+"Plain Text" = "Ọ̀rọ̀ lásán";
+"Search Everywhere" = "Wá níbi gbogbo";
+"Double ⇧" = "⇧ lẹ́ẹ̀mejì";
+"Go to File" = "Lọ sí fáìlì";
+"Open Folder" = "Ṣí fódà";
+"Project View" = "Ìwò iṣẹ́ àkànṣe";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Faili yi pada lori disk. Awọn atunṣe rẹ ti wa ni ipamọ. Fi ẹda kan pamọ lati tọju awọn ẹya mejeeji.";
-"The file is a binary file." = "Faili naa jẹ faili alakomeji.";
-"The file's text encoding could not be determined." = "A ko le ṣe ipinnu fifi koodu ọrọ faili naa.";
-"The text cannot be saved in %@." = "Ọrọ ko le wa ni fipamọ ni %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Fáìlì lórí dísíkì ti yí padà. Àwọn àtúnṣe rẹ ṣì wà nínú olóòtú. Fipamọ́ ẹ̀dà kan láti pa ẹ̀yà méjèèjì mọ́.";
+"The file is a binary file." = "Fáìlì oníṣirò alákọ̀ọ́méjì ni èyí.";
+"The file's text encoding could not be determined." = "A kò lè mọ ìlànà kóòdù ọ̀rọ̀ fáìlì náà.";
+"The text cannot be saved in %@." = "A kò lè fi ọ̀rọ̀ pamọ́ ní %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
-"New Folder" = "Folda Tuntun";
-"New File" = "Faili Tuntun";
-"Enter a name in “%@”. Use / to create nested folders." = "Tẹ orukọ sii ni \"%@\". Awọn orukọ folda lọtọ pẹlu / kikọ lati ṣẹda awọn folda inu.";
-"Rename" = "Fun lorukọ mii";
-"Enter a new name for “%@”." = "Tẹ orukọ titun sii fun \"%@\".";
-"Move “%@” to the Trash?" = "Gbe \"%@\" lọ si Idọti naa?";
-"The folder and everything in it will be moved to the Trash." = "Awọn folda ati ohun gbogbo ti o wa ninu rẹ yoo wa ni gbe si awọn idọti.";
-"You can restore it from the Trash." = "O le mu pada lati Idọti naa.";
-"Move to Trash" = "Gbe lọ si Idọti";
-"OK" = "O DARA";
-"Rename…" = "Tunrukọ…";
-"Copy Path" = "Daakọ Ona";
-"Copy Relative Path" = "Daakọ Ona ibatan";
-"Reveal in Finder" = "Ifihan ni Finder";
-"Open in Terminal" = "Ṣii ni Terminal";
+"New Folder" = "Fódà tuntun";
+"New File" = "Fáìlì tuntun";
+"Enter a name in “%@”. Use / to create nested folders." = "Tẹ orúkọ sínú “%@”. Lo / láti ṣẹ̀dá fódà nínú fódà mìíràn.";
+"Rename" = "Yí orúkọ padà";
+"Enter a new name for “%@”." = "Tẹ orúkọ tuntun fún “%@”.";
+"Move “%@” to the Trash?" = "Gbé “%@” lọ sínú ìdọ̀tí?";
+"The folder and everything in it will be moved to the Trash." = "Fódà àti gbogbo ohun inú rẹ yóò lọ sínú ìdọ̀tí.";
+"You can restore it from the Trash." = "O lè mú un padà láti inú ìdọ̀tí.";
+"Move to Trash" = "Gbé lọ sínú ìdọ̀tí";
+"OK" = "Ó dáa";
+"Rename…" = "Yí orúkọ padà…";
+"Copy Path" = "Dàkọ ọ̀nà";
+"Copy Relative Path" = "Dàkọ ọ̀nà láti iṣẹ́ àkànṣe";
+"Reveal in Finder" = "Fi hàn ní Finder";
+"Open in Terminal" = "Ṣí ní terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
-"Left Panel" = "Panel osi";
+"Left Panel" = "Pánẹ́ẹ̀lì òsì";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Awọn faili";
-"Double ⇧ to search everywhere" = "Double ⇧ lati wa nibi gbogbo";
-"Type a file name (use / to match the path)" = "Tẹ orukọ faili kan (lo / lati baamu ọna naa)";
-"No recent files" = "Ko si awọn faili aipẹ";
-"Recent Files" = "Awọn faili aipẹ";
-"Matches: %1$ld / Files: %2$ld" = "Awọn abajade ti a rii: %1$ld / Lapapọ awọn faili: %2$ld";
+"Files" = "Àwọn fáìlì";
+"Double ⇧ to search everywhere" = "Tẹ ⇧ lẹ́ẹ̀mejì láti wá níbi gbogbo";
+"Type a file name (use / to match the path)" = "Tẹ orúkọ fáìlì (lo / láti wá nípa ọ̀nà)";
+"No recent files" = "Kò sí fáìlì àìpẹ́";
+"Recent Files" = "Àwọn fáìlì àìpẹ́";
+"Matches: %1$ld / Files: %2$ld" = "Àwọn tó bá mu: %1$ld / Àwọn fáìlì: %2$ld";

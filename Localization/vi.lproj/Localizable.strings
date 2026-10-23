@@ -6,7 +6,7 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Mở thư mục làm dự án, hoặc mở tệp để chỉnh sửa.";
+"Open a folder as a project, or a file to edit." = "Mở thư mục làm dự án hoặc mở tệp để chỉnh sửa.";
 "Open" = "Mở";
 
 /* Sources/Sumi/App/MainMenu.swift */
@@ -15,21 +15,21 @@
 "View" = "Xem";
 "Navigate" = "Điều hướng";
 "Window" = "Cửa sổ";
-"About Sumi" = "Giới thiệu về Sumi";
 "Language" = "Ngôn ngữ";
+"About Sumi" = "Giới thiệu Sumi";
 "Services" = "Dịch vụ";
 "Hide Sumi" = "Ẩn Sumi";
-"Hide Others" = "Ẩn các mục khác";
-"Show All" = "Hiển thị tất cả";
+"Hide Others" = "Ẩn ứng dụng khác";
+"Show All" = "Hiện tất cả";
 "Quit Sumi" = "Thoát Sumi";
 "System Default" = "Mặc định hệ thống";
 "New File…" = "Tệp mới…";
 "New Folder…" = "Thư mục mới…";
-"New Terminal Tab" = "Tab Terminal mới";
+"New Terminal Tab" = "Thẻ terminal mới";
 "Open…" = "Mở…";
 "Save" = "Lưu";
 "Save All" = "Lưu tất cả";
-"Close Tab" = "Đóng tab";
+"Close Tab" = "Đóng thẻ";
 "Close Window" = "Đóng cửa sổ";
 "Undo" = "Hoàn tác";
 "Redo" = "Làm lại";
@@ -39,86 +39,86 @@
 "Select All" = "Chọn tất cả";
 "Find…" = "Tìm…";
 "Replace…" = "Thay thế…";
-"Find Next" = "Tìm tiếp theo";
-"Find Previous" = "Tìm trước đó";
-"Use Selection for Find" = "Dùng vùng chọn để tìm";
+"Find Next" = "Tìm tiếp";
+"Find Previous" = "Tìm trước";
+"Use Selection for Find" = "Tìm văn bản đã chọn";
 "Find" = "Tìm";
 "Project" = "Dự án";
 "Terminal" = "Terminal";
-"Swap Terminal and Project" = "Hoán đổi Terminal và Dự án";
-"Maximize Terminal" = "Phóng to Terminal";
-"GPU Rendering" = "Kết xuất GPU";
-"Soft-Wrap" = "Tự động ngắt dòng";
-"Toggle Preview" = "Bật/tắt xem trước";
+"Swap Terminal and Project" = "Đổi vị trí terminal và dự án";
+"Maximize Terminal" = "Phóng to terminal";
+"GPU Rendering" = "Kết xuất bằng GPU";
+"Soft-Wrap" = "Ngắt dòng theo chiều rộng";
+"Toggle Preview" = "Bật/tắt bản xem trước";
 "Increase Font Size" = "Tăng cỡ chữ";
 "Decrease Font Size" = "Giảm cỡ chữ";
 "Reset Font Size" = "Đặt lại cỡ chữ";
-"Search Everywhere (Double ⇧)" = "Tìm kiếm mọi nơi (nhấn ⇧ hai lần)";
-"Select in Project View" = "Chọn trong chế độ xem dự án";
-"Next Tab" = "Tab tiếp theo";
-"Previous Tab" = "Tab trước đó";
+"Search Everywhere (Double ⇧)" = "Tìm mọi nơi (nhấn ⇧ hai lần)";
+"Select in Project View" = "Chọn trong cây dự án";
+"Next Tab" = "Thẻ tiếp theo";
+"Previous Tab" = "Thẻ trước";
 "Minimize" = "Thu nhỏ";
-"Zoom" = "Thu phóng";
-"Bring All to Front" = "Đưa tất cả lên phía trước";
+"Zoom" = "Thu phóng cửa sổ";
+"Bring All to Front" = "Đưa mọi cửa sổ ra trước";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Cục bộ";
 "Local (%ld)" = "Cục bộ (%ld)";
-"Hide Terminal" = "Ẩn Terminal";
+"Hide Terminal" = "Ẩn terminal";
 "Close" = "Đóng";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Đóng các phiên cuối đang chạy?";
-"These processes will be stopped:" = "Các quá trình này sẽ bị dừng:";
+"Close running terminal sessions?" = "Đóng các phiên terminal đang chạy?";
+"These processes will be stopped:" = "Các tiến trình sau sẽ bị dừng:";
 "Cancel" = "Hủy";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
-"Save a Copy…" = "Lưu một bản sao…";
+"Save a Copy…" = "Lưu bản sao…";
 
 /* Sources/Sumi/Editor/EditorViewController.swift */
 "Editor Only" = "Chỉ trình soạn thảo";
-"Editor and Preview" = "Trình soạn thảo và xem trước";
-"Preview Only" = "Chỉ xem trước";
+"Editor and Preview" = "Trình soạn thảo và bản xem trước";
+"Preview Only" = "Chỉ bản xem trước";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
 "Spaces: %ld" = "Dấu cách: %ld";
-"Plain Text" = "Văn bản thuần túy";
-"Search Everywhere" = "Tìm kiếm mọi nơi";
+"Plain Text" = "Văn bản thuần";
+"Search Everywhere" = "Tìm mọi nơi";
 "Double ⇧" = "Nhấn ⇧ hai lần";
 "Go to File" = "Đi tới tệp";
 "Open Folder" = "Mở thư mục";
-"Project View" = "Chế độ xem dự án";
+"Project View" = "Cây dự án";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Tập tin đã thay đổi trên đĩa. Các chỉnh sửa của bạn đã được lưu giữ. Lưu một bản sao để bảo tồn cả hai phiên bản.";
-"The file is a binary file." = "Tệp này là tệp nhị phân.";
-"The file's text encoding could not be determined." = "Không thể xác định bảng mã văn bản của tệp.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Tệp trên ổ đĩa đã thay đổi. Các chỉnh sửa của bạn vẫn nằm trong trình soạn thảo. Hãy lưu bản sao để giữ cả hai phiên bản.";
+"The file is a binary file." = "Đây là tệp nhị phân.";
+"The file's text encoding could not be determined." = "Không xác định được bảng mã văn bản của tệp.";
 "The text cannot be saved in %@." = "Không thể lưu văn bản bằng bảng mã %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Thư mục mới";
 "New File" = "Tệp mới";
-"Enter a name in “%@”. Use / to create nested folders." = "Nhập tên trong “%@”. Dùng / để tạo các thư mục lồng nhau.";
+"Enter a name in “%@”. Use / to create nested folders." = "Nhập tên trong “%@”. Dùng / để tạo thư mục lồng nhau.";
 "Rename" = "Đổi tên";
 "Enter a new name for “%@”." = "Nhập tên mới cho “%@”.";
-"Move “%@” to the Trash?" = "Chuyển “%@” vào thùng rác?";
-"The folder and everything in it will be moved to the Trash." = "Thư mục và mọi thứ bên trong sẽ được chuyển vào thùng rác.";
-"You can restore it from the Trash." = "Bạn có thể khôi phục từ thùng rác.";
-"Move to Trash" = "Chuyển vào thùng rác";
+"Move “%@” to the Trash?" = "Chuyển “%@” vào Thùng rác?";
+"The folder and everything in it will be moved to the Trash." = "Thư mục và toàn bộ nội dung sẽ được chuyển vào Thùng rác.";
+"You can restore it from the Trash." = "Bạn có thể khôi phục từ Thùng rác.";
+"Move to Trash" = "Chuyển vào Thùng rác";
 "OK" = "OK";
 "Rename…" = "Đổi tên…";
 "Copy Path" = "Sao chép đường dẫn";
 "Copy Relative Path" = "Sao chép đường dẫn tương đối";
-"Reveal in Finder" = "Hiển thị trong Finder";
-"Open in Terminal" = "Mở trong Terminal";
+"Reveal in Finder" = "Hiện trong Finder";
+"Open in Terminal" = "Mở trong terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Bảng bên trái";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Tệp";
-"Double ⇧ to search everywhere" = "Nhấn ⇧ hai lần để tìm kiếm mọi nơi";
-"Type a file name (use / to match the path)" = "Nhập tên tệp (dùng / để khớp đường dẫn)";
+"Double ⇧ to search everywhere" = "Nhấn ⇧ hai lần để tìm mọi nơi";
+"Type a file name (use / to match the path)" = "Nhập tên tệp (dùng / để tìm theo đường dẫn)";
 "No recent files" = "Không có tệp gần đây";
 "Recent Files" = "Tệp gần đây";
 "Matches: %1$ld / Files: %2$ld" = "Khớp: %1$ld / Tệp: %2$ld";

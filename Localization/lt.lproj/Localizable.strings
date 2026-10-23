@@ -6,71 +6,71 @@
 */
 
 /* Sources/Sumi/App/AppDelegate.swift */
-"Open a folder as a project, or a file to edit." = "Atidarykite aplanką kaip projektą arba failą, kurį norite redaguoti.";
-"Open" = "Atidaryti";
+"Open a folder as a project, or a file to edit." = "Atverkite aplanką kaip projektą arba failą redaguoti.";
+"Open" = "Atverti";
 
 /* Sources/Sumi/App/MainMenu.swift */
 "File" = "Failas";
-"Edit" = "Redaguoti";
-"View" = "Žiūrėti";
-"Navigate" = "Naršyti";
+"Edit" = "Redagavimas";
+"View" = "Rodinys";
+"Navigate" = "Naršymas";
 "Window" = "Langas";
-"About Sumi" = "Apie Sumi prašymą";
 "Language" = "Kalba";
+"About Sumi" = "Apie Sumi";
 "Services" = "Paslaugos";
 "Hide Sumi" = "Slėpti Sumi";
 "Hide Others" = "Slėpti kitus";
 "Show All" = "Rodyti viską";
-"Quit Sumi" = "Išeikite iš Sumi";
-"System Default" = "Sistema pagal nutylėjimą";
+"Quit Sumi" = "Baigti Sumi";
+"System Default" = "Sistemos numatytoji";
 "New File…" = "Naujas failas…";
 "New Folder…" = "Naujas aplankas…";
-"New Terminal Tab" = "Naujas terminalo skirtukas";
-"Open…" = "Atidaryti…";
+"New Terminal Tab" = "Nauja terminalo kortelė";
+"Open…" = "Atverti…";
 "Save" = "Išsaugoti";
 "Save All" = "Išsaugoti viską";
-"Close Tab" = "Uždaryti skirtuką";
-"Close Window" = "Uždaryti langą";
-"Undo" = "Anuliuoti";
-"Redo" = "Perdaryti";
+"Close Tab" = "Užverti kortelę";
+"Close Window" = "Užverti langą";
+"Undo" = "Atšaukti";
+"Redo" = "Grąžinti";
 "Cut" = "Iškirpti";
 "Copy" = "Kopijuoti";
 "Paste" = "Įklijuoti";
-"Select All" = "Pasirinkite Viskas";
+"Select All" = "Pažymėti viską";
 "Find…" = "Rasti…";
 "Replace…" = "Pakeisti…";
-"Find Next" = "Rasti Kitas";
+"Find Next" = "Rasti kitą";
 "Find Previous" = "Rasti ankstesnį";
-"Use Selection for Find" = "Rasti naudokite pasirinkimą";
+"Use Selection for Find" = "Ieškoti pažymėto teksto";
 "Find" = "Rasti";
 "Project" = "Projektas";
 "Terminal" = "Terminalas";
 "Swap Terminal and Project" = "Sukeisti terminalą ir projektą";
-"Maximize Terminal" = "Padidinkite terminalą";
-"GPU Rendering" = "GPU atvaizdavimas";
-"Soft-Wrap" = "Automatiškai apvyniokite ilgas teksto eilutes";
-"Toggle Preview" = "Perjungti peržiūrą";
-"Increase Font Size" = "Padidinkite šrifto dydį";
-"Decrease Font Size" = "Sumažinti šrifto dydį";
-"Reset Font Size" = "Iš naujo nustatyti šrifto dydį";
-"Search Everywhere (Double ⇧)" = "Ieškoti visur (dviguba ⇧)";
-"Select in Project View" = "Pasirinkite projekto rodinyje";
-"Next Tab" = "Kitas skirtukas";
-"Previous Tab" = "Ankstesnis skirtukas";
+"Maximize Terminal" = "Išdidinti terminalą";
+"GPU Rendering" = "Atvaizdavimas su GPU";
+"Soft-Wrap" = "Eilučių laužymas";
+"Toggle Preview" = "Rodyti / slėpti peržiūrą";
+"Increase Font Size" = "Padidinti šriftą";
+"Decrease Font Size" = "Sumažinti šriftą";
+"Reset Font Size" = "Atkurti šrifto dydį";
+"Search Everywhere (Double ⇧)" = "Ieškoti visur (dukart ⇧)";
+"Select in Project View" = "Pažymėti projekto medyje";
+"Next Tab" = "Kita kortelė";
+"Previous Tab" = "Ankstesnė kortelė";
 "Minimize" = "Sumažinti";
-"Zoom" = "Padidinti";
-"Bring All to Front" = "Išveskite visus į priekį";
+"Zoom" = "Padidinti langą";
+"Bring All to Front" = "Iškelti visus langus į priekį";
 
 /* Sources/Sumi/Console/ConsoleViewController.swift */
 "Local" = "Vietinis";
 "Local (%ld)" = "Vietinis (%ld)";
 "Hide Terminal" = "Slėpti terminalą";
-"Close" = "Uždaryti";
+"Close" = "Užverti";
 
 /* Sources/Sumi/Console/TerminalJobs.swift */
-"Close running terminal sessions?" = "Uždaryti vykdomus terminalo seansus?";
+"Close running terminal sessions?" = "Užverti veikiančius terminalo seansus?";
 "These processes will be stopped:" = "Šie procesai bus sustabdyti:";
-"Cancel" = "Atšaukti";
+"Cancel" = "Atsisakyti";
 
 /* Sources/Sumi/Editor/EditorAreaViewController.swift */
 "Save a Copy…" = "Išsaugoti kopiją…";
@@ -81,44 +81,44 @@
 "Preview Only" = "Tik peržiūra";
 
 /* Sources/Sumi/Editor/StatusBarView.swift */
-"Spaces: %ld" = "Vietos: %ld";
-"Plain Text" = "Paprastas tekstas";
+"Spaces: %ld" = "Tarpai: %ld";
+"Plain Text" = "Grynasis tekstas";
 "Search Everywhere" = "Ieškoti visur";
-"Double ⇧" = "Dvigubas ⇧";
-"Go to File" = "Eikite į Failas";
-"Open Folder" = "Atidaryti aplanką";
-"Project View" = "Projekto vaizdas";
+"Double ⇧" = "Dukart ⇧";
+"Go to File" = "Eiti į failą";
+"Open Folder" = "Atverti aplanką";
+"Project View" = "Projekto medis";
 
 /* Sources/Sumi/Editor/TextDocument.swift */
-"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Failas pakeistas diske. Jūsų pakeitimai buvo išsaugoti. Išsaugokite kopiją, kad išsaugotumėte abi versijas.";
-"The file is a binary file." = "Failas yra dvejetainis failas.";
-"The file's text encoding could not be determined." = "Nepavyko nustatyti failo teksto kodavimo.";
-"The text cannot be saved in %@." = "Teksto negalima išsaugoti %@.";
+"The file changed on disk. Your edits have been kept. Save a copy to preserve both versions." = "Failas diske pasikeitė. Jūsų pakeitimai liko redaktoriuje. Išsaugokite kopiją, kad išlaikytumėte abi versijas.";
+"The file is a binary file." = "Tai dvejetainis failas.";
+"The file's text encoding could not be determined." = "Nepavyko nustatyti failo teksto koduotės.";
+"The text cannot be saved in %@." = "Teksto negalima išsaugoti koduote %@.";
 
 /* Sources/Sumi/Project/FileTreeViewController.swift */
 "New Folder" = "Naujas aplankas";
 "New File" = "Naujas failas";
-"Enter a name in “%@”. Use / to create nested folders." = "Įveskite pavadinimą „%@“. Atskirkite aplankų pavadinimus simboliu /, kad sukurtumėte poaplankius.";
-"Rename" = "Pervardyti";
-"Enter a new name for “%@”." = "Įveskite naują pavadinimą „%@“.";
-"Move “%@” to the Trash?" = "Perkelti „%@“ į šiukšliadėžę?";
-"The folder and everything in it will be moved to the Trash." = "Aplankas ir viskas, kas jame yra, bus perkelti į šiukšliadėžę.";
-"You can restore it from the Trash." = "Galite atkurti iš šiukšliadėžės.";
-"Move to Trash" = "Perkelti į šiukšliadėžę";
+"Enter a name in “%@”. Use / to create nested folders." = "Įveskite pavadinimą aplanke „%@“. Naudokite /, kad sukurtumėte įdėtinius aplankus.";
+"Rename" = "Pervadinti";
+"Enter a new name for “%@”." = "Įveskite naują „%@“ pavadinimą.";
+"Move “%@” to the Trash?" = "Perkelti „%@“ į šiukšlinę?";
+"The folder and everything in it will be moved to the Trash." = "Aplankas ir visas jo turinys bus perkelti į šiukšlinę.";
+"You can restore it from the Trash." = "Jį galima atkurti iš šiukšlinės.";
+"Move to Trash" = "Perkelti į šiukšlinę";
 "OK" = "Gerai";
-"Rename…" = "Pervardyti…";
+"Rename…" = "Pervadinti…";
 "Copy Path" = "Kopijuoti kelią";
-"Copy Relative Path" = "Nukopijuokite santykinį kelią";
-"Reveal in Finder" = "Atskleiskite Finder";
-"Open in Terminal" = "Atidaryti terminale";
+"Copy Relative Path" = "Kopijuoti santykinį kelią";
+"Reveal in Finder" = "Rodyti programoje Finder";
+"Open in Terminal" = "Atverti terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
 "Left Panel" = "Kairysis skydelis";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
 "Files" = "Failai";
-"Double ⇧ to search everywhere" = "Dvigubai ⇧ ieškokite visur";
-"Type a file name (use / to match the path)" = "Įveskite failo pavadinimą (naudokite /, kad atitiktumėte kelią)";
+"Double ⇧ to search everywhere" = "Dukart paspauskite ⇧, kad ieškotumėte visur";
+"Type a file name (use / to match the path)" = "Įveskite failo pavadinimą (naudokite / ieškodami pagal kelią)";
 "No recent files" = "Nėra naujausių failų";
 "Recent Files" = "Naujausi failai";
-"Matches: %1$ld / Files: %2$ld" = "Rasta rezultatų: %1$ld / Iš viso failų: %2$ld";
+"Matches: %1$ld / Files: %2$ld" = "Atitikmenys: %1$ld / Failai: %2$ld";
