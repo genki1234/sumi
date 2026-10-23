@@ -37,6 +37,10 @@ swift scripts/l10n.swift check
 
 Then open a pull request. A new folder under `Localization/` is all it takes: the build adds every folder to the app's languages and the Language menu automatically. Language choices take effect immediately and persist across launches. Translations are written directly from the English UI strings with their editor and terminal context. Keep labels concise and preserve the action each command performs; native-speaker corrections are welcome.
 
+### Translate the README
+
+`README.md` is the English source. Each UI locale also has a complete `README.<language code>.md`, including features, download and build instructions, shortcuts and license information. Write the translation directly from the source and keep commands, shortcuts, version requirements and links intact. Keep the language list between `sumi:languages:start` and `sumi:languages:end` identical in every README, using native language names. When adding a locale, add its README and its link to every language list.
+
 ### Rules for translators
 
 - Translate only the right-hand side. The left-hand side is the key the app looks up.
