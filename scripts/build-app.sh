@@ -36,6 +36,8 @@ rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 cp "$BIN" "$APP/Contents/MacOS/Sumi"
 cp Resources/Info.plist "$APP/Contents/Info.plist"
+# App icon (Info.plist CFBundleIconFile = AppIcon). Artwork: a sumi-ink brush stroke forming a text cursor, generated with ChatGPT.
+cp Resources/AppIcon.icns "$APP/Contents/Resources/AppIcon.icns"
 # HighlightResources resolves this bundle from the packaged app's resource directory.
 cp -R "$RESOURCE_DIR/Sumi_Sumi.bundle" "$APP/Contents/Resources/"
 # This codeless bundle contains only highlighting resources. In Contents/Resources
