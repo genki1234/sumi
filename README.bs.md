@@ -36,7 +36,8 @@ Pokrenite agenta u ugrađenom terminalu, kliknite na datoteke s kojima radi da i
 - Shift+Enter omogućava unos upita u više redova. Lijepljenje podržava višeredni tekst, datoteke i slike; slike se čuvaju kao privremeni PNG i umeću kao putanje pod navodnicima.
 - Pregled Markdowna i HTML-a nalazi se pored teksta i osvježava se dok pišete (⇧⌘V ili dugmad gore desno u kartici).
   Markdown prikazuje cmark-gfm, koji koristi i GitHub: tabele, liste zadataka, precrtani tekst i automatske veze.
-- Traži svuda: pritisnite Shift dvaput da pronađete bilo koju datoteku projekta po približnom podudaranju naziva.
+- Traži svuda: pritisnite Shift dvaput da pronađete bilo koju datoteku projekta po približnom podudaranju naziva. Njegova kartica „Radnje” (⇧⌘A) pokreće bilo koju naredbu menija po nazivu, a kartica „Tekst” (⇧⌘F) pretražuje tekst svih datoteka projekta.
+- Uređivanje redova s tastature: duplicirajte, brišite, premještajte, pretvarajte u komentare i spajajte redove te postupno proširujte odabir od riječi do cijele datoteke.
 - Prepoznaje izvorne datoteke pomoću kataloga od 915 naziva jezika i formata, uključujući nazive datoteka, složene nastavke i interpretere skripti. Svih 297 Prism komponenti (291 samostalna gramatika i 6 pomoćnih komponenti) uključeno je i učitava se po potrebi. Formati bez gramatike koriste osnovno isticanje teksta.
 - Interfejs nudi 108 jezika. Meni Jezik omogućava trenutno prebacivanje ili praćenje sistemskog jezika. Izbor se pamti; otvorene datoteke, nesačuvane izmjene i sesije terminala ostaju otvorene. Arapski, hebrejski i drugi interfejsi zdesna nalijevo zadržavaju kod, pregled i izlaz terminala slijeva nadesno.
   Prijevodi se pišu direktno iz engleskih tekstova, uz kontekst uređivača i terminala. Sistemske ploče slijede jezičke postavke macOS-a. Ovaj katalog ne obuhvata svaki prirodni ili programski jezik. Pogledajte [Prevođenje aplikacije Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Odaberi u prikazu projekta | ⌥⌘1 |
 | Sljedeća / prethodna kartica | ⇧⌘] / ⇧⌘[ |
 | Sačuvaj / Sačuvaj sve | ⌘S / ⌥⌘S |
+| Nedavne datoteke | ⌘E |
+| Pronađi radnju | ⇧⌘A |
+| Pronađi u datotekama | ⇧⌘F |
+| Idi na red:kolonu | ⌘L |
+| Dupliciraj red ili odabir | ⌘D |
+| Obriši red | ⌘⌫ |
+| Pomjeri red gore / dolje | ⌥⇧↑ / ⌥⇧↓ |
+| Komentariši komentarom reda | ⌘/ |
+| Spoji redove | ⌃⇧J |
+| Promijeni velika/mala slova | ⇧⌘U |
+| Proširi / suzi odabir | ⌥↑ / ⌥↓ |
+| Započni novi red ispod / iznad | ⇧↩ / ⌥⌘↩ |
 
 ## Doprinos
 

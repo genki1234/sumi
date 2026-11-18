@@ -36,7 +36,8 @@ Exécutez votre agent dans le terminal intégré, ouvrez les fichiers qu’il mo
 - Shift+Enter conserve la saisie des invites sur plusieurs lignes. Le collage accepte du texte multiligne, des fichiers et des images ; les images sont conservées dans des fichiers PNG temporaires dont les chemins sont insérés entre guillemets.
 - Les aperçus Markdown et HTML s’affichent à côté du texte et s’actualisent pendant la saisie (⇧⌘V ou les boutons en haut à droite de l’onglet).
   Le Markdown est rendu avec cmark-gfm, le moteur utilisé par GitHub : tableaux, listes de tâches, texte barré et liens automatiques sont pris en charge.
-- Rechercher partout : appuyez deux fois sur Shift pour trouver un fichier du projet par correspondance approximative du nom.
+- Rechercher partout : appuyez deux fois sur Shift pour trouver un fichier du projet par correspondance approximative du nom. Son onglet Actions (⇧⌘A) exécute n’importe quelle commande de menu par son nom, et son onglet Texte (⇧⌘F) recherche dans le texte de tous les fichiers du projet.
+- Édition des lignes au clavier : dupliquer, supprimer, déplacer, commenter et joindre des lignes, et étendre la sélection pas à pas d’un mot jusqu’au fichier entier.
 - Les fichiers source sont reconnus à l’aide d’un catalogue de 915 noms de langages et de formats de fichiers, selon le nom du fichier, les extensions composées et l’interpréteur des scripts. Les 297 composants de Prism (291 grammaires autonomes et six composants auxiliaires) sont inclus et chargés à la demande. Les formats sans grammaire utilisent une coloration de base.
 - L’interface propose 108 langues. Changez immédiatement de langue depuis le menu Langue, ou suivez la langue du système. Le choix est mémorisé ; les fichiers ouverts, les modifications non enregistrées et les sessions de terminal sont conservés. En arabe, en hébreu et dans les autres interfaces de droite à gauche, le code, les aperçus et la sortie du terminal restent de gauche à droite.
   Les traductions sont rédigées directement à partir des textes anglais et de leur contexte dans l’éditeur et le terminal. Les panneaux fournis par le système suivent les réglages de langue de macOS. Ce catalogue ne couvre pas toutes les langues naturelles ni tous les langages de programmation. Voir [Traduire Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Sélectionner dans l’arborescence du projet | ⌥⌘1 |
 | Onglet suivant / précédent | ⇧⌘] / ⇧⌘[ |
 | Enregistrer / Tout enregistrer | ⌘S / ⌥⌘S |
+| Fichiers récents | ⌘E |
+| Rechercher une action | ⇧⌘A |
+| Rechercher dans les fichiers | ⇧⌘F |
+| Aller à la ligne:colonne | ⌘L |
+| Dupliquer la ligne ou la sélection | ⌘D |
+| Supprimer la ligne | ⌘⌫ |
+| Déplacer la ligne vers le haut / le bas | ⌥⇧↑ / ⌥⇧↓ |
+| Commenter avec un commentaire de ligne | ⌘/ |
+| Joindre les lignes | ⌃⇧J |
+| Basculer majuscules/minuscules | ⇧⌘U |
+| Étendre / réduire la sélection | ⌥↑ / ⌥↓ |
+| Commencer une nouvelle ligne en dessous / au-dessus | ⇧↩ / ⌥⌘↩ |
 
 ## Contribuer
 

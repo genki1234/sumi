@@ -35,7 +35,8 @@ Futtasd az ágenst a beépített terminálban, kattints az általa módosított 
 - A terminálok alapértelmezésben Metalt használnak; a Nézet menü GPU-s megjelenítés kapcsolójával válthatsz. A kimenetben ⌘F-fel kereshetsz; az új lapok öröklik az aktuális munkakönyvtárat.
 - A Shift+Enter megőrzi a többsoros promptbevitelt. Többsoros szöveg, fájl és kép is beilleszthető; a képek ideiglenes PNG-ként tárolódnak, és idézőjeles útvonalként kerülnek a bevitelbe.
 - A szöveg mellett látható Markdown- és HTML-előnézet gépelés közben frissül (⇧⌘V vagy a lap jobb felső gombjai). A Markdown megjelenítését a GitHub által is használt cmark-gfm végzi: táblázatok, feladatlisták, áthúzás és automatikus hivatkozások.
-- Keresés mindenhol: nyomd meg kétszer a Shiftet a projekt bármely fájljának közelítő név szerinti kereséséhez.
+- Keresés mindenhol: nyomd meg kétszer a Shiftet a projekt bármely fájljának közelítő név szerinti kereséséhez. A Műveletek lapon (⇧⌘A) bármely menüparancs név szerint futtatható, a Szöveg lap (⇧⌘F) pedig a projekt összes fájljának szövegében keres.
+- Sorszerkesztés billentyűzetről: sorok duplikálása, törlése, mozgatása, megjegyzésbe tétele és összevonása, valamint a kijelölés lépésenkénti bővítése egy szótól a teljes fájlig.
 - A forrásfájlokat 915 nyelv- és fájlformátumnév katalógusával ismeri fel, fájlnevek, összetett kiterjesztések és szkriptértelmezők alapján is. Mind a 297 Prism-összetevőt (291 önálló nyelvtan és 6 segéd) tartalmazza, igény szerinti betöltéssel. A nyelvtan nélküli formátumok egyszerű szövegkiemelést kapnak.
 - A felület 108 nyelvet kínál. A Nyelv menüvel azonnal válthatsz, vagy követheted a rendszer nyelvét. A választást megjegyzi; a megnyitott fájlok, mentetlen módosítások és terminálmunkamenetek nyitva maradnak. Arab, héber és más jobbról balra író felületeken a kód, az előnézet és a terminálkimenet továbbra is balról jobbra jelenik meg. A fordítások közvetlenül az angol szövegből készültek, a szerkesztő és a terminál környezetét figyelembe véve. A rendszerpanelok a macOS nyelvi beállításait követik. A katalógus nem fed le minden természetes és programozási nyelvet. Lásd: [A Sumi fordítása](CONTRIBUTING.md#translating-sumi).
 - A világos és sötét megjelenés a rendszert követi.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Kijelölés a projektnézetben | ⌥⌘1 |
 | Következő lap / Előző lap | ⇧⌘] / ⇧⌘[ |
 | Mentés / Összes mentése | ⌘S / ⌥⌘S |
+| Legutóbbi fájlok | ⌘E |
+| Művelet keresése | ⇧⌘A |
+| Keresés a fájlokban | ⇧⌘F |
+| Ugrás sorra:oszlopra | ⌘L |
+| Sor vagy kijelölés duplikálása | ⌘D |
+| Sor törlése | ⌘⌫ |
+| Sor mozgatása felfelé / lefelé | ⌥⇧↑ / ⌥⇧↓ |
+| Megjegyzésbe tétel sormegjegyzéssel | ⌘/ |
+| Sorok összevonása | ⌃⇧J |
+| Kis- és nagybetűk váltása | ⇧⌘U |
+| Kijelölés bővítése / szűkítése | ⌥↑ / ⌥↓ |
+| Új sor kezdése alatta / fölötte | ⇧↩ / ⌥⌘↩ |
 
 ## Közreműködés
 

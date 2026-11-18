@@ -37,11 +37,23 @@
 "Copy" = "Copia";
 "Paste" = "Enganxa";
 "Select All" = "Selecciona-ho tot";
+"Duplicate Line or Selection" = "Duplica la línia o la selecció";
+"Delete Line" = "Suprimeix la línia";
+"Join Lines" = "Uneix les línies";
+"Toggle Case" = "Commuta majúscules/minúscules";
+"Comment with Line Comment" = "Comenta amb comentari de línia";
+"Move Line Up" = "Mou la línia amunt";
+"Move Line Down" = "Mou la línia avall";
+"Extend Selection" = "Amplia la selecció";
+"Shrink Selection" = "Redueix la selecció";
+"Start New Line" = "Comença una línia nova";
+"Start New Line Before Current" = "Comença una línia nova abans de l'actual";
 "Find…" = "Cerca…";
 "Replace…" = "Substitueix…";
 "Find Next" = "Cerca la següent";
 "Find Previous" = "Cerca l'anterior";
 "Use Selection for Find" = "Cerca el text seleccionat";
+"Find in Files…" = "Cerca als fitxers…";
 "Find" = "Cerca";
 "Project" = "Projecte";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Redueix la mida de lletra";
 "Reset Font Size" = "Restableix la mida de lletra";
 "Search Everywhere (Double ⇧)" = "Cerca arreu (⇧ dues vegades)";
+"Recent Files" = "Fitxers recents";
+"Find Action…" = "Cerca una acció…";
+"Go to Line:Column…" = "Ves a la línia:columna…";
 "Select in Project View" = "Selecciona a la vista del projecte";
 "Next Tab" = "Pestanya següent";
 "Previous Tab" = "Pestanya anterior";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Obre al terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Ves a la línia:columna";
 "Left Panel" = "Tauler esquerre";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fitxers";
 "Double ⇧ to search everywhere" = "Premeu ⇧ dues vegades per cercar arreu";
+"Files" = "Fitxers";
+"Actions" = "Accions";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Escriviu un nom de fitxer (feu servir / per cercar al camí)";
+"Type a command name" = "Escriviu el nom d'una ordre";
+"Type text to find in project files" = "Escriviu el text que voleu cercar als fitxers del projecte";
 "No recent files" = "No hi ha fitxers recents";
-"Recent Files" = "Fitxers recents";
 "Matches: %1$ld / Files: %2$ld" = "Coincidències: %1$ld / Fitxers: %2$ld";
+"Searching…" = "S'està cercant…";
+"Switch Tab" = "Canvia de pestanya";

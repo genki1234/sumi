@@ -37,11 +37,23 @@
 "Copy" = "कॉपी करें";
 "Paste" = "पेस्ट करें";
 "Select All" = "सभी चुनें";
+"Duplicate Line or Selection" = "पंक्ति या चयन डुप्लिकेट करें";
+"Delete Line" = "पंक्ति हटाएँ";
+"Join Lines" = "पंक्तियाँ जोड़ें";
+"Toggle Case" = "बड़े/छोटे अक्षर बदलें";
+"Comment with Line Comment" = "पंक्ति टिप्पणी से टिप्पणी करें";
+"Move Line Up" = "पंक्ति ऊपर ले जाएँ";
+"Move Line Down" = "पंक्ति नीचे ले जाएँ";
+"Extend Selection" = "चयन बढ़ाएँ";
+"Shrink Selection" = "चयन घटाएँ";
+"Start New Line" = "नई पंक्ति शुरू करें";
+"Start New Line Before Current" = "मौजूदा पंक्ति से पहले नई पंक्ति शुरू करें";
 "Find…" = "खोजें…";
 "Replace…" = "बदलें…";
 "Find Next" = "अगला खोजें";
 "Find Previous" = "पिछला खोजें";
 "Use Selection for Find" = "चुने हुए पाठ से खोजें";
+"Find in Files…" = "फ़ाइलों में खोजें…";
 "Find" = "खोज";
 "Project" = "प्रोजेक्ट";
 "Terminal" = "टर्मिनल";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "फ़ॉन्ट का आकार घटाएँ";
 "Reset Font Size" = "फ़ॉन्ट का आकार रीसेट करें";
 "Search Everywhere (Double ⇧)" = "हर जगह खोजें (⇧ दो बार)";
+"Recent Files" = "हाल की फ़ाइलें";
+"Find Action…" = "कार्रवाई खोजें…";
+"Go to Line:Column…" = "पंक्ति:कॉलम पर जाएँ…";
 "Select in Project View" = "प्रोजेक्ट दृश्य में चुनें";
 "Next Tab" = "अगला टैब";
 "Previous Tab" = "पिछला टैब";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "टर्मिनल में खोलें";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "पंक्ति:कॉलम पर जाएँ";
 "Left Panel" = "बायाँ पैनल";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "फ़ाइलें";
 "Double ⇧ to search everywhere" = "हर जगह खोजने के लिए ⇧ दो बार दबाएँ";
+"Files" = "फ़ाइलें";
+"Actions" = "कार्रवाइयाँ";
+"Text" = "पाठ";
 "Type a file name (use / to match the path)" = "फ़ाइल का नाम लिखें (पथ में खोजने के लिए / का उपयोग करें)";
+"Type a command name" = "कमांड का नाम लिखें";
+"Type text to find in project files" = "प्रोजेक्ट फ़ाइलों में खोजने के लिए पाठ लिखें";
 "No recent files" = "कोई हाल की फ़ाइल नहीं";
-"Recent Files" = "हाल की फ़ाइलें";
 "Matches: %1$ld / Files: %2$ld" = "मिलान: %1$ld / फ़ाइलें: %2$ld";
+"Searching…" = "खोजा जा रहा है…";
+"Switch Tab" = "टैब बदलें";

@@ -35,7 +35,8 @@ Palaidiet aģentu iebūvētajā terminālī, klikšķiniet uz tā mainītajiem f
 - Termināļi pēc noklusējuma izmanto Metal; izvēlnē Skats ir slēdzis Atveide ar GPU. Meklējiet izvadē ar ⌘F; jaunās cilnes pārņem pašreizējo darba direktoriju.
 - Shift+Enter saglabā vairākrindu uzvednes ievadi. Var ielīmēt vairākrindu tekstu, failus un attēlus; attēli tiek glabāti kā pagaidu PNG un ievietoti kā pēdiņās ietverti ceļi.
 - Markdown un HTML priekšskatījums blakus tekstam atjauninās rakstīšanas laikā (⇧⌘V vai pogas cilnes augšējā labajā stūrī). Markdown attēlo cmark-gfm, ko izmanto arī GitHub: tabulas, uzdevumu saraksti, pārsvītrojums un automātiskās saites.
-- Meklēt visur: divreiz nospiediet Shift, lai atrastu jebkuru projekta failu ar aptuvenu nosaukuma atbilstību.
+- Meklēt visur: divreiz nospiediet Shift, lai atrastu jebkuru projekta failu ar aptuvenu nosaukuma atbilstību. Cilne Darbības (⇧⌘A) palaiž jebkuru izvēlnes komandu pēc nosaukuma, bet cilne Teksts (⇧⌘F) meklē visu projekta failu tekstā.
+- Rindu rediģēšana ar tastatūru: dublējiet, dzēsiet, pārvietojiet, pārvērtiet komentāros un apvienojiet rindas, kā arī pakāpeniski paplašiniet atlasi no vārda līdz visam failam.
 - Pirmkoda failus atpazīst pēc 915 valodu un failu formātu nosaukumu kataloga, ieskaitot failu nosaukumus, saliktos paplašinājumus un skriptu interpretatorus. Visi 297 Prism komponenti (291 patstāvīga gramatika un 6 palīgkomponenti) ir iekļauti un tiek ielādēti pēc vajadzības. Formātiem bez gramatikas izmanto vienkāršu teksta izcelšanu.
 - Saskarnē ir 108 valodu izvēles. Izvēlnē Valoda pārslēdziet uzreiz vai sekojiet sistēmas valodai. Izvēle tiek atcerēta; atvērtie faili, nesaglabātie labojumi un termināļa sesijas paliek atvērtas. Arābu, ivrita un citās saskarnēs no labās uz kreiso kods, priekšskatījumi un termināļa izvade joprojām ir no kreisās uz labo. Tulkojumi rakstīti tieši no angļu tekstiem, ievērojot redaktora un termināļa kontekstu. Sistēmas paneļi izmanto macOS valodas iestatījumus. Katalogs neaptver visas dabiskās vai programmēšanas valodas. Skatiet [Sumi tulkošana](CONTRIBUTING.md#translating-sumi).
 - Gaišais un tumšais izskats seko sistēmai.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Atlasīt projekta kokā | ⌥⌘1 |
 | Nākamā cilne / Iepriekšējā cilne | ⇧⌘] / ⇧⌘[ |
 | Saglabāt / Saglabāt visu | ⌘S / ⌥⌘S |
+| Nesenie faili | ⌘E |
+| Meklēt darbību | ⇧⌘A |
+| Meklēt failos | ⇧⌘F |
+| Doties uz rindu:kolonnu | ⌘L |
+| Dublēt rindu vai atlasi | ⌘D |
+| Dzēst rindu | ⌘⌫ |
+| Pārvietot rindu augšup / lejup | ⌥⇧↑ / ⌥⇧↓ |
+| Komentēt ar rindas komentāru | ⌘/ |
+| Apvienot rindas | ⌃⇧J |
+| Pārslēgt lielos/mazos burtus | ⇧⌘U |
+| Paplašināt / sašaurināt atlasi | ⌥↑ / ⌥↓ |
+| Sākt jaunu rindu zemāk / augstāk | ⇧↩ / ⌥⌘↩ |
 
 ## Līdzdalība
 

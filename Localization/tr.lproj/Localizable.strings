@@ -37,11 +37,23 @@
 "Copy" = "Kopyala";
 "Paste" = "Yapıştır";
 "Select All" = "Tümünü Seç";
+"Duplicate Line or Selection" = "Satırı veya Seçimi Çoğalt";
+"Delete Line" = "Satırı Sil";
+"Join Lines" = "Satırları Birleştir";
+"Toggle Case" = "Büyük/Küçük Harf Değiştir";
+"Comment with Line Comment" = "Satır Yorumuyla Yorumla";
+"Move Line Up" = "Satırı Yukarı Taşı";
+"Move Line Down" = "Satırı Aşağı Taşı";
+"Extend Selection" = "Seçimi Genişlet";
+"Shrink Selection" = "Seçimi Daralt";
+"Start New Line" = "Yeni Satır Başlat";
+"Start New Line Before Current" = "Geçerli Satırdan Önce Yeni Satır Başlat";
 "Find…" = "Bul…";
 "Replace…" = "Değiştir…";
 "Find Next" = "Sonrakini Bul";
 "Find Previous" = "Öncekini Bul";
 "Use Selection for Find" = "Seçili Metni Ara";
+"Find in Files…" = "Dosyalarda Bul…";
 "Find" = "Bul";
 "Project" = "Proje";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Yazı Boyutunu Azalt";
 "Reset Font Size" = "Yazı Boyutunu Sıfırla";
 "Search Everywhere (Double ⇧)" = "Her Yerde Ara (İki Kez ⇧)";
+"Recent Files" = "Son Kullanılan Dosyalar";
+"Find Action…" = "Eylem Bul…";
+"Go to Line:Column…" = "Satır:Sütuna Git…";
 "Select in Project View" = "Proje Görünümünde Seç";
 "Next Tab" = "Sonraki Sekme";
 "Previous Tab" = "Önceki Sekme";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Terminalde Aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Satır:Sütuna Git";
 "Left Panel" = "Sol Panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Dosyalar";
 "Double ⇧ to search everywhere" = "Her yerde aramak için ⇧ tuşuna iki kez basın";
+"Files" = "Dosyalar";
+"Actions" = "Eylemler";
+"Text" = "Metin";
 "Type a file name (use / to match the path)" = "Bir dosya adı yazın (yola göre aramak için / kullanın)";
+"Type a command name" = "Bir komut adı yazın";
+"Type text to find in project files" = "Proje dosyalarında aranacak metni yazın";
 "No recent files" = "Son kullanılan dosya yok";
-"Recent Files" = "Son Kullanılan Dosyalar";
 "Matches: %1$ld / Files: %2$ld" = "Eşleşmeler: %1$ld / Dosyalar: %2$ld";
+"Searching…" = "Aranıyor…";
+"Switch Tab" = "Sekme Değiştir";

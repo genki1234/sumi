@@ -36,7 +36,8 @@ Lit dyn agent yn de ynboude terminal rinne, iepenje de bestannen dêr't er oan w
 - Shift+Enter makket ynfier fan opdrachten oer mear rigels mooglik. Plakke stipet tekst oer mear rigels, bestannen en ôfbyldingen; ôfbyldingen wurde as tydlike PNG's bewarre en as paden tusken oanhellingstekens ynfoege.
 - Foarbylden fan Markdown en HTML njonken de tekst wurde bywurke wylstst typst (⇧⌘V of de knoppen rjochtsboppe yn de ljepper).
   Markdown wurdt werjûn mei cmark-gfm, dat GitHub ek brûkt: tabellen, taaklisten, trochhelle tekst en automatyske keppelings.
-- Oeral sykje: druk twa kear op Shift om elk bestân yn it projekt mei in ûnkrekte namme-oerienkomst te finen.
+- Oeral sykje: druk twa kear op Shift om elk bestân yn it projekt mei in ûnkrekte namme-oerienkomst te finen. De ljepper «Aksjes» (⇧⌘A) fiert elk menukommando út op namme, en de ljepper «Tekst» (⇧⌘F) siket yn de tekst fan alle projektbestannen.
+- Rigels bewurkje mei it toetseboerd: rigels duplisearje, wiskje, ferpleatse, kommentariearje en gearfoegje, en de seleksje stap foar stap útwreidzje fan in wurd oant it hiele bestân.
 - Weromkent boarnebestannen mei in katalogus fan 915 taal- en bestânsformaatnammen, ynklusyf bestânsnammen, gearstalde taheaksels en skriptynterpreters. Alle 297 Prism-ûnderdielen (291 selsstannige grammatika's en 6 helpûnderdielen) wurde meilevere en laden as se nedich binne. Formaten sûnder grammatika brûke ienfâldige tekstmarkearring.
 - De ynterface hat 108 taalkeuzes. Wikselje fuort yn it menu Taal of folgje de systeemtaal. De kar wurdt ûnthâlden; iepen bestannen, net-bewarre bewurkingen en terminalsesjes bliuwe iepen. Arabyske, Hebriuwske en oare ynterfaces fan rjochts nei lofts hâlde koade, foarbylden en terminalútfier fan lofts nei rjochts.
   Oersettingen wurde streekrjocht út de Ingelske teksten skreaun, mei de kontekst fan bewurker en terminal. Systeempanielen folgje de taalynstellingen fan macOS. Dizze katalogus omfiemet net elke natuerlike taal of programmeartaal. Sjoch [Sumi oersette](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Selektearje yn projektwerjefte | ⌥⌘1 |
 | Folgjende / foarige ljepper | ⇧⌘] / ⇧⌘[ |
 | Bewarje / Alles bewarje | ⌘S / ⌥⌘S |
+| Resinte bestannen | ⌘E |
+| Aksje sykje | ⇧⌘A |
+| Yn bestannen sykje | ⇧⌘F |
+| Nei rigel:kolom gean | ⌘L |
+| Rigel of seleksje duplisearje | ⌘D |
+| Rigel wiskje | ⌘⌫ |
+| Rigel omheech / omleech ferpleatse | ⌥⇧↑ / ⌥⇧↓ |
+| Mei rigelkommentaar kommentariearje | ⌘/ |
+| Rigels gearfoegje | ⌃⇧J |
+| Haadletters/lytse letters wikselje | ⇧⌘U |
+| Seleksje útwreidzje / ferlytsje | ⌥↑ / ⌥↓ |
+| Nije rigel derûnder / derboppe begjinne | ⇧↩ / ⌥⌘↩ |
 
 ## Bydrage
 

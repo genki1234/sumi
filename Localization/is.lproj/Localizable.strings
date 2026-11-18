@@ -37,11 +37,23 @@
 "Copy" = "Afrita";
 "Paste" = "Líma";
 "Select All" = "Velja allt";
+"Duplicate Line or Selection" = "Tvöfalda línu eða val";
+"Delete Line" = "Eyða línu";
+"Join Lines" = "Sameina línur";
+"Toggle Case" = "Víxla há- og lágstöfum";
+"Comment with Line Comment" = "Gera að línuathugasemd";
+"Move Line Up" = "Færa línu upp";
+"Move Line Down" = "Færa línu niður";
+"Extend Selection" = "Stækka val";
+"Shrink Selection" = "Minnka val";
+"Start New Line" = "Byrja nýja línu";
+"Start New Line Before Current" = "Byrja nýja línu á undan núverandi";
 "Find…" = "Finna…";
 "Replace…" = "Skipta út…";
 "Find Next" = "Finna næsta";
 "Find Previous" = "Finna fyrra";
 "Use Selection for Find" = "Leita að völdum texta";
+"Find in Files…" = "Finna í skrám…";
 "Find" = "Finna";
 "Project" = "Verkefni";
 "Terminal" = "Skjáhermir";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Minnka letur";
 "Reset Font Size" = "Endurstilla leturstærð";
 "Search Everywhere (Double ⇧)" = "Leita alls staðar (tvisvar á ⇧)";
+"Recent Files" = "Nýlegar skrár";
+"Find Action…" = "Finna aðgerð…";
+"Go to Line:Column…" = "Fara í línu:dálk…";
 "Select in Project View" = "Velja í verkefnistré";
 "Next Tab" = "Næsti flipi";
 "Previous Tab" = "Fyrri flipi";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Opna í skjáhermi";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Fara í línu:dálk";
 "Left Panel" = "Vinstra spjald";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Skrár";
 "Double ⇧ to search everywhere" = "Ýttu tvisvar á ⇧ til að leita alls staðar";
+"Files" = "Skrár";
+"Actions" = "Aðgerðir";
+"Text" = "Texti";
 "Type a file name (use / to match the path)" = "Sláðu inn skráarheiti (notaðu / til að leita eftir slóð)";
+"Type a command name" = "Sláðu inn heiti skipunar";
+"Type text to find in project files" = "Sláðu inn texta til að leita að í skrám verkefnisins";
 "No recent files" = "Engar nýlegar skrár";
-"Recent Files" = "Nýlegar skrár";
 "Matches: %1$ld / Files: %2$ld" = "Samsvaranir: %1$ld / Skrár: %2$ld";
+"Searching…" = "Leitar…";
+"Switch Tab" = "Skipta um flipa";

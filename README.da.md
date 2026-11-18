@@ -36,7 +36,8 @@ Kør din agent i den indbyggede terminal, klik på de filer, den arbejder med, f
 - Shift+Enter giver mulighed for at indtaste prompter over flere linjer. Du kan indsætte tekst med flere linjer, filer og billeder; billeder gemmes som midlertidige PNG-filer og indsættes som stier i anførselstegn.
 - Eksempelvisning af Markdown og HTML ved siden af teksten, opdateret mens du skriver (⇧⌘V eller knapperne øverst til højre i fanen).
   Markdown gengives med cmark-gfm, som GitHub også bruger: tabeller, opgavelister, gennemstreget tekst og automatiske links.
-- Søg overalt: tryk to gange på Shift for at finde enhver fil i projektet via omtrentlig navnesøgning.
+- Søg overalt: tryk to gange på Shift for at finde enhver fil i projektet via omtrentlig navnesøgning. Fanen Handlinger (⇧⌘A) kører enhver menukommando ud fra navnet, og fanen Tekst (⇧⌘F) søger i teksten i alle projektets filer.
+- Linjeredigering fra tastaturet: dupliker, slet, flyt, udkommenter og sammenføj linjer, og udvid markeringen trin for trin fra et ord til hele filen.
 - Genkender kildefiler med et katalog over 915 navne på sprog og filformater, herunder filnavne, sammensatte filendelser og scriptfortolkere. Alle 297 Prism-komponenter (291 selvstændige grammatikker og 6 hjælpekomponenter) medfølger og indlæses efter behov. Formater uden grammatik bruger grundlæggende tekstfremhævning.
 - Brugerfladen har 108 sprogvalg. Skift straks i menuen Sprog, eller følg systemsproget. Valget huskes; åbne filer, ugemte rettelser og terminalsessioner forbliver åbne. Arabiske, hebraiske og andre brugerflader fra højre mod venstre viser fortsat kode, eksempler og terminaloutput fra venstre mod højre.
   Oversættelserne skrives direkte fra de engelske tekster med deres editor- og terminalkontekst. Systempaneler følger sprogindstillingerne i macOS. Kataloget omfatter ikke alle naturlige sprog eller programmeringssprog. Se [Oversættelse af Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Vælg i projektoversigt | ⌥⌘1 |
 | Næste / forrige fane | ⇧⌘] / ⇧⌘[ |
 | Gem / Gem alle | ⌘S / ⌥⌘S |
+| Seneste filer | ⌘E |
+| Find handling | ⇧⌘A |
+| Find i filer | ⇧⌘F |
+| Gå til linje:kolonne | ⌘L |
+| Dupliker linje eller markering | ⌘D |
+| Slet linje | ⌘⌫ |
+| Flyt linje op / ned | ⌥⇧↑ / ⌥⇧↓ |
+| Kommentér med linjekommentar | ⌘/ |
+| Sammenføj linjer | ⌃⇧J |
+| Skift mellem store og små bogstaver | ⇧⌘U |
+| Udvid / formindsk markering | ⌥↑ / ⌥↓ |
+| Start ny linje under / over | ⇧↩ / ⌥⌘↩ |
 
 ## Bidrag
 

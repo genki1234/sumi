@@ -37,11 +37,23 @@
 "Copy" = "Αντιγραφή";
 "Paste" = "Επικόλληση";
 "Select All" = "Επιλογή όλων";
+"Duplicate Line or Selection" = "Διπλασιασμός γραμμής ή επιλογής";
+"Delete Line" = "Διαγραφή γραμμής";
+"Join Lines" = "Ένωση γραμμών";
+"Toggle Case" = "Εναλλαγή κεφαλαίων/πεζών";
+"Comment with Line Comment" = "Σχολιασμός με σχόλιο γραμμής";
+"Move Line Up" = "Μετακίνηση γραμμής πάνω";
+"Move Line Down" = "Μετακίνηση γραμμής κάτω";
+"Extend Selection" = "Επέκταση επιλογής";
+"Shrink Selection" = "Σμίκρυνση επιλογής";
+"Start New Line" = "Έναρξη νέας γραμμής";
+"Start New Line Before Current" = "Έναρξη νέας γραμμής πριν από την τρέχουσα";
 "Find…" = "Εύρεση…";
 "Replace…" = "Αντικατάσταση…";
 "Find Next" = "Εύρεση επόμενου";
 "Find Previous" = "Εύρεση προηγούμενου";
 "Use Selection for Find" = "Εύρεση επιλεγμένου κειμένου";
+"Find in Files…" = "Εύρεση σε αρχεία…";
 "Find" = "Εύρεση";
 "Project" = "Έργο";
 "Terminal" = "Τερματικό";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Μείωση μεγέθους γραμματοσειράς";
 "Reset Font Size" = "Επαναφορά μεγέθους γραμματοσειράς";
 "Search Everywhere (Double ⇧)" = "Αναζήτηση παντού (δύο φορές ⇧)";
+"Recent Files" = "Πρόσφατα αρχεία";
+"Find Action…" = "Εύρεση ενέργειας…";
+"Go to Line:Column…" = "Μετάβαση σε γραμμή:στήλη…";
 "Select in Project View" = "Επιλογή στην προβολή έργου";
 "Next Tab" = "Επόμενη καρτέλα";
 "Previous Tab" = "Προηγούμενη καρτέλα";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Άνοιγμα στο τερματικό";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Μετάβαση σε γραμμή:στήλη";
 "Left Panel" = "Αριστερό πλαίσιο";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Αρχεία";
 "Double ⇧ to search everywhere" = "Πατήστε ⇧ δύο φορές για αναζήτηση παντού";
+"Files" = "Αρχεία";
+"Actions" = "Ενέργειες";
+"Text" = "Κείμενο";
 "Type a file name (use / to match the path)" = "Πληκτρολογήστε όνομα αρχείου (χρησιμοποιήστε / για αναζήτηση στη διαδρομή)";
+"Type a command name" = "Πληκτρολογήστε όνομα εντολής";
+"Type text to find in project files" = "Πληκτρολογήστε κείμενο για εύρεση στα αρχεία του έργου";
 "No recent files" = "Δεν υπάρχουν πρόσφατα αρχεία";
-"Recent Files" = "Πρόσφατα αρχεία";
 "Matches: %1$ld / Files: %2$ld" = "Αντιστοιχίες: %1$ld / Αρχεία: %2$ld";
+"Searching…" = "Αναζήτηση…";
+"Switch Tab" = "Εναλλαγή καρτέλας";

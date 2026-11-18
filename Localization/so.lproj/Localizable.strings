@@ -37,11 +37,23 @@
 "Copy" = "Nuqul ka samee";
 "Paste" = "Ku dheji";
 "Select All" = "Dooro dhammaan";
+"Duplicate Line or Selection" = "Nuqul ka samee xariiqda ama xulashada";
+"Delete Line" = "Tirtir xariiqda";
+"Join Lines" = "Isku dar xariiqyada";
+"Toggle Case" = "Beddel xarfaha waaweyn iyo yaryar";
+"Comment with Line Comment" = "Ku dar ama ka saar faallada xariiqda";
+"Move Line Up" = "Kor u rar xariiqda";
+"Move Line Down" = "Hoos u rar xariiqda";
+"Extend Selection" = "Ballaari xulashada";
+"Shrink Selection" = "Yaree xulashada";
+"Start New Line" = "Bilow xariiq cusub";
+"Start New Line Before Current" = "Bilow xariiq cusub ka hor kan hadda";
 "Find…" = "Raadi…";
 "Replace…" = "Beddel…";
 "Find Next" = "Raadi kan xiga";
 "Find Previous" = "Raadi kii hore";
 "Use Selection for Find" = "Raadi qoraalka la doortay";
+"Find in Files…" = "Ka raadi faylalka…";
 "Find" = "Raadi";
 "Project" = "Mashruuc";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Yaree farta";
 "Reset Font Size" = "Soo celi cabbirka farta";
 "Search Everywhere (Double ⇧)" = "Meel kasta ka raadi (⇧ laba jeer)";
+"Recent Files" = "Faylal dhowaan la furay";
+"Find Action…" = "Raadi ficil…";
+"Go to Line:Column…" = "U gudub xariiq:tiir…";
 "Select in Project View" = "Ka dooro muuqaalka mashruuca";
 "Next Tab" = "Tabka xiga";
 "Previous Tab" = "Tabkii hore";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Ku fur terminalka";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "U gudub xariiq:tiir";
 "Left Panel" = "Qaybta bidix";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faylal";
 "Double ⇧ to search everywhere" = "Riix ⇧ laba jeer si meel kasta loo raadiyo";
+"Files" = "Faylal";
+"Actions" = "Ficillo";
+"Text" = "Qoraal";
 "Type a file name (use / to match the path)" = "Qor magaca faylka (adeegso / si waddada loo waafajiyo)";
+"Type a command name" = "Qor magaca amarka";
+"Type text to find in project files" = "Qor qoraalka aad ka raadinayso faylalka mashruuca";
 "No recent files" = "Ma jiraan faylal dhowaan la furay";
-"Recent Files" = "Faylal dhowaan la furay";
 "Matches: %1$ld / Files: %2$ld" = "Iswaafajin: %1$ld / Faylal: %2$ld";
+"Searching…" = "Waa la raadinayaa…";
+"Switch Tab" = "Beddel tabka";

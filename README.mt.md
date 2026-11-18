@@ -35,7 +35,8 @@ Editur tat-test ħafif għal macOS, mibni biex jaħdem flimkien ma' aġenti tal-
 - It-terminals jużaw Metal b'mod predefinit, bis-swiċċ Tpinġija bil-GPU fil-menu Dehra. Fittex fl-output b'⌘F; tabs ġodda jirtu d-direttorju tax-xogħol attwali.
 - Shift+Enter iżomm l-input ta' struzzjonijiet fuq diversi linji. Tista' twaħħal test b'diversi linji, fajls u stampi; l-istampi jinżammu bħala PNG temporanji u jiddaħħlu bħala mogħdijiet bejn il-virgoletti.
 - Il-previżjoni ta' Markdown u HTML ħdejn it-test tiġġedded waqt it-tajpjar (⇧⌘V jew il-buttuni fuq il-lemin nett tat-tab). Markdown jintwera b'cmark-gfm, l-istess magna li juża GitHub: tabelli, listi ta' kompiti, test maqtugħ u links awtomatiċi.
-- Fittex Kullimkien: agħfas Shift darbtejn biex issib kwalunkwe fajl fil-proġett permezz ta' tqabbil approssimattiv tal-isem.
+- Fittex Kullimkien: agħfas Shift darbtejn biex issib kwalunkwe fajl fil-proġett permezz ta' tqabbil approssimattiv tal-isem. It-tab Azzjonijiet tiegħu (⇧⌘A) tħaddem kwalunkwe kmand tal-menu bl-isem, u t-tab Test (⇧⌘F) tfittex fit-test ta' kull fajl tal-proġett.
+- Editjar tal-linji mit-tastiera: idduplika, ħassar, ċaqlaq, ikkummenta u għaqqad il-linji, u kabbar l-għażla pass pass minn kelma sal-fajl kollu.
 - Jagħraf fajls tas-sors b'katalgu ta' 915 isem ta' lingwi u formati ta' fajls, inklużi ismijiet ta' fajls, estensjonijiet komposti u interpreti tal-iskripts. Il-297 komponent kollha ta' Prism (291 grammatika awtonoma u 6 awżiljarji) huma inklużi u jitgħabbew meta jkunu meħtieġa. Formati mingħajr grammatika jużaw enfasi bażika tat-test.
 - L-interfaċċa għandha 108 għażliet ta' lingwa. Uża l-menu Lingwa biex taqleb minnufih jew issegwi l-lingwa tas-sistema. L-għażla tinżamm; fajls miftuħa, bidliet mhux issejvjati u sessjonijiet tat-terminal jibqgħu miftuħa. F'interfaċċi Għarab, Ebrajċi u oħrajn mil-lemin għax-xellug, il-kodiċi, il-previżjonijiet u l-output tat-terminal jibqgħu mix-xellug għal-lemin. It-traduzzjonijiet jinkitbu direttament mit-testi Ingliżi fil-kuntest tal-editur u tat-terminal. Il-panewijiet tas-sistema jsegwu s-settings tal-lingwa ta' macOS. Il-katalgu ma jkoprix kull lingwa naturali jew tal-programmazzjoni. Ara [It-traduzzjoni ta' Sumi](CONTRIBUTING.md#translating-sumi).
 - Id-dehra ċara u skura ssegwi s-sistema.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Agħżel fis-Siġra tal-Proġett | ⌥⌘1 |
 | Tab li Jmiss / Tab ta' Qabel | ⇧⌘] / ⇧⌘[ |
 | Issejvja / Issejvja Kollox | ⌘S / ⌥⌘S |
+| Fajls Riċenti | ⌘E |
+| Sib Azzjoni | ⇧⌘A |
+| Sib fil-Fajls | ⇧⌘F |
+| Mur għal-Linja:Kolonna | ⌘L |
+| Idduplika l-Linja jew l-Għażla | ⌘D |
+| Ħassar il-Linja | ⌘⌫ |
+| Ċaqlaq il-Linja 'l Fuq / Ċaqlaq il-Linja 'l Isfel | ⌥⇧↑ / ⌥⇧↓ |
+| Ikkummenta b'Kumment tal-Linja | ⌘/ |
+| Għaqqad il-Linji | ⌃⇧J |
+| Aqleb bejn Ittri Kbar u Żgħar | ⇧⌘U |
+| Kabbar l-Għażla / Naqqas l-Għażla | ⌥↑ / ⌥↓ |
+| Linja Ġdida Taħt / Linja Ġdida Fuq | ⇧↩ / ⌥⌘↩ |
 
 ## Kontribuzzjonijiet
 

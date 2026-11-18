@@ -37,11 +37,23 @@
 "Copy" = "Salin";
 "Paste" = "Tempel";
 "Select All" = "Pilih Semua";
+"Duplicate Line or Selection" = "Duplikasikan Baris atau Pilihan";
+"Delete Line" = "Hapus Baris";
+"Join Lines" = "Gabungkan Baris";
+"Toggle Case" = "Ubah Huruf Besar/Kecil";
+"Comment with Line Comment" = "Komentari dengan Komentar Baris";
+"Move Line Up" = "Pindahkan Baris ke Atas";
+"Move Line Down" = "Pindahkan Baris ke Bawah";
+"Extend Selection" = "Perluas Pilihan";
+"Shrink Selection" = "Persempit Pilihan";
+"Start New Line" = "Mulai Baris Baru";
+"Start New Line Before Current" = "Mulai Baris Baru Sebelum Baris Ini";
 "Find…" = "Cari…";
 "Replace…" = "Ganti…";
 "Find Next" = "Cari Berikutnya";
 "Find Previous" = "Cari Sebelumnya";
 "Use Selection for Find" = "Cari Teks yang Dipilih";
+"Find in Files…" = "Cari di Berkas…";
 "Find" = "Cari";
 "Project" = "Proyek";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Perkecil Ukuran Huruf";
 "Reset Font Size" = "Atur Ulang Ukuran Huruf";
 "Search Everywhere (Double ⇧)" = "Cari di Mana Saja (⇧ Dua Kali)";
+"Recent Files" = "Berkas Terbaru";
+"Find Action…" = "Cari Tindakan…";
+"Go to Line:Column…" = "Lompat ke Baris:Kolom…";
 "Select in Project View" = "Pilih di Pohon Proyek";
 "Next Tab" = "Tab Berikutnya";
 "Previous Tab" = "Tab Sebelumnya";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Buka di Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Lompat ke Baris:Kolom";
 "Left Panel" = "Panel Kiri";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Berkas";
 "Double ⇧ to search everywhere" = "Tekan ⇧ dua kali untuk mencari di mana saja";
+"Files" = "Berkas";
+"Actions" = "Tindakan";
+"Text" = "Teks";
 "Type a file name (use / to match the path)" = "Ketik nama berkas (gunakan / untuk mencocokkan jalur)";
+"Type a command name" = "Ketik nama perintah";
+"Type text to find in project files" = "Ketik teks yang dicari di berkas proyek";
 "No recent files" = "Tidak ada berkas terbaru";
-"Recent Files" = "Berkas Terbaru";
 "Matches: %1$ld / Files: %2$ld" = "Kecocokan: %1$ld / Berkas: %2$ld";
+"Searching…" = "Mencari…";
+"Switch Tab" = "Ganti Tab";

@@ -37,11 +37,23 @@
 "Copy" = "Kopisha";
 "Paste" = "Namathisela";
 "Select All" = "Khetha konke";
+"Duplicate Line or Selection" = "Phinda umugqa noma okukhethiwe";
+"Delete Line" = "Susa umugqa";
+"Join Lines" = "Hlanganisa imigqa";
+"Toggle Case" = "Shintsha onobumba abakhulu nabancane";
+"Comment with Line Comment" = "Faka noma ususe amazwana omugqa";
+"Move Line Up" = "Hambisa umugqa phezulu";
+"Move Line Down" = "Hambisa umugqa phansi";
+"Extend Selection" = "Nweba ukukhetha";
+"Shrink Selection" = "Nciphisa ukukhetha";
+"Start New Line" = "Qala umugqa omusha";
+"Start New Line Before Current" = "Qala umugqa omusha ngaphambi kwamanje";
 "Find…" = "Thola…";
 "Replace…" = "Faka esikhundleni…";
 "Find Next" = "Thola okulandelayo";
 "Find Previous" = "Thola okwangaphambilini";
 "Use Selection for Find" = "Sesha umbhalo okhethiwe";
+"Find in Files…" = "Thola emafayeleni…";
 "Find" = "Sesha";
 "Project" = "Iphrojekthi";
 "Terminal" = "Itheminali";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Nciphisa usayizi wefonti";
 "Reset Font Size" = "Buyisela usayizi wefonti";
 "Search Everywhere (Double ⇧)" = "Sesha yonke indawo (⇧ kabili)";
+"Recent Files" = "Amafayela akamuva";
+"Find Action…" = "Thola isenzo…";
+"Go to Line:Column…" = "Iya emugqeni:ekholamu…";
 "Select in Project View" = "Khetha ekubukeni kwephrojekthi";
 "Next Tab" = "Ithebhu elandelayo";
 "Previous Tab" = "Ithebhu yangaphambilini";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Vula kutheminali";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Iya emugqeni:ekholamu";
 "Left Panel" = "Iphaneli yangakwesobunxele";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Amafayela";
 "Double ⇧ to search everywhere" = "Cindezela ⇧ kabili ukuze useshe yonke indawo";
+"Files" = "Amafayela";
+"Actions" = "Izenzo";
+"Text" = "Umbhalo";
 "Type a file name (use / to match the path)" = "Thayipha igama lefayela (sebenzisa / ukusesha ngendlela)";
+"Type a command name" = "Thayipha igama lomyalo";
+"Type text to find in project files" = "Thayipha umbhalo ofuna ukuwuthola emafayeleni ephrojekthi";
 "No recent files" = "Awekho amafayela akamuva";
-"Recent Files" = "Amafayela akamuva";
 "Matches: %1$ld / Files: %2$ld" = "Okufanayo: %1$ld / Amafayela: %2$ld";
+"Searching…" = "Iyasesha…";
+"Switch Tab" = "Shintsha ithebhu";

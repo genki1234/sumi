@@ -35,7 +35,8 @@ Jalankeun agén anjeun dina terminal bawaan, klik berkas anu dirobahna pikeun mu
 - Terminal maké Metal sacara bawaan; saklar Rendering ku GPU aya dina Témbongkeun. Téangan kaluaran ku ⌘F; tab anyar nuturkeun diréktori gawé ayeuna.
 - Shift+Enter ngajaga input pamundut sababaraha baris. Témpél ngarojong téks sababaraha baris, berkas, jeung gambar; gambar disimpen jadi PNG samentara sarta jalurna diasupkeun dina tanda petik.
 - Pratinjau Markdown jeung HTML aya gigireun téks, diropéa nalika ngetik (⇧⌘V atawa tombol di luhur katuhu tab). Markdown dirénder ku cmark-gfm anu dipaké GitHub: tabél, daptar tugas, téks dicorét, jeung tautan otomatis.
-- Téangan di mana waé: pencét Shift dua kali pikeun manggihan sagala berkas proyék ngaliwatan ngaran anu kurang leuwih cocog.
+- Téangan di mana waé: pencét Shift dua kali pikeun manggihan sagala berkas proyék ngaliwatan ngaran anu kurang leuwih cocog. Tab Aksi na (⇧⌘A) ngajalankeun paréntah ménu mana waé dumasar ngaranna, sedengkeun tab Téks na (⇧⌘F) néangan téks dina sakabéh berkas proyék.
+- Ngédit baris tina kibor: duplikatkeun, hapus, pindahkeun, koméntaran jeung gabungkeun baris, sarta legaan pilihan saléngkah-saléngkah ti hiji kecap nepi ka sakabéh berkas.
 - Mikawanoh berkas sumber ku katalog 915 ngaran basa jeung format, kaasup ngaran berkas, éksténsi gabungan, jeung interpréter skrip. Kabéh 297 komponén Prism (291 tata basa mandiri jeung 6 pangrojong) dibuntel sarta dimuat lamun diperlukeun. Format tanpa tata basa maké panyorotan téks dasar.
 - Antarbeungeut boga 108 pilihan basa. Paké ménu Basa pikeun langsung ngaganti atawa nuturkeun basa sistem. Pilihan diinget; berkas kabuka, éditan can disimpen, jeung sési terminal tetep kabuka. Dina Arab, Ibrani, jeung antarbeungeut katuhu-ka-kénca séjénna, kode, pratinjau, jeung kaluaran terminal tetep kénca-ka-katuhu. Tarjamahan ditulis langsung tina téks Inggris kalayan kontéks éditor jeung terminal. Panel sistem nuturkeun setélan basa macOS. Katalog ieu henteu ngawengku sakabéh basa alami atawa pamrograman. Tingali [Narjamahkeun Sumi](CONTRIBUTING.md#translating-sumi).
 - Tampilan caang jeung poék nuturkeun sistem.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Pilih dina tampilan proyék | ⌥⌘1 |
 | Tab salajengna / Tab saméméhna | ⇧⌘] / ⇧⌘[ |
 | Simpen / Simpen kabéh | ⌘S / ⌥⌘S |
+| Berkas panganyarna | ⌘E |
+| Téangan aksi | ⇧⌘A |
+| Téangan dina berkas | ⇧⌘F |
+| Pindah ka baris:kolom | ⌘L |
+| Duplikatkeun baris atawa pilihan | ⌘D |
+| Hapus baris | ⌘⌫ |
+| Pindahkeun baris ka luhur / Pindahkeun baris ka handap | ⌥⇧↑ / ⌥⇧↓ |
+| Koméntaran ku koméntar baris | ⌘/ |
+| Gabungkeun baris | ⌃⇧J |
+| Tukeur hurup gedé jeung leutik | ⇧⌘U |
+| Legaan pilihan / Heureutan pilihan | ⌥↑ / ⌥↓ |
+| Mimitian baris anyar di handap / Mimitian baris anyar di luhur | ⇧↩ / ⌥⌘↩ |
 
 ## Kontribusi
 

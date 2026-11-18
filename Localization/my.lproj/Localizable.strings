@@ -37,11 +37,23 @@
 "Copy" = "ကူးယူရန်";
 "Paste" = "ကူးထည့်ရန်";
 "Select All" = "အားလုံးရွေးရန်";
+"Duplicate Line or Selection" = "စာကြောင်း သို့မဟုတ် ရွေးထားသည်ကို ပွားရန်";
+"Delete Line" = "စာကြောင်း ဖျက်ရန်";
+"Join Lines" = "စာကြောင်းများ ပေါင်းရန်";
+"Toggle Case" = "စာလုံးအကြီး/အသေး ပြောင်းရန်";
+"Comment with Line Comment" = "စာကြောင်းမှတ်ချက်ဖြင့် မှတ်ချက်ပြုရန်";
+"Move Line Up" = "စာကြောင်းကို အပေါ်သို့ ရွှေ့ရန်";
+"Move Line Down" = "စာကြောင်းကို အောက်သို့ ရွှေ့ရန်";
+"Extend Selection" = "ရွေးချယ်မှုကို ချဲ့ရန်";
+"Shrink Selection" = "ရွေးချယ်မှုကို ချုံ့ရန်";
+"Start New Line" = "စာကြောင်းအသစ် စရန်";
+"Start New Line Before Current" = "လက်ရှိစာကြောင်း၏ အပေါ်တွင် စာကြောင်းအသစ် စရန်";
 "Find…" = "ရှာရန်…";
 "Replace…" = "အစားထိုးရန်…";
 "Find Next" = "နောက်တစ်ခုရှာရန်";
 "Find Previous" = "ယခင်တစ်ခုရှာရန်";
 "Use Selection for Find" = "ရွေးထားသောစာသားကို ရှာရန်";
+"Find in Files…" = "ဖိုင်များတွင် ရှာရန်…";
 "Find" = "ရှာရန်";
 "Project" = "ပရောဂျက်";
 "Terminal" = "တာမီနယ်";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "စာလုံးအရွယ်အစား လျှော့ရန်";
 "Reset Font Size" = "စာလုံးအရွယ်အစား မူလအတိုင်းပြန်ထားရန်";
 "Search Everywhere (Double ⇧)" = "နေရာတိုင်းရှာရန် (⇧ နှစ်ချက်)";
+"Recent Files" = "မကြာသေးမီက ဖိုင်များ";
+"Find Action…" = "လုပ်ဆောင်ချက် ရှာရန်…";
+"Go to Line:Column…" = "စာကြောင်း:ကော်လံသို့ သွားရန်…";
 "Select in Project View" = "ပရောဂျက်ဖိုင်ပင်တွင် ရွေးရန်";
 "Next Tab" = "နောက်တက်ဘ်";
 "Previous Tab" = "ယခင်တက်ဘ်";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "တာမီနယ်တွင် ဖွင့်ရန်";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "စာကြောင်း:ကော်လံသို့ သွားရန်";
 "Left Panel" = "ဘယ်ဘက်အကန့်";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ဖိုင်များ";
 "Double ⇧ to search everywhere" = "နေရာတိုင်းရှာရန် ⇧ ကို နှစ်ချက်နှိပ်ပါ";
+"Files" = "ဖိုင်များ";
+"Actions" = "လုပ်ဆောင်ချက်များ";
+"Text" = "စာသား";
 "Type a file name (use / to match the path)" = "ဖိုင်အမည်ရိုက်ပါ (လမ်းကြောင်းဖြင့်ရှာရန် / ကို သုံးပါ)";
+"Type a command name" = "အမိန့်အမည် ရိုက်ပါ";
+"Type text to find in project files" = "ပရောဂျက်ဖိုင်များတွင် ရှာမည့်စာသား ရိုက်ပါ";
 "No recent files" = "မကြာသေးမီက ဖိုင်များ မရှိပါ";
-"Recent Files" = "မကြာသေးမီက ဖိုင်များ";
 "Matches: %1$ld / Files: %2$ld" = "ကိုက်ညီမှု: %1$ld / ဖိုင်များ: %2$ld";
+"Searching…" = "ရှာနေသည်…";
+"Switch Tab" = "တက်ဘ်ပြောင်းရန်";

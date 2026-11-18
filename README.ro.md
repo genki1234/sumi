@@ -35,7 +35,8 @@ Rulați agentul în terminalul integrat, faceți clic pe fișierele pe care le m
 - Terminalele folosesc implicit Metal; comutatorul Randare GPU este în meniul Vizualizare. Căutați în ieșire cu ⌘F; filele noi moștenesc directorul de lucru curent.
 - Shift+Enter păstrează introducerea prompturilor pe mai multe linii. Se pot lipi texte pe mai multe linii, fișiere și imagini; imaginile sunt păstrate ca PNG-uri temporare, iar căile lor sunt inserate între ghilimele.
 - Previzualizarea Markdown și HTML apare lângă text și se actualizează în timpul tastării (⇧⌘V sau butoanele din dreapta sus a filei). Markdown este randat cu cmark-gfm, motorul folosit de GitHub: tabele, liste de sarcini, text tăiat și linkuri automate.
-- Caută peste tot: apăsați Shift de două ori pentru a găsi orice fișier din proiect prin potrivire aproximativă a numelui.
+- Caută peste tot: apăsați Shift de două ori pentru a găsi orice fișier din proiect prin potrivire aproximativă a numelui. Fila Acțiuni (⇧⌘A) rulează orice comandă din meniu după nume, iar fila Text (⇧⌘F) caută în textul tuturor fișierelor din proiect.
+- Editarea liniilor de la tastatură: duplicați, ștergeți, mutați, comentați și uniți linii și extindeți selecția pas cu pas, de la un cuvânt la întregul fișier.
 - Recunoaște fișiere sursă cu un catalog de 915 nume de limbaje și formate, inclusiv nume de fișiere, extensii compuse și interpretoare de scripturi. Toate cele 297 de componente Prism (291 de gramatici independente și 6 auxiliare) sunt incluse și încărcate la cerere. Formatele fără gramatică folosesc evidențiere de bază a textului.
 - Interfața oferă 108 limbi. Meniul Limbă schimbă imediat limba sau urmează limba sistemului. Alegerea este memorată; fișierele deschise, editările nesalvate și sesiunile de terminal rămân deschise. În arabă, ebraică și alte interfețe de la dreapta la stânga, codul, previzualizările și ieșirea terminalului rămân de la stânga la dreapta. Traducerile sunt scrise direct din textele englezești, ținând cont de editor și terminal. Panourile sistemului urmează limba macOS. Catalogul nu acoperă toate limbile naturale sau de programare. Vedeți [Traducerea Sumi](CONTRIBUTING.md#translating-sumi).
 - Aspectul luminos sau întunecat urmează sistemul.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Selectează în panoul proiectului | ⌥⌘1 |
 | Fila următoare / Fila precedentă | ⇧⌘] / ⇧⌘[ |
 | Salvează / Salvează tot | ⌘S / ⌥⌘S |
+| Fișiere recente | ⌘E |
+| Caută acțiune | ⇧⌘A |
+| Caută în fișiere | ⇧⌘F |
+| Mergi la linia:coloana | ⌘L |
+| Duplică linia sau selecția | ⌘D |
+| Șterge linia | ⌘⌫ |
+| Mută linia în sus / Mută linia în jos | ⌥⇧↑ / ⌥⇧↓ |
+| Comentează cu comentariu de linie | ⌘/ |
+| Unește liniile | ⌃⇧J |
+| Comută majuscule/minuscule | ⇧⌘U |
+| Extinde selecția / Restrânge selecția | ⌥↑ / ⌥↓ |
+| Linie nouă dedesubt / Linie nouă deasupra | ⇧↩ / ⌥⌘↩ |
 
 ## Contribuții
 

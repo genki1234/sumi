@@ -37,11 +37,23 @@
 "Copy" = "Cóipeáil";
 "Paste" = "Greamaigh";
 "Select All" = "Roghnaigh uile";
+"Duplicate Line or Selection" = "Dúbail an líne nó an rogha";
+"Delete Line" = "Scrios an líne";
+"Join Lines" = "Ceangail na línte le chéile";
+"Toggle Case" = "Scoránaigh cás na litreacha";
+"Comment with Line Comment" = "Déan trácht le trácht líne";
+"Move Line Up" = "Bog an líne suas";
+"Move Line Down" = "Bog an líne síos";
+"Extend Selection" = "Leathnaigh an rogha";
+"Shrink Selection" = "Laghdaigh an rogha";
+"Start New Line" = "Tosaigh líne nua";
+"Start New Line Before Current" = "Tosaigh líne nua roimh an líne reatha";
 "Find…" = "Aimsigh…";
 "Replace…" = "Ionadaigh…";
 "Find Next" = "Aimsigh an chéad cheann eile";
 "Find Previous" = "Aimsigh an ceann roimhe";
 "Use Selection for Find" = "Cuardaigh an téacs roghnaithe";
+"Find in Files…" = "Aimsigh i gcomhaid…";
 "Find" = "Aimsigh";
 "Project" = "Tionscadal";
 "Terminal" = "Teirminéal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Laghdaigh an clómhéid";
 "Reset Font Size" = "Athshocraigh an clómhéid";
 "Search Everywhere (Double ⇧)" = "Cuardaigh i ngach áit (⇧ faoi dhó)";
+"Recent Files" = "Comhaid le déanaí";
+"Find Action…" = "Aimsigh gníomh…";
+"Go to Line:Column…" = "Téigh chuig líne:colún…";
 "Select in Project View" = "Roghnaigh in amharc an tionscadail";
 "Next Tab" = "An chéad chluaisín eile";
 "Previous Tab" = "An cluaisín roimhe";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Oscail sa teirminéal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Téigh chuig líne:colún";
 "Left Panel" = "Painéal ar chlé";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Comhaid";
 "Double ⇧ to search everywhere" = "Brúigh ⇧ faoi dhó chun cuardach i ngach áit";
+"Files" = "Comhaid";
+"Actions" = "Gníomhartha";
+"Text" = "Téacs";
 "Type a file name (use / to match the path)" = "Clóscríobh ainm comhaid (úsáid / chun an chonair a chuardach)";
+"Type a command name" = "Clóscríobh ainm ordaithe";
+"Type text to find in project files" = "Clóscríobh téacs le haimsiú i gcomhaid an tionscadail";
 "No recent files" = "Níl comhaid le déanaí ann";
-"Recent Files" = "Comhaid le déanaí";
 "Matches: %1$ld / Files: %2$ld" = "Meaitseálacha: %1$ld / Comhaid: %2$ld";
+"Searching…" = "Á chuardach…";
+"Switch Tab" = "Athraigh cluaisín";

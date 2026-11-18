@@ -35,7 +35,8 @@ Patakbuhin ang agent sa built-in na terminal, i-click ang mga file na binabago n
 - Metal ang default ng mga terminal, na may switch na Pag-render gamit ang GPU sa Tingnan. Maghanap sa output gamit ang ⌘F; minamana ng mga bagong tab ang kasalukuyang working directory.
 - Pinapanatili ng Shift+Enter ang pagpasok ng prompt na maraming linya. Maaaring i-paste ang tekstong maraming linya, file at larawan; iniingatan ang mga larawan bilang pansamantalang PNG at ipinapasok ang kanilang mga path sa panipi.
 - May Markdown at HTML preview sa tabi ng teksto na nag-a-update habang nagta-type (⇧⌘V o mga pindutan sa kanang itaas ng tab). Ginagamit ng Markdown ang cmark-gfm na gamit ng GitHub: mga talahanayan, listahan ng gawain, nakaguhit na teksto at awtomatikong link.
-- Maghanap saanman: pindutin ang Shift nang dalawang beses upang mahanap ang anumang file sa proyekto gamit ang tinatayang pagtugma ng pangalan.
+- Maghanap saanman: pindutin ang Shift nang dalawang beses upang mahanap ang anumang file sa proyekto gamit ang tinatayang pagtugma ng pangalan. Ang tab nitong Mga aksyon (⇧⌘A) ay nagpapatakbo ng anumang command sa menu ayon sa pangalan, at ang tab nitong Teksto (⇧⌘F) ay naghahanap sa teksto ng bawat file ng proyekto.
+- Pag-edit ng linya mula sa keyboard: i-duplicate, burahin, ilipat, i-comment at pagsamahin ang mga linya, at palawakin ang pinili nang paunti-unti mula sa isang salita hanggang sa buong file.
 - Kinikilala ang mga source file sa katalogo ng 915 pangalan ng wika at format, kasama ang pangalan ng file, pinagsamang extension at script interpreter. Kasama ang lahat ng 297 Prism component (291 hiwalay na grammar at 6 helper), at nilo-load kapag kailangan. Ang mga format na walang grammar ay may simpleng pagha-highlight ng teksto.
 - May 108 pagpipiliang wika ang UI. Gamitin ang menu na Wika upang agad magpalit o sundin ang wika ng system. Naaalala ang pinili; nananatiling bukas ang mga file, hindi pa nase-save na edit at terminal session. Sa Arabic, Hebrew at iba pang interface na kanan-pakaliwa, nananatiling kaliwa-pakanan ang code, preview at output ng terminal. Direktang isinulat ang mga salin mula sa mga tekstong Ingles ayon sa gamit sa editor at terminal. Sinusunod ng mga panel ng system ang wika ng macOS. Hindi sakop ng katalogo ang bawat likas na wika o programming language. Tingnan ang [Pagsasalin ng Sumi](CONTRIBUTING.md#translating-sumi).
 - Sinusunod ng maliwanag at madilim na anyo ang system.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Piliin sa view ng proyekto | ⌥⌘1 |
 | Susunod na tab / Nakaraang tab | ⇧⌘] / ⇧⌘[ |
 | I-save / I-save lahat | ⌘S / ⌥⌘S |
+| Mga kamakailang file | ⌘E |
+| Hanapin ang aksyon | ⇧⌘A |
+| Hanapin sa mga file | ⇧⌘F |
+| Pumunta sa linya:hanay | ⌘L |
+| I-duplicate ang linya o pinili | ⌘D |
+| Burahin ang linya | ⌘⌫ |
+| Ilipat pataas ang linya / Ilipat pababa ang linya | ⌥⇧↑ / ⌥⇧↓ |
+| I-comment gamit ang komento sa linya | ⌘/ |
+| Pagsamahin ang mga linya | ⌃⇧J |
+| Palitan ang malaki/maliit na titik | ⇧⌘U |
+| Palawakin ang pinili / Paliitin ang pinili | ⌥↑ / ⌥↓ |
+| Magsimula ng bagong linya sa ibaba / Magsimula ng bagong linya sa itaas | ⇧↩ / ⌥⌘↩ |
 
 ## Pag-aambag
 

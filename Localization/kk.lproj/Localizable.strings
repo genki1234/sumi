@@ -37,11 +37,23 @@
 "Copy" = "Көшіру";
 "Paste" = "Қою";
 "Select All" = "Барлығын таңдау";
+"Duplicate Line or Selection" = "Жолды немесе таңдалғанды қайталау";
+"Delete Line" = "Жолды жою";
+"Join Lines" = "Жолдарды біріктіру";
+"Toggle Case" = "Регистрді ауыстыру";
+"Comment with Line Comment" = "Жол түсініктемесімен белгілеу";
+"Move Line Up" = "Жолды жоғары жылжыту";
+"Move Line Down" = "Жолды төмен жылжыту";
+"Extend Selection" = "Таңдауды кеңейту";
+"Shrink Selection" = "Таңдауды тарылту";
+"Start New Line" = "Жаңа жол бастау";
+"Start New Line Before Current" = "Ағымдағы жолдың алдынан жаңа жол бастау";
 "Find…" = "Табу…";
 "Replace…" = "Ауыстыру…";
 "Find Next" = "Келесісін табу";
 "Find Previous" = "Алдыңғысын табу";
 "Use Selection for Find" = "Таңдалған мәтінді іздеу";
+"Find in Files…" = "Файлдардан табу…";
 "Find" = "Табу";
 "Project" = "Жоба";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Қаріпті кішірейту";
 "Reset Font Size" = "Қаріп өлшемін қалпына келтіру";
 "Search Everywhere (Double ⇧)" = "Барлық жерден іздеу (⇧ екі рет)";
+"Recent Files" = "Соңғы файлдар";
+"Find Action…" = "Әрекетті табу…";
+"Go to Line:Column…" = "Жол:бағанға өту…";
 "Select in Project View" = "Жоба ағашында таңдау";
 "Next Tab" = "Келесі қойынды";
 "Previous Tab" = "Алдыңғы қойынды";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Терминалда ашу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Жол:бағанға өту";
 "Left Panel" = "Сол жақ тақта";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Файлдар";
 "Double ⇧ to search everywhere" = "Барлық жерден іздеу үшін ⇧ пернесін екі рет басыңыз";
+"Files" = "Файлдар";
+"Actions" = "Әрекеттер";
+"Text" = "Мәтін";
 "Type a file name (use / to match the path)" = "Файл атауын теріңіз (жолды іздеу үшін / пайдаланыңыз)";
+"Type a command name" = "Команда атауын теріңіз";
+"Type text to find in project files" = "Жоба файлдарынан іздейтін мәтінді теріңіз";
 "No recent files" = "Соңғы файлдар жоқ";
-"Recent Files" = "Соңғы файлдар";
 "Matches: %1$ld / Files: %2$ld" = "Сәйкестіктер: %1$ld / Файлдар: %2$ld";
+"Searching…" = "Ізделуде…";
+"Switch Tab" = "Қойындыны ауыстыру";

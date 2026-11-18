@@ -35,7 +35,8 @@ Paleiskite agentą integruotame terminale, spustelėkite jo keičiamus failus, k
 - Terminalai numatytai naudoja Metal; meniu Rodinys yra jungiklis Atvaizdavimas su GPU. Išvestyje ieškokite su ⌘F; naujos kortelės paveldi esamą darbinį aplanką.
 - Shift+Enter išlaiko kelių eilučių užklausos įvestį. Galima įklijuoti kelių eilučių tekstą, failus ir paveikslėlius; paveikslėliai laikomi laikinais PNG failais ir įterpiami kaip kabutėmis apgaubti keliai.
 - Markdown ir HTML peržiūra šalia teksto atnaujinama rašant (⇧⌘V arba kortelės viršutiniame dešiniajame kampe esančiais mygtukais). Markdown atvaizduoja GitHub naudojamas cmark-gfm: lentelės, užduočių sąrašai, perbraukimas ir automatinės nuorodos.
-- Ieškoti visur: dukart paspauskite Shift ir apytiksle pavadinimo paieška raskite bet kurį projekto failą.
+- Ieškoti visur: dukart paspauskite Shift ir apytiksle pavadinimo paieška raskite bet kurį projekto failą. Kortelė Veiksmai (⇧⌘A) paleidžia bet kurią meniu komandą pagal pavadinimą, o kortelė Tekstas (⇧⌘F) ieško visų projekto failų tekste.
+- Eilučių redagavimas klaviatūra: dubliuokite, šalinkite, perkelkite, užkomentuokite ir sujunkite eilutes, o žymėjimą palaipsniui išplėskite nuo žodžio iki viso failo.
 - Pirminio kodo failus atpažįsta pagal 915 kalbų ir failų formatų pavadinimų katalogą, įskaitant failų pavadinimus, sudėtinius plėtinius ir scenarijų interpretatorius. Visi 297 Prism komponentai (291 savarankiška gramatika ir 6 pagalbiniai) pateikiami kartu ir įkeliami prireikus. Formatams be gramatikos taikomas paprastas teksto paryškinimas.
 - Sąsajoje galima rinktis iš 108 kalbų. Meniu Kalba iškart pakeiskite kalbą arba naudokite sistemos kalbą. Pasirinkimas įsimenamas; atverti failai, neišsaugoti pakeitimai ir terminalo seansai lieka atverti. Arabų, hebrajų ir kitose iš dešinės į kairę sąsajose kodas, peržiūra ir terminalo išvestis išlieka iš kairės į dešinę. Vertimai rašomi tiesiogiai iš angliškų tekstų, atsižvelgiant į redaktoriaus ir terminalo kontekstą. Sistemos skydeliai naudoja macOS kalbos nuostatas. Katalogas neapima visų natūralių ar programavimo kalbų. Žr. [Sumi vertimas](CONTRIBUTING.md#translating-sumi).
 - Šviesi ir tamsi išvaizda atitinka sistemą.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Pažymėti projekto medyje | ⌥⌘1 |
 | Kita kortelė / Ankstesnė kortelė | ⇧⌘] / ⇧⌘[ |
 | Išsaugoti / Išsaugoti viską | ⌘S / ⌥⌘S |
+| Naujausi failai | ⌘E |
+| Rasti veiksmą | ⇧⌘A |
+| Rasti failuose | ⇧⌘F |
+| Eiti į eilutę:stulpelį | ⌘L |
+| Dubliuoti eilutę arba žymėjimą | ⌘D |
+| Pašalinti eilutę | ⌘⌫ |
+| Perkelti eilutę aukštyn / žemyn | ⌥⇧↑ / ⌥⇧↓ |
+| Komentuoti eilutės komentaru | ⌘/ |
+| Sujungti eilutes | ⌃⇧J |
+| Keisti didžiąsias ir mažąsias raides | ⇧⌘U |
+| Išplėsti / sumažinti žymėjimą | ⌥↑ / ⌥↓ |
+| Pradėti naują eilutę žemiau / aukščiau | ⇧↩ / ⌥⌘↩ |
 
 ## Prisidėjimas
 

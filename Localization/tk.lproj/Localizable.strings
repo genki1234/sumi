@@ -37,11 +37,23 @@
 "Copy" = "Göçür";
 "Paste" = "Ýelme";
 "Select All" = "Ählisini saýla";
+"Duplicate Line or Selection" = "Setiri ýa-da saýlanany gaýtala";
+"Delete Line" = "Setiri poz";
+"Join Lines" = "Setirleri birleşdir";
+"Toggle Case" = "Uly we kiçi harplary çalyş";
+"Comment with Line Comment" = "Setir teswiri bilen teswirle";
+"Move Line Up" = "Setiri ýokary süýş";
+"Move Line Down" = "Setiri aşak süýş";
+"Extend Selection" = "Saýlawy giňelt";
+"Shrink Selection" = "Saýlawy daralt";
+"Start New Line" = "Täze setir başla";
+"Start New Line Before Current" = "Häzirkiden öň täze setir başla";
 "Find…" = "Tap…";
 "Replace…" = "Çalyş…";
 "Find Next" = "Indikini tap";
 "Find Previous" = "Öňkini tap";
 "Use Selection for Find" = "Saýlanan teksti gözle";
+"Find in Files…" = "Faýllarda tap…";
 "Find" = "Gözleg";
 "Project" = "Taslama";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Harpy kiçelt";
 "Reset Font Size" = "Harp ölçegini dikelt";
 "Search Everywhere (Double ⇧)" = "Ähli ýerde gözle (⇧ iki gezek)";
+"Recent Files" = "Soňky faýllar";
+"Find Action…" = "Hereket tap…";
+"Go to Line:Column…" = "Setir:sütüne geç…";
 "Select in Project View" = "Taslama görnüşinde saýla";
 "Next Tab" = "Indiki goýma";
 "Previous Tab" = "Öňki goýma";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Terminalda aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Setir:sütüne geç";
 "Left Panel" = "Çep panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faýllar";
 "Double ⇧ to search everywhere" = "Ähli ýerde gözlemek üçin ⇧ iki gezek basyň";
+"Files" = "Faýllar";
+"Actions" = "Hereketler";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Faýlyň adyny ýazyň (ýol boýunça gözlemek üçin / ulanyň)";
+"Type a command name" = "Buýrugyň adyny ýazyň";
+"Type text to find in project files" = "Taslama faýllarynda gözlemek üçin tekst ýazyň";
 "No recent files" = "Soňky faýllar ýok";
-"Recent Files" = "Soňky faýllar";
 "Matches: %1$ld / Files: %2$ld" = "Gabat gelýänler: %1$ld / Faýllar: %2$ld";
+"Searching…" = "Gözlenýär…";
+"Switch Tab" = "Goýmany çalyş";

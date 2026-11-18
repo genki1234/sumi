@@ -37,11 +37,23 @@
 "Copy" = "Copiar";
 "Paste" = "Pegar";
 "Select All" = "Seleccionar todo";
+"Duplicate Line or Selection" = "Duplicar a liña ou a selección";
+"Delete Line" = "Eliminar a liña";
+"Join Lines" = "Unir as liñas";
+"Toggle Case" = "Alternar maiúsculas/minúsculas";
+"Comment with Line Comment" = "Comentar con comentario de liña";
+"Move Line Up" = "Mover a liña cara arriba";
+"Move Line Down" = "Mover a liña cara abaixo";
+"Extend Selection" = "Ampliar a selección";
+"Shrink Selection" = "Reducir a selección";
+"Start New Line" = "Comezar unha liña nova";
+"Start New Line Before Current" = "Comezar unha liña nova antes da actual";
 "Find…" = "Buscar…";
 "Replace…" = "Substituír…";
 "Find Next" = "Buscar seguinte";
 "Find Previous" = "Buscar anterior";
 "Use Selection for Find" = "Buscar o texto seleccionado";
+"Find in Files…" = "Buscar nos ficheiros…";
 "Find" = "Buscar";
 "Project" = "Proxecto";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Reducir o tamaño da letra";
 "Reset Font Size" = "Restablecer o tamaño da letra";
 "Search Everywhere (Double ⇧)" = "Buscar en todas partes (⇧ dúas veces)";
+"Recent Files" = "Ficheiros recentes";
+"Find Action…" = "Buscar acción…";
+"Go to Line:Column…" = "Ir a liña:columna…";
 "Select in Project View" = "Seleccionar na vista do proxecto";
 "Next Tab" = "Seguinte lapela";
 "Previous Tab" = "Lapela anterior";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Abrir no terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Ir a liña:columna";
 "Left Panel" = "Panel esquerdo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Ficheiros";
 "Double ⇧ to search everywhere" = "Preme ⇧ dúas veces para buscar en todas partes";
+"Files" = "Ficheiros";
+"Actions" = "Accións";
+"Text" = "Texto";
 "Type a file name (use / to match the path)" = "Escribe un nome de ficheiro (usa / para buscar na ruta)";
+"Type a command name" = "Escribe un nome de comando";
+"Type text to find in project files" = "Escribe o texto que buscar nos ficheiros do proxecto";
 "No recent files" = "Non hai ficheiros recentes";
-"Recent Files" = "Ficheiros recentes";
 "Matches: %1$ld / Files: %2$ld" = "Coincidencias: %1$ld / Ficheiros: %2$ld";
+"Searching…" = "Buscando…";
+"Switch Tab" = "Cambiar de lapela";

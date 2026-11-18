@@ -37,11 +37,23 @@
 "Copy" = "Kopírovat";
 "Paste" = "Vložit";
 "Select All" = "Vybrat vše";
+"Duplicate Line or Selection" = "Duplikovat řádek nebo výběr";
+"Delete Line" = "Odstranit řádek";
+"Join Lines" = "Spojit řádky";
+"Toggle Case" = "Přepnout velikost písmen";
+"Comment with Line Comment" = "Zakomentovat řádkovým komentářem";
+"Move Line Up" = "Přesunout řádek nahoru";
+"Move Line Down" = "Přesunout řádek dolů";
+"Extend Selection" = "Rozšířit výběr";
+"Shrink Selection" = "Zúžit výběr";
+"Start New Line" = "Začít nový řádek";
+"Start New Line Before Current" = "Začít nový řádek před aktuálním";
 "Find…" = "Najít…";
 "Replace…" = "Nahradit…";
 "Find Next" = "Najít další";
 "Find Previous" = "Najít předchozí";
 "Use Selection for Find" = "Hledat vybraný text";
+"Find in Files…" = "Najít v souborech…";
 "Find" = "Hledání";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Zmenšit písmo";
 "Reset Font Size" = "Obnovit velikost písma";
 "Search Everywhere (Double ⇧)" = "Hledat všude (dvakrát ⇧)";
+"Recent Files" = "Nedávné soubory";
+"Find Action…" = "Najít akci…";
+"Go to Line:Column…" = "Přejít na řádek:sloupec…";
 "Select in Project View" = "Vybrat v zobrazení projektu";
 "Next Tab" = "Další panel";
 "Previous Tab" = "Předchozí panel";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Otevřít v terminálu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Přejít na řádek:sloupec";
 "Left Panel" = "Levý panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Soubory";
 "Double ⇧ to search everywhere" = "Dvojím stisknutím ⇧ můžete hledat všude";
+"Files" = "Soubory";
+"Actions" = "Akce";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Zadejte název souboru (pro hledání v cestě použijte /)";
+"Type a command name" = "Zadejte název příkazu";
+"Type text to find in project files" = "Zadejte text k vyhledání v souborech projektu";
 "No recent files" = "Žádné nedávné soubory";
-"Recent Files" = "Nedávné soubory";
 "Matches: %1$ld / Files: %2$ld" = "Shody: %1$ld / Soubory: %2$ld";
+"Searching…" = "Hledání…";
+"Switch Tab" = "Přepnout panel";

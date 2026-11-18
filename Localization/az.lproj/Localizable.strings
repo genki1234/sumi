@@ -37,11 +37,23 @@
 "Copy" = "Kopyala";
 "Paste" = "Yapışdır";
 "Select All" = "Hamısını seç";
+"Duplicate Line or Selection" = "Sətri və ya seçimi təkrarla";
+"Delete Line" = "Sətri sil";
+"Join Lines" = "Sətirləri birləşdir";
+"Toggle Case" = "Hərf registrini dəyiş";
+"Comment with Line Comment" = "Sətir şərhi ilə şərhə al";
+"Move Line Up" = "Sətri yuxarı köçür";
+"Move Line Down" = "Sətri aşağı köçür";
+"Extend Selection" = "Seçimi genişləndir";
+"Shrink Selection" = "Seçimi daralt";
+"Start New Line" = "Yeni sətir başlat";
+"Start New Line Before Current" = "Cari sətirdən əvvəl yeni sətir başlat";
 "Find…" = "Tap…";
 "Replace…" = "Əvəz et…";
 "Find Next" = "Növbətini tap";
 "Find Previous" = "Əvvəlkini tap";
 "Use Selection for Find" = "Seçilmiş mətnlə axtar";
+"Find in Files…" = "Fayllarda tap…";
 "Find" = "Axtarış";
 "Project" = "Layihə";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Şrifti kiçilt";
 "Reset Font Size" = "Şrift ölçüsünü sıfırla";
 "Search Everywhere (Double ⇧)" = "Hər yerdə axtar (⇧ iki dəfə)";
+"Recent Files" = "Son fayllar";
+"Find Action…" = "Əməliyyat tap…";
+"Go to Line:Column…" = "Sətir:sütuna keç…";
 "Select in Project View" = "Layihə görünüşündə seç";
 "Next Tab" = "Növbəti vərəq";
 "Previous Tab" = "Əvvəlki vərəq";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Terminalda aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Sətir:sütuna keç";
 "Left Panel" = "Sol panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fayllar";
 "Double ⇧ to search everywhere" = "Hər yerdə axtarmaq üçün ⇧ düyməsini iki dəfə basın";
+"Files" = "Fayllar";
+"Actions" = "Əməliyyatlar";
+"Text" = "Mətn";
 "Type a file name (use / to match the path)" = "Fayl adı yazın (yolda axtarmaq üçün / istifadə edin)";
+"Type a command name" = "Əmr adı yazın";
+"Type text to find in project files" = "Layihə fayllarında axtarmaq üçün mətn yazın";
 "No recent files" = "Son fayl yoxdur";
-"Recent Files" = "Son fayllar";
 "Matches: %1$ld / Files: %2$ld" = "Uyğunluqlar: %1$ld / Fayllar: %2$ld";
+"Searching…" = "Axtarılır…";
+"Switch Tab" = "Vərəqi dəyiş";

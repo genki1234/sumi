@@ -35,7 +35,8 @@ Endesha wakala wako katika terminal iliyojumuishwa, bofya faili anazobadilisha i
 - Terminal hutumia Metal kwa chaguo-msingi; swichi ya Uchoraji kwa GPU iko kwenye Mwonekano. Tafuta katika matokeo kwa ⌘F; vichupo vipya hurithi folda ya kazi ya sasa.
 - Shift+Enter huhifadhi uingizaji wa maombi ya mistari mingi. Kubandika kunaruhusu maandishi ya mistari mingi, faili na picha; picha huhifadhiwa kama PNG za muda, na njia zake huingizwa ndani ya alama za kunukuu.
 - Hakikisho la Markdown na HTML kando ya maandishi husasishwa unapoandika (⇧⌘V au vitufe juu kulia mwa kichupo). Markdown huonyeshwa kwa cmark-gfm inayotumiwa na GitHub: majedwali, orodha za kazi, maandishi yaliyopigwa mstari na viungo vya kiotomatiki.
-- Tafuta kila mahali: bonyeza Shift mara mbili kupata faili yoyote katika mradi kwa jina linalokaribiana.
+- Tafuta kila mahali: bonyeza Shift mara mbili kupata faili yoyote katika mradi kwa jina linalokaribiana. Kichupo chake cha Vitendo (⇧⌘A) huendesha amri yoyote ya menyu kwa jina lake, na kichupo cha Maandishi (⇧⌘F) hutafuta maandishi ya kila faili ya mradi.
+- Kuhariri mistari kwa kibodi: rudufu, futa, sogeza, weka maoni na unganisha mistari, na upanue uteuzi hatua kwa hatua kutoka neno moja hadi faili nzima.
 - Hutambua faili za chanzo kwa katalogi ya majina 915 ya lugha na miundo, ikijumuisha majina ya faili, viendelezi vyenye sehemu nyingi na wakalimani wa hati. Vipengele vyote 297 vya Prism (291 sarufi zinazojitegemea na 6 visaidizi) vimejumuishwa na hupakiwa vinapohitajika. Miundo isiyo na sarufi hutumia uangazaji wa msingi wa maandishi.
 - Kiolesura kina chaguo za lugha 108. Tumia menyu ya Lugha kubadilisha mara moja au kufuata lugha ya mfumo. Chaguo hukumbukwa; faili zilizo wazi, mabadiliko yasiyohifadhiwa na vipindi vya terminal hubaki wazi. Kwa Kiarabu, Kiebrania na violesura vingine vya kulia hadi kushoto, msimbo, hakikisho na matokeo ya terminal hubaki kushoto hadi kulia. Tafsiri zimeandikwa moja kwa moja kutoka maandishi ya Kiingereza kwa kuzingatia kihariri na terminal. Paneli za mfumo hufuata lugha ya macOS. Katalogi haijumuishi kila lugha ya binadamu au ya programu. Tazama [Kutafsiri Sumi](CONTRIBUTING.md#translating-sumi).
 - Mwonekano mwepesi na mweusi hufuata mfumo.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Chagua katika mwonekano wa mradi | ⌥⌘1 |
 | Kichupo kinachofuata / Kichupo kilichotangulia | ⇧⌘] / ⇧⌘[ |
 | Hifadhi / Hifadhi yote | ⌘S / ⌥⌘S |
+| Faili za hivi karibuni | ⌘E |
+| Tafuta kitendo | ⇧⌘A |
+| Tafuta kwenye faili | ⇧⌘F |
+| Nenda kwenye mstari:safu | ⌘L |
+| Rudufu mstari au uteuzi | ⌘D |
+| Futa mstari | ⌘⌫ |
+| Sogeza mstari juu / Sogeza mstari chini | ⌥⇧↑ / ⌥⇧↓ |
+| Weka au ondoa maoni ya mstari | ⌘/ |
+| Unganisha mistari | ⌃⇧J |
+| Badilisha herufi kubwa na ndogo | ⇧⌘U |
+| Panua uteuzi / Punguza uteuzi | ⌥↑ / ⌥↓ |
+| Anza mstari mpya chini / Anza mstari mpya juu | ⇧↩ / ⌥⌘↩ |
 
 ## Kuchangia
 

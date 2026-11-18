@@ -37,11 +37,23 @@
 "Copy" = "Másolás";
 "Paste" = "Beillesztés";
 "Select All" = "Összes kijelölése";
+"Duplicate Line or Selection" = "Sor vagy kijelölés duplikálása";
+"Delete Line" = "Sor törlése";
+"Join Lines" = "Sorok összevonása";
+"Toggle Case" = "Kis- és nagybetűk váltása";
+"Comment with Line Comment" = "Megjegyzésbe tétel sormegjegyzéssel";
+"Move Line Up" = "Sor mozgatása felfelé";
+"Move Line Down" = "Sor mozgatása lefelé";
+"Extend Selection" = "Kijelölés bővítése";
+"Shrink Selection" = "Kijelölés szűkítése";
+"Start New Line" = "Új sor kezdése";
+"Start New Line Before Current" = "Új sor kezdése az aktuális előtt";
 "Find…" = "Keresés…";
 "Replace…" = "Csere…";
 "Find Next" = "Következő keresése";
 "Find Previous" = "Előző keresése";
 "Use Selection for Find" = "Keresés a kijelölt szöveggel";
+"Find in Files…" = "Keresés a fájlokban…";
 "Find" = "Keresés";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Betűméret csökkentése";
 "Reset Font Size" = "Betűméret alaphelyzetbe állítása";
 "Search Everywhere (Double ⇧)" = "Keresés mindenhol (kétszer ⇧)";
+"Recent Files" = "Legutóbbi fájlok";
+"Find Action…" = "Művelet keresése…";
+"Go to Line:Column…" = "Ugrás sorra:oszlopra…";
 "Select in Project View" = "Kijelölés a projektnézetben";
 "Next Tab" = "Következő lap";
 "Previous Tab" = "Előző lap";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Megnyitás terminálban";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Ugrás sorra:oszlopra";
 "Left Panel" = "Bal oldali panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fájlok";
 "Double ⇧ to search everywhere" = "Nyomja meg kétszer a ⇧ billentyűt a mindenhol kereséshez";
+"Files" = "Fájlok";
+"Actions" = "Műveletek";
+"Text" = "Szöveg";
 "Type a file name (use / to match the path)" = "Írjon be egy fájlnevet (a / jellel az elérési útban kereshet)";
+"Type a command name" = "Írjon be egy parancsnevet";
+"Type text to find in project files" = "Írja be a projektfájlokban keresendő szöveget";
 "No recent files" = "Nincsenek legutóbbi fájlok";
-"Recent Files" = "Legutóbbi fájlok";
 "Matches: %1$ld / Files: %2$ld" = "Találatok: %1$ld / Fájlok: %2$ld";
+"Searching…" = "Keresés folyamatban…";
+"Switch Tab" = "Lapváltás";

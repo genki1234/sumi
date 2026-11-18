@@ -37,11 +37,23 @@
 "Copy" = "Kopiuj";
 "Paste" = "Wklej";
 "Select All" = "Zaznacz wszystko";
+"Duplicate Line or Selection" = "Duplikuj wiersz lub zaznaczenie";
+"Delete Line" = "Usuń wiersz";
+"Join Lines" = "Połącz wiersze";
+"Toggle Case" = "Przełącz wielkość liter";
+"Comment with Line Comment" = "Zakomentuj komentarzem wierszowym";
+"Move Line Up" = "Przenieś wiersz w górę";
+"Move Line Down" = "Przenieś wiersz w dół";
+"Extend Selection" = "Rozszerz zaznaczenie";
+"Shrink Selection" = "Zmniejsz zaznaczenie";
+"Start New Line" = "Rozpocznij nowy wiersz";
+"Start New Line Before Current" = "Rozpocznij nowy wiersz przed bieżącym";
 "Find…" = "Znajdź…";
 "Replace…" = "Zastąp…";
 "Find Next" = "Znajdź następne";
 "Find Previous" = "Znajdź poprzednie";
 "Use Selection for Find" = "Użyj zaznaczenia do wyszukiwania";
+"Find in Files…" = "Znajdź w plikach…";
 "Find" = "Znajdź";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Pomniejsz tekst";
 "Reset Font Size" = "Przywróć rozmiar tekstu";
 "Search Everywhere (Double ⇧)" = "Szukaj wszędzie (dwa razy ⇧)";
+"Recent Files" = "Ostatnio używane pliki";
+"Find Action…" = "Znajdź akcję…";
+"Go to Line:Column…" = "Przejdź do wiersza:kolumny…";
 "Select in Project View" = "Zaznacz w widoku projektu";
 "Next Tab" = "Następna karta";
 "Previous Tab" = "Poprzednia karta";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Otwórz w terminalu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Przejdź do wiersza:kolumny";
 "Left Panel" = "Lewy panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Pliki";
 "Double ⇧ to search everywhere" = "Naciśnij dwa razy ⇧, aby szukać wszędzie";
+"Files" = "Pliki";
+"Actions" = "Akcje";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Wpisz nazwę pliku (użyj /, aby szukać w ścieżce)";
+"Type a command name" = "Wpisz nazwę polecenia";
+"Type text to find in project files" = "Wpisz tekst do znalezienia w plikach projektu";
 "No recent files" = "Brak ostatnio używanych plików";
-"Recent Files" = "Ostatnio używane pliki";
 "Matches: %1$ld / Files: %2$ld" = "Dopasowania: %1$ld / Pliki: %2$ld";
+"Searching…" = "Wyszukiwanie…";
+"Switch Tab" = "Przełącz kartę";

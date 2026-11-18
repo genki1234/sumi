@@ -37,11 +37,23 @@
 "Copy" = "ቅዳ";
 "Paste" = "ለጥፍ";
 "Select All" = "ሁሉንም ምረጥ";
+"Duplicate Line or Selection" = "መስመሩን ወይም ምርጫውን አባዛ";
+"Delete Line" = "መስመሩን ሰርዝ";
+"Join Lines" = "መስመሮችን አዋህድ";
+"Toggle Case" = "ትልቅ/ትንሽ ፊደል ቀያይር";
+"Comment with Line Comment" = "በመስመር አስተያየት ምልክት አድርግ";
+"Move Line Up" = "መስመሩን ወደ ላይ አንቀሳቅስ";
+"Move Line Down" = "መስመሩን ወደ ታች አንቀሳቅስ";
+"Extend Selection" = "ምርጫውን አስፋ";
+"Shrink Selection" = "ምርጫውን አጥብብ";
+"Start New Line" = "አዲስ መስመር ጀምር";
+"Start New Line Before Current" = "ከአሁኑ መስመር በፊት አዲስ መስመር ጀምር";
 "Find…" = "ፈልግ…";
 "Replace…" = "ተካ…";
 "Find Next" = "ቀጣዩን ፈልግ";
 "Find Previous" = "ቀዳሚውን ፈልግ";
 "Use Selection for Find" = "በተመረጠው ጽሑፍ ፈልግ";
+"Find in Files…" = "በፋይሎች ውስጥ ፈልግ…";
 "Find" = "ፍለጋ";
 "Project" = "ፕሮጀክት";
 "Terminal" = "ተርሚናል";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "የፊደል መጠን ቀንስ";
 "Reset Font Size" = "የፊደል መጠን መልስ";
 "Search Everywhere (Double ⇧)" = "በሁሉም ቦታ ፈልግ (⇧ ሁለት ጊዜ)";
+"Recent Files" = "የቅርብ ጊዜ ፋይሎች";
+"Find Action…" = "እርምጃ ፈልግ…";
+"Go to Line:Column…" = "ወደ መስመር:ዓምድ ሂድ…";
 "Select in Project View" = "በፕሮጀክት እይታ ምረጥ";
 "Next Tab" = "ቀጣይ ትር";
 "Previous Tab" = "ቀዳሚ ትር";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "በተርሚናል ክፈት";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "ወደ መስመር:ዓምድ ሂድ";
 "Left Panel" = "የግራ ፓነል";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ፋይሎች";
 "Double ⇧ to search everywhere" = "በሁሉም ቦታ ለመፈለግ ⇧ን ሁለት ጊዜ ይጫኑ";
+"Files" = "ፋይሎች";
+"Actions" = "እርምጃዎች";
+"Text" = "ጽሑፍ";
 "Type a file name (use / to match the path)" = "የፋይል ስም ይጻፉ (በዱካ ለመፈለግ / ይጠቀሙ)";
+"Type a command name" = "የትዕዛዝ ስም ይጻፉ";
+"Type text to find in project files" = "በፕሮጀክት ፋይሎች ውስጥ የሚፈለግ ጽሑፍ ይጻፉ";
 "No recent files" = "የቅርብ ጊዜ ፋይሎች የሉም";
-"Recent Files" = "የቅርብ ጊዜ ፋይሎች";
 "Matches: %1$ld / Files: %2$ld" = "የተገኙ፦ %1$ld / ፋይሎች፦ %2$ld";
+"Searching…" = "በመፈለግ ላይ…";
+"Switch Tab" = "ትር ቀይር";

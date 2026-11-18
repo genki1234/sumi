@@ -35,7 +35,8 @@ Koresha umukozi wawe muri terminal yubatswemo, ukande dosiye ahindura kugira ngo
 - Terminal zikoresha Metal ku ikubitiro; uburyo bwo kwerekana hakoreshejwe GPU buri muri Reba. Shaka mu bisohoka ukoresheje ⌘F; udufishi dushya dukomora ububiko bwo gukoreramo ku dusanzwe.
 - Shift+Enter igumisha inyandiko y'ibibazo ku mirongo myinshi. Ushobora gukomeka inyandiko y'imirongo myinshi, dosiye n'amashusho; amashusho abikwa nka PNG z'igihe gito, inzira zayo zigashyirwa mu twuguruzo n'utwugarizo.
 - Igaragaza ribanza rya Markdown na HTML riba iruhande rw'inyandiko kandi rigahinduka uko wandika (⇧⌘V cyangwa buto hejuru iburyo bw'agafishi). Markdown yerekanwa na cmark-gfm ikoreshwa na GitHub: imbonerahamwe, intonde z'imirimo, amagambo acishijwemo umurongo n'amahuza yikora.
-- Shaka hose: kanda Shift kabiri ushake dosiye iyo ari yo yose mu mushinga ukoresheje izina risa n'iryo wanditse.
+- Shaka hose: kanda Shift kabiri ushake dosiye iyo ari yo yose mu mushinga ukoresheje izina risa n'iryo wanditse. Agafishi kayo k'Ibikorwa (⇧⌘A) gakora itegeko iryo ari ryo ryose ryo muri menu ukoresheje izina ryaryo, naho agafishi k'Umwandiko (⇧⌘F) gashakisha mu mwandiko wa buri dosiye y'umushinga.
+- Guhindura imirongo ukoresheje clavier: gusubiramo, gusiba, kwimura, guhindura ibisobanuro no guhuza imirongo, no kwagura ibyatoranyijwe buhoro buhoro uhereye ku ijambo kugeza kuri dosiye yose.
 - Imenya dosiye z'inkomoko ikoresheje urutonde rw'amazina 915 y'indimi n'imiterere ya dosiye, harimo amazina ya dosiye, imigereka igizwe n'ibice byinshi n'abasemuzi b'amabwiriza. Ibice byose 297 bya Prism (amategeko 291 yigenga n'ibifasha 6) birimo, bipakururwa iyo bikenewe. Imiterere idafite amategeko yayo ihabwa amabara y'inyandiko y'ibanze.
 - Imigaragarire ifite indimi 108. Koresha Ururimi uhindure ako kanya cyangwa ukurikize ururimi rwa sisitemu. Icyo wahisemo kiribukwa; dosiye zifunguye, ibyahinduwe bitarabikwa na terminal biguma bifunguye. Mu Cyarabu, Igiheburayo n'izindi ndimi zandikwa iburyo ujya ibumoso, kode, igaragaza ribanza n'ibisohoka muri terminal bikomeza ibumoso bijya iburyo. Ubuhinduzi bwanditswe buvuye ku nyandiko z'Icyongereza, hitabwa ku muhinduzi na terminal. Amadirishya ya sisitemu akurikiza ururimi rwa macOS. Uru rutonde ntirurimo indimi zose zisanzwe cyangwa izo kwandika porogaramu. Reba [Guhindura Sumi mu zindi ndimi](CONTRIBUTING.md#translating-sumi).
 - Amabara y'urumuri n'ay'umwijima akurikiza sisitemu.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Hitamo mu mushinga | ⌥⌘1 |
 | Agafishi gakurikira / Agafishi kabanziriza | ⇧⌘] / ⇧⌘[ |
 | Bika / Bika byose | ⌘S / ⌥⌘S |
+| Dosiye ziheruka | ⌘E |
+| Shaka igikorwa | ⇧⌘A |
+| Shaka muri dosiye | ⇧⌘F |
+| Jya ku murongo:inkingi | ⌘L |
+| Subiramo umurongo cyangwa ibyatoranyijwe | ⌘D |
+| Siba umurongo | ⌘⌫ |
+| Imura umurongo hejuru / Imura umurongo hasi | ⌥⇧↑ / ⌥⇧↓ |
+| Shyira igisobanuro ku murongo | ⌘/ |
+| Huza imirongo | ⌃⇧J |
+| Hinduranya inyuguti nkuru n'into | ⇧⌘U |
+| Agura ibyatoranyijwe / Gabanya ibyatoranyijwe | ⌥↑ / ⌥↓ |
+| Tangira umurongo mushya hasi / Tangira umurongo mushya hejuru | ⇧↩ / ⌥⌘↩ |
 
 ## Gutanga umusanzu
 

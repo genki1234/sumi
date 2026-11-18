@@ -37,11 +37,23 @@
 "Copy" = "Kopiera";
 "Paste" = "Klistra in";
 "Select All" = "Markera allt";
+"Duplicate Line or Selection" = "Duplicera rad eller markering";
+"Delete Line" = "Ta bort rad";
+"Join Lines" = "Sammanfoga rader";
+"Toggle Case" = "Växla versaler/gemener";
+"Comment with Line Comment" = "Kommentera med radkommentar";
+"Move Line Up" = "Flytta rad uppåt";
+"Move Line Down" = "Flytta rad nedåt";
+"Extend Selection" = "Utöka markering";
+"Shrink Selection" = "Minska markering";
+"Start New Line" = "Påbörja ny rad";
+"Start New Line Before Current" = "Påbörja ny rad före aktuell";
 "Find…" = "Sök…";
 "Replace…" = "Ersätt…";
 "Find Next" = "Sök nästa";
 "Find Previous" = "Sök föregående";
 "Use Selection for Find" = "Sök efter markerad text";
+"Find in Files…" = "Sök i filer…";
 "Find" = "Sök";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Minska textstorlek";
 "Reset Font Size" = "Återställ textstorlek";
 "Search Everywhere (Double ⇧)" = "Sök överallt (dubbeltryck på ⇧)";
+"Recent Files" = "Senaste filer";
+"Find Action…" = "Sök åtgärd…";
+"Go to Line:Column…" = "Gå till rad:kolumn…";
 "Select in Project View" = "Markera i projektvyn";
 "Next Tab" = "Nästa flik";
 "Previous Tab" = "Föregående flik";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Öppna i terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Gå till rad:kolumn";
 "Left Panel" = "Vänster panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Filer";
 "Double ⇧ to search everywhere" = "Dubbeltryck på ⇧ för att söka överallt";
+"Files" = "Filer";
+"Actions" = "Åtgärder";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Skriv ett filnamn (använd / för att söka på sökvägen)";
+"Type a command name" = "Skriv ett kommandonamn";
+"Type text to find in project files" = "Skriv text att söka efter i projektfilerna";
 "No recent files" = "Inga senaste filer";
-"Recent Files" = "Senaste filer";
 "Matches: %1$ld / Files: %2$ld" = "Träffar: %1$ld / Filer: %2$ld";
+"Searching…" = "Söker…";
+"Switch Tab" = "Byt flik";

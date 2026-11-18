@@ -37,11 +37,23 @@
 "Copy" = "Nakili";
 "Paste" = "Bandika";
 "Select All" = "Chagua yote";
+"Duplicate Line or Selection" = "Rudufu mstari au uteuzi";
+"Delete Line" = "Futa mstari";
+"Join Lines" = "Unganisha mistari";
+"Toggle Case" = "Badilisha herufi kubwa na ndogo";
+"Comment with Line Comment" = "Weka au ondoa maoni ya mstari";
+"Move Line Up" = "Sogeza mstari juu";
+"Move Line Down" = "Sogeza mstari chini";
+"Extend Selection" = "Panua uteuzi";
+"Shrink Selection" = "Punguza uteuzi";
+"Start New Line" = "Anza mstari mpya";
+"Start New Line Before Current" = "Anza mstari mpya kabla ya huu";
 "Find…" = "Tafuta…";
 "Replace…" = "Badilisha…";
 "Find Next" = "Tafuta inayofuata";
 "Find Previous" = "Tafuta iliyotangulia";
 "Use Selection for Find" = "Tafuta maandishi yaliyochaguliwa";
+"Find in Files…" = "Tafuta kwenye faili…";
 "Find" = "Tafuta";
 "Project" = "Mradi";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Punguza ukubwa wa herufi";
 "Reset Font Size" = "Rejesha ukubwa wa herufi";
 "Search Everywhere (Double ⇧)" = "Tafuta kila mahali (⇧ mara mbili)";
+"Recent Files" = "Faili za hivi karibuni";
+"Find Action…" = "Tafuta kitendo…";
+"Go to Line:Column…" = "Nenda kwenye mstari:safu…";
 "Select in Project View" = "Chagua katika mwonekano wa mradi";
 "Next Tab" = "Kichupo kinachofuata";
 "Previous Tab" = "Kichupo kilichotangulia";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Fungua katika terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Nenda kwenye mstari:safu";
 "Left Panel" = "Paneli ya kushoto";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faili";
 "Double ⇧ to search everywhere" = "Bonyeza ⇧ mara mbili kutafuta kila mahali";
+"Files" = "Faili";
+"Actions" = "Vitendo";
+"Text" = "Maandishi";
 "Type a file name (use / to match the path)" = "Andika jina la faili (tumia / kutafuta kwa njia)";
+"Type a command name" = "Andika jina la amri";
+"Type text to find in project files" = "Andika maandishi ya kutafuta katika faili za mradi";
 "No recent files" = "Hakuna faili za hivi karibuni";
-"Recent Files" = "Faili za hivi karibuni";
 "Matches: %1$ld / Files: %2$ld" = "Zinazolingana: %1$ld / Faili: %2$ld";
+"Searching…" = "Inatafuta…";
+"Switch Tab" = "Badili kichupo";

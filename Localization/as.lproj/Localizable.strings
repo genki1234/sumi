@@ -37,11 +37,23 @@
 "Copy" = "কপি কৰক";
 "Paste" = "পেষ্ট কৰক";
 "Select All" = "সকলো বাছক";
+"Duplicate Line or Selection" = "শাৰী বা বাছনিৰ প্ৰতিলিপি বনাওক";
+"Delete Line" = "শাৰী মচক";
+"Join Lines" = "শাৰীসমূহ একত্ৰিত কৰক";
+"Toggle Case" = "ডাঙৰ/সৰু আখৰ সলনি কৰক";
+"Comment with Line Comment" = "শাৰী মন্তব্যৰে মন্তব্য কৰক";
+"Move Line Up" = "শাৰী ওপৰলৈ নিয়ক";
+"Move Line Down" = "শাৰী তললৈ নিয়ক";
+"Extend Selection" = "বাছনি বঢ়াওক";
+"Shrink Selection" = "বাছনি কমাওক";
+"Start New Line" = "নতুন শাৰী আৰম্ভ কৰক";
+"Start New Line Before Current" = "বৰ্তমান শাৰীৰ আগত নতুন শাৰী আৰম্ভ কৰক";
 "Find…" = "বিচাৰক…";
 "Replace…" = "সলনি কৰক…";
 "Find Next" = "পৰৱৰ্তীটো বিচাৰক";
 "Find Previous" = "আগৰটো বিচাৰক";
 "Use Selection for Find" = "বাছনি কৰা পাঠেৰে বিচাৰক";
+"Find in Files…" = "ফাইলসমূহত বিচাৰক…";
 "Find" = "বিচাৰ";
 "Project" = "প্ৰকল্প";
 "Terminal" = "টাৰ্মিনেল";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "আখৰৰ আকাৰ কমাওক";
 "Reset Font Size" = "আখৰৰ আকাৰ পুনঃস্থাপন কৰক";
 "Search Everywhere (Double ⇧)" = "সকলোতে বিচাৰক (⇧ দুবাৰ)";
+"Recent Files" = "শেহতীয়া ফাইল";
+"Find Action…" = "কাৰ্য বিচাৰক…";
+"Go to Line:Column…" = "শাৰী:স্তম্ভলৈ যাওক…";
 "Select in Project View" = "প্ৰকল্পৰ দৃশ্যত বাছক";
 "Next Tab" = "পৰৱৰ্তী টেব";
 "Previous Tab" = "আগৰ টেব";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "টাৰ্মিনেলত খোলক";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "শাৰী:স্তম্ভলৈ যাওক";
 "Left Panel" = "বাওঁফালৰ পেনেল";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ফাইলসমূহ";
 "Double ⇧ to search everywhere" = "সকলোতে বিচাৰিবলৈ ⇧ দুবাৰ টিপক";
+"Files" = "ফাইলসমূহ";
+"Actions" = "কাৰ্যসমূহ";
+"Text" = "পাঠ";
 "Type a file name (use / to match the path)" = "ফাইলৰ নাম লিখক (পথত মিলাবলৈ / ব্যৱহাৰ কৰক)";
+"Type a command name" = "কমাণ্ডৰ নাম লিখক";
+"Type text to find in project files" = "প্ৰকল্পৰ ফাইলত বিচাৰিবলগীয়া পাঠ লিখক";
 "No recent files" = "শেহতীয়া ফাইল নাই";
-"Recent Files" = "শেহতীয়া ফাইল";
 "Matches: %1$ld / Files: %2$ld" = "মিল: %1$ld / ফাইল: %2$ld";
+"Searching…" = "বিচাৰি আছে…";
+"Switch Tab" = "টেব সলনি কৰক";

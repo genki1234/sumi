@@ -36,7 +36,8 @@ Voer je agent uit in de ingebouwde terminal, klik op de bestanden die hij wijzig
 - Shift+Enter maakt invoer van meerdere regels in de prompt mogelijk. Plakken ondersteunt tekst met meerdere regels, bestanden en afbeeldingen; afbeeldingen worden als tijdelijke PNG-bestanden bewaard en hun paden worden tussen aanhalingstekens ingevoegd.
 - Voorvertoningen van Markdown en HTML verschijnen naast de tekst en worden tijdens het typen bijgewerkt (⇧⌘V of de knoppen rechtsboven in de tab).
   Markdown wordt weergegeven met cmark-gfm, de renderer die GitHub gebruikt, met tabellen, takenlijsten, doorhalingen en automatische links.
-- Zoek overal: druk tweemaal op Shift om elk bestand in het project te vinden met een benaderende zoekopdracht op naam.
+- Zoek overal: druk tweemaal op Shift om elk bestand in het project te vinden met een benaderende zoekopdracht op naam. De tab Acties (⇧⌘A) voert elke menuopdracht uit op naam, en de tab Tekst (⇧⌘F) doorzoekt de tekst van elk projectbestand.
+- Regels bewerken met het toetsenbord: dupliceer, verwijder, verplaats, zet in commentaar en voeg regels samen, en vergroot de selectie stap voor stap van een woord tot het hele bestand.
 - Herkent bronbestanden met een catalogus van 915 namen van talen en bestandsformaten, op basis van bestandsnamen, samengestelde extensies en scriptinterpreters. Alle 297 Prism-componenten (291 zelfstandige grammatica’s en zes hulpcomponenten) zijn meegeleverd en worden geladen wanneer nodig. Formaten zonder grammatica gebruiken eenvoudige tekstkleuring.
 - De interface biedt 108 talen. Gebruik het menu Taal om direct te wisselen of de systeemtaal te volgen. De keuze wordt onthouden; geopende bestanden, niet-bewaarde bewerkingen en terminalsessies blijven open. In Arabische, Hebreeuwse en andere interfaces van rechts naar links blijven code, voorvertoningen en terminaluitvoer van links naar rechts lopen.
   Vertalingen worden rechtstreeks geschreven vanuit de Engelse teksten en hun context in de editor en terminal. Systeempanelen volgen de taalinstellingen van macOS. Deze catalogus omvat niet alle natuurlijke talen en programmeertalen. Zie [Sumi vertalen](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Selecteer in projectweergave | ⌥⌘1 |
 | Volgende / vorige tab | ⇧⌘] / ⇧⌘[ |
 | Bewaar / Bewaar alles | ⌘S / ⌥⌘S |
+| Recente bestanden | ⌘E |
+| Zoek actie | ⇧⌘A |
+| Zoek in bestanden | ⇧⌘F |
+| Ga naar regel:kolom | ⌘L |
+| Dupliceer regel of selectie | ⌘D |
+| Verwijder regel | ⌘⌫ |
+| Verplaats regel omhoog / omlaag | ⌥⇧↑ / ⌥⇧↓ |
+| Zet in regelcommentaar | ⌘/ |
+| Voeg regels samen | ⌃⇧J |
+| Wissel hoofd-/kleine letters | ⇧⌘U |
+| Vergroot / verklein selectie | ⌥↑ / ⌥↓ |
+| Begin nieuwe regel onder / boven | ⇧↩ / ⌥⌘↩ |
 
 ## Bijdragen
 

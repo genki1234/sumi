@@ -259,7 +259,8 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         editorArea.checkExternalChanges()
     }
 
-    func showSearchEverywhere() {
+    /// Double Shift and ⇧⌘O open the Files tab, ⌘E the recent files, ⇧⌘A the Actions tab and ⇧⌘F the Text tab.
+    func showSearchEverywhere(_ mode: SearchEverywhereController.Mode = .files, query: String? = nil) {
         guard let window else { return }
         if searchController == nil {
             let controller = SearchEverywhereController(index: fileIndex, rootURL: rootURL)
@@ -268,10 +269,42 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
                 if self.beforeMaximize != nil { self.restoreFromMaximize() }
                 self.editorArea.openFile(url)
             }
+            controller.onOpenMatch = { [weak self] match in
+                guard let self else { return }
+                if self.beforeMaximize != nil { self.restoreFromMaximize() }
+                self.editorArea.openFile(match.url)
+                guard let editor = self.editorArea.currentEditor, editor.document.url == match.url.standardizedFileURL else { return }
+                editor.go(toLine: match.line, column: match.column)
+                let caret = editor.textView.selectedRange().location
+                editor.textView.setSelectedRange(NSRange(location: caret, length: match.length))
+                editor.focus()
+            }
             controller.recentFiles = { [weak self] in self?.editorArea.recentFiles ?? [] }
             searchController = controller
         }
-        if searchController?.isVisible == false { searchController?.show(attachedTo: window) }
+        searchController?.show(attachedTo: window, mode: mode, query: query)
+    }
+
+    /// ⌘L: asks for "line" or "line:column" and moves the caret there.
+    private func showGoToLine() {
+        guard let window, let editor = editorArea.currentEditor else { return }
+        let alert = NSAlert()
+        alert.messageText = L("Go to Line:Column")
+        let field = NSTextField(frame: NSRect(x: 0, y: 0, width: 220, height: 24))
+        let caret = editor.caretPosition
+        field.placeholderString = "\(caret.line):\(caret.column)"
+        field.stringValue = "\(caret.line):\(caret.column)"
+        alert.accessoryView = field
+        alert.addButton(withTitle: L("OK"))
+        alert.addButton(withTitle: L("Cancel"))
+        alert.window.initialFirstResponder = field
+        alert.beginSheetModal(for: window) { [weak editor] response in
+            guard response == .alertFirstButtonReturn, let editor else { return }
+            let numbers = field.stringValue.split(whereSeparator: { $0 == ":" || $0 == "," || $0 == " " }).compactMap { Int($0) }
+            guard let line = numbers.first else { return }
+            editor.go(toLine: line, column: numbers.count > 1 ? numbers[1] : 1)
+            editor.focus()
+        }
     }
 
     func saveSession() {
@@ -290,6 +323,19 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
     // MARK: Menu actions (reached through the responder chain)
 
     @objc func searchEverywhere(_ sender: Any?) { showSearchEverywhere() }
+    @objc func recentFiles(_ sender: Any?) { showSearchEverywhere(.files, query: "") }
+    @objc func findAction(_ sender: Any?) { showSearchEverywhere(.actions) }
+    @objc func goToLine(_ sender: Any?) { showGoToLine() }
+
+    /// ⇧⌘F: the Text tab, starting from the text selected in the editor when it is on one line.
+    @objc func findInFiles(_ sender: Any?) {
+        var query: String?
+        if let textView = editorArea.currentEditor?.textView, window?.firstResponder === textView {
+            let selected = (textView.string as NSString).substring(with: textView.selectedRange())
+            if !selected.isEmpty, !selected.contains("\n") { query = selected }
+        }
+        showSearchEverywhere(.text, query: query)
+    }
     @objc func saveDocument(_ sender: Any?) { editorArea.saveCurrent() }
     @objc func saveAllDocuments(_ sender: Any?) { editorArea.saveAll() }
     @objc func newFile(_ sender: Any?) { treeController.newItem(folder: false) }
@@ -389,6 +435,8 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
             return editorArea.currentEditor != nil
         }
         if item.action == #selector(togglePreview(_:)) { return editorArea.currentEditor?.hasPreview == true }
+        // The terminal keeps ⌘L for itself.
+        if item.action == #selector(goToLine(_:)) { return editorArea.currentEditor != nil && !console.isFocused }
         return true
     }
 

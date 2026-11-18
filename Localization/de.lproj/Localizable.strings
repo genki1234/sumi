@@ -37,11 +37,23 @@
 "Copy" = "Kopieren";
 "Paste" = "Einsetzen";
 "Select All" = "Alles auswählen";
+"Duplicate Line or Selection" = "Zeile oder Auswahl duplizieren";
+"Delete Line" = "Zeile löschen";
+"Join Lines" = "Zeilen verbinden";
+"Toggle Case" = "Groß-/Kleinschreibung umschalten";
+"Comment with Line Comment" = "Mit Zeilenkommentar auskommentieren";
+"Move Line Up" = "Zeile nach oben verschieben";
+"Move Line Down" = "Zeile nach unten verschieben";
+"Extend Selection" = "Auswahl erweitern";
+"Shrink Selection" = "Auswahl verkleinern";
+"Start New Line" = "Neue Zeile beginnen";
+"Start New Line Before Current" = "Neue Zeile vor der aktuellen beginnen";
 "Find…" = "Suchen…";
 "Replace…" = "Ersetzen…";
 "Find Next" = "Weitersuchen";
 "Find Previous" = "Rückwärts suchen";
 "Use Selection for Find" = "Auswahl als Suchtext verwenden";
+"Find in Files…" = "In Dateien suchen…";
 "Find" = "Suchen";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Schrift verkleinern";
 "Reset Font Size" = "Schriftgröße zurücksetzen";
 "Search Everywhere (Double ⇧)" = "Überall suchen (zweimal ⇧)";
+"Recent Files" = "Zuletzt verwendete Dateien";
+"Find Action…" = "Aktion suchen…";
+"Go to Line:Column…" = "Zu Zeile:Spalte gehen…";
 "Select in Project View" = "In Projektansicht auswählen";
 "Next Tab" = "Nächster Tab";
 "Previous Tab" = "Vorheriger Tab";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Im Terminal öffnen";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Zu Zeile:Spalte gehen";
 "Left Panel" = "Linker Bereich";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Dateien";
 "Double ⇧ to search everywhere" = "Drücke zweimal ⇧, um überall zu suchen";
+"Files" = "Dateien";
+"Actions" = "Aktionen";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Dateinamen eingeben (mit / im Pfad suchen)";
+"Type a command name" = "Befehlsnamen eingeben";
+"Type text to find in project files" = "Text zum Suchen in Projektdateien eingeben";
 "No recent files" = "Keine zuletzt verwendeten Dateien";
-"Recent Files" = "Zuletzt verwendete Dateien";
 "Matches: %1$ld / Files: %2$ld" = "Treffer: %1$ld / Dateien: %2$ld";
+"Searching…" = "Suche läuft…";
+"Switch Tab" = "Tab wechseln";

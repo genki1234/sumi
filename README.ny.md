@@ -35,7 +35,8 @@ Yendetsani wothandizira mu terminal yomangidwamo, dinani mafayilo amene wasintha
 - Ma terminal amagwiritsa ntchito Metal mwachizolowezi, ndi chosinthira Kujambula ndi GPU mu Maonekedwe. Sakani zotuluka ndi ⌘F; matabu atsopano amatenga foda yogwirira ntchito yomwe ilipo.
 - Shift+Enter imasunga kulemba malangizo pa mizere yambiri. Kumata kumathandiza mawu a mizere yambiri, mafayilo ndi zithunzi; zithunzi zimasungidwa ngati PNG zosakhalitsa ndipo zimalowetsedwa ngati njira m'zizindikiro za mawu.
 - Chithunzithunzi cha Markdown ndi HTML chili pafupi ndi mawu ndipo chimasintha mukamalemba (⇧⌘V kapena mabatani pamwamba kumanja kwa tabu). Markdown imawonetsedwa ndi cmark-gfm, imene GitHub imagwiritsa ntchito: matebulo, mindandanda ya ntchito, mawu ochotsedwa mzere ndi maulalo odzipanga okha.
-- Sakani Paliponse: dinani Shift kawiri kuti mupeze fayilo iliyonse mu pulojekiti ndi dzina lofanana pafupifupi.
+- Sakani Paliponse: dinani Shift kawiri kuti mupeze fayilo iliyonse mu pulojekiti ndi dzina lofanana pafupifupi. Tabu yake ya Zochita (⇧⌘A) imayendetsa lamulo lililonse la menyu potchula dzina lake, ndipo tabu ya Mawu (⇧⌘F) imasaka mawu m'mafayilo onse a pulojekiti.
+- Kusintha mizere ndi kiyibodi: bwerezani, chotsani, sunthani, sinthani kukhala ndemanga ndi kuphatikiza mizere, ndipo kulitsani kusankha pang'onopang'ono kuchokera pa liwu limodzi mpaka fayilo yonse.
 - Imadziwa mafayilo a khodi pogwiritsa ntchito mndandanda wa mayina 915 a zilankhulo ndi mitundu ya mafayilo, kuphatikiza mayina a mafayilo, zowonjezera zophatikizidwa ndi omasulira script. Zigawo zonse 297 za Prism (malamulo odziyimira okha 291 ndi othandiza 6) zilimo ndipo zimalowetsedwa zikafunika. Mitundu yopanda malamulowa imagwiritsa ntchito kuunikira mawu kosavuta.
 - Mawonekedwe ali ndi zilankhulo 108 zosankha. Gwiritsani ntchito menyu ya Chilankhulo kusintha nthawi yomweyo kapena kutsatira chilankhulo cha makina. Chosankha chimakumbukiridwa; mafayilo otseguka, zosintha zosasungidwa ndi magawo a terminal zimakhalabe zotseguka. Mu Chiarabu, Chiheberi ndi mawonekedwe ena oyenda kuchokera kumanja kupita kumanzere, khodi, zithunzithunzi ndi zotuluka za terminal zimakhalabe kuchokera kumanzere kupita kumanja. Matanthauzidwe amalembedwa mwachindunji kuchokera ku mawu a Chingelezi potsatira ntchito ya chosinthira ndi terminal. Magawo a makina amatsatira makonda a chilankhulo cha macOS. Mndandandawu sufotokoza chilankhulo chilichonse cha anthu kapena cholembera mapulogalamu. Onani [Kumasulira Sumi](CONTRIBUTING.md#translating-sumi).
 - Maonekedwe owala ndi amdima amatsatira makina.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Sankhani pa Mtengo wa Pulojekiti | ⌥⌘1 |
 | Tabu Yotsatira / Tabu Yam'mbuyo | ⇧⌘] / ⇧⌘[ |
 | Sungani / Sungani Zonse | ⌘S / ⌥⌘S |
+| Mafayilo Aposachedwa | ⌘E |
+| Pezani Chochita | ⇧⌘A |
+| Pezani mu Mafayilo | ⇧⌘F |
+| Pitani ku Mzere:Mzati | ⌘L |
+| Bwerezani Mzere kapena Zosankhidwa | ⌘D |
+| Chotsani Mzere | ⌘⌫ |
+| Sunthani Mzere Mmwamba / Sunthani Mzere Pansi | ⌥⇧↑ / ⌥⇧↓ |
+| Ikani Ndemanga ya Mzere | ⌘/ |
+| Phatikizani Mizere | ⌃⇧J |
+| Sinthani Zilembo Zazikulu ndi Zazing'ono | ⇧⌘U |
+| Kulitsani Kusankha / Chepetsani Kusankha | ⌥↑ / ⌥↓ |
+| Yambani Mzere Watsopano Pansi / Yambani Mzere Watsopano Pamwamba | ⇧↩ / ⌥⌘↩ |
 
 ## Kuthandizira
 

@@ -36,7 +36,8 @@ Spusťte agenta ve vestavěném terminálu, kliknutím otevírejte soubory, se k
 - Shift+Enter umožňuje víceřádkové zadávání pokynů. Vkládat lze víceřádkový text, soubory i obrázky; obrázky se uchovávají jako dočasné PNG a vkládají se jako cesty v uvozovkách.
 - Náhled Markdownu a HTML vedle textu se aktualizuje při psaní (⇧⌘V nebo tlačítka vpravo nahoře v panelu).
   Markdown vykresluje cmark-gfm, který používá i GitHub: tabulky, seznamy úkolů, přeškrtnutý text a automatické odkazy.
-- Hledat všude: dvojím stisknutím Shift najdete libovolný soubor projektu pomocí přibližné shody názvu.
+- Hledat všude: dvojím stisknutím Shift najdete libovolný soubor projektu pomocí přibližné shody názvu. Jeho panel „Akce“ (⇧⌘A) spustí libovolný příkaz nabídky podle názvu a panel „Text“ (⇧⌘F) prohledá text všech souborů projektu.
+- Úpravy řádků z klávesnice: duplikování, odstraňování, přesouvání, zakomentování a spojování řádků a postupné rozšiřování výběru od slova až po celý soubor.
 - Rozpoznává zdrojové soubory podle katalogu 915 názvů jazyků a formátů, včetně názvů souborů, složených přípon a interpretů skriptů. Součástí je všech 297 komponent Prism (291 samostatných gramatik a 6 pomocných komponent), načítaných podle potřeby. Formáty bez gramatiky používají základní zvýraznění textu.
 - Rozhraní nabízí 108 jazyků. Nabídka Jazyk umožňuje okamžité přepnutí nebo použití jazyka systému. Volba se pamatuje; otevřené soubory, neuložené úpravy i relace terminálu zůstávají otevřené. V arabském, hebrejském a dalších rozhraních zprava doleva zůstávají kód, náhledy a výstup terminálu zleva doprava.
   Překlady vznikají přímo z anglických textů s ohledem na kontext editoru a terminálu. Systémové panely se řídí nastavením jazyka macOS. Katalog nezahrnuje všechny přirozené a programovací jazyky. Viz [Překládání Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Vybrat v zobrazení projektu | ⌥⌘1 |
 | Další / předchozí panel | ⇧⌘] / ⇧⌘[ |
 | Uložit / Uložit vše | ⌘S / ⌥⌘S |
+| Nedávné soubory | ⌘E |
+| Najít akci | ⇧⌘A |
+| Najít v souborech | ⇧⌘F |
+| Přejít na řádek:sloupec | ⌘L |
+| Duplikovat řádek nebo výběr | ⌘D |
+| Odstranit řádek | ⌘⌫ |
+| Přesunout řádek nahoru / dolů | ⌥⇧↑ / ⌥⇧↓ |
+| Zakomentovat řádkovým komentářem | ⌘/ |
+| Spojit řádky | ⌃⇧J |
+| Přepnout velikost písmen | ⇧⌘U |
+| Rozšířit / zúžit výběr | ⌥↑ / ⌥↓ |
+| Začít nový řádek pod / nad | ⇧↩ / ⌥⌘↩ |
 
 ## Přispívání
 

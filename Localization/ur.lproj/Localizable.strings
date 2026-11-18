@@ -37,11 +37,23 @@
 "Copy" = "نقل کریں";
 "Paste" = "چسپاں کریں";
 "Select All" = "سب منتخب کریں";
+"Duplicate Line or Selection" = "سطر یا انتخاب کی نقل بنائیں";
+"Delete Line" = "سطر حذف کریں";
+"Join Lines" = "سطریں جوڑیں";
+"Toggle Case" = "بڑے اور چھوٹے حروف بدلیں";
+"Comment with Line Comment" = "سطری تبصرے سے تبصرہ کریں";
+"Move Line Up" = "سطر اوپر منتقل کریں";
+"Move Line Down" = "سطر نیچے منتقل کریں";
+"Extend Selection" = "انتخاب بڑھائیں";
+"Shrink Selection" = "انتخاب گھٹائیں";
+"Start New Line" = "نئی سطر شروع کریں";
+"Start New Line Before Current" = "موجودہ سطر سے پہلے نئی سطر شروع کریں";
 "Find…" = "تلاش کریں…";
 "Replace…" = "بدلیں…";
 "Find Next" = "اگلا تلاش کریں";
 "Find Previous" = "پچھلا تلاش کریں";
 "Use Selection for Find" = "منتخب متن تلاش کریں";
+"Find in Files…" = "فائلوں میں تلاش کریں…";
 "Find" = "تلاش";
 "Project" = "منصوبہ";
 "Terminal" = "ٹرمینل";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "حروف کا حجم گھٹائیں";
 "Reset Font Size" = "حروف کا حجم بحال کریں";
 "Search Everywhere (Double ⇧)" = "ہر جگہ تلاش کریں (⇧ دو بار)";
+"Recent Files" = "حالیہ فائلیں";
+"Find Action…" = "کارروائی تلاش کریں…";
+"Go to Line:Column…" = "سطر:کالم پر جائیں…";
 "Select in Project View" = "منصوبے کے منظر میں منتخب کریں";
 "Next Tab" = "اگلا ٹیب";
 "Previous Tab" = "پچھلا ٹیب";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ٹرمینل میں کھولیں";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "سطر:کالم پر جائیں";
 "Left Panel" = "بایاں پینل";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "فائلیں";
 "Double ⇧ to search everywhere" = "ہر جگہ تلاش کرنے کے لیے ⇧ دو بار دبائیں";
+"Files" = "فائلیں";
+"Actions" = "کارروائیاں";
+"Text" = "متن";
 "Type a file name (use / to match the path)" = "فائل کا نام لکھیں (راستے سے تلاش کے لیے / استعمال کریں)";
+"Type a command name" = "کمانڈ کا نام لکھیں";
+"Type text to find in project files" = "منصوبے کی فائلوں میں تلاش کرنے کے لیے متن لکھیں";
 "No recent files" = "کوئی حالیہ فائل نہیں";
-"Recent Files" = "حالیہ فائلیں";
 "Matches: %1$ld / Files: %2$ld" = "مطابقتیں: %1$ld / فائلیں: %2$ld";
+"Searching…" = "تلاش جاری ہے…";
+"Switch Tab" = "ٹیب بدلیں";

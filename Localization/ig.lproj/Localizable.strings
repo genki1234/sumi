@@ -37,11 +37,23 @@
 "Copy" = "Detuo";
 "Paste" = "Tapawa";
 "Select All" = "Họrọ Ha Niile";
+"Duplicate Line or Selection" = "Mee Nnomi Ahịrị ma ọ bụ Nhọrọ";
+"Delete Line" = "Hichapụ Ahịrị";
+"Join Lines" = "Jikọọ Ahịrị";
+"Toggle Case" = "Gbanwee Mkpụrụedemede Ukwu/Nta";
+"Comment with Line Comment" = "Tinye Nkọwa Ahịrị";
+"Move Line Up" = "Bulie Ahịrị Elu";
+"Move Line Down" = "Budata Ahịrị Ala";
+"Extend Selection" = "Gbasaa Nhọrọ";
+"Shrink Selection" = "Belata Nhọrọ";
+"Start New Line" = "Malite Ahịrị Ọhụrụ";
+"Start New Line Before Current" = "Malite Ahịrị Ọhụrụ Tupu Nke Ugbu A";
 "Find…" = "Chọta…";
 "Replace…" = "Dochie…";
 "Find Next" = "Chọta Nke Ọzọ";
 "Find Previous" = "Chọta Nke Gara Aga";
 "Use Selection for Find" = "Chọọ Ederede Ahọpụtara";
+"Find in Files…" = "Chọta na Faịlụ…";
 "Find" = "Chọta";
 "Project" = "Ọrụ";
 "Terminal" = "Ọnụ Iwu";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Mee Mkpụrụedemede Obere";
 "Reset Font Size" = "Tọgharịa Nha Mkpụrụedemede";
 "Search Everywhere (Double ⇧)" = "Chọọ Ebe Niile (⇧ Ugboro Abụọ)";
+"Recent Files" = "Faịlụ E Meghere Nso Nso A";
+"Find Action…" = "Chọta Omume…";
+"Go to Line:Column…" = "Gaa na Ahịrị:Kọlụm…";
 "Select in Project View" = "Họrọ n'Osisi Faịlụ Ọrụ";
 "Next Tab" = "Taabụ Na-esote";
 "Previous Tab" = "Taabụ Gara Aga";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Mepee n'Ọnụ Iwu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Gaa na Ahịrị:Kọlụm";
 "Left Panel" = "Ogwe Aka Ekpe";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faịlụ";
 "Double ⇧ to search everywhere" = "Pịa ⇧ ugboro abụọ ka ịchọọ ebe niile";
+"Files" = "Faịlụ";
+"Actions" = "Omume";
+"Text" = "Ederede";
 "Type a file name (use / to match the path)" = "Dee aha faịlụ (jiri / chọọ ụzọ faịlụ)";
+"Type a command name" = "Dee aha iwu";
+"Type text to find in project files" = "Dee ederede ị ga-achọ na faịlụ ọrụ";
 "No recent files" = "Enweghị faịlụ e meghere nso nso a";
-"Recent Files" = "Faịlụ E Meghere Nso Nso A";
 "Matches: %1$ld / Files: %2$ld" = "Ndị Dakọtara: %1$ld / Faịlụ: %2$ld";
+"Searching…" = "Na-achọ…";
+"Switch Tab" = "Gbanwee Taabụ";

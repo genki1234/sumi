@@ -37,11 +37,23 @@
 "Copy" = "Copier";
 "Paste" = "Coller";
 "Select All" = "Tout sélectionner";
+"Duplicate Line or Selection" = "Dupliquer la ligne ou la sélection";
+"Delete Line" = "Supprimer la ligne";
+"Join Lines" = "Joindre les lignes";
+"Toggle Case" = "Basculer majuscules/minuscules";
+"Comment with Line Comment" = "Commenter avec un commentaire de ligne";
+"Move Line Up" = "Déplacer la ligne vers le haut";
+"Move Line Down" = "Déplacer la ligne vers le bas";
+"Extend Selection" = "Étendre la sélection";
+"Shrink Selection" = "Réduire la sélection";
+"Start New Line" = "Commencer une nouvelle ligne";
+"Start New Line Before Current" = "Commencer une nouvelle ligne avant la ligne actuelle";
 "Find…" = "Rechercher…";
 "Replace…" = "Remplacer…";
 "Find Next" = "Rechercher le suivant";
 "Find Previous" = "Rechercher le précédent";
 "Use Selection for Find" = "Rechercher la sélection";
+"Find in Files…" = "Rechercher dans les fichiers…";
 "Find" = "Rechercher";
 "Project" = "Projet";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Réduire le texte";
 "Reset Font Size" = "Rétablir la taille du texte";
 "Search Everywhere (Double ⇧)" = "Rechercher partout (⇧ deux fois)";
+"Recent Files" = "Fichiers récents";
+"Find Action…" = "Rechercher une action…";
+"Go to Line:Column…" = "Aller à la ligne:colonne…";
 "Select in Project View" = "Sélectionner dans l’arborescence du projet";
 "Next Tab" = "Onglet suivant";
 "Previous Tab" = "Onglet précédent";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Ouvrir dans le terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Aller à la ligne:colonne";
 "Left Panel" = "Panneau gauche";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fichiers";
 "Double ⇧ to search everywhere" = "Appuyez deux fois sur ⇧ pour rechercher partout";
+"Files" = "Fichiers";
+"Actions" = "Actions";
+"Text" = "Texte";
 "Type a file name (use / to match the path)" = "Saisissez un nom de fichier (avec / pour rechercher dans le chemin)";
+"Type a command name" = "Saisissez un nom de commande";
+"Type text to find in project files" = "Saisissez le texte à rechercher dans les fichiers du projet";
 "No recent files" = "Aucun fichier récent";
-"Recent Files" = "Fichiers récents";
 "Matches: %1$ld / Files: %2$ld" = "Résultats : %1$ld / Fichiers : %2$ld";
+"Searching…" = "Recherche en cours…";
+"Switch Tab" = "Changer d’onglet";

@@ -37,11 +37,23 @@
 "Copy" = "Kopier";
 "Paste" = "Lim inn";
 "Select All" = "Marker alt";
+"Duplicate Line or Selection" = "Dupliser linje eller markering";
+"Delete Line" = "Slett linje";
+"Join Lines" = "Slå sammen linjer";
+"Toggle Case" = "Bytt mellom store og små bokstaver";
+"Comment with Line Comment" = "Kommenter med linjekommentar";
+"Move Line Up" = "Flytt linje opp";
+"Move Line Down" = "Flytt linje ned";
+"Extend Selection" = "Utvid markering";
+"Shrink Selection" = "Krymp markering";
+"Start New Line" = "Start ny linje";
+"Start New Line Before Current" = "Start ny linje før gjeldende";
 "Find…" = "Finn…";
 "Replace…" = "Erstatt…";
 "Find Next" = "Finn neste";
 "Find Previous" = "Finn forrige";
 "Use Selection for Find" = "Bruk markering som søketekst";
+"Find in Files…" = "Finn i filer…";
 "Find" = "Finn";
 "Project" = "Prosjekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Reduser tekststørrelsen";
 "Reset Font Size" = "Tilbakestill tekststørrelsen";
 "Search Everywhere (Double ⇧)" = "Søk overalt (⇧ to ganger)";
+"Recent Files" = "Nylige filer";
+"Find Action…" = "Finn handling…";
+"Go to Line:Column…" = "Gå til linje:kolonne…";
 "Select in Project View" = "Marker i prosjektvisning";
 "Next Tab" = "Neste fane";
 "Previous Tab" = "Forrige fane";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Åpne i terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Gå til linje:kolonne";
 "Left Panel" = "Venstre panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Filer";
 "Double ⇧ to search everywhere" = "Trykk ⇧ to ganger for å søke overalt";
+"Files" = "Filer";
+"Actions" = "Handlinger";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Skriv et filnavn (bruk / for å søke i stien)";
+"Type a command name" = "Skriv et kommandonavn";
+"Type text to find in project files" = "Skriv tekst du vil finne i prosjektfilene";
 "No recent files" = "Ingen nylige filer";
-"Recent Files" = "Nylige filer";
 "Matches: %1$ld / Files: %2$ld" = "Treff: %1$ld / Filer: %2$ld";
+"Searching…" = "Søker…";
+"Switch Tab" = "Bytt fane";

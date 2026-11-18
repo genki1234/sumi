@@ -37,11 +37,23 @@
 "Copy" = "କପି କରନ୍ତୁ";
 "Paste" = "ଲଗାନ୍ତୁ";
 "Select All" = "ସବୁ ବାଛନ୍ତୁ";
+"Duplicate Line or Selection" = "ଧାଡ଼ି ବା ଚୟନର ନକଲ କରନ୍ତୁ";
+"Delete Line" = "ଧାଡ଼ି ବିଲୋପ କରନ୍ତୁ";
+"Join Lines" = "ଧାଡ଼ିଗୁଡ଼ିକ ଯୋଡ଼ନ୍ତୁ";
+"Toggle Case" = "ବଡ଼/ଛୋଟ ଅକ୍ଷର ବଦଳାନ୍ତୁ";
+"Comment with Line Comment" = "ଧାଡ଼ି ମନ୍ତବ୍ୟ ସହ ମନ୍ତବ୍ୟ କରନ୍ତୁ";
+"Move Line Up" = "ଧାଡ଼ି ଉପରକୁ ଘୁଞ୍ଚାନ୍ତୁ";
+"Move Line Down" = "ଧାଡ଼ି ତଳକୁ ଘୁଞ୍ଚାନ୍ତୁ";
+"Extend Selection" = "ଚୟନ ବିସ୍ତାର କରନ୍ତୁ";
+"Shrink Selection" = "ଚୟନ ସଙ୍କୁଚିତ କରନ୍ତୁ";
+"Start New Line" = "ନୂଆ ଧାଡ଼ି ଆରମ୍ଭ କରନ୍ତୁ";
+"Start New Line Before Current" = "ବର୍ତ୍ତମାନ ଧାଡ଼ି ପୂର୍ବରୁ ନୂଆ ଧାଡ଼ି ଆରମ୍ଭ କରନ୍ତୁ";
 "Find…" = "ଖୋଜନ୍ତୁ…";
 "Replace…" = "ବଦଳାନ୍ତୁ…";
 "Find Next" = "ପରବର୍ତ୍ତୀଟି ଖୋଜନ୍ତୁ";
 "Find Previous" = "ପୂର୍ବବର୍ତ୍ତୀଟି ଖୋଜନ୍ତୁ";
 "Use Selection for Find" = "ବଛାଯାଇଥିବା ପାଠ୍ୟ ଖୋଜନ୍ତୁ";
+"Find in Files…" = "ଫାଇଲ୍‌ଗୁଡ଼ିକରେ ଖୋଜନ୍ତୁ…";
 "Find" = "ଖୋଜନ୍ତୁ";
 "Project" = "ପ୍ରକଳ୍ପ";
 "Terminal" = "ଟର୍ମିନାଲ୍";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "ଅକ୍ଷର ଆକାର କମାନ୍ତୁ";
 "Reset Font Size" = "ଅକ୍ଷର ଆକାର ପୁନଃସ୍ଥାପନ କରନ୍ତୁ";
 "Search Everywhere (Double ⇧)" = "ସବୁଠି ଖୋଜନ୍ତୁ (⇧ ଦୁଇଥର)";
+"Recent Files" = "ସାମ୍ପ୍ରତିକ ଫାଇଲ୍‌ଗୁଡ଼ିକ";
+"Find Action…" = "କାର୍ଯ୍ୟ ଖୋଜନ୍ତୁ…";
+"Go to Line:Column…" = "ଧାଡ଼ି:ସ୍ତମ୍ଭକୁ ଯାଆନ୍ତୁ…";
 "Select in Project View" = "ପ୍ରକଳ୍ପ ବୃକ୍ଷରେ ବାଛନ୍ତୁ";
 "Next Tab" = "ପରବର୍ତ୍ତୀ ଟ୍ୟାବ୍";
 "Previous Tab" = "ପୂର୍ବବର୍ତ୍ତୀ ଟ୍ୟାବ୍";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ଟର୍ମିନାଲ୍‌ରେ ଖୋଲନ୍ତୁ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "ଧାଡ଼ି:ସ୍ତମ୍ଭକୁ ଯାଆନ୍ତୁ";
 "Left Panel" = "ବାମ ପ୍ୟାନେଲ୍";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ଫାଇଲ୍‌ଗୁଡ଼ିକ";
 "Double ⇧ to search everywhere" = "ସବୁଠି ଖୋଜିବାକୁ ⇧ ଦୁଇଥର ଦବାନ୍ତୁ";
+"Files" = "ଫାଇଲ୍‌ଗୁଡ଼ିକ";
+"Actions" = "କାର୍ଯ୍ୟଗୁଡ଼ିକ";
+"Text" = "ପାଠ୍ୟ";
 "Type a file name (use / to match the path)" = "ଫାଇଲ୍ ନାମ ଲେଖନ୍ତୁ (ପଥ ଖୋଜିବାକୁ / ବ୍ୟବହାର କରନ୍ତୁ)";
+"Type a command name" = "ନିର୍ଦ୍ଦେଶର ନାମ ଲେଖନ୍ତୁ";
+"Type text to find in project files" = "ପ୍ରକଳ୍ପ ଫାଇଲ୍‌ଗୁଡ଼ିକରେ ଖୋଜିବାକୁ ପାଠ୍ୟ ଲେଖନ୍ତୁ";
 "No recent files" = "ସାମ୍ପ୍ରତିକ ଫାଇଲ୍ ନାହିଁ";
-"Recent Files" = "ସାମ୍ପ୍ରତିକ ଫାଇଲ୍‌ଗୁଡ଼ିକ";
 "Matches: %1$ld / Files: %2$ld" = "ମେଳ: %1$ld / ଫାଇଲ୍: %2$ld";
+"Searching…" = "ଖୋଜୁଛି…";
+"Switch Tab" = "ଟ୍ୟାବ୍ ବଦଳାନ୍ତୁ";

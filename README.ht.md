@@ -35,7 +35,8 @@ Kouri ajan ou nan tèminal entegre a, klike sou fichye li manyen yo pou ouvri yo
 - Tèminal yo sèvi ak Metal pa defo, avèk opsyon Desen ak GPU nan meni Afichaj. Chèche nan sòti a ak ⌘F; nouvo onglet yo eritye repètwa travay aktyèl la.
 - Shift+Enter kenbe antre enstriksyon sou plizyè liy. Kole sipòte tèks sou plizyè liy, fichye ak imaj; imaj yo rete kòm PNG tanporè epi yo antre kòm chemen ant gimè.
 - Apèsi Markdown ak HTML bò kote tèks la mete ajou pandan w ap ekri (⇧⌘V oswa bouton anwo adwat onglet la). Markdown sèvi ak cmark-gfm, motè rann GitHub sèvi avè l la: tablo, lis travay, tèks bare ak lyen otomatik.
-- Chèche tout kote: peze Shift de fwa pou jwenn nenpòt fichye nan pwojè a ak yon rechèch non ki aksepte matche apwoksimatif.
+- Chèche tout kote: peze Shift de fwa pou jwenn nenpòt fichye nan pwojè a ak yon rechèch non ki aksepte matche apwoksimatif. Onglet Aksyon li (⇧⌘A) lanse nenpòt kòmand meni pa non l, epi onglet Tèks li (⇧⌘F) chèche nan tèks tout fichye pwojè a.
+- Modifikasyon liy ak klavye a: double, efase, deplase, kòmante epi ini liy yo, epi elaji seleksyon an etap pa etap depi yon mo rive nan tout fichye a.
 - Li rekonèt fichye sous avèk yon katalòg 915 non lang ak fòma fichye, ki gen ladan non fichye, ekstansyon konpoze ak entèprèt script. Tout 297 konpozan Prism yo (291 gramè endepandan ak 6 zouti sipò) vini ansanm epi chaje lè sa nesesè. Fòma san gramè sèvi ak kolorizasyon tèks debaz.
 - Entèfas la gen 108 opsyon lang. Sèvi ak meni Lang pou chanje touswit oswa swiv lang sistèm nan. Chwa a konsève; fichye ouvè, modifikasyon ki poko anrejistre ak sesyon tèminal yo rete ouvè. Nan entèfas arab, ebre ak lòt lang ki ale adwat agoch, kòd, apèsi ak sòti tèminal la toujou ale agoch adwat. Tradiksyon yo ekri dirèkteman apati tèks anglè yo nan kontèks editè ak tèminal la. Panèl sistèm yo swiv anviwònman lang macOS. Katalòg sa a pa kouvri tout lang natirèl oswa lang pwogramasyon. Gade [Tradui Sumi](CONTRIBUTING.md#translating-sumi).
 - Aparans klè ak fonse swiv sistèm nan.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Chwazi nan afichaj pwojè a | ⌥⌘1 |
 | Pwochen onglet / Onglet anvan an | ⇧⌘] / ⇧⌘[ |
 | Anrejistre / Anrejistre tout | ⌘S / ⌥⌘S |
+| Fichye resan yo | ⌘E |
+| Chèche aksyon | ⇧⌘A |
+| Chèche nan fichye yo | ⇧⌘F |
+| Ale nan liy:kolòn | ⌘L |
+| Double liy la oswa seleksyon an | ⌘D |
+| Efase liy la | ⌘⌫ |
+| Monte liy la / Desann liy la | ⌥⇧↑ / ⌥⇧↓ |
+| Kòmante ak kòmantè liy | ⌘/ |
+| Ini liy yo | ⌃⇧J |
+| Chanje majiskil/miniskil | ⇧⌘U |
+| Elaji seleksyon an / Retresi seleksyon an | ⌥↑ / ⌥↓ |
+| Kòmanse yon nouvo liy anba / anwo | ⇧↩ / ⌥⌘↩ |
 
 ## Kontribisyon
 

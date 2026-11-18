@@ -36,7 +36,8 @@ Lanciate u vostru agente in u terminale integratu, cliccate nant'à i schedarii 
 - Shift+Enter permette d'inserisce richieste nant'à parechje linee. Si ponu incollà testu multilinea, schedarii è immagini; l'immagini sò tenute cum'è PNG pruvisorii è inserite cum'è percorsi trà virgulette.
 - L'anteprima Markdown è HTML hè accantu à u testu è s'aghjorna mentre scrivite (⇧⌘V, o i buttoni in cima à diritta di a linguetta).
   U Markdown hè resu cù cmark-gfm, u mutore adupratu da GitHub: tavule, liste di compiti, testu barratu è ligami autumatichi.
-- Circà dapertuttu: appughjate Shift duie volte per truvà ogni schedariu di u prughjettu cù una ricerca apprussimativa di u nome.
+- Circà dapertuttu: appughjate Shift duie volte per truvà ogni schedariu di u prughjettu cù una ricerca apprussimativa di u nome. A so linguetta «Azzioni» (⇧⌘A) eseguisce ogni cumanda di menu per nome, è a linguetta «Testu» (⇧⌘F) cerca in u testu di tutti i schedarii di u prughjettu.
+- Mudificazione di e linee da a tastera: duplicà, squassà, spustà, cummentà è unì e linee, è allargà a selezzione passu à passu da una parolla à tuttu u schedariu.
 - Ricunnosce i schedarii fonte cù un catalogu di 915 nomi di lingue è furmati, cumpresi nomi di schedarii, estensioni cumposte è interpreti di script. Tutti i 297 cumpunenti Prism (291 grammatiche autonome è 6 aiuti) sò inclusi è caricati à a dumanda. I furmati senza grammatica adopranu una messa in risaltu di testu di basa.
 - L'interfaccia prupone 108 lingue. Aduprate u menù Lingua per cambià subitu, o seguitate a lingua di u sistema. A scelta hè ricurdata; i schedarii aperti, e mudifiche micca salvate è e sessioni di terminale fermanu aperti. In arabu, ebreu è altre interfacce da diritta à manca, u codice, l'anteprime è l'uscita di u terminale fermanu da manca à diritta.
   E traduzzioni sò scritte direttamente da i testi inglesi, tenendu contu di u cuntestu di l'editore è di u terminale. I pannelli di u sistema seguitanu i paràmetri di lingua di macOS. Stu catalogu ùn copre micca tutte e lingue naturali o di prugrammazione. Vede [Traduzzione di Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Selezziunà in a vista di u prughjettu | ⌥⌘1 |
 | Linguetta prossima / precedente | ⇧⌘] / ⇧⌘[ |
 | Salvà / Salvà tuttu | ⌘S / ⌥⌘S |
+| Schedarii recenti | ⌘E |
+| Circà un'azzione | ⇧⌘A |
+| Circà in i schedarii | ⇧⌘F |
+| Andà à a linea:culonna | ⌘L |
+| Duplicà a linea o a selezzione | ⌘D |
+| Squassà a linea | ⌘⌫ |
+| Spustà a linea in sù / in giò | ⌥⇧↑ / ⌥⇧↓ |
+| Cummentà cù un cummentu di linea | ⌘/ |
+| Unì e linee | ⌃⇧J |
+| Cambià maiuscule/minuscule | ⇧⌘U |
+| Allargà / ristringhje a selezzione | ⌥↑ / ⌥↓ |
+| Principià una linea nova sottu / sopra | ⇧↩ / ⌥⌘↩ |
 
 ## Cuntribuisce
 

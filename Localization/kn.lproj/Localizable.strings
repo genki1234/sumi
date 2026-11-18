@@ -37,11 +37,23 @@
 "Copy" = "ನಕಲಿಸಿ";
 "Paste" = "ಅಂಟಿಸಿ";
 "Select All" = "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ";
+"Duplicate Line or Selection" = "ಸಾಲು ಅಥವಾ ಆಯ್ಕೆಯ ಪ್ರತಿ ಮಾಡಿ";
+"Delete Line" = "ಸಾಲು ಅಳಿಸಿ";
+"Join Lines" = "ಸಾಲುಗಳನ್ನು ಜೋಡಿಸಿ";
+"Toggle Case" = "ದೊಡ್ಡ/ಸಣ್ಣ ಅಕ್ಷರ ಬದಲಿಸಿ";
+"Comment with Line Comment" = "ಸಾಲು ಟಿಪ್ಪಣಿಯಿಂದ ಟಿಪ್ಪಣಿ ಮಾಡಿ";
+"Move Line Up" = "ಸಾಲನ್ನು ಮೇಲೆ ಸರಿಸಿ";
+"Move Line Down" = "ಸಾಲನ್ನು ಕೆಳಗೆ ಸರಿಸಿ";
+"Extend Selection" = "ಆಯ್ಕೆಯನ್ನು ವಿಸ್ತರಿಸಿ";
+"Shrink Selection" = "ಆಯ್ಕೆಯನ್ನು ಕುಗ್ಗಿಸಿ";
+"Start New Line" = "ಹೊಸ ಸಾಲು ಆರಂಭಿಸಿ";
+"Start New Line Before Current" = "ಪ್ರಸ್ತುತ ಸಾಲಿನ ಮೊದಲು ಹೊಸ ಸಾಲು ಆರಂಭಿಸಿ";
 "Find…" = "ಹುಡುಕಿ…";
 "Replace…" = "ಬದಲಿಸಿ…";
 "Find Next" = "ಮುಂದಿನದನ್ನು ಹುಡುಕಿ";
 "Find Previous" = "ಹಿಂದಿನದನ್ನು ಹುಡುಕಿ";
 "Use Selection for Find" = "ಆಯ್ದ ಪಠ್ಯವನ್ನು ಹುಡುಕಿ";
+"Find in Files…" = "ಫೈಲ್‌ಗಳಲ್ಲಿ ಹುಡುಕಿ…";
 "Find" = "ಹುಡುಕಿ";
 "Project" = "ಪ್ರಾಜೆಕ್ಟ್";
 "Terminal" = "ಟರ್ಮಿನಲ್";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "ಅಕ್ಷರ ಗಾತ್ರ ಕಡಿಮೆಮಾಡಿ";
 "Reset Font Size" = "ಅಕ್ಷರ ಗಾತ್ರ ಮರುಹೊಂದಿಸಿ";
 "Search Everywhere (Double ⇧)" = "ಎಲ್ಲೆಡೆ ಹುಡುಕಿ (⇧ ಎರಡು ಬಾರಿ)";
+"Recent Files" = "ಇತ್ತೀಚಿನ ಫೈಲ್‌ಗಳು";
+"Find Action…" = "ಕ್ರಿಯೆ ಹುಡುಕಿ…";
+"Go to Line:Column…" = "ಸಾಲು:ಕಾಲಮ್‌ಗೆ ಹೋಗಿ…";
 "Select in Project View" = "ಪ್ರಾಜೆಕ್ಟ್ ಮರದಲ್ಲಿ ಆಯ್ಕೆಮಾಡಿ";
 "Next Tab" = "ಮುಂದಿನ ಟ್ಯಾಬ್";
 "Previous Tab" = "ಹಿಂದಿನ ಟ್ಯಾಬ್";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "ಸಾಲು:ಕಾಲಮ್‌ಗೆ ಹೋಗಿ";
 "Left Panel" = "ಎಡ ಫಲಕ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ಫೈಲ್‌ಗಳು";
 "Double ⇧ to search everywhere" = "ಎಲ್ಲೆಡೆ ಹುಡುಕಲು ⇧ ಎರಡು ಬಾರಿ ಒತ್ತಿ";
+"Files" = "ಫೈಲ್‌ಗಳು";
+"Actions" = "ಕ್ರಿಯೆಗಳು";
+"Text" = "ಪಠ್ಯ";
 "Type a file name (use / to match the path)" = "ಫೈಲ್ ಹೆಸರು ಟೈಪ್ ಮಾಡಿ (ಮಾರ್ಗ ಹುಡುಕಲು / ಬಳಸಿ)";
+"Type a command name" = "ಆಜ್ಞೆಯ ಹೆಸರು ಟೈಪ್ ಮಾಡಿ";
+"Type text to find in project files" = "ಪ್ರಾಜೆಕ್ಟ್ ಫೈಲ್‌ಗಳಲ್ಲಿ ಹುಡುಕಬೇಕಾದ ಪಠ್ಯ ಟೈಪ್ ಮಾಡಿ";
 "No recent files" = "ಇತ್ತೀಚಿನ ಫೈಲ್‌ಗಳಿಲ್ಲ";
-"Recent Files" = "ಇತ್ತೀಚಿನ ಫೈಲ್‌ಗಳು";
 "Matches: %1$ld / Files: %2$ld" = "ಹೊಂದಾಣಿಕೆಗಳು: %1$ld / ಫೈಲ್‌ಗಳು: %2$ld";
+"Searching…" = "ಹುಡುಕಲಾಗುತ್ತಿದೆ…";
+"Switch Tab" = "ಟ್ಯಾಬ್ ಬದಲಿಸಿ";

@@ -35,7 +35,8 @@ Wakiilkaaga ku socodsii terminalka ku dhex jira, guji faylasha uu taabto si aad 
 - Terminaladu asal ahaan waxay isticmaalaan Metal; badhanka Sawir ku samaynta GPU wuxuu ku yaal Muuqaal. Wax-soo-saarka ku raadi ⌘F; tababka cusub waxay dhaxlaan galka shaqada ee hadda.
 - Shift+Enter wuxuu ilaaliyaa gelinta codsi xariiqyo badan leh. Waxaa la dhejin karaa qoraal xariiqyo badan, faylal iyo sawirro; sawirrada waxaa loo hayaa PNG ku meel gaar ah, waddooyinkoodana waxaa lagu geliyaa calaamado xigasho.
 - Hordhaca Markdown iyo HTML wuxuu yaal qoraalka agtiisa, waana la cusboonaysiiyaa markaad qorto (⇧⌘V ama badhamada midigta sare ee tabka). Markdown waxaa sawira cmark-gfm ee GitHub adeegsado: miisas, liisaska hawlaha, qoraal xarriiq dul maray iyo xiriiriyeyaal otomaatig ah.
-- Meel kasta ka raadi: laba jeer riix Shift si fayl kasta oo mashruuca ah loogu helo magac qiyaas ahaan la mid ah.
+- Meel kasta ka raadi: laba jeer riix Shift si fayl kasta oo mashruuca ah loogu helo magac qiyaas ahaan la mid ah. Tabkiisa Ficillo (⇧⌘A) wuxuu magaciisa ku fuliyaa amar kasta oo liisaska ku jira, tabkiisa Qoraal (⇧⌘F) wuxuuna ka raadiyaa qoraalka fayl kasta oo mashruuca ah.
+- Tafatirka xariiqyada ee kiiboodhka: nuqul ka samee, tirtir, rar, faallo ka dhig oo isku dar xariiqyada, xulashadana tallaabo-tallaabo u ballaari laga bilaabo eray ilaa faylka oo dhan.
 - Faylasha koodka waxaa lagu aqoonsadaa diiwaan ka kooban 915 magac oo luqado iyo qaabab fayl ah, oo ay ku jiraan magacyada faylasha, dabagalyo isku dhafan iyo turjubaanada script-ka. Dhammaan 297 qaybaha Prism (291 naxwe oo madax-bannaan iyo 6 caawiye) waa ku jiraan, waxaana la raraa marka loo baahdo. Qaababka aan naxwe lahayn waxay helaan midabaynta qoraalka aasaasiga ah.
 - Isdhexgalku wuxuu leeyahay 108 luqadood. Liiska Luqad isla markiiba ku beddel ama raac luqadda nidaamka. Doorashada waa la xasuustaa; faylasha furan, wax ka beddelka aan la kaydin iyo fadhiyada terminalku way furnaanayaan. Carabi, Cibraani iyo isdhexgallada kale ee midig-ilaa-bidix, koodka, hordhaca iyo wax-soo-saarka terminalku waxay ahaanayaan bidix-ilaa-midig. Turjumaadaha si toos ah ayaa looga qoray qoraallada Ingiriisiga iyadoo la eegayo tifaftiraha iyo terminalka. Qaybaha nidaamku waxay raacaan luqadda macOS. Diiwaanku ma daboolayo luqad kasta oo dabiici ah ama barnaamijeed. Eeg [Turjumidda Sumi](CONTRIBUTING.md#translating-sumi).
 - Muuqaalka iftiinka iyo mugdigu nidaamka ayuu raacaa.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Ka dooro muuqaalka mashruuca | ⌥⌘1 |
 | Tabka xiga / Tabkii hore | ⇧⌘] / ⇧⌘[ |
 | Kaydi / Kaydi dhammaan | ⌘S / ⌥⌘S |
+| Faylal dhowaan la furay | ⌘E |
+| Raadi ficil | ⇧⌘A |
+| Ka raadi faylalka | ⇧⌘F |
+| U gudub xariiq:tiir | ⌘L |
+| Nuqul ka samee xariiqda ama xulashada | ⌘D |
+| Tirtir xariiqda | ⌘⌫ |
+| Kor u rar xariiqda / Hoos u rar xariiqda | ⌥⇧↑ / ⌥⇧↓ |
+| Ku dar ama ka saar faallada xariiqda | ⌘/ |
+| Isku dar xariiqyada | ⌃⇧J |
+| Beddel xarfaha waaweyn iyo yaryar | ⇧⌘U |
+| Ballaari xulashada / Yaree xulashada | ⌥↑ / ⌥↓ |
+| Bilow xariiq cusub hoose / Bilow xariiq cusub sare | ⇧↩ / ⌥⌘↩ |
 
 ## Wax ku biirinta
 

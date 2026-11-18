@@ -37,11 +37,23 @@
 "Copy" = "Kopieer";
 "Paste" = "Plak";
 "Select All" = "Selecteer alles";
+"Duplicate Line or Selection" = "Dupliceer regel of selectie";
+"Delete Line" = "Verwijder regel";
+"Join Lines" = "Voeg regels samen";
+"Toggle Case" = "Wissel hoofd-/kleine letters";
+"Comment with Line Comment" = "Commentarieer met regelcommentaar";
+"Move Line Up" = "Verplaats regel omhoog";
+"Move Line Down" = "Verplaats regel omlaag";
+"Extend Selection" = "Vergroot selectie";
+"Shrink Selection" = "Verklein selectie";
+"Start New Line" = "Begin nieuwe regel";
+"Start New Line Before Current" = "Begin nieuwe regel boven huidige";
 "Find…" = "Zoek…";
 "Replace…" = "Vervang…";
 "Find Next" = "Zoek volgende";
 "Find Previous" = "Zoek vorige";
 "Use Selection for Find" = "Gebruik selectie als zoektekst";
+"Find in Files…" = "Zoek in bestanden…";
 "Find" = "Zoek";
 "Project" = "Project";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Verklein tekst";
 "Reset Font Size" = "Herstel tekstgrootte";
 "Search Everywhere (Double ⇧)" = "Zoek overal (tweemaal ⇧)";
+"Recent Files" = "Recente bestanden";
+"Find Action…" = "Zoek actie…";
+"Go to Line:Column…" = "Ga naar regel:kolom…";
 "Select in Project View" = "Selecteer in projectweergave";
 "Next Tab" = "Volgend tabblad";
 "Previous Tab" = "Vorig tabblad";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Open in terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Ga naar regel:kolom";
 "Left Panel" = "Linkerpaneel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Bestanden";
 "Double ⇧ to search everywhere" = "Druk tweemaal op ⇧ om overal te zoeken";
+"Files" = "Bestanden";
+"Actions" = "Acties";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Typ een bestandsnaam (gebruik / om in het pad te zoeken)";
+"Type a command name" = "Typ een opdrachtnaam";
+"Type text to find in project files" = "Typ tekst om te zoeken in projectbestanden";
 "No recent files" = "Geen recente bestanden";
-"Recent Files" = "Recente bestanden";
 "Matches: %1$ld / Files: %2$ld" = "Overeenkomsten: %1$ld / Bestanden: %2$ld";
+"Searching…" = "Zoeken…";
+"Switch Tab" = "Wissel tabblad";

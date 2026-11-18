@@ -37,11 +37,23 @@
 "Copy" = "Kopye";
 "Paste" = "Kole";
 "Select All" = "Chwazi tout";
+"Duplicate Line or Selection" = "Double liy la oswa seleksyon an";
+"Delete Line" = "Efase liy la";
+"Join Lines" = "Ini liy yo";
+"Toggle Case" = "Chanje majiskil/miniskil";
+"Comment with Line Comment" = "Kòmante ak kòmantè liy";
+"Move Line Up" = "Monte liy la";
+"Move Line Down" = "Desann liy la";
+"Extend Selection" = "Elaji seleksyon an";
+"Shrink Selection" = "Retresi seleksyon an";
+"Start New Line" = "Kòmanse yon nouvo liy";
+"Start New Line Before Current" = "Kòmanse yon nouvo liy anvan liy aktyèl la";
 "Find…" = "Chèche…";
 "Replace…" = "Ranplase…";
 "Find Next" = "Chèche pwochen an";
 "Find Previous" = "Chèche anvan an";
 "Use Selection for Find" = "Chèche tèks ki chwazi a";
+"Find in Files…" = "Chèche nan fichye yo…";
 "Find" = "Rechèch";
 "Project" = "Pwojè";
 "Terminal" = "Tèminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Diminye gwosè polis la";
 "Reset Font Size" = "Reyinisyalize gwosè polis la";
 "Search Everywhere (Double ⇧)" = "Chèche tout kote (⇧ de fwa)";
+"Recent Files" = "Fichye resan yo";
+"Find Action…" = "Chèche aksyon…";
+"Go to Line:Column…" = "Ale nan liy:kolòn…";
 "Select in Project View" = "Chwazi nan afichaj pwojè a";
 "Next Tab" = "Pwochen onglet";
 "Previous Tab" = "Onglet anvan an";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Louvri nan tèminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Ale nan liy:kolòn";
 "Left Panel" = "Pano agoch";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fichye yo";
 "Double ⇧ to search everywhere" = "Peze ⇧ de fwa pou chèche tout kote";
+"Files" = "Fichye yo";
+"Actions" = "Aksyon";
+"Text" = "Tèks";
 "Type a file name (use / to match the path)" = "Tape yon non fichye (sèvi ak / pou chèche nan chemen an)";
+"Type a command name" = "Tape non yon kòmand";
+"Type text to find in project files" = "Tape tèks pou chèche nan fichye pwojè a";
 "No recent files" = "Pa gen fichye resan";
-"Recent Files" = "Fichye resan yo";
 "Matches: %1$ld / Files: %2$ld" = "Korespondans: %1$ld / Fichye: %2$ld";
+"Searching…" = "N ap chèche…";
+"Switch Tab" = "Chanje onglet";

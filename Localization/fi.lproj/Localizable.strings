@@ -37,11 +37,23 @@
 "Copy" = "Kopioi";
 "Paste" = "Liitä";
 "Select All" = "Valitse kaikki";
+"Duplicate Line or Selection" = "Monista rivi tai valinta";
+"Delete Line" = "Poista rivi";
+"Join Lines" = "Yhdistä rivit";
+"Toggle Case" = "Vaihda kirjainkoko";
+"Comment with Line Comment" = "Kommentoi rivikommentilla";
+"Move Line Up" = "Siirrä riviä ylös";
+"Move Line Down" = "Siirrä riviä alas";
+"Extend Selection" = "Laajenna valintaa";
+"Shrink Selection" = "Supista valintaa";
+"Start New Line" = "Aloita uusi rivi";
+"Start New Line Before Current" = "Aloita uusi rivi ennen nykyistä";
 "Find…" = "Etsi…";
 "Replace…" = "Korvaa…";
 "Find Next" = "Etsi seuraava";
 "Find Previous" = "Etsi edellinen";
 "Use Selection for Find" = "Etsi valittua tekstiä";
+"Find in Files…" = "Etsi tiedostoista…";
 "Find" = "Etsi";
 "Project" = "Projekti";
 "Terminal" = "Pääte";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Pienennä tekstikokoa";
 "Reset Font Size" = "Palauta tekstikoko";
 "Search Everywhere (Double ⇧)" = "Etsi kaikkialta (⇧ kahdesti)";
+"Recent Files" = "Viimeaikaiset tiedostot";
+"Find Action…" = "Etsi toiminto…";
+"Go to Line:Column…" = "Siirry kohtaan rivi:sarake…";
 "Select in Project View" = "Valitse projektinäkymässä";
 "Next Tab" = "Seuraava välilehti";
 "Previous Tab" = "Edellinen välilehti";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Avaa päätteessä";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Siirry kohtaan rivi:sarake";
 "Left Panel" = "Vasen paneeli";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Tiedostot";
 "Double ⇧ to search everywhere" = "Paina ⇧ kahdesti etsiäksesi kaikkialta";
+"Files" = "Tiedostot";
+"Actions" = "Toiminnot";
+"Text" = "Teksti";
 "Type a file name (use / to match the path)" = "Kirjoita tiedoston nimi (käytä merkkiä / etsiäksesi polusta)";
+"Type a command name" = "Kirjoita komennon nimi";
+"Type text to find in project files" = "Kirjoita teksti, jota etsitään projektin tiedostoista";
 "No recent files" = "Ei viimeaikaisia tiedostoja";
-"Recent Files" = "Viimeaikaiset tiedostot";
 "Matches: %1$ld / Files: %2$ld" = "Osumia: %1$ld / Tiedostoja: %2$ld";
+"Searching…" = "Etsitään…";
+"Switch Tab" = "Vaihda välilehteä";

@@ -36,7 +36,8 @@ Executeu l'agent al terminal integrat, obriu amb un clic els fitxers amb què tr
 - Shift+Enter permet introduir indicacions de diverses línies. Es poden enganxar textos de diverses línies, fitxers i imatges; les imatges es desen com a PNG temporals i s'insereixen com a camins entre cometes.
 - Previsualització de Markdown i HTML al costat del text, actualitzada mentre escriviu (⇧⌘V o els botons de la part superior dreta de la pestanya).
   El Markdown es representa amb cmark-gfm, el motor que fa servir GitHub: taules, llistes de tasques, text ratllat i enllaços automàtics.
-- Cerca arreu: premeu Shift dues vegades per trobar qualsevol fitxer del projecte per coincidència aproximada del nom.
+- Cerca arreu: premeu Shift dues vegades per trobar qualsevol fitxer del projecte per coincidència aproximada del nom. La pestanya «Accions» (⇧⌘A) executa qualsevol ordre de menú pel nom, i la pestanya «Text» (⇧⌘F) cerca en el text de tots els fitxers del projecte.
+- Edició de línies amb el teclat: dupliqueu, suprimiu, moveu, comenteu i uniu línies, i amplieu la selecció pas a pas des d'una paraula fins a tot el fitxer.
 - Reconeix fitxers de codi amb un catàleg de 915 noms de llenguatges i formats de fitxer, incloent-hi noms de fitxer, extensions compostes i intèrprets de scripts. S'hi inclouen tots els 297 components del Prism (291 gramàtiques independents i 6 auxiliars), que es carreguen quan cal. Els formats sense gramàtica fan servir un ressaltat de text bàsic.
 - La interfície ofereix 108 llengües. Canvieu immediatament des del menú Llengua o seguiu la llengua del sistema. La tria es recorda; els fitxers oberts, les modificacions sense desar i les sessions de terminal continuen oberts. En àrab, hebreu i altres interfícies de dreta a esquerra, el codi, les previsualitzacions i la sortida del terminal es mantenen d'esquerra a dreta.
   Les traduccions s'escriuen directament a partir dels textos anglesos, tenint en compte el context de l'editor i el terminal. Els taulers del sistema segueixen la configuració de llengua del macOS. El catàleg no cobreix totes les llengües naturals ni tots els llenguatges de programació. Vegeu [Traducció del Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Selecciona a la vista del projecte | ⌥⌘1 |
 | Pestanya següent / anterior | ⇧⌘] / ⇧⌘[ |
 | Desa / Desa-ho tot | ⌘S / ⌥⌘S |
+| Fitxers recents | ⌘E |
+| Cerca una acció | ⇧⌘A |
+| Cerca als fitxers | ⇧⌘F |
+| Ves a la línia:columna | ⌘L |
+| Duplica la línia o la selecció | ⌘D |
+| Suprimeix la línia | ⌘⌫ |
+| Mou la línia amunt / avall | ⌥⇧↑ / ⌥⇧↓ |
+| Comenta amb comentari de línia | ⌘/ |
+| Uneix les línies | ⌃⇧J |
+| Commuta majúscules/minúscules | ⇧⌘U |
+| Amplia / redueix la selecció | ⌥↑ / ⌥↓ |
+| Comença una línia nova a sota / a sobre | ⇧↩ / ⌥⌘↩ |
 
 ## Col·laboració
 

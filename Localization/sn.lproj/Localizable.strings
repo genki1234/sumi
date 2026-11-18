@@ -37,11 +37,23 @@
 "Copy" = "Kopa";
 "Paste" = "Namira";
 "Select All" = "Sarudza zvese";
+"Duplicate Line or Selection" = "Dzokorora mutsetse kana zvakasarudzwa";
+"Delete Line" = "Dzima mutsetse";
+"Join Lines" = "Batanidza mitsetse";
+"Toggle Case" = "Chinja mavara makuru/madiki";
+"Comment with Line Comment" = "Isa tsananguro yemutsetse";
+"Move Line Up" = "Fambisa mutsetse kumusoro";
+"Move Line Down" = "Fambisa mutsetse pasi";
+"Extend Selection" = "Wedzera zvakasarudzwa";
+"Shrink Selection" = "Deredza zvakasarudzwa";
+"Start New Line" = "Tanga mutsetse mutsva";
+"Start New Line Before Current" = "Tanga mutsetse mutsva pamberi peuripo";
 "Find…" = "Tsvaga…";
 "Replace…" = "Tsiva…";
 "Find Next" = "Tsvaga chinotevera";
 "Find Previous" = "Tsvaga chapfuura";
 "Use Selection for Find" = "Tsvaga zvakasarudzwa";
+"Find in Files…" = "Tsvaga mumafaira…";
 "Find" = "Tsvaga";
 "Project" = "Projekiti";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Deredza mavara";
 "Reset Font Size" = "Dzosera saizi yemavara";
 "Search Everywhere (Double ⇧)" = "Tsvaga pese (⇧ kaviri)";
+"Recent Files" = "Mafaira achangovhurwa";
+"Find Action…" = "Tsvaga chiito…";
+"Go to Line:Column…" = "Enda kumutsetse:koramu…";
 "Select in Project View" = "Sarudza mumuti weprojekiti";
 "Next Tab" = "Tabhu inotevera";
 "Previous Tab" = "Tabhu yapfuura";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Vhura muterminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Enda kumutsetse:koramu";
 "Left Panel" = "Panera rekuruboshwe";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Mafaira";
 "Double ⇧ to search everywhere" = "Dzvanya ⇧ kaviri kutsvaga pese";
+"Files" = "Mafaira";
+"Actions" = "Zviito";
+"Text" = "Mashoko";
 "Type a file name (use / to match the path)" = "Nyora zita refaira (shandisa / kutsvaga nenzira)";
+"Type a command name" = "Nyora zita remurairo";
+"Type text to find in project files" = "Nyora mashoko ekutsvaga mumafaira eprojekiti";
 "No recent files" = "Hapana mafaira achangovhurwa";
-"Recent Files" = "Mafaira achangovhurwa";
 "Matches: %1$ld / Files: %2$ld" = "Zvaenderana: %1$ld / Mafaira: %2$ld";
+"Searching…" = "Kutsvaga…";
+"Switch Tab" = "Chinja tabhu";

@@ -36,7 +36,8 @@ Käivita agent sisseehitatud terminalis, ava tema kasutatavad failid klõpsuga j
 - Shift+Enter võimaldab sisestada mitmerealisi juhiseid. Kleepida saab mitmerealist teksti, faile ja pilte; pildid säilitatakse ajutiste PNG-dena ning lisatakse jutumärkides teedena.
 - Markdowni ja HTML-i eelvaade teksti kõrval uueneb kirjutamise ajal (⇧⌘V või kaardi paremas ülanurgas olevad nupud).
   Markdowni renderdab cmark-gfm, mida kasutab ka GitHub: tabelid, ülesandeloendid, läbikriipsutatud tekst ja automaatsed lingid.
-- Otsi kõikjalt: vajuta kaks korda Shift, et leida projekti mis tahes fail ligikaudse nimeotsinguga.
+- Otsi kõikjalt: vajuta kaks korda Shift, et leida projekti mis tahes fail ligikaudse nimeotsinguga. Selle kaart „Toimingud” (⇧⌘A) käivitab nime järgi mis tahes menüükäsu ja kaart „Tekst” (⇧⌘F) otsib kõigi projektifailide tekstist.
+- Ridade redigeerimine klaviatuurilt: dubleeri, kustuta, liiguta, kommenteeri välja ja ühenda ridu ning laienda valikut samm-sammult sõnast kogu failini.
 - Tuvastab lähtefaile 915 keele- ja failivormingu nimega kataloogi abil, mis hõlmab failinimesid, liitlaiendeid ja skriptitõlke. Kaasas on kõik 297 Prismi komponenti (291 iseseisvat grammatikat ja 6 abikomponenti), mis laaditakse vajaduse korral. Grammatikata vormingud kasutavad lihtsat teksti esiletõstmist.
 - Kasutajaliidesel on 108 keelevalikut. Vaheta kohe menüüst Keel või järgi süsteemikeelt. Valik jäetakse meelde; avatud failid, salvestamata muudatused ja terminaliseansid jäävad avatuks. Araabia, heebrea ja teiste paremalt vasakule liideste korral jäävad kood, eelvaated ja terminaliväljund vasakult paremale.
   Tõlked kirjutatakse otse ingliskeelsete tekstide põhjal, arvestades redaktori ja terminali konteksti. Süsteemipaneelid järgivad macOS-i keeleseadeid. Kataloog ei hõlma kõiki loomulikke ega programmeerimiskeeli. Vaata [Sumi tõlkimine](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Vali projektivaates | ⌥⌘1 |
 | Järgmine / eelmine kaart | ⇧⌘] / ⇧⌘[ |
 | Salvesta / Salvesta kõik | ⌘S / ⌥⌘S |
+| Hiljutised failid | ⌘E |
+| Otsi toimingut | ⇧⌘A |
+| Otsi failidest | ⇧⌘F |
+| Mine rea:veeru juurde | ⌘L |
+| Dubleeri rida või valik | ⌘D |
+| Kustuta rida | ⌘⌫ |
+| Liiguta rida üles / alla | ⌥⇧↑ / ⌥⇧↓ |
+| Kommenteeri reakommentaariga | ⌘/ |
+| Ühenda read | ⌃⇧J |
+| Vaheta suur- ja väiketähti | ⇧⌘U |
+| Laienda / kahanda valikut | ⌥↑ / ⌥↓ |
+| Alusta uut rida allpool / ülalpool | ⇧↩ / ⌥⌘↩ |
 
 ## Panustamine
 

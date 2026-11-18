@@ -36,7 +36,8 @@ Gudanar da wakilinka a tashar umarni da ke ciki, danna fayilolin da yake aiki da
 - Shift+Enter yana ba da damar shigar da buƙata mai layuka da yawa. Ana iya manna rubutu mai layuka da yawa, fayiloli da hotuna; ana riƙe hotuna a matsayin PNG na ɗan lokaci, a saka hanyoyinsu cikin alamomin zance.
 - Samfotin Markdown da HTML yana kusa da rubutu, yana sabuntawa yayin bugawa (⇧⌘V ko maɓallan saman dama na shafin).
   Ana nuna Markdown da cmark-gfm, injin da GitHub yake amfani da shi: jadawalai, jerin ayyuka, rubutu da aka ja layi a kansa da hanyoyin haɗi na atomatik.
-- Nema ko'ina: danna Shift sau biyu don nemo kowane fayil na aikin ta hanyar kusan dacewar suna.
+- Nema ko'ina: danna Shift sau biyu don nemo kowane fayil na aikin ta hanyar kusan dacewar suna. Shafin Umarnai (⇧⌘A) yana gudanar da kowane umarnin menu ta sunansa, kuma shafin Rubutu (⇧⌘F) yana nema cikin rubutun kowane fayil na aikin.
+- Gyaran layuka daga allon madannai: ninka, goge, matsar, mayar da sharhi da haɗa layuka, kuma faɗaɗa zaɓi mataki-mataki daga kalma zuwa dukan fayil.
 - Yana gane fayilolin lambar tushe ta kundin sunayen harsuna da tsarin fayil guda 915, ciki har da sunayen fayiloli, haɗaɗɗun kari da masu fassara script. An haɗa dukan sassan Prism guda 297 (nahawu masu zaman kansu 291 da mataimaka 6), ana loda su idan an buƙata. Tsarin da ba shi da nahawu yana amfani da haskaka rubutu na asali.
 - Fuskar amfani tana da zaɓin harsuna 108. Yi amfani da menu na Harshe don sauyawa nan take, ko ka bi harshen tsarin. Ana tuna zaɓin; fayilolin da ke buɗe, gyare-gyaren da ba a ajiye ba da zaman tashar umarni suna nan a buɗe. A fuskar Larabci, Ibrananci da sauran harsunan dama zuwa hagu, lamba, samfoti da abin da tashar ta fitar suna ci gaba daga hagu zuwa dama.
   Ana rubuta fassara kai tsaye daga rubutun Turanci bisa ma'anarsa a edita da tashar umarni. Bangarorin tsarin suna bin saitin harshen macOS. Wannan kundin bai ƙunshi dukan harsunan mutane ko na shirye-shirye ba. Duba [Fassara Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Zaɓa a duba aikin | ⌥⌘1 |
 | Shafi na gaba / na baya | ⇧⌘] / ⇧⌘[ |
 | Ajiye / Ajiye duka | ⌘S / ⌥⌘S |
+| Fayilolin baya-bayan nan | ⌘E |
+| Nemo umarni | ⇧⌘A |
+| Nema a cikin fayiloli | ⇧⌘F |
+| Je zuwa layi:ginshiƙi | ⌘L |
+| Ninka layi ko abin da aka zaɓa | ⌘D |
+| Goge layi | ⌘⌫ |
+| Matsar da layi sama / ƙasa | ⌥⇧↑ / ⌥⇧↓ |
+| Yi sharhi da sharhin layi | ⌘/ |
+| Haɗa layuka | ⌃⇧J |
+| Sauya manya/ƙananan haruffa | ⇧⌘U |
+| Faɗaɗa / rage zaɓi | ⌥↑ / ⌥↓ |
+| Fara sabon layi a ƙasa / a sama | ⇧↩ / ⌥⌘↩ |
 
 ## Ba da gudummawa
 

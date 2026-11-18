@@ -37,11 +37,23 @@
 "Copy" = "Copïo";
 "Paste" = "Gludo";
 "Select All" = "Dewis popeth";
+"Duplicate Line or Selection" = "Dyblygu'r llinell neu'r detholiad";
+"Delete Line" = "Dileu'r llinell";
+"Join Lines" = "Uno llinellau";
+"Toggle Case" = "Toglo priflythrennau/llythrennau bach";
+"Comment with Line Comment" = "Troi'n sylw llinell";
+"Move Line Up" = "Symud y llinell i fyny";
+"Move Line Down" = "Symud y llinell i lawr";
+"Extend Selection" = "Ehangu'r detholiad";
+"Shrink Selection" = "Crebachu'r detholiad";
+"Start New Line" = "Dechrau llinell newydd";
+"Start New Line Before Current" = "Dechrau llinell newydd cyn yr un gyfredol";
 "Find…" = "Canfod…";
 "Replace…" = "Amnewid…";
 "Find Next" = "Canfod y nesaf";
 "Find Previous" = "Canfod y blaenorol";
 "Use Selection for Find" = "Chwilio am y testun a ddewiswyd";
+"Find in Files…" = "Canfod mewn ffeiliau…";
 "Find" = "Canfod";
 "Project" = "Prosiect";
 "Terminal" = "Terfynell";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Lleihau maint y ffont";
 "Reset Font Size" = "Ailosod maint y ffont";
 "Search Everywhere (Double ⇧)" = "Chwilio ym mhobman (⇧ ddwywaith)";
+"Recent Files" = "Ffeiliau diweddar";
+"Find Action…" = "Canfod gweithred…";
+"Go to Line:Column…" = "Mynd i linell:colofn…";
 "Select in Project View" = "Dewis yng ngolwg y prosiect";
 "Next Tab" = "Tab nesaf";
 "Previous Tab" = "Tab blaenorol";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Agor yn y derfynell";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Mynd i linell:colofn";
 "Left Panel" = "Panel chwith";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Ffeiliau";
 "Double ⇧ to search everywhere" = "Pwyswch ⇧ ddwywaith i chwilio ym mhobman";
+"Files" = "Ffeiliau";
+"Actions" = "Gweithredoedd";
+"Text" = "Testun";
 "Type a file name (use / to match the path)" = "Teipiwch enw ffeil (defnyddiwch / i chwilio'r llwybr)";
+"Type a command name" = "Teipiwch enw gorchymyn";
+"Type text to find in project files" = "Teipiwch destun i'w ganfod yn ffeiliau'r prosiect";
 "No recent files" = "Dim ffeiliau diweddar";
-"Recent Files" = "Ffeiliau diweddar";
 "Matches: %1$ld / Files: %2$ld" = "Cyfatebiadau: %1$ld / Ffeiliau: %2$ld";
+"Searching…" = "Wrthi'n chwilio…";
+"Switch Tab" = "Newid tab";

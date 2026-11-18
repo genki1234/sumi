@@ -37,11 +37,23 @@
 "Copy" = "Dàkọ";
 "Paste" = "Lẹ̀ mọ́";
 "Select All" = "Yan gbogbo";
+"Duplicate Line or Selection" = "Ṣe ẹ̀dà ìlà tàbí àṣàyàn";
+"Delete Line" = "Pa ìlà rẹ́";
+"Join Lines" = "So àwọn ìlà pọ̀";
+"Toggle Case" = "Yí lẹ́tà ńlá àti kékeré padà";
+"Comment with Line Comment" = "Ṣe àkíyèsí pẹ̀lú àkíyèsí ìlà";
+"Move Line Up" = "Gbé ìlà sókè";
+"Move Line Down" = "Gbé ìlà sísàlẹ̀";
+"Extend Selection" = "Mú àṣàyàn gbòòrò";
+"Shrink Selection" = "Dín àṣàyàn kù";
+"Start New Line" = "Bẹ̀rẹ̀ ìlà tuntun";
+"Start New Line Before Current" = "Bẹ̀rẹ̀ ìlà tuntun ṣáájú èyí tó wà lọ́wọ́";
 "Find…" = "Wá…";
 "Replace…" = "Rọ́pò…";
 "Find Next" = "Wá èyí tó kàn";
 "Find Previous" = "Wá èyí tó ṣáájú";
 "Use Selection for Find" = "Wá ọ̀rọ̀ tí a yàn";
+"Find in Files…" = "Wá nínú àwọn fáìlì…";
 "Find" = "Wá";
 "Project" = "Iṣẹ́ àkànṣe";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Dín ìwọ̀n lẹ́tà kù";
 "Reset Font Size" = "Dá ìwọ̀n lẹ́tà padà";
 "Search Everywhere (Double ⇧)" = "Wá níbi gbogbo (⇧ lẹ́ẹ̀mejì)";
+"Recent Files" = "Àwọn fáìlì àìpẹ́";
+"Find Action…" = "Wá ìgbésẹ̀…";
+"Go to Line:Column…" = "Lọ sí ìlà:òpó…";
 "Select in Project View" = "Yan nínú ìwò iṣẹ́ àkànṣe";
 "Next Tab" = "Táàbù tó kàn";
 "Previous Tab" = "Táàbù tó ṣáájú";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Ṣí ní terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Lọ sí ìlà:òpó";
 "Left Panel" = "Pánẹ́ẹ̀lì òsì";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Àwọn fáìlì";
 "Double ⇧ to search everywhere" = "Tẹ ⇧ lẹ́ẹ̀mejì láti wá níbi gbogbo";
+"Files" = "Àwọn fáìlì";
+"Actions" = "Àwọn ìgbésẹ̀";
+"Text" = "Ọ̀rọ̀";
 "Type a file name (use / to match the path)" = "Tẹ orúkọ fáìlì (lo / láti wá nípa ọ̀nà)";
+"Type a command name" = "Tẹ orúkọ àṣẹ";
+"Type text to find in project files" = "Tẹ ọ̀rọ̀ tí o fẹ́ wá nínú àwọn fáìlì iṣẹ́ àkànṣe";
 "No recent files" = "Kò sí fáìlì àìpẹ́";
-"Recent Files" = "Àwọn fáìlì àìpẹ́";
 "Matches: %1$ld / Files: %2$ld" = "Àwọn tó bá mu: %1$ld / Àwọn fáìlì: %2$ld";
+"Searching…" = "Ó ń wá…";
+"Switch Tab" = "Yí táàbù padà";

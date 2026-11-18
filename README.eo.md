@@ -36,7 +36,8 @@ Rulu vian agenton en la enkonstruita terminalo, alklaku la dosierojn kun kiuj ĝ
 - Shift+Enter ebligas plurlinian enigon de instrukcioj. Algluo subtenas plurlinian tekston, dosierojn kaj bildojn; bildoj konserviĝas kiel provizoraj PNG-dosieroj kaj enmetiĝas kiel vojoj inter citiloj.
 - Antaŭrigardo de Markdown kaj HTML apud la teksto, ĝisdatigata dum tajpado (⇧⌘V aŭ la butonoj supre dekstre de la langeto).
   Markdown bildiĝas per cmark-gfm, la ilo uzata de GitHub: tabeloj, taskolistoj, trastrekita teksto kaj aŭtomataj ligiloj.
-- Serĉi ĉie: premu Shift dufoje por trovi ajnan projektan dosieron per proksimuma nomkongruo.
+- Serĉi ĉie: premu Shift dufoje por trovi ajnan projektan dosieron per proksimuma nomkongruo. Ĝia langeto «Agoj» (⇧⌘A) plenumas ajnan menuan komandon laŭ nomo, kaj ĝia langeto «Teksto» (⇧⌘F) serĉas en la teksto de ĉiuj projektaj dosieroj.
+- Linia redaktado per la klavaro: duobligi, forigi, movi, komenti kaj kunigi liniojn, kaj paŝon post paŝo etendi la elekton de vorto ĝis la tuta dosiero.
 - Rekonas fontdosierojn per katalogo de 915 nomoj de lingvoj kaj dosierformatoj, inkluzive de dosiernomoj, kunmetitaj finaĵoj kaj skriptinterpretiloj. Ĉiuj 297 Prism-komponantoj (291 memstaraj gramatikoj kaj 6 helpantoj) estas inkluzivitaj kaj ŝargataj laŭbezone. Formatoj sen gramatiko uzas bazan tekstemfazon.
 - La interfaco havas 108 lingvoelektojn. Uzu la menuon Lingvo por tuj ŝanĝi aŭ sekvi la sisteman lingvon. La elekto memoriĝas; malfermitaj dosieroj, nekonservitaj redaktoj kaj terminalaj seancoj restas malfermitaj. Arabaj, hebreaj kaj aliaj dekstre-maldekstrenaj interfacoj konservas kodon, antaŭrigardojn kaj terminalan eligon de maldekstre dekstren.
   Tradukoj estas verkitaj rekte el la anglaj tekstoj kun ilia redaktila kaj terminala kunteksto. Sistemaj paneloj sekvas la lingvajn agordojn de macOS. Ĉi tiu katalogo ne ampleksas ĉiun naturan aŭ programlingvon. Vidu [Traduki Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Elekti en la projekta vido | ⌥⌘1 |
 | Sekva / antaŭa langeto | ⇧⌘] / ⇧⌘[ |
 | Konservi / Konservi ĉiujn | ⌘S / ⌥⌘S |
+| Lastatempaj dosieroj | ⌘E |
+| Trovi agon | ⇧⌘A |
+| Trovi en dosieroj | ⇧⌘F |
+| Iri al linio:kolumno | ⌘L |
+| Duobligi linion aŭ elekton | ⌘D |
+| Forigi linion | ⌘⌫ |
+| Movi linion supren / malsupren | ⌥⇧↑ / ⌥⇧↓ |
+| Komenti per linikomento | ⌘/ |
+| Kunigi liniojn | ⌃⇧J |
+| Baskuli usklecon | ⇧⌘U |
+| Etendi / malvastigi elekton | ⌥↑ / ⌥↓ |
+| Komenci novan linion sube / supre | ⇧↩ / ⌥⌘↩ |
 
 ## Kontribui
 

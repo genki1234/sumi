@@ -35,7 +35,8 @@ Faagaoioi lau sui i le terminal ua tuufaatasia, kiliki faila na te suia e tatala
 - E faaaogā e terminal le Metal i le tulaga masani; o le ki o ata e faaaogā ai le GPU e i le Vaaiga. Saili i mea ua faaalia i le ⌘F; e maua e itulau fou le faila teu o loo galue ai nei.
 - E taofi e le Shift+Enter le tusia o fesili i ni laina se tele. E mafai ona faapipii tusitusiga e tele laina, faila ma ata; e taofi ata o ni PNG lē tumau ma faaofi o latou ala i faailoga sii.
 - E faaali le muai vaaiga o Markdown ma HTML i tafatafa o le tusitusiga, ma toe suia a o e taina (⇧⌘V po o faamau i luga taumatau o le itulau). E faaaogā le cmark-gfm a GitHub mo Markdown: laulau, lisi o galuega, tusitusiga e kolosi ma sootaga otometi.
-- Saili i mea uma: oomi faalua le Shift e saili ai soo se faila o le poloketi i se igoa e latalata i ai.
+- Saili i mea uma: oomi faalua le Shift e saili ai soo se faila o le poloketi i se igoa e latalata i ai. O lona itulau Gaoioiga (⇧⌘A) e faatino ai soo se poloaiga o le menu i lona igoa, ae o le itulau Tusitusiga (⇧⌘F) e saili ai tusitusiga o faila uma o le poloketi.
+- Teuteuina o laina mai le piano: kopi faalua, tape, sii, faia ma faamatalaga ma tuufaatasi laina, ma faalautele le filifiliga laasaga ma laasaga mai se upu e oo i le faila atoa.
 - E iloa faila o polokalame i se lisi o igoa e 915 o gagana ma faatulagaga, e aofia ai igoa faila, faaopoopoga tuufaatasi ma faaliliu o tusitusiga o faatonuga. Ua aofia vaega uma e 297 o Prism (291 kalama tutoatasi ma le 6 fesoasoani), ma e utaina pe a manaomia. E faaaogā le valivali faigofie o tusitusiga mo faatulagaga e leai se kalama.
 - E 108 filifiliga gagana o le vaaiga. Faaaogā le Gagana e sui loa ai, po o le mulimuli i le gagana a le masini. E manatua le filifiliga; e tumau pea faila tatala, suiga e lei teuina ma sauniga terminal. I le Arapi, Eperu ma isi vaaiga mai le taumatau i le agavale, e tumau le polokalame, muai vaaiga ma galuega a le terminal mai le agavale i le taumatau. Na tusia tuusaʻo faaliliuga mai tusitusiga faa-Peretania e tusa ma le faatonu ma le terminal. E mulimuli vaega a le masini i le gagana o macOS. E lē aofia uma gagana faalenatura po o gagana o polokalame. Vaai [Faaliliuina o Sumi](CONTRIBUTING.md#translating-sumi).
 - E mulimuli le foliga malamalama ma le pogisa i le masini.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Filifili i le vaaiga o le poloketi | ⌥⌘1 |
 | Itulau e sosoo ai / Itulau muamua | ⇧⌘] / ⇧⌘[ |
 | Teu / Teu uma | ⌘S / ⌥⌘S |
+| Faila lata mai | ⌘E |
+| Saili se gaoioiga | ⇧⌘A |
+| Saili i faila | ⇧⌘F |
+| Alu i le laina:koluma | ⌘L |
+| Kopi faalua le laina po o le filifiliga | ⌘D |
+| Tape le laina | ⌘⌫ |
+| Sii i luga le laina / Sii i lalo le laina | ⌥⇧↑ / ⌥⇧↓ |
+| Faamatala i le faamatalaga o le laina | ⌘/ |
+| Tuufaatasi laina | ⌃⇧J |
+| Fesuiai mataitusi tetele ma laiti | ⇧⌘U |
+| Faalautele le filifiliga / Faaitiiti le filifiliga | ⌥↑ / ⌥↓ |
+| Amata se laina fou i lalo / Amata se laina fou i luga | ⇧↩ / ⌥⌘↩ |
 
 ## Fesoasoani
 

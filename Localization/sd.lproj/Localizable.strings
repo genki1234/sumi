@@ -37,11 +37,23 @@
 "Copy" = "نقل ڪريو";
 "Paste" = "پيسٽ ڪريو";
 "Select All" = "سڀ چونڊيو";
+"Duplicate Line or Selection" = "سٽ يا چونڊ ٻيڻي ڪريو";
+"Delete Line" = "سٽ ميٽيو";
+"Join Lines" = "سٽون ملايو";
+"Toggle Case" = "وڏا/ننڍا اکر مٽايو";
+"Comment with Line Comment" = "سٽ واري تبصري سان تبصرو ڪريو";
+"Move Line Up" = "سٽ مٿي منتقل ڪريو";
+"Move Line Down" = "سٽ هيٺ منتقل ڪريو";
+"Extend Selection" = "چونڊ وڌايو";
+"Shrink Selection" = "چونڊ گهٽايو";
+"Start New Line" = "نئين سٽ شروع ڪريو";
+"Start New Line Before Current" = "موجوده سٽ کان اڳ نئين سٽ شروع ڪريو";
 "Find…" = "ڳوليو…";
 "Replace…" = "مٽايو…";
 "Find Next" = "اڳيون ڳوليو";
 "Find Previous" = "پويون ڳوليو";
 "Use Selection for Find" = "چونڊيل متن ڳوليو";
+"Find in Files…" = "فائلن ۾ ڳوليو…";
 "Find" = "ڳوليو";
 "Project" = "منصوبو";
 "Terminal" = "ٽرمينل";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "اکرن جي ماپ گهٽايو";
 "Reset Font Size" = "اکرن جي ماپ بحال ڪريو";
 "Search Everywhere (Double ⇧)" = "هر هنڌ ڳوليو (⇧ ٻه ڀيرا)";
+"Recent Files" = "تازيون فائلون";
+"Find Action…" = "عمل ڳوليو…";
+"Go to Line:Column…" = "سٽ:ڪالم ڏانهن وڃو…";
 "Select in Project View" = "منصوبي جي ڏيک ۾ چونڊيو";
 "Next Tab" = "اڳيون ٽيب";
 "Previous Tab" = "پويون ٽيب";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ٽرمينل ۾ کوليو";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "سٽ:ڪالم ڏانهن وڃو";
 "Left Panel" = "کاٻو پينل";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "فائلون";
 "Double ⇧ to search everywhere" = "هر هنڌ ڳولڻ لاءِ ⇧ ٻه ڀيرا دٻايو";
+"Files" = "فائلون";
+"Actions" = "عمل";
+"Text" = "متن";
 "Type a file name (use / to match the path)" = "فائل جو نالو لکو (رستي سان ڳولڻ لاءِ / استعمال ڪريو)";
+"Type a command name" = "ڪمانڊ جو نالو لکو";
+"Type text to find in project files" = "منصوبي جي فائلن ۾ ڳولڻ لاءِ متن لکو";
 "No recent files" = "ڪا تازي فائل ناهي";
-"Recent Files" = "تازيون فائلون";
 "Matches: %1$ld / Files: %2$ld" = "ميل: %1$ld / فائلون: %2$ld";
+"Searching…" = "ڳولي رهيو آهي…";
+"Switch Tab" = "ٽيب مٽايو";

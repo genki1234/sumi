@@ -37,11 +37,23 @@
 "Copy" = "Копіювати";
 "Paste" = "Вставити";
 "Select All" = "Вибрати все";
+"Duplicate Line or Selection" = "Дублювати рядок або виділення";
+"Delete Line" = "Видалити рядок";
+"Join Lines" = "Об’єднати рядки";
+"Toggle Case" = "Змінити регістр";
+"Comment with Line Comment" = "Закоментувати рядковим коментарем";
+"Move Line Up" = "Перемістити рядок вгору";
+"Move Line Down" = "Перемістити рядок вниз";
+"Extend Selection" = "Розширити виділення";
+"Shrink Selection" = "Звузити виділення";
+"Start New Line" = "Почати новий рядок";
+"Start New Line Before Current" = "Почати новий рядок перед поточним";
 "Find…" = "Знайти…";
 "Replace…" = "Замінити…";
 "Find Next" = "Знайти далі";
 "Find Previous" = "Знайти попереднє";
 "Use Selection for Find" = "Шукати вибраний текст";
+"Find in Files…" = "Знайти у файлах…";
 "Find" = "Пошук";
 "Project" = "Проєкт";
 "Terminal" = "Термінал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Зменшити шрифт";
 "Reset Font Size" = "Скинути розмір шрифту";
 "Search Everywhere (Double ⇧)" = "Шукати всюди (двічі ⇧)";
+"Recent Files" = "Недавні файли";
+"Find Action…" = "Знайти дію…";
+"Go to Line:Column…" = "Перейти до рядка:стовпця…";
 "Select in Project View" = "Вибрати в дереві проєкту";
 "Next Tab" = "Наступна вкладка";
 "Previous Tab" = "Попередня вкладка";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Відкрити в терміналі";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Перейти до рядка:стовпця";
 "Left Panel" = "Ліва панель";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Файли";
 "Double ⇧ to search everywhere" = "Натисніть ⇧ двічі для пошуку всюди";
+"Files" = "Файли";
+"Actions" = "Дії";
+"Text" = "Текст";
 "Type a file name (use / to match the path)" = "Введіть назву файлу (використовуйте / для пошуку за шляхом)";
+"Type a command name" = "Введіть назву команди";
+"Type text to find in project files" = "Введіть текст для пошуку у файлах проєкту";
 "No recent files" = "Немає недавніх файлів";
-"Recent Files" = "Недавні файли";
 "Matches: %1$ld / Files: %2$ld" = "Збіги: %1$ld / Файли: %2$ld";
+"Searching…" = "Пошук…";
+"Switch Tab" = "Перемкнути вкладку";

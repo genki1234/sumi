@@ -37,11 +37,23 @@
 "Copy" = "Ikkopja";
 "Paste" = "Waħħal";
 "Select All" = "Agħżel Kollox";
+"Duplicate Line or Selection" = "Iddupplika l-Linja jew l-Għażla";
+"Delete Line" = "Ħassar il-Linja";
+"Join Lines" = "Għaqqad il-Linji";
+"Toggle Case" = "Biddel bejn Ittri Kbar u Żgħar";
+"Comment with Line Comment" = "Ikkummenta b'Kumment tal-Linja";
+"Move Line Up" = "Mexxi l-Linja 'l Fuq";
+"Move Line Down" = "Mexxi l-Linja 'l Isfel";
+"Extend Selection" = "Kabbar l-Għażla";
+"Shrink Selection" = "Ċekken l-Għażla";
+"Start New Line" = "Ibda Linja Ġdida";
+"Start New Line Before Current" = "Ibda Linja Ġdida Qabel il-Linja Kurrenti";
 "Find…" = "Sib…";
 "Replace…" = "Ibdel…";
 "Find Next" = "Sib li Jmiss";
 "Find Previous" = "Sib ta' Qabel";
 "Use Selection for Find" = "Fittex it-Test Magħżul";
+"Find in Files…" = "Sib fil-Fajls…";
 "Find" = "Sib";
 "Project" = "Proġett";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Ċekken it-Tipa";
 "Reset Font Size" = "Irrisettja d-Daqs tat-Tipa";
 "Search Everywhere (Double ⇧)" = "Fittex Kullimkien (⇧ Darbtejn)";
+"Recent Files" = "Fajls Riċenti";
+"Find Action…" = "Sib Azzjoni…";
+"Go to Line:Column…" = "Mur fil-Linja:Kolonna…";
 "Select in Project View" = "Agħżel fis-Siġra tal-Proġett";
 "Next Tab" = "Tab li Jmiss";
 "Previous Tab" = "Tab ta' Qabel";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Iftaħ fit-Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Mur fil-Linja:Kolonna";
 "Left Panel" = "Panew tax-Xellug";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fajls";
 "Double ⇧ to search everywhere" = "Agħfas ⇧ darbtejn biex tfittex kullimkien";
+"Files" = "Fajls";
+"Actions" = "Azzjonijiet";
+"Text" = "Test";
 "Type a file name (use / to match the path)" = "Ikteb isem ta' fajl (uża / biex tfittex fil-mogħdija)";
+"Type a command name" = "Ikteb isem ta' kmand";
+"Type text to find in project files" = "Ikteb test biex tfittex fil-fajls tal-proġett";
 "No recent files" = "Ebda fajl riċenti";
-"Recent Files" = "Fajls Riċenti";
 "Matches: %1$ld / Files: %2$ld" = "Qbil: %1$ld / Fajls: %2$ld";
+"Searching…" = "Qed infittex…";
+"Switch Tab" = "Aqleb it-Tab";

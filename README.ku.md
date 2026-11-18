@@ -35,7 +35,8 @@ Ajanê xwe di termînala hundirîn de bimeşîne, ji bo vekirinê li pelên ku e
 - Termînal bi bingehîn Metal bi kar tînin, bi guheroka Xêzkirina bi GPU di Dîtin de. Bi ⌘F di derketinê de bigere; hilpekînên nû peldanka xebatê ya heyî werdigirin.
 - Shift+Enter têketina daxwaza pirrêzî diparêze. Pêvekirin nivîsa pirrêzî, pel û wêneyan piştgirî dike; wêne wek PNG-yên demkî tên parastin û wek riyên di nav nîşaneyên jêgirtinê de tên têxistin.
 - Pêşdîtina Markdown û HTML li kêleka nivîsê dema nivîsandinê nû dibe (⇧⌘V an bişkojkên li jorê rastê yên hilpekînê). Markdown bi cmark-gfm tê pêşkêşkirin, amûra ku GitHub bi kar tîne: tablo, lîsteyên peywiran, nivîsa xêzkirî û girêdanên bixweber.
-- Li Her Derê Bigere: du caran Shift bitikîne da her pelekê di projeyê de bi lêgerîna navê ya nêzîk bibînî.
+- Li Her Derê Bigere: du caran Shift bitikîne da her pelekê di projeyê de bi lêgerîna navê ya nêzîk bibînî. Hilpekîna wê ya Çalakî (⇧⌘A) her fermana menuyê bi navê wê dimeşîne, û hilpekîna Nivîs (⇧⌘F) di nivîsa hemû pelên projeyê de digere.
+- Sererastkirina rêzan bi klavyeyê: rêzan ducar bike, jê bibe, bigerîne, bike şîrove û bigihîne hev, û hilbijartinê gav bi gav ji peyvekê heta tevahiya pelê fireh bike.
 - Pelên çavkaniyê bi kataloga 915 navên zimanan û formatên pelan nas dike; navên pelan, pêvekên hevgirtî û şirovekerên skrîptan jî tê de ne. Hemû 297 pêkhateyên Prism (291 rêzimanên serbixwe û 6 alîkar) tê de ne û li gorî pêdiviyê tên barkirin. Formatên bê rêziman rengkirina nivîsê ya bingehîn bi kar tînin.
 - Navrû 108 vebijarkên zimanê heye. Bi menuya Ziman yekser biguherîne an zimanê pergalê bişopîne. Hilbijartin tê bîranîn; pelên vekirî, sererastkirinên nehatî tomarkirin û danişînên termînalê vekirî dimînin. Di navrûyên erebî, îbranî û yên din ên ji rastê ber bi çepê de kod, pêşdîtin û derketina termînalê ji çepê ber bi rastê dimînin. Werger rasterast ji nivîsên îngilîzî bi çarçoveya edîtor û termînalê tên nivîsandin. Panelên pergalê mîhengên zimanê macOS dişopînin. Katalog hemû zimanên xwezayî an bernamesaziyê nagire nav xwe. Binêre [Wergerandina Sumi](CONTRIBUTING.md#translating-sumi).
 - Xuyaniya ronahî û tarî pergalê dişopîne.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Di Dara Projeyê de Hilbijêre | ⌥⌘1 |
 | Hilpekîna Pişt Re / Hilpekîna Berê | ⇧⌘] / ⇧⌘[ |
 | Tomar Bike / Hemûyan Tomar Bike | ⌘S / ⌥⌘S |
+| Pelên Dawî | ⌘E |
+| Çalakiyê Bibîne | ⇧⌘A |
+| Di Pelan de Bibîne | ⇧⌘F |
+| Biçe Rêz:Stûnê | ⌘L |
+| Rêzê an Hilbijartinê Ducar Bike | ⌘D |
+| Rêzê Jê Bibe | ⌘⌫ |
+| Rêzê Bibe Jor / Jêr | ⌥⇧↑ / ⌥⇧↓ |
+| Bi Şîroveya Rêzê Şîrove Bike | ⌘/ |
+| Rêzan Bigihîne Hev | ⌃⇧J |
+| Tîpên Mezin/Biçûk Biguherîne | ⇧⌘U |
+| Hilbijartinê Fireh / Teng Bike | ⌥↑ / ⌥↓ |
+| Li Jêr / Li Jor Rêzeke Nû Dest Pê Bike | ⇧↩ / ⌥⌘↩ |
 
 ## Beşdarî
 

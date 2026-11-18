@@ -37,11 +37,23 @@
 "Copy" = "Копирај";
 "Paste" = "Залепи";
 "Select All" = "Избери сè";
+"Duplicate Line or Selection" = "Дуплирај ред или избор";
+"Delete Line" = "Избриши ред";
+"Join Lines" = "Спој редови";
+"Toggle Case" = "Промени големи/мали букви";
+"Comment with Line Comment" = "Коментирај со линиски коментар";
+"Move Line Up" = "Премести ред нагоре";
+"Move Line Down" = "Премести ред надолу";
+"Extend Selection" = "Прошири избор";
+"Shrink Selection" = "Намали избор";
+"Start New Line" = "Започни нов ред";
+"Start New Line Before Current" = "Започни нов ред пред тековниот";
 "Find…" = "Најди…";
 "Replace…" = "Замени…";
 "Find Next" = "Најди следно";
 "Find Previous" = "Најди претходно";
 "Use Selection for Find" = "Барај го избраниот текст";
+"Find in Files…" = "Најди во датотеки…";
 "Find" = "Најди";
 "Project" = "Проект";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Намали го фонтот";
 "Reset Font Size" = "Врати ја големината на фонтот";
 "Search Everywhere (Double ⇧)" = "Пребарај насекаде (двапати ⇧)";
+"Recent Files" = "Неодамнешни датотеки";
+"Find Action…" = "Најди дејство…";
+"Go to Line:Column…" = "Оди на ред:колона…";
 "Select in Project View" = "Избери во дрвото на проектот";
 "Next Tab" = "Следно јазиче";
 "Previous Tab" = "Претходно јазиче";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Отвори во терминал";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Оди на ред:колона";
 "Left Panel" = "Лев панел";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Датотеки";
 "Double ⇧ to search everywhere" = "Притиснете ⇧ двапати за пребарување насекаде";
+"Files" = "Датотеки";
+"Actions" = "Дејства";
+"Text" = "Текст";
 "Type a file name (use / to match the path)" = "Внесете име на датотека (користете / за пребарување по патека)";
+"Type a command name" = "Внесете име на команда";
+"Type text to find in project files" = "Внесете текст за пребарување во датотеките на проектот";
 "No recent files" = "Нема неодамнешни датотеки";
-"Recent Files" = "Неодамнешни датотеки";
 "Matches: %1$ld / Files: %2$ld" = "Совпаѓања: %1$ld / Датотеки: %2$ld";
+"Searching…" = "Се пребарува…";
+"Switch Tab" = "Смени јазиче";

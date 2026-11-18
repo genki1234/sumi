@@ -37,11 +37,23 @@
 "Copy" = "Cupià";
 "Paste" = "Incollà";
 "Select All" = "Selezziunà tuttu";
+"Duplicate Line or Selection" = "Duplicà a linea o a selezzione";
+"Delete Line" = "Squassà a linea";
+"Join Lines" = "Unì e linee";
+"Toggle Case" = "Cambià maiuscule/minuscule";
+"Comment with Line Comment" = "Cummentà cù un cummentu di linea";
+"Move Line Up" = "Spustà a linea in sù";
+"Move Line Down" = "Spustà a linea in giò";
+"Extend Selection" = "Allargà a selezzione";
+"Shrink Selection" = "Ristringhje a selezzione";
+"Start New Line" = "Principià una linea nova";
+"Start New Line Before Current" = "Principià una linea nova nanzu à l'attuale";
 "Find…" = "Circà…";
 "Replace…" = "Rimpiazzà…";
 "Find Next" = "Circà u prossimu";
 "Find Previous" = "Circà u precedente";
 "Use Selection for Find" = "Circà u testu selezziunatu";
+"Find in Files…" = "Circà in i schedarii…";
 "Find" = "Ricerca";
 "Project" = "Prughjettu";
 "Terminal" = "Terminale";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Riduce i caratteri";
 "Reset Font Size" = "Ristabilisce a taglia di i caratteri";
 "Search Everywhere (Double ⇧)" = "Circà dapertuttu (⇧ duie volte)";
+"Recent Files" = "Schedarii recenti";
+"Find Action…" = "Circà un'azzione…";
+"Go to Line:Column…" = "Andà à a linea:culonna…";
 "Select in Project View" = "Selezziunà in a vista di u prughjettu";
 "Next Tab" = "Linguetta prossima";
 "Previous Tab" = "Linguetta precedente";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Apri in u terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Andà à a linea:culonna";
 "Left Panel" = "Pannellu di manca";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Schedarii";
 "Double ⇧ to search everywhere" = "Appughjate ⇧ duie volte per circà dapertuttu";
+"Files" = "Schedarii";
+"Actions" = "Azzioni";
+"Text" = "Testu";
 "Type a file name (use / to match the path)" = "Scrivite un nome di schedariu (aduprate / per circà in u percorsu)";
+"Type a command name" = "Scrivite u nome di un cumandu";
+"Type text to find in project files" = "Scrivite u testu à circà in i schedarii di u prughjettu";
 "No recent files" = "Nisun schedariu recente";
-"Recent Files" = "Schedarii recenti";
 "Matches: %1$ld / Files: %2$ld" = "Currispundenze: %1$ld / Schedarii: %2$ld";
+"Searching…" = "Ricerca in corsu…";
+"Switch Tab" = "Cambià di linguetta";

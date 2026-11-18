@@ -37,11 +37,23 @@
 "Copy" = "Salin";
 "Paste" = "Témpél";
 "Select All" = "Pilih kabéh";
+"Duplicate Line or Selection" = "Duplikatkeun baris atawa pilihan";
+"Delete Line" = "Hapus baris";
+"Join Lines" = "Gabungkeun baris";
+"Toggle Case" = "Tukeur hurup gedé jeung leutik";
+"Comment with Line Comment" = "Koméntaran ku koméntar baris";
+"Move Line Up" = "Pindahkeun baris ka luhur";
+"Move Line Down" = "Pindahkeun baris ka handap";
+"Extend Selection" = "Legaan pilihan";
+"Shrink Selection" = "Heureutan pilihan";
+"Start New Line" = "Mimitian baris anyar";
+"Start New Line Before Current" = "Mimitian baris anyar saméméh nu ayeuna";
 "Find…" = "Téangan…";
 "Replace…" = "Ganti…";
 "Find Next" = "Téangan salajengna";
 "Find Previous" = "Téangan saméméhna";
 "Use Selection for Find" = "Téangan téks nu dipilih";
+"Find in Files…" = "Téangan dina berkas…";
 "Find" = "Téangan";
 "Project" = "Proyék";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Leutikan aksara";
 "Reset Font Size" = "Balikkeun ukuran aksara";
 "Search Everywhere (Double ⇧)" = "Téangan di mana waé (⇧ dua kali)";
+"Recent Files" = "Berkas panganyarna";
+"Find Action…" = "Téangan aksi…";
+"Go to Line:Column…" = "Pindah ka baris:kolom…";
 "Select in Project View" = "Pilih dina tampilan proyék";
 "Next Tab" = "Tab salajengna";
 "Previous Tab" = "Tab saméméhna";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Buka dina terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Pindah ka baris:kolom";
 "Left Panel" = "Panel kénca";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Berkas";
 "Double ⇧ to search everywhere" = "Pencét ⇧ dua kali pikeun néangan di mana waé";
+"Files" = "Berkas";
+"Actions" = "Aksi";
+"Text" = "Téks";
 "Type a file name (use / to match the path)" = "Ketik ngaran berkas (paké / pikeun nyocogkeun jalur)";
+"Type a command name" = "Ketik ngaran paréntah";
+"Type text to find in project files" = "Ketik téks pikeun ditéangan dina berkas proyék";
 "No recent files" = "Teu aya berkas panganyarna";
-"Recent Files" = "Berkas panganyarna";
 "Matches: %1$ld / Files: %2$ld" = "Nu cocog: %1$ld / Berkas: %2$ld";
+"Searching…" = "Nuju néangan…";
+"Switch Tab" = "Ganti tab";

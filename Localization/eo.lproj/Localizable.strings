@@ -37,11 +37,23 @@
 "Copy" = "Kopii";
 "Paste" = "Alglui";
 "Select All" = "Elekti ĉion";
+"Duplicate Line or Selection" = "Duobligi linion aŭ elekton";
+"Delete Line" = "Forigi linion";
+"Join Lines" = "Kunigi liniojn";
+"Toggle Case" = "Baskuli usklecon";
+"Comment with Line Comment" = "Komenti per linikomento";
+"Move Line Up" = "Movi linion supren";
+"Move Line Down" = "Movi linion malsupren";
+"Extend Selection" = "Etendi elekton";
+"Shrink Selection" = "Malvastigi elekton";
+"Start New Line" = "Komenci novan linion";
+"Start New Line Before Current" = "Komenci novan linion antaŭ la nuna";
 "Find…" = "Trovi…";
 "Replace…" = "Anstataŭigi…";
 "Find Next" = "Trovi la sekvan";
 "Find Previous" = "Trovi la antaŭan";
 "Use Selection for Find" = "Serĉi la elektitan tekston";
+"Find in Files…" = "Trovi en dosieroj…";
 "Find" = "Serĉo";
 "Project" = "Projekto";
 "Terminal" = "Terminalo";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Malpligrandigi tiparon";
 "Reset Font Size" = "Restarigi tipargrandon";
 "Search Everywhere (Double ⇧)" = "Serĉi ĉie (dufoje ⇧)";
+"Recent Files" = "Lastatempaj dosieroj";
+"Find Action…" = "Trovi agon…";
+"Go to Line:Column…" = "Iri al linio:kolumno…";
 "Select in Project View" = "Elekti en la projekta vido";
 "Next Tab" = "Sekva langeto";
 "Previous Tab" = "Antaŭa langeto";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Malfermi en terminalo";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Iri al linio:kolumno";
 "Left Panel" = "Maldekstra panelo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Dosieroj";
 "Double ⇧ to search everywhere" = "Premu ⇧ dufoje por serĉi ĉie";
+"Files" = "Dosieroj";
+"Actions" = "Agoj";
+"Text" = "Teksto";
 "Type a file name (use / to match the path)" = "Tajpu dosiernomon (uzu / por serĉi en la vojo)";
+"Type a command name" = "Tajpu komandonomon";
+"Type text to find in project files" = "Tajpu tekston por serĉi en la projektaj dosieroj";
 "No recent files" = "Neniuj lastatempaj dosieroj";
-"Recent Files" = "Lastatempaj dosieroj";
 "Matches: %1$ld / Files: %2$ld" = "Kongruoj: %1$ld / Dosieroj: %2$ld";
+"Searching…" = "Serĉante…";
+"Switch Tab" = "Ŝanĝi langeton";

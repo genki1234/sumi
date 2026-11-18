@@ -35,7 +35,8 @@ Jalankan agen di terminal bawaan, klik berkas yang disentuhnya untuk membukanya,
 - Terminal memakai Metal secara bawaan, dengan sakelar Perenderan GPU di Tampilan. Cari keluaran dengan ⌘F; tab baru mewarisi direktori kerja saat ini.
 - Shift+Enter mempertahankan masukan prompt multibaris. Penempelan mendukung teks multibaris, berkas, dan gambar; gambar disimpan sebagai PNG sementara dan disisipkan sebagai jalur di dalam tanda kutip.
 - Pratinjau Markdown dan HTML di samping teks diperbarui saat mengetik (⇧⌘V atau tombol di kanan atas tab). Markdown dirender dengan cmark-gfm, perender yang dipakai GitHub: tabel, daftar tugas, coretan, dan tautan otomatis.
-- Cari di Mana Saja: tekan Shift dua kali untuk menemukan berkas apa pun dalam proyek melalui pencocokan nama secara samar.
+- Cari di Mana Saja: tekan Shift dua kali untuk menemukan berkas apa pun dalam proyek melalui pencocokan nama secara samar. Tab Tindakan (⇧⌘A) menjalankan perintah menu apa pun berdasarkan namanya, dan tab Teks (⇧⌘F) mencari teks di setiap berkas proyek.
+- Penyuntingan baris dari papan ketik: duplikasikan, hapus, pindahkan, jadikan komentar, dan gabungkan baris, serta perluas pilihan selangkah demi selangkah dari satu kata hingga seluruh berkas.
 - Mengenali berkas sumber melalui katalog 915 nama bahasa dan format berkas, termasuk nama berkas, ekstensi gabungan, dan interpreter skrip. Semua 297 komponen Prism (291 tata bahasa mandiri dan 6 pembantu) disertakan dan dimuat sesuai kebutuhan. Format tanpa tata bahasa memakai penyorotan teks dasar.
 - Antarmuka memiliki 108 pilihan bahasa. Gunakan menu Bahasa untuk langsung beralih atau mengikuti bahasa sistem. Pilihan diingat; berkas terbuka, edit yang belum disimpan, dan sesi terminal tetap terbuka. Antarmuka Arab, Ibrani, dan bahasa kanan-ke-kiri lainnya tetap menampilkan kode, pratinjau, dan keluaran terminal dari kiri ke kanan. Terjemahan ditulis langsung dari teks Inggris dengan konteks editor dan terminal. Panel sistem mengikuti pengaturan bahasa macOS. Katalog ini tidak mencakup semua bahasa alami atau pemrograman. Lihat [Menerjemahkan Sumi](CONTRIBUTING.md#translating-sumi).
 - Tampilan terang dan gelap mengikuti sistem.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Pilih di Pohon Proyek | ⌥⌘1 |
 | Tab Berikutnya / Tab Sebelumnya | ⇧⌘] / ⇧⌘[ |
 | Simpan / Simpan Semua | ⌘S / ⌥⌘S |
+| Berkas Terbaru | ⌘E |
+| Cari Tindakan | ⇧⌘A |
+| Cari di Berkas | ⇧⌘F |
+| Lompat ke Baris:Kolom | ⌘L |
+| Duplikasikan Baris atau Pilihan | ⌘D |
+| Hapus Baris | ⌘⌫ |
+| Pindahkan Baris ke Atas / ke Bawah | ⌥⇧↑ / ⌥⇧↓ |
+| Komentari dengan Komentar Baris | ⌘/ |
+| Gabungkan Baris | ⌃⇧J |
+| Ubah Huruf Besar/Kecil | ⇧⌘U |
+| Perluas / Persempit Pilihan | ⌥↑ / ⌥↓ |
+| Mulai Baris Baru di Bawah / di Atas | ⇧↩ / ⌥⌘↩ |
 
 ## Kontribusi
 

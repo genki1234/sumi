@@ -36,7 +36,8 @@ Exekutatu agentea terminal integratuan, ireki lantzen dituen fitxategiak klik eg
 - Shift+Enter bidez lerro anitzeko aginduak sar daitezke. Lerro anitzeko testua, fitxategiak eta irudiak itsats daitezke; irudiak aldi baterako PNG gisa mantentzen dira eta komatxo arteko bide gisa txertatzen dira.
 - Markdown eta HTML aurrebista testuaren alboan, idatzi ahala eguneratua (⇧⌘V edo fitxaren goiko eskuineko botoiak).
   Markdowna cmark-gfm bidez bistaratzen da, GitHubek erabiltzen duen motorrarekin: taulak, zeregin-zerrendak, testu marratua eta esteka automatikoak.
-- Bilatu edonon: sakatu Shift bi aldiz proiektuko edozein fitxategi izenaren gutxi gorabeherako bat-etortze bidez aurkitzeko.
+- Bilatu edonon: sakatu Shift bi aldiz proiektuko edozein fitxategi izenaren gutxi gorabeherako bat-etortze bidez aurkitzeko. Bere «Ekintzak» fitxak (⇧⌘A) menuko edozein komando exekutatzen du izenaren bidez, eta «Testua» fitxak (⇧⌘F) proiektuko fitxategi guztien testuan bilatzen du.
+- Lerroen edizioa teklatutik: bikoiztu, ezabatu, eraman, iruzkindu eta batu lerroak, eta zabaldu hautapena urratsez urrats hitz batetik fitxategi osora.
 - Iturburu-fitxategiak 915 hizkuntza- eta fitxategi-formatu izenen katalogoarekin ezagutzen ditu; fitxategi-izenak, luzapen konposatuak eta script-interpreteak barne. Prismen 297 osagaiak (291 gramatika independente eta 6 laguntzaile) sartuta daude eta behar ahala kargatzen dira. Gramatikarik gabeko formatuek oinarrizko testu-nabarmentzea erabiltzen dute.
 - Interfazeak 108 hizkuntza-aukera ditu. Aldatu berehala Hizkuntza menuan edo jarraitu sistemaren hizkuntza. Aukera gogoratzen da; irekitako fitxategiak, gorde gabeko aldaketak eta terminal-saioak irekita mantentzen dira. Arabierazko, hebreerazko eta eskuinetik ezkerrera doazen beste interfazeetan, kodea, aurrebistak eta terminaleko irteera ezkerretik eskuinera mantentzen dira.
   Itzulpenak ingelesezko testuetatik zuzenean idazten dira, editoreko eta terminaleko testuingurua kontuan hartuta. Sistemaren panelek macOSen hizkuntza-ezarpenak jarraitzen dituzte. Katalogoak ez ditu hizkuntza natural eta programazio-lengoaia guztiak hartzen. Ikusi [Sumi itzultzea](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Hautatu proiektuaren ikuspegian | ⌥⌘1 |
 | Hurrengo / aurreko fitxa | ⇧⌘] / ⇧⌘[ |
 | Gorde / Gorde dena | ⌘S / ⌥⌘S |
+| Azken fitxategiak | ⌘E |
+| Bilatu ekintza | ⇧⌘A |
+| Bilatu fitxategietan | ⇧⌘F |
+| Joan lerro:zutabera | ⌘L |
+| Bikoiztu lerroa edo hautapena | ⌘D |
+| Ezabatu lerroa | ⌘⌫ |
+| Eraman lerroa gora / behera | ⌥⇧↑ / ⌥⇧↓ |
+| Iruzkindu lerro-iruzkinarekin | ⌘/ |
+| Batu lerroak | ⌃⇧J |
+| Txandakatu maiuskulak/minuskulak | ⇧⌘U |
+| Zabaldu / txikitu hautapena | ⌥↑ / ⌥↓ |
+| Hasi lerro berria azpian / gainean | ⇧↩ / ⌥⌘↩ |
 
 ## Lagundu
 

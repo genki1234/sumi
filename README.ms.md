@@ -36,7 +36,8 @@ Jalankan ejen anda dalam terminal terbina dalam, klik fail yang diubahnya untuk 
 - Shift+Enter membolehkan input berbilang baris dalam prom. Penampalan menyokong teks berbilang baris, fail dan imej; imej disimpan sebagai PNG sementara dan laluannya dimasukkan dalam tanda petikan.
 - Pratonton Markdown dan HTML dipaparkan bersebelahan teks dan dikemas kini semasa anda menaip (⇧⌘V atau butang di penjuru kanan atas tab).
   Markdown dipaparkan dengan cmark-gfm, enjin yang digunakan GitHub, dengan sokongan jadual, senarai tugasan, teks bergaris potong dan pautan automatik.
-- Cari di Mana-mana: tekan Shift dua kali untuk mencari sebarang fail dalam projek melalui padanan nama anggaran.
+- Cari di Mana-mana: tekan Shift dua kali untuk mencari sebarang fail dalam projek melalui padanan nama anggaran. Tab Tindakan (⇧⌘A) menjalankan sebarang perintah menu mengikut nama, dan tab Teks (⇧⌘F) mencari teks dalam setiap fail projek.
+- Penyuntingan baris dari papan kekunci: gandakan, padam, alihkan, jadikan ulasan dan gabungkan baris, serta kembangkan pilihan langkah demi langkah daripada satu perkataan hingga seluruh fail.
 - Mengenal pasti fail sumber dengan katalog 915 nama bahasa dan format fail, berdasarkan nama fail, sambungan gabungan dan pentafsir skrip. Semua 297 komponen Prism (291 tatabahasa kendiri dan enam komponen bantuan) disertakan dan dimuatkan apabila diperlukan. Format tanpa tatabahasa menggunakan pewarnaan teks asas.
 - Antara muka menawarkan 108 pilihan bahasa. Gunakan menu Bahasa untuk bertukar serta-merta atau mengikut bahasa sistem. Pilihan diingati; fail terbuka, suntingan belum disimpan dan sesi terminal dikekalkan. Dalam antara muka Arab, Ibrani dan bahasa lain yang ditulis dari kanan ke kiri, kod, pratonton dan output terminal kekal dari kiri ke kanan.
   Terjemahan ditulis terus daripada teks bahasa Inggeris dan konteksnya dalam penyunting serta terminal. Panel yang disediakan sistem mengikut tetapan bahasa macOS. Katalog ini tidak meliputi semua bahasa semula jadi atau bahasa pengaturcaraan. Lihat [Menterjemah Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Pilih dalam Paparan Projek | ⌥⌘1 |
 | Tab seterusnya / sebelumnya | ⇧⌘] / ⇧⌘[ |
 | Simpan / Simpan Semua | ⌘S / ⌥⌘S |
+| Fail Terkini | ⌘E |
+| Cari Tindakan | ⇧⌘A |
+| Cari dalam Fail | ⇧⌘F |
+| Pergi ke Baris:Lajur | ⌘L |
+| Gandakan Baris atau Pilihan | ⌘D |
+| Padam Baris | ⌘⌫ |
+| Alih Baris ke Atas / ke Bawah | ⌥⇧↑ / ⌥⇧↓ |
+| Ulas dengan Ulasan Baris | ⌘/ |
+| Gabungkan Baris | ⌃⇧J |
+| Tukar Huruf Besar/Kecil | ⇧⌘U |
+| Kembangkan / Kecilkan Pilihan | ⌥↑ / ⌥↓ |
+| Mula Baris Baharu di Bawah / di Atas | ⇧↩ / ⌥⌘↩ |
 
 ## Menyumbang
 

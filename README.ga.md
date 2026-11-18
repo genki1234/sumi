@@ -36,7 +36,8 @@ Rith do ghníomhaire sa teirminéal ionsuite, cliceáil na comhaid lena n-oibrí
 - Ceadaíonn Shift+Enter ionchur leideanna thar línte éagsúla. Tacaítear le greamú téacs il-líne, comhad agus íomhánna; coinnítear íomhánna mar PNG sealadacha agus cuirtear isteach iad mar chonairí i gcomharthaí athfhriotail.
 - Réamhamharc Markdown agus HTML in aice leis an téacs, á nuashonrú agus tú ag clóscríobh (⇧⌘V nó na cnaipí ag barr ar dheis an chluaisín).
   Rindreáiltear Markdown le cmark-gfm, an t-inneall a úsáideann GitHub: táblaí, liostaí tascanna, téacs scriosta amach agus naisc uathoibríocha.
-- Cuardaigh i ngach áit: brúigh Shift faoi dhó chun aon chomhad sa tionscadal a aimsiú trí mheaitseáil gharbh ainmneacha.
+- Cuardaigh i ngach áit: brúigh Shift faoi dhó chun aon chomhad sa tionscadal a aimsiú trí mheaitseáil gharbh ainmneacha. Ritheann a chluaisín «Gníomhartha» (⇧⌘A) aon ordú roghchláir de réir a ainm, agus cuardaíonn a chluaisín «Téacs» (⇧⌘F) téacs gach comhaid sa tionscadal.
+- Eagarthóireacht línte ón méarchlár: dúbail, scrios, bog agus ceangail línte, déan trácht díobh, agus leathnaigh an rogha céim ar chéim ó fhocal amháin go dtí an comhad iomlán.
 - Aithníonn sé comhaid foinse le catalóg de 915 ainm teangacha agus formáidí comhaid, lena n-áirítear ainmneacha comhaid, iarmhíreanna cumaisc agus ateangairí scripteanna. Tá gach ceann de na 297 comhpháirt Prism (291 gramadach neamhspleách agus 6 chomhpháirt chúnta) san áireamh agus lódáiltear de réir éilimh iad. Úsáideann formáidí gan ghramadach aibhsiú téacs bunúsach.
 - Tá 108 rogha teanga sa chomhéadan. Úsáid an roghchlár Teanga chun athrú láithreach nó lean teanga an chórais. Cuimhnítear ar an rogha; fanann comhaid oscailte, eagarthóireacht gan sábháil agus seisiúin teirminéil ar oscailt. I gcomhéadain Araibise, Eabhraise agus eile ó dheis go clé, fanann cód, réamhamhairc agus aschur teirminéil ó chlé go deas.
   Scríobhtar aistriúcháin go díreach ó na téacsanna Béarla, agus comhthéacs an eagarthóra agus an teirminéil san áireamh. Leanann painéil chórais socruithe teanga macOS. Ní chlúdaíonn an chatalóg gach teanga nádúrtha ná ríomhchlárúcháin. Féach [Sumi a aistriú](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Roghnaigh in amharc an tionscadail | ⌥⌘1 |
 | An chéad chluaisín eile / an cluaisín roimhe | ⇧⌘] / ⇧⌘[ |
 | Sábháil / Sábháil uile | ⌘S / ⌥⌘S |
+| Comhaid le déanaí | ⌘E |
+| Aimsigh gníomh | ⇧⌘A |
+| Aimsigh i gcomhaid | ⇧⌘F |
+| Téigh chuig líne:colún | ⌘L |
+| Dúbail an líne nó an rogha | ⌘D |
+| Scrios an líne | ⌘⌫ |
+| Bog an líne suas / síos | ⌥⇧↑ / ⌥⇧↓ |
+| Déan trácht le trácht líne | ⌘/ |
+| Ceangail na línte le chéile | ⌃⇧J |
+| Scoránaigh cás na litreacha | ⇧⌘U |
+| Leathnaigh / laghdaigh an rogha | ⌥↑ / ⌥↓ |
+| Tosaigh líne nua thíos / thuas | ⇧↩ / ⌥⌘↩ |
 
 ## Rannpháirtíocht
 

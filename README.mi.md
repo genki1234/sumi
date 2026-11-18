@@ -35,7 +35,8 @@ Whakahaerehia tō māngai ki te kāpeka kua whakaurua, pāwhiria ngā kōnae ka 
 - Ka whakamahi ngā kāpeka i te Metal hei taunoa, ā, he pana Tā Pikitia mā te GPU kei Tirohanga. Rapua te putanga mā te ⌘F; ka riro i ngā ripa hou te kōpaki mahi o nāianei.
 - Ka pupuri a Shift+Enter i te tāuru tohutohu rārangi maha. Ka taea te whakapiri kuputuhi rārangi maha, kōnae me ngā atahanga; ka puritia ngā atahanga hei PNG rangitahi, ā, ka whakaurua hei ara i roto i ngā tohukī.
 - Kei te taha o te kuputuhi te arokite Markdown me HTML, ka whakahōutia i a koe e patopato ana (⇧⌘V, ngā pātene rānei kei runga matau o te ripa). Ka whakaaturia te Markdown mā te cmark-gfm, te pūrere a GitHub: ripanga, rārangi mahi, kuputuhi kua tāraitia, me ngā hononga aunoa.
-- Rapu i Ngā Wāhi Katoa: pēhia te Shift kia rua hei kimi i tētahi kōnae o te kaupapa mā te rapu ingoa āhua ōrite.
+- Rapu i Ngā Wāhi Katoa: pēhia te Shift kia rua hei kimi i tētahi kōnae o te kaupapa mā te rapu ingoa āhua ōrite. Mā tōna ripa Hohenga (⇧⌘A) e whakahaere tētahi whakahau tahua mā tōna ingoa, ā, mā tōna ripa Kuputuhi (⇧⌘F) e rapu te kuputuhi o ia kōnae o te kaupapa.
+- Whakatika rārangi mā te papapātuhi: tāruatia, mukua, nekehia, whakatākupuhia, honoa hoki ngā rārangi, ā, whakawhānuitia haere te tīpako mai i tētahi kupu ki te kōnae katoa.
 - Ka mōhio ki ngā kōnae waehere mā tētahi rārangi 915 ingoa reo me ngā hōputu kōnae, tae atu ki ngā ingoa kōnae, toronga huinga me ngā kaiwhakamāori hōtuhi. Kua whakaurua ngā wāhanga Prism 297 katoa (291 wetereo motuhake me ngā kaiāwhina 6), ka utaina ina hiahiatia. Ka whakamahi ngā hōputu kore wetereo i te miramira kuputuhi māmā.
 - E 108 ngā kōwhiringa reo o te atanga. Whakamahia te tahua Reo hei whakawhiti tonu, hei whai rānei i te reo pūnaha. Ka maumaharatia te kōwhiringa; ka noho tuwhera ngā kōnae, ngā whakarerekētanga kāore anō kia tiakina me ngā wātū kāpeka. I ngā atanga Arapi, Hiperu me ērā atu e haere ana i matau ki mauī, ka noho tonu te waehere, arokite me te putanga kāpeka i mauī ki matau. I tuhia ngā whakamāoritanga mai tonu i ngā kuputuhi Ingarihi me te horopaki o te pūwhakatika me te kāpeka. Ka whai ngā paewhiri pūnaha i ngā tautuhinga reo macOS. Kāore te rārangi e kapi i ia reo māori, reo papatono rānei. Tirohia [Te whakamāori i a Sumi](CONTRIBUTING.md#translating-sumi).
 - Ka whai te āhua mārama me te āhua pōuri i te pūnaha.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Tīpako i te Rākau Kaupapa | ⌥⌘1 |
 | Ripa Panuku / Ripa o Mua | ⇧⌘] / ⇧⌘[ |
 | Tiaki / Tiaki Katoa | ⌘S / ⌥⌘S |
+| Kōnae Nō Nā Tata Nei | ⌘E |
+| Rapu Hohenga | ⇧⌘A |
+| Rapu i Ngā Kōnae | ⇧⌘F |
+| Haere ki te Rārangi:Tīwae | ⌘L |
+| Tāruatia te Rārangi, te Tīpako rānei | ⌘D |
+| Mukua te Rārangi | ⌘⌫ |
+| Nekehia te Rārangi ki Runga / Nekehia te Rārangi ki Raro | ⌥⇧↑ / ⌥⇧↓ |
+| Whakatākupu ki te Tākupu Rārangi | ⌘/ |
+| Honoa ngā Rārangi | ⌃⇧J |
+| Whakawhitia te Pūmatua me te Pūiti | ⇧⌘U |
+| Whakawhānuitia te Tīpako / Whakawhāitihia te Tīpako | ⌥↑ / ⌥↓ |
+| Rārangi Hou ki Raro / Rārangi Hou ki Runga | ⇧↩ / ⌥⌘↩ |
 
 ## Te whai wāhi mai
 

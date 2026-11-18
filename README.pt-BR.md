@@ -36,7 +36,8 @@ Execute seu agente no terminal integrado, clique nos arquivos que ele modifica p
 - Shift+Enter permite inserir quebras de linha no prompt. É possível colar texto com várias linhas, arquivos e imagens; as imagens são mantidas como PNGs temporários e inseridas como caminhos entre aspas.
 - A pré-visualização de Markdown e HTML aparece ao lado do texto e é atualizada durante a digitação (⇧⌘V ou os botões no canto superior direito da aba).
   O Markdown é renderizado com cmark-gfm, o mecanismo usado pelo GitHub, com tabelas, listas de tarefas, texto tachado e links automáticos.
-- Buscar em Todo Lugar: pressione Shift duas vezes para encontrar qualquer arquivo do projeto por correspondência aproximada do nome.
+- Buscar em Todo Lugar: pressione Shift duas vezes para encontrar qualquer arquivo do projeto por correspondência aproximada do nome. A aba Ações (⇧⌘A) executa qualquer comando de menu pelo nome, e a aba Texto (⇧⌘F) busca no texto de todos os arquivos do projeto.
+- Edição de linhas pelo teclado: duplique, exclua, mova, comente e junte linhas, e amplie a seleção passo a passo, de uma palavra até o arquivo inteiro.
 - Reconhece arquivos-fonte com um catálogo de 915 nomes de linguagens e formatos, considerando nomes de arquivo, extensões compostas e interpretadores de scripts. Todos os 297 componentes do Prism (291 gramáticas independentes e seis componentes auxiliares) são incluídos e carregados sob demanda. Formatos sem gramática usam uma coloração básica de texto.
 - A interface oferece 108 opções de idioma. Use o menu Idioma para mudar imediatamente ou seguir o idioma do sistema. A escolha é salva; arquivos abertos, edições não salvas e sessões do terminal são preservados. Nas interfaces em árabe, hebraico e outros idiomas escritos da direita para a esquerda, o código, as pré-visualizações e a saída do terminal continuam da esquerda para a direita.
   As traduções são escritas diretamente a partir dos textos em inglês e de seu contexto no editor e no terminal. Os painéis fornecidos pelo sistema seguem as configurações de idioma do macOS. Este catálogo não abrange todos os idiomas naturais nem todas as linguagens de programação. Veja [Traduzir o Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Selecionar na Árvore do Projeto | ⌥⌘1 |
 | Próxima aba / aba anterior | ⇧⌘] / ⇧⌘[ |
 | Salvar / Salvar Tudo | ⌘S / ⌥⌘S |
+| Arquivos Recentes | ⌘E |
+| Buscar Ação | ⇧⌘A |
+| Buscar nos Arquivos | ⇧⌘F |
+| Ir para Linha:Coluna | ⌘L |
+| Duplicar Linha ou Seleção | ⌘D |
+| Excluir Linha | ⌘⌫ |
+| Mover Linha para Cima / para Baixo | ⌥⇧↑ / ⌥⇧↓ |
+| Comentar com Comentário de Linha | ⌘/ |
+| Juntar Linhas | ⌃⇧J |
+| Alternar Maiúsculas/Minúsculas | ⇧⌘U |
+| Expandir / Reduzir Seleção | ⌥↑ / ⌥↓ |
+| Iniciar Nova Linha Abaixo / Acima | ⇧↩ / ⌥⌘↩ |
 
 ## Contribuir
 

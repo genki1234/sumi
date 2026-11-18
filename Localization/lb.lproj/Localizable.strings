@@ -37,11 +37,23 @@
 "Copy" = "Kopéieren";
 "Paste" = "Asetzen";
 "Select All" = "Alles auswielen";
+"Duplicate Line or Selection" = "Zeil oder Auswiel duplizéieren";
+"Delete Line" = "Zeil läschen";
+"Join Lines" = "Zeilen zesummefügen";
+"Toggle Case" = "Grouss-/Klengschreiwung wiesselen";
+"Comment with Line Comment" = "Mat Zeilekommentar auskommentéieren";
+"Move Line Up" = "Zeil eropréckelen";
+"Move Line Down" = "Zeil erofréckelen";
+"Extend Selection" = "Auswiel erweideren";
+"Shrink Selection" = "Auswiel verklengeren";
+"Start New Line" = "Nei Zeil ufänken";
+"Start New Line Before Current" = "Nei Zeil virun der aktueller ufänken";
 "Find…" = "Sichen…";
 "Replace…" = "Ersetzen…";
 "Find Next" = "Nächst sichen";
 "Find Previous" = "Viregt sichen";
 "Use Selection for Find" = "Ausgewielten Text sichen";
+"Find in Files…" = "A Dateie sichen…";
 "Find" = "Sichen";
 "Project" = "Projet";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Schrëft verklengeren";
 "Reset Font Size" = "Schrëftgréisst zerécksetzen";
 "Search Everywhere (Double ⇧)" = "Iwwerall sichen (zweemol ⇧)";
+"Recent Files" = "Rezent Dateien";
+"Find Action…" = "Aktioun sichen…";
+"Go to Line:Column…" = "Bei Zeil:Kolonn goen…";
 "Select in Project View" = "Am Projetbam auswielen";
 "Next Tab" = "Nächsten Tab";
 "Previous Tab" = "Viregten Tab";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Am Terminal opmaachen";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Bei Zeil:Kolonn goen";
 "Left Panel" = "Lénk Säiteleeschte";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Dateien";
 "Double ⇧ to search everywhere" = "Dréckt zweemol op ⇧ fir iwwerall ze sichen";
+"Files" = "Dateien";
+"Actions" = "Aktiounen";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Gitt e Dateinumm an (benotzt / fir nom Wee ze sichen)";
+"Type a command name" = "Gitt e Befeelsnumm an";
+"Type text to find in project files" = "Gitt den Text an, deen an de Projetsdateie gesicht soll ginn";
 "No recent files" = "Keng rezent Dateien";
-"Recent Files" = "Rezent Dateien";
 "Matches: %1$ld / Files: %2$ld" = "Treffer: %1$ld / Dateien: %2$ld";
+"Searching…" = "Gëtt gesicht…";
+"Switch Tab" = "Tab wiesselen";

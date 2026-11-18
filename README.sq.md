@@ -35,7 +35,8 @@ Ekzekutoni agjentin në terminalin e integruar, klikoni skedarët që ai ndrysho
 - Terminalet përdorin Metal si parazgjedhje; çelësi Renderim me GPU është te Pamje. Kërkoni në dalje me ⌘F; skedat e reja trashëgojnë dosjen aktuale të punës.
 - Shift+Enter ruan futjen e kërkesave me shumë rreshta. Ngjitja mbështet tekst me shumë rreshta, skedarë dhe figura; figurat ruhen si PNG të përkohshme dhe shtigjet e tyre futen në thonjëza.
 - Parapamja Markdown dhe HTML shfaqet pranë tekstit dhe përditësohet gjatë shtypjes (⇧⌘V ose butonat lart djathtas në skedë). Markdown paraqitet me cmark-gfm që përdor GitHub: tabela, lista detyrash, tekst i vijëzuar dhe lidhje automatike.
-- Kërko kudo: shtypni Shift dy herë për të gjetur çdo skedar në projekt me përputhje të përafërt të emrit.
+- Kërko kudo: shtypni Shift dy herë për të gjetur çdo skedar në projekt me përputhje të përafërt të emrit. Skeda e tij Veprime (⇧⌘A) ekzekuton çdo komandë të menysë sipas emrit, ndërsa skeda Tekst (⇧⌘F) kërkon në tekstin e çdo skedari të projektit.
+- Redaktim i rreshtave nga tastiera: dyfishoni, fshini, lëvizni, komentoni dhe bashkoni rreshta, si dhe zgjeroni përzgjedhjen hap pas hapi nga një fjalë deri te i gjithë skedari.
 - Njeh skedarë burimorë me një katalog prej 915 emrash gjuhësh dhe formatesh, përfshirë emra skedarësh, prapashtesa të përbëra dhe interpretues skriptesh. Të gjithë 297 përbërësit Prism (291 gramatika të pavarura dhe 6 ndihmës) përfshihen dhe ngarkohen sipas nevojës. Formatet pa gramatikë përdorin theksim bazë të tekstit.
 - Ndërfaqja ka 108 zgjedhje gjuhësh. Menyja Gjuha e ndryshon menjëherë ose ndjek gjuhën e sistemit. Zgjedhja mbahet mend; skedarët e hapur, redaktimet e paruajtura dhe seancat e terminalit mbeten hapur. Në arabisht, hebraisht dhe ndërfaqe të tjera nga e djathta në të majtë, kodi, parapamjet dhe dalja e terminalit mbeten nga e majta në të djathtë. Përkthimet shkruhen drejtpërdrejt nga tekstet anglisht duke marrë parasysh redaktorin dhe terminalin. Panelet e sistemit ndjekin gjuhën e macOS. Katalogu nuk mbulon çdo gjuhë natyrore ose programimi. Shihni [Përkthimi i Sumi](CONTRIBUTING.md#translating-sumi).
 - Pamja e çelët dhe e errët ndjekin sistemin.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Përzgjidh në pamjen e projektit | ⌥⌘1 |
 | Skeda tjetër / Skeda e mëparshme | ⇧⌘] / ⇧⌘[ |
 | Ruaj / Ruaj të gjitha | ⌘S / ⌥⌘S |
+| Skedarët e fundit | ⌘E |
+| Gjej veprim | ⇧⌘A |
+| Gjej në skedarë | ⇧⌘F |
+| Shko te rreshti:kolona | ⌘L |
+| Dyfisho rreshtin ose përzgjedhjen | ⌘D |
+| Fshi rreshtin | ⌘⌫ |
+| Lëviz rreshtin lart / Lëviz rreshtin poshtë | ⌥⇧↑ / ⌥⇧↓ |
+| Komento me koment rreshti | ⌘/ |
+| Bashko rreshtat | ⌃⇧J |
+| Ndërro shkronjat e mëdha dhe të vogla | ⇧⌘U |
+| Zgjero përzgjedhjen / Ngushto përzgjedhjen | ⌥↑ / ⌥↓ |
+| Fillo rresht të ri poshtë / Fillo rresht të ri sipër | ⇧↩ / ⌥⌘↩ |
 
 ## Kontributet
 

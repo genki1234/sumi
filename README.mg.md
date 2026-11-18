@@ -35,7 +35,8 @@ Alefaso ao amin'ny terminal anatiny ny mpiasanao, tsindrio ny rakitra novainy ha
 - Metal no ampiasain'ny terminal raha tsy ovaina, miaraka amin'ny safidy Fanehoana amin'ny GPU ao amin'ny Fijery. Karohy amin'ny ⌘F ny vokatra; mandova ny lahatahiry fiasana ankehitriny ny kiheba vaovao.
 - Ny Shift+Enter dia mitazona ny fampidirana toromarika misy andalana maro. Azo apetaka ny lahatsoratra maro andalana, rakitra ary sary; tehirizina ho PNG vonjimaika ny sary ary ampidirina ho lalana ao anaty farango sosona.
 - Miseho eo akaikin'ny lahatsoratra ny topi-maso Markdown sy HTML, havaozina rehefa manoratra (⇧⌘V na ireo bokotra eo ambony ankavanan'ny kiheba). cmark-gfm, izay ampiasain'ny GitHub, no maneho Markdown: tabilao, lisitry ny asa, soratra voatsipika ary rohy mandeha ho azy.
-- Karohy Eny Rehetra: tsindrio indroa ny Shift hitadiavana rakitra rehetra ao amin'ny tetikasa amin'ny anarana mitovitovy.
+- Karohy Eny Rehetra: tsindrio indroa ny Shift hitadiavana rakitra rehetra ao amin'ny tetikasa amin'ny anarana mitovitovy. Ny kiheba Asa (⇧⌘A) dia manatanteraka izay baiko rehetra ao amin'ny menio amin'ny alalan'ny anarany, ary ny kiheba Lahatsoratra (⇧⌘F) dia mitady ao amin'ny lahatsoratry ny rakitra rehetra ao amin'ny tetikasa.
+- Fanovana andalana amin'ny kitendry: avereno indroa, fafao, afindrao, ovay ho fanamarihana ary atambaro ny andalana, ary itaro tsikelikely ny safidy manomboka amin'ny teny iray ka hatramin'ny rakitra manontolo.
 - Mamantatra rakitra loharano amin'ny katalaogy misy anaran'ny fiteny sy endrika rakitra 915, ahitana anaran-drakitra, tovana mitambatra ary mpandika script. Tafiditra ny singa Prism 297 rehetra (fitsipi-pitenenana mahaleo tena 291 sy mpanampy 6), ampidirina rehefa ilaina. Ny endrika tsy misy fitsipi-pitenenana dia mampiasa fanasongadinana lahatsoratra tsotra.
 - Manana safidy fiteny 108 ny sehatra fampiasana. Ampiasao ny menio Fiteny hiova avy hatrany na hanaraka ny fitenin'ny rafitra. Tsaroana ny safidy; mijanona misokatra ny rakitra, ny fanovana mbola tsy voatahiry ary ny fotoam-piasana terminal. Amin'ny sehatra arabo, hebreo sy ny hafa mandeha avy ankavanana miankavia, ny kaody, topi-maso ary vokatra terminal dia mbola avy ankavia miankavanana. Nosoratana mivantana avy amin'ny lahatsoratra anglisy ny dikanteny, araka ny toe-javatra ao amin'ny mpanova sy terminal. Manaraka ny fikirana fitenin'ny macOS ny takelaky ny rafitra. Tsy mahafaoka ny fiteny voajanahary na fandaharana rehetra ity katalaogy ity. Jereo [Fandikana an'i Sumi](CONTRIBUTING.md#translating-sumi).
 - Manaraka ny rafitra ny endrika mazava sy maizina.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Safidio ao amin'ny Hazon'ny Tetikasa | ⌥⌘1 |
 | Kiheba Manaraka / Kiheba Teo Aloha | ⇧⌘] / ⇧⌘[ |
 | Tehirizo / Tehirizo Rehetra | ⌘S / ⌥⌘S |
+| Rakitra Vao Nosokafana | ⌘E |
+| Tadiavo Asa | ⇧⌘A |
+| Tadiavo ao amin'ny Rakitra | ⇧⌘F |
+| Mankanesa amin'ny Andalana:Tsanganana | ⌘L |
+| Avereno Indroa ny Andalana na ny Voafantina | ⌘D |
+| Fafao ny Andalana | ⌘⌫ |
+| Ampiakaro ny Andalana / Ampidino ny Andalana | ⌥⇧↑ / ⌥⇧↓ |
+| Ovay ho Fanamarihana Andalana | ⌘/ |
+| Atambaro ny Andalana | ⌃⇧J |
+| Avadiho ny Litera Lehibe sy Kely | ⇧⌘U |
+| Itaro ny Voafantina / Ahenao ny Voafantina | ⌥↑ / ⌥↓ |
+| Andalana Vaovao Ambany / Andalana Vaovao Ambony | ⇧↩ / ⌥⌘↩ |
 
 ## Fandraisana anjara
 

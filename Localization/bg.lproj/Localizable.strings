@@ -37,11 +37,23 @@
 "Copy" = "Копиране";
 "Paste" = "Поставяне";
 "Select All" = "Избиране на всичко";
+"Duplicate Line or Selection" = "Дублиране на реда или избраното";
+"Delete Line" = "Изтриване на реда";
+"Join Lines" = "Обединяване на редовете";
+"Toggle Case" = "Смяна на регистъра";
+"Comment with Line Comment" = "Коментиране с едноредов коментар";
+"Move Line Up" = "Преместване на реда нагоре";
+"Move Line Down" = "Преместване на реда надолу";
+"Extend Selection" = "Разширяване на избраното";
+"Shrink Selection" = "Стесняване на избраното";
+"Start New Line" = "Започване на нов ред";
+"Start New Line Before Current" = "Започване на нов ред преди текущия";
 "Find…" = "Търсене…";
 "Replace…" = "Замяна…";
 "Find Next" = "Следващо съвпадение";
 "Find Previous" = "Предишно съвпадение";
 "Use Selection for Find" = "Търсене на избрания текст";
+"Find in Files…" = "Търсене във файловете…";
 "Find" = "Търсене";
 "Project" = "Проект";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Намаляване на шрифта";
 "Reset Font Size" = "Възстановяване на размера на шрифта";
 "Search Everywhere (Double ⇧)" = "Търсене навсякъде (два пъти ⇧)";
+"Recent Files" = "Скорошни файлове";
+"Find Action…" = "Търсене на действие…";
+"Go to Line:Column…" = "Към ред:колона…";
 "Select in Project View" = "Избиране в изгледа на проекта";
 "Next Tab" = "Следващ раздел";
 "Previous Tab" = "Предишен раздел";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Отваряне в терминала";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Към ред:колона";
 "Left Panel" = "Ляв панел";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Файлове";
 "Double ⇧ to search everywhere" = "Натиснете ⇧ два пъти за търсене навсякъде";
+"Files" = "Файлове";
+"Actions" = "Действия";
+"Text" = "Текст";
 "Type a file name (use / to match the path)" = "Въведете име на файл (използвайте / за търсене по пътя)";
+"Type a command name" = "Въведете име на команда";
+"Type text to find in project files" = "Въведете текст за търсене във файловете на проекта";
 "No recent files" = "Няма скорошни файлове";
-"Recent Files" = "Скорошни файлове";
 "Matches: %1$ld / Files: %2$ld" = "Съвпадения: %1$ld / Файлове: %2$ld";
+"Searching…" = "Търси се…";
+"Switch Tab" = "Превключване на раздела";

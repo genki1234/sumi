@@ -35,7 +35,8 @@ Sebenzisa iarhente yakho kwitheminali eyakhelwe ngaphakathi, cofa iifayile ezits
 - Iitheminali zisebenzisa iMetal ngokuzenzekelayo; iswitshi yokuzoba ngeGPU ikwiMboniselo. Khangela kwimveliso nge⌘F; iithebhu ezintsha zithatha ifolda yokusebenza yangoku.
 - I-Shift+Enter igcina ukufaka izicelo ezinemigca emininzi. Ukuncamathisela kuxhasa okubhaliweyo okunemigca emininzi, iifayile nemifanekiso; imifanekiso igcinwa njengePNG yethutyana, iindlela zayo zifakwe kwiimpawu zocaphulo.
 - Imboniselo yangaphambili yeMarkdown neHTML ikufutshane nokubhaliweyo, ihlaziywa xa uchwetheza (⇧⌘V okanye amaqhosha angasentla ngasekunene kwithebhu). IMarkdown iboniswa ngecmark-gfm esetyenziswa yiGitHub: iitheyibhile, uluhlu lwemisebenzi, ukubhaliweyo okukrwelweyo namakhonkco azenzekelayo.
-- Khangela kuyo yonke indawo: cofa iShift kabini ukufumana nayiphi ifayile yeprojekthi ngegama elisondeleyo.
+- Khangela kuyo yonke indawo: cofa iShift kabini ukufumana nayiphi ifayile yeprojekthi ngegama elisondeleyo. Ithebhu yayo ethi Izenzo (⇧⌘A) iqhuba nawuphi na umyalelo wemenyu ngegama lawo, kwaye ithebhu ethi Okubhaliweyo (⇧⌘F) ikhangela okubhaliweyo kuzo zonke iifayile zeprojekthi.
+- Ukuhlela imigca ngekhibhodi: phinda, cima, shenxisa, faka iingcaciso uze udibanise imigca, kwaye wandise ukhetho inyathelo ngenyathelo ukusuka kwigama ukuya kwifayile yonke.
 - Ibona iifayile zomthombo ngekhathalogu yamagama eelwimi neefomathi eziyi915, kuquka amagama eefayile, izandiso ezidityanisiweyo neetoliki zeskripthi. Onke amacandelo ePrism ayi297 (291 imigaqo ezimeleyo ne6 ezincedisayo) aqukiwe, afakwa xa efuneka. Iifomathi ezingenamigaqo zisebenzisa ukuqaqambisa okubhaliweyo okusisiseko.
 - Ujongano lunokhetho lweelwimi eziyi108. Sebenzisa imenyu yoLwimi ukutshintsha ngoko nangoko okanye ukulandela ulwimi lwenkqubo. Ukhetho luyakhunjulwa; iifayile ezivuliweyo, iinguqu ezingagcinwanga neesesheni zetheminali zihlala zivuliwe. KwisiArabhu, isiHebhere nolunye ujongano lwasekunene ukuya ekhohlo, ikhowudi, imboniselo yangaphambili nemveliso yetheminali zihlala zisuka ekhohlo ukuya ekunene. Iinguqulelo zibhalwe ngqo ngokubhaliweyo kwesiNgesi kuqwalaselwa umhleli netheminali. Iiphaneli zenkqubo zilandela ulwimi lwe-macOS. Ikhathalogu ayiquki zonke iilwimi zabantu okanye ezokucwangcisa iinkqubo. Jonga [Ukuguqulela iSumi](CONTRIBUTING.md#translating-sumi).
 - Inkangeleko ekhanyayo nemnyama ilandela inkqubo.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Khetha kwimboniselo yeprojekthi | ⌥⌘1 |
 | Ithebhu elandelayo / Ithebhu yangaphambili | ⇧⌘] / ⇧⌘[ |
 | Gcina / Gcina zonke | ⌘S / ⌥⌘S |
+| Iifayile zakutshanje | ⌘E |
+| Fumana isenzo | ⇧⌘A |
+| Fumana kwiifayile | ⇧⌘F |
+| Yiya kumgca:kwikholamu | ⌘L |
+| Phinda umgca okanye okukhethiweyo | ⌘D |
+| Cima umgca | ⌘⌫ |
+| Yisa umgca phezulu / Yisa umgca ezantsi | ⌥⇧↑ / ⌥⇧↓ |
+| Faka okanye ususe ingcaciso yomgca | ⌘/ |
+| Dibanisa imigca | ⌃⇧J |
+| Tshintsha oonobumba abakhulu nabancinci | ⇧⌘U |
+| Yandisa ukhetho / Nciphisa ukhetho | ⌥↑ / ⌥↓ |
+| Qala umgca omtsha ngezantsi / Qala umgca omtsha ngaphezulu | ⇧↩ / ⌥⌘↩ |
 
 ## Ukufaka isandla
 

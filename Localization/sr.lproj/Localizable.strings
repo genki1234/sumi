@@ -37,11 +37,23 @@
 "Copy" = "Копирај";
 "Paste" = "Налепи";
 "Select All" = "Изабери све";
+"Duplicate Line or Selection" = "Дуплирај ред или избор";
+"Delete Line" = "Обриши ред";
+"Join Lines" = "Споји редове";
+"Toggle Case" = "Промени велика и мала слова";
+"Comment with Line Comment" = "Коментариши коментаром реда";
+"Move Line Up" = "Помери ред нагоре";
+"Move Line Down" = "Помери ред надоле";
+"Extend Selection" = "Прошири избор";
+"Shrink Selection" = "Сузи избор";
+"Start New Line" = "Започни нови ред";
+"Start New Line Before Current" = "Започни нови ред изнад тренутног";
 "Find…" = "Пронађи…";
 "Replace…" = "Замени…";
 "Find Next" = "Пронађи следеће";
 "Find Previous" = "Пронађи претходно";
 "Use Selection for Find" = "Тражи изабрани текст";
+"Find in Files…" = "Пронађи у датотекама…";
 "Find" = "Претрага";
 "Project" = "Пројекат";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Смањи фонт";
 "Reset Font Size" = "Врати величину фонта";
 "Search Everywhere (Double ⇧)" = "Претражи свуда (двапут ⇧)";
+"Recent Files" = "Недавне датотеке";
+"Find Action…" = "Пронађи радњу…";
+"Go to Line:Column…" = "Иди на ред:колону…";
 "Select in Project View" = "Изабери у стаблу пројекта";
 "Next Tab" = "Следећа картица";
 "Previous Tab" = "Претходна картица";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Отвори у терминалу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Иди на ред:колону";
 "Left Panel" = "Лева табла";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Датотеке";
 "Double ⇧ to search everywhere" = "Притисните ⇧ двапут за претрагу свуда";
+"Files" = "Датотеке";
+"Actions" = "Радње";
+"Text" = "Текст";
 "Type a file name (use / to match the path)" = "Унесите назив датотеке (користите / за претрагу путање)";
+"Type a command name" = "Унесите назив команде";
+"Type text to find in project files" = "Унесите текст за претрагу у датотекама пројекта";
 "No recent files" = "Нема недавних датотека";
-"Recent Files" = "Недавне датотеке";
 "Matches: %1$ld / Files: %2$ld" = "Подударања: %1$ld / Датотеке: %2$ld";
+"Searching…" = "Претрага…";
+"Switch Tab" = "Промени картицу";

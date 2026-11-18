@@ -37,11 +37,23 @@
 "Copy" = "کاپي کړئ";
 "Paste" = "ونښلوئ";
 "Select All" = "ټول وټاکئ";
+"Duplicate Line or Selection" = "کرښه یا ټاکنه دوه ګونې کړئ";
+"Delete Line" = "کرښه ړنګه کړئ";
+"Join Lines" = "کرښې یوځای کړئ";
+"Toggle Case" = "لوی/واړه توري بدل کړئ";
+"Comment with Line Comment" = "د کرښې په تبصره تبصره کړئ";
+"Move Line Up" = "کرښه پورته یوسئ";
+"Move Line Down" = "کرښه ښکته یوسئ";
+"Extend Selection" = "ټاکنه پراخه کړئ";
+"Shrink Selection" = "ټاکنه کمه کړئ";
+"Start New Line" = "نوې کرښه پیل کړئ";
+"Start New Line Before Current" = "له اوسنۍ کرښې مخکې نوې کرښه پیل کړئ";
 "Find…" = "ومومئ…";
 "Replace…" = "ځایناستی کړئ…";
 "Find Next" = "راتلونکی ومومئ";
 "Find Previous" = "مخکینی ومومئ";
 "Use Selection for Find" = "ټاکل شوی متن ولټوئ";
+"Find in Files…" = "په دوتنو کې ومومئ…";
 "Find" = "ومومئ";
 "Project" = "پروژه";
 "Terminal" = "ټرمینل";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "د لیک اندازه کمه کړئ";
 "Reset Font Size" = "د لیک اندازه بېرته تلواله کړئ";
 "Search Everywhere (Double ⇧)" = "هر ځای ولټوئ (⇧ دوه ځله)";
+"Recent Files" = "وروستۍ دوتنې";
+"Find Action…" = "کړنه ومومئ…";
+"Go to Line:Column…" = "کرښه:ستن ته لاړ شئ…";
 "Select in Project View" = "د پروژې په ونه کې یې وټاکئ";
 "Next Tab" = "راتلونکی ټب";
 "Previous Tab" = "مخکینی ټب";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "په ټرمینل کې یې پرانیزئ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "کرښه:ستن ته لاړ شئ";
 "Left Panel" = "کیڼ پینل";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "دوتنې";
 "Double ⇧ to search everywhere" = "د هر ځای لټون لپاره ⇧ دوه ځله کېکاږئ";
+"Files" = "دوتنې";
+"Actions" = "کړنې";
+"Text" = "متن";
 "Type a file name (use / to match the path)" = "د دوتنې نوم ولیکئ (د لارې د لټون لپاره / وکاروئ)";
+"Type a command name" = "د امر نوم ولیکئ";
+"Type text to find in project files" = "د پروژې په دوتنو کې د موندلو لپاره متن ولیکئ";
 "No recent files" = "وروستۍ دوتنې نشته";
-"Recent Files" = "وروستۍ دوتنې";
 "Matches: %1$ld / Files: %2$ld" = "سمون لرونکې پایلې: %1$ld / دوتنې: %2$ld";
+"Searching…" = "لټون روان دی…";
+"Switch Tab" = "ټب بدل کړئ";

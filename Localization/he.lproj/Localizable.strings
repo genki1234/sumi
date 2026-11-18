@@ -37,11 +37,23 @@
 "Copy" = "העתק";
 "Paste" = "הדבק";
 "Select All" = "בחר הכול";
+"Duplicate Line or Selection" = "שכפל שורה או בחירה";
+"Delete Line" = "מחק שורה";
+"Join Lines" = "מזג שורות";
+"Toggle Case" = "החלף אותיות גדולות/קטנות";
+"Comment with Line Comment" = "הוסף/הסר הערת שורה";
+"Move Line Up" = "העבר שורה למעלה";
+"Move Line Down" = "העבר שורה למטה";
+"Extend Selection" = "הרחב בחירה";
+"Shrink Selection" = "צמצם בחירה";
+"Start New Line" = "התחל שורה חדשה";
+"Start New Line Before Current" = "התחל שורה חדשה לפני הנוכחית";
 "Find…" = "חפש…";
 "Replace…" = "החלף…";
 "Find Next" = "חפש את הבא";
 "Find Previous" = "חפש את הקודם";
 "Use Selection for Find" = "חפש את הטקסט שנבחר";
+"Find in Files…" = "חפש בקבצים…";
 "Find" = "חיפוש";
 "Project" = "פרויקט";
 "Terminal" = "מסוף";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "הקטן גופן";
 "Reset Font Size" = "אפס את גודל הגופן";
 "Search Everywhere (Double ⇧)" = "חפש בכל מקום (⇧ פעמיים)";
+"Recent Files" = "קבצים אחרונים";
+"Find Action…" = "חפש פעולה…";
+"Go to Line:Column…" = "עבור לשורה:עמודה…";
 "Select in Project View" = "בחר בתצוגת הפרויקט";
 "Next Tab" = "הלשונית הבאה";
 "Previous Tab" = "הלשונית הקודמת";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "פתח במסוף";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "עבור לשורה:עמודה";
 "Left Panel" = "לוח שמאלי";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "קבצים";
 "Double ⇧ to search everywhere" = "לחץ על ⇧ פעמיים כדי לחפש בכל מקום";
+"Files" = "קבצים";
+"Actions" = "פעולות";
+"Text" = "טקסט";
 "Type a file name (use / to match the path)" = "הקלד שם קובץ (השתמש ב־/ לחיפוש בנתיב)";
+"Type a command name" = "הקלד שם פקודה";
+"Type text to find in project files" = "הקלד טקסט לחיפוש בקובצי הפרויקט";
 "No recent files" = "אין קבצים אחרונים";
-"Recent Files" = "קבצים אחרונים";
 "Matches: %1$ld / Files: %2$ld" = "התאמות: %1$ld / קבצים: %2$ld";
+"Searching…" = "מחפש…";
+"Switch Tab" = "החלף לשונית";

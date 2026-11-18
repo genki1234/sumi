@@ -36,7 +36,8 @@ Agentinizi daxili terminalda işə salın, işlədiyi fayllara klikləyərək on
 - Shift+Enter çoxsətirli sorğu daxil etməyə imkan verir. Çoxsətirli mətn, fayl və şəkillər yapışdırıla bilər; şəkillər müvəqqəti PNG kimi saxlanılır və yolları dırnaq içində daxil edilir.
 - Markdown və HTML önizləməsi mətnin yanında göstərilir və yazdıqca yenilənir (⇧⌘V və ya vərəqin sağ yuxarısındakı düymələr).
   Markdown GitHub-un da istifadə etdiyi cmark-gfm ilə göstərilir: cədvəllər, tapşırıq siyahıları, üstündən xətt çəkilmiş mətn və avtomatik keçidlər.
-- Hər yerdə axtar: layihədəki istənilən faylı adın təxmini uyğunluğu ilə tapmaq üçün Shift düyməsini iki dəfə basın.
+- Hər yerdə axtar: layihədəki istənilən faylı adın təxmini uyğunluğu ilə tapmaq üçün Shift düyməsini iki dəfə basın. Onun «Əməliyyatlar» vərəqi (⇧⌘A) istənilən menyu əmrini adı ilə icra edir, «Mətn» vərəqi (⇧⌘F) isə bütün layihə fayllarının mətnində axtarır.
+- Klaviaturadan sətir redaktəsi: sətirləri təkrarlayın, silin, köçürün, şərhə alın və birləşdirin, seçimi isə sözdən bütün fayla qədər addım-addım genişləndirin.
 - Mənbə fayllarını 915 dil və fayl formatı adından ibarət kataloqla tanıyır. Buraya fayl adları, mürəkkəb uzantılar və skript interpretatorları daxildir. Bütün 297 Prism komponenti (291 müstəqil qrammatika və 6 köməkçi) paketə daxildir və lazım olduqda yüklənir. Qrammatikası olmayan formatlarda sadə mətn vurğulaması işlədilir.
 - İnterfeysdə 108 dil seçimi var. Dil menyusundan dərhal keçid edin və ya sistem dilini izləyin. Seçim yadda saxlanılır; açıq fayllar, saxlanılmamış düzəlişlər və terminal seansları açıq qalır. Ərəb, ivrit və digər sağdan sola interfeyslərdə kod, önizləmə və terminal çıxışı soldan sağa qalır.
   Tərcümələr redaktor və terminaldakı mənaları nəzərə alınaraq birbaşa ingiliscə mətnlərdən yazılır. Sistem panelləri macOS dil ayarlarını izləyir. Bu kataloq bütün təbii və proqramlaşdırma dillərini əhatə etmir. [Sumi-nin tərcüməsi](CONTRIBUTING.md#translating-sumi) bölməsinə baxın.
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Layihə görünüşündə seç | ⌥⌘1 |
 | Növbəti / əvvəlki vərəq | ⇧⌘] / ⇧⌘[ |
 | Saxla / Hamısını saxla | ⌘S / ⌥⌘S |
+| Son fayllar | ⌘E |
+| Əməliyyat tap | ⇧⌘A |
+| Fayllarda tap | ⇧⌘F |
+| Sətir:sütuna keç | ⌘L |
+| Sətri və ya seçimi təkrarla | ⌘D |
+| Sətri sil | ⌘⌫ |
+| Sətri yuxarı / aşağı köçür | ⌥⇧↑ / ⌥⇧↓ |
+| Sətir şərhi ilə şərhə al | ⌘/ |
+| Sətirləri birləşdir | ⌃⇧J |
+| Hərf registrini dəyiş | ⇧⌘U |
+| Seçimi genişləndir / daralt | ⌥↑ / ⌥↓ |
+| Aşağıda / yuxarıda yeni sətir başlat | ⇧↩ / ⌥⌘↩ |
 
 ## Töhfə vermək
 

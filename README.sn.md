@@ -35,7 +35,8 @@ Mhanyisa mumiriri wako muterminal yakavakirwa mukati, tinya mafaira aanochinja k
 - Terminal dzinoshandisa Metal pakutanga; bhatani rekuratidza neGPU riri muMaonero. Tsvaga mune zvakabuda ne⌘F; tabhu itsva dzinotora folda yekushandira yazvino.
 - Shift+Enter inochengeta kunyora chikumbiro pamitsetse yakawanda. Unogona kunamira mashoko ane mitsetse yakawanda, mafaira nemifananidzo; mifananidzo inochengetwa sePNG dzenguva pfupi, nzira dzacho dzichiiswa mumakotesheni.
 - Kufanoona Markdown neHTML kuri padivi pemashoko uye kunovandudzwa uchitaipa (⇧⌘V kana mabhatani ari kumusoro kurudyi kwetabhu). Markdown inogadzirwa necmark-gfm inoshandiswa neGitHub: matafura, mazita emabasa, mashoko akadhindwa mutsara uye ma link anozvigadzira.
-- Tsvaga pese: dzvanya Shift kaviri kuti uwane chero faira reprojekiti uchishandisa zita rinenge richifanana.
+- Tsvaga pese: dzvanya Shift kaviri kuti uwane chero faira reprojekiti uchishandisa zita rinenge richifanana. Tabhu yayo yeZviito (⇧⌘A) inomhanyisa chero murairo wemenyu nezita rawo, uye tabhu yeMashoko (⇧⌘F) inotsvaga mumashoko emafaira ese eprojekiti.
+- Kugadzirisa mitsetse nekiibhodhi: kopa kaviri, dzima, fambisa, shandura kuva tsananguro uye batanidza mitsetse, uye wedzera zvakasarudzwa nhanho nenhanho kubva paizwi kusvika kufaira rese.
 - Inoziva mafaira ekodhi nerondedzero yemazita915 emitauro nemafomati, kusanganisira mazita emafaira, maextension akabatanidzwa nevaturikiri vemascript. Zvese zvikamu297 zvePrism (291 mitemo yakazvimirira ne6 zvinobatsira) zvakaiswa uye zvinorodzwa pazvinenge zvichidiwa. Mafomati asina mitemo anopiwa mavara emashoko ekutanga.
 - Chiratidziro chine mitauro108. Shandisa Mutauro kuchinja pakarepo kana kutevera mutauro wesistimu. Sarudzo inorangarirwa; mafaira akavhurwa, zvagadziriswa zvisati zvasevhwa nemasesheni eterminal zvinoramba zvakavhurwa. MuArabic, Hebrew nedzimwe nzira dzinobva kurudyi kuenda kuruboshwe, kodhi, kufanoona nezvinobuda muterminal zvinoramba zvichibva kuruboshwe kuenda kurudyi. Shanduro dzakanyorwa zvakananga kubva pamashoko eChirungu zvichitevera mashandisirwo emupepeti neterminal. Mapanera esistimu anotevera mutauro wemacOS. Rondedzero haibatanidzi mitauro yose yevanhu kana yekuronga mapurogiramu. Ona [Kuturikira Sumi](CONTRIBUTING.md#translating-sumi).
 - Maonero akareruka neakasviba anotevera sistimu.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Sarudza mumuti weprojekiti | ⌥⌘1 |
 | Tabhu inotevera / Tabhu yapfuura | ⇧⌘] / ⇧⌘[ |
 | Sevha / Sevha zvese | ⌘S / ⌥⌘S |
+| Mafaira achangovhurwa | ⌘E |
+| Tsvaga chiito | ⇧⌘A |
+| Tsvaga mumafaira | ⇧⌘F |
+| Enda kumutsetse:koramu | ⌘L |
+| Kopa kaviri mutsetse kana zvakasarudzwa | ⌘D |
+| Dzima mutsetse | ⌘⌫ |
+| Fambisa mutsetse kumusoro / Fambisa mutsetse pasi | ⌥⇧↑ / ⌥⇧↓ |
+| Isa tsananguro yemutsetse | ⌘/ |
+| Batanidza mitsetse | ⌃⇧J |
+| Chinja mavara makuru nemadiki | ⇧⌘U |
+| Wedzera zvakasarudzwa / Deredza zvakasarudzwa | ⌥↑ / ⌥↓ |
+| Tanga mutsetse mutsva pasi / Tanga mutsetse mutsva kumusoro | ⇧↩ / ⌥⌘↩ |
 
 ## Kubatsira
 

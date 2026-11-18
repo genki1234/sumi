@@ -37,11 +37,23 @@
 "Copy" = "පිටපත් කරන්න";
 "Paste" = "අලවන්න";
 "Select All" = "සියල්ල තෝරන්න";
+"Duplicate Line or Selection" = "පේළිය හෝ තේරීම අනුපිටපත් කරන්න";
+"Delete Line" = "පේළිය මකන්න";
+"Join Lines" = "පේළි සම්බන්ධ කරන්න";
+"Toggle Case" = "ලොකු/කුඩා අකුරු මාරු කරන්න";
+"Comment with Line Comment" = "පේළි විවරණයක් ලෙස සලකුණු කරන්න";
+"Move Line Up" = "පේළිය ඉහළට ගෙන යන්න";
+"Move Line Down" = "පේළිය පහළට ගෙන යන්න";
+"Extend Selection" = "තේරීම පුළුල් කරන්න";
+"Shrink Selection" = "තේරීම හකුළන්න";
+"Start New Line" = "නව පේළියක් අරඹන්න";
+"Start New Line Before Current" = "වත්මන් පේළියට පෙර නව පේළියක් අරඹන්න";
 "Find…" = "සොයන්න…";
 "Replace…" = "ප්‍රතිස්ථාපනය කරන්න…";
 "Find Next" = "ඊළඟ ගැළපීම සොයන්න";
 "Find Previous" = "පෙර ගැළපීම සොයන්න";
 "Use Selection for Find" = "තේරූ පෙළ සොයන්න";
+"Find in Files…" = "ගොනුවල සොයන්න…";
 "Find" = "සොයන්න";
 "Project" = "ව්‍යාපෘතිය";
 "Terminal" = "ටර්මිනලය";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "අකුරු ප්‍රමාණය අඩු කරන්න";
 "Reset Font Size" = "අකුරු ප්‍රමාණය යළි සකසන්න";
 "Search Everywhere (Double ⇧)" = "සෑම තැනම සොයන්න (⇧ දෙවරක්)";
+"Recent Files" = "මෑත ගොනු";
+"Find Action…" = "ක්‍රියාවක් සොයන්න…";
+"Go to Line:Column…" = "පේළිය:තීරුවට යන්න…";
 "Select in Project View" = "ව්‍යාපෘති දසුනේ තෝරන්න";
 "Next Tab" = "ඊළඟ ටැබය";
 "Previous Tab" = "පෙර ටැබය";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ටර්මිනලයේ විවෘත කරන්න";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "පේළිය:තීරුවට යන්න";
 "Left Panel" = "වම් පැනලය";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ගොනු";
 "Double ⇧ to search everywhere" = "සෑම තැනම සෙවීමට ⇧ දෙවරක් ඔබන්න";
+"Files" = "ගොනු";
+"Actions" = "ක්‍රියා";
+"Text" = "පෙළ";
 "Type a file name (use / to match the path)" = "ගොනු නමක් ලියන්න (මාර්ගය අනුව සෙවීමට / භාවිත කරන්න)";
+"Type a command name" = "විධානයක නම ලියන්න";
+"Type text to find in project files" = "ව්‍යාපෘති ගොනුවල සෙවීමට පෙළ ලියන්න";
 "No recent files" = "මෑත ගොනු නැත";
-"Recent Files" = "මෑත ගොනු";
 "Matches: %1$ld / Files: %2$ld" = "ගැළපීම්: %1$ld / ගොනු: %2$ld";
+"Searching…" = "සොයමින්…";
+"Switch Tab" = "ටැබය මාරු කරන්න";

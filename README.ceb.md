@@ -36,7 +36,8 @@ Padagana ang imong agent sa built-in nga terminal, i-klik ang mga file nga iyang
 - Ang Shift+Enter motugot sa prompt nga adunay daghang linya. Mahimong ipapilit ang teksto nga daghang linya, mga file ug hulagway; tipigan ang mga hulagway isip temporaryong PNG ug isulod ang ilang path nga naa sa mga marka sa kinutlo.
 - Ang preview sa Markdown ug HTML anaa tupad sa teksto ug mausab samtang nag-type (⇧⌘V, o ang mga buton sa ibabaw nga tuo sa tab).
   Ang Markdown gipakita gamit ang cmark-gfm, nga gigamit usab sa GitHub: mga lamesa, lista sa buluhaton, kinurit nga teksto ug awtomatikong mga link.
-- Pangitaa bisan asa: pislita ang Shift kaduha aron makit-an ang bisan unsang file sa proyekto pinaagi sa banabanang pagtugma sa ngalan.
+- Pangitaa bisan asa: pislita ang Shift kaduha aron makit-an ang bisan unsang file sa proyekto pinaagi sa banabanang pagtugma sa ngalan. Ang tab nga «Mga aksyon» (⇧⌘A) modagan sa bisan unsang command sa menu pinaagi sa ngalan, ug ang tab nga «Teksto» (⇧⌘F) mangita sa teksto sa matag file sa proyekto.
+- Pag-usba sa mga linya gamit ang keyboard: doblaha, tangtanga, ibalhin, komentohi ug iusa ang mga linya, ug padak-a ang gipili sa matag lakang gikan sa usa ka pulong hangtod sa tibuok file.
 - Mailhan ang mga source file gamit ang katalogo sa 915 ka ngalan sa pinulongan ug pormat sa file, lakip ang mga ngalan sa file, hiniusang extension ug script interpreter. Apil ang tanang 297 ka Prism component (291 ka kaugalingong grammar ug 6 ka katabang) ug i-load kon gikinahanglan. Ang mga pormat nga walay grammar mogamit sa batakang pag-highlight sa teksto.
 - Adunay 108 ka kapilian sa pinulongan ang interface. Gamita ang menu nga Pinulongan aron dayong mobalhin, o sundon ang pinulongan sa sistema. Hinumdoman ang pagpili; magpabiling abli ang mga file, wala pa matipig nga mga pag-usab ug mga sesyon sa terminal. Sa Arabic, Hebrew ug ubang interface nga tuo ngadto sa wala, magpabiling wala ngadto sa tuo ang code, preview ug output sa terminal.
   Direktang gihubad ang mga teksto gikan sa English, uban sa ilang kahulogan sa editor ug terminal. Ang mga panel sa sistema mosunod sa mga setting sa pinulongan sa macOS. Dili kini nga katalogo mosakop sa tanang natural o programming nga pinulongan. Tan-awa ang [Paghubad sa Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Pilia sa tan-aw sa proyekto | ⌥⌘1 |
 | Sunod / miaging tab | ⇧⌘] / ⇧⌘[ |
 | Tipigi / Tipigi ang tanan | ⌘S / ⌥⌘S |
+| Bag-ong giablihang mga file | ⌘E |
+| Pangitaa ang aksyon | ⇧⌘A |
+| Pangitaa sa mga file | ⇧⌘F |
+| Adto sa linya:kolum | ⌘L |
+| Doblaha ang linya o ang gipili | ⌘D |
+| Tangtanga ang linya | ⌘⌫ |
+| Ibalhin pataas / paubos ang linya | ⌥⇧↑ / ⌥⇧↓ |
+| Komentohi gamit ang komento sa linya | ⌘/ |
+| Iusa ang mga linya | ⌃⇧J |
+| Ilisi ang dagko/gagmay nga letra | ⇧⌘U |
+| Padak-a / gamaya ang gipili | ⌥↑ / ⌥↓ |
+| Sugdi og bag-ong linya sa ubos / sa ibabaw | ⇧↩ / ⌥⌘↩ |
 
 ## Pag-amot
 

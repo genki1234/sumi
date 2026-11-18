@@ -35,7 +35,8 @@ Kör agenten i den inbyggda terminalen, klicka på filerna den ändrar för att 
 - Terminaler använder Metal som förval, med reglaget GPU-rendering i Visa. Sök i utdata med ⌘F; nya flikar ärver den aktuella arbetskatalogen.
 - Shift+Enter bevarar inmatning av flerradiga instruktioner. Inklistring stöder flerradig text, filer och bilder; bilder lagras som tillfälliga PNG-filer och deras sökvägar infogas inom citattecken.
 - Förhandsvisning av Markdown och HTML bredvid texten uppdateras medan du skriver (⇧⌘V eller knapparna uppe till höger i fliken). Markdown återges med cmark-gfm som GitHub använder: tabeller, uppgiftslistor, genomstrykning och automatiska länkar.
-- Sök överallt: tryck på Shift två gånger för att hitta valfri fil i projektet med ungefärlig namnmatchning.
+- Sök överallt: tryck på Shift två gånger för att hitta valfri fil i projektet med ungefärlig namnmatchning. Fliken Åtgärder (⇧⌘A) kör valfritt menykommando via namnet, och fliken Text (⇧⌘F) söker i texten i alla projektfiler.
+- Radredigering från tangentbordet: duplicera, ta bort, flytta, kommentera ut och sammanfoga rader, och utöka markeringen steg för steg från ett ord till hela filen.
 - Känner igen källfiler med en katalog över 915 språk- och formatnamn, inklusive filnamn, sammansatta filändelser och skripttolkar. Alla 297 Prism-komponenter (291 fristående grammatiker och 6 hjälparkomponenter) medföljer och läses in vid behov. Format utan grammatik får grundläggande textmarkering.
 - Gränssnittet har 108 språkval. Byt direkt i menyn Språk eller följ systemspråket. Valet sparas; öppna filer, osparade ändringar och terminalsessioner hålls öppna. I arabiska, hebreiska och andra gränssnitt från höger till vänster visas kod, förhandsvisningar och terminalutdata fortfarande från vänster till höger. Översättningarna skrivs direkt från engelska strängar med redigerarens och terminalens sammanhang i åtanke. Systempaneler följer språkinställningarna i macOS. Katalogen täcker inte alla naturliga språk eller programmeringsspråk. Se [Översätta Sumi](CONTRIBUTING.md#translating-sumi).
 - Ljust och mörkt utseende följer systemet.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Markera i projektvyn | ⌥⌘1 |
 | Nästa flik / Föregående flik | ⇧⌘] / ⇧⌘[ |
 | Spara / Spara alla | ⌘S / ⌥⌘S |
+| Senaste filer | ⌘E |
+| Sök åtgärd | ⇧⌘A |
+| Sök i filer | ⇧⌘F |
+| Gå till rad:kolumn | ⌘L |
+| Duplicera rad eller markering | ⌘D |
+| Ta bort rad | ⌘⌫ |
+| Flytta rad uppåt / Flytta rad nedåt | ⌥⇧↑ / ⌥⇧↓ |
+| Kommentera med radkommentar | ⌘/ |
+| Sammanfoga rader | ⌃⇧J |
+| Växla versaler/gemener | ⇧⌘U |
+| Utöka markering / Minska markering | ⌥↑ / ⌥↓ |
+| Påbörja ny rad nedanför / Påbörja ny rad ovanför | ⇧↩ / ⌥⌘↩ |
 
 ## Bidra
 

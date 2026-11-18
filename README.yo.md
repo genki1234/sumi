@@ -35,7 +35,8 @@ Olóòtú ọ̀rọ̀ macOS tí kò wuwo, tí a dá láti ṣiṣẹ́ pọ̀ p�
 - Terminal ń lo Metal ní àiyipada; bọ́tìnì yíya àwòrán pẹ̀lú GPU wà nínú Ìwò. Wá nínú èsì pẹ̀lú ⌘F; táàbù tuntun gba fódà iṣẹ́ tó ń lò lọ́wọ́.
 - Shift+Enter pa ìbéèrè olópọ̀ ìlà mọ́. A lè lẹ ọ̀rọ̀ olópọ̀ ìlà, fáìlì àti àwòrán mọ́; àwòrán wà gẹ́gẹ́ bí PNG fún ìgbà díẹ̀, a sì fi ọ̀nà wọn sínú àmì àyọlò.
 - Àwòtẹ́lẹ̀ Markdown àti HTML wà lẹ́gbẹ̀ẹ́ ọ̀rọ̀, ó sì ń yí padà bí o ṣe ń tẹ̀ (⇧⌘V tàbí bọ́tìnì ní òkè ọ̀tún táàbù). Markdown ń lo cmark-gfm tí GitHub ń lò: tábìlì, àtòjọ iṣẹ́, ọ̀rọ̀ tí a la ìlà lé àti ìjápọ̀ aládàáṣiṣẹ́.
-- Wá níbi gbogbo: tẹ Shift lẹ́ẹ̀mejì láti rí fáìlì èyíkéyìí nínú iṣẹ́ àkànṣe nípa orúkọ tó fẹ́rẹ̀ẹ́ bá mu.
+- Wá níbi gbogbo: tẹ Shift lẹ́ẹ̀mejì láti rí fáìlì èyíkéyìí nínú iṣẹ́ àkànṣe nípa orúkọ tó fẹ́rẹ̀ẹ́ bá mu. Táàbù Àwọn ìgbésẹ̀ rẹ̀ (⇧⌘A) ń ṣiṣẹ́ àṣẹ àkójọ èyíkéyìí nípa orúkọ rẹ̀, táàbù Ọ̀rọ̀ rẹ̀ (⇧⌘F) sì ń wá ọ̀rọ̀ inú gbogbo fáìlì iṣẹ́ àkànṣe.
+- Àtúnṣe ìlà láti orí kíbọ́ọ̀dù: ṣe ẹ̀dà, pa rẹ́, gbé, ṣe àkíyèsí, kí o sì so àwọn ìlà pọ̀; bákan náà, mú àṣàyàn gbòòrò sí i díẹ̀díẹ̀ láti ọ̀rọ̀ kan títí dé gbogbo fáìlì.
 - Ó mọ fáìlì orísun nípa àkójọ orúkọ èdè àti ọ̀nà fáìlì 915, pẹ̀lú orúkọ fáìlì, àfikún fáìlì alápọ̀ àti atúmọ̀ ìlànà script. Gbogbo ẹ̀yà Prism 297 (291 gírámà olómìnira àti 6 olùrànlọ́wọ́) wà nínú rẹ, a sì ń gbé wọn wọlé nígbà tí a nílò wọn. Ọ̀nà fáìlì tí kò ní gírámà ń lo fífi àwọ̀ ọ̀rọ̀ ìpìlẹ̀ hàn.
 - Ìrísí ìṣàkóso ní àṣàyàn èdè 108. Lo àkójọ Èdè láti yí padà lẹ́sẹ̀kẹsẹ̀ tàbí tẹ̀lé èdè ẹ̀rọ. Ó rántí àṣàyàn; fáìlì tí ó ṣí, àtúnṣe tí a kò tíì fi pamọ́ àti àkókò terminal ṣì ṣí. Nínú èdè Lárúbáwá, Hébérù àti ìrísí ọ̀tún-sí-òsì mìíràn, kóòdù, àwòtẹ́lẹ̀ àti èsì terminal ṣì jẹ́ òsì-sí-ọ̀tún. A kọ ìtumọ̀ tààrà láti ọ̀rọ̀ Gẹ̀ẹ́sì, ní ìbámu pẹ̀lú olóòtú àti terminal. Pánẹ́ẹ̀lì ẹ̀rọ tẹ̀lé ètò èdè macOS. Àkójọ náà kò gba gbogbo èdè àdánidá tàbí èdè ìkọ̀wé ètò. Wo [Títúmọ̀ Sumi](CONTRIBUTING.md#translating-sumi).
 - Ìrísí ìmọ́lẹ̀ àti òkùnkùn tẹ̀lé ẹ̀rọ.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Yan nínú ìwò iṣẹ́ àkànṣe | ⌥⌘1 |
 | Táàbù tó kàn / Táàbù tó ṣáájú | ⇧⌘] / ⇧⌘[ |
 | Fipamọ́ / Fipamọ́ gbogbo | ⌘S / ⌥⌘S |
+| Àwọn fáìlì àìpẹ́ | ⌘E |
+| Wá ìgbésẹ̀ | ⇧⌘A |
+| Wá nínú àwọn fáìlì | ⇧⌘F |
+| Lọ sí ìlà:òpó | ⌘L |
+| Ṣe ẹ̀dà ìlà tàbí àṣàyàn | ⌘D |
+| Pa ìlà rẹ́ | ⌘⌫ |
+| Gbé ìlà sókè / Gbé ìlà sísàlẹ̀ | ⌥⇧↑ / ⌥⇧↓ |
+| Ṣe àkíyèsí pẹ̀lú àkíyèsí ìlà | ⌘/ |
+| So àwọn ìlà pọ̀ | ⌃⇧J |
+| Yí lẹ́tà ńlá àti kékeré padà | ⇧⌘U |
+| Mú àṣàyàn gbòòrò / Dín àṣàyàn kù | ⌥↑ / ⌥↓ |
+| Bẹ̀rẹ̀ ìlà tuntun nísàlẹ̀ / Bẹ̀rẹ̀ ìlà tuntun lókè | ⇧↩ / ⌥⌘↩ |
 
 ## Kíkópa
 

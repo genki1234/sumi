@@ -37,11 +37,23 @@
 "Copy" = "Kopiatu";
 "Paste" = "Itsatsi";
 "Select All" = "Hautatu dena";
+"Duplicate Line or Selection" = "Bikoiztu lerroa edo hautapena";
+"Delete Line" = "Ezabatu lerroa";
+"Join Lines" = "Batu lerroak";
+"Toggle Case" = "Txandakatu maiuskulak/minuskulak";
+"Comment with Line Comment" = "Iruzkindu lerro-iruzkinarekin";
+"Move Line Up" = "Eraman lerroa gora";
+"Move Line Down" = "Eraman lerroa behera";
+"Extend Selection" = "Zabaldu hautapena";
+"Shrink Selection" = "Txikitu hautapena";
+"Start New Line" = "Hasi lerro berria";
+"Start New Line Before Current" = "Hasi lerro berria unekoaren aurretik";
 "Find…" = "Bilatu…";
 "Replace…" = "Ordeztu…";
 "Find Next" = "Bilatu hurrengoa";
 "Find Previous" = "Bilatu aurrekoa";
 "Use Selection for Find" = "Bilatu hautatutako testua";
+"Find in Files…" = "Bilatu fitxategietan…";
 "Find" = "Bilatu";
 "Project" = "Proiektua";
 "Terminal" = "Terminala";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Txikitu letra-tamaina";
 "Reset Font Size" = "Berrezarri letra-tamaina";
 "Search Everywhere (Double ⇧)" = "Bilatu edonon (⇧ bi aldiz)";
+"Recent Files" = "Azken fitxategiak";
+"Find Action…" = "Bilatu ekintza…";
+"Go to Line:Column…" = "Joan lerro:zutabera…";
 "Select in Project View" = "Hautatu proiektuaren ikuspegian";
 "Next Tab" = "Hurrengo fitxa";
 "Previous Tab" = "Aurreko fitxa";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Ireki terminalean";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Joan lerro:zutabera";
 "Left Panel" = "Ezkerreko panela";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fitxategiak";
 "Double ⇧ to search everywhere" = "Sakatu ⇧ bi aldiz edonon bilatzeko";
+"Files" = "Fitxategiak";
+"Actions" = "Ekintzak";
+"Text" = "Testua";
 "Type a file name (use / to match the path)" = "Idatzi fitxategi-izena (erabili / bidean bilatzeko)";
+"Type a command name" = "Idatzi komando baten izena";
+"Type text to find in project files" = "Idatzi proiektuko fitxategietan bilatu beharreko testua";
 "No recent files" = "Ez dago azken fitxategirik";
-"Recent Files" = "Azken fitxategiak";
 "Matches: %1$ld / Files: %2$ld" = "Bat-etortzeak: %1$ld / Fitxategiak: %2$ld";
+"Searching…" = "Bilatzen…";
+"Switch Tab" = "Aldatu fitxa";

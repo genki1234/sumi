@@ -36,7 +36,8 @@ Laat jou agent in die ingeboude terminaal loop, klik op die lêers waarmee dit w
 - Shift+Enter behou meerreëlige invoer vir jou opdrag. Jy kan meerreëlige teks, lêers en beelde plak. Beelde word as tydelike PNG-lêers gehou en as paaie tussen aanhalingstekens ingevoeg.
 - Voorskoue van Markdown en HTML verskyn langs die teks en werk by terwyl jy tik (⇧⌘V, of die knoppies regs bo in die oortjie).
   Markdown word met cmark-gfm vertoon, die weergawe-enjin wat GitHub gebruik: tabelle, taaklyste, deurgehaalde teks en outomatiese skakels.
-- Soek oral: druk Shift twee keer om enige lêer in die projek met 'n benaderde naamsoektog te vind.
+- Soek oral: druk Shift twee keer om enige lêer in die projek met 'n benaderde naamsoektog te vind. Die Aksies-oortjie (⇧⌘A) voer enige kieslysopdrag volgens naam uit, en die Teks-oortjie (⇧⌘F) deursoek die teks van alle lêers in die projek.
+- Reëlbewerking met die sleutelbord: dupliseer, skrap en skuif reëls, kommentarieer hulle of voeg hulle saam, en brei die seleksie stap vir stap uit van 'n woord tot die hele lêer.
 - Herken bronlêers met 'n katalogus van 915 taal- en lêerformaatname, insluitend lêername, saamgestelde uitbreidings en skriptolkers. Al 297 Prism-komponente (291 selfstandige grammatikas en 6 helpers) word ingesluit en op aanvraag gelaai. Formate sonder 'n grammatika gebruik basiese teksverligting.
 - Die gebruikerskoppelvlak het 108 taalkeuses. Gebruik die Taal-kieslys om dadelik oor te skakel, of volg die stelseltaal. Jou keuse word onthou; oop lêers, ongestoorde wysigings en terminaalsessies bly oop. Arabiese, Hebreeuse en ander koppelvlakke wat van regs na links lees, hou kode, voorskoue en terminaaluitvoer van links na regs.
   Vertalings word direk uit die Engelse tekste geskryf, met die konteks van die redigeerder en terminaal in gedagte. Stelselpanele volg macOS se taalinstellings. Die katalogus dek nie elke menslike taal of programmeertaal nie. Sien [Vertaal Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Kies in projekaansig | ⌥⌘1 |
 | Volgende / vorige oortjie | ⇧⌘] / ⇧⌘[ |
 | Stoor / Stoor alles | ⌘S / ⌥⌘S |
+| Onlangse lêers | ⌘E |
+| Soek aksie | ⇧⌘A |
+| Soek in lêers | ⇧⌘F |
+| Gaan na reël:kolom | ⌘L |
+| Dupliseer reël of seleksie | ⌘D |
+| Skrap reël | ⌘⌫ |
+| Skuif reël op / af | ⌥⇧↑ / ⌥⇧↓ |
+| Kommentarieer met reëlkommentaar | ⌘/ |
+| Voeg reëls saam | ⌃⇧J |
+| Wissel hoof- en kleinletters | ⇧⌘U |
+| Brei uit / krimp seleksie | ⌥↑ / ⌥↓ |
+| Begin nuwe reël onder / bo | ⇧↩ / ⌥⌘↩ |
 
 ## Bydraes
 

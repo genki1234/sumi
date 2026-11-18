@@ -37,11 +37,23 @@
 "Copy" = "نسخ";
 "Paste" = "لصق";
 "Select All" = "تحديد الكل";
+"Duplicate Line or Selection" = "تكرار السطر أو التحديد";
+"Delete Line" = "حذف السطر";
+"Join Lines" = "دمج الأسطر";
+"Toggle Case" = "تبديل حالة الأحرف";
+"Comment with Line Comment" = "تعليق بتعليق سطري";
+"Move Line Up" = "نقل السطر لأعلى";
+"Move Line Down" = "نقل السطر لأسفل";
+"Extend Selection" = "توسيع التحديد";
+"Shrink Selection" = "تقليص التحديد";
+"Start New Line" = "بدء سطر جديد";
+"Start New Line Before Current" = "بدء سطر جديد قبل السطر الحالي";
 "Find…" = "بحث…";
 "Replace…" = "استبدال…";
 "Find Next" = "البحث عن التالي";
 "Find Previous" = "البحث عن السابق";
 "Use Selection for Find" = "البحث بالنص المحدد";
+"Find in Files…" = "البحث في الملفات…";
 "Find" = "بحث";
 "Project" = "المشروع";
 "Terminal" = "الطرفية";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "تقليل حجم الخط";
 "Reset Font Size" = "إعادة ضبط حجم الخط";
 "Search Everywhere (Double ⇧)" = "البحث في كل مكان (⇧ مرتين)";
+"Recent Files" = "الملفات الحديثة";
+"Find Action…" = "البحث عن إجراء…";
+"Go to Line:Column…" = "الانتقال إلى السطر:العمود…";
 "Select in Project View" = "تحديد في عرض المشروع";
 "Next Tab" = "علامة التبويب التالية";
 "Previous Tab" = "علامة التبويب السابقة";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "فتح في الطرفية";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "الانتقال إلى السطر:العمود";
 "Left Panel" = "اللوحة اليسرى";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "الملفات";
 "Double ⇧ to search everywhere" = "اضغط ⇧ مرتين للبحث في كل مكان";
+"Files" = "الملفات";
+"Actions" = "الإجراءات";
+"Text" = "النص";
 "Type a file name (use / to match the path)" = "اكتب اسم ملف (استخدم / للبحث في المسار)";
+"Type a command name" = "اكتب اسم أمر";
+"Type text to find in project files" = "اكتب نصًا للبحث عنه في ملفات المشروع";
 "No recent files" = "لا توجد ملفات حديثة";
-"Recent Files" = "الملفات الحديثة";
 "Matches: %1$ld / Files: %2$ld" = "التطابقات: %1$ld / الملفات: %2$ld";
+"Searching…" = "جارٍ البحث…";
+"Switch Tab" = "تبديل علامة التبويب";

@@ -37,11 +37,23 @@
 "Copy" = "Copy";
 "Paste" = "Paste";
 "Select All" = "Select All";
+"Duplicate Line or Selection" = "Duplicate Line or Selection";
+"Delete Line" = "Delete Line";
+"Join Lines" = "Join Lines";
+"Toggle Case" = "Toggle Case";
+"Comment with Line Comment" = "Comment with Line Comment";
+"Move Line Up" = "Move Line Up";
+"Move Line Down" = "Move Line Down";
+"Extend Selection" = "Extend Selection";
+"Shrink Selection" = "Shrink Selection";
+"Start New Line" = "Start New Line";
+"Start New Line Before Current" = "Start New Line Before Current";
 "Find…" = "Find…";
 "Replace…" = "Replace…";
 "Find Next" = "Find Next";
 "Find Previous" = "Find Previous";
 "Use Selection for Find" = "Use Selection for Find";
+"Find in Files…" = "Find in Files…";
 "Find" = "Find";
 "Project" = "Project";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Decrease Font Size";
 "Reset Font Size" = "Reset Font Size";
 "Search Everywhere (Double ⇧)" = "Search Everywhere (Double ⇧)";
+"Recent Files" = "Recent Files";
+"Find Action…" = "Find Action…";
+"Go to Line:Column…" = "Go to Line:Column…";
 "Select in Project View" = "Select in Project View";
 "Next Tab" = "Next Tab";
 "Previous Tab" = "Previous Tab";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Open in Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Go to Line:Column";
 "Left Panel" = "Left Panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Files";
 "Double ⇧ to search everywhere" = "Double ⇧ to search everywhere";
+"Files" = "Files";
+"Actions" = "Actions";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Type a file name (use / to match the path)";
+"Type a command name" = "Type a command name";
+"Type text to find in project files" = "Type text to find in project files";
 "No recent files" = "No recent files";
-"Recent Files" = "Recent Files";
 "Matches: %1$ld / Files: %2$ld" = "Matches: %1$ld / Files: %2$ld";
+"Searching…" = "Searching…";
+"Switch Tab" = "Switch Tab";

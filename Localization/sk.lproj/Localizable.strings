@@ -37,11 +37,23 @@
 "Copy" = "Kopírovať";
 "Paste" = "Vložiť";
 "Select All" = "Vybrať všetko";
+"Duplicate Line or Selection" = "Duplikovať riadok alebo výber";
+"Delete Line" = "Odstrániť riadok";
+"Join Lines" = "Spojiť riadky";
+"Toggle Case" = "Prepnúť veľkosť písmen";
+"Comment with Line Comment" = "Zakomentovať riadkovým komentárom";
+"Move Line Up" = "Presunúť riadok nahor";
+"Move Line Down" = "Presunúť riadok nadol";
+"Extend Selection" = "Rozšíriť výber";
+"Shrink Selection" = "Zúžiť výber";
+"Start New Line" = "Začať nový riadok";
+"Start New Line Before Current" = "Začať nový riadok pred aktuálnym";
 "Find…" = "Nájsť…";
 "Replace…" = "Nahradiť…";
 "Find Next" = "Nájsť ďalší výskyt";
 "Find Previous" = "Nájsť predošlý výskyt";
 "Use Selection for Find" = "Hľadať vybraný text";
+"Find in Files…" = "Nájsť v súboroch…";
 "Find" = "Hľadať";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Zmenšiť písmo";
 "Reset Font Size" = "Obnoviť veľkosť písma";
 "Search Everywhere (Double ⇧)" = "Hľadať všade (dvakrát ⇧)";
+"Recent Files" = "Nedávne súbory";
+"Find Action…" = "Nájsť akciu…";
+"Go to Line:Column…" = "Prejsť na riadok:stĺpec…";
 "Select in Project View" = "Vybrať v strome projektu";
 "Next Tab" = "Ďalšia karta";
 "Previous Tab" = "Predošlá karta";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Otvoriť v termináli";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Prejsť na riadok:stĺpec";
 "Left Panel" = "Ľavý panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Súbory";
 "Double ⇧ to search everywhere" = "Stlačte dvakrát ⇧ na hľadanie všade";
+"Files" = "Súbory";
+"Actions" = "Akcie";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Zadajte názov súboru (použite / na hľadanie podľa cesty)";
+"Type a command name" = "Zadajte názov príkazu";
+"Type text to find in project files" = "Zadajte text na hľadanie v súboroch projektu";
 "No recent files" = "Žiadne nedávne súbory";
-"Recent Files" = "Nedávne súbory";
 "Matches: %1$ld / Files: %2$ld" = "Zhody: %1$ld / Súbory: %2$ld";
+"Searching…" = "Hľadá sa…";
+"Switch Tab" = "Prepnúť kartu";

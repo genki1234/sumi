@@ -37,11 +37,23 @@
 "Copy" = "Kopēt";
 "Paste" = "Ielīmēt";
 "Select All" = "Atlasīt visu";
+"Duplicate Line or Selection" = "Dublēt rindu vai atlasi";
+"Delete Line" = "Dzēst rindu";
+"Join Lines" = "Apvienot rindas";
+"Toggle Case" = "Pārslēgt lielos/mazos burtus";
+"Comment with Line Comment" = "Komentēt ar rindas komentāru";
+"Move Line Up" = "Pārvietot rindu augšup";
+"Move Line Down" = "Pārvietot rindu lejup";
+"Extend Selection" = "Paplašināt atlasi";
+"Shrink Selection" = "Sašaurināt atlasi";
+"Start New Line" = "Sākt jaunu rindu";
+"Start New Line Before Current" = "Sākt jaunu rindu pirms pašreizējās";
 "Find…" = "Meklēt…";
 "Replace…" = "Aizstāt…";
 "Find Next" = "Meklēt nākamo";
 "Find Previous" = "Meklēt iepriekšējo";
 "Use Selection for Find" = "Meklēt atlasīto tekstu";
+"Find in Files…" = "Meklēt failos…";
 "Find" = "Meklēt";
 "Project" = "Projekts";
 "Terminal" = "Terminālis";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Samazināt fontu";
 "Reset Font Size" = "Atiestatīt fonta lielumu";
 "Search Everywhere (Double ⇧)" = "Meklēt visur (divreiz ⇧)";
+"Recent Files" = "Nesenie faili";
+"Find Action…" = "Meklēt darbību…";
+"Go to Line:Column…" = "Doties uz rindu:kolonnu…";
 "Select in Project View" = "Atlasīt projekta kokā";
 "Next Tab" = "Nākamā cilne";
 "Previous Tab" = "Iepriekšējā cilne";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Atvērt terminālī";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Doties uz rindu:kolonnu";
 "Left Panel" = "Kreisais panelis";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faili";
 "Double ⇧ to search everywhere" = "Divreiz nospiediet ⇧, lai meklētu visur";
+"Files" = "Faili";
+"Actions" = "Darbības";
+"Text" = "Teksts";
 "Type a file name (use / to match the path)" = "Ievadiet faila nosaukumu (izmantojiet /, lai meklētu pēc ceļa)";
+"Type a command name" = "Ievadiet komandas nosaukumu";
+"Type text to find in project files" = "Ievadiet tekstu, ko meklēt projekta failos";
 "No recent files" = "Nav neseno failu";
-"Recent Files" = "Nesenie faili";
 "Matches: %1$ld / Files: %2$ld" = "Atbilstības: %1$ld / Faili: %2$ld";
+"Searching…" = "Notiek meklēšana…";
+"Switch Tab" = "Pārslēgt cilni";

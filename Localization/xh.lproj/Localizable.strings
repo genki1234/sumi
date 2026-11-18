@@ -37,11 +37,23 @@
 "Copy" = "Khuphela";
 "Paste" = "Ncamathelisa";
 "Select All" = "Khetha zonke";
+"Duplicate Line or Selection" = "Phinda umgca okanye okukhethiweyo";
+"Delete Line" = "Cima umgca";
+"Join Lines" = "Dibanisa imigca";
+"Toggle Case" = "Tshintsha oonobumba abakhulu nabancinci";
+"Comment with Line Comment" = "Faka okanye ususe ingcaciso yomgca";
+"Move Line Up" = "Yisa umgca phezulu";
+"Move Line Down" = "Yisa umgca ezantsi";
+"Extend Selection" = "Yandisa ukhetho";
+"Shrink Selection" = "Nciphisa ukhetho";
+"Start New Line" = "Qala umgca omtsha";
+"Start New Line Before Current" = "Qala umgca omtsha phambi kwalo ukhoyo";
 "Find…" = "Fumana…";
 "Replace…" = "Faka endaweni…";
 "Find Next" = "Fumana elandelayo";
 "Find Previous" = "Fumana eyangaphambili";
 "Use Selection for Find" = "Khangela okubhaliweyo okukhethiweyo";
+"Find in Files…" = "Fumana kwiifayile…";
 "Find" = "Khangela";
 "Project" = "Iprojekthi";
 "Terminal" = "Itheminali";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Nciphisa ubungakanani boonobumba";
 "Reset Font Size" = "Buyisela ubungakanani boonobumba";
 "Search Everywhere (Double ⇧)" = "Khangela kuyo yonke indawo (⇧ kabini)";
+"Recent Files" = "Iifayile zakutshanje";
+"Find Action…" = "Fumana isenzo…";
+"Go to Line:Column…" = "Yiya kumgca:kwikholamu…";
 "Select in Project View" = "Khetha kwimboniselo yeprojekthi";
 "Next Tab" = "Ithebhu elandelayo";
 "Previous Tab" = "Ithebhu yangaphambili";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Vula kwitheminali";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Yiya kumgca:kwikholamu";
 "Left Panel" = "Iphaneli yasekhohlo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Iifayile";
 "Double ⇧ to search everywhere" = "Cofa ⇧ kabini ukukhangela kuyo yonke indawo";
+"Files" = "Iifayile";
+"Actions" = "Izenzo";
+"Text" = "Okubhaliweyo";
 "Type a file name (use / to match the path)" = "Chwetheza igama lefayile (sebenzisa / ukukhangela ngendlela)";
+"Type a command name" = "Chwetheza igama lomyalelo";
+"Type text to find in project files" = "Chwetheza okubhaliweyo ofuna ukukufumana kwiifayile zeprojekthi";
 "No recent files" = "Akukho zifayile zakutshanje";
-"Recent Files" = "Iifayile zakutshanje";
 "Matches: %1$ld / Files: %2$ld" = "Ezihambelanayo: %1$ld / Iifayile: %2$ld";
+"Searching…" = "Iyakhangela…";
+"Switch Tab" = "Tshintsha ithebhu";

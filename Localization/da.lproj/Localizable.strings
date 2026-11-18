@@ -37,11 +37,23 @@
 "Copy" = "Kopier";
 "Paste" = "Sæt ind";
 "Select All" = "Vælg alt";
+"Duplicate Line or Selection" = "Dupliker linje eller markering";
+"Delete Line" = "Slet linje";
+"Join Lines" = "Sammenføj linjer";
+"Toggle Case" = "Skift mellem store og små bogstaver";
+"Comment with Line Comment" = "Kommentér med linjekommentar";
+"Move Line Up" = "Flyt linje op";
+"Move Line Down" = "Flyt linje ned";
+"Extend Selection" = "Udvid markering";
+"Shrink Selection" = "Formindsk markering";
+"Start New Line" = "Start ny linje";
+"Start New Line Before Current" = "Start ny linje før den aktuelle";
 "Find…" = "Find…";
 "Replace…" = "Erstat…";
 "Find Next" = "Find næste";
 "Find Previous" = "Find forrige";
 "Use Selection for Find" = "Søg efter valgt tekst";
+"Find in Files…" = "Find i filer…";
 "Find" = "Find";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Formindsk skriftstørrelse";
 "Reset Font Size" = "Nulstil skriftstørrelse";
 "Search Everywhere (Double ⇧)" = "Søg overalt (tryk to gange på ⇧)";
+"Recent Files" = "Seneste filer";
+"Find Action…" = "Find handling…";
+"Go to Line:Column…" = "Gå til linje:kolonne…";
 "Select in Project View" = "Vælg i projektoversigt";
 "Next Tab" = "Næste fane";
 "Previous Tab" = "Forrige fane";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Åbn i terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Gå til linje:kolonne";
 "Left Panel" = "Venstre panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Filer";
 "Double ⇧ to search everywhere" = "Tryk to gange på ⇧ for at søge overalt";
+"Files" = "Filer";
+"Actions" = "Handlinger";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Skriv et filnavn (brug / til at søge i stien)";
+"Type a command name" = "Skriv et kommandonavn";
+"Type text to find in project files" = "Skriv tekst, der skal findes i projektets filer";
 "No recent files" = "Ingen seneste filer";
-"Recent Files" = "Seneste filer";
 "Matches: %1$ld / Files: %2$ld" = "Match: %1$ld / Filer: %2$ld";
+"Searching…" = "Søger…";
+"Switch Tab" = "Skift fane";

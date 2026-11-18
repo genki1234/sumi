@@ -37,11 +37,23 @@
 "Copy" = "Copiază";
 "Paste" = "Lipește";
 "Select All" = "Selectează tot";
+"Duplicate Line or Selection" = "Duplică linia sau selecția";
+"Delete Line" = "Șterge linia";
+"Join Lines" = "Unește liniile";
+"Toggle Case" = "Comută majuscule/minuscule";
+"Comment with Line Comment" = "Comentează cu comentariu de linie";
+"Move Line Up" = "Mută linia în sus";
+"Move Line Down" = "Mută linia în jos";
+"Extend Selection" = "Extinde selecția";
+"Shrink Selection" = "Restrânge selecția";
+"Start New Line" = "Începe o linie nouă";
+"Start New Line Before Current" = "Începe o linie nouă înaintea celei curente";
 "Find…" = "Caută…";
 "Replace…" = "Înlocuiește…";
 "Find Next" = "Caută următoarea apariție";
 "Find Previous" = "Caută apariția precedentă";
 "Use Selection for Find" = "Caută textul selectat";
+"Find in Files…" = "Caută în fișiere…";
 "Find" = "Caută";
 "Project" = "Proiect";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Micșorează fontul";
 "Reset Font Size" = "Resetează dimensiunea fontului";
 "Search Everywhere (Double ⇧)" = "Caută peste tot (⇧ de două ori)";
+"Recent Files" = "Fișiere recente";
+"Find Action…" = "Caută acțiune…";
+"Go to Line:Column…" = "Mergi la linie:coloană…";
 "Select in Project View" = "Selectează în panoul proiectului";
 "Next Tab" = "Fila următoare";
 "Previous Tab" = "Fila precedentă";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Deschide în terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Mergi la linie:coloană";
 "Left Panel" = "Panoul din stânga";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fișiere";
 "Double ⇧ to search everywhere" = "Apăsați ⇧ de două ori pentru a căuta peste tot";
+"Files" = "Fișiere";
+"Actions" = "Acțiuni";
+"Text" = "Text";
 "Type a file name (use / to match the path)" = "Scrieți un nume de fișier (folosiți / pentru a căuta după cale)";
+"Type a command name" = "Scrieți numele unei comenzi";
+"Type text to find in project files" = "Scrieți textul de căutat în fișierele proiectului";
 "No recent files" = "Niciun fișier recent";
-"Recent Files" = "Fișiere recente";
 "Matches: %1$ld / Files: %2$ld" = "Potriviri: %1$ld / Fișiere: %2$ld";
+"Searching…" = "Se caută…";
+"Switch Tab" = "Comută fila";

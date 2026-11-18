@@ -37,11 +37,23 @@
 "Copy" = "Көчүрүү";
 "Paste" = "Коюу";
 "Select All" = "Баарын тандоо";
+"Duplicate Line or Selection" = "Сапты же тандалганды кайталоо";
+"Delete Line" = "Сапты өчүрүү";
+"Join Lines" = "Саптарды бириктирүү";
+"Toggle Case" = "Регистрди алмаштыруу";
+"Comment with Line Comment" = "Сап комментарийи менен комментарийлөө";
+"Move Line Up" = "Сапты жогору жылдыруу";
+"Move Line Down" = "Сапты төмөн жылдыруу";
+"Extend Selection" = "Тандоону кеңейтүү";
+"Shrink Selection" = "Тандоону кыскартуу";
+"Start New Line" = "Жаңы сап баштоо";
+"Start New Line Before Current" = "Учурдагы саптын алдынан жаңы сап баштоо";
 "Find…" = "Табуу…";
 "Replace…" = "Алмаштыруу…";
 "Find Next" = "Кийинкисин табуу";
 "Find Previous" = "Мурункусун табуу";
 "Use Selection for Find" = "Тандалган текстти издөө";
+"Find in Files…" = "Файлдардан табуу…";
 "Find" = "Табуу";
 "Project" = "Долбоор";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Арипти кичирейтүү";
 "Reset Font Size" = "Арип өлчөмүн калыбына келтирүү";
 "Search Everywhere (Double ⇧)" = "Бардык жерден издөө (⇧ эки жолу)";
+"Recent Files" = "Акыркы файлдар";
+"Find Action…" = "Аракетти табуу…";
+"Go to Line:Column…" = "Сап:тилкеге өтүү…";
 "Select in Project View" = "Долбоор дарагынан тандоо";
 "Next Tab" = "Кийинки өтмөк";
 "Previous Tab" = "Мурунку өтмөк";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Терминалда ачуу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Сап:тилкеге өтүү";
 "Left Panel" = "Сол панель";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Файлдар";
 "Double ⇧ to search everywhere" = "Бардык жерден издөө үчүн ⇧ баскычын эки жолу басыңыз";
+"Files" = "Файлдар";
+"Actions" = "Аракеттер";
+"Text" = "Текст";
 "Type a file name (use / to match the path)" = "Файлдын атын жазыңыз (жол боюнча издөө үчүн / колдонуңуз)";
+"Type a command name" = "Буйруктун атын жазыңыз";
+"Type text to find in project files" = "Долбоор файлдарынан изделүүчү текстти жазыңыз";
 "No recent files" = "Акыркы файлдар жок";
-"Recent Files" = "Акыркы файлдар";
 "Matches: %1$ld / Files: %2$ld" = "Дал келүүлөр: %1$ld / Файлдар: %2$ld";
+"Searching…" = "Изделүүдө…";
+"Switch Tab" = "Өтмөктү алмаштыруу";

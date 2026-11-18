@@ -37,11 +37,23 @@
 "Copy" = "కాపీ చేయి";
 "Paste" = "అతికించు";
 "Select All" = "అన్నీ ఎంచుకో";
+"Duplicate Line or Selection" = "పంక్తి లేదా ఎంపికను నకిలీ చేయి";
+"Delete Line" = "పంక్తిని తొలగించు";
+"Join Lines" = "పంక్తులను కలుపు";
+"Toggle Case" = "పెద్ద/చిన్న అక్షరాలు మార్చు";
+"Comment with Line Comment" = "పంక్తి వ్యాఖ్యతో వ్యాఖ్యానించు";
+"Move Line Up" = "పంక్తిని పైకి జరుపు";
+"Move Line Down" = "పంక్తిని కిందికి జరుపు";
+"Extend Selection" = "ఎంపికను విస్తరించు";
+"Shrink Selection" = "ఎంపికను కుదించు";
+"Start New Line" = "కొత్త పంక్తిని ప్రారంభించు";
+"Start New Line Before Current" = "ప్రస్తుత పంక్తికి ముందు కొత్త పంక్తిని ప్రారంభించు";
 "Find…" = "కనుగొను…";
 "Replace…" = "భర్తీ చేయి…";
 "Find Next" = "తదుపరిది కనుగొను";
 "Find Previous" = "మునుపటిది కనుగొను";
 "Use Selection for Find" = "ఎంచుకున్న వచనాన్ని వెతుకు";
+"Find in Files…" = "ఫైళ్లలో కనుగొను…";
 "Find" = "వెతుకు";
 "Project" = "ప్రాజెక్ట్";
 "Terminal" = "టెర్మినల్";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "అక్షర పరిమాణం తగ్గించు";
 "Reset Font Size" = "అక్షర పరిమాణం పునరుద్ధరించు";
 "Search Everywhere (Double ⇧)" = "అంతటా వెతుకు (⇧ రెండుసార్లు)";
+"Recent Files" = "ఇటీవలి ఫైళ్లు";
+"Find Action…" = "చర్యను కనుగొను…";
+"Go to Line:Column…" = "పంక్తి:కాలమ్‌కు వెళ్ళు…";
 "Select in Project View" = "ప్రాజెక్ట్ వీక్షణలో ఎంచుకో";
 "Next Tab" = "తదుపరి ట్యాబ్";
 "Previous Tab" = "మునుపటి ట్యాబ్";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "టెర్మినల్‌లో తెరువు";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "పంక్తి:కాలమ్‌కు వెళ్ళు";
 "Left Panel" = "ఎడమ ప్యానెల్";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ఫైళ్లు";
 "Double ⇧ to search everywhere" = "అంతటా వెతకడానికి ⇧ రెండుసార్లు నొక్కండి";
+"Files" = "ఫైళ్లు";
+"Actions" = "చర్యలు";
+"Text" = "వచనం";
 "Type a file name (use / to match the path)" = "ఫైల్ పేరు టైప్ చేయండి (పాత్‌ను సరిపోల్చడానికి / వాడండి)";
+"Type a command name" = "కమాండ్ పేరు టైప్ చేయండి";
+"Type text to find in project files" = "ప్రాజెక్ట్ ఫైళ్లలో వెతకాల్సిన వచనం టైప్ చేయండి";
 "No recent files" = "ఇటీవలి ఫైళ్లు లేవు";
-"Recent Files" = "ఇటీవలి ఫైళ్లు";
 "Matches: %1$ld / Files: %2$ld" = "సరిపోలికలు: %1$ld / ఫైళ్లు: %2$ld";
+"Searching…" = "వెతుకుతోంది…";
+"Switch Tab" = "ట్యాబ్ మార్చు";

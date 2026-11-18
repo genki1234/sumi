@@ -37,11 +37,23 @@
 "Copy" = "Kopi";
 "Paste" = "Faapipii";
 "Select All" = "Filifili uma";
+"Duplicate Line or Selection" = "Faalua le laina po o mea filifilia";
+"Delete Line" = "Tape le laina";
+"Join Lines" = "Tuufaatasi laina";
+"Toggle Case" = "Sui mataitusi tetele/laiti";
+"Comment with Line Comment" = "Faaopoopo se faamatalaga laina";
+"Move Line Up" = "Ave le laina i luga";
+"Move Line Down" = "Ave le laina i lalo";
+"Extend Selection" = "Faalautele le filifiliga";
+"Shrink Selection" = "Faaitiiti le filifiliga";
+"Start New Line" = "Amata se laina fou";
+"Start New Line Before Current" = "Amata se laina fou i luga o le laina nei";
 "Find…" = "Saili…";
 "Replace…" = "Sui…";
 "Find Next" = "Saili le isi";
 "Find Previous" = "Saili le muamua";
 "Use Selection for Find" = "Saili le tusitusiga filifilia";
+"Find in Files…" = "Saili i faila…";
 "Find" = "Saili";
 "Project" = "Poloketi";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Faaitiiti mataitusi";
 "Reset Font Size" = "Toe seti le tele o mataitusi";
 "Search Everywhere (Double ⇧)" = "Saili i mea uma (⇧ faalua)";
+"Recent Files" = "Faila lata mai";
+"Find Action…" = "Saili se gaioiga…";
+"Go to Line:Column…" = "Alu i le laina:koluma…";
 "Select in Project View" = "Filifili i le vaaiga o le poloketi";
 "Next Tab" = "Itulau e sosoo ai";
 "Previous Tab" = "Itulau muamua";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Tatala i le terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Alu i le laina:koluma";
 "Left Panel" = "Vaega agavale";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faila";
 "Double ⇧ to search everywhere" = "Oomi faalua le ⇧ e saili ai i mea uma";
+"Files" = "Faila";
+"Actions" = "Gaioiga";
+"Text" = "Tusitusiga";
 "Type a file name (use / to match the path)" = "Tusi le igoa o le faila (faaaogā / e saili ai le ala)";
+"Type a command name" = "Tusi le igoa o se poloaiga";
+"Type text to find in project files" = "Tusi tusitusiga e saili i faila o le poloketi";
 "No recent files" = "Leai ni faila lata mai";
-"Recent Files" = "Faila lata mai";
 "Matches: %1$ld / Files: %2$ld" = "Mea tutusa: %1$ld / Faila: %2$ld";
+"Searching…" = "O loo saili…";
+"Switch Tab" = "Sui itulau";

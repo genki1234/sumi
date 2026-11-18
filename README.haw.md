@@ -36,7 +36,8 @@ E holo i kāu ʻelele ma ka terminal i kūkulu ʻia i loko, e kaomi i nā faila 
 - Na Shift+Enter e ʻae i ke komo ʻana o nā noi me nā lālani he nui. Hiki ke hoʻopili i ke kikokikona lālani nui, nā faila a me nā kiʻi; mālama ʻia nā kiʻi ma ke ʻano he PNG no ka manawa pōkole a hoʻokomo ʻia ko lākou ala i loko o nā kaha puanaʻī.
 - Aia ka nānā mua Markdown me HTML ma ka ʻaoʻao o ke kikokikona, a hōʻano hou ia i ka wā e kikokiko ai (⇧⌘V, a i ʻole nā pihi ma luna ʻākau o ke kapu).
   Hōʻike ʻia ka Markdown me cmark-gfm, ka mīkini i hoʻohana ʻia e GitHub: nā pākaukau, nā papa hana, ke kikokikona i kaha ʻia ma waena a me nā loulou ʻakomi.
-- Huli ma nā wahi a pau: kaomi iā Shift ʻelua manawa e loaʻa ai kekahi faila o ka papahana ma ka hoʻohālikelike kokoke ʻana i kona inoa.
+- Huli ma nā wahi a pau: kaomi iā Shift ʻelua manawa e loaʻa ai kekahi faila o ka papahana ma ka hoʻohālikelike kokoke ʻana i kona inoa. Hoʻokō kona kapu Nā kauoha (⇧⌘A) i kekahi kauoha o ka papa kuhikuhi ma kona inoa, a huli kona kapu Kikokikona (⇧⌘F) i ke kikokikona o nā faila a pau o ka papahana.
+- Hoʻoponopono lālani me ka papa pihi: pālua, holoi, hoʻoneʻe, hoʻohuli i manaʻo a hoʻohui i nā lālani, a hoʻonui i ke koho i kēlā me kēia pae mai kahi huaʻōlelo a i ka faila holoʻokoʻa.
 - ʻIke i nā faila kumu me ka papa inoa o 915 inoa ʻōlelo a me nā ʻano faila, me nā inoa faila, nā hope inoa faila hui a me nā unuhi kauoha script. Aia nā māhele Prism 297 a pau (291 pūʻulu lula kūʻokoʻa a me 6 kōkua), a hoʻouka ʻia i ka wā e pono ai. No nā ʻano me ka pūʻulu lula ʻole, hoʻohana ʻia ka hōʻailona waihoʻoluʻu maʻalahi o ke kikokikona.
 - He 108 koho ʻōlelo o ke kikowaena hoʻohana. E hoʻohana i ka papa kuhikuhi ʻŌlelo e hoʻololi koke ai, a i ʻole e hahai i ka ʻōlelo o ka ʻōnaehana. Hoʻomanaʻo ʻia ke koho; noho hāmama nā faila, nā hoʻoponopono i mālama ʻole ʻia a me nā kau terminal. Ma ka ʻōlelo ʻAlapia, Hebera a me nā kikowaena ʻē aʻe mai ka ʻākau i ka hema, noho ke code, nā nānā mua a me ka hopena terminal mai ka hema i ka ʻākau.
   Kākau pololei ʻia nā unuhi mai nā kikokikona Pelekania me ko lākou ʻano hoʻohana ma ka mea hoʻoponopono a me ka terminal. Hahai nā papa o ka ʻōnaehana i nā hoʻonohonoho ʻōlelo macOS. ʻAʻole i loko o kēia papa inoa nā ʻōlelo kanaka a me nā ʻōlelo polokalamu a pau. E nānā iā [Ka unuhi ʻana iā Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Koho ma ka nānā papahana | ⌥⌘1 |
 | Kapu aʻe / kapu ma mua | ⇧⌘] / ⇧⌘[ |
 | Mālama / Mālama i nā mea a pau | ⌘S / ⌥⌘S |
+| Nā faila i wehe koke ʻia | ⌘E |
+| Huli i ke kauoha | ⇧⌘A |
+| Huli ma nā faila | ⇧⌘F |
+| Hele i ka lālani:kolamu | ⌘L |
+| Pālua i ka lālani a i ʻole ka mea i koho ʻia | ⌘D |
+| Holoi i ka lālani | ⌘⌫ |
+| Hoʻoneʻe i ka lālani i luna / i lalo | ⌥⇧↑ / ⌥⇧↓ |
+| Hoʻohuli i manaʻo lālani | ⌘/ |
+| Hoʻohui i nā lālani | ⌃⇧J |
+| Hoʻololi i nā hua nui/liʻiliʻi | ⇧⌘U |
+| Hoʻonui / hoʻēmi i ke koho | ⌥↑ / ⌥↓ |
+| Hoʻomaka i lālani hou ma lalo / ma luna | ⇧↩ / ⌥⌘↩ |
 
 ## Kōkua i ka papahana
 

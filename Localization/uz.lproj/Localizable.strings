@@ -37,11 +37,23 @@
 "Copy" = "Nusxalash";
 "Paste" = "Joylash";
 "Select All" = "Hammasini tanlash";
+"Duplicate Line or Selection" = "Satr yoki tanlanganni takrorlash";
+"Delete Line" = "Satrni o‘chirish";
+"Join Lines" = "Satrlarni birlashtirish";
+"Toggle Case" = "Katta va kichik harflarni almashtirish";
+"Comment with Line Comment" = "Satr izohi bilan izohlash";
+"Move Line Up" = "Satrni yuqoriga ko‘chirish";
+"Move Line Down" = "Satrni pastga ko‘chirish";
+"Extend Selection" = "Tanlovni kengaytirish";
+"Shrink Selection" = "Tanlovni toraytirish";
+"Start New Line" = "Yangi satr boshlash";
+"Start New Line Before Current" = "Joriy satrdan oldin yangi satr boshlash";
 "Find…" = "Topish…";
 "Replace…" = "Almashtirish…";
 "Find Next" = "Keyingisini topish";
 "Find Previous" = "Oldingisini topish";
 "Use Selection for Find" = "Tanlangan matnni qidirish";
+"Find in Files…" = "Fayllarda topish…";
 "Find" = "Qidirish";
 "Project" = "Loyiha";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Shriftni kichraytirish";
 "Reset Font Size" = "Shrift o‘lchamini tiklash";
 "Search Everywhere (Double ⇧)" = "Hamma joyda qidirish (⇧ ikki marta)";
+"Recent Files" = "So‘nggi fayllar";
+"Find Action…" = "Amalni topish…";
+"Go to Line:Column…" = "Satr:ustunga o‘tish…";
 "Select in Project View" = "Loyiha ko‘rinishida tanlash";
 "Next Tab" = "Keyingi varaq";
 "Previous Tab" = "Oldingi varaq";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Terminalda ochish";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Satr:ustunga o‘tish";
 "Left Panel" = "Chap panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fayllar";
 "Double ⇧ to search everywhere" = "Hamma joyda qidirish uchun ⇧ tugmasini ikki marta bosing";
+"Files" = "Fayllar";
+"Actions" = "Amallar";
+"Text" = "Matn";
 "Type a file name (use / to match the path)" = "Fayl nomini yozing (yo‘l bo‘yicha qidirish uchun / ishlating)";
+"Type a command name" = "Buyruq nomini yozing";
+"Type text to find in project files" = "Loyiha fayllarida qidiriladigan matnni yozing";
 "No recent files" = "So‘nggi fayllar yo‘q";
-"Recent Files" = "So‘nggi fayllar";
 "Matches: %1$ld / Files: %2$ld" = "Mos kelganlar: %1$ld / Fayllar: %2$ld";
+"Searching…" = "Qidirilmoqda…";
+"Switch Tab" = "Varaqni almashtirish";

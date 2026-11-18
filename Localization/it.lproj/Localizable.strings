@@ -37,11 +37,23 @@
 "Copy" = "Copia";
 "Paste" = "Incolla";
 "Select All" = "Seleziona tutto";
+"Duplicate Line or Selection" = "Duplica riga o selezione";
+"Delete Line" = "Elimina riga";
+"Join Lines" = "Unisci righe";
+"Toggle Case" = "Inverti maiuscole/minuscole";
+"Comment with Line Comment" = "Commenta con commento di riga";
+"Move Line Up" = "Sposta riga su";
+"Move Line Down" = "Sposta riga giù";
+"Extend Selection" = "Estendi selezione";
+"Shrink Selection" = "Riduci selezione";
+"Start New Line" = "Inizia nuova riga";
+"Start New Line Before Current" = "Inizia nuova riga prima della corrente";
 "Find…" = "Trova…";
 "Replace…" = "Sostituisci…";
 "Find Next" = "Trova successivo";
 "Find Previous" = "Trova precedente";
 "Use Selection for Find" = "Cerca il testo selezionato";
+"Find in Files…" = "Trova nei file…";
 "Find" = "Trova";
 "Project" = "Progetto";
 "Terminal" = "Terminale";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Riduci dimensione carattere";
 "Reset Font Size" = "Ripristina dimensione carattere";
 "Search Everywhere (Double ⇧)" = "Cerca ovunque (doppio ⇧)";
+"Recent Files" = "File recenti";
+"Find Action…" = "Trova azione…";
+"Go to Line:Column…" = "Vai a riga:colonna…";
 "Select in Project View" = "Seleziona nell'albero del progetto";
 "Next Tab" = "Scheda successiva";
 "Previous Tab" = "Scheda precedente";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Apri nel terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Vai a riga:colonna";
 "Left Panel" = "Pannello sinistro";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "File";
 "Double ⇧ to search everywhere" = "Premi due volte ⇧ per cercare ovunque";
+"Files" = "File";
+"Actions" = "Azioni";
+"Text" = "Testo";
 "Type a file name (use / to match the path)" = "Digita un nome file (usa / per cercare nel percorso)";
+"Type a command name" = "Digita il nome di un comando";
+"Type text to find in project files" = "Digita il testo da cercare nei file del progetto";
 "No recent files" = "Nessun file recente";
-"Recent Files" = "File recenti";
 "Matches: %1$ld / Files: %2$ld" = "Corrispondenze: %1$ld / File: %2$ld";
+"Searching…" = "Ricerca in corso…";
+"Switch Tab" = "Cambia scheda";

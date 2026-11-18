@@ -37,11 +37,23 @@
 "Copy" = "പകർത്തുക";
 "Paste" = "ഒട്ടിക്കുക";
 "Select All" = "എല്ലാം തിരഞ്ഞെടുക്കുക";
+"Duplicate Line or Selection" = "വരിയോ തിരഞ്ഞെടുത്തതോ ഇരട്ടിപ്പിക്കുക";
+"Delete Line" = "വരി ഇല്ലാതാക്കുക";
+"Join Lines" = "വരികൾ യോജിപ്പിക്കുക";
+"Toggle Case" = "വലിയക്ഷരം/ചെറിയക്ഷരം മാറ്റുക";
+"Comment with Line Comment" = "വരി കമന്റ് ഉപയോഗിച്ച് കമന്റ് ചെയ്യുക";
+"Move Line Up" = "വരി മുകളിലേക്ക് നീക്കുക";
+"Move Line Down" = "വരി താഴേക്ക് നീക്കുക";
+"Extend Selection" = "തിരഞ്ഞെടുപ്പ് വികസിപ്പിക്കുക";
+"Shrink Selection" = "തിരഞ്ഞെടുപ്പ് ചുരുക്കുക";
+"Start New Line" = "പുതിയ വരി ആരംഭിക്കുക";
+"Start New Line Before Current" = "നിലവിലെ വരിക്ക് മുമ്പ് പുതിയ വരി ആരംഭിക്കുക";
 "Find…" = "കണ്ടെത്തുക…";
 "Replace…" = "മാറ്റിസ്ഥാപിക്കുക…";
 "Find Next" = "അടുത്തത് കണ്ടെത്തുക";
 "Find Previous" = "മുമ്പത്തേത് കണ്ടെത്തുക";
 "Use Selection for Find" = "തിരഞ്ഞെടുത്ത വാചകം തിരയുക";
+"Find in Files…" = "ഫയലുകളിൽ കണ്ടെത്തുക…";
 "Find" = "കണ്ടെത്തുക";
 "Project" = "പ്രോജക്റ്റ്";
 "Terminal" = "ടെർമിനൽ";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "അക്ഷരവലുപ്പം കുറയ്ക്കുക";
 "Reset Font Size" = "അക്ഷരവലുപ്പം പുനഃസജ്ജമാക്കുക";
 "Search Everywhere (Double ⇧)" = "എല്ലായിടത്തും തിരയുക (⇧ രണ്ടുതവണ)";
+"Recent Files" = "സമീപകാല ഫയലുകൾ";
+"Find Action…" = "പ്രവർത്തനം കണ്ടെത്തുക…";
+"Go to Line:Column…" = "വരി:കോളത്തിലേക്ക് പോകുക…";
 "Select in Project View" = "പ്രോജക്റ്റ് ട്രീയിൽ തിരഞ്ഞെടുക്കുക";
 "Next Tab" = "അടുത്ത ടാബ്";
 "Previous Tab" = "മുമ്പത്തെ ടാബ്";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ടെർമിനലിൽ തുറക്കുക";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "വരി:കോളത്തിലേക്ക് പോകുക";
 "Left Panel" = "ഇടത് പാനൽ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ഫയലുകൾ";
 "Double ⇧ to search everywhere" = "എല്ലായിടത്തും തിരയാൻ ⇧ രണ്ടുതവണ അമർത്തുക";
+"Files" = "ഫയലുകൾ";
+"Actions" = "പ്രവർത്തനങ്ങൾ";
+"Text" = "വാചകം";
 "Type a file name (use / to match the path)" = "ഫയലിന്റെ പേര് ടൈപ്പ് ചെയ്യുക (പാത തിരയാൻ / ഉപയോഗിക്കുക)";
+"Type a command name" = "കമാൻഡിന്റെ പേര് ടൈപ്പ് ചെയ്യുക";
+"Type text to find in project files" = "പ്രോജക്റ്റ് ഫയലുകളിൽ കണ്ടെത്താനുള്ള വാചകം ടൈപ്പ് ചെയ്യുക";
 "No recent files" = "സമീപകാല ഫയലുകളില്ല";
-"Recent Files" = "സമീപകാല ഫയലുകൾ";
 "Matches: %1$ld / Files: %2$ld" = "പൊരുത്തങ്ങൾ: %1$ld / ഫയലുകൾ: %2$ld";
+"Searching…" = "തിരയുന്നു…";
+"Switch Tab" = "ടാബ് മാറുക";

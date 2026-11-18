@@ -37,11 +37,23 @@
 "Copy" = "कॉपी करा";
 "Paste" = "पेस्ट करा";
 "Select All" = "सर्व निवडा";
+"Duplicate Line or Selection" = "ओळ किंवा निवडीची प्रत बनवा";
+"Delete Line" = "ओळ हटवा";
+"Join Lines" = "ओळी जोडा";
+"Toggle Case" = "मोठी/लहान अक्षरे बदला";
+"Comment with Line Comment" = "ओळ टिप्पणीने टिप्पणी करा";
+"Move Line Up" = "ओळ वर हलवा";
+"Move Line Down" = "ओळ खाली हलवा";
+"Extend Selection" = "निवड वाढवा";
+"Shrink Selection" = "निवड कमी करा";
+"Start New Line" = "नवीन ओळ सुरू करा";
+"Start New Line Before Current" = "सध्याच्या ओळीपूर्वी नवीन ओळ सुरू करा";
 "Find…" = "शोधा…";
 "Replace…" = "बदला…";
 "Find Next" = "पुढील शोधा";
 "Find Previous" = "मागील शोधा";
 "Use Selection for Find" = "निवडलेला मजकूर शोधा";
+"Find in Files…" = "फाइल्समध्ये शोधा…";
 "Find" = "शोधा";
 "Project" = "प्रकल्प";
 "Terminal" = "टर्मिनल";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "अक्षरांचा आकार कमी करा";
 "Reset Font Size" = "अक्षरांचा मूळ आकार आणा";
 "Search Everywhere (Double ⇧)" = "सर्वत्र शोधा (⇧ दोनदा)";
+"Recent Files" = "अलीकडील फाइल्स";
+"Find Action…" = "क्रिया शोधा…";
+"Go to Line:Column…" = "ओळ:स्तंभावर जा…";
 "Select in Project View" = "प्रकल्प वृक्षात निवडा";
 "Next Tab" = "पुढील टॅब";
 "Previous Tab" = "मागील टॅब";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "टर्मिनलमध्ये उघडा";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "ओळ:स्तंभावर जा";
 "Left Panel" = "डावा पॅनेल";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "फाइल्स";
 "Double ⇧ to search everywhere" = "सर्वत्र शोधण्यासाठी ⇧ दोनदा दाबा";
+"Files" = "फाइल्स";
+"Actions" = "क्रिया";
+"Text" = "मजकूर";
 "Type a file name (use / to match the path)" = "फाइलचे नाव टाइप करा (पथ शोधण्यासाठी / वापरा)";
+"Type a command name" = "आदेशाचे नाव टाइप करा";
+"Type text to find in project files" = "प्रकल्प फाइल्समध्ये शोधायचा मजकूर टाइप करा";
 "No recent files" = "अलीकडील फाइल्स नाहीत";
-"Recent Files" = "अलीकडील फाइल्स";
 "Matches: %1$ld / Files: %2$ld" = "जुळण्या: %1$ld / फाइल्स: %2$ld";
+"Searching…" = "शोधत आहे…";
+"Switch Tab" = "टॅब बदला";

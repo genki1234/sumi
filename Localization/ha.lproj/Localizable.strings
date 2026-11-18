@@ -37,11 +37,23 @@
 "Copy" = "Kwafa";
 "Paste" = "Manna";
 "Select All" = "Zaɓi duka";
+"Duplicate Line or Selection" = "Ninka layi ko abin da aka zaɓa";
+"Delete Line" = "Goge layi";
+"Join Lines" = "Haɗa layuka";
+"Toggle Case" = "Sauya manya/ƙananan haruffa";
+"Comment with Line Comment" = "Yi sharhi da sharhin layi";
+"Move Line Up" = "Matsar da layi sama";
+"Move Line Down" = "Matsar da layi ƙasa";
+"Extend Selection" = "Faɗaɗa zaɓi";
+"Shrink Selection" = "Rage zaɓi";
+"Start New Line" = "Fara sabon layi";
+"Start New Line Before Current" = "Fara sabon layi kafin na yanzu";
 "Find…" = "Nema…";
 "Replace…" = "Sauya…";
 "Find Next" = "Nemo na gaba";
 "Find Previous" = "Nemo na baya";
 "Use Selection for Find" = "Nemo rubutun da aka zaɓa";
+"Find in Files…" = "Nema a cikin fayiloli…";
 "Find" = "Bincike";
 "Project" = "Aiki";
 "Terminal" = "Tashar umarni";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Rage girman rubutu";
 "Reset Font Size" = "Mayar da girman rubutu";
 "Search Everywhere (Double ⇧)" = "Nema ko'ina (⇧ sau biyu)";
+"Recent Files" = "Fayilolin baya-bayan nan";
+"Find Action…" = "Nemo umarni…";
+"Go to Line:Column…" = "Je zuwa layi:ginshiƙi…";
 "Select in Project View" = "Zaɓa a duba aikin";
 "Next Tab" = "Shafi na gaba";
 "Previous Tab" = "Shafi na baya";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Buɗe a tashar umarni";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Je zuwa layi:ginshiƙi";
 "Left Panel" = "Bangaren hagu";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Fayiloli";
 "Double ⇧ to search everywhere" = "Danna ⇧ sau biyu don nema ko'ina";
+"Files" = "Fayiloli";
+"Actions" = "Umarnai";
+"Text" = "Rubutu";
 "Type a file name (use / to match the path)" = "Rubuta sunan fayil (yi amfani da / don nema a hanya)";
+"Type a command name" = "Rubuta sunan umarni";
+"Type text to find in project files" = "Rubuta rubutun da za a nema a fayilolin aikin";
 "No recent files" = "Babu fayilolin baya-bayan nan";
-"Recent Files" = "Fayilolin baya-bayan nan";
 "Matches: %1$ld / Files: %2$ld" = "Masu dacewa: %1$ld / Fayiloli: %2$ld";
+"Searching…" = "Ana nema…";
+"Switch Tab" = "Sauya shafi";

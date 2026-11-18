@@ -36,7 +36,8 @@ Run your agent in the built-in terminal, click the files it touches to open them
 - Shift+Enter preserves multiline prompt input. Paste supports multiline text, files, and images; images are kept as temporary PNGs and inserted as quoted paths.
 - Markdown and HTML preview next to the text, updated as you type (⇧⌘V, or the buttons at the top right of the tab).
   Markdown is rendered with cmark-gfm, the renderer GitHub uses: tables, task lists, strikethrough and autolinks.
-- Search Everywhere: press Shift twice to find any file in the project by fuzzy name.
+- Search Everywhere: press Shift twice to find any file in the project by fuzzy name. Its Actions tab (⇧⌘A) runs any menu command by name, and its Text tab (⇧⌘F) searches the text of every project file.
+- Line editing from the keyboard: duplicate, delete, move, comment out and join lines, and extend the selection step by step from a word to the whole file.
 - Recognizes source files using a catalog of 915 language and file-format names, including filenames, compound extensions and script interpreters. All 297 Prism components (291 standalone grammars and six helpers) are bundled and loaded on demand. Formats without a grammar use basic text highlighting.
 - The UI has 108 language options. Use the Language menu to switch immediately, or follow the system language. The choice is remembered; open files, unsaved edits and terminal sessions stay open. Arabic, Hebrew and other right-to-left interfaces keep code, previews and terminal output left to right.
   Translations are written directly from the English strings with their editor and terminal context. System-provided panels follow macOS language settings. This catalog does not cover every natural or programming language. See [Translating Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Select in Project view | ⌥⌘1 |
 | Next / previous tab | ⇧⌘] / ⇧⌘[ |
 | Save / Save all | ⌘S / ⌥⌘S |
+| Recent files | ⌘E |
+| Find action | ⇧⌘A |
+| Find in files | ⇧⌘F |
+| Go to line:column | ⌘L |
+| Duplicate line or selection | ⌘D |
+| Delete line | ⌘⌫ |
+| Move line up / down | ⌥⇧↑ / ⌥⇧↓ |
+| Comment with line comment | ⌘/ |
+| Join lines | ⌃⇧J |
+| Toggle case | ⇧⌘U |
+| Extend / shrink selection | ⌥↑ / ⌥↓ |
+| Start new line below / above | ⇧↩ / ⌥⌘↩ |
 
 ## Contributing
 

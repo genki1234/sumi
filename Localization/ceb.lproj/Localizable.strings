@@ -37,11 +37,23 @@
 "Copy" = "Kopyaha";
 "Paste" = "Ipapilit";
 "Select All" = "Pilia ang tanan";
+"Duplicate Line or Selection" = "Doblaha ang linya o ang gipili";
+"Delete Line" = "Tangtanga ang linya";
+"Join Lines" = "Iusa ang mga linya";
+"Toggle Case" = "Ilisi ang dagko/gagmay nga letra";
+"Comment with Line Comment" = "Komentohi gamit ang komento sa linya";
+"Move Line Up" = "Ibalhin pataas ang linya";
+"Move Line Down" = "Ibalhin paubos ang linya";
+"Extend Selection" = "Padak-a ang gipili";
+"Shrink Selection" = "Gamaya ang gipili";
+"Start New Line" = "Sugdi og bag-ong linya";
+"Start New Line Before Current" = "Sugdi og bag-ong linya una sa kasamtangan";
 "Find…" = "Pangitaa…";
 "Replace…" = "Ilisi…";
 "Find Next" = "Pangitaa ang sunod";
 "Find Previous" = "Pangitaa ang miagi";
 "Use Selection for Find" = "Pangitaa ang gipiling teksto";
+"Find in Files…" = "Pangitaa sa mga file…";
 "Find" = "Pagpangita";
 "Project" = "Proyekto";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Pagamya ang letra";
 "Reset Font Size" = "Ibalik ang gidak-on sa letra";
 "Search Everywhere (Double ⇧)" = "Pangitaa bisan asa (⇧ kaduha)";
+"Recent Files" = "Bag-ong giablihang mga file";
+"Find Action…" = "Pangitaa ang aksyon…";
+"Go to Line:Column…" = "Adto sa linya:kolum…";
 "Select in Project View" = "Pilia sa tan-aw sa proyekto";
 "Next Tab" = "Sunod nga tab";
 "Previous Tab" = "Miaging tab";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Ablihi sa terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Adto sa linya:kolum";
 "Left Panel" = "Wala nga panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Mga file";
 "Double ⇧ to search everywhere" = "Pislita ang ⇧ kaduha aron mangita bisan asa";
+"Files" = "Mga file";
+"Actions" = "Mga aksyon";
+"Text" = "Teksto";
 "Type a file name (use / to match the path)" = "Isulat ang ngalan sa file (gamita ang / aron mangita sa path)";
+"Type a command name" = "Isulat ang ngalan sa sugo";
+"Type text to find in project files" = "Isulat ang teksto nga pangitaon sa mga file sa proyekto";
 "No recent files" = "Walay bag-ong giablihang file";
-"Recent Files" = "Bag-ong giablihang mga file";
 "Matches: %1$ld / Files: %2$ld" = "Mga katugma: %1$ld / Mga file: %2$ld";
+"Searching…" = "Nangita…";
+"Switch Tab" = "Ilisi ang tab";

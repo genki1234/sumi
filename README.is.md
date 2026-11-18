@@ -35,7 +35,8 @@ Keyrðu fulltrúann í innbyggða skjáherminum, smelltu á skrárnar sem hann b
 - Skjáhermar nota sjálfgefið Metal, með rofanum GPU-teikning í valmyndinni Skoða. Leitaðu í úttaki með ⌘F; nýir flipar erfa núverandi vinnumöppu.
 - Shift+Enter varðveitir margra lína innslátt fyrirmæla. Líming styður margra lína texta, skrár og myndir; myndir geymast sem tímabundnar PNG-skrár og eru settar inn sem slóðir innan gæsalappa.
 - Forskoðun Markdown og HTML við hlið textans uppfærist meðan þú skrifar (⇧⌘V eða hnapparnir efst til hægri í flipanum). Markdown er birt með cmark-gfm, sama birtingarvél og GitHub notar: töflur, verkefnalistar, yfirstrikun og sjálfvirkir tenglar.
-- Leita alls staðar: ýttu tvisvar á Shift til að finna hvaða skrá sem er í verkefninu með ónákvæmri nafnaleit.
+- Leita alls staðar: ýttu tvisvar á Shift til að finna hvaða skrá sem er í verkefninu með ónákvæmri nafnaleit. Flipinn Aðgerðir (⇧⌘A) keyrir hvaða valmyndarskipun sem er eftir heiti og flipinn Texti (⇧⌘F) leitar í texta allra skráa verkefnisins.
+- Línuvinnsla af lyklaborði: tvöfalda, eyða, færa, gera að athugasemd og sameina línur, og stækka valið skref fyrir skref frá orði upp í alla skrána.
 - Þekkir frumkóðaskrár með skrá yfir 915 heiti tungumála og skráarsniða, þar á meðal skráarheiti, samsettar endingar og skriftutúlka. Allar 297 Prism-einingarnar (291 sjálfstæð málfræði og 6 hjálpareiningar) fylgja með og hlaðast eftir þörfum. Snið án málfræði nota einfalda textalitun.
 - Viðmótið býður 108 tungumál. Skiptu strax í valmyndinni Tungumál eða fylgdu tungumáli kerfisins. Valið er munað; opnar skrár, óvistaðar breytingar og skjáhermislotur haldast opnar. Í arabísku, hebresku og öðrum viðmótum frá hægri til vinstri haldast kóði, forskoðun og úttak skjáhermis frá vinstri til hægri. Þýðingar eru skrifaðar beint úr ensku textunum með samhengi ritils og skjáhermis. Kerfisspjöld fylgja tungumálastillingum macOS. Skráin nær ekki yfir öll náttúruleg mál eða forritunarmál. Sjá [Þýðingar á Sumi](CONTRIBUTING.md#translating-sumi).
 - Ljóst og dökkt útlit fylgja kerfinu.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Velja í verkefnistré | ⌥⌘1 |
 | Næsti flipi / Fyrri flipi | ⇧⌘] / ⇧⌘[ |
 | Vista / Vista allt | ⌘S / ⌥⌘S |
+| Nýlegar skrár | ⌘E |
+| Finna aðgerð | ⇧⌘A |
+| Finna í skrám | ⇧⌘F |
+| Fara í línu:dálk | ⌘L |
+| Tvöfalda línu eða val | ⌘D |
+| Eyða línu | ⌘⌫ |
+| Færa línu upp / niður | ⌥⇧↑ / ⌥⇧↓ |
+| Gera að línuathugasemd | ⌘/ |
+| Sameina línur | ⌃⇧J |
+| Víxla há- og lágstöfum | ⇧⌘U |
+| Stækka / minnka val | ⌥↑ / ⌥↓ |
+| Byrja nýja línu fyrir neðan / ofan | ⇧↩ / ⌥⌘↩ |
 
 ## Framlög
 

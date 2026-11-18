@@ -36,7 +36,8 @@ Ajanınızı yerleşik terminalde çalıştırın, değiştirdiği dosyaları t�
 - Shift+Enter, istem alanına birden fazla satır girmeyi sağlar. Çok satırlı metin, dosya ve görüntü yapıştırılabilir; görüntüler geçici PNG dosyaları olarak tutulur ve yolları tırnak içinde eklenir.
 - Markdown ve HTML önizlemesi metnin yanında görünür ve siz yazarken güncellenir (⇧⌘V veya sekmenin sağ üstündeki düğmeler).
   Markdown, GitHub’ın da kullandığı cmark-gfm ile işlenir; tabloları, görev listelerini, üstü çizili metni ve otomatik bağlantıları destekler.
-- Her Yerde Ara: projedeki herhangi bir dosyayı yaklaşık ad eşleşmesiyle bulmak için Shift’e iki kez basın.
+- Her Yerde Ara: projedeki herhangi bir dosyayı yaklaşık ad eşleşmesiyle bulmak için Shift’e iki kez basın. Eylemler sekmesi (⇧⌘A) herhangi bir menü komutunu adıyla çalıştırır, Metin sekmesi (⇧⌘F) ise tüm proje dosyalarının metninde arama yapar.
+- Klavyeden satır düzenleme: satırları çoğaltın, silin, taşıyın, yorum satırına çevirin ve birleştirin; seçimi bir sözcükten tüm dosyaya kadar adım adım genişletin.
 - Dosya adları, bileşik uzantılar ve betik yorumlayıcılarından yararlanarak 915 dil ve dosya biçimi adı içeren bir katalogla kaynak dosyaları tanır. Prism’in 297 bileşeninin tamamı (291 bağımsız dil bilgisi tanımı ve altı yardımcı bileşen) birlikte gelir ve gerektiğinde yüklenir. Dil bilgisi tanımı olmayan biçimler temel metin renklendirmesi kullanır.
 - Arayüzde 108 dil seçeneği vardır. Dil menüsünden anında değiştirin veya sistem dilini izleyin. Seçim hatırlanır; açık dosyalar, kaydedilmemiş düzenlemeler ve terminal oturumları korunur. Arapça, İbranice ve sağdan sola yazılan diğer arayüzlerde kod, önizlemeler ve terminal çıktısı soldan sağa kalır.
   Çeviriler, İngilizce metinler ve düzenleyici ile terminaldeki kullanım bağlamları temel alınarak doğrudan yazılır. Sistemin sağladığı paneller macOS dil ayarlarını izler. Bu katalog tüm doğal dilleri veya programlama dillerini kapsamaz. [Sumi’yi çevirme](CONTRIBUTING.md#translating-sumi) bölümüne bakın.
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Proje Görünümünde Seç | ⌥⌘1 |
 | Sonraki / önceki sekme | ⇧⌘] / ⇧⌘[ |
 | Kaydet / Tümünü Kaydet | ⌘S / ⌥⌘S |
+| Son Kullanılan Dosyalar | ⌘E |
+| Eylem Bul | ⇧⌘A |
+| Dosyalarda Bul | ⇧⌘F |
+| Satır:Sütuna Git | ⌘L |
+| Satırı veya Seçimi Çoğalt | ⌘D |
+| Satırı Sil | ⌘⌫ |
+| Satırı Yukarı / Aşağı Taşı | ⌥⇧↑ / ⌥⇧↓ |
+| Satır Yorumuyla Yorumla | ⌘/ |
+| Satırları Birleştir | ⌃⇧J |
+| Büyük/Küçük Harf Değiştir | ⇧⌘U |
+| Seçimi Genişlet / Daralt | ⌥↑ / ⌥↓ |
+| Alta / Üste Yeni Satır Başlat | ⇧↩ / ⌥⌘↩ |
 
 ## Katkıda bulunma
 

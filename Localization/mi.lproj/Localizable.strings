@@ -37,11 +37,23 @@
 "Copy" = "Tārua";
 "Paste" = "Whakapiri";
 "Select All" = "Tīpako Katoa";
+"Duplicate Line or Selection" = "Tāruarua te Rārangi, te Tīpakonga rānei";
+"Delete Line" = "Mukua te Rārangi";
+"Join Lines" = "Honoa ngā Rārangi";
+"Toggle Case" = "Whakawhitia te Pūmatua/Pūriki";
+"Comment with Line Comment" = "Tākupuhia ki te Tākupu Rārangi";
+"Move Line Up" = "Nukuhia te Rārangi ki Runga";
+"Move Line Down" = "Nukuhia te Rārangi ki Raro";
+"Extend Selection" = "Whakawhānuihia te Tīpakonga";
+"Shrink Selection" = "Whakaitihia te Tīpakonga";
+"Start New Line" = "Tīmata he Rārangi Hou";
+"Start New Line Before Current" = "Tīmata he Rārangi Hou i Mua i te Rārangi o Nāianei";
 "Find…" = "Rapu…";
 "Replace…" = "Whakakapi…";
 "Find Next" = "Rapua te Panuku";
 "Find Previous" = "Rapua te Mea o Mua";
 "Use Selection for Find" = "Rapua te Kuputuhi kua Tīpakohia";
+"Find in Files…" = "Rapu i ngā Kōnae…";
 "Find" = "Rapu";
 "Project" = "Kaupapa";
 "Terminal" = "Kāpeka";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Whakaitia te Momotuhi";
 "Reset Font Size" = "Tautuhi Anō i te Rahi Momotuhi";
 "Search Everywhere (Double ⇧)" = "Rapu i Ngā Wāhi Katoa (⇧ Rua ngā Pēhi)";
+"Recent Files" = "Kōnae Nō Nā Tata Nei";
+"Find Action…" = "Rapu Mahi…";
+"Go to Line:Column…" = "Haere ki te Rārangi:Tīwae…";
 "Select in Project View" = "Tīpako i te Rākau Kaupapa";
 "Next Tab" = "Ripa Panuku";
 "Previous Tab" = "Ripa o Mua";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Whakatuwhera ki te Kāpeka";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Haere ki te Rārangi:Tīwae";
 "Left Panel" = "Paewhiri Mauī";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Kōnae";
 "Double ⇧ to search everywhere" = "Pēhia te ⇧ kia rua hei rapu i ngā wāhi katoa";
+"Files" = "Kōnae";
+"Actions" = "Ngā Mahi";
+"Text" = "Kuputuhi";
 "Type a file name (use / to match the path)" = "Patohia he ingoa kōnae (whakamahia te / hei rapu i te ara)";
+"Type a command name" = "Patohia he ingoa whakahau";
+"Type text to find in project files" = "Patohia he kuputuhi hei rapu i ngā kōnae o te kaupapa";
 "No recent files" = "Kāore he kōnae nō nā tata nei";
-"Recent Files" = "Kōnae Nō Nā Tata Nei";
 "Matches: %1$ld / Files: %2$ld" = "Ngā Ōritenga: %1$ld / Kōnae: %2$ld";
+"Searching…" = "E rapu ana…";
+"Switch Tab" = "Whakawhitia te Ripa";

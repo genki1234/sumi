@@ -35,7 +35,8 @@ Agentiňizi içerki terminalda işlediň, onuň üýtgedýän faýllaryny basyp 
 - Terminal adaty ýagdaýda Metal ulanýar; GPU bilen şekillendiriş açary Görnüş menýusynda. Çykyşy ⌘F bilen gözläň; täze goýmalar häzirki iş bukjasyny alýar.
 - Shift+Enter köp setirli sorag girizmegi saklaýar. Köp setirli tekst, faýl we surat ýelmemek bolýar; suratlar wagtlaýyn PNG bolup saklanýar we olaryň ýollary dyrnak içinde goýulýar.
 - Markdown we HTML öňünden görnüşi tekstiň ýanynda bolup, ýazanyňyzda täzelenýär (⇧⌘V ýa-da goýmanyň sag ýokarky düwmeleri). Markdown GitHub-yň ulanýan cmark-gfm-i bilen görkezilýär: tablisalar, iş sanawlary, üsti çyzylan tekst we awtomatik baglanyşyklar.
-- Ähli ýerde gözle: Shift-i iki gezek basyp taslamadaky islendik faýly takmynan gabat gelýän at bilen tapyň.
+- Ähli ýerde gözle: Shift-i iki gezek basyp taslamadaky islendik faýly takmynan gabat gelýän at bilen tapyň. Onuň Hereketler goýmasy (⇧⌘A) islendik menýu buýrugyny ady boýunça işledýär, Tekst goýmasy (⇧⌘F) bolsa taslamanyň ähli faýllarynyň tekstinde gözleýär.
+- Setirleri klawiaturadan redaktirlemek: setirleri gaýtalaň, pozuň, süýşüriň, teswire öwrüň we birleşdiriň, saýlawy bolsa bir sözden tutuş faýla çenli ädimme-ädim giňeldiň.
 - Çeşme faýllaryny 915 dil we faýl format adynyň katalogy arkaly tanaýar; faýl atlary, goşma giňeltmeler we skript düşündirijileri hem bar. Prism-iň ähli 297 bölegi (291 özbaşdak grammatika we 6 kömekçi) goşulandyr we zerur bolanda ýüklenýär. Grammatikasyz formatlarda ýönekeý tekst reňklemesi ulanylýar.
 - Interfeýsde 108 dil saýlawy bar. Dil menýusyndan derrew üýtgediň ýa-da ulgamyň diline eýeriň. Saýlaw ýatda galýar; açyk faýllar, saklanmadyk düzedişler we terminal sessiýalary açyk galýar. Arap, ýewreý we beýleki sagdan çepe interfeýslerde kod, öňünden görnüş we terminal çykyşy çepden saga galýar. Terjimeler redaktor we terminal ýagdaýy göz öňünde tutulyp iňlisçe tekstlerden göni ýazyldy. Ulgam panelleri macOS dil sazlamalaryna eýerýär. Katalog ähli tebigy ýa-da programma dillerini öz içine almaýar. [Sumi terjimesine](CONTRIBUTING.md#translating-sumi) serediň.
 - Açyk we garaňky görnüş ulgama eýerýär.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Taslama görnüşinde saýla | ⌥⌘1 |
 | Indiki goýma / Öňki goýma | ⇧⌘] / ⇧⌘[ |
 | Ýatda sakla / Ählisini ýatda sakla | ⌘S / ⌥⌘S |
+| Soňky faýllar | ⌘E |
+| Hereket tap | ⇧⌘A |
+| Faýllarda tap | ⇧⌘F |
+| Setir:sütüne geç | ⌘L |
+| Setiri ýa-da saýlanany gaýtala | ⌘D |
+| Setiri poz | ⌘⌫ |
+| Setiri ýokary süýş / Setiri aşak süýş | ⌥⇧↑ / ⌥⇧↓ |
+| Setir teswiri bilen teswirle | ⌘/ |
+| Setirleri birleşdir | ⌃⇧J |
+| Uly we kiçi harplary çalyş | ⇧⌘U |
+| Saýlawy giňelt / Saýlawy daralt | ⌥↑ / ⌥↓ |
+| Aşakda täze setir başla / Ýokarda täze setir başla | ⇧↩ / ⌥⌘↩ |
 
 ## Goşant goşmak
 

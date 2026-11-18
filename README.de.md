@@ -36,7 +36,8 @@ Starte deinen Agenten im eingebauten Terminal, öffne die Dateien, mit denen er 
 - Shift+Enter ermöglicht mehrzeilige Eingaben für Prompts. Du kannst mehrzeiligen Text, Dateien und Bilder einsetzen. Bilder werden als temporäre PNGs gespeichert und als Pfade in Anführungszeichen eingefügt.
 - Markdown- und HTML-Vorschau neben dem Text, beim Schreiben aktualisiert (⇧⌘V oder die Tasten oben rechts im Tab).
   Markdown wird mit cmark-gfm dargestellt, das auch GitHub verwendet: Tabellen, Aufgabenlisten, durchgestrichener Text und automatische Links.
-- Überall suchen: Drücke zweimal Shift, um jede Datei im Projekt über eine unscharfe Namenssuche zu finden.
+- Überall suchen: Drücke zweimal Shift, um jede Datei im Projekt über eine unscharfe Namenssuche zu finden. Der Tab „Aktionen“ (⇧⌘A) führt jeden Menübefehl über seinen Namen aus, und der Tab „Text“ (⇧⌘F) durchsucht den Text aller Projektdateien.
+- Zeilen per Tastatur bearbeiten: Zeilen duplizieren, löschen, verschieben, auskommentieren und verbinden sowie die Auswahl schrittweise von einem Wort bis zur ganzen Datei erweitern.
 - Erkennt Quelldateien anhand eines Katalogs mit 915 Sprach- und Dateiformatnamen, darunter Dateinamen, zusammengesetzte Erweiterungen und Skriptinterpreter. Alle 297 Prism-Komponenten (291 eigenständige Grammatiken und 6 Hilfskomponenten) sind enthalten und werden bei Bedarf geladen. Formate ohne Grammatik erhalten eine einfache Texthervorhebung.
 - Die Oberfläche bietet 108 Sprachoptionen. Wechsle sofort über das Menü Sprache oder verwende die Systemsprache. Die Auswahl wird gespeichert; offene Dateien, ungesicherte Bearbeitungen und Terminalsitzungen bleiben geöffnet. Arabische, hebräische und andere Oberflächen von rechts nach links zeigen Code, Vorschauen und Terminalausgabe weiterhin von links nach rechts an.
   Die Übersetzungen entstehen direkt aus den englischen Texten unter Berücksichtigung ihres Kontexts im Editor und Terminal. Systemdialoge folgen den macOS-Spracheinstellungen. Der Katalog deckt nicht jede natürliche Sprache oder Programmiersprache ab. Siehe [Sumi übersetzen](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | In Projektansicht auswählen | ⌥⌘1 |
 | Nächster / vorheriger Tab | ⇧⌘] / ⇧⌘[ |
 | Sichern / Alle sichern | ⌘S / ⌥⌘S |
+| Zuletzt verwendete Dateien | ⌘E |
+| Aktion suchen | ⇧⌘A |
+| In Dateien suchen | ⇧⌘F |
+| Zu Zeile:Spalte gehen | ⌘L |
+| Zeile oder Auswahl duplizieren | ⌘D |
+| Zeile löschen | ⌘⌫ |
+| Zeile nach oben / unten verschieben | ⌥⇧↑ / ⌥⇧↓ |
+| Mit Zeilenkommentar auskommentieren | ⌘/ |
+| Zeilen verbinden | ⌃⇧J |
+| Groß-/Kleinschreibung umschalten | ⇧⌘U |
+| Auswahl erweitern / verkleinern | ⌥↑ / ⌥↓ |
+| Neue Zeile darunter / darüber beginnen | ⇧↩ / ⌥⌘↩ |
 
 ## Mitwirken
 

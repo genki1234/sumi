@@ -37,11 +37,23 @@
 "Copy" = "Kopieer";
 "Paste" = "Plak";
 "Select All" = "Kies alles";
+"Duplicate Line or Selection" = "Dupliseer reël of seleksie";
+"Delete Line" = "Skrap reël";
+"Join Lines" = "Voeg reëls saam";
+"Toggle Case" = "Wissel hoof- en kleinletters";
+"Comment with Line Comment" = "Kommentarieer met reëlkommentaar";
+"Move Line Up" = "Skuif reël op";
+"Move Line Down" = "Skuif reël af";
+"Extend Selection" = "Brei seleksie uit";
+"Shrink Selection" = "Krimp seleksie";
+"Start New Line" = "Begin nuwe reël";
+"Start New Line Before Current" = "Begin nuwe reël voor die huidige";
 "Find…" = "Soek…";
 "Replace…" = "Vervang…";
 "Find Next" = "Soek volgende";
 "Find Previous" = "Soek vorige";
 "Use Selection for Find" = "Soek met seleksie";
+"Find in Files…" = "Soek in lêers…";
 "Find" = "Soek";
 "Project" = "Projek";
 "Terminal" = "Terminaal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Verklein lettergrootte";
 "Reset Font Size" = "Herstel lettergrootte";
 "Search Everywhere (Double ⇧)" = "Soek oral (druk ⇧ twee keer)";
+"Recent Files" = "Onlangse lêers";
+"Find Action…" = "Soek aksie…";
+"Go to Line:Column…" = "Gaan na reël:kolom…";
 "Select in Project View" = "Kies in projekaansig";
 "Next Tab" = "Volgende oortjie";
 "Previous Tab" = "Vorige oortjie";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Maak in terminaal oop";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Gaan na reël:kolom";
 "Left Panel" = "Linkerpaneel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Lêers";
 "Double ⇧ to search everywhere" = "Druk ⇧ twee keer om oral te soek";
+"Files" = "Lêers";
+"Actions" = "Aksies";
+"Text" = "Teks";
 "Type a file name (use / to match the path)" = "Tik 'n lêernaam (gebruik / om die pad te soek)";
+"Type a command name" = "Tik 'n opdragnaam";
+"Type text to find in project files" = "Tik teks om in projeklêers te soek";
 "No recent files" = "Geen onlangse lêers nie";
-"Recent Files" = "Onlangse lêers";
 "Matches: %1$ld / Files: %2$ld" = "Ooreenkomste: %1$ld / Lêers: %2$ld";
+"Searching…" = "Soek tans…";
+"Switch Tab" = "Wissel oortjie";

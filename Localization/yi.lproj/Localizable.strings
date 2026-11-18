@@ -37,11 +37,23 @@
 "Copy" = "קאָפּירן";
 "Paste" = "אַרײַנקלעבן";
 "Select All" = "אויסקלײַבן אַלץ";
+"Duplicate Line or Selection" = "דופּלירן שורה אָדער אויסקלײַב";
+"Delete Line" = "אויסמעקן שורה";
+"Join Lines" = "פֿאַרבינדן שורות";
+"Toggle Case" = "בײַטן גרויסע/קליינע אותיות";
+"Comment with Line Comment" = "קאָמענטירן מיט אַ שורה־קאָמענטאַר";
+"Move Line Up" = "רוקן שורה אַרויף";
+"Move Line Down" = "רוקן שורה אַראָפּ";
+"Extend Selection" = "פֿאַרברייטערן אויסקלײַב";
+"Shrink Selection" = "פֿאַרקלענערן אויסקלײַב";
+"Start New Line" = "אָנהייבן נײַע שורה";
+"Start New Line Before Current" = "אָנהייבן נײַע שורה פֿאַר דער איצטיקער";
 "Find…" = "געפֿינען…";
 "Replace…" = "פֿאַרבײַטן…";
 "Find Next" = "געפֿינען דאָס קומעדיקע";
 "Find Previous" = "געפֿינען דאָס פֿריִערדיקע";
 "Use Selection for Find" = "זוכן דעם אויסגעקליבענעם טעקסט";
+"Find in Files…" = "געפֿינען אין טעקעס…";
 "Find" = "זוכן";
 "Project" = "פּראָיעקט";
 "Terminal" = "טערמינאַל";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "פֿאַרקלענערן שריפֿט";
 "Reset Font Size" = "צוריקשטעלן שריפֿטגרייס";
 "Search Everywhere (Double ⇧)" = "זוכן אומעטום (צוויי מאָל ⇧)";
+"Recent Files" = "לעצטיקע טעקעס";
+"Find Action…" = "געפֿינען אַקציע…";
+"Go to Line:Column…" = "גיין צו שורה:זײַל…";
 "Select in Project View" = "אויסקלײַבן אין פּראָיעקט־בוים";
 "Next Tab" = "קומעדיקער קוויטל";
 "Previous Tab" = "פֿריִערדיקער קוויטל";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "עפֿענען אין טערמינאַל";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "גיין צו שורה:זײַל";
 "Left Panel" = "לינקער פּאַנעל";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "טעקעס";
 "Double ⇧ to search everywhere" = "דריקט ⇧ צוויי מאָל צו זוכן אומעטום";
+"Files" = "טעקעס";
+"Actions" = "אַקציעס";
+"Text" = "טעקסט";
 "Type a file name (use / to match the path)" = "שרײַבט אַ טעקע־נאָמען (ניצט / צו זוכן לויטן פּאַט)";
+"Type a command name" = "שרײַבט אַ באַפֿעל־נאָמען";
+"Type text to find in project files" = "שרײַבט טעקסט צו געפֿינען אין די פּראָיעקט־טעקעס";
 "No recent files" = "קיין לעצטיקע טעקעס";
-"Recent Files" = "לעצטיקע טעקעס";
 "Matches: %1$ld / Files: %2$ld" = "צופּאַסונגען: %1$ld / טעקעס: %2$ld";
+"Searching…" = "מע זוכט…";
+"Switch Tab" = "בײַטן קוויטל";

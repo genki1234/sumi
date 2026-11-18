@@ -36,7 +36,8 @@ Chạy tác nhân trong terminal tích hợp, bấm vào các tệp mà tác nh�
 - Shift+Enter cho phép nhập nhiều dòng trong lời nhắc. Có thể dán văn bản nhiều dòng, tệp và hình ảnh; hình ảnh được giữ dưới dạng PNG tạm thời, rồi chèn đường dẫn trong dấu ngoặc kép.
 - Bản xem trước Markdown và HTML hiện cạnh văn bản và cập nhật khi bạn gõ (⇧⌘V hoặc các nút ở góc trên bên phải của thẻ).
   Markdown được kết xuất bằng cmark-gfm, bộ kết xuất GitHub sử dụng, hỗ trợ bảng, danh sách công việc, chữ gạch ngang và liên kết tự động.
-- Tìm mọi nơi: nhấn Shift hai lần để tìm bất kỳ tệp nào trong dự án bằng cách khớp tên gần đúng.
+- Tìm mọi nơi: nhấn Shift hai lần để tìm bất kỳ tệp nào trong dự án bằng cách khớp tên gần đúng. Thẻ Thao tác (⇧⌘A) chạy bất kỳ lệnh menu nào theo tên, còn thẻ Văn bản (⇧⌘F) tìm trong văn bản của mọi tệp trong dự án.
+- Chỉnh sửa dòng bằng bàn phím: nhân bản, xóa, di chuyển, chú thích và nối dòng, đồng thời mở rộng vùng chọn từng bước từ một từ đến toàn bộ tệp.
 - Nhận dạng tệp nguồn bằng danh mục gồm 915 tên ngôn ngữ và định dạng tệp, dựa vào tên tệp, phần mở rộng ghép và trình thông dịch tập lệnh. Toàn bộ 297 thành phần Prism (291 bộ ngữ pháp độc lập và sáu thành phần hỗ trợ) được đóng gói sẵn và nạp khi cần. Định dạng không có bộ ngữ pháp dùng cách tô màu văn bản cơ bản.
 - Giao diện có 108 lựa chọn ngôn ngữ. Dùng menu Ngôn ngữ để chuyển ngay hoặc theo ngôn ngữ hệ thống. Lựa chọn được ghi nhớ; các tệp đang mở, chỉnh sửa chưa lưu và phiên terminal được giữ nguyên. Trong giao diện tiếng Ả Rập, tiếng Do Thái và các ngôn ngữ viết từ phải sang trái khác, mã, bản xem trước và đầu ra terminal vẫn từ trái sang phải.
   Các bản dịch được viết trực tiếp từ văn bản tiếng Anh và ngữ cảnh sử dụng trong trình soạn thảo, terminal. Các bảng do hệ thống cung cấp theo cài đặt ngôn ngữ macOS. Danh mục này chưa bao gồm mọi ngôn ngữ tự nhiên hoặc ngôn ngữ lập trình. Xem [Dịch Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Chọn trong cây dự án | ⌥⌘1 |
 | Thẻ tiếp theo / trước đó | ⇧⌘] / ⇧⌘[ |
 | Lưu / Lưu tất cả | ⌘S / ⌥⌘S |
+| Tệp gần đây | ⌘E |
+| Tìm thao tác | ⇧⌘A |
+| Tìm trong các tệp | ⇧⌘F |
+| Đi tới dòng:cột | ⌘L |
+| Nhân bản dòng hoặc vùng chọn | ⌘D |
+| Xóa dòng | ⌘⌫ |
+| Di chuyển dòng lên / xuống | ⌥⇧↑ / ⌥⇧↓ |
+| Chú thích bằng chú thích dòng | ⌘/ |
+| Nối dòng | ⌃⇧J |
+| Đổi chữ hoa/thường | ⇧⌘U |
+| Mở rộng / thu hẹp vùng chọn | ⌥↑ / ⌥↓ |
+| Bắt đầu dòng mới bên dưới / bên trên | ⇧↩ / ⌥⌘↩ |
 
 ## Đóng góp
 

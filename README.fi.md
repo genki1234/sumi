@@ -36,7 +36,8 @@ Käytä agenttiasi sisäänrakennetussa päätteessä, avaa sen muokkaamat tiedo
 - Shift+Enter säilyttää monirivisen kehotteen syötön. Voit liittää monirivistä tekstiä, tiedostoja ja kuvia; kuvat säilytetään väliaikaisina PNG-tiedostoina ja niiden polut lisätään lainausmerkeissä.
 - Markdownin ja HTML:n esikatselu näkyy tekstin vieressä ja päivittyy kirjoitettaessa (⇧⌘V tai välilehden oikean yläkulman painikkeet).
   Markdown esitetään GitHubinkin käyttämällä cmark-gfm:llä, joka tukee taulukoita, tehtäväluetteloita, yliviivausta ja automaattisia linkkejä.
-- Etsi kaikkialta: paina Shiftiä kahdesti löytääksesi projektin tiedoston nimen likimääräisellä haulla.
+- Etsi kaikkialta: paina Shiftiä kahdesti löytääksesi projektin tiedoston nimen likimääräisellä haulla. Sen Toiminnot-välilehti (⇧⌘A) suorittaa minkä tahansa valikkokomennon nimen perusteella, ja Teksti-välilehti (⇧⌘F) hakee kaikkien projektin tiedostojen tekstistä.
+- Rivien muokkaus näppäimistöltä: monista, poista, siirrä, kommentoi ja yhdistä rivejä sekä laajenna valintaa vaiheittain sanasta koko tiedostoon.
 - Lähdetiedostot tunnistetaan 915 kielen ja tiedostomuodon luettelon avulla tiedostonimistä, yhdistelmäpäätteistä ja skriptien tulkeista. Kaikki 297 Prism-komponenttia (291 itsenäistä kielioppia ja kuusi apukomponenttia) sisältyvät sovellukseen ja ladataan tarvittaessa. Ilman kielioppia olevat muodot käyttävät yksinkertaista tekstin väritystä.
 - Käyttöliittymässä on 108 kielivaihtoehtoa. Vaihda kieli heti Käyttöliittymän kieli -valikosta tai seuraa järjestelmän kieltä. Valinta muistetaan; avoimet tiedostot, tallentamattomat muokkaukset ja pääteistunnot säilyvät. Arabian, heprean ja muiden oikealta vasemmalle kirjoitettavien käyttöliittymien koodi, esikatselut ja päätteen tuloste pysyvät vasemmalta oikealle.
   Käännökset kirjoitetaan suoraan englanninkielisten tekstien sekä editori- ja päätekontekstin pohjalta. Järjestelmän tarjoamat paneelit noudattavat macOS:n kieliasetuksia. Luettelo ei kata kaikkia luonnollisia kieliä tai ohjelmointikieliä. Katso [Sumin kääntäminen](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Valitse projektinäkymässä | ⌥⌘1 |
 | Seuraava / edellinen välilehti | ⇧⌘] / ⇧⌘[ |
 | Tallenna / Tallenna kaikki | ⌘S / ⌥⌘S |
+| Viimeaikaiset tiedostot | ⌘E |
+| Etsi toiminto | ⇧⌘A |
+| Etsi tiedostoista | ⇧⌘F |
+| Siirry kohtaan rivi:sarake | ⌘L |
+| Monista rivi tai valinta | ⌘D |
+| Poista rivi | ⌘⌫ |
+| Siirrä riviä ylös / alas | ⌥⇧↑ / ⌥⇧↓ |
+| Kommentoi rivikommentilla | ⌘/ |
+| Yhdistä rivit | ⌃⇧J |
+| Vaihda kirjainkoko | ⇧⌘U |
+| Laajenna / supista valintaa | ⌥↑ / ⌥↓ |
+| Aloita uusi rivi alapuolelle / yläpuolelle | ⇧↩ / ⌥⌘↩ |
 
 ## Osallistuminen
 

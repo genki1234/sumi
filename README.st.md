@@ -35,7 +35,8 @@ Tsamaisa moemedi wa hao ho terminal e hahelletsweng, tobetsa difaele tseo a di f
 - Terminal di sebedisa Metal ka kamehla; switjhi ya ho taka ka GPU e ho Pono. Batla se hlahisitsweng ka ⌘F; dithebo tse ntjha di nka foldara ya mosebetsi ya hona jwale.
 - Shift+Enter e boloka ho kenya ditaelo ka mela e mengata. Ho peista ho amohela mongolo wa mela e mengata, difaele le ditshwantsho; ditshwantsho di bewa e le PNG tsa nakwana mme ditsela tsa tsona di kenngwa ka matshwao a qotso.
 - Ponelopele ya Markdown le HTML e pela mongolo mme e ntjhafala ha o thaepa (⇧⌘V kapa dikonopo hodimo ka ho le letona la thebo). Markdown e sebedisa cmark-gfm ya GitHub: ditafole, manane a mesebetsi, mongolo o sehilweng le mahokelo a iketsang.
-- Batla hohle: tobetsa Shift habedi ho fumana faele efe kapa efe projekeng ka lebitso le batlang le tshwana.
+- Batla hohle: tobetsa Shift habedi ho fumana faele efe kapa efe projekeng ka lebitso le batlang le tshwana. Thebo ya yona ya Diketso (⇧⌘A) e sebedisa taelo efe kapa efe ya menyu ka lebitso la yona, mme thebo ya Mongolo (⇧⌘F) e batla ka hara mongolo wa difaele tsohle tsa projeke.
+- Ho hlophisa mela ka khiboto: etsa kopi, hlakola, suthisa, kenya ditlhaloso le ho kopanya mela, mme o atolose kgetho mohato ka mohato ho tloha lentsweng ho isa faeleng yohle.
 - E tseba difaele tsa mohlodi ka lenane la mabitso a 915 a dipuo le mefuta ya difaele, ho kenyeletsa mabitso a difaele, dikatoloso tse kopaneng le bafetoleli ba discript. Dikarolo tsohle tsa 297 tsa Prism (291 melao e ikemetseng le 6 tse thusang) di kenyeleditswe mme di laelwa ha di hlokahala. Mefuta e se nang melao e sebedisa ho totobatsa mongolo ha motheo.
 - Sebopeho se na le dipuo tse 108. Sebedisa Puo ho fetola hanghang kapa ho latela puo ya sistimi. Kgetho e a hopolwa; difaele tse butswe, diphetoho tse sa bolokwang le diseshene tsa terminal di sala di butswe. Ka Searabia, Seheberu le dipuo tse ding tse yang ho tloha ho le letona ho ya ho le letshehadi, khoutu, ponelopele le tlhahiso ya terminal di sala ho tloha ho le letshehadi ho ya ho le letona. Diphetolelo di ngotswe ka kotloloho ho tswa mongolong wa Senyesemane ho nahannwe ka sehlophisi le terminal. Diphanele tsa sistimi di latela puo ya macOS. Lenane ha le akaretse dipuo tsohle tsa batho kapa tsa ho ngola mananeo. Bona [Ho fetolela Sumi](CONTRIBUTING.md#translating-sumi).
 - Ponahalo e kganyang le e lefifi e latela sistimi.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Kgetha ponong ya projeke | ⌥⌘1 |
 | Thebo e latelang / Thebo e fetileng | ⇧⌘] / ⇧⌘[ |
 | Boloka / Boloka tsohle | ⌘S / ⌥⌘S |
+| Difaele tsa moraorao | ⌘E |
+| Batla ketso | ⇧⌘A |
+| Batla difaeleng | ⇧⌘F |
+| Eya ho mola:kholomo | ⌘L |
+| Etsa kopi ya mola kapa kgetho | ⌘D |
+| Hlakola mola | ⌘⌫ |
+| Isa mola hodimo / Isa mola tlase | ⌥⇧↑ / ⌥⇧↓ |
+| Kenya kapa tlosa tlhaloso ya mola | ⌘/ |
+| Kopanya mela | ⌃⇧J |
+| Fetola ditlhaku tse kgolo le tse nyane | ⇧⌘U |
+| Atolosa kgetho / Fokotsa kgetho | ⌥↑ / ⌥↓ |
+| Qala mola o motjha ka tlase / Qala mola o motjha ka hodimo | ⇧↩ / ⌥⌘↩ |
 
 ## Ho kenya letsoho
 

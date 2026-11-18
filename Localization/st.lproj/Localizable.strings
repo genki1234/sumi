@@ -37,11 +37,23 @@
 "Copy" = "Kopitsa";
 "Paste" = "Peista";
 "Select All" = "Kgetha tsohle";
+"Duplicate Line or Selection" = "Etsa kopi ya mola kapa kgetho";
+"Delete Line" = "Hlakola mola";
+"Join Lines" = "Kopanya mela";
+"Toggle Case" = "Fetola ditlhaku tse kgolo le tse nyane";
+"Comment with Line Comment" = "Kenya kapa tlosa tlhaloso ya mola";
+"Move Line Up" = "Isa mola hodimo";
+"Move Line Down" = "Isa mola tlase";
+"Extend Selection" = "Atolosa kgetho";
+"Shrink Selection" = "Fokotsa kgetho";
+"Start New Line" = "Qala mola o motjha";
+"Start New Line Before Current" = "Qala mola o motjha ka hodima wa jwale";
 "Find…" = "Batla…";
 "Replace…" = "Nkela sebaka…";
 "Find Next" = "Batla e latelang";
 "Find Previous" = "Batla e fetileng";
 "Use Selection for Find" = "Batla mongolo o kgethilweng";
+"Find in Files…" = "Batla difaeleng…";
 "Find" = "Batla";
 "Project" = "Projeke";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Nyenyefatsa ditlhaku";
 "Reset Font Size" = "Kgutlisetsa boholo ba ditlhaku";
 "Search Everywhere (Double ⇧)" = "Batla hohle (⇧ habedi)";
+"Recent Files" = "Difaele tsa moraorao";
+"Find Action…" = "Batla ketso…";
+"Go to Line:Column…" = "Eya ho mola:kholomo…";
 "Select in Project View" = "Kgetha ponong ya projeke";
 "Next Tab" = "Thebo e latelang";
 "Previous Tab" = "Thebo e fetileng";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Bula ho terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Eya ho mola:kholomo";
 "Left Panel" = "Phanele e ka leqeleng";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Difaele";
 "Double ⇧ to search everywhere" = "Tobetsa ⇧ habedi ho batla hohle";
+"Files" = "Difaele";
+"Actions" = "Diketso";
+"Text" = "Mongolo";
 "Type a file name (use / to match the path)" = "Ngola lebitso la faele (sebedisa / ho batla ka tsela)";
+"Type a command name" = "Ngola lebitso la taelo";
+"Type text to find in project files" = "Ngola mongolo oo o o batlang difaeleng tsa projeke";
 "No recent files" = "Ha ho difaele tsa moraorao";
-"Recent Files" = "Difaele tsa moraorao";
 "Matches: %1$ld / Files: %2$ld" = "Tse tsamaellanang: %1$ld / Difaele: %2$ld";
+"Searching…" = "E ntse e batla…";
+"Switch Tab" = "Fetola thebo";

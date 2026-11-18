@@ -37,11 +37,23 @@
 "Copy" = "Хуулах";
 "Paste" = "Буулгах";
 "Select All" = "Бүгдийг сонгох";
+"Duplicate Line or Selection" = "Мөр эсвэл сонголтыг хувилах";
+"Delete Line" = "Мөрийг устгах";
+"Join Lines" = "Мөрүүдийг нэгтгэх";
+"Toggle Case" = "Том/жижиг үсэг солих";
+"Comment with Line Comment" = "Мөрийн тайлбараар тайлбарлах";
+"Move Line Up" = "Мөрийг дээш зөөх";
+"Move Line Down" = "Мөрийг доош зөөх";
+"Extend Selection" = "Сонголтыг өргөтгөх";
+"Shrink Selection" = "Сонголтыг багасгах";
+"Start New Line" = "Шинэ мөр эхлүүлэх";
+"Start New Line Before Current" = "Одоогийн мөрийн өмнө шинэ мөр эхлүүлэх";
 "Find…" = "Хайх…";
 "Replace…" = "Орлуулах…";
 "Find Next" = "Дараагийнхыг хайх";
 "Find Previous" = "Өмнөхийг хайх";
 "Use Selection for Find" = "Сонгосон бичвэрийг хайх";
+"Find in Files…" = "Файлуудаас хайх…";
 "Find" = "Хайх";
 "Project" = "Төсөл";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Үсгийн хэмжээг багасгах";
 "Reset Font Size" = "Үсгийн хэмжээг сэргээх";
 "Search Everywhere (Double ⇧)" = "Хаа сайгүй хайх (⇧ хоёр удаа)";
+"Recent Files" = "Саяхны файлууд";
+"Find Action…" = "Үйлдэл хайх…";
+"Go to Line:Column…" = "Мөр:багана руу очих…";
 "Select in Project View" = "Төслийн модонд сонгох";
 "Next Tab" = "Дараагийн таб";
 "Previous Tab" = "Өмнөх таб";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Терминалд нээх";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Мөр:багана руу очих";
 "Left Panel" = "Зүүн самбар";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Файлууд";
 "Double ⇧ to search everywhere" = "Хаа сайгүй хайхын тулд ⇧ товчийг хоёр удаа дарна уу";
+"Files" = "Файлууд";
+"Actions" = "Үйлдлүүд";
+"Text" = "Бичвэр";
 "Type a file name (use / to match the path)" = "Файлын нэрийг бичнэ үү (замаар хайхдаа / ашиглана уу)";
+"Type a command name" = "Командын нэрийг бичнэ үү";
+"Type text to find in project files" = "Төслийн файлуудаас хайх бичвэрээ бичнэ үү";
 "No recent files" = "Саяхны файл алга";
-"Recent Files" = "Саяхны файлууд";
 "Matches: %1$ld / Files: %2$ld" = "Тохирол: %1$ld / Файлууд: %2$ld";
+"Searching…" = "Хайж байна…";
+"Switch Tab" = "Таб солих";

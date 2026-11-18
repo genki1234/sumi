@@ -37,11 +37,23 @@
 "Copy" = "Kopyahin";
 "Paste" = "I-paste";
 "Select All" = "Piliin lahat";
+"Duplicate Line or Selection" = "I-duplicate ang linya o pinili";
+"Delete Line" = "Burahin ang linya";
+"Join Lines" = "Pagsamahin ang mga linya";
+"Toggle Case" = "Palitan ang malaki/maliit na titik";
+"Comment with Line Comment" = "I-comment gamit ang komento sa linya";
+"Move Line Up" = "Ilipat pataas ang linya";
+"Move Line Down" = "Ilipat pababa ang linya";
+"Extend Selection" = "Palawakin ang pinili";
+"Shrink Selection" = "Paliitin ang pinili";
+"Start New Line" = "Magsimula ng bagong linya";
+"Start New Line Before Current" = "Magsimula ng bagong linya bago ang kasalukuyan";
 "Find…" = "Hanapin…";
 "Replace…" = "Palitan…";
 "Find Next" = "Hanapin ang kasunod";
 "Find Previous" = "Hanapin ang nauna";
 "Use Selection for Find" = "Hanapin ang napiling teksto";
+"Find in Files…" = "Hanapin sa mga file…";
 "Find" = "Hanapin";
 "Project" = "Proyekto";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Liitan ang font";
 "Reset Font Size" = "Ibalik ang laki ng font";
 "Search Everywhere (Double ⇧)" = "Maghanap saanman (⇧ nang dalawang beses)";
+"Recent Files" = "Mga kamakailang file";
+"Find Action…" = "Hanapin ang aksyon…";
+"Go to Line:Column…" = "Pumunta sa linya:hanay…";
 "Select in Project View" = "Piliin sa view ng proyekto";
 "Next Tab" = "Susunod na tab";
 "Previous Tab" = "Nakaraang tab";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Buksan sa terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Pumunta sa linya:hanay";
 "Left Panel" = "Kaliwang panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Mga file";
 "Double ⇧ to search everywhere" = "Pindutin ang ⇧ nang dalawang beses para maghanap saanman";
+"Files" = "Mga file";
+"Actions" = "Mga aksyon";
+"Text" = "Teksto";
 "Type a file name (use / to match the path)" = "I-type ang pangalan ng file (gumamit ng / para maghanap ayon sa path)";
+"Type a command name" = "I-type ang pangalan ng utos";
+"Type text to find in project files" = "I-type ang tekstong hahanapin sa mga file ng proyekto";
 "No recent files" = "Walang kamakailang file";
-"Recent Files" = "Mga kamakailang file";
 "Matches: %1$ld / Files: %2$ld" = "Mga tugma: %1$ld / Mga file: %2$ld";
+"Searching…" = "Naghahanap…";
+"Switch Tab" = "Lumipat ng tab";

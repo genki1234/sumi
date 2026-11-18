@@ -37,11 +37,23 @@
 "Copy" = "Adikao";
 "Paste" = "Apetaho";
 "Select All" = "Safidio Rehetra";
+"Duplicate Line or Selection" = "Adikao Indray ny Andalana na ny Voafantina";
+"Delete Line" = "Fafao ny Andalana";
+"Join Lines" = "Atambaro ny Andalana";
+"Toggle Case" = "Ampifamadiho ny Soratra Lehibe sy Kely";
+"Comment with Line Comment" = "Ataovy Fanamarihana Andalana";
+"Move Line Up" = "Akaro ny Andalana";
+"Move Line Down" = "Ampidino ny Andalana";
+"Extend Selection" = "Ampitomboy ny Voafantina";
+"Shrink Selection" = "Ahenao ny Voafantina";
+"Start New Line" = "Manomboha Andalana Vaovao";
+"Start New Line Before Current" = "Manomboha Andalana Vaovao eo Alohan'ny Ankehitriny";
 "Find…" = "Tadiavo…";
 "Replace…" = "Soloy…";
 "Find Next" = "Tadiavo ny Manaraka";
 "Find Previous" = "Tadiavo ny Teo Aloha";
 "Use Selection for Find" = "Tadiavo ny Lahatsoratra Voafantina";
+"Find in Files…" = "Tadiavo ao amin'ny Rakitra…";
 "Find" = "Tadiavo";
 "Project" = "Tetikasa";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Ahena ny Haben'ny Soratra";
 "Reset Font Size" = "Avereno ny Haben'ny Soratra Fototra";
 "Search Everywhere (Double ⇧)" = "Karohy Eny Rehetra (⇧ Indroa)";
+"Recent Files" = "Rakitra Vao Nosokafana";
+"Find Action…" = "Tadiavo ny Hetsika…";
+"Go to Line:Column…" = "Mandehana any amin'ny Andalana:Tsanganana…";
 "Select in Project View" = "Safidio ao amin'ny Hazon'ny Tetikasa";
 "Next Tab" = "Kiheba Manaraka";
 "Previous Tab" = "Kiheba Teo Aloha";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Sokafy ao amin'ny Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Mandehana any amin'ny Andalana:Tsanganana";
 "Left Panel" = "Takelaka Havia";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Rakitra";
 "Double ⇧ to search everywhere" = "Tsindrio indroa ny ⇧ hikarohana eny rehetra";
+"Files" = "Rakitra";
+"Actions" = "Hetsika";
+"Text" = "Lahatsoratra";
 "Type a file name (use / to match the path)" = "Soraty ny anaran'ny rakitra (ampiasao / hikarohana amin'ny lalana)";
+"Type a command name" = "Soraty ny anaran'ny baiko";
+"Type text to find in project files" = "Soraty ny lahatsoratra hotadiavina ao amin'ny rakitry ny tetikasa";
 "No recent files" = "Tsy misy rakitra vao nosokafana";
-"Recent Files" = "Rakitra Vao Nosokafana";
 "Matches: %1$ld / Files: %2$ld" = "Valiny Mifanaraka: %1$ld / Rakitra: %2$ld";
+"Searching…" = "Mitady…";
+"Switch Tab" = "Ovay ny Kiheba";

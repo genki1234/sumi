@@ -35,7 +35,8 @@ Sebenzisa i-ejenti yakho kutheminali eyakhelwe ngaphakathi, chofoza amafayela ew
 - Amatheminali asebenzisa iMetal ngokuzenzakalelayo; iswishi yokudweba ngeGPU ikuUkubuka. Sesha kokukhishiwe nge⌘F; amathebhu amasha athola ifolda yokusebenza yamanje.
 - I-Shift+Enter igcina ukufakwa kwezicelo ezinemigqa eminingi. Ukunamathisela kusekela umbhalo wemigqa eminingi, amafayela nezithombe; izithombe zigcinwa njengePNG yesikhashana, izindlela zazo zifakwe ezimpawini zokucaphuna.
 - Ukubuka kuqala kweMarkdown neHTML kuseceleni kombhalo futhi kuvuselelwa lapho uthayipha (⇧⌘V noma izinkinobho phezulu kwesokudla sethebhu). IMarkdown idwetshwa ngecmark-gfm esetshenziswa yiGitHub: amathebula, uhlu lwemisebenzi, umbhalo odwetshwe umugqa nezixhumanisi ezizenzakalelayo.
-- Sesha yonke indawo: cindezela iShift kabili ukuthola noma iliphi ifayela kuphrojekthi ngokufana kwegama okusondele.
+- Sesha yonke indawo: cindezela iShift kabili ukuthola noma iliphi ifayela kuphrojekthi ngokufana kwegama okusondele. Ithebhu yayo ethi Izenzo (⇧⌘A) iqhuba noma imuphi umyalo wemenyu ngegama lawo, kanti ithebhu ethi Umbhalo (⇧⌘F) isesha umbhalo kuwo wonke amafayela ephrojekthi.
+- Ukuhlela imigqa ngekhibhodi: phinda, susa, hambisa, faka amazwana futhi uhlanganise imigqa, bese unweba ukukhetha kancane kancane kusuka egameni kuya efayeleni lonke.
 - Ibona amafayela omthombo ngekhathalogi yamagama ezilimi namafomethi angu915, okuhlanganisa amagama amafayela, izandiso ezihlanganisiwe nabahumushi beskripthi. Zonke izingxenye zePrism ezingu297 (291 izinhlelo zemithetho ezizimele ne6 ezisizayo) zifakiwe futhi zilayishwa uma zidingeka. Amafomethi angenamithetho asebenzisa ukugqamisa umbhalo okuyisisekelo.
 - Isixhumi esibonakalayo sinezinketho zezilimi ezingu108. Sebenzisa imenyu yoLimi ukushintsha ngokushesha noma ukulandela ulimi lwesistimu. Ukhetho luyakhunjulwa; amafayela avuliwe, izinguquko ezingalondoloziwe namaseshini etheminali kuhlala kuvuliwe. Ngesi-Arabhu, isiHebheru nezinye izixhumi ezisuka kwesokudla ziye kwesobunxele, ikhodi, ukubuka kuqala nokukhishwa kwetheminali kuhlala kusuka kwesobunxele kuya kwesokudla. Ukuhumusha kubhalwe ngokuqondile kusuka emibhalweni yesiNgisi kucatshangelwa umhleli netheminali. Amaphaneli esistimu alandela ulimi lwe-macOS. Ikhathalogi ayihlanganisi zonke izilimi zabantu noma zokuhlela izinhlelo. Bheka [Ukuhumusha iSumi](CONTRIBUTING.md#translating-sumi).
 - Ukubukeka okukhanyayo nokumnyama kulandela isistimu.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Khetha ekubukeni kwephrojekthi | ⌥⌘1 |
 | Ithebhu elandelayo / Ithebhu yangaphambilini | ⇧⌘] / ⇧⌘[ |
 | Londoloza / Londoloza konke | ⌘S / ⌥⌘S |
+| Amafayela akamuva | ⌘E |
+| Thola isenzo | ⇧⌘A |
+| Thola emafayeleni | ⇧⌘F |
+| Iya emugqeni:ekholamu | ⌘L |
+| Phinda umugqa noma okukhethiwe | ⌘D |
+| Susa umugqa | ⌘⌫ |
+| Hambisa umugqa phezulu / Hambisa umugqa phansi | ⌥⇧↑ / ⌥⇧↓ |
+| Faka noma ususe amazwana omugqa | ⌘/ |
+| Hlanganisa imigqa | ⌃⇧J |
+| Shintsha onobumba abakhulu nabancane | ⇧⌘U |
+| Nweba ukukhetha / Nciphisa ukukhetha | ⌥↑ / ⌥↓ |
+| Qala umugqa omusha ngezansi / Qala umugqa omusha ngenhla | ⇧↩ / ⌥⌘↩ |
 
 ## Ukunikela
 

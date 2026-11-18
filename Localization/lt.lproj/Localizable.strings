@@ -37,11 +37,23 @@
 "Copy" = "Kopijuoti";
 "Paste" = "Įklijuoti";
 "Select All" = "Pažymėti viską";
+"Duplicate Line or Selection" = "Dubliuoti eilutę arba žymėjimą";
+"Delete Line" = "Pašalinti eilutę";
+"Join Lines" = "Sujungti eilutes";
+"Toggle Case" = "Keisti didžiąsias / mažąsias raides";
+"Comment with Line Comment" = "Komentuoti eilutės komentaru";
+"Move Line Up" = "Perkelti eilutę aukštyn";
+"Move Line Down" = "Perkelti eilutę žemyn";
+"Extend Selection" = "Išplėsti žymėjimą";
+"Shrink Selection" = "Sumažinti žymėjimą";
+"Start New Line" = "Pradėti naują eilutę";
+"Start New Line Before Current" = "Pradėti naują eilutę prieš dabartinę";
 "Find…" = "Rasti…";
 "Replace…" = "Pakeisti…";
 "Find Next" = "Rasti kitą";
 "Find Previous" = "Rasti ankstesnį";
 "Use Selection for Find" = "Ieškoti pažymėto teksto";
+"Find in Files…" = "Rasti failuose…";
 "Find" = "Rasti";
 "Project" = "Projektas";
 "Terminal" = "Terminalas";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Sumažinti šriftą";
 "Reset Font Size" = "Atkurti šrifto dydį";
 "Search Everywhere (Double ⇧)" = "Ieškoti visur (dukart ⇧)";
+"Recent Files" = "Naujausi failai";
+"Find Action…" = "Rasti veiksmą…";
+"Go to Line:Column…" = "Eiti į eilutę:stulpelį…";
 "Select in Project View" = "Pažymėti projekto medyje";
 "Next Tab" = "Kita kortelė";
 "Previous Tab" = "Ankstesnė kortelė";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Atverti terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Eiti į eilutę:stulpelį";
 "Left Panel" = "Kairysis skydelis";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Failai";
 "Double ⇧ to search everywhere" = "Dukart paspauskite ⇧, kad ieškotumėte visur";
+"Files" = "Failai";
+"Actions" = "Veiksmai";
+"Text" = "Tekstas";
 "Type a file name (use / to match the path)" = "Įveskite failo pavadinimą (naudokite / ieškodami pagal kelią)";
+"Type a command name" = "Įveskite komandos pavadinimą";
+"Type text to find in project files" = "Įveskite tekstą, kurio ieškoti projekto failuose";
 "No recent files" = "Nėra naujausių failų";
-"Recent Files" = "Naujausi failai";
 "Matches: %1$ld / Files: %2$ld" = "Atitikmenys: %1$ld / Failai: %2$ld";
+"Searching…" = "Ieškoma…";
+"Switch Tab" = "Perjungti kortelę";

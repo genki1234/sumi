@@ -37,11 +37,23 @@
 "Copy" = "Kopjo";
 "Paste" = "Ngjit";
 "Select All" = "Përzgjidh të gjitha";
+"Duplicate Line or Selection" = "Dyfisho rreshtin ose përzgjedhjen";
+"Delete Line" = "Fshi rreshtin";
+"Join Lines" = "Bashko rreshtat";
+"Toggle Case" = "Ndërro shkronjat e mëdha dhe të vogla";
+"Comment with Line Comment" = "Komento me koment rreshti";
+"Move Line Up" = "Lëviz rreshtin lart";
+"Move Line Down" = "Lëviz rreshtin poshtë";
+"Extend Selection" = "Zgjero përzgjedhjen";
+"Shrink Selection" = "Ngushto përzgjedhjen";
+"Start New Line" = "Fillo rresht të ri";
+"Start New Line Before Current" = "Fillo rresht të ri para rreshtit aktual";
 "Find…" = "Gjej…";
 "Replace…" = "Zëvendëso…";
 "Find Next" = "Gjej përputhjen tjetër";
 "Find Previous" = "Gjej përputhjen e mëparshme";
 "Use Selection for Find" = "Kërko tekstin e përzgjedhur";
+"Find in Files…" = "Gjej në skedarë…";
 "Find" = "Gjej";
 "Project" = "Projekti";
 "Terminal" = "Terminali";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Zvogëlo shkrimin";
 "Reset Font Size" = "Rikthe madhësinë e shkrimit";
 "Search Everywhere (Double ⇧)" = "Kërko kudo (⇧ dy herë)";
+"Recent Files" = "Skedarët e fundit";
+"Find Action…" = "Gjej veprim…";
+"Go to Line:Column…" = "Shko te rreshti:kolona…";
 "Select in Project View" = "Përzgjidh në pamjen e projektit";
 "Next Tab" = "Skeda tjetër";
 "Previous Tab" = "Skeda e mëparshme";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Hap në terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Shko te rreshti:kolona";
 "Left Panel" = "Paneli majtas";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Skedarë";
 "Double ⇧ to search everywhere" = "Shtypni ⇧ dy herë për të kërkuar kudo";
+"Files" = "Skedarë";
+"Actions" = "Veprime";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Shkruani emrin e skedarit (përdorni / për të kërkuar sipas shtegut)";
+"Type a command name" = "Shkruani emrin e komandës";
+"Type text to find in project files" = "Shkruani tekstin për ta gjetur në skedarët e projektit";
 "No recent files" = "Asnjë skedar i fundit";
-"Recent Files" = "Skedarët e fundit";
 "Matches: %1$ld / Files: %2$ld" = "Përputhje: %1$ld / Skedarë: %2$ld";
+"Searching…" = "Duke kërkuar…";
+"Switch Tab" = "Ndërro skedën";

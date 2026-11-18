@@ -37,11 +37,23 @@
 "Copy" = "コピー";
 "Paste" = "ペースト";
 "Select All" = "すべてを選択";
+"Duplicate Line or Selection" = "行または選択範囲を複製";
+"Delete Line" = "行を削除";
+"Join Lines" = "行を結合";
+"Toggle Case" = "大文字/小文字を切り替える";
+"Comment with Line Comment" = "行コメントでコメントアウト/解除";
+"Move Line Up" = "行を上へ移動";
+"Move Line Down" = "行を下へ移動";
+"Extend Selection" = "選択範囲を拡張";
+"Shrink Selection" = "選択範囲を縮小";
+"Start New Line" = "新しい行を開始";
+"Start New Line Before Current" = "現在の行の前に新しい行を開始";
 "Find…" = "検索…";
 "Replace…" = "置換…";
 "Find Next" = "次を検索";
 "Find Previous" = "前を検索";
 "Use Selection for Find" = "選択範囲を検索文字列にする";
+"Find in Files…" = "ファイル内検索…";
 "Find" = "検索";
 "Project" = "プロジェクト";
 "Terminal" = "ターミナル";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "文字を小さくする";
 "Reset Font Size" = "文字サイズを元に戻す";
 "Search Everywhere (Double ⇧)" = "どこでも検索（⇧ 2 回）";
+"Recent Files" = "最近のファイル";
+"Find Action…" = "アクションを検索…";
+"Go to Line:Column…" = "行:列へ移動…";
 "Select in Project View" = "プロジェクトビューで選択";
 "Next Tab" = "次のタブ";
 "Previous Tab" = "前のタブ";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ターミナルで開く";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "行:列へ移動";
 "Left Panel" = "左のパネル";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ファイル";
 "Double ⇧ to search everywhere" = "⇧ 2 回でどこでも検索";
+"Files" = "ファイル";
+"Actions" = "アクション";
+"Text" = "テキスト";
 "Type a file name (use / to match the path)" = "ファイル名を入力（/ を含めるとパスを検索）";
+"Type a command name" = "コマンド名を入力";
+"Type text to find in project files" = "プロジェクトのファイルから探すテキストを入力";
 "No recent files" = "最近のファイルはありません";
-"Recent Files" = "最近のファイル";
 "Matches: %1$ld / Files: %2$ld" = "一致件数: %1$ld / ファイル数: %2$ld";
+"Searching…" = "検索中…";
+"Switch Tab" = "タブを切り替え";

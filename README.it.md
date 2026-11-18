@@ -35,7 +35,8 @@ Esegui il tuo agente nel terminale integrato, fai clic sui file che modifica per
 - I terminali usano Metal per impostazione predefinita, con l'opzione Rendering GPU nel menu Vista. Cerca nell'output con ⌘F; le nuove schede ereditano la directory di lavoro corrente.
 - Shift+Enter conserva l'immissione di prompt su più righe. È possibile incollare testo su più righe, file e immagini; le immagini vengono mantenute come PNG temporanei e inserite come percorsi tra virgolette.
 - L'anteprima Markdown e HTML accanto al testo si aggiorna mentre scrivi (⇧⌘V o i pulsanti in alto a destra nella scheda). Markdown è visualizzato con cmark-gfm, il motore usato da GitHub: tabelle, elenchi di attività, testo barrato e collegamenti automatici.
-- Cerca ovunque: premi Shift due volte per trovare qualsiasi file del progetto con una ricerca approssimativa del nome.
+- Cerca ovunque: premi Shift due volte per trovare qualsiasi file del progetto con una ricerca approssimativa del nome. La scheda Azioni (⇧⌘A) esegue qualsiasi comando dei menu per nome e la scheda Testo (⇧⌘F) cerca nel testo di tutti i file del progetto.
+- Modifica delle righe da tastiera: duplica, elimina, sposta, commenta e unisci righe, ed estendi la selezione passo dopo passo da una parola all'intero file.
 - Riconosce i file sorgente usando un catalogo di 915 nomi di linguaggi e formati, inclusi nomi di file, estensioni composte e interpreti di script. Tutti i 297 componenti Prism (291 grammatiche autonome e 6 componenti ausiliari) sono inclusi e caricati quando servono. I formati senza grammatica usano un'evidenziazione del testo di base.
 - L'interfaccia offre 108 lingue. Usa il menu Lingua per cambiare subito o seguire la lingua del sistema. La scelta viene ricordata; file aperti, modifiche non salvate e sessioni terminale restano aperti. Nelle interfacce arabe, ebraiche e in altre lingue da destra a sinistra, codice, anteprime e output del terminale restano da sinistra a destra. Le traduzioni sono scritte direttamente dai testi inglesi, considerando il contesto dell'editor e del terminale. I pannelli di sistema seguono le impostazioni linguistiche di macOS. Il catalogo non copre ogni lingua naturale o linguaggio di programmazione. Vedi [Tradurre Sumi](CONTRIBUTING.md#translating-sumi).
 - L'aspetto chiaro e scuro segue il sistema.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Seleziona nell'albero del progetto | ⌥⌘1 |
 | Scheda successiva / Scheda precedente | ⇧⌘] / ⇧⌘[ |
 | Salva / Salva tutto | ⌘S / ⌥⌘S |
+| File recenti | ⌘E |
+| Trova azione | ⇧⌘A |
+| Trova nei file | ⇧⌘F |
+| Vai a riga:colonna | ⌘L |
+| Duplica riga o selezione | ⌘D |
+| Elimina riga | ⌘⌫ |
+| Sposta riga su / giù | ⌥⇧↑ / ⌥⇧↓ |
+| Commenta con commento di riga | ⌘/ |
+| Unisci righe | ⌃⇧J |
+| Inverti maiuscole/minuscole | ⇧⌘U |
+| Estendi / riduci selezione | ⌥↑ / ⌥↓ |
+| Inizia nuova riga sotto / sopra | ⇧↩ / ⌥⌘↩ |
 
 ## Contribuire
 

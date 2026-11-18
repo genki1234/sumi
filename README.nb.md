@@ -36,7 +36,8 @@ Kjør agenten i den innebygde terminalen, klikk på filene den endrer for å åp
 - Shift+Enter gjør det mulig å skrive ledetekster over flere linjer. Du kan lime inn tekst med flere linjer, filer og bilder; bilder beholdes som midlertidige PNG-filer og settes inn som baner i anførselstegn.
 - Forhåndsvisning av Markdown og HTML vises ved siden av teksten og oppdateres mens du skriver (⇧⌘V eller knappene øverst til høyre i fanen).
   Markdown gjengis med cmark-gfm, som også brukes av GitHub, med støtte for tabeller, oppgavelister, gjennomstreking og automatiske lenker.
-- Søk overalt: trykk Shift to ganger for å finne en fil i prosjektet med omtrentlig navnesøk.
+- Søk overalt: trykk Shift to ganger for å finne en fil i prosjektet med omtrentlig navnesøk. Fanen Handlinger (⇧⌘A) kjører en hvilken som helst menykommando etter navn, og fanen Tekst (⇧⌘F) søker i teksten i alle prosjektfilene.
+- Linjeredigering fra tastaturet: dupliser, slett, flytt, kommenter ut og slå sammen linjer, og utvid markeringen trinnvis fra et ord til hele filen.
 - Kildekoder gjenkjennes med en katalog over 915 språk- og filformatnavn, basert på filnavn, sammensatte filendelser og skripttolkere. Alle de 297 Prism-komponentene (291 selvstendige grammatikker og seks hjelpekomponenter) følger med og lastes ved behov. Formater uten grammatikk får grunnleggende tekstfarging.
 - Grensesnittet har 108 språkvalg. Bruk Språk-menyen for å bytte med en gang eller følge systemspråket. Valget huskes; åpne filer, ulagrede endringer og terminaløkter beholdes. I arabiske, hebraiske og andre grensesnitt som går fra høyre mot venstre, vises kode, forhåndsvisninger og terminalutdata fortsatt fra venstre mot høyre.
   Oversettelsene skrives direkte fra de engelske tekstene og sammenhengen de brukes i i redigereren og terminalen. Systempaneler følger språkinnstillingene i macOS. Katalogen dekker ikke alle naturlige språk eller programmeringsspråk. Se [Oversette Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Marker i prosjektvisning | ⌥⌘1 |
 | Neste / forrige fane | ⇧⌘] / ⇧⌘[ |
 | Lagre / Lagre alle | ⌘S / ⌥⌘S |
+| Nylige filer | ⌘E |
+| Finn handling | ⇧⌘A |
+| Finn i filer | ⇧⌘F |
+| Gå til linje:kolonne | ⌘L |
+| Dupliser linje eller markering | ⌘D |
+| Slett linje | ⌘⌫ |
+| Flytt linje opp / ned | ⌥⇧↑ / ⌥⇧↓ |
+| Kommenter med linjekommentar | ⌘/ |
+| Slå sammen linjer | ⌃⇧J |
+| Bytt mellom store og små bokstaver | ⇧⌘U |
+| Utvid / krymp markering | ⌥↑ / ⌥↓ |
+| Ny linje under / over | ⇧↩ / ⌥⌘↩ |
 
 ## Bidra
 

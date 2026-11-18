@@ -36,7 +36,8 @@ Ruith an t-àidseant agad san tèirmineal thogte a-steach, briog air na faidhlic
 - Leigidh Shift+Enter leat iarrtasan ioma-loidhne a chur a-steach. Gabhaidh teacsa ioma-loidhne, faidhlichean agus dealbhan a chur ann; thèid dealbhan a chumail mar PNG sealach agus an cur a-steach mar shlighean ann an comharran-labhairt.
 - Ro-shealladh Markdown is HTML ri taobh an teacsa, air ùrachadh fhad 's a sgrìobhas tu (⇧⌘V no na putanan aig mullach deas an taba).
   Thèid Markdown a shealltainn le cmark-gfm, an t-einnsean a chleachdas GitHub: clàran, liostaichean ghnìomhan, teacsa le loidhne troimhe agus ceanglaichean fèin-obrachail.
-- Lorg anns gach àite: brùth Shift dà thuras gus faidhle sam bith sa phròiseact a lorg le maidseadh tuairmseach air ainm.
+- Lorg anns gach àite: brùth Shift dà thuras gus faidhle sam bith sa phròiseact a lorg le maidseadh tuairmseach air ainm. Ruithidh an taba «Gnìomhan» (⇧⌘A) àithne sam bith on chlàr-taice a-rèir a h-ainm, agus lorgaidh an taba «Teacsa» (⇧⌘F) ann an teacsa gach faidhle sa phròiseact.
+- Deasachadh loidhnichean on mheur-chlàr: dùblaich, sguab às, gluais agus ceangail loidhnichean, dèan beachdan dhiubh, agus leudaich an taghadh ceum air cheum o fhacal gu ruige am faidhle air fad.
 - Aithnichidh e faidhlichean tùsail le catalog de 915 ainm chànanan is fhòrmatan, a' gabhail a-steach ainmean fhaidhlichean, leudachain cho-dhèanta agus eadar-mhìneachairean sgriobtaichean. Tha na 297 pàirtean Prism uile (291 gràmar neo-eisimeileach agus 6 pàirtean-cuideachaidh) na chois agus thèid an luchdadh mar a bhios feum orra. Cleachdaidh fòrmatan gun ghràmar soilleireachadh teacsa bunaiteach.
 - Tha 108 roghainnean cànain san eadar-aghaidh. Cleachd clàr-taice Cànan gus atharrachadh sa bhad no cànan an t-siostaim a leantainn. Cuimhnichear an roghainn; fanaidh faidhlichean fosgailte, deasachaidhean gun sàbhaladh agus seiseanan tèirmineil fosgailte. Ann an eadar-aghaidhean Arabais, Eabhrais agus feadhainn eile bho dheas gu clì, fanaidh còd, ro-sheallaidhean agus às-chur tèirmineil bho chlì gu deas.
   Sgrìobhar eadar-theangachaidhean dìreach bho na teacsaichean Beurla le co-theacsa an deasaiche agus an tèirmineil. Leanaidh panalan an t-siostaim roghainnean cànain macOS. Chan eil a h-uile cànan nàdarra no cànan prògramaidh sa chatalog seo. Faic [Eadar-theangachadh Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Tagh ann an sealladh a' phròiseict | ⌥⌘1 |
 | An ath thaba / an taba roimhe | ⇧⌘] / ⇧⌘[ |
 | Sàbhail / Sàbhail na h-uile | ⌘S / ⌥⌘S |
+| Faidhlichean o chionn ghoirid | ⌘E |
+| Lorg gnìomh | ⇧⌘A |
+| Lorg ann am faidhlichean | ⇧⌘F |
+| Rach gu loidhne:colbh | ⌘L |
+| Dùblaich an loidhne no an taghadh | ⌘D |
+| Sguab às an loidhne | ⌘⌫ |
+| Gluais an loidhne suas / sìos | ⌥⇧↑ / ⌥⇧↓ |
+| Cuir beachd loidhne air | ⌘/ |
+| Ceangail na loidhnichean | ⌃⇧J |
+| Toglaich litrichean mòra/beaga | ⇧⌘U |
+| Leudaich / lùghdaich an taghadh | ⌥↑ / ⌥↓ |
+| Tòisich loidhne ùr fodha / os a chionn | ⇧↩ / ⌥⌘↩ |
 
 ## Com-pàirteachadh
 

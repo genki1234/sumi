@@ -35,7 +35,8 @@ Start Ären Agent am agebauten Terminal, klickt op d'Dateien, déi e verännert,
 - Terminaler benotze standardméisseg Metal, mam Schalter GPU-Duerstellung ënner Usiicht. Sicht am Output mat ⌘F; nei Tabs iwwerhuelen den aktuelle Schaffdossier.
 - Shift+Enter behält d'Agab vu Prompts iwwer méi Zeilen. Apeche ënnerstëtzt méizeilegen Text, Dateien a Biller; Biller ginn als temporär PNG-Dateie gehalen an als Weeër an Zitatzeechen agesat.
 - D'Virschau vu Markdown an HTML nieft dem Text gëtt beim Tippen aktualiséiert (⇧⌘V oder d'Knäppercher uewe riets am Tab). Markdown gëtt mat cmark-gfm duergestallt, deem selwechte Renderer wéi bei GitHub: Tabellen, Aufgabelëschten, duerchgestrachenen Text an automatesch Linken.
-- Iwwerall sichen: dréckt zweemol op Shift, fir all Datei am Projet mat enger ongeféierer Nummssich ze fannen.
+- Iwwerall sichen: dréckt zweemol op Shift, fir all Datei am Projet mat enger ongeféierer Nummssich ze fannen. Säin Tab Aktiounen (⇧⌘A) féiert all Menübefeel no sengem Numm aus, a säin Tab Text (⇧⌘F) sicht am Text vun all Datei vum Projet.
+- Zeilen iwwer d'Tastatur beaarbechten: Zeilen duplizéieren, läschen, réckelen, auskommentéieren a zesummefügen, an d'Auswiel Schrëtt fir Schrëtt vun engem Wuert bis op déi ganz Datei erweideren.
 - Quellcode-Dateie gi mat engem Katalog vu 915 Sprooch- a Dateiformatnimm erkannt, mat Dateinimm, zesummegesaten Endungen a Skriptinterpreten. All 297 Prism-Komponenten (291 eegestänneg Grammairen a 6 Hëllefskomponenten) si mat dobäi a ginn no Bedarf gelueden. Formater ouni Grammaire benotzen einfach Textervirhiewung.
 - D'Uewerfläch bitt 108 Sproochen. Wiesselt direkt mam Menü Sprooch oder benotzt d'Systemsprooch. D'Wiel gëtt gespäichert; oppen Dateien, net gespäichert Ännerungen an Terminalsessioune bleiwen op. An arabeschen, hebräeschen an anere Uewerfläche vu riets no lénks bleiwen Code, Virschau an Terminaloutput vu lénks no riets. D'Iwwersetzunge ginn direkt aus den engleschen Texter am Kontext vum Editor an Terminal geschriwwen. Systempanewen iwwerhuelen d'Sproochastellunge vu macOS. De Katalog deckt net all natierlech oder Programméierungssprooch of. Kuckt [Sumi iwwersetzen](CONTRIBUTING.md#translating-sumi).
 - Hell an donkel Duerstellung riichte sech nom System.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Am Projetbam auswielen | ⌥⌘1 |
 | Nächsten Tab / Viregten Tab | ⇧⌘] / ⇧⌘[ |
 | Späicheren / Alles späicheren | ⌘S / ⌥⌘S |
+| Rezent Dateien | ⌘E |
+| Aktioun sichen | ⇧⌘A |
+| A Dateie sichen | ⇧⌘F |
+| Bei Zeil:Kolonn goen | ⌘L |
+| Zeil oder Auswiel duplizéieren | ⌘D |
+| Zeil läschen | ⌘⌫ |
+| Zeil eropréckelen / erofréckelen | ⌥⇧↑ / ⌥⇧↓ |
+| Mat Zeilekommentar auskommentéieren | ⌘/ |
+| Zeilen zesummefügen | ⌃⇧J |
+| Grouss-/Klengschreiwung wiesselen | ⇧⌘U |
+| Auswiel erweideren / verklengeren | ⌥↑ / ⌥↓ |
+| Nei Zeil drënner / driwwer ufänken | ⇧↩ / ⌥⌘↩ |
 
 ## Matmaachen
 

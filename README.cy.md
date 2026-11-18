@@ -36,7 +36,8 @@ Rhedwch eich asiant yn y derfynell fewnol, cliciwch y ffeiliau y mae'n gweithio 
 - Mae Shift+Enter yn caniatáu mewnbwn anogiad aml-linell. Gellir gludo testun aml-linell, ffeiliau a delweddau; cedwir delweddau fel PNG dros dro a mewnosodir eu llwybrau mewn dyfynodau.
 - Rhagolwg Markdown a HTML wrth ochr y testun, yn diweddaru wrth i chi deipio (⇧⌘V, neu'r botymau ar frig ochr dde'r tab).
   Mae Markdown yn cael ei rendro gyda cmark-gfm, y peiriant y mae GitHub yn ei ddefnyddio: tablau, rhestrau tasgau, testun wedi'i groesi allan a dolenni awtomatig.
-- Chwilio ym mhobman: pwyswch Shift ddwywaith i ddod o hyd i unrhyw ffeil yn y prosiect drwy baru bras ar yr enw.
+- Chwilio ym mhobman: pwyswch Shift ddwywaith i ddod o hyd i unrhyw ffeil yn y prosiect drwy baru bras ar yr enw. Mae'r tab «Gweithredoedd» (⇧⌘A) yn rhedeg unrhyw orchymyn dewislen yn ôl ei enw, ac mae'r tab «Testun» (⇧⌘F) yn chwilio testun pob ffeil yn y prosiect.
+- Golygu llinellau o'r bysellfwrdd: dyblygu, dileu, symud, troi'n sylwadau ac uno llinellau, ac ehangu'r detholiad gam wrth gam o air i'r ffeil gyfan.
 - Mae'n adnabod ffeiliau ffynhonnell gan ddefnyddio catalog o 915 o enwau ieithoedd a fformatau, gan gynnwys enwau ffeiliau, estyniadau cyfansawdd a dehonglwyr sgriptiau. Mae holl 297 o gydrannau Prism (291 o ramadegau annibynnol a 6 o gydrannau ategol) wedi'u cynnwys ac yn llwytho yn ôl yr angen. Mae fformatau heb ramadeg yn defnyddio amlygu testun sylfaenol.
 - Mae 108 o ddewisiadau iaith i'r rhyngwyneb. Defnyddiwch y ddewislen Iaith i newid ar unwaith, neu ddilyn iaith y system. Cofir y dewis; mae ffeiliau agored, golygiadau heb eu cadw a sesiynau terfynell yn aros ar agor. Mewn Arabeg, Hebraeg a rhyngwynebau eraill o'r dde i'r chwith, mae cod, rhagolygon ac allbwn y derfynell yn aros o'r chwith i'r dde.
   Ysgrifennir cyfieithiadau'n uniongyrchol o'r testunau Saesneg, gan ystyried cyd-destun y golygydd a'r derfynell. Mae paneli'r system yn dilyn gosodiadau iaith macOS. Nid yw'r catalog hwn yn cynnwys pob iaith naturiol neu iaith raglennu. Gweler [Cyfieithu Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Dewis yng ngolwg y prosiect | ⌥⌘1 |
 | Tab nesaf / blaenorol | ⇧⌘] / ⇧⌘[ |
 | Cadw / Cadw popeth | ⌘S / ⌥⌘S |
+| Ffeiliau diweddar | ⌘E |
+| Canfod gweithred | ⇧⌘A |
+| Canfod mewn ffeiliau | ⇧⌘F |
+| Mynd i linell:colofn | ⌘L |
+| Dyblygu'r llinell neu'r detholiad | ⌘D |
+| Dileu'r llinell | ⌘⌫ |
+| Symud y llinell i fyny / i lawr | ⌥⇧↑ / ⌥⇧↓ |
+| Troi'n sylw llinell | ⌘/ |
+| Uno llinellau | ⌃⇧J |
+| Toglo priflythrennau/llythrennau bach | ⇧⌘U |
+| Ehangu / crebachu'r detholiad | ⌥↑ / ⌥↓ |
+| Dechrau llinell newydd islaw / uwchlaw | ⇧↩ / ⌥⌘↩ |
 
 ## Cyfrannu
 

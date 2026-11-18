@@ -36,7 +36,8 @@ Uruchom agenta we wbudowanym terminalu, klikaj modyfikowane przez niego pliki, a
 - Shift+Enter umożliwia wpisywanie wielowierszowych poleceń. Wklejać można wielowierszowy tekst, pliki i obrazy; obrazy są przechowywane jako tymczasowe pliki PNG, a ich ścieżki wstawiane są w cudzysłowach.
 - Podgląd Markdown i HTML jest wyświetlany obok tekstu i aktualizowany podczas pisania (⇧⌘V lub przyciski w prawym górnym rogu karty).
   Markdown jest renderowany przez cmark-gfm, silnik używany przez GitHub: obsługuje tabele, listy zadań, przekreślenia i automatyczne odnośniki.
-- Szukaj wszędzie: naciśnij Shift dwa razy, aby znaleźć dowolny plik w projekcie przez przybliżone dopasowanie nazwy.
+- Szukaj wszędzie: naciśnij Shift dwa razy, aby znaleźć dowolny plik w projekcie przez przybliżone dopasowanie nazwy. Karta Akcje (⇧⌘A) uruchamia dowolne polecenie menu po nazwie, a karta Tekst (⇧⌘F) przeszukuje tekst wszystkich plików projektu.
+- Edycja wierszy z klawiatury: duplikowanie, usuwanie, przenoszenie, zakomentowywanie i łączenie wierszy oraz stopniowe rozszerzanie zaznaczenia od słowa do całego pliku.
 - Pliki źródłowe są rozpoznawane za pomocą katalogu 915 nazw języków i formatów plików, na podstawie nazw plików, złożonych rozszerzeń i interpreterów skryptów. Wszystkie 297 komponentów Prism (291 samodzielnych gramatyk i sześć komponentów pomocniczych) są dołączone i wczytywane na żądanie. Formaty bez gramatyki korzystają z podstawowego kolorowania tekstu.
 - Interfejs oferuje 108 języków. Menu Język pozwala przełączyć język od razu lub stosować język systemu. Wybór jest zapamiętywany; otwarte pliki, niezapisane edycje i sesje terminala pozostają otwarte. W interfejsach arabskim, hebrajskim i innych pisanych od prawej do lewej kod, podglądy i wyjście terminala zachowują kierunek od lewej do prawej.
   Tłumaczenia są tworzone bezpośrednio na podstawie angielskich tekstów i ich kontekstu w edytorze i terminalu. Panele udostępniane przez system stosują ustawienia języka macOS. Katalog nie obejmuje wszystkich języków naturalnych ani języków programowania. Zobacz [Tłumaczenie Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Zaznacz w widoku projektu | ⌥⌘1 |
 | Następna / poprzednia karta | ⇧⌘] / ⇧⌘[ |
 | Zapisz / Zapisz wszystko | ⌘S / ⌥⌘S |
+| Ostatnio używane pliki | ⌘E |
+| Znajdź akcję | ⇧⌘A |
+| Znajdź w plikach | ⇧⌘F |
+| Przejdź do wiersza:kolumny | ⌘L |
+| Duplikuj wiersz lub zaznaczenie | ⌘D |
+| Usuń wiersz | ⌘⌫ |
+| Przenieś wiersz w górę / w dół | ⌥⇧↑ / ⌥⇧↓ |
+| Zakomentuj komentarzem wierszowym | ⌘/ |
+| Połącz wiersze | ⌃⇧J |
+| Przełącz wielkość liter | ⇧⌘U |
+| Rozszerz / zmniejsz zaznaczenie | ⌥↑ / ⌥↓ |
+| Nowy wiersz poniżej / powyżej | ⇧↩ / ⌥⌘↩ |
 
 ## Współtworzenie
 

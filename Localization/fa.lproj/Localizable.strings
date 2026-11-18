@@ -37,11 +37,23 @@
 "Copy" = "کپی";
 "Paste" = "چسباندن";
 "Select All" = "انتخاب همه";
+"Duplicate Line or Selection" = "تکثیر سطر یا انتخاب";
+"Delete Line" = "حذف سطر";
+"Join Lines" = "ادغام سطرها";
+"Toggle Case" = "تغییر حروف بزرگ/کوچک";
+"Comment with Line Comment" = "توضیح‌گذاری با توضیح سطری";
+"Move Line Up" = "انتقال سطر به بالا";
+"Move Line Down" = "انتقال سطر به پایین";
+"Extend Selection" = "گسترش انتخاب";
+"Shrink Selection" = "کوچک کردن انتخاب";
+"Start New Line" = "شروع سطر جدید";
+"Start New Line Before Current" = "شروع سطر جدید پیش از سطر فعلی";
 "Find…" = "یافتن…";
 "Replace…" = "جایگزینی…";
 "Find Next" = "یافتن بعدی";
 "Find Previous" = "یافتن قبلی";
 "Use Selection for Find" = "جستجوی متن انتخاب‌شده";
+"Find in Files…" = "یافتن در فایل‌ها…";
 "Find" = "جستجو";
 "Project" = "پروژه";
 "Terminal" = "ترمینال";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "کاهش اندازهٔ قلم";
 "Reset Font Size" = "بازنشانی اندازهٔ قلم";
 "Search Everywhere (Double ⇧)" = "جستجو در همه‌جا (دو بار ⇧)";
+"Recent Files" = "فایل‌های اخیر";
+"Find Action…" = "یافتن کنش…";
+"Go to Line:Column…" = "رفتن به سطر:ستون…";
 "Select in Project View" = "انتخاب در نمای پروژه";
 "Next Tab" = "زبانهٔ بعدی";
 "Previous Tab" = "زبانهٔ قبلی";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "باز کردن در ترمینال";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "رفتن به سطر:ستون";
 "Left Panel" = "پنل چپ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "فایل‌ها";
 "Double ⇧ to search everywhere" = "برای جستجو در همه‌جا، ⇧ را دو بار فشار دهید";
+"Files" = "فایل‌ها";
+"Actions" = "کنش‌ها";
+"Text" = "متن";
 "Type a file name (use / to match the path)" = "نام فایل را بنویسید (برای جستجو در مسیر از / استفاده کنید)";
+"Type a command name" = "نام فرمان را بنویسید";
+"Type text to find in project files" = "متنی را که می‌خواهید در فایل‌های پروژه پیدا کنید بنویسید";
 "No recent files" = "فایل اخیری وجود ندارد";
-"Recent Files" = "فایل‌های اخیر";
 "Matches: %1$ld / Files: %2$ld" = "مطابقت‌ها: %1$ld / فایل‌ها: %2$ld";
+"Searching…" = "در حال جستجو…";
+"Switch Tab" = "تعویض زبانه";

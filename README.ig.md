@@ -35,7 +35,8 @@ Gbaa onye nnọchi anya gị n'ọnụ iwu dị n'ime ya, pịa faịlụ ọ me
 - Ọnụ iwu na-eji Metal na ndabara, nwee ihe mgbanwe Jiri GPU See Ihe na Nlele. Jiri ⌘F chọọ ihe a bipụtara; taabụ ọhụrụ na-enweta folda ọrụ a na-eji ugbu a.
 - Shift+Enter na-edobe ntinye ntụziaka nwere ọtụtụ ahịrị. Ịtinye ihe akwadoro gụnyere ederede ọtụtụ ahịrị, faịlụ na onyonyo; a na-edobe onyonyo dị ka PNG nwa oge ma tinye ụzọ ha n'ime akara nhota.
 - Nlele mbụ Markdown na HTML dị n'akụkụ ederede na-agbanwe ka ị na-ede (⇧⌘V ma ọ bụ bọtịnụ dị n'elu aka nri taabụ). Markdown na-eji cmark-gfm, ihe GitHub ji egosi ya: tebụl, ndepụta ọrụ, ederede a kachara akara na njikọ akpaka.
-- Chọọ Ebe Niile: pịa Shift ugboro abụọ iji chọta faịlụ ọ bụla n'ọrụ site n'ịchọ aha yiri ya.
+- Chọọ Ebe Niile: pịa Shift ugboro abụọ iji chọta faịlụ ọ bụla n'ọrụ site n'ịchọ aha yiri ya. Taabụ Omume ya (⇧⌘A) na-agba iwu menu ọ bụla site n'aha ya, taabụ Ederede ya (⇧⌘F) na-achọkwa n'ederede faịlụ ọ bụla dị n'ọrụ ahụ.
+- Ndezi ahịrị site na ahụigodo: mee nnomi, hichapụ, bugharịa, mee ka ọ bụrụ nkọwa ma jikọọ ahịrị, ma gbasaa nhọrọ nwayọọ nwayọọ site n'otu okwu ruo na faịlụ niile.
 - Ọ na-amata faịlụ koodu site na katalọgụ aha asụsụ na usoro faịlụ 915, gụnyere aha faịlụ, mgbatị jikọtara ọnụ na ndị ntụgharị script. Akụkụ Prism niile 297 dị na ya (ụtọasụsụ kwụụrụ onwe ha 291 na ihe enyemaka 6), a na-ebukwa ha mgbe achọrọ ha. Usoro na-enweghị ụtọasụsụ na-eji agba ederede bụ isi.
 - Nlele ngwa nwere nhọrọ asụsụ 108. Jiri menu Asụsụ gbanwee ozugbo ma ọ bụ soro asụsụ sistemụ. A na-echeta nhọrọ ahụ; faịlụ mepere emepe, ndezi a na-echekwabeghị na oge ọrụ ọnụ iwu na-anọgide na-emeghe. Na nlele Arabic, Hibru na asụsụ ndị ọzọ na-aga site n'aka nri gaa n'aka ekpe, koodu, nlele mbụ na ihe ọnụ iwu bipụtara ka na-aga site n'aka ekpe gaa n'aka nri. E si n'ederede Bekee dee ntụgharị asụsụ ozugbo, jiri ọnọdụ ebe ndezi na ọnụ iwu. Ogwe sistemụ na-agbaso ntọala asụsụ macOS. Katalọgụ a anaghị agụnye asụsụ mmadụ ma ọ bụ asụsụ mmemme niile. Lee [Ịtụgharị Sumi](CONTRIBUTING.md#translating-sumi).
 - Ọdịdị ọkụ na nke ọchịchịrị na-agbaso sistemụ.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Họrọ n'Osisi Faịlụ Ọrụ | ⌥⌘1 |
 | Taabụ Na-esote / Taabụ Gara Aga | ⇧⌘] / ⇧⌘[ |
 | Chekwaa / Chekwaa Ha Niile | ⌘S / ⌥⌘S |
+| Faịlụ E Meghere Nso Nso A | ⌘E |
+| Chọta Omume | ⇧⌘A |
+| Chọta na Faịlụ | ⇧⌘F |
+| Gaa na Ahịrị:Kọlụm | ⌘L |
+| Mee Nnomi Ahịrị ma ọ bụ Nhọrọ | ⌘D |
+| Hichapụ Ahịrị | ⌘⌫ |
+| Bulie Ahịrị Elu / Budata Ahịrị Ala | ⌥⇧↑ / ⌥⇧↓ |
+| Tinye Nkọwa Ahịrị | ⌘/ |
+| Jikọọ Ahịrị | ⌃⇧J |
+| Gbanwee Mkpụrụedemede Ukwu/Nta | ⇧⌘U |
+| Gbasaa / Belata Nhọrọ | ⌥↑ / ⌥↓ |
+| Malite Ahịrị Ọhụrụ n'Okpuru / n'Elu | ⇧↩ / ⌥⌘↩ |
 
 ## Itinye aka
 

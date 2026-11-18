@@ -37,11 +37,23 @@
 "Copy" = "Koperani";
 "Paste" = "Matani";
 "Select All" = "Sankhani Zonse";
+"Duplicate Line or Selection" = "Bwerezani Mzere kapena Zosankhidwa";
+"Delete Line" = "Fufutani Mzere";
+"Join Lines" = "Lumikizani Mizere";
+"Toggle Case" = "Sinthani Zilembo Zazikulu/Zing'onozing'ono";
+"Comment with Line Comment" = "Ikani Ndemanga ya Mzere";
+"Move Line Up" = "Sunthani Mzere Mmwamba";
+"Move Line Down" = "Sunthani Mzere Pansi";
+"Extend Selection" = "Kulitsani Zosankhidwa";
+"Shrink Selection" = "Chepetsani Zosankhidwa";
+"Start New Line" = "Yambani Mzere Watsopano";
+"Start New Line Before Current" = "Yambani Mzere Watsopano Pamwamba pa Wapano";
 "Find…" = "Pezani…";
 "Replace…" = "Sinthani ndi Zina…";
 "Find Next" = "Pezani Chotsatira";
 "Find Previous" = "Pezani Cham'mbuyo";
 "Use Selection for Find" = "Sakani Mawu Osankhidwa";
+"Find in Files…" = "Pezani m'Mafayilo…";
 "Find" = "Pezani";
 "Project" = "Pulojekiti";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Chepetsani Zilembo";
 "Reset Font Size" = "Bwezerani Kukula kwa Zilembo";
 "Search Everywhere (Double ⇧)" = "Sakani Paliponse (⇧ Kawiri)";
+"Recent Files" = "Mafayilo Aposachedwa";
+"Find Action…" = "Pezani Ntchito…";
+"Go to Line:Column…" = "Pitani ku Mzere:Mzati…";
 "Select in Project View" = "Sankhani pa Mtengo wa Pulojekiti";
 "Next Tab" = "Tabu Yotsatira";
 "Previous Tab" = "Tabu Yam'mbuyo";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Tsegulani mu Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Pitani ku Mzere:Mzati";
 "Left Panel" = "Gawo la Kumanzere";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Mafayilo";
 "Double ⇧ to search everywhere" = "Dinani ⇧ kawiri kuti musake paliponse";
+"Files" = "Mafayilo";
+"Actions" = "Ntchito";
+"Text" = "Mawu";
 "Type a file name (use / to match the path)" = "Lembani dzina la fayilo (gwiritsani ntchito / kusaka njira yake)";
+"Type a command name" = "Lembani dzina la lamulo";
+"Type text to find in project files" = "Lembani mawu oti mupeze m'mafayilo a pulojekiti";
 "No recent files" = "Palibe mafayilo aposachedwa";
-"Recent Files" = "Mafayilo Aposachedwa";
 "Matches: %1$ld / Files: %2$ld" = "Zogwirizana: %1$ld / Mafayilo: %2$ld";
+"Searching…" = "Ikusaka…";
+"Switch Tab" = "Sinthani Tabu";

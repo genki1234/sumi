@@ -37,11 +37,23 @@
 "Copy" = "Salin";
 "Paste" = "Tempel";
 "Select All" = "Pilih Kabeh";
+"Duplicate Line or Selection" = "Duplikasi Larik utawa Pilihan";
+"Delete Line" = "Busak Larik";
+"Join Lines" = "Gabung Larik";
+"Toggle Case" = "Ganti Huruf Gedhe/Cilik";
+"Comment with Line Comment" = "Komentari nganggo Komentar Larik";
+"Move Line Up" = "Pindhah Larik Munggah";
+"Move Line Down" = "Pindhah Larik Mudhun";
+"Extend Selection" = "Jembarake Pilihan";
+"Shrink Selection" = "Ciutake Pilihan";
+"Start New Line" = "Wiwiti Larik Anyar";
+"Start New Line Before Current" = "Wiwiti Larik Anyar sadurunge Sing Saiki";
 "Find…" = "Goleki…";
 "Replace…" = "Ganti…";
 "Find Next" = "Goleki Sabanjure";
 "Find Previous" = "Goleki Sadurunge";
 "Use Selection for Find" = "Goleki Teks sing Dipilih";
+"Find in Files…" = "Goleki ing Berkas…";
 "Find" = "Goleki";
 "Project" = "Proyek";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Cilikake Aksara";
 "Reset Font Size" = "Balekake Ukuran Aksara";
 "Search Everywhere (Double ⇧)" = "Goleki ing Endi Wae (⇧ Kaping Pindho)";
+"Recent Files" = "Berkas Pungkasan";
+"Find Action…" = "Goleki Tindakan…";
+"Go to Line:Column…" = "Menyang Larik:Kolom…";
 "Select in Project View" = "Pilih ing Wit Proyek";
 "Next Tab" = "Tab Sabanjure";
 "Previous Tab" = "Tab Sadurunge";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Bukak ing Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Menyang Larik:Kolom";
 "Left Panel" = "Panel Kiwa";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Berkas";
 "Double ⇧ to search everywhere" = "Pencet ⇧ kaping pindho kanggo nggoleki ing endi wae";
+"Files" = "Berkas";
+"Actions" = "Tindakan";
+"Text" = "Teks";
 "Type a file name (use / to match the path)" = "Ketik jeneng berkas (gunakake / kanggo nggoleki path)";
+"Type a command name" = "Ketik jeneng prentah";
+"Type text to find in project files" = "Ketik teks sing digoleki ing berkas proyek";
 "No recent files" = "Ora ana berkas pungkasan";
-"Recent Files" = "Berkas Pungkasan";
 "Matches: %1$ld / Files: %2$ld" = "Sing Cocog: %1$ld / Berkas: %2$ld";
+"Searching…" = "Nggoleki…";
+"Switch Tab" = "Ganti Tab";

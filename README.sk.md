@@ -35,7 +35,8 @@ Spustite agenta vo vstavanom termináli, kliknutím otvárajte súbory, ktoré m
 - Terminály predvolene používajú Metal; prepínač Vykresľovanie cez GPU je v ponuke Zobraziť. Výstup prehľadáte cez ⌘F; nové karty preberajú aktuálny pracovný priečinok.
 - Shift+Enter zachová viacriadkové zadávanie pokynov. Vložiť možno viacriadkový text, súbory a obrázky; obrázky sa uchovajú ako dočasné PNG a vložia sa ich cesty v úvodzovkách.
 - Náhľad Markdown a HTML vedľa textu sa aktualizuje počas písania (⇧⌘V alebo tlačidlá vpravo hore na karte). Markdown vykresľuje cmark-gfm používaný na GitHube: tabuľky, zoznamy úloh, prečiarknutie a automatické odkazy.
-- Hľadať všade: stlačte Shift dvakrát a nájdite ľubovoľný súbor projektu podľa približnej zhody názvu.
+- Hľadať všade: stlačte Shift dvakrát a nájdite ľubovoľný súbor projektu podľa približnej zhody názvu. Karta Akcie (⇧⌘A) spustí ľubovoľný príkaz ponuky podľa názvu a karta Text (⇧⌘F) prehľadá text všetkých súborov projektu.
+- Úprava riadkov z klávesnice: duplikovanie, mazanie, presúvanie, zakomentovanie a spájanie riadkov a postupné rozširovanie výberu od slova po celý súbor.
 - Zdrojové súbory rozpoznáva katalóg 915 názvov jazykov a formátov vrátane názvov súborov, zložených prípon a interpretov skriptov. Všetkých 297 komponentov Prism (291 samostatných gramatík a 6 pomocných komponentov) je pribalených a načítavajú sa podľa potreby. Formáty bez gramatiky používajú základné zvýraznenie textu.
 - Rozhranie ponúka 108 jazykov. V ponuke Jazyk ho okamžite zmeníte alebo použijete jazyk systému. Voľba sa pamätá; otvorené súbory, neuložené úpravy a relácie terminálu zostávajú otvorené. V arabskom, hebrejskom a ďalších rozhraniach sprava doľava zostáva kód, náhľad a výstup terminálu zľava doprava. Preklady sú napísané priamo z anglických textov s ohľadom na editor a terminál. Systémové panely používajú jazykové nastavenia macOS. Katalóg nezahŕňa každý prirodzený ani programovací jazyk. Pozrite [Preklad Sumi](CONTRIBUTING.md#translating-sumi).
 - Svetlý a tmavý vzhľad sa riadia systémom.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Vybrať v strome projektu | ⌥⌘1 |
 | Ďalšia karta / Predošlá karta | ⇧⌘] / ⇧⌘[ |
 | Uložiť / Uložiť všetko | ⌘S / ⌥⌘S |
+| Nedávne súbory | ⌘E |
+| Nájsť akciu | ⇧⌘A |
+| Hľadať v súboroch | ⇧⌘F |
+| Prejsť na riadok:stĺpec | ⌘L |
+| Duplikovať riadok alebo výber | ⌘D |
+| Odstrániť riadok | ⌘⌫ |
+| Presunúť riadok nahor / Presunúť riadok nadol | ⌥⇧↑ / ⌥⇧↓ |
+| Zakomentovať riadkovým komentárom | ⌘/ |
+| Spojiť riadky | ⌃⇧J |
+| Prepnúť veľkosť písmen | ⇧⌘U |
+| Rozšíriť výber / Zúžiť výber | ⌥↑ / ⌥↓ |
+| Nový riadok nižšie / Nový riadok vyššie | ⇧↩ / ⌥⌘↩ |
 
 ## Prispievanie
 

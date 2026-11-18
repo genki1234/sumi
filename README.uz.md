@@ -35,7 +35,8 @@ Agentni ichki terminalda ishga tushiring, u o‘zgartirgan fayllarni bosib ochin
 - Terminallar odatda Metal ishlatadi; GPU orqali chizish kaliti Ko‘rinish menyusida. Chiqishda ⌘F bilan qidiring; yangi varaqlar joriy ish jildini oladi.
 - Shift+Enter ko‘p satrli so‘rov kiritishni saqlaydi. Ko‘p satrli matn, fayl va rasmlarni joylash mumkin; rasmlar vaqtincha PNG sifatida turadi, yo‘llari esa qo‘shtirnoqda kiritiladi.
 - Markdown va HTML oldindan ko‘rinishi matn yonida bo‘lib, yozganingizda yangilanadi (⇧⌘V yoki varaqning o‘ng yuqori tugmalari). Markdown GitHub ishlatadigan cmark-gfm bilan chiziladi: jadvallar, vazifa ro‘yxatlari, ustidan chizilgan matn va avtomatik havolalar.
-- Hamma joyda qidirish: Shift’ni ikki marta bosib, loyihadagi istalgan faylni taxminiy nom mosligi bilan toping.
+- Hamma joyda qidirish: Shift’ni ikki marta bosib, loyihadagi istalgan faylni taxminiy nom mosligi bilan toping. Uning Amallar varag‘i (⇧⌘A) istalgan menyu buyrug‘ini nomi bo‘yicha bajaradi, Matn varag‘i (⇧⌘F) esa loyihadagi barcha fayllar matnidan qidiradi.
+- Satrlarni klaviaturadan tahrirlash: satrlarni takrorlash, o‘chirish, ko‘chirish, izohga aylantirish va birlashtirish, shuningdek tanlovni so‘zdan butun faylgacha bosqichma-bosqich kengaytirish.
 - Manba fayllarini 915 til va fayl formati nomi katalogi orqali taniydi; fayl nomlari, murakkab kengaytmalar va skript interpretatorlari ham kiradi. Barcha 297 Prism qismi (291 mustaqil grammatika va 6 yordamchi) kiritilgan va zaruratda yuklanadi. Grammatikasiz formatlar asosiy matn ajratishdan foydalanadi.
 - Interfeysda 108 til tanlovi bor. Til menyusida darhol o‘zgartiring yoki tizim tiliga ergashing. Tanlov esda qoladi; ochiq fayllar, saqlanmagan tahrirlar va terminal seanslari ochiq qoladi. Arab, ibroniy va boshqa o‘ngdan chapga interfeyslarda kod, oldindan ko‘rish va terminal chiqishi chapdan o‘ngga qoladi. Tarjimalar muharrir va terminal mazmunini hisobga olib inglizcha matnlardan bevosita yozilgan. Tizim panellari macOS til sozlamalariga ergashadi. Katalog barcha tabiiy yoki dasturlash tillarini qamramaydi. [Sumi tarjimasi](CONTRIBUTING.md#translating-sumi)ni ko‘ring.
 - Yorug‘ va qorong‘i ko‘rinish tizimga ergashadi.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Loyiha ko‘rinishida tanlash | ⌥⌘1 |
 | Keyingi varaq / Oldingi varaq | ⇧⌘] / ⇧⌘[ |
 | Saqlash / Hammasini saqlash | ⌘S / ⌥⌘S |
+| So‘nggi fayllar | ⌘E |
+| Amalni topish | ⇧⌘A |
+| Fayllarda topish | ⇧⌘F |
+| Satr:ustunga o‘tish | ⌘L |
+| Satr yoki tanlanganni takrorlash | ⌘D |
+| Satrni o‘chirish | ⌘⌫ |
+| Satrni yuqoriga ko‘chirish / Satrni pastga ko‘chirish | ⌥⇧↑ / ⌥⇧↓ |
+| Satr izohi bilan izohlash | ⌘/ |
+| Satrlarni birlashtirish | ⌃⇧J |
+| Katta va kichik harflarni almashtirish | ⇧⌘U |
+| Tanlovni kengaytirish / Tanlovni toraytirish | ⌥↑ / ⌥↓ |
+| Pastda yangi satr boshlash / Yuqorida yangi satr boshlash | ⇧↩ / ⌥⌘↩ |
 
 ## Hissa qo‘shish
 

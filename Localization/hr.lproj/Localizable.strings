@@ -37,11 +37,23 @@
 "Copy" = "Kopiraj";
 "Paste" = "Zalijepi";
 "Select All" = "Odaberi sve";
+"Duplicate Line or Selection" = "Dupliciraj redak ili odabir";
+"Delete Line" = "Izbriši redak";
+"Join Lines" = "Spoji retke";
+"Toggle Case" = "Promijeni velika/mala slova";
+"Comment with Line Comment" = "Komentiraj komentarom retka";
+"Move Line Up" = "Pomakni redak gore";
+"Move Line Down" = "Pomakni redak dolje";
+"Extend Selection" = "Proširi odabir";
+"Shrink Selection" = "Suzi odabir";
+"Start New Line" = "Započni novi redak";
+"Start New Line Before Current" = "Započni novi redak ispred trenutnog";
 "Find…" = "Pronađi…";
 "Replace…" = "Zamijeni…";
 "Find Next" = "Pronađi sljedeće";
 "Find Previous" = "Pronađi prethodno";
 "Use Selection for Find" = "Traži odabrani tekst";
+"Find in Files…" = "Pronađi u datotekama…";
 "Find" = "Pretraživanje";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Smanji font";
 "Reset Font Size" = "Vrati veličinu fonta";
 "Search Everywhere (Double ⇧)" = "Traži svugdje (dvaput ⇧)";
+"Recent Files" = "Nedavne datoteke";
+"Find Action…" = "Pronađi radnju…";
+"Go to Line:Column…" = "Idi na redak:stupac…";
 "Select in Project View" = "Odaberi u prikazu projekta";
 "Next Tab" = "Sljedeća kartica";
 "Previous Tab" = "Prethodna kartica";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Otvori u terminalu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Idi na redak:stupac";
 "Left Panel" = "Lijeva ploča";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Datoteke";
 "Double ⇧ to search everywhere" = "Pritisnite ⇧ dvaput za pretraživanje svugdje";
+"Files" = "Datoteke";
+"Actions" = "Radnje";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Unesite naziv datoteke (upotrijebite / za pretraživanje putanje)";
+"Type a command name" = "Unesite naziv naredbe";
+"Type text to find in project files" = "Unesite tekst za pretraživanje u datotekama projekta";
 "No recent files" = "Nema nedavnih datoteka";
-"Recent Files" = "Nedavne datoteke";
 "Matches: %1$ld / Files: %2$ld" = "Podudaranja: %1$ld / Datoteke: %2$ld";
+"Searching…" = "Pretraživanje…";
+"Switch Tab" = "Promijeni karticu";

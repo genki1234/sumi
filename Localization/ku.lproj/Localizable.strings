@@ -37,11 +37,23 @@
 "Copy" = "Kopî Bike";
 "Paste" = "Pê Ve Bike";
 "Select All" = "Hemûyan Hilbijêre";
+"Duplicate Line or Selection" = "Rêzê an Hilbijartinê Ducar Bike";
+"Delete Line" = "Rêzê Jê Bibe";
+"Join Lines" = "Rêzan Bigihîne Hev";
+"Toggle Case" = "Tîpên Mezin/Biçûk Biguherîne";
+"Comment with Line Comment" = "Bi Şîroveya Rêzê Şîrove Bike";
+"Move Line Up" = "Rêzê Bibe Jor";
+"Move Line Down" = "Rêzê Bibe Jêr";
+"Extend Selection" = "Hilbijartinê Fireh Bike";
+"Shrink Selection" = "Hilbijartinê Teng Bike";
+"Start New Line" = "Rêzeke Nû Dest Pê Bike";
+"Start New Line Before Current" = "Berî Rêza Heyî Rêzeke Nû Dest Pê Bike";
 "Find…" = "Bibîne…";
 "Replace…" = "Biguherîne…";
 "Find Next" = "Ya Pişt Re Bibîne";
 "Find Previous" = "Ya Berê Bibîne";
 "Use Selection for Find" = "Nivîsa Hilbijartî Bigere";
+"Find in Files…" = "Di Pelan de Bibîne…";
 "Find" = "Bibîne";
 "Project" = "Proje";
 "Terminal" = "Termînal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Tîpan Biçûk Bike";
 "Reset Font Size" = "Mezinahiya Tîpan Vegerîne";
 "Search Everywhere (Double ⇧)" = "Li Her Derê Bigere (Du Caran ⇧)";
+"Recent Files" = "Pelên Dawî";
+"Find Action…" = "Çalakiyê Bibîne…";
+"Go to Line:Column…" = "Biçe Rêz:Stûnê…";
 "Select in Project View" = "Di Dara Projeyê de Hilbijêre";
 "Next Tab" = "Hilpekîna Pişt Re";
 "Previous Tab" = "Hilpekîna Berê";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Di Termînalê de Veke";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Biçe Rêz:Stûnê";
 "Left Panel" = "Panela Çepê";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Pel";
 "Double ⇧ to search everywhere" = "Ji bo lêgerîna li her derê du caran ⇧ bitikîne";
+"Files" = "Pel";
+"Actions" = "Çalakî";
+"Text" = "Nivîs";
 "Type a file name (use / to match the path)" = "Navê pelê binivîse (ji bo lêgerîna riyê / bi kar bîne)";
+"Type a command name" = "Navê fermanê binivîse";
+"Type text to find in project files" = "Nivîsa ku di pelên projeyê de bê lêgerîn binivîse";
 "No recent files" = "Pelên dawî tune ne";
-"Recent Files" = "Pelên Dawî";
 "Matches: %1$ld / Files: %2$ld" = "Lihevhatin: %1$ld / Pel: %2$ld";
+"Searching…" = "Tê lêgerîn…";
+"Switch Tab" = "Hilpekînê Biguherîne";

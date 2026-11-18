@@ -36,7 +36,8 @@ Executa o teu axente no terminal integrado, abre cun clic os ficheiros cos que t
 - Shift+Enter permite introducir instrucións de varias liñas. Pódense pegar textos de varias liñas, ficheiros e imaxes; as imaxes consérvanse como PNG temporais e insírense como rutas entre comiñas.
 - Vista previa de Markdown e HTML xunto ao texto, actualizada mentres escribes (⇧⌘V ou os botóns da esquina superior dereita da lapela).
   Markdown represéntase con cmark-gfm, o motor que usa GitHub: táboas, listas de tarefas, texto riscado e ligazóns automáticas.
-- Buscar en todas partes: preme Shift dúas veces para atopar calquera ficheiro do proxecto por coincidencia aproximada do nome.
+- Buscar en todas partes: preme Shift dúas veces para atopar calquera ficheiro do proxecto por coincidencia aproximada do nome. A súa lapela Accións (⇧⌘A) executa calquera orde do menú polo nome, e a lapela Texto (⇧⌘F) busca no texto de todos os ficheiros do proxecto.
+- Edición de liñas co teclado: duplica, elimina, move, comenta e une liñas, e amplía a selección paso a paso desde unha palabra ata o ficheiro enteiro.
 - Recoñece ficheiros de código cun catálogo de 915 nomes de linguaxes e formatos, incluíndo nomes de ficheiros, extensións compostas e intérpretes de scripts. Inclúe os 297 compoñentes de Prism (291 gramáticas independentes e 6 auxiliares), que se cargan cando se precisan. Os formatos sen gramática usan un resaltado de texto básico.
 - A interface ofrece 108 idiomas. Usa o menú Idioma para cambiar ao instante ou seguir o idioma do sistema. A elección lémbrase; os ficheiros abertos, as modificacións sen gardar e as sesións de terminal seguen abertos. As interfaces en árabe, hebreo e outros idiomas de dereita a esquerda manteñen o código, as vistas previas e a saída do terminal de esquerda a dereita.
   As traducións escríbense directamente a partir dos textos ingleses, co seu contexto de editor e terminal. Os paneis do sistema seguen os axustes de idioma de macOS. O catálogo non cobre todas as linguas naturais nin todas as linguaxes de programación. Consulta [Traducir Sumi](CONTRIBUTING.md#translating-sumi).
@@ -87,6 +88,18 @@ open -a Sumi path/to/project
 | Seleccionar na vista do proxecto | ⌥⌘1 |
 | Seguinte lapela / lapela anterior | ⇧⌘] / ⇧⌘[ |
 | Gardar / Gardar todo | ⌘S / ⌥⌘S |
+| Ficheiros recentes | ⌘E |
+| Buscar acción | ⇧⌘A |
+| Buscar nos ficheiros | ⇧⌘F |
+| Ir a liña:columna | ⌘L |
+| Duplicar a liña ou a selección | ⌘D |
+| Eliminar a liña | ⌘⌫ |
+| Mover a liña cara arriba / cara abaixo | ⌥⇧↑ / ⌥⇧↓ |
+| Comentar con comentario de liña | ⌘/ |
+| Unir as liñas | ⌃⇧J |
+| Alternar maiúsculas/minúsculas | ⇧⌘U |
+| Ampliar / reducir a selección | ⌥↑ / ⌥↓ |
+| Comezar unha liña nova debaixo / enriba | ⇧↩ / ⌥⌘↩ |
 
 ## Colaborar
 

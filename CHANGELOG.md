@@ -17,6 +17,8 @@ Initial release candidate in preparation. This entry describes the candidate's c
 - Multiline prompt input with Shift+Enter and pasting of text, files and images. Pasted images are temporary PNG files inserted as quoted paths.
 - Live Markdown and HTML previews beside the source text. Markdown uses cmark-gfm with tables, task lists, strikethrough and autolinks.
 - Project-wide fuzzy file search by pressing Shift twice.
+- Recent files (⌘E), menu command search (⇧⌘A) and project-wide text search (⇧⌘F) in the same search popup, switched with Tab. Go to line and column (⌘L).
+- Keyboard line editing: duplicate (⌘D), delete (⌘⌫), move (⌥⇧↑ / ⌥⇧↓), comment toggling with the language's comment syntax (⌘/), join (⌃⇧J), case toggling (⇧⌘U), new line below or above (⇧↩ / ⌥⌘↩), and step-by-step selection extension (⌥↑ / ⌥↓).
 - Source-file recognition using 915 language and file-format names. All 297 Prism components (291 standalone grammars and 6 helpers) are bundled and loaded on demand; formats without a grammar use basic text highlighting.
 - 108 UI language options, immediate language switching and a complete README for each UI locale. Switching keeps files, unsaved edits and terminal sessions open. Right-to-left interfaces retain left-to-right code, previews and terminal output.
 - System light and dark appearance, keyboard shortcuts, and universal application builds for Apple silicon and Intel Macs.

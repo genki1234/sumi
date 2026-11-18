@@ -37,11 +37,23 @@
 "Copy" = "Күчереп алу";
 "Paste" = "Өстәү";
 "Select All" = "Барысын сайлау";
+"Duplicate Line or Selection" = "Юлны яки сайланганны икеләтү";
+"Delete Line" = "Юлны бетерү";
+"Join Lines" = "Юлларны берләштерү";
+"Toggle Case" = "Баш һәм юл хәрефләрен алыштыру";
+"Comment with Line Comment" = "Юл искәрмәсе белән искәрмәләү";
+"Move Line Up" = "Юлны өскә күчерү";
+"Move Line Down" = "Юлны аска күчерү";
+"Extend Selection" = "Сайлауны киңәйтү";
+"Shrink Selection" = "Сайлауны тарайту";
+"Start New Line" = "Яңа юл башлау";
+"Start New Line Before Current" = "Агымдагы юлдан алда яңа юл башлау";
 "Find…" = "Табу…";
 "Replace…" = "Алыштыру…";
 "Find Next" = "Киләсен табу";
 "Find Previous" = "Алдагысын табу";
 "Use Selection for Find" = "Сайланган текстны эзләү";
+"Find in Files…" = "Файлларда табу…";
 "Find" = "Эзләү";
 "Project" = "Проект";
 "Terminal" = "Терминал";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Хәрефләрне кечерәйтү";
 "Reset Font Size" = "Хәреф зурлыгын торгызу";
 "Search Everywhere (Double ⇧)" = "Һәркайда эзләү (⇧ ике тапкыр)";
+"Recent Files" = "Соңгы файллар";
+"Find Action…" = "Гамәл табу…";
+"Go to Line:Column…" = "Юл:баганага күчү…";
 "Select in Project View" = "Проект агачында сайлау";
 "Next Tab" = "Киләсе салынма";
 "Previous Tab" = "Алдагы салынма";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Терминалда ачу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Юл:баганага күчү";
 "Left Panel" = "Сул панель";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Файллар";
 "Double ⇧ to search everywhere" = "Һәркайда эзләү өчен ⇧ төймәсенә ике тапкыр басыгыз";
+"Files" = "Файллар";
+"Actions" = "Гамәлләр";
+"Text" = "Текст";
 "Type a file name (use / to match the path)" = "Файл исемен языгыз (юл буенча эзләү өчен / кулланыгыз)";
+"Type a command name" = "Боерык исемен языгыз";
+"Type text to find in project files" = "Проект файлларында эзләү өчен текст языгыз";
 "No recent files" = "Соңгы файллар юк";
-"Recent Files" = "Соңгы файллар";
 "Matches: %1$ld / Files: %2$ld" = "Тәңгәл килүләр: %1$ld / Файллар: %2$ld";
+"Searching…" = "Эзләнә…";
+"Switch Tab" = "Салынманы алыштыру";

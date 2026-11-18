@@ -37,11 +37,23 @@
 "Copy" = "კოპირება";
 "Paste" = "ჩასმა";
 "Select All" = "ყველას მონიშვნა";
+"Duplicate Line or Selection" = "სტრიქონის ან მონიშნულის დუბლირება";
+"Delete Line" = "სტრიქონის წაშლა";
+"Join Lines" = "სტრიქონების გაერთიანება";
+"Toggle Case" = "რეგისტრის გადართვა";
+"Comment with Line Comment" = "სტრიქონული კომენტარით დაკომენტარება";
+"Move Line Up" = "სტრიქონის ზემოთ გადატანა";
+"Move Line Down" = "სტრიქონის ქვემოთ გადატანა";
+"Extend Selection" = "მონიშვნის გაფართოება";
+"Shrink Selection" = "მონიშვნის შემცირება";
+"Start New Line" = "ახალი სტრიქონის დაწყება";
+"Start New Line Before Current" = "ახალი სტრიქონის დაწყება მიმდინარის წინ";
 "Find…" = "პოვნა…";
 "Replace…" = "ჩანაცვლება…";
 "Find Next" = "მომდევნოს პოვნა";
 "Find Previous" = "წინას პოვნა";
 "Use Selection for Find" = "მონიშნული ტექსტის ძიება";
+"Find in Files…" = "ფაილებში პოვნა…";
 "Find" = "პოვნა";
 "Project" = "პროექტი";
 "Terminal" = "ტერმინალი";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "შრიფტის შემცირება";
 "Reset Font Size" = "შრიფტის ზომის აღდგენა";
 "Search Everywhere (Double ⇧)" = "ძიება ყველგან (ორჯერ ⇧)";
+"Recent Files" = "ბოლო ფაილები";
+"Find Action…" = "მოქმედების პოვნა…";
+"Go to Line:Column…" = "სტრიქონზე:სვეტზე გადასვლა…";
 "Select in Project View" = "მონიშვნა პროექტის ხეში";
 "Next Tab" = "მომდევნო ჩანართი";
 "Previous Tab" = "წინა ჩანართი";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "ტერმინალში გახსნა";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "სტრიქონზე:სვეტზე გადასვლა";
 "Left Panel" = "მარცხენა პანელი";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ფაილები";
 "Double ⇧ to search everywhere" = "ყველგან ძიებისთვის ორჯერ დააჭირეთ ⇧-ს";
+"Files" = "ფაილები";
+"Actions" = "მოქმედებები";
+"Text" = "ტექსტი";
 "Type a file name (use / to match the path)" = "აკრიფეთ ფაილის სახელი (ბილიკის მოსაძებნად გამოიყენეთ /)";
+"Type a command name" = "აკრიფეთ ბრძანების სახელი";
+"Type text to find in project files" = "აკრიფეთ პროექტის ფაილებში საძიებო ტექსტი";
 "No recent files" = "ბოლო ფაილები არ არის";
-"Recent Files" = "ბოლო ფაილები";
 "Matches: %1$ld / Files: %2$ld" = "დამთხვევები: %1$ld / ფაილები: %2$ld";
+"Searching…" = "ძიება…";
+"Switch Tab" = "ჩანართის გადართვა";

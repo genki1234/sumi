@@ -37,11 +37,23 @@
 "Copy" = "ចម្លង";
 "Paste" = "បិទភ្ជាប់";
 "Select All" = "ជ្រើសទាំងអស់";
+"Duplicate Line or Selection" = "ស្ទួនបន្ទាត់ ឬការជ្រើស";
+"Delete Line" = "លុបបន្ទាត់";
+"Join Lines" = "ភ្ជាប់បន្ទាត់";
+"Toggle Case" = "ប្ដូរអក្សរធំ/តូច";
+"Comment with Line Comment" = "ធ្វើជាមតិយោបល់បន្ទាត់";
+"Move Line Up" = "ផ្លាស់បន្ទាត់ឡើងលើ";
+"Move Line Down" = "ផ្លាស់បន្ទាត់ចុះក្រោម";
+"Extend Selection" = "ពង្រីកការជ្រើស";
+"Shrink Selection" = "បង្រួមការជ្រើស";
+"Start New Line" = "ចាប់ផ្ដើមបន្ទាត់ថ្មី";
+"Start New Line Before Current" = "ចាប់ផ្ដើមបន្ទាត់ថ្មីមុនបន្ទាត់បច្ចុប្បន្ន";
 "Find…" = "ស្វែងរក…";
 "Replace…" = "ជំនួស…";
 "Find Next" = "ស្វែងរកបន្ទាប់";
 "Find Previous" = "ស្វែងរកមុន";
 "Use Selection for Find" = "ស្វែងរកអត្ថបទដែលបានជ្រើស";
+"Find in Files…" = "ស្វែងរកក្នុងឯកសារ…";
 "Find" = "ស្វែងរក";
 "Project" = "គម្រោង";
 "Terminal" = "ស្ថានីយ";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "បន្ថយទំហំពុម្ពអក្សរ";
 "Reset Font Size" = "កំណត់ទំហំពុម្ពអក្សរឡើងវិញ";
 "Search Everywhere (Double ⇧)" = "ស្វែងរកគ្រប់ទីកន្លែង (⇧ ពីរដង)";
+"Recent Files" = "ឯកសារថ្មីៗ";
+"Find Action…" = "ស្វែងរកសកម្មភាព…";
+"Go to Line:Column…" = "ទៅកាន់បន្ទាត់:ជួរឈរ…";
 "Select in Project View" = "ជ្រើសក្នុងមែកធាងគម្រោង";
 "Next Tab" = "ផ្ទាំងបន្ទាប់";
 "Previous Tab" = "ផ្ទាំងមុន";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "បើកក្នុងស្ថានីយ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "ទៅកាន់បន្ទាត់:ជួរឈរ";
 "Left Panel" = "ផ្ទាំងខាងឆ្វេង";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "ឯកសារ";
 "Double ⇧ to search everywhere" = "ចុច ⇧ ពីរដងដើម្បីស្វែងរកគ្រប់ទីកន្លែង";
+"Files" = "ឯកសារ";
+"Actions" = "សកម្មភាព";
+"Text" = "អត្ថបទ";
 "Type a file name (use / to match the path)" = "វាយឈ្មោះឯកសារ (ប្រើ / ដើម្បីស្វែងរកតាមផ្លូវ)";
+"Type a command name" = "វាយឈ្មោះពាក្យបញ្ជា";
+"Type text to find in project files" = "វាយអត្ថបទដើម្បីស្វែងរកក្នុងឯកសារគម្រោង";
 "No recent files" = "គ្មានឯកសារថ្មីៗ";
-"Recent Files" = "ឯកសារថ្មីៗ";
 "Matches: %1$ld / Files: %2$ld" = "លទ្ធផលត្រូវគ្នា៖ %1$ld / ឯកសារ៖ %2$ld";
+"Searching…" = "កំពុងស្វែងរក…";
+"Switch Tab" = "ប្ដូរផ្ទាំង";

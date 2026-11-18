@@ -37,11 +37,23 @@
 "Copy" = "Պատճենել";
 "Paste" = "Տեղադրել";
 "Select All" = "Ընտրել բոլորը";
+"Duplicate Line or Selection" = "Կրկնօրինակել տողը կամ ընտրվածը";
+"Delete Line" = "Ջնջել տողը";
+"Join Lines" = "Միացնել տողերը";
+"Toggle Case" = "Փոխել մեծատառ/փոքրատառ";
+"Comment with Line Comment" = "Մեկնաբանել տողային մեկնաբանությամբ";
+"Move Line Up" = "Տեղափոխել տողը վերև";
+"Move Line Down" = "Տեղափոխել տողը ներքև";
+"Extend Selection" = "Ընդլայնել ընտրությունը";
+"Shrink Selection" = "Նեղացնել ընտրությունը";
+"Start New Line" = "Սկսել նոր տող";
+"Start New Line Before Current" = "Սկսել նոր տող ընթացիկից առաջ";
 "Find…" = "Գտնել…";
 "Replace…" = "Փոխարինել…";
 "Find Next" = "Գտնել հաջորդը";
 "Find Previous" = "Գտնել նախորդը";
 "Use Selection for Find" = "Որոնել ընտրված տեքստը";
+"Find in Files…" = "Գտնել ֆայլերում…";
 "Find" = "Գտնել";
 "Project" = "Նախագիծ";
 "Terminal" = "Տերմինալ";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Փոքրացնել տառաչափը";
 "Reset Font Size" = "Վերակայել տառաչափը";
 "Search Everywhere (Double ⇧)" = "Որոնել ամենուր (կրկնակի ⇧)";
+"Recent Files" = "Վերջին ֆայլերը";
+"Find Action…" = "Գտնել գործողություն…";
+"Go to Line:Column…" = "Անցնել տողին:սյունակին…";
 "Select in Project View" = "Ընտրել նախագծի ծառում";
 "Next Tab" = "Հաջորդ ներդիրը";
 "Previous Tab" = "Նախորդ ներդիրը";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Բացել տերմինալում";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Անցնել տողին:սյունակին";
 "Left Panel" = "Ձախ վահանակ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Ֆայլեր";
 "Double ⇧ to search everywhere" = "Ամենուր որոնելու համար երկու անգամ սեղմեք ⇧";
+"Files" = "Ֆայլեր";
+"Actions" = "Գործողություններ";
+"Text" = "Տեքստ";
 "Type a file name (use / to match the path)" = "Մուտքագրեք ֆայլի անունը (ուղին համընկեցնելու համար օգտագործեք /)";
+"Type a command name" = "Մուտքագրեք հրամանի անունը";
+"Type text to find in project files" = "Մուտքագրեք նախագծի ֆայլերում որոնվող տեքստը";
 "No recent files" = "Վերջին ֆայլեր չկան";
-"Recent Files" = "Վերջին ֆայլերը";
 "Matches: %1$ld / Files: %2$ld" = "Համընկնումներ՝ %1$ld / Ֆայլեր՝ %2$ld";
+"Searching…" = "Որոնում…";
+"Switch Tab" = "Փոխել ներդիրը";

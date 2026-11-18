@@ -37,11 +37,23 @@
 "Copy" = "Kope";
 "Paste" = "Hoʻopili";
 "Select All" = "Koho i nā mea a pau";
+"Duplicate Line or Selection" = "Pālua i ka lālani a i ʻole ka mea i koho ʻia";
+"Delete Line" = "Holoi i ka lālani";
+"Join Lines" = "Hoʻohui i nā lālani";
+"Toggle Case" = "Hoʻololi i nā hua nui/liʻiliʻi";
+"Comment with Line Comment" = "Hoʻohuli i manaʻo lālani";
+"Move Line Up" = "Hoʻoneʻe i ka lālani i luna";
+"Move Line Down" = "Hoʻoneʻe i ka lālani i lalo";
+"Extend Selection" = "Hoʻonui i ke koho";
+"Shrink Selection" = "Hoʻēmi i ke koho";
+"Start New Line" = "Hoʻomaka i lālani hou";
+"Start New Line Before Current" = "Hoʻomaka i lālani hou ma mua o kēia";
 "Find…" = "Huli…";
 "Replace…" = "Hoʻololi…";
 "Find Next" = "Huli i ka mea aʻe";
 "Find Previous" = "Huli i ka mea ma mua";
 "Use Selection for Find" = "Huli i ke kikokikona i koho ʻia";
+"Find in Files…" = "Huli ma nā faila…";
 "Find" = "Huli";
 "Project" = "Papahana";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Hoʻēmi i ka nui o nā huapalapala";
 "Reset Font Size" = "Hoʻihoʻi i ka nui o nā huapalapala";
 "Search Everywhere (Double ⇧)" = "Huli ma nā wahi a pau (⇧ ʻelua manawa)";
+"Recent Files" = "Nā faila i wehe koke ʻia";
+"Find Action…" = "Huli i ke kauoha…";
+"Go to Line:Column…" = "Hele i ka lālani:kolamu…";
 "Select in Project View" = "Koho ma ka nānā papahana";
 "Next Tab" = "Kapu aʻe";
 "Previous Tab" = "Kapu ma mua";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Wehe ma ka terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Hele i ka lālani:kolamu";
 "Left Panel" = "Papa hema";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Nā faila";
 "Double ⇧ to search everywhere" = "Kaomi iā ⇧ ʻelua manawa e huli ai ma nā wahi a pau";
+"Files" = "Nā faila";
+"Actions" = "Nā kauoha";
+"Text" = "Kikokikona";
 "Type a file name (use / to match the path)" = "Kākau i inoa faila (e hoʻohana i / e huli ai ma ke ala)";
+"Type a command name" = "Kākau i inoa kauoha";
+"Type text to find in project files" = "Kākau i ke kikokikona e huli ai ma nā faila papahana";
 "No recent files" = "ʻAʻohe faila i wehe koke ʻia";
-"Recent Files" = "Nā faila i wehe koke ʻia";
 "Matches: %1$ld / Files: %2$ld" = "Nā mea kūlike: %1$ld / Nā faila: %2$ld";
+"Searching…" = "Ke huli nei…";
+"Switch Tab" = "Hoʻololi i ke kapu";

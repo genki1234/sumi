@@ -35,7 +35,8 @@ Lakokake agen ing terminal bawaan, klik berkas sing diowahi kanggo mbukak, lan w
 - Terminal nggunakake Metal minangka gawan, kanthi saklar Panggambaran GPU ing Tampilan. Goleki output nganggo ⌘F; tab anyar marisi direktori kerja saiki.
 - Shift+Enter njaga input prompt pirang-pirang larik. Tempel ndhukung teks pirang-pirang larik, berkas, lan gambar; gambar disimpen dadi PNG sauntara lan dilebokake minangka path ing tandha petik.
 - Pratinjau Markdown lan HTML ing jejere teks dianyari nalika ngetik (⇧⌘V utawa tombol ing pojok tengen ndhuwur tab). Markdown ditampilake nganggo cmark-gfm, piranti sing digunakake GitHub: tabel, dhaptar tugas, teks dicoret, lan pranala otomatis.
-- Goleki ing Endi Wae: pencet Shift kaping pindho kanggo nemokake berkas apa wae ing proyek nganggo telusuran jeneng sing ora kudu pas.
+- Goleki ing Endi Wae: pencet Shift kaping pindho kanggo nemokake berkas apa wae ing proyek nganggo telusuran jeneng sing ora kudu pas. Tab Tindakan (⇧⌘A) nglakokake printah menu apa wae miturut jenenge, lan tab Teks (⇧⌘F) nggoleki teks ing saben berkas proyek.
+- Nyunting larik saka papan ketik: duplikasi, busak, pindhah, dadekake komentar, lan gabung larik, uga jembarake pilihan kanthi bertahap saka siji tembung nganti kabeh berkas.
 - Ngenali berkas sumber nganggo katalog 915 jeneng basa lan format berkas, kalebu jeneng berkas, ekstensi majemuk, lan interpreter skrip. Kabeh 297 komponen Prism (291 tata basa mandhiri lan 6 pambiyantu) disedhiyakake lan dimuat yen dibutuhake. Format tanpa tata basa nganggo panyorotan teks dhasar.
 - Antarmuka duwe 108 pilihan basa. Gunakake menu Basa kanggo langsung ngalih utawa manut basa sistem. Pilihan dielingi; berkas kabuka, suntingan sing durung disimpen, lan sesi terminal tetep kabuka. Ing antarmuka Arab, Ibrani, lan basa liya sing saka tengen menyang kiwa, kode, pratinjau, lan output terminal tetep saka kiwa menyang tengen. Terjemahan ditulis langsung saka teks Inggris kanthi konteks editor lan terminal. Panel sistem manut setelan basa macOS. Katalog iki ora nyakup saben basa alami utawa pamrograman. Deleng [Nerjemahake Sumi](CONTRIBUTING.md#translating-sumi).
 - Tampilan padhang lan peteng manut sistem.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Pilih ing Wit Proyek | ⌥⌘1 |
 | Tab Sabanjure / Tab Sadurunge | ⇧⌘] / ⇧⌘[ |
 | Simpen / Simpen Kabeh | ⌘S / ⌥⌘S |
+| Berkas Pungkasan | ⌘E |
+| Goleki Tindakan | ⇧⌘A |
+| Goleki ing Berkas | ⇧⌘F |
+| Menyang Larik:Kolom | ⌘L |
+| Duplikasi Larik utawa Pilihan | ⌘D |
+| Busak Larik | ⌘⌫ |
+| Pindhah Larik Munggah / Mudhun | ⌥⇧↑ / ⌥⇧↓ |
+| Komentari nganggo Komentar Larik | ⌘/ |
+| Gabung Larik | ⌃⇧J |
+| Ganti Huruf Gedhe/Cilik | ⇧⌘U |
+| Jembarake / Ciutake Pilihan | ⌥↑ / ⌥↓ |
+| Wiwiti Larik Anyar ing Ngisor / ing Ndhuwur | ⇧↩ / ⌥⌘↩ |
 
 ## Kontribusi
 

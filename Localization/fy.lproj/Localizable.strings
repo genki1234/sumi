@@ -37,11 +37,23 @@
 "Copy" = "Kopiearje";
 "Paste" = "Plakke";
 "Select All" = "Alles selektearje";
+"Duplicate Line or Selection" = "Rigel of seleksje duplisearje";
+"Delete Line" = "Rigel wiskje";
+"Join Lines" = "Rigels gearfoegje";
+"Toggle Case" = "Haadletters/lytse letters wikselje";
+"Comment with Line Comment" = "Mei rigelkommentaar kommentariearje";
+"Move Line Up" = "Rigel omheech ferpleatse";
+"Move Line Down" = "Rigel omleech ferpleatse";
+"Extend Selection" = "Seleksje útwreidzje";
+"Shrink Selection" = "Seleksje ferlytsje";
+"Start New Line" = "Nije rigel begjinne";
+"Start New Line Before Current" = "Nije rigel foar de aktuele begjinne";
 "Find…" = "Sykje…";
 "Replace…" = "Ferfange…";
 "Find Next" = "Folgjende sykje";
 "Find Previous" = "Foarige sykje";
 "Use Selection for Find" = "Sykje mei selektearre tekst";
+"Find in Files…" = "Yn bestannen sykje…";
 "Find" = "Sykje";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Lettergrutte ferlytsje";
 "Reset Font Size" = "Lettergrutte weromsette";
 "Search Everywhere (Double ⇧)" = "Oeral sykje (twa kear ⇧)";
+"Recent Files" = "Resinte bestannen";
+"Find Action…" = "Aksje sykje…";
+"Go to Line:Column…" = "Nei rigel:kolom gean…";
 "Select in Project View" = "Selektearje yn projektwerjefte";
 "Next Tab" = "Folgjende ljepper";
 "Previous Tab" = "Foarige ljepper";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Yn terminal iepenje";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Nei rigel:kolom gean";
 "Left Panel" = "Linkerpaniel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Bestannen";
 "Double ⇧ to search everywhere" = "Druk twa kear op ⇧ om oeral te sykjen";
+"Files" = "Bestannen";
+"Actions" = "Aksjes";
+"Text" = "Tekst";
 "Type a file name (use / to match the path)" = "Typ in bestânsnamme (brûk / om yn it paad te sykjen)";
+"Type a command name" = "Typ in kommandonamme";
+"Type text to find in project files" = "Typ tekst om yn projektbestannen te sykjen";
 "No recent files" = "Gjin resinte bestannen";
-"Recent Files" = "Resinte bestannen";
 "Matches: %1$ld / Files: %2$ld" = "Oerienkomsten: %1$ld / Bestannen: %2$ld";
+"Searching…" = "Oan it sykjen…";
+"Switch Tab" = "Ljepper wikselje";

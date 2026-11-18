@@ -37,11 +37,23 @@
 "Copy" = "Copiar";
 "Paste" = "Pegar";
 "Select All" = "Seleccionar todo";
+"Duplicate Line or Selection" = "Duplicar línea o selección";
+"Delete Line" = "Eliminar línea";
+"Join Lines" = "Unir líneas";
+"Toggle Case" = "Alternar mayúsculas/minúsculas";
+"Comment with Line Comment" = "Comentar con comentario de línea";
+"Move Line Up" = "Mover línea arriba";
+"Move Line Down" = "Mover línea abajo";
+"Extend Selection" = "Ampliar selección";
+"Shrink Selection" = "Reducir selección";
+"Start New Line" = "Iniciar nueva línea";
+"Start New Line Before Current" = "Iniciar nueva línea antes de la actual";
 "Find…" = "Buscar…";
 "Replace…" = "Reemplazar…";
 "Find Next" = "Buscar siguiente";
 "Find Previous" = "Buscar anterior";
 "Use Selection for Find" = "Buscar el texto seleccionado";
+"Find in Files…" = "Buscar en archivos…";
 "Find" = "Buscar";
 "Project" = "Proyecto";
 "Terminal" = "Terminal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Reducir tamaño de letra";
 "Reset Font Size" = "Restablecer tamaño de letra";
 "Search Everywhere (Double ⇧)" = "Buscar en todas partes (⇧ dos veces)";
+"Recent Files" = "Archivos recientes";
+"Find Action…" = "Buscar acción…";
+"Go to Line:Column…" = "Ir a línea:columna…";
 "Select in Project View" = "Seleccionar en la vista del proyecto";
 "Next Tab" = "Pestaña siguiente";
 "Previous Tab" = "Pestaña anterior";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Abrir en terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Ir a línea:columna";
 "Left Panel" = "Panel izquierdo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Archivos";
 "Double ⇧ to search everywhere" = "Pulsa ⇧ dos veces para buscar en todas partes";
+"Files" = "Archivos";
+"Actions" = "Acciones";
+"Text" = "Texto";
 "Type a file name (use / to match the path)" = "Escribe un nombre de archivo (usa / para buscar en la ruta)";
+"Type a command name" = "Escribe un nombre de comando";
+"Type text to find in project files" = "Escribe el texto que quieres buscar en los archivos del proyecto";
 "No recent files" = "No hay archivos recientes";
-"Recent Files" = "Archivos recientes";
 "Matches: %1$ld / Files: %2$ld" = "Coincidencias: %1$ld / Archivos: %2$ld";
+"Searching…" = "Buscando…";
+"Switch Tab" = "Cambiar de pestaña";

@@ -4,6 +4,34 @@ import AppKit
 final class CodeTextView: NSTextView {
     var language: Language?
     var indentWidth = 4
+    /// Selections Extend Selection grew from, so Shrink Selection can go back. Any other selection change clears it.
+    var selectionHistory: [NSRange] = []
+
+    override func setSelectedRanges(_ ranges: [NSValue], affinity: NSSelectionAffinity, stillSelecting: Bool) {
+        selectionHistory.removeAll()
+        super.setSelectedRanges(ranges, affinity: affinity, stillSelecting: stillSelecting)
+    }
+
+    /// ⇧↩ (Start New Line) is listed in the Edit menu, but AppKit gives Return to the text view before
+    /// the menu sees it, so the text view runs the command itself.
+    override func keyDown(with event: NSEvent) {
+        if event.keyCode == 36 || event.keyCode == 76,
+           event.modifierFlags.intersection([.shift, .control, .option, .command]) == .shift, !hasMarkedText() {
+            startNewLine(nil)
+            return
+        }
+        super.keyDown(with: event)
+    }
+
+    /// Line commands are off while the input method composes text, so its keys reach the input method.
+    override func validateMenuItem(_ menuItem: NSMenuItem) -> Bool {
+        guard let action = menuItem.action else { return super.validateMenuItem(menuItem) }
+        if action == #selector(commentWithLineComment(_:)) && CommentSyntax.of(language) == nil { return false }
+        if Self.lineEditingActions.contains(action) { return isEditable && !hasMarkedText() }
+        if action == #selector(extendSelection(_:)) { return !hasMarkedText() }
+        if action == #selector(shrinkSelection(_:)) { return !hasMarkedText() && !selectionHistory.isEmpty }
+        return super.validateMenuItem(menuItem)
+    }
 
     override func drawBackground(in rect: NSRect) {
         super.drawBackground(in: rect)

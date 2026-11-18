@@ -37,11 +37,23 @@
 "Copy" = "拷貝";
 "Paste" = "貼上";
 "Select All" = "全選";
+"Duplicate Line or Selection" = "複製行或選取範圍";
+"Delete Line" = "刪除行";
+"Join Lines" = "合併行";
+"Toggle Case" = "切換大小寫";
+"Comment with Line Comment" = "使用行註解進行註解";
+"Move Line Up" = "上移行";
+"Move Line Down" = "下移行";
+"Extend Selection" = "擴大選取範圍";
+"Shrink Selection" = "縮小選取範圍";
+"Start New Line" = "開始新行";
+"Start New Line Before Current" = "在目前行之前開始新行";
 "Find…" = "尋找…";
 "Replace…" = "取代…";
 "Find Next" = "尋找下一個";
 "Find Previous" = "尋找上一個";
 "Use Selection for Find" = "尋找所選文字";
+"Find in Files…" = "在檔案中尋找…";
 "Find" = "尋找";
 "Project" = "專案";
 "Terminal" = "終端機";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "縮小字體";
 "Reset Font Size" = "重設字體大小";
 "Search Everywhere (Double ⇧)" = "搜尋所有位置（連按兩次 ⇧）";
+"Recent Files" = "最近使用的檔案";
+"Find Action…" = "尋找動作…";
+"Go to Line:Column…" = "前往行:欄…";
 "Select in Project View" = "在專案檢視中選取";
 "Next Tab" = "下一個分頁";
 "Previous Tab" = "上一個分頁";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "在終端機中開啟";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "前往行:欄";
 "Left Panel" = "左側面板";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "檔案";
 "Double ⇧ to search everywhere" = "連按兩次 ⇧ 以搜尋所有位置";
+"Files" = "檔案";
+"Actions" = "動作";
+"Text" = "文字";
 "Type a file name (use / to match the path)" = "輸入檔案名稱（使用 / 可比對路徑）";
+"Type a command name" = "輸入指令名稱";
+"Type text to find in project files" = "輸入要在專案檔案中尋找的文字";
 "No recent files" = "沒有最近使用的檔案";
-"Recent Files" = "最近使用的檔案";
 "Matches: %1$ld / Files: %2$ld" = "符合項目：%1$ld / 檔案：%2$ld";
+"Searching…" = "正在搜尋…";
+"Switch Tab" = "切換分頁";

@@ -35,7 +35,8 @@ Pokrenite agenta u ugrađenom terminalu, kliknite datoteke koje mijenja da biste
 - Terminali zadano koriste Metal, uz mogućnost Iscrtavanje pomoću GPU-a u izborniku Prikaz. Pretražite izlaz prečacem ⌘F; nove kartice nasljeđuju trenutačni radni direktorij.
 - Shift+Enter čuva višeredni unos upita. Lijepljenje podržava višeredni tekst, datoteke i slike; slike se čuvaju kao privremeni PNG-ovi i umeću kao putanje u navodnicima.
 - Pretpregled Markdowna i HTML-a uz tekst osvježava se tijekom tipkanja (⇧⌘V ili gumbi gore desno na kartici). Markdown prikazuje cmark-gfm, isti mehanizam koji koristi GitHub: tablice, popisi zadataka, precrtavanje i automatske poveznice.
-- Traži svugdje: dvaput pritisnite Shift za neizrazito traženje bilo koje datoteke u projektu prema nazivu.
+- Traži svugdje: dvaput pritisnite Shift za neizrazito traženje bilo koje datoteke u projektu prema nazivu. Kartica Radnje (⇧⌘A) pokreće bilo koju naredbu izbornika prema nazivu, a kartica Tekst (⇧⌘F) pretražuje tekst svih datoteka projekta.
+- Uređivanje redaka s tipkovnice: duplicirajte, izbrišite, pomičite, komentirajte i spajajte retke te postupno proširujte odabir od riječi do cijele datoteke.
 - Izvorne datoteke prepoznaju se katalogom od 915 naziva jezika i formata, uključujući nazive datoteka, složene nastavke i interpretere skripti. Svih 297 komponenti Prisma (291 samostalna gramatika i 6 pomoćnih komponenti) uključeno je i učitava se prema potrebi. Formati bez gramatike koriste osnovno isticanje teksta.
 - Sučelje nudi 108 jezika. Izbornikom Jezik odmah promijenite jezik ili pratite jezik sustava. Odabir se pamti; otvorene datoteke, nespremljene izmjene i sesije terminala ostaju otvorene. U arapskom, hebrejskom i drugim sučeljima zdesna nalijevo kod, pretpregled i izlaz terminala ostaju slijeva nadesno. Prijevodi su napisani izravno iz engleskih tekstova uz kontekst uređivača i terminala. Sistemski paneli prate jezične postavke macOS-a. Katalog ne obuhvaća svaki prirodni ni programski jezik. Pogledajte [Prevođenje Sumija](CONTRIBUTING.md#translating-sumi).
 - Svijetli i tamni izgled prate sustav.
@@ -85,6 +86,18 @@ open -a Sumi path/to/project
 | Odaberi u prikazu projekta | ⌥⌘1 |
 | Sljedeća kartica / Prethodna kartica | ⇧⌘] / ⇧⌘[ |
 | Spremi / Spremi sve | ⌘S / ⌥⌘S |
+| Nedavne datoteke | ⌘E |
+| Pronađi radnju | ⇧⌘A |
+| Pronađi u datotekama | ⇧⌘F |
+| Idi na redak:stupac | ⌘L |
+| Dupliciraj redak ili odabir | ⌘D |
+| Izbriši redak | ⌘⌫ |
+| Pomakni redak gore / dolje | ⌥⇧↑ / ⌥⇧↓ |
+| Komentiraj komentarom retka | ⌘/ |
+| Spoji retke | ⌃⇧J |
+| Promijeni velika/mala slova | ⇧⌘U |
+| Proširi / suzi odabir | ⌥↑ / ⌥↓ |
+| Započni novi redak ispod / iznad | ⇧↩ / ⌥⌘↩ |
 
 ## Doprinosi
 

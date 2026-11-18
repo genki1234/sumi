@@ -37,11 +37,23 @@
 "Copy" = "Dèan lethbhreac";
 "Paste" = "Cuir ann";
 "Select All" = "Tagh na h-uile";
+"Duplicate Line or Selection" = "Dùblaich an loidhne no an taghadh";
+"Delete Line" = "Sguab às an loidhne";
+"Join Lines" = "Ceangail na loidhnichean";
+"Toggle Case" = "Toglaich litrichean mòra/beaga";
+"Comment with Line Comment" = "Cuir beachd loidhne air";
+"Move Line Up" = "Gluais an loidhne suas";
+"Move Line Down" = "Gluais an loidhne sìos";
+"Extend Selection" = "Leudaich an taghadh";
+"Shrink Selection" = "Lùghdaich an taghadh";
+"Start New Line" = "Tòisich loidhne ùr";
+"Start New Line Before Current" = "Tòisich loidhne ùr ron loidhne làithreach";
 "Find…" = "Lorg…";
 "Replace…" = "Cuir na àite…";
 "Find Next" = "Lorg an ath fhear";
 "Find Previous" = "Lorg am fear roimhe";
 "Use Selection for Find" = "Lorg an teacsa taghte";
+"Find in Files…" = "Lorg ann am faidhlichean…";
 "Find" = "Lorg";
 "Project" = "Pròiseact";
 "Terminal" = "Tèirmineal";
@@ -54,6 +66,9 @@
 "Decrease Font Size" = "Lùghdaich an cruth-clò";
 "Reset Font Size" = "Ath-shuidhich meud a' chruth-chlò";
 "Search Everywhere (Double ⇧)" = "Lorg anns gach àite (⇧ dà thuras)";
+"Recent Files" = "Faidhlichean o chionn ghoirid";
+"Find Action…" = "Lorg gnìomh…";
+"Go to Line:Column…" = "Rach gu loidhne:colbh…";
 "Select in Project View" = "Tagh ann an sealladh a' phròiseict";
 "Next Tab" = "An ath thaba";
 "Previous Tab" = "An taba roimhe";
@@ -113,12 +128,18 @@
 "Open in Terminal" = "Fosgail san tèirmineal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Go to Line:Column" = "Rach gu loidhne:colbh";
 "Left Panel" = "Panail chlì";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
-"Files" = "Faidhlichean";
 "Double ⇧ to search everywhere" = "Brùth ⇧ dà thuras gus lorg anns gach àite";
+"Files" = "Faidhlichean";
+"Actions" = "Gnìomhan";
+"Text" = "Teacsa";
 "Type a file name (use / to match the path)" = "Sgrìobh ainm faidhle (cleachd / gus lorg san t-slighe)";
+"Type a command name" = "Sgrìobh ainm àithne";
+"Type text to find in project files" = "Sgrìobh teacsa ri lorg ann am faidhlichean a' phròiseict";
 "No recent files" = "Chan eil faidhlichean o chionn ghoirid ann";
-"Recent Files" = "Faidhlichean o chionn ghoirid";
 "Matches: %1$ld / Files: %2$ld" = "Co-fhreagairtean: %1$ld / Faidhlichean: %2$ld";
+"Searching…" = "A' lorg…";
+"Switch Tab" = "Atharraich an taba";
