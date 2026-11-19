@@ -42,6 +42,7 @@
 "Join Lines" = "Uneix les línies";
 "Toggle Case" = "Commuta majúscules/minúscules";
 "Comment with Line Comment" = "Comenta amb comentari de línia";
+"Comment with Block Comment" = "Comenta amb comentari de bloc";
 "Move Line Up" = "Mou la línia amunt";
 "Move Line Down" = "Mou la línia avall";
 "Extend Selection" = "Amplia la selecció";
@@ -54,6 +55,7 @@
 "Find Previous" = "Cerca l'anterior";
 "Use Selection for Find" = "Cerca el text seleccionat";
 "Find in Files…" = "Cerca als fitxers…";
+"Replace in Files…" = "Substitueix als fitxers…";
 "Find" = "Cerca";
 "Project" = "Projecte";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Cerca una acció…";
 "Go to Line:Column…" = "Ves a la línia:columna…";
 "Select in Project View" = "Selecciona a la vista del projecte";
+"Back" = "Enrere";
+"Forward" = "Endavant";
+"Last Edit Location" = "Lloc de la darrera edició";
 "Next Tab" = "Pestanya següent";
 "Previous Tab" = "Pestanya anterior";
 "Minimize" = "Minimitza";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Obre al terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Coincidències: %1$ld / Fitxers: %2$ld";
+"Replace All" = "Substitueix-ho tot";
 "Go to Line:Column" = "Ves a la línia:columna";
 "Left Panel" = "Tauler esquerre";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Substitueix per";
 "Double ⇧ to search everywhere" = "Premeu ⇧ dues vegades per cercar arreu";
 "Files" = "Fitxers";
 "Actions" = "Accions";
@@ -140,6 +148,6 @@
 "Type a command name" = "Escriviu el nom d'una ordre";
 "Type text to find in project files" = "Escriviu el text que voleu cercar als fitxers del projecte";
 "No recent files" = "No hi ha fitxers recents";
-"Matches: %1$ld / Files: %2$ld" = "Coincidències: %1$ld / Fitxers: %2$ld";
 "Searching…" = "S'està cercant…";
+"Next Field" = "Camp següent";
 "Switch Tab" = "Canvia de pestanya";

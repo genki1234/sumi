@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Viimeaikaiset tiedostot | ⌘E |
 | Etsi toiminto | ⇧⌘A |
 | Etsi tiedostoista | ⇧⌘F |
+| Korvaa tiedostoissa | ⇧⌘R |
 | Siirry kohtaan rivi:sarake | ⌘L |
+| Takaisin / eteenpäin | ⌘[ / ⌘] |
+| Viimeisin muokkauskohta | ⇧⌘⌫ |
 | Monista rivi tai valinta | ⌘D |
 | Poista rivi | ⌘⌫ |
 | Siirrä riviä ylös / alas | ⌥⇧↑ / ⌥⇧↓ |
 | Kommentoi rivikommentilla | ⌘/ |
+| Kommentoi lohkokommentilla | ⌥⌘/ |
 | Yhdistä rivit | ⌃⇧J |
 | Vaihda kirjainkoko | ⇧⌘U |
 | Laajenna / supista valintaa | ⌥↑ / ⌥↓ |

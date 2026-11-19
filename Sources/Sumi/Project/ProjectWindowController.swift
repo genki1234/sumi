@@ -235,6 +235,7 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
             return
         }
         if beforeMaximize != nil { restoreFromMaximize() }
+        editorArea.recordPlace()
         editorArea.openFile(url)
         guard let editor = editorArea.currentEditor, editor.document.url.standardizedFileURL == url else { return }
         if let line = location.first { editor.go(toLine: line, column: location.count > 1 ? location[1] : 1) }
@@ -259,8 +260,9 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         editorArea.checkExternalChanges()
     }
 
-    /// Double Shift and ⇧⌘O open the Files tab, ⌘E the recent files, ⇧⌘A the Actions tab and ⇧⌘F the Text tab.
-    func showSearchEverywhere(_ mode: SearchEverywhereController.Mode = .files, query: String? = nil) {
+    /// Double Shift and ⇧⌘O open the Files tab, ⌘E the recent files, ⇧⌘A the Actions tab, ⇧⌘F the Text tab
+    /// and ⇧⌘R the Text tab with its replace field.
+    func showSearchEverywhere(_ mode: SearchEverywhereController.Mode = .files, query: String? = nil, replace: Bool = false) {
         guard let window else { return }
         if searchController == nil {
             let controller = SearchEverywhereController(index: fileIndex, rootURL: rootURL)
@@ -272,6 +274,7 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
             controller.onOpenMatch = { [weak self] match in
                 guard let self else { return }
                 if self.beforeMaximize != nil { self.restoreFromMaximize() }
+                self.editorArea.recordPlace()
                 self.editorArea.openFile(match.url)
                 guard let editor = self.editorArea.currentEditor, editor.document.url == match.url.standardizedFileURL else { return }
                 editor.go(toLine: match.line, column: match.column)
@@ -280,9 +283,57 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
                 editor.focus()
             }
             controller.recentFiles = { [weak self] in self?.editorArea.recentFiles ?? [] }
+            controller.onReplaceAll = { [weak self] query, replacement in self?.confirmReplace(query, with: replacement) }
             searchController = controller
         }
-        searchController?.show(attachedTo: window, mode: mode, query: query)
+        searchController?.show(attachedTo: window, mode: mode, query: query, replace: replace)
+    }
+
+    /// Counts the occurrences again over every project file (an open tab counts its unsaved text), asks
+    /// once with the totals, then replaces.
+    private func confirmReplace(_ query: String, with replacement: String) {
+        let files = fileIndex.files
+        var openTexts: [URL: String] = [:]
+        for editor in editorArea.editors { openTexts[editor.document.url] = editor.document.textStorage.string }
+        Task { [weak self] in
+            let counts = await SearchEverywhereController.countMatches(query, in: files, openTexts: openTexts)
+            guard let self, let window = self.window else { return }
+            guard !counts.isEmpty else { NSSound.beep(); return }
+            let alert = NSAlert()
+            alert.messageText = "“\(query)” → “\(replacement)”"
+            alert.informativeText = L("Matches: %1$ld / Files: %2$ld", counts.reduce(0) { $0 + $1.count }, counts.count)
+            alert.addButton(withTitle: L("Replace All"))
+            alert.addButton(withTitle: L("Cancel"))
+            alert.beginSheetModal(for: window) { [weak self] response in
+                guard response == .alertFirstButtonReturn else { return }
+                self?.replace(query, with: replacement, in: counts.map(\.url))
+            }
+        }
+    }
+
+    /// Open files change in their tab, as one undo step, and autosave writes them. The other files are
+    /// read and saved like a tab, so their encoding, BOM, line endings and permissions stay as they were.
+    private func replace(_ query: String, with replacement: String, in urls: [URL]) {
+        var failure: (url: URL, error: Error)?
+        for url in urls {
+            if let editor = editorArea.editors.first(where: { $0.document.url == url.standardizedFileURL }) {
+                editor.replaceAll(query, with: replacement)
+                continue
+            }
+            do {
+                let document = try TextDocument(url: url)
+                let text = document.textStorage.mutableString
+                guard text.replaceOccurrences(of: query, with: replacement, options: .caseInsensitive, range: NSRange(location: 0, length: text.length)) > 0 else { continue }
+                document.isDirty = true
+                try document.save()
+            } catch {
+                if failure == nil { failure = (url, error) }
+            }
+        }
+        guard let failure, let window else { return }
+        let alert = NSAlert(error: failure.error)
+        alert.informativeText = editorArea.relativePath(of: failure.url)
+        alert.beginSheetModal(for: window, completionHandler: nil)
     }
 
     /// ⌘L: asks for "line" or "line:column" and moves the caret there.
@@ -298,10 +349,11 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         alert.addButton(withTitle: L("OK"))
         alert.addButton(withTitle: L("Cancel"))
         alert.window.initialFirstResponder = field
-        alert.beginSheetModal(for: window) { [weak editor] response in
+        alert.beginSheetModal(for: window) { [weak self, weak editor] response in
             guard response == .alertFirstButtonReturn, let editor else { return }
             let numbers = field.stringValue.split(whereSeparator: { $0 == ":" || $0 == "," || $0 == " " }).compactMap { Int($0) }
             guard let line = numbers.first else { return }
+            self?.editorArea.recordPlace()
             editor.go(toLine: line, column: numbers.count > 1 ? numbers[1] : 1)
             editor.focus()
         }
@@ -328,14 +380,19 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
     @objc func goToLine(_ sender: Any?) { showGoToLine() }
 
     /// ⇧⌘F: the Text tab, starting from the text selected in the editor when it is on one line.
-    @objc func findInFiles(_ sender: Any?) {
-        var query: String?
-        if let textView = editorArea.currentEditor?.textView, window?.firstResponder === textView {
-            let selected = (textView.string as NSString).substring(with: textView.selectedRange())
-            if !selected.isEmpty, !selected.contains("\n") { query = selected }
-        }
-        showSearchEverywhere(.text, query: query)
+    @objc func findInFiles(_ sender: Any?) { showSearchEverywhere(.text, query: selectedQuery) }
+    /// ⇧⌘R: the same with the replace field.
+    @objc func replaceInFiles(_ sender: Any?) { showSearchEverywhere(.text, query: selectedQuery, replace: true) }
+
+    private var selectedQuery: String? {
+        guard let textView = editorArea.currentEditor?.textView, window?.firstResponder === textView else { return nil }
+        let selected = (textView.string as NSString).substring(with: textView.selectedRange())
+        return selected.isEmpty || selected.contains("\n") ? nil : selected
     }
+
+    @objc func navigateBack(_ sender: Any?) { editorArea.goBack() }
+    @objc func navigateForward(_ sender: Any?) { editorArea.goForward() }
+    @objc func goToLastEditLocation(_ sender: Any?) { editorArea.goToLastEdit() }
     @objc func saveDocument(_ sender: Any?) { editorArea.saveCurrent() }
     @objc func saveAllDocuments(_ sender: Any?) { editorArea.saveAll() }
     @objc func newFile(_ sender: Any?) { treeController.newItem(folder: false) }
@@ -437,6 +494,9 @@ final class ProjectWindowController: NSWindowController, NSWindowDelegate, NSToo
         if item.action == #selector(togglePreview(_:)) { return editorArea.currentEditor?.hasPreview == true }
         // The terminal keeps ⌘L for itself.
         if item.action == #selector(goToLine(_:)) { return editorArea.currentEditor != nil && !console.isFocused }
+        if item.action == #selector(navigateBack(_:)) { return editorArea.canGoBack }
+        if item.action == #selector(navigateForward(_:)) { return editorArea.canGoForward }
+        if item.action == #selector(goToLastEditLocation(_:)) { return editorArea.lastEdit != nil }
         return true
     }
 

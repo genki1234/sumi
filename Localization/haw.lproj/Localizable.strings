@@ -42,6 +42,7 @@
 "Join Lines" = "Hoʻohui i nā lālani";
 "Toggle Case" = "Hoʻololi i nā hua nui/liʻiliʻi";
 "Comment with Line Comment" = "Hoʻohuli i manaʻo lālani";
+"Comment with Block Comment" = "Hoʻohuli i manaʻo poloka";
 "Move Line Up" = "Hoʻoneʻe i ka lālani i luna";
 "Move Line Down" = "Hoʻoneʻe i ka lālani i lalo";
 "Extend Selection" = "Hoʻonui i ke koho";
@@ -54,6 +55,7 @@
 "Find Previous" = "Huli i ka mea ma mua";
 "Use Selection for Find" = "Huli i ke kikokikona i koho ʻia";
 "Find in Files…" = "Huli ma nā faila…";
+"Replace in Files…" = "Hoʻololi ma nā faila…";
 "Find" = "Huli";
 "Project" = "Papahana";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Huli i ke kauoha…";
 "Go to Line:Column…" = "Hele i ka lālani:kolamu…";
 "Select in Project View" = "Koho ma ka nānā papahana";
+"Back" = "Hoʻi i hope";
+"Forward" = "Hele i mua";
+"Last Edit Location" = "Kahi hoʻoponopono hope loa";
 "Next Tab" = "Kapu aʻe";
 "Previous Tab" = "Kapu ma mua";
 "Minimize" = "Hoʻēmi i ka puka aniani";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Wehe ma ka terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Nā mea kūlike: %1$ld / Nā faila: %2$ld";
+"Replace All" = "Hoʻololi i nā mea a pau";
 "Go to Line:Column" = "Hele i ka lālani:kolamu";
 "Left Panel" = "Papa hema";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Hoʻololi me";
 "Double ⇧ to search everywhere" = "Kaomi iā ⇧ ʻelua manawa e huli ai ma nā wahi a pau";
 "Files" = "Nā faila";
 "Actions" = "Nā kauoha";
@@ -140,6 +148,6 @@
 "Type a command name" = "Kākau i inoa kauoha";
 "Type text to find in project files" = "Kākau i ke kikokikona e huli ai ma nā faila papahana";
 "No recent files" = "ʻAʻohe faila i wehe koke ʻia";
-"Matches: %1$ld / Files: %2$ld" = "Nā mea kūlike: %1$ld / Nā faila: %2$ld";
 "Searching…" = "Ke huli nei…";
+"Next Field" = "Kahua aʻe";
 "Switch Tab" = "Hoʻololi i ke kapu";

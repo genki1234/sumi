@@ -42,6 +42,7 @@
 "Join Lines" = "Uno llinellau";
 "Toggle Case" = "Toglo priflythrennau/llythrennau bach";
 "Comment with Line Comment" = "Troi'n sylw llinell";
+"Comment with Block Comment" = "Troi'n sylw bloc";
 "Move Line Up" = "Symud y llinell i fyny";
 "Move Line Down" = "Symud y llinell i lawr";
 "Extend Selection" = "Ehangu'r detholiad";
@@ -54,6 +55,7 @@
 "Find Previous" = "Canfod y blaenorol";
 "Use Selection for Find" = "Chwilio am y testun a ddewiswyd";
 "Find in Files…" = "Canfod mewn ffeiliau…";
+"Replace in Files…" = "Amnewid mewn ffeiliau…";
 "Find" = "Canfod";
 "Project" = "Prosiect";
 "Terminal" = "Terfynell";
@@ -70,6 +72,9 @@
 "Find Action…" = "Canfod gweithred…";
 "Go to Line:Column…" = "Mynd i linell:colofn…";
 "Select in Project View" = "Dewis yng ngolwg y prosiect";
+"Back" = "Nôl";
+"Forward" = "Ymlaen";
+"Last Edit Location" = "Lleoliad y golygiad diwethaf";
 "Next Tab" = "Tab nesaf";
 "Previous Tab" = "Tab blaenorol";
 "Minimize" = "Lleihau";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Agor yn y derfynell";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Cyfatebiadau: %1$ld / Ffeiliau: %2$ld";
+"Replace All" = "Amnewid y cyfan";
 "Go to Line:Column" = "Mynd i linell:colofn";
 "Left Panel" = "Panel chwith";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Amnewid gyda";
 "Double ⇧ to search everywhere" = "Pwyswch ⇧ ddwywaith i chwilio ym mhobman";
 "Files" = "Ffeiliau";
 "Actions" = "Gweithredoedd";
@@ -140,6 +148,6 @@
 "Type a command name" = "Teipiwch enw gorchymyn";
 "Type text to find in project files" = "Teipiwch destun i'w ganfod yn ffeiliau'r prosiect";
 "No recent files" = "Dim ffeiliau diweddar";
-"Matches: %1$ld / Files: %2$ld" = "Cyfatebiadau: %1$ld / Ffeiliau: %2$ld";
 "Searching…" = "Wrthi'n chwilio…";
+"Next Field" = "Maes nesaf";
 "Switch Tab" = "Newid tab";

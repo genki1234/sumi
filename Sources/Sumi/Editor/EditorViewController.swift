@@ -21,6 +21,8 @@ final class EditorViewController: NSViewController, NSTextViewDelegate, NSSplitV
     private var editorFraction: CGFloat = 0.5
     /// Called on edits and caret moves. The argument is true when the dirty state changed.
     var onStateChange: ((Bool) -> Void)?
+    /// Called after each change to the text.
+    var onEdit: (() -> Void)?
 
     init(document: TextDocument) {
         self.document = document
@@ -353,6 +355,35 @@ final class EditorViewController: NSViewController, NSTextViewDelegate, NSSplitV
         textView.centerSelectionInVisibleArea(nil)
     }
 
+    /// Back, Forward and Last Edit Location: puts the caret at a character position kept earlier.
+    /// The text may have changed since, so the position is clamped to its length.
+    func show(location: Int) {
+        textView.setSelectedRange(NSRange(location: min(location, (textView.string as NSString).length), length: 0))
+        textView.centerSelectionInVisibleArea(nil)
+        focus()
+    }
+
+    /// Replace in Files: every occurrence of the query, ignoring case as the search does, in one undo step.
+    @discardableResult
+    func replaceAll(_ query: String, with replacement: String) -> Int {
+        let text = textView.string as NSString
+        var ranges: [NSValue] = []
+        var found = text.range(of: query, options: .caseInsensitive)
+        while found.location != NSNotFound {
+            ranges.append(NSValue(range: found))
+            let next = NSMaxRange(found)
+            found = text.range(of: query, options: .caseInsensitive, range: NSRange(location: next, length: text.length - next))
+        }
+        guard !ranges.isEmpty,
+              textView.shouldChangeText(inRanges: ranges, replacementStrings: Array(repeating: replacement, count: ranges.count)) else { return 0 }
+        let storage = document.textStorage
+        storage.beginEditing()
+        for range in ranges.reversed() { storage.replaceCharacters(in: range.rangeValue, with: replacement) }
+        storage.endEditing()
+        textView.didChangeText()
+        return ranges.count
+    }
+
     /// 1-based line and column of the caret.
     var caretPosition: (line: Int, column: Int) {
         let location = textView.selectedRange().location
@@ -370,6 +401,7 @@ final class EditorViewController: NSViewController, NSTextViewDelegate, NSSplitV
         schedulePreview()
         scheduleAutosave()
         onStateChange?(becameDirty)
+        onEdit?()
     }
 
     /// Wait for a pause in typing and for the input method to commit its composition.

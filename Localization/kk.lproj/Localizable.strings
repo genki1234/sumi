@@ -42,6 +42,7 @@
 "Join Lines" = "Жолдарды біріктіру";
 "Toggle Case" = "Регистрді ауыстыру";
 "Comment with Line Comment" = "Жол түсініктемесімен белгілеу";
+"Comment with Block Comment" = "Блок түсініктемесімен белгілеу";
 "Move Line Up" = "Жолды жоғары жылжыту";
 "Move Line Down" = "Жолды төмен жылжыту";
 "Extend Selection" = "Таңдауды кеңейту";
@@ -54,6 +55,7 @@
 "Find Previous" = "Алдыңғысын табу";
 "Use Selection for Find" = "Таңдалған мәтінді іздеу";
 "Find in Files…" = "Файлдардан табу…";
+"Replace in Files…" = "Файлдарда ауыстыру…";
 "Find" = "Табу";
 "Project" = "Жоба";
 "Terminal" = "Терминал";
@@ -70,6 +72,9 @@
 "Find Action…" = "Әрекетті табу…";
 "Go to Line:Column…" = "Жол:бағанға өту…";
 "Select in Project View" = "Жоба ағашында таңдау";
+"Back" = "Артқа";
+"Forward" = "Алға";
+"Last Edit Location" = "Соңғы өңделген орын";
 "Next Tab" = "Келесі қойынды";
 "Previous Tab" = "Алдыңғы қойынды";
 "Minimize" = "Қайыру";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Терминалда ашу";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Сәйкестіктер: %1$ld / Файлдар: %2$ld";
+"Replace All" = "Барлығын ауыстыру";
 "Go to Line:Column" = "Жол:бағанға өту";
 "Left Panel" = "Сол жақ тақта";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Мынаған ауыстыру";
 "Double ⇧ to search everywhere" = "Барлық жерден іздеу үшін ⇧ пернесін екі рет басыңыз";
 "Files" = "Файлдар";
 "Actions" = "Әрекеттер";
@@ -140,6 +148,6 @@
 "Type a command name" = "Команда атауын теріңіз";
 "Type text to find in project files" = "Жоба файлдарынан іздейтін мәтінді теріңіз";
 "No recent files" = "Соңғы файлдар жоқ";
-"Matches: %1$ld / Files: %2$ld" = "Сәйкестіктер: %1$ld / Файлдар: %2$ld";
 "Searching…" = "Ізделуде…";
+"Next Field" = "Келесі өріс";
 "Switch Tab" = "Қойындыны ауыстыру";

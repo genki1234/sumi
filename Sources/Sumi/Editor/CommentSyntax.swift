@@ -14,6 +14,37 @@ enum CommentSyntax: Equatable {
         return noComments.contains(grammar) ? nil : .line("//")
     }
 
+    /// What "Comment with Block Comment" (⌥⌘/) wraps the selection in. Only languages known to have a
+    /// block comment get one; nil leaves ⌥⌘/ disabled.
+    static func block(of language: Language?) -> (open: String, close: String)? {
+        guard let grammar = language?.grammar else { return nil }
+        if case .block(let open, let close)? = table[grammar] { return (open, close) }
+        return blockTable[grammar]
+    }
+
+    private static let blockTable: [String: (open: String, close: String)] = {
+        var table: [String: (open: String, close: String)] = [:]
+        func set(_ open: String, _ close: String, _ grammars: String) {
+            for grammar in grammars.split(separator: " ") { table[String(grammar)] = (open, close) }
+        }
+        set("/*", "*/", """
+            actionscript antlr4 apex arduino bicep bison c cfscript chaiscript cilkc cilkcpp clike concurnas cpp \
+            csharp d dart firestore-security-rules flow glsl go gradle groovy haxe hlsl java javascript json5 jsonp \
+            jsx kotlin less mongodb n1ql n4js objectivec odin opencl oz php plsql processing prolog protobuf qml \
+            reason rescript rust sass scala scss solidity sql sqf squirrel stylus swift tsx typescript unrealscript \
+            v vala verilog wgsl wren
+            """)
+        set("{-", "-}", "agda dhall elm haskell idris purescript")
+        set("(*", "*)", "applescript fsharp pascal")
+        set("#|", "|#", "lisp racket scheme")
+        set("--[[", "]]", "lua")
+        set("<#", "#>", "powershell")
+        set("#=", "=#", "julia")
+        set("#[", "]#", "nim")
+        set("###", "###", "coffeescript")
+        return table
+    }()
+
     private static let noComments: Set<String> = [
         "json", "csv", "diff", "log", "tap", "uri", "regex", "javastacktrace", "jsstacktrace", "hpkp", "hsts",
         "brainfuck", "false", "excel-formula", "icu-message-format", "wiki", "textile", "bbcode", "gedcom", "pcaxis",

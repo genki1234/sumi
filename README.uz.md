@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | So‘nggi fayllar | ⌘E |
 | Amalni topish | ⇧⌘A |
 | Fayllarda topish | ⇧⌘F |
+| Fayllarda almashtirish | ⇧⌘R |
 | Satr:ustunga o‘tish | ⌘L |
+| Orqaga / Oldinga | ⌘[ / ⌘] |
+| Oxirgi tahrir joyi | ⇧⌘⌫ |
 | Satr yoki tanlanganni takrorlash | ⌘D |
 | Satrni o‘chirish | ⌘⌫ |
 | Satrni yuqoriga ko‘chirish / Satrni pastga ko‘chirish | ⌥⇧↑ / ⌥⇧↓ |
 | Satr izohi bilan izohlash | ⌘/ |
+| Blok izohi bilan izohlash | ⌥⌘/ |
 | Satrlarni birlashtirish | ⌃⇧J |
 | Katta va kichik harflarni almashtirish | ⇧⌘U |
 | Tanlovni kengaytirish / Tanlovni toraytirish | ⌥↑ / ⌥↓ |

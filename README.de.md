@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Zuletzt verwendete Dateien | ⌘E |
 | Aktion suchen | ⇧⌘A |
 | In Dateien suchen | ⇧⌘F |
+| In Dateien ersetzen | ⇧⌘R |
 | Zu Zeile:Spalte gehen | ⌘L |
+| Zurück / vorwärts | ⌘[ / ⌘] |
+| Letzte Bearbeitungsposition | ⇧⌘⌫ |
 | Zeile oder Auswahl duplizieren | ⌘D |
 | Zeile löschen | ⌘⌫ |
 | Zeile nach oben / unten verschieben | ⌥⇧↑ / ⌥⇧↓ |
 | Mit Zeilenkommentar auskommentieren | ⌘/ |
+| Mit Blockkommentar auskommentieren | ⌥⌘/ |
 | Zeilen verbinden | ⌃⇧J |
 | Groß-/Kleinschreibung umschalten | ⇧⌘U |
 | Auswahl erweitern / verkleinern | ⌥↑ / ⌥↓ |

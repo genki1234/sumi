@@ -42,6 +42,7 @@
 "Join Lines" = "Объединить строки";
 "Toggle Case" = "Переключить регистр";
 "Comment with Line Comment" = "Закомментировать строчным комментарием";
+"Comment with Block Comment" = "Закомментировать блочным комментарием";
 "Move Line Up" = "Переместить строку вверх";
 "Move Line Down" = "Переместить строку вниз";
 "Extend Selection" = "Расширить выделение";
@@ -54,6 +55,7 @@
 "Find Previous" = "Найти предыдущее";
 "Use Selection for Find" = "Искать выделенное";
 "Find in Files…" = "Найти в файлах…";
+"Replace in Files…" = "Заменить в файлах…";
 "Find" = "Поиск";
 "Project" = "Проект";
 "Terminal" = "Терминал";
@@ -70,6 +72,9 @@
 "Find Action…" = "Найти действие…";
 "Go to Line:Column…" = "Перейти к строке:столбцу…";
 "Select in Project View" = "Выделить в дереве проекта";
+"Back" = "Назад";
+"Forward" = "Вперёд";
+"Last Edit Location" = "Место последнего изменения";
 "Next Tab" = "Следующая вкладка";
 "Previous Tab" = "Предыдущая вкладка";
 "Minimize" = "Свернуть";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Открыть в терминале";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Совпадения: %1$ld / Файлы: %2$ld";
+"Replace All" = "Заменить все";
 "Go to Line:Column" = "Перейти к строке:столбцу";
 "Left Panel" = "Левая панель";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Заменить на";
 "Double ⇧ to search everywhere" = "Нажмите ⇧ дважды для поиска везде";
 "Files" = "Файлы";
 "Actions" = "Действия";
@@ -140,6 +148,6 @@
 "Type a command name" = "Введите имя команды";
 "Type text to find in project files" = "Введите текст для поиска в файлах проекта";
 "No recent files" = "Нет недавних файлов";
-"Matches: %1$ld / Files: %2$ld" = "Совпадения: %1$ld / Файлы: %2$ld";
 "Searching…" = "Поиск…";
+"Next Field" = "Следующее поле";
 "Switch Tab" = "Переключить вкладку";

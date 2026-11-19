@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Faịlụ E Meghere Nso Nso A | ⌘E |
 | Chọta Omume | ⇧⌘A |
 | Chọta na Faịlụ | ⇧⌘F |
+| Dochie na Faịlụ | ⇧⌘R |
 | Gaa na Ahịrị:Kọlụm | ⌘L |
+| Laghachi Azụ / Gaa n'Ihu | ⌘[ / ⌘] |
+| Ebe Edeziri Ikpeazụ | ⇧⌘⌫ |
 | Mee Nnomi Ahịrị ma ọ bụ Nhọrọ | ⌘D |
 | Hichapụ Ahịrị | ⌘⌫ |
 | Bulie Ahịrị Elu / Budata Ahịrị Ala | ⌥⇧↑ / ⌥⇧↓ |
 | Tinye Nkọwa Ahịrị | ⌘/ |
+| Tinye Nkọwa Blọọkụ | ⌥⌘/ |
 | Jikọọ Ahịrị | ⌃⇧J |
 | Gbanwee Mkpụrụedemede Ukwu/Nta | ⇧⌘U |
 | Gbasaa / Belata Nhọrọ | ⌥↑ / ⌥↓ |

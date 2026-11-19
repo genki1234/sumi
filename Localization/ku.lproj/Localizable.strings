@@ -42,6 +42,7 @@
 "Join Lines" = "Rêzan Bigihîne Hev";
 "Toggle Case" = "Tîpên Mezin/Biçûk Biguherîne";
 "Comment with Line Comment" = "Bi Şîroveya Rêzê Şîrove Bike";
+"Comment with Block Comment" = "Bi Şîroveya Blokê Şîrove Bike";
 "Move Line Up" = "Rêzê Bibe Jor";
 "Move Line Down" = "Rêzê Bibe Jêr";
 "Extend Selection" = "Hilbijartinê Fireh Bike";
@@ -54,6 +55,7 @@
 "Find Previous" = "Ya Berê Bibîne";
 "Use Selection for Find" = "Nivîsa Hilbijartî Bigere";
 "Find in Files…" = "Di Pelan de Bibîne…";
+"Replace in Files…" = "Di Pelan de Biguherîne…";
 "Find" = "Bibîne";
 "Project" = "Proje";
 "Terminal" = "Termînal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Çalakiyê Bibîne…";
 "Go to Line:Column…" = "Biçe Rêz:Stûnê…";
 "Select in Project View" = "Di Dara Projeyê de Hilbijêre";
+"Back" = "Paşve";
+"Forward" = "Pêşve";
+"Last Edit Location" = "Cihê Guhertina Dawî";
 "Next Tab" = "Hilpekîna Pişt Re";
 "Previous Tab" = "Hilpekîna Berê";
 "Minimize" = "Biçûk Bike";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Di Termînalê de Veke";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Lihevhatin: %1$ld / Pel: %2$ld";
+"Replace All" = "Hemûyan Biguherîne";
 "Go to Line:Column" = "Biçe Rêz:Stûnê";
 "Left Panel" = "Panela Çepê";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Bi vê biguherîne";
 "Double ⇧ to search everywhere" = "Ji bo lêgerîna li her derê du caran ⇧ bitikîne";
 "Files" = "Pel";
 "Actions" = "Çalakî";
@@ -140,6 +148,6 @@
 "Type a command name" = "Navê fermanê binivîse";
 "Type text to find in project files" = "Nivîsa ku di pelên projeyê de bê lêgerîn binivîse";
 "No recent files" = "Pelên dawî tune ne";
-"Matches: %1$ld / Files: %2$ld" = "Lihevhatin: %1$ld / Pel: %2$ld";
 "Searching…" = "Tê lêgerîn…";
+"Next Field" = "Qada Pişt Re";
 "Switch Tab" = "Hilpekînê Biguherîne";

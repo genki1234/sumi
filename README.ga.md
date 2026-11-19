@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Comhaid le déanaí | ⌘E |
 | Aimsigh gníomh | ⇧⌘A |
 | Aimsigh i gcomhaid | ⇧⌘F |
+| Ionadaigh i gcomhaid | ⇧⌘R |
 | Téigh chuig líne:colún | ⌘L |
+| Siar / ar aghaidh | ⌘[ / ⌘] |
+| Áit na heagarthóireachta deiridh | ⇧⌘⌫ |
 | Dúbail an líne nó an rogha | ⌘D |
 | Scrios an líne | ⌘⌫ |
 | Bog an líne suas / síos | ⌥⇧↑ / ⌥⇧↓ |
 | Déan trácht le trácht líne | ⌘/ |
+| Déan trácht le trácht bloic | ⌥⌘/ |
 | Ceangail na línte le chéile | ⌃⇧J |
 | Scoránaigh cás na litreacha | ⇧⌘U |
 | Leathnaigh / laghdaigh an rogha | ⌥↑ / ⌥↓ |

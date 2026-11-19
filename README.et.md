@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Hiljutised failid | ⌘E |
 | Otsi toimingut | ⇧⌘A |
 | Otsi failidest | ⇧⌘F |
+| Asenda failides | ⇧⌘R |
 | Mine rea:veeru juurde | ⌘L |
+| Tagasi / edasi | ⌘[ / ⌘] |
+| Viimase muudatuse koht | ⇧⌘⌫ |
 | Dubleeri rida või valik | ⌘D |
 | Kustuta rida | ⌘⌫ |
 | Liiguta rida üles / alla | ⌥⇧↑ / ⌥⇧↓ |
 | Kommenteeri reakommentaariga | ⌘/ |
+| Kommenteeri plokikommentaariga | ⌥⌘/ |
 | Ühenda read | ⌃⇧J |
 | Vaheta suur- ja väiketähti | ⇧⌘U |
 | Laienda / kahanda valikut | ⌥↑ / ⌥↓ |

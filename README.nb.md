@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Nylige filer | ⌘E |
 | Finn handling | ⇧⌘A |
 | Finn i filer | ⇧⌘F |
+| Erstatt i filer | ⇧⌘R |
 | Gå til linje:kolonne | ⌘L |
+| Tilbake / fremover | ⌘[ / ⌘] |
+| Siste redigeringssted | ⇧⌘⌫ |
 | Dupliser linje eller markering | ⌘D |
 | Slett linje | ⌘⌫ |
 | Flytt linje opp / ned | ⌥⇧↑ / ⌥⇧↓ |
 | Kommenter med linjekommentar | ⌘/ |
+| Kommenter med blokkommentar | ⌥⌘/ |
 | Slå sammen linjer | ⌃⇧J |
 | Bytt mellom store og små bokstaver | ⇧⌘U |
 | Utvid / krymp markering | ⌥↑ / ⌥↓ |

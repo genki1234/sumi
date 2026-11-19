@@ -42,6 +42,7 @@
 "Join Lines" = "Bashko rreshtat";
 "Toggle Case" = "Ndërro shkronjat e mëdha dhe të vogla";
 "Comment with Line Comment" = "Komento me koment rreshti";
+"Comment with Block Comment" = "Komento me koment blloku";
 "Move Line Up" = "Lëviz rreshtin lart";
 "Move Line Down" = "Lëviz rreshtin poshtë";
 "Extend Selection" = "Zgjero përzgjedhjen";
@@ -54,6 +55,7 @@
 "Find Previous" = "Gjej përputhjen e mëparshme";
 "Use Selection for Find" = "Kërko tekstin e përzgjedhur";
 "Find in Files…" = "Gjej në skedarë…";
+"Replace in Files…" = "Zëvendëso në skedarë…";
 "Find" = "Gjej";
 "Project" = "Projekti";
 "Terminal" = "Terminali";
@@ -70,6 +72,9 @@
 "Find Action…" = "Gjej veprim…";
 "Go to Line:Column…" = "Shko te rreshti:kolona…";
 "Select in Project View" = "Përzgjidh në pamjen e projektit";
+"Back" = "Prapa";
+"Forward" = "Përpara";
+"Last Edit Location" = "Vendi i redaktimit të fundit";
 "Next Tab" = "Skeda tjetër";
 "Previous Tab" = "Skeda e mëparshme";
 "Minimize" = "Minimizo";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Hap në terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Përputhje: %1$ld / Skedarë: %2$ld";
+"Replace All" = "Zëvendësoji të gjitha";
 "Go to Line:Column" = "Shko te rreshti:kolona";
 "Left Panel" = "Paneli majtas";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Zëvendëso me";
 "Double ⇧ to search everywhere" = "Shtypni ⇧ dy herë për të kërkuar kudo";
 "Files" = "Skedarë";
 "Actions" = "Veprime";
@@ -140,6 +148,6 @@
 "Type a command name" = "Shkruani emrin e komandës";
 "Type text to find in project files" = "Shkruani tekstin për ta gjetur në skedarët e projektit";
 "No recent files" = "Asnjë skedar i fundit";
-"Matches: %1$ld / Files: %2$ld" = "Përputhje: %1$ld / Skedarë: %2$ld";
 "Searching…" = "Duke kërkuar…";
+"Next Field" = "Fusha tjetër";
 "Switch Tab" = "Ndërro skedën";

@@ -42,6 +42,7 @@
 "Join Lines" = "Spojiť riadky";
 "Toggle Case" = "Prepnúť veľkosť písmen";
 "Comment with Line Comment" = "Zakomentovať riadkovým komentárom";
+"Comment with Block Comment" = "Zakomentovať blokovým komentárom";
 "Move Line Up" = "Presunúť riadok nahor";
 "Move Line Down" = "Presunúť riadok nadol";
 "Extend Selection" = "Rozšíriť výber";
@@ -54,6 +55,7 @@
 "Find Previous" = "Nájsť predošlý výskyt";
 "Use Selection for Find" = "Hľadať vybraný text";
 "Find in Files…" = "Nájsť v súboroch…";
+"Replace in Files…" = "Nahradiť v súboroch…";
 "Find" = "Hľadať";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
@@ -70,6 +72,9 @@
 "Find Action…" = "Nájsť akciu…";
 "Go to Line:Column…" = "Prejsť na riadok:stĺpec…";
 "Select in Project View" = "Vybrať v strome projektu";
+"Back" = "Späť";
+"Forward" = "Dopredu";
+"Last Edit Location" = "Miesto poslednej úpravy";
 "Next Tab" = "Ďalšia karta";
 "Previous Tab" = "Predošlá karta";
 "Minimize" = "Minimalizovať";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Otvoriť v termináli";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Zhody: %1$ld / Súbory: %2$ld";
+"Replace All" = "Nahradiť všetko";
 "Go to Line:Column" = "Prejsť na riadok:stĺpec";
 "Left Panel" = "Ľavý panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Nahradiť za";
 "Double ⇧ to search everywhere" = "Stlačte dvakrát ⇧ na hľadanie všade";
 "Files" = "Súbory";
 "Actions" = "Akcie";
@@ -140,6 +148,6 @@
 "Type a command name" = "Zadajte názov príkazu";
 "Type text to find in project files" = "Zadajte text na hľadanie v súboroch projektu";
 "No recent files" = "Žiadne nedávne súbory";
-"Matches: %1$ld / Files: %2$ld" = "Zhody: %1$ld / Súbory: %2$ld";
 "Searching…" = "Hľadá sa…";
+"Next Field" = "Ďalšie pole";
 "Switch Tab" = "Prepnúť kartu";

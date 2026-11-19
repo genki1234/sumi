@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Skedarët e fundit | ⌘E |
 | Gjej veprim | ⇧⌘A |
 | Gjej në skedarë | ⇧⌘F |
+| Zëvendëso në skedarë | ⇧⌘R |
 | Shko te rreshti:kolona | ⌘L |
+| Prapa / Përpara | ⌘[ / ⌘] |
+| Vendi i redaktimit të fundit | ⇧⌘⌫ |
 | Dyfisho rreshtin ose përzgjedhjen | ⌘D |
 | Fshi rreshtin | ⌘⌫ |
 | Lëviz rreshtin lart / Lëviz rreshtin poshtë | ⌥⇧↑ / ⌥⇧↓ |
 | Komento me koment rreshti | ⌘/ |
+| Komento me koment blloku | ⌥⌘/ |
 | Bashko rreshtat | ⌃⇧J |
 | Ndërro shkronjat e mëdha dhe të vogla | ⇧⌘U |
 | Zgjero përzgjedhjen / Ngushto përzgjedhjen | ⌥↑ / ⌥↓ |

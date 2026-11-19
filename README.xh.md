@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Iifayile zakutshanje | ⌘E |
 | Fumana isenzo | ⇧⌘A |
 | Fumana kwiifayile | ⇧⌘F |
+| Faka endaweni kwiifayile | ⇧⌘R |
 | Yiya kumgca:kwikholamu | ⌘L |
+| Buyela umva / Yiya phambili | ⌘[ / ⌘] |
+| Indawo yokuhlela yokugqibela | ⇧⌘⌫ |
 | Phinda umgca okanye okukhethiweyo | ⌘D |
 | Cima umgca | ⌘⌫ |
 | Yisa umgca phezulu / Yisa umgca ezantsi | ⌥⇧↑ / ⌥⇧↓ |
 | Faka okanye ususe ingcaciso yomgca | ⌘/ |
+| Faka okanye ususe ingcaciso yebhloko | ⌥⌘/ |
 | Dibanisa imigca | ⌃⇧J |
 | Tshintsha oonobumba abakhulu nabancinci | ⇧⌘U |
 | Yandisa ukhetho / Nciphisa ukhetho | ⌥↑ / ⌥↓ |

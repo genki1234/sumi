@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Faylal dhowaan la furay | ⌘E |
 | Raadi ficil | ⇧⌘A |
 | Ka raadi faylalka | ⇧⌘F |
+| Ka beddel faylalka | ⇧⌘R |
 | U gudub xariiq:tiir | ⌘L |
+| Dib u noqo / Hore u soco | ⌘[ / ⌘] |
+| Goobtii ugu dambeysay ee wax laga beddelay | ⇧⌘⌫ |
 | Nuqul ka samee xariiqda ama xulashada | ⌘D |
 | Tirtir xariiqda | ⌘⌫ |
 | Kor u rar xariiqda / Hoos u rar xariiqda | ⌥⇧↑ / ⌥⇧↓ |
 | Ku dar ama ka saar faallada xariiqda | ⌘/ |
+| Ku dar ama ka saar faallada baloogga | ⌥⌘/ |
 | Isku dar xariiqyada | ⌃⇧J |
 | Beddel xarfaha waaweyn iyo yaryar | ⇧⌘U |
 | Ballaari xulashada / Yaree xulashada | ⌥↑ / ⌥↓ |

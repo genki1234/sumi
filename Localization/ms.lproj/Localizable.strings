@@ -42,6 +42,7 @@
 "Join Lines" = "Gabungkan Baris";
 "Toggle Case" = "Tukar Huruf Besar/Kecil";
 "Comment with Line Comment" = "Ulas dengan Ulasan Baris";
+"Comment with Block Comment" = "Ulas dengan Ulasan Blok";
 "Move Line Up" = "Alihkan Baris ke Atas";
 "Move Line Down" = "Alihkan Baris ke Bawah";
 "Extend Selection" = "Luaskan Pilihan";
@@ -54,6 +55,7 @@
 "Find Previous" = "Cari Sebelumnya";
 "Use Selection for Find" = "Cari Teks yang Dipilih";
 "Find in Files…" = "Cari dalam Fail…";
+"Replace in Files…" = "Ganti dalam Fail…";
 "Find" = "Cari";
 "Project" = "Projek";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Cari Tindakan…";
 "Go to Line:Column…" = "Pergi ke Baris:Lajur…";
 "Select in Project View" = "Pilih dalam Pepohon Projek";
+"Back" = "Kembali";
+"Forward" = "Ke Hadapan";
+"Last Edit Location" = "Lokasi Suntingan Terakhir";
 "Next Tab" = "Tab Seterusnya";
 "Previous Tab" = "Tab Sebelumnya";
 "Minimize" = "Minimumkan";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Buka dalam Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Padanan: %1$ld / Fail: %2$ld";
+"Replace All" = "Ganti Semua";
 "Go to Line:Column" = "Pergi ke Baris:Lajur";
 "Left Panel" = "Panel Kiri";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ganti dengan";
 "Double ⇧ to search everywhere" = "Tekan ⇧ dua kali untuk mencari di mana-mana";
 "Files" = "Fail";
 "Actions" = "Tindakan";
@@ -140,6 +148,6 @@
 "Type a command name" = "Taip nama arahan";
 "Type text to find in project files" = "Taip teks untuk dicari dalam fail projek";
 "No recent files" = "Tiada fail terkini";
-"Matches: %1$ld / Files: %2$ld" = "Padanan: %1$ld / Fail: %2$ld";
 "Searching…" = "Mencari…";
+"Next Field" = "Medan Seterusnya";
 "Switch Tab" = "Tukar Tab";

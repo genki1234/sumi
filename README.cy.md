@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Ffeiliau diweddar | ⌘E |
 | Canfod gweithred | ⇧⌘A |
 | Canfod mewn ffeiliau | ⇧⌘F |
+| Amnewid mewn ffeiliau | ⇧⌘R |
 | Mynd i linell:colofn | ⌘L |
+| Nôl / ymlaen | ⌘[ / ⌘] |
+| Lleoliad y golygiad diwethaf | ⇧⌘⌫ |
 | Dyblygu'r llinell neu'r detholiad | ⌘D |
 | Dileu'r llinell | ⌘⌫ |
 | Symud y llinell i fyny / i lawr | ⌥⇧↑ / ⌥⇧↓ |
 | Troi'n sylw llinell | ⌘/ |
+| Troi'n sylw bloc | ⌥⌘/ |
 | Uno llinellau | ⌃⇧J |
 | Toglo priflythrennau/llythrennau bach | ⇧⌘U |
 | Ehangu / crebachu'r detholiad | ⌥↑ / ⌥↓ |

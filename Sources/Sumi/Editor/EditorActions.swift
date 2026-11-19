@@ -7,7 +7,8 @@ import AppKit
 extension CodeTextView {
     static let lineEditingActions: Set<Selector> = [
         #selector(duplicateLineOrSelection(_:)), #selector(deleteLine(_:)), #selector(joinLines(_:)),
-        #selector(toggleCase(_:)), #selector(commentWithLineComment(_:)), #selector(moveLineUp(_:)),
+        #selector(toggleCase(_:)), #selector(commentWithLineComment(_:)), #selector(commentWithBlockComment(_:)),
+        #selector(moveLineUp(_:)),
         #selector(moveLineDown(_:)), #selector(startNewLine(_:)), #selector(startNewLineBeforeCurrent(_:)),
     ]
 
@@ -175,6 +176,43 @@ extension CodeTextView {
         } else {
             select(NSRange(location: min(max(lines.location, sel.location + changed - lines.length), lineContentsEnd(at: lines.location)), length: 0))
         }
+    }
+
+    /// ⌥⌘/: wraps the selection in the language's block comment, or takes the comment away when the
+    /// selection or the caret is inside one. With no selection outside a comment, it inserts an empty
+    /// comment and puts the caret inside it.
+    @objc func commentWithBlockComment(_ sender: Any?) {
+        guard let (open, close) = CommentSyntax.block(of: language) else { return }
+        let sel = selectedRange()
+        let openLength = (open as NSString).length
+        if let comment = blockComment(containing: sel, open: open, close: close) {
+            let inner = NSRange(location: comment.location + openLength, length: comment.length - openLength - (close as NSString).length)
+            guard edit(comment, text.substring(with: inner)) else { return }
+            // The selection keeps the same text; parts of it that were markers are gone.
+            func moved(_ location: Int) -> Int { min(max(location - openLength, comment.location), comment.location + inner.length) }
+            let start = moved(sel.location)
+            select(NSRange(location: start, length: moved(NSMaxRange(sel)) - start))
+            return
+        }
+        let wrapped = open + text.substring(with: sel) + close
+        guard edit(sel, wrapped) else { return }
+        if sel.length == 0 {
+            select(NSRange(location: sel.location + openLength, length: 0))
+        } else {
+            select(NSRange(location: sel.location, length: (wrapped as NSString).length))
+        }
+    }
+
+    /// The block comment, markers included, that contains the range: the nearest opening marker at or
+    /// before it whose first closing marker ends at or after it.
+    private func blockComment(containing range: NSRange, open: String, close: String) -> NSRange? {
+        let searchEnd = min(text.length, range.location + (open as NSString).length)
+        let opening = text.range(of: open, options: [.literal, .backwards], range: NSRange(location: 0, length: searchEnd))
+        guard opening.location != NSNotFound else { return nil }
+        let from = NSMaxRange(opening)
+        let closing = text.range(of: close, options: .literal, range: NSRange(location: from, length: text.length - from))
+        guard closing.location != NSNotFound, NSMaxRange(closing) >= NSMaxRange(range) else { return nil }
+        return NSRange(location: opening.location, length: NSMaxRange(closing) - opening.location)
     }
 
     // MARK: Move lines

@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Nýlegar skrár | ⌘E |
 | Finna aðgerð | ⇧⌘A |
 | Finna í skrám | ⇧⌘F |
+| Skipta út í skrám | ⇧⌘R |
 | Fara í línu:dálk | ⌘L |
+| Til baka / áfram | ⌘[ / ⌘] |
+| Síðasti breytingastaður | ⇧⌘⌫ |
 | Tvöfalda línu eða val | ⌘D |
 | Eyða línu | ⌘⌫ |
 | Færa línu upp / niður | ⌥⇧↑ / ⌥⇧↓ |
 | Gera að línuathugasemd | ⌘/ |
+| Gera að bálkathugasemd | ⌥⌘/ |
 | Sameina línur | ⌃⇧J |
 | Víxla há- og lágstöfum | ⇧⌘U |
 | Stækka / minnka val | ⌥↑ / ⌥↓ |

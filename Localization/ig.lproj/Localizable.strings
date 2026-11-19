@@ -42,6 +42,7 @@
 "Join Lines" = "Jikọọ Ahịrị";
 "Toggle Case" = "Gbanwee Mkpụrụedemede Ukwu/Nta";
 "Comment with Line Comment" = "Tinye Nkọwa Ahịrị";
+"Comment with Block Comment" = "Tinye Nkọwa Blọọkụ";
 "Move Line Up" = "Bulie Ahịrị Elu";
 "Move Line Down" = "Budata Ahịrị Ala";
 "Extend Selection" = "Gbasaa Nhọrọ";
@@ -54,6 +55,7 @@
 "Find Previous" = "Chọta Nke Gara Aga";
 "Use Selection for Find" = "Chọọ Ederede Ahọpụtara";
 "Find in Files…" = "Chọta na Faịlụ…";
+"Replace in Files…" = "Dochie na Faịlụ…";
 "Find" = "Chọta";
 "Project" = "Ọrụ";
 "Terminal" = "Ọnụ Iwu";
@@ -70,6 +72,9 @@
 "Find Action…" = "Chọta Omume…";
 "Go to Line:Column…" = "Gaa na Ahịrị:Kọlụm…";
 "Select in Project View" = "Họrọ n'Osisi Faịlụ Ọrụ";
+"Back" = "Laghachi Azụ";
+"Forward" = "Gaa n'Ihu";
+"Last Edit Location" = "Ebe Edeziri Ikpeazụ";
 "Next Tab" = "Taabụ Na-esote";
 "Previous Tab" = "Taabụ Gara Aga";
 "Minimize" = "Mee Obere";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Mepee n'Ọnụ Iwu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Ndị Dakọtara: %1$ld / Faịlụ: %2$ld";
+"Replace All" = "Dochie Ha Niile";
 "Go to Line:Column" = "Gaa na Ahịrị:Kọlụm";
 "Left Panel" = "Ogwe Aka Ekpe";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Dochie na";
 "Double ⇧ to search everywhere" = "Pịa ⇧ ugboro abụọ ka ịchọọ ebe niile";
 "Files" = "Faịlụ";
 "Actions" = "Omume";
@@ -140,6 +148,6 @@
 "Type a command name" = "Dee aha iwu";
 "Type text to find in project files" = "Dee ederede ị ga-achọ na faịlụ ọrụ";
 "No recent files" = "Enweghị faịlụ e meghere nso nso a";
-"Matches: %1$ld / Files: %2$ld" = "Ndị Dakọtara: %1$ld / Faịlụ: %2$ld";
 "Searching…" = "Na-achọ…";
+"Next Field" = "Mpaghara Na-esote";
 "Switch Tab" = "Gbanwee Taabụ";

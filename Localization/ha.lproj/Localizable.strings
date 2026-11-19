@@ -42,6 +42,7 @@
 "Join Lines" = "Haɗa layuka";
 "Toggle Case" = "Sauya manya/ƙananan haruffa";
 "Comment with Line Comment" = "Yi sharhi da sharhin layi";
+"Comment with Block Comment" = "Yi sharhi da sharhin toshe";
 "Move Line Up" = "Matsar da layi sama";
 "Move Line Down" = "Matsar da layi ƙasa";
 "Extend Selection" = "Faɗaɗa zaɓi";
@@ -54,6 +55,7 @@
 "Find Previous" = "Nemo na baya";
 "Use Selection for Find" = "Nemo rubutun da aka zaɓa";
 "Find in Files…" = "Nema a cikin fayiloli…";
+"Replace in Files…" = "Sauya a cikin fayiloli…";
 "Find" = "Bincike";
 "Project" = "Aiki";
 "Terminal" = "Tashar umarni";
@@ -70,6 +72,9 @@
 "Find Action…" = "Nemo umarni…";
 "Go to Line:Column…" = "Je zuwa layi:ginshiƙi…";
 "Select in Project View" = "Zaɓa a duba aikin";
+"Back" = "Koma baya";
+"Forward" = "Ci gaba";
+"Last Edit Location" = "Wurin gyara na ƙarshe";
 "Next Tab" = "Shafi na gaba";
 "Previous Tab" = "Shafi na baya";
 "Minimize" = "Rage taga";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Buɗe a tashar umarni";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Masu dacewa: %1$ld / Fayiloli: %2$ld";
+"Replace All" = "Sauya duka";
 "Go to Line:Column" = "Je zuwa layi:ginshiƙi";
 "Left Panel" = "Bangaren hagu";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Sauya da";
 "Double ⇧ to search everywhere" = "Danna ⇧ sau biyu don nema ko'ina";
 "Files" = "Fayiloli";
 "Actions" = "Umarnai";
@@ -140,6 +148,6 @@
 "Type a command name" = "Rubuta sunan umarni";
 "Type text to find in project files" = "Rubuta rubutun da za a nema a fayilolin aikin";
 "No recent files" = "Babu fayilolin baya-bayan nan";
-"Matches: %1$ld / Files: %2$ld" = "Masu dacewa: %1$ld / Fayiloli: %2$ld";
 "Searching…" = "Ana nema…";
+"Next Field" = "Fili na gaba";
 "Switch Tab" = "Sauya shafi";

@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Nā faila i wehe koke ʻia | ⌘E |
 | Huli i ke kauoha | ⇧⌘A |
 | Huli ma nā faila | ⇧⌘F |
+| Hoʻololi ma nā faila | ⇧⌘R |
 | Hele i ka lālani:kolamu | ⌘L |
+| Hoʻi i hope / hele i mua | ⌘[ / ⌘] |
+| Kahi hoʻoponopono hope loa | ⇧⌘⌫ |
 | Pālua i ka lālani a i ʻole ka mea i koho ʻia | ⌘D |
 | Holoi i ka lālani | ⌘⌫ |
 | Hoʻoneʻe i ka lālani i luna / i lalo | ⌥⇧↑ / ⌥⇧↓ |
 | Hoʻohuli i manaʻo lālani | ⌘/ |
+| Hoʻohuli i manaʻo poloka | ⌥⌘/ |
 | Hoʻohui i nā lālani | ⌃⇧J |
 | Hoʻololi i nā hua nui/liʻiliʻi | ⇧⌘U |
 | Hoʻonui / hoʻēmi i ke koho | ⌥↑ / ⌥↓ |

@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Recente bestanden | ⌘E |
 | Zoek actie | ⇧⌘A |
 | Zoek in bestanden | ⇧⌘F |
+| Vervang in bestanden | ⇧⌘R |
 | Ga naar regel:kolom | ⌘L |
+| Terug / vooruit | ⌘[ / ⌘] |
+| Laatste bewerkingslocatie | ⇧⌘⌫ |
 | Dupliceer regel of selectie | ⌘D |
 | Verwijder regel | ⌘⌫ |
 | Verplaats regel omhoog / omlaag | ⌥⇧↑ / ⌥⇧↓ |
 | Zet in regelcommentaar | ⌘/ |
+| Zet in blokcommentaar | ⌥⌘/ |
 | Voeg regels samen | ⌃⇧J |
 | Wissel hoofd-/kleine letters | ⇧⌘U |
 | Vergroot / verklein selectie | ⌥↑ / ⌥↓ |

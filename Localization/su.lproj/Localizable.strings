@@ -42,6 +42,7 @@
 "Join Lines" = "Gabungkeun baris";
 "Toggle Case" = "Tukeur hurup gedé jeung leutik";
 "Comment with Line Comment" = "Koméntaran ku koméntar baris";
+"Comment with Block Comment" = "Koméntaran ku koméntar blok";
 "Move Line Up" = "Pindahkeun baris ka luhur";
 "Move Line Down" = "Pindahkeun baris ka handap";
 "Extend Selection" = "Legaan pilihan";
@@ -54,6 +55,7 @@
 "Find Previous" = "Téangan saméméhna";
 "Use Selection for Find" = "Téangan téks nu dipilih";
 "Find in Files…" = "Téangan dina berkas…";
+"Replace in Files…" = "Ganti dina berkas…";
 "Find" = "Téangan";
 "Project" = "Proyék";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Téangan aksi…";
 "Go to Line:Column…" = "Pindah ka baris:kolom…";
 "Select in Project View" = "Pilih dina tampilan proyék";
+"Back" = "Mundur";
+"Forward" = "Maju";
+"Last Edit Location" = "Lokasi éditan panungtung";
 "Next Tab" = "Tab salajengna";
 "Previous Tab" = "Tab saméméhna";
 "Minimize" = "Leutikan jandéla";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Buka dina terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Nu cocog: %1$ld / Berkas: %2$ld";
+"Replace All" = "Ganti sadayana";
 "Go to Line:Column" = "Pindah ka baris:kolom";
 "Left Panel" = "Panel kénca";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ganti ku";
 "Double ⇧ to search everywhere" = "Pencét ⇧ dua kali pikeun néangan di mana waé";
 "Files" = "Berkas";
 "Actions" = "Aksi";
@@ -140,6 +148,6 @@
 "Type a command name" = "Ketik ngaran paréntah";
 "Type text to find in project files" = "Ketik téks pikeun ditéangan dina berkas proyék";
 "No recent files" = "Teu aya berkas panganyarna";
-"Matches: %1$ld / Files: %2$ld" = "Nu cocog: %1$ld / Berkas: %2$ld";
 "Searching…" = "Nuju néangan…";
+"Next Field" = "Widang salajengna";
 "Switch Tab" = "Ganti tab";

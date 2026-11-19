@@ -42,6 +42,7 @@
 "Join Lines" = "Lumikizani Mizere";
 "Toggle Case" = "Sinthani Zilembo Zazikulu/Zing'onozing'ono";
 "Comment with Line Comment" = "Ikani Ndemanga ya Mzere";
+"Comment with Block Comment" = "Ikani Ndemanga ya Chipika";
 "Move Line Up" = "Sunthani Mzere Mmwamba";
 "Move Line Down" = "Sunthani Mzere Pansi";
 "Extend Selection" = "Kulitsani Zosankhidwa";
@@ -54,6 +55,7 @@
 "Find Previous" = "Pezani Cham'mbuyo";
 "Use Selection for Find" = "Sakani Mawu Osankhidwa";
 "Find in Files…" = "Pezani m'Mafayilo…";
+"Replace in Files…" = "Sinthani ndi Zina m'Mafayilo…";
 "Find" = "Pezani";
 "Project" = "Pulojekiti";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Pezani Ntchito…";
 "Go to Line:Column…" = "Pitani ku Mzere:Mzati…";
 "Select in Project View" = "Sankhani pa Mtengo wa Pulojekiti";
+"Back" = "Bwererani";
+"Forward" = "Pitani Patsogolo";
+"Last Edit Location" = "Malo Osinthidwa Komaliza";
 "Next Tab" = "Tabu Yotsatira";
 "Previous Tab" = "Tabu Yam'mbuyo";
 "Minimize" = "Chepetsani";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Tsegulani mu Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Zogwirizana: %1$ld / Mafayilo: %2$ld";
+"Replace All" = "Sinthani Zonse";
 "Go to Line:Column" = "Pitani ku Mzere:Mzati";
 "Left Panel" = "Gawo la Kumanzere";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Sinthani ndi";
 "Double ⇧ to search everywhere" = "Dinani ⇧ kawiri kuti musake paliponse";
 "Files" = "Mafayilo";
 "Actions" = "Ntchito";
@@ -140,6 +148,6 @@
 "Type a command name" = "Lembani dzina la lamulo";
 "Type text to find in project files" = "Lembani mawu oti mupeze m'mafayilo a pulojekiti";
 "No recent files" = "Palibe mafayilo aposachedwa";
-"Matches: %1$ld / Files: %2$ld" = "Zogwirizana: %1$ld / Mafayilo: %2$ld";
 "Searching…" = "Ikusaka…";
+"Next Field" = "Gawo Lotsatira";
 "Switch Tab" = "Sinthani Tabu";

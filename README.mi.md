@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Kōnae Nō Nā Tata Nei | ⌘E |
 | Rapu Hohenga | ⇧⌘A |
 | Rapu i Ngā Kōnae | ⇧⌘F |
+| Whakakapi i Ngā Kōnae | ⇧⌘R |
 | Haere ki te Rārangi:Tīwae | ⌘L |
+| Hoki Whakamuri / Haere Whakamua | ⌘[ / ⌘] |
+| Wāhi Whakatika Whakamutunga | ⇧⌘⌫ |
 | Tāruatia te Rārangi, te Tīpako rānei | ⌘D |
 | Mukua te Rārangi | ⌘⌫ |
 | Nekehia te Rārangi ki Runga / Nekehia te Rārangi ki Raro | ⌥⇧↑ / ⌥⇧↓ |
 | Whakatākupu ki te Tākupu Rārangi | ⌘/ |
+| Whakatākupu ki te Tākupu Paraka | ⌥⌘/ |
 | Honoa ngā Rārangi | ⌃⇧J |
 | Whakawhitia te Pūmatua me te Pūiti | ⇧⌘U |
 | Whakawhānuitia te Tīpako / Whakawhāitihia te Tīpako | ⌥↑ / ⌥↓ |

@@ -42,6 +42,7 @@
 "Join Lines" = "စာကြောင်းများ ပေါင်းရန်";
 "Toggle Case" = "စာလုံးအကြီး/အသေး ပြောင်းရန်";
 "Comment with Line Comment" = "စာကြောင်းမှတ်ချက်ဖြင့် မှတ်ချက်ပြုရန်";
+"Comment with Block Comment" = "ဘလောက်မှတ်ချက်ဖြင့် မှတ်ချက်ပြုရန်";
 "Move Line Up" = "စာကြောင်းကို အပေါ်သို့ ရွှေ့ရန်";
 "Move Line Down" = "စာကြောင်းကို အောက်သို့ ရွှေ့ရန်";
 "Extend Selection" = "ရွေးချယ်မှုကို ချဲ့ရန်";
@@ -54,6 +55,7 @@
 "Find Previous" = "ယခင်တစ်ခုရှာရန်";
 "Use Selection for Find" = "ရွေးထားသောစာသားကို ရှာရန်";
 "Find in Files…" = "ဖိုင်များတွင် ရှာရန်…";
+"Replace in Files…" = "ဖိုင်များတွင် အစားထိုးရန်…";
 "Find" = "ရှာရန်";
 "Project" = "ပရောဂျက်";
 "Terminal" = "တာမီနယ်";
@@ -70,6 +72,9 @@
 "Find Action…" = "လုပ်ဆောင်ချက် ရှာရန်…";
 "Go to Line:Column…" = "စာကြောင်း:ကော်လံသို့ သွားရန်…";
 "Select in Project View" = "ပရောဂျက်ဖိုင်ပင်တွင် ရွေးရန်";
+"Back" = "နောက်သို့ပြန်ရန်";
+"Forward" = "ရှေ့သို့သွားရန်";
+"Last Edit Location" = "နောက်ဆုံးတည်းဖြတ်ခဲ့သည့်နေရာ";
 "Next Tab" = "နောက်တက်ဘ်";
 "Previous Tab" = "ယခင်တက်ဘ်";
 "Minimize" = "အငယ်ဆုံးချုံ့ရန်";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "တာမီနယ်တွင် ဖွင့်ရန်";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "ကိုက်ညီမှု: %1$ld / ဖိုင်များ: %2$ld";
+"Replace All" = "အားလုံးအစားထိုးရန်";
 "Go to Line:Column" = "စာကြောင်း:ကော်လံသို့ သွားရန်";
 "Left Panel" = "ဘယ်ဘက်အကန့်";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "အစားထိုးမည့်စာ";
 "Double ⇧ to search everywhere" = "နေရာတိုင်းရှာရန် ⇧ ကို နှစ်ချက်နှိပ်ပါ";
 "Files" = "ဖိုင်များ";
 "Actions" = "လုပ်ဆောင်ချက်များ";
@@ -140,6 +148,6 @@
 "Type a command name" = "အမိန့်အမည် ရိုက်ပါ";
 "Type text to find in project files" = "ပရောဂျက်ဖိုင်များတွင် ရှာမည့်စာသား ရိုက်ပါ";
 "No recent files" = "မကြာသေးမီက ဖိုင်များ မရှိပါ";
-"Matches: %1$ld / Files: %2$ld" = "ကိုက်ညီမှု: %1$ld / ဖိုင်များ: %2$ld";
 "Searching…" = "ရှာနေသည်…";
+"Next Field" = "နောက်အကွက်";
 "Switch Tab" = "တက်ဘ်ပြောင်းရန်";

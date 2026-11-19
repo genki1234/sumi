@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Fail Terkini | ⌘E |
 | Cari Tindakan | ⇧⌘A |
 | Cari dalam Fail | ⇧⌘F |
+| Ganti dalam Fail | ⇧⌘R |
 | Pergi ke Baris:Lajur | ⌘L |
+| Kembali / Ke Hadapan | ⌘[ / ⌘] |
+| Lokasi Suntingan Terakhir | ⇧⌘⌫ |
 | Gandakan Baris atau Pilihan | ⌘D |
 | Padam Baris | ⌘⌫ |
 | Alih Baris ke Atas / ke Bawah | ⌥⇧↑ / ⌥⇧↓ |
 | Ulas dengan Ulasan Baris | ⌘/ |
+| Ulas dengan Ulasan Blok | ⌥⌘/ |
 | Gabungkan Baris | ⌃⇧J |
 | Tukar Huruf Besar/Kecil | ⇧⌘U |
 | Kembangkan / Kecilkan Pilihan | ⌥↑ / ⌥↓ |

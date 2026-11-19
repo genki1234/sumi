@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Resinte bestannen | ⌘E |
 | Aksje sykje | ⇧⌘A |
 | Yn bestannen sykje | ⇧⌘F |
+| Yn bestannen ferfange | ⇧⌘R |
 | Nei rigel:kolom gean | ⌘L |
+| Tebek / foarút | ⌘[ / ⌘] |
+| Lêste bewurkingsplak | ⇧⌘⌫ |
 | Rigel of seleksje duplisearje | ⌘D |
 | Rigel wiskje | ⌘⌫ |
 | Rigel omheech / omleech ferpleatse | ⌥⇧↑ / ⌥⇧↓ |
 | Mei rigelkommentaar kommentariearje | ⌘/ |
+| Mei blokkommentaar kommentariearje | ⌥⌘/ |
 | Rigels gearfoegje | ⌃⇧J |
 | Haadletters/lytse letters wikselje | ⇧⌘U |
 | Seleksje útwreidzje / ferlytsje | ⌥↑ / ⌥↓ |

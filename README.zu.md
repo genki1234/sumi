@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Amafayela akamuva | ⌘E |
 | Thola isenzo | ⇧⌘A |
 | Thola emafayeleni | ⇧⌘F |
+| Faka esikhundleni emafayeleni | ⇧⌘R |
 | Iya emugqeni:ekholamu | ⌘L |
+| Buyela emuva / Iya phambili | ⌘[ / ⌘] |
+| Indawo yokuhlela yokugcina | ⇧⌘⌫ |
 | Phinda umugqa noma okukhethiwe | ⌘D |
 | Susa umugqa | ⌘⌫ |
 | Hambisa umugqa phezulu / Hambisa umugqa phansi | ⌥⇧↑ / ⌥⇧↓ |
 | Faka noma ususe amazwana omugqa | ⌘/ |
+| Faka noma ususe amazwana ebhulokhi | ⌥⌘/ |
 | Hlanganisa imigqa | ⌃⇧J |
 | Shintsha onobumba abakhulu nabancane | ⇧⌘U |
 | Nweba ukukhetha / Nciphisa ukukhetha | ⌥↑ / ⌥↓ |

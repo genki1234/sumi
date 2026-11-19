@@ -42,6 +42,7 @@
 "Join Lines" = "Batu lerroak";
 "Toggle Case" = "Txandakatu maiuskulak/minuskulak";
 "Comment with Line Comment" = "Iruzkindu lerro-iruzkinarekin";
+"Comment with Block Comment" = "Iruzkindu bloke-iruzkinarekin";
 "Move Line Up" = "Eraman lerroa gora";
 "Move Line Down" = "Eraman lerroa behera";
 "Extend Selection" = "Zabaldu hautapena";
@@ -54,6 +55,7 @@
 "Find Previous" = "Bilatu aurrekoa";
 "Use Selection for Find" = "Bilatu hautatutako testua";
 "Find in Files…" = "Bilatu fitxategietan…";
+"Replace in Files…" = "Ordeztu fitxategietan…";
 "Find" = "Bilatu";
 "Project" = "Proiektua";
 "Terminal" = "Terminala";
@@ -70,6 +72,9 @@
 "Find Action…" = "Bilatu ekintza…";
 "Go to Line:Column…" = "Joan lerro:zutabera…";
 "Select in Project View" = "Hautatu proiektuaren ikuspegian";
+"Back" = "Atzera";
+"Forward" = "Aurrera";
+"Last Edit Location" = "Azken edizioaren kokapena";
 "Next Tab" = "Hurrengo fitxa";
 "Previous Tab" = "Aurreko fitxa";
 "Minimize" = "Minimizatu";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Ireki terminalean";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Bat-etortzeak: %1$ld / Fitxategiak: %2$ld";
+"Replace All" = "Ordeztu guztiak";
 "Go to Line:Column" = "Joan lerro:zutabera";
 "Left Panel" = "Ezkerreko panela";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ordeztu honekin";
 "Double ⇧ to search everywhere" = "Sakatu ⇧ bi aldiz edonon bilatzeko";
 "Files" = "Fitxategiak";
 "Actions" = "Ekintzak";
@@ -140,6 +148,6 @@
 "Type a command name" = "Idatzi komando baten izena";
 "Type text to find in project files" = "Idatzi proiektuko fitxategietan bilatu beharreko testua";
 "No recent files" = "Ez dago azken fitxategirik";
-"Matches: %1$ld / Files: %2$ld" = "Bat-etortzeak: %1$ld / Fitxategiak: %2$ld";
 "Searching…" = "Bilatzen…";
+"Next Field" = "Hurrengo eremua";
 "Switch Tab" = "Aldatu fitxa";

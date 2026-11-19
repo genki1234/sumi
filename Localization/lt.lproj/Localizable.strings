@@ -42,6 +42,7 @@
 "Join Lines" = "Sujungti eilutes";
 "Toggle Case" = "Keisti didžiąsias / mažąsias raides";
 "Comment with Line Comment" = "Komentuoti eilutės komentaru";
+"Comment with Block Comment" = "Komentuoti bloko komentaru";
 "Move Line Up" = "Perkelti eilutę aukštyn";
 "Move Line Down" = "Perkelti eilutę žemyn";
 "Extend Selection" = "Išplėsti žymėjimą";
@@ -54,6 +55,7 @@
 "Find Previous" = "Rasti ankstesnį";
 "Use Selection for Find" = "Ieškoti pažymėto teksto";
 "Find in Files…" = "Rasti failuose…";
+"Replace in Files…" = "Pakeisti failuose…";
 "Find" = "Rasti";
 "Project" = "Projektas";
 "Terminal" = "Terminalas";
@@ -70,6 +72,9 @@
 "Find Action…" = "Rasti veiksmą…";
 "Go to Line:Column…" = "Eiti į eilutę:stulpelį…";
 "Select in Project View" = "Pažymėti projekto medyje";
+"Back" = "Atgal";
+"Forward" = "Pirmyn";
+"Last Edit Location" = "Paskutinio redagavimo vieta";
 "Next Tab" = "Kita kortelė";
 "Previous Tab" = "Ankstesnė kortelė";
 "Minimize" = "Sumažinti";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Atverti terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Atitikmenys: %1$ld / Failai: %2$ld";
+"Replace All" = "Pakeisti visus";
 "Go to Line:Column" = "Eiti į eilutę:stulpelį";
 "Left Panel" = "Kairysis skydelis";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Pakeisti į";
 "Double ⇧ to search everywhere" = "Dukart paspauskite ⇧, kad ieškotumėte visur";
 "Files" = "Failai";
 "Actions" = "Veiksmai";
@@ -140,6 +148,6 @@
 "Type a command name" = "Įveskite komandos pavadinimą";
 "Type text to find in project files" = "Įveskite tekstą, kurio ieškoti projekto failuose";
 "No recent files" = "Nėra naujausių failų";
-"Matches: %1$ld / Files: %2$ld" = "Atitikmenys: %1$ld / Failai: %2$ld";
 "Searching…" = "Ieškoma…";
+"Next Field" = "Kitas laukas";
 "Switch Tab" = "Perjungti kortelę";

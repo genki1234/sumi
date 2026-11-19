@@ -42,6 +42,7 @@
 "Join Lines" = "Мөрүүдийг нэгтгэх";
 "Toggle Case" = "Том/жижиг үсэг солих";
 "Comment with Line Comment" = "Мөрийн тайлбараар тайлбарлах";
+"Comment with Block Comment" = "Блок тайлбараар тайлбарлах";
 "Move Line Up" = "Мөрийг дээш зөөх";
 "Move Line Down" = "Мөрийг доош зөөх";
 "Extend Selection" = "Сонголтыг өргөтгөх";
@@ -54,6 +55,7 @@
 "Find Previous" = "Өмнөхийг хайх";
 "Use Selection for Find" = "Сонгосон бичвэрийг хайх";
 "Find in Files…" = "Файлуудаас хайх…";
+"Replace in Files…" = "Файлуудад орлуулах…";
 "Find" = "Хайх";
 "Project" = "Төсөл";
 "Terminal" = "Терминал";
@@ -70,6 +72,9 @@
 "Find Action…" = "Үйлдэл хайх…";
 "Go to Line:Column…" = "Мөр:багана руу очих…";
 "Select in Project View" = "Төслийн модонд сонгох";
+"Back" = "Буцах";
+"Forward" = "Урагшлах";
+"Last Edit Location" = "Сүүлд засварласан байрлал";
 "Next Tab" = "Дараагийн таб";
 "Previous Tab" = "Өмнөх таб";
 "Minimize" = "Хураах";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Терминалд нээх";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Тохирол: %1$ld / Файлууд: %2$ld";
+"Replace All" = "Бүгдийг орлуулах";
 "Go to Line:Column" = "Мөр:багана руу очих";
 "Left Panel" = "Зүүн самбар";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Үүгээр орлуулах";
 "Double ⇧ to search everywhere" = "Хаа сайгүй хайхын тулд ⇧ товчийг хоёр удаа дарна уу";
 "Files" = "Файлууд";
 "Actions" = "Үйлдлүүд";
@@ -140,6 +148,6 @@
 "Type a command name" = "Командын нэрийг бичнэ үү";
 "Type text to find in project files" = "Төслийн файлуудаас хайх бичвэрээ бичнэ үү";
 "No recent files" = "Саяхны файл алга";
-"Matches: %1$ld / Files: %2$ld" = "Тохирол: %1$ld / Файлууд: %2$ld";
 "Searching…" = "Хайж байна…";
+"Next Field" = "Дараагийн талбар";
 "Switch Tab" = "Таб солих";

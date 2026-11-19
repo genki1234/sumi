@@ -42,6 +42,7 @@
 "Join Lines" = "Kunigi liniojn";
 "Toggle Case" = "Baskuli usklecon";
 "Comment with Line Comment" = "Komenti per linikomento";
+"Comment with Block Comment" = "Komenti per blokkomento";
 "Move Line Up" = "Movi linion supren";
 "Move Line Down" = "Movi linion malsupren";
 "Extend Selection" = "Etendi elekton";
@@ -54,6 +55,7 @@
 "Find Previous" = "Trovi la antaŭan";
 "Use Selection for Find" = "Serĉi la elektitan tekston";
 "Find in Files…" = "Trovi en dosieroj…";
+"Replace in Files…" = "Anstataŭigi en dosieroj…";
 "Find" = "Serĉo";
 "Project" = "Projekto";
 "Terminal" = "Terminalo";
@@ -70,6 +72,9 @@
 "Find Action…" = "Trovi agon…";
 "Go to Line:Column…" = "Iri al linio:kolumno…";
 "Select in Project View" = "Elekti en la projekta vido";
+"Back" = "Reen";
+"Forward" = "Antaŭen";
+"Last Edit Location" = "Loko de la lasta redakto";
 "Next Tab" = "Sekva langeto";
 "Previous Tab" = "Antaŭa langeto";
 "Minimize" = "Minimumigi";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Malfermi en terminalo";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Kongruoj: %1$ld / Dosieroj: %2$ld";
+"Replace All" = "Anstataŭigi ĉiujn";
 "Go to Line:Column" = "Iri al linio:kolumno";
 "Left Panel" = "Maldekstra panelo";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Anstataŭigi per";
 "Double ⇧ to search everywhere" = "Premu ⇧ dufoje por serĉi ĉie";
 "Files" = "Dosieroj";
 "Actions" = "Agoj";
@@ -140,6 +148,6 @@
 "Type a command name" = "Tajpu komandonomon";
 "Type text to find in project files" = "Tajpu tekston por serĉi en la projektaj dosieroj";
 "No recent files" = "Neniuj lastatempaj dosieroj";
-"Matches: %1$ld / Files: %2$ld" = "Kongruoj: %1$ld / Dosieroj: %2$ld";
 "Searching…" = "Serĉante…";
+"Next Field" = "Sekva kampo";
 "Switch Tab" = "Ŝanĝi langeton";

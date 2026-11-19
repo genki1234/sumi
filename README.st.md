@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Difaele tsa moraorao | ⌘E |
 | Batla ketso | ⇧⌘A |
 | Batla difaeleng | ⇧⌘F |
+| Nkela sebaka difaeleng | ⇧⌘R |
 | Eya ho mola:kholomo | ⌘L |
+| Eya morao / Eya pele | ⌘[ / ⌘] |
+| Sebaka sa phetoho ya ho qetela | ⇧⌘⌫ |
 | Etsa kopi ya mola kapa kgetho | ⌘D |
 | Hlakola mola | ⌘⌫ |
 | Isa mola hodimo / Isa mola tlase | ⌥⇧↑ / ⌥⇧↓ |
 | Kenya kapa tlosa tlhaloso ya mola | ⌘/ |
+| Kenya kapa tlosa tlhaloso ya boloko | ⌥⌘/ |
 | Kopanya mela | ⌃⇧J |
 | Fetola ditlhaku tse kgolo le tse nyane | ⇧⌘U |
 | Atolosa kgetho / Fokotsa kgetho | ⌥↑ / ⌥↓ |

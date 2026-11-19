@@ -42,6 +42,7 @@
 "Join Lines" = "Ini liy yo";
 "Toggle Case" = "Chanje majiskil/miniskil";
 "Comment with Line Comment" = "Kòmante ak kòmantè liy";
+"Comment with Block Comment" = "Kòmante ak kòmantè blòk";
 "Move Line Up" = "Monte liy la";
 "Move Line Down" = "Desann liy la";
 "Extend Selection" = "Elaji seleksyon an";
@@ -54,6 +55,7 @@
 "Find Previous" = "Chèche anvan an";
 "Use Selection for Find" = "Chèche tèks ki chwazi a";
 "Find in Files…" = "Chèche nan fichye yo…";
+"Replace in Files…" = "Ranplase nan fichye yo…";
 "Find" = "Rechèch";
 "Project" = "Pwojè";
 "Terminal" = "Tèminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Chèche aksyon…";
 "Go to Line:Column…" = "Ale nan liy:kolòn…";
 "Select in Project View" = "Chwazi nan afichaj pwojè a";
+"Back" = "Retounen";
+"Forward" = "Avanse";
+"Last Edit Location" = "Kote dènye modifikasyon an";
 "Next Tab" = "Pwochen onglet";
 "Previous Tab" = "Onglet anvan an";
 "Minimize" = "Minimize";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Louvri nan tèminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Korespondans: %1$ld / Fichye: %2$ld";
+"Replace All" = "Ranplase tout";
 "Go to Line:Column" = "Ale nan liy:kolòn";
 "Left Panel" = "Pano agoch";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ranplase pa";
 "Double ⇧ to search everywhere" = "Peze ⇧ de fwa pou chèche tout kote";
 "Files" = "Fichye yo";
 "Actions" = "Aksyon";
@@ -140,6 +148,6 @@
 "Type a command name" = "Tape non yon kòmand";
 "Type text to find in project files" = "Tape tèks pou chèche nan fichye pwojè a";
 "No recent files" = "Pa gen fichye resan";
-"Matches: %1$ld / Files: %2$ld" = "Korespondans: %1$ld / Fichye: %2$ld";
 "Searching…" = "N ap chèche…";
+"Next Field" = "Pwochen chan";
 "Switch Tab" = "Chanje onglet";

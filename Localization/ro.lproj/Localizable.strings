@@ -42,6 +42,7 @@
 "Join Lines" = "Unește liniile";
 "Toggle Case" = "Comută majuscule/minuscule";
 "Comment with Line Comment" = "Comentează cu comentariu de linie";
+"Comment with Block Comment" = "Comentează cu comentariu de bloc";
 "Move Line Up" = "Mută linia în sus";
 "Move Line Down" = "Mută linia în jos";
 "Extend Selection" = "Extinde selecția";
@@ -54,6 +55,7 @@
 "Find Previous" = "Caută apariția precedentă";
 "Use Selection for Find" = "Caută textul selectat";
 "Find in Files…" = "Caută în fișiere…";
+"Replace in Files…" = "Înlocuiește în fișiere…";
 "Find" = "Caută";
 "Project" = "Proiect";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Caută acțiune…";
 "Go to Line:Column…" = "Mergi la linie:coloană…";
 "Select in Project View" = "Selectează în panoul proiectului";
+"Back" = "Înapoi";
+"Forward" = "Înainte";
+"Last Edit Location" = "Locul ultimei editări";
 "Next Tab" = "Fila următoare";
 "Previous Tab" = "Fila precedentă";
 "Minimize" = "Minimizează";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Deschide în terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Potriviri: %1$ld / Fișiere: %2$ld";
+"Replace All" = "Înlocuiește tot";
 "Go to Line:Column" = "Mergi la linie:coloană";
 "Left Panel" = "Panoul din stânga";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Înlocuiește cu";
 "Double ⇧ to search everywhere" = "Apăsați ⇧ de două ori pentru a căuta peste tot";
 "Files" = "Fișiere";
 "Actions" = "Acțiuni";
@@ -140,6 +148,6 @@
 "Type a command name" = "Scrieți numele unei comenzi";
 "Type text to find in project files" = "Scrieți textul de căutat în fișierele proiectului";
 "No recent files" = "Niciun fișier recent";
-"Matches: %1$ld / Files: %2$ld" = "Potriviri: %1$ld / Fișiere: %2$ld";
 "Searching…" = "Se caută…";
+"Next Field" = "Câmpul următor";
 "Switch Tab" = "Comută fila";

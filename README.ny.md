@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Mafayilo Aposachedwa | ⌘E |
 | Pezani Chochita | ⇧⌘A |
 | Pezani mu Mafayilo | ⇧⌘F |
+| Sinthani ndi Zina mu Mafayilo | ⇧⌘R |
 | Pitani ku Mzere:Mzati | ⌘L |
+| Bwererani / Pitani Patsogolo | ⌘[ / ⌘] |
+| Malo Osinthidwa Komaliza | ⇧⌘⌫ |
 | Bwerezani Mzere kapena Zosankhidwa | ⌘D |
 | Chotsani Mzere | ⌘⌫ |
 | Sunthani Mzere Mmwamba / Sunthani Mzere Pansi | ⌥⇧↑ / ⌥⇧↓ |
 | Ikani Ndemanga ya Mzere | ⌘/ |
+| Ikani Ndemanga ya Chipika | ⌥⌘/ |
 | Phatikizani Mizere | ⌃⇧J |
 | Sinthani Zilembo Zazikulu ndi Zazing'ono | ⇧⌘U |
 | Kulitsani Kusankha / Chepetsani Kusankha | ⌥↑ / ⌥↓ |

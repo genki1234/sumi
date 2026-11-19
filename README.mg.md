@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Rakitra Vao Nosokafana | ⌘E |
 | Tadiavo Asa | ⇧⌘A |
 | Tadiavo ao amin'ny Rakitra | ⇧⌘F |
+| Soloy ao amin'ny Rakitra | ⇧⌘R |
 | Mankanesa amin'ny Andalana:Tsanganana | ⌘L |
+| Miverena / Mandrosoa | ⌘[ / ⌘] |
+| Toerana Novaina Farany | ⇧⌘⌫ |
 | Avereno Indroa ny Andalana na ny Voafantina | ⌘D |
 | Fafao ny Andalana | ⌘⌫ |
 | Ampiakaro ny Andalana / Ampidino ny Andalana | ⌥⇧↑ / ⌥⇧↓ |
 | Ovay ho Fanamarihana Andalana | ⌘/ |
+| Ovay ho Fanamarihana Bloka | ⌥⌘/ |
 | Atambaro ny Andalana | ⌃⇧J |
 | Avadiho ny Litera Lehibe sy Kely | ⇧⌘U |
 | Itaro ny Voafantina / Ahenao ny Voafantina | ⌥↑ / ⌥↓ |

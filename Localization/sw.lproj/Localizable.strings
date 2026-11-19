@@ -42,6 +42,7 @@
 "Join Lines" = "Unganisha mistari";
 "Toggle Case" = "Badilisha herufi kubwa na ndogo";
 "Comment with Line Comment" = "Weka au ondoa maoni ya mstari";
+"Comment with Block Comment" = "Weka au ondoa maoni ya bloku";
 "Move Line Up" = "Sogeza mstari juu";
 "Move Line Down" = "Sogeza mstari chini";
 "Extend Selection" = "Panua uteuzi";
@@ -54,6 +55,7 @@
 "Find Previous" = "Tafuta iliyotangulia";
 "Use Selection for Find" = "Tafuta maandishi yaliyochaguliwa";
 "Find in Files…" = "Tafuta kwenye faili…";
+"Replace in Files…" = "Badilisha kwenye faili…";
 "Find" = "Tafuta";
 "Project" = "Mradi";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Tafuta kitendo…";
 "Go to Line:Column…" = "Nenda kwenye mstari:safu…";
 "Select in Project View" = "Chagua katika mwonekano wa mradi";
+"Back" = "Rudi nyuma";
+"Forward" = "Nenda mbele";
+"Last Edit Location" = "Mahali pa uhariri wa mwisho";
 "Next Tab" = "Kichupo kinachofuata";
 "Previous Tab" = "Kichupo kilichotangulia";
 "Minimize" = "Punguza dirisha";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Fungua katika terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Zinazolingana: %1$ld / Faili: %2$ld";
+"Replace All" = "Badilisha zote";
 "Go to Line:Column" = "Nenda kwenye mstari:safu";
 "Left Panel" = "Paneli ya kushoto";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Badilisha kwa";
 "Double ⇧ to search everywhere" = "Bonyeza ⇧ mara mbili kutafuta kila mahali";
 "Files" = "Faili";
 "Actions" = "Vitendo";
@@ -140,6 +148,6 @@
 "Type a command name" = "Andika jina la amri";
 "Type text to find in project files" = "Andika maandishi ya kutafuta katika faili za mradi";
 "No recent files" = "Hakuna faili za hivi karibuni";
-"Matches: %1$ld / Files: %2$ld" = "Zinazolingana: %1$ld / Faili: %2$ld";
 "Searching…" = "Inatafuta…";
+"Next Field" = "Sehemu inayofuata";
 "Switch Tab" = "Badili kichupo";

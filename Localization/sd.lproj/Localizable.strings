@@ -42,6 +42,7 @@
 "Join Lines" = "سٽون ملايو";
 "Toggle Case" = "وڏا/ننڍا اکر مٽايو";
 "Comment with Line Comment" = "سٽ واري تبصري سان تبصرو ڪريو";
+"Comment with Block Comment" = "بلاڪ واري تبصري سان تبصرو ڪريو";
 "Move Line Up" = "سٽ مٿي منتقل ڪريو";
 "Move Line Down" = "سٽ هيٺ منتقل ڪريو";
 "Extend Selection" = "چونڊ وڌايو";
@@ -54,6 +55,7 @@
 "Find Previous" = "پويون ڳوليو";
 "Use Selection for Find" = "چونڊيل متن ڳوليو";
 "Find in Files…" = "فائلن ۾ ڳوليو…";
+"Replace in Files…" = "فائلن ۾ مٽايو…";
 "Find" = "ڳوليو";
 "Project" = "منصوبو";
 "Terminal" = "ٽرمينل";
@@ -70,6 +72,9 @@
 "Find Action…" = "عمل ڳوليو…";
 "Go to Line:Column…" = "سٽ:ڪالم ڏانهن وڃو…";
 "Select in Project View" = "منصوبي جي ڏيک ۾ چونڊيو";
+"Back" = "پوئتي وڃو";
+"Forward" = "اڳتي وڃو";
+"Last Edit Location" = "آخري سنوار جي جاءِ";
 "Next Tab" = "اڳيون ٽيب";
 "Previous Tab" = "پويون ٽيب";
 "Minimize" = "ننڍو ڪريو";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "ٽرمينل ۾ کوليو";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "ميل: %1$ld / فائلون: %2$ld";
+"Replace All" = "سڀ مٽايو";
 "Go to Line:Column" = "سٽ:ڪالم ڏانهن وڃو";
 "Left Panel" = "کاٻو پينل";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "هن سان مٽايو";
 "Double ⇧ to search everywhere" = "هر هنڌ ڳولڻ لاءِ ⇧ ٻه ڀيرا دٻايو";
 "Files" = "فائلون";
 "Actions" = "عمل";
@@ -140,6 +148,6 @@
 "Type a command name" = "ڪمانڊ جو نالو لکو";
 "Type text to find in project files" = "منصوبي جي فائلن ۾ ڳولڻ لاءِ متن لکو";
 "No recent files" = "ڪا تازي فائل ناهي";
-"Matches: %1$ld / Files: %2$ld" = "ميل: %1$ld / فائلون: %2$ld";
 "Searching…" = "ڳولي رهيو آهي…";
+"Next Field" = "اڳيون خانو";
 "Switch Tab" = "ٽيب مٽايو";

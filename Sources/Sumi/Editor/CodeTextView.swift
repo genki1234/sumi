@@ -27,6 +27,7 @@ final class CodeTextView: NSTextView {
     override func validateMenuItem(_ menuItem: NSMenuItem) -> Bool {
         guard let action = menuItem.action else { return super.validateMenuItem(menuItem) }
         if action == #selector(commentWithLineComment(_:)) && CommentSyntax.of(language) == nil { return false }
+        if action == #selector(commentWithBlockComment(_:)) && CommentSyntax.block(of: language) == nil { return false }
         if Self.lineEditingActions.contains(action) { return isEditable && !hasMarkedText() }
         if action == #selector(extendSelection(_:)) { return !hasMarkedText() }
         if action == #selector(shrinkSelection(_:)) { return !hasMarkedText() && !selectionHistory.isEmpty }

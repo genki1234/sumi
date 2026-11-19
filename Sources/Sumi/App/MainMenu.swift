@@ -105,6 +105,7 @@ enum MainMenu {
         menu.addItem(item(L("Join Lines"), #selector(CodeTextView.joinLines(_:)), "j", [.control, .shift]))
         menu.addItem(item(L("Toggle Case"), #selector(CodeTextView.toggleCase(_:)), "u", [.command, .shift]))
         menu.addItem(item(L("Comment with Line Comment"), #selector(CodeTextView.commentWithLineComment(_:)), "/"))
+        menu.addItem(item(L("Comment with Block Comment"), #selector(CodeTextView.commentWithBlockComment(_:)), "/", [.command, .option]))
         menu.addItem(item(L("Move Line Up"), #selector(CodeTextView.moveLineUp(_:)), functionKey(NSUpArrowFunctionKey), [.option, .shift]))
         menu.addItem(item(L("Move Line Down"), #selector(CodeTextView.moveLineDown(_:)), functionKey(NSDownArrowFunctionKey), [.option, .shift]))
         menu.addItem(item(L("Extend Selection"), #selector(CodeTextView.extendSelection(_:)), functionKey(NSUpArrowFunctionKey), .option))
@@ -122,6 +123,7 @@ enum MainMenu {
         find.addItem(item(L("Use Selection for Find"), action, tag: NSTextFinder.Action.setSearchString.rawValue))
         find.addItem(.separator())
         find.addItem(item(L("Find in Files…"), #selector(ProjectWindowController.findInFiles(_:)), "f", [.command, .shift]))
+        find.addItem(item(L("Replace in Files…"), #selector(ProjectWindowController.replaceInFiles(_:)), "r", [.command, .shift]))
         menu.addItem(submenu(L("Find"), find))
         return menu
     }
@@ -150,6 +152,10 @@ enum MainMenu {
         menu.addItem(item(L("Find Action…"), #selector(ProjectWindowController.findAction(_:)), "a", [.command, .shift]))
         menu.addItem(item(L("Go to Line:Column…"), #selector(ProjectWindowController.goToLine(_:)), "l"))
         menu.addItem(item(L("Select in Project View"), #selector(ProjectWindowController.selectInProjectView(_:)), "1", [.command, .option]))
+        menu.addItem(.separator())
+        menu.addItem(item(L("Back"), #selector(ProjectWindowController.navigateBack(_:)), "["))
+        menu.addItem(item(L("Forward"), #selector(ProjectWindowController.navigateForward(_:)), "]"))
+        menu.addItem(item(L("Last Edit Location"), #selector(ProjectWindowController.goToLastEditLocation(_:)), "\u{8}", [.command, .shift]))
         menu.addItem(.separator())
         menu.addItem(item(L("Next Tab"), #selector(ProjectWindowController.selectNextTab(_:)), "]", [.command, .shift]))
         menu.addItem(item(L("Previous Tab"), #selector(ProjectWindowController.selectPreviousTab(_:)), "[", [.command, .shift]))

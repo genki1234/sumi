@@ -42,6 +42,7 @@
 "Join Lines" = "Joindre les lignes";
 "Toggle Case" = "Basculer majuscules/minuscules";
 "Comment with Line Comment" = "Commenter avec un commentaire de ligne";
+"Comment with Block Comment" = "Commenter avec un commentaire de bloc";
 "Move Line Up" = "Déplacer la ligne vers le haut";
 "Move Line Down" = "Déplacer la ligne vers le bas";
 "Extend Selection" = "Étendre la sélection";
@@ -54,6 +55,7 @@
 "Find Previous" = "Rechercher le précédent";
 "Use Selection for Find" = "Rechercher la sélection";
 "Find in Files…" = "Rechercher dans les fichiers…";
+"Replace in Files…" = "Remplacer dans les fichiers…";
 "Find" = "Rechercher";
 "Project" = "Projet";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Rechercher une action…";
 "Go to Line:Column…" = "Aller à la ligne:colonne…";
 "Select in Project View" = "Sélectionner dans l’arborescence du projet";
+"Back" = "Retour";
+"Forward" = "Avancer";
+"Last Edit Location" = "Dernier emplacement modifié";
 "Next Tab" = "Onglet suivant";
 "Previous Tab" = "Onglet précédent";
 "Minimize" = "Réduire";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Ouvrir dans le terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Résultats : %1$ld / Fichiers : %2$ld";
+"Replace All" = "Tout remplacer";
 "Go to Line:Column" = "Aller à la ligne:colonne";
 "Left Panel" = "Panneau gauche";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Remplacer par";
 "Double ⇧ to search everywhere" = "Appuyez deux fois sur ⇧ pour rechercher partout";
 "Files" = "Fichiers";
 "Actions" = "Actions";
@@ -140,6 +148,6 @@
 "Type a command name" = "Saisissez un nom de commande";
 "Type text to find in project files" = "Saisissez le texte à rechercher dans les fichiers du projet";
 "No recent files" = "Aucun fichier récent";
-"Matches: %1$ld / Files: %2$ld" = "Résultats : %1$ld / Fichiers : %2$ld";
 "Searching…" = "Recherche en cours…";
+"Next Field" = "Champ suivant";
 "Switch Tab" = "Changer d’onglet";

@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Senaste filer | ⌘E |
 | Sök åtgärd | ⇧⌘A |
 | Sök i filer | ⇧⌘F |
+| Ersätt i filer | ⇧⌘R |
 | Gå till rad:kolumn | ⌘L |
+| Bakåt / Framåt | ⌘[ / ⌘] |
+| Senaste redigeringsplats | ⇧⌘⌫ |
 | Duplicera rad eller markering | ⌘D |
 | Ta bort rad | ⌘⌫ |
 | Flytta rad uppåt / Flytta rad nedåt | ⌥⇧↑ / ⌥⇧↓ |
 | Kommentera med radkommentar | ⌘/ |
+| Kommentera med blockkommentar | ⌥⌘/ |
 | Sammanfoga rader | ⌃⇧J |
 | Växla versaler/gemener | ⇧⌘U |
 | Utöka markering / Minska markering | ⌥↑ / ⌥↓ |

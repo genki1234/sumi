@@ -42,6 +42,7 @@
 "Join Lines" = "Ühenda read";
 "Toggle Case" = "Vaheta suur- ja väiketähti";
 "Comment with Line Comment" = "Kommenteeri reakommentaariga";
+"Comment with Block Comment" = "Kommenteeri plokikommentaariga";
 "Move Line Up" = "Liiguta rida üles";
 "Move Line Down" = "Liiguta rida alla";
 "Extend Selection" = "Laienda valikut";
@@ -54,6 +55,7 @@
 "Find Previous" = "Otsi eelmist";
 "Use Selection for Find" = "Otsi valitud teksti";
 "Find in Files…" = "Otsi failidest…";
+"Replace in Files…" = "Asenda failides…";
 "Find" = "Otsing";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Otsi toimingut…";
 "Go to Line:Column…" = "Mine rea:veeru juurde…";
 "Select in Project View" = "Vali projektivaates";
+"Back" = "Tagasi";
+"Forward" = "Edasi";
+"Last Edit Location" = "Viimase muudatuse koht";
 "Next Tab" = "Järgmine kaart";
 "Previous Tab" = "Eelmine kaart";
 "Minimize" = "Minimeeri";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Ava terminalis";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Vasteid: %1$ld / Faile: %2$ld";
+"Replace All" = "Asenda kõik";
 "Go to Line:Column" = "Mine rea:veeru juurde";
 "Left Panel" = "Vasak paneel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Asenda tekstiga";
 "Double ⇧ to search everywhere" = "Kõikjalt otsimiseks vajuta kaks korda ⇧";
 "Files" = "Failid";
 "Actions" = "Toimingud";
@@ -140,6 +148,6 @@
 "Type a command name" = "Sisesta käsu nimi";
 "Type text to find in project files" = "Sisesta projekti failidest otsitav tekst";
 "No recent files" = "Hiljutisi faile pole";
-"Matches: %1$ld / Files: %2$ld" = "Vasteid: %1$ld / Faile: %2$ld";
 "Searching…" = "Otsimine…";
+"Next Field" = "Järgmine väli";
 "Switch Tab" = "Vaheta kaarti";

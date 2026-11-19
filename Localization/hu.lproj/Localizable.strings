@@ -42,6 +42,7 @@
 "Join Lines" = "Sorok összevonása";
 "Toggle Case" = "Kis- és nagybetűk váltása";
 "Comment with Line Comment" = "Megjegyzésbe tétel sormegjegyzéssel";
+"Comment with Block Comment" = "Megjegyzésbe tétel blokkmegjegyzéssel";
 "Move Line Up" = "Sor mozgatása felfelé";
 "Move Line Down" = "Sor mozgatása lefelé";
 "Extend Selection" = "Kijelölés bővítése";
@@ -54,6 +55,7 @@
 "Find Previous" = "Előző keresése";
 "Use Selection for Find" = "Keresés a kijelölt szöveggel";
 "Find in Files…" = "Keresés a fájlokban…";
+"Replace in Files…" = "Csere a fájlokban…";
 "Find" = "Keresés";
 "Project" = "Projekt";
 "Terminal" = "Terminál";
@@ -70,6 +72,9 @@
 "Find Action…" = "Művelet keresése…";
 "Go to Line:Column…" = "Ugrás sorra:oszlopra…";
 "Select in Project View" = "Kijelölés a projektnézetben";
+"Back" = "Vissza";
+"Forward" = "Előre";
+"Last Edit Location" = "Utolsó szerkesztés helye";
 "Next Tab" = "Következő lap";
 "Previous Tab" = "Előző lap";
 "Minimize" = "Kis méret";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Megnyitás terminálban";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Találatok: %1$ld / Fájlok: %2$ld";
+"Replace All" = "Összes cseréje";
 "Go to Line:Column" = "Ugrás sorra:oszlopra";
 "Left Panel" = "Bal oldali panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Csere erre";
 "Double ⇧ to search everywhere" = "Nyomja meg kétszer a ⇧ billentyűt a mindenhol kereséshez";
 "Files" = "Fájlok";
 "Actions" = "Műveletek";
@@ -140,6 +148,6 @@
 "Type a command name" = "Írjon be egy parancsnevet";
 "Type text to find in project files" = "Írja be a projektfájlokban keresendő szöveget";
 "No recent files" = "Nincsenek legutóbbi fájlok";
-"Matches: %1$ld / Files: %2$ld" = "Találatok: %1$ld / Fájlok: %2$ld";
 "Searching…" = "Keresés folyamatban…";
+"Next Field" = "Következő mező";
 "Switch Tab" = "Lapváltás";

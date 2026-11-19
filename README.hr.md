@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Nedavne datoteke | ⌘E |
 | Pronađi radnju | ⇧⌘A |
 | Pronađi u datotekama | ⇧⌘F |
+| Zamijeni u datotekama | ⇧⌘R |
 | Idi na redak:stupac | ⌘L |
+| Natrag / naprijed | ⌘[ / ⌘] |
+| Mjesto posljednje izmjene | ⇧⌘⌫ |
 | Dupliciraj redak ili odabir | ⌘D |
 | Izbriši redak | ⌘⌫ |
 | Pomakni redak gore / dolje | ⌥⇧↑ / ⌥⇧↓ |
 | Komentiraj komentarom retka | ⌘/ |
+| Komentiraj komentarom bloka | ⌥⌘/ |
 | Spoji retke | ⌃⇧J |
 | Promijeni velika/mala slova | ⇧⌘U |
 | Proširi / suzi odabir | ⌥↑ / ⌥↓ |

@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Naujausi failai | ⌘E |
 | Rasti veiksmą | ⇧⌘A |
 | Rasti failuose | ⇧⌘F |
+| Pakeisti failuose | ⇧⌘R |
 | Eiti į eilutę:stulpelį | ⌘L |
+| Atgal / pirmyn | ⌘[ / ⌘] |
+| Paskutinio redagavimo vieta | ⇧⌘⌫ |
 | Dubliuoti eilutę arba žymėjimą | ⌘D |
 | Pašalinti eilutę | ⌘⌫ |
 | Perkelti eilutę aukštyn / žemyn | ⌥⇧↑ / ⌥⇧↓ |
 | Komentuoti eilutės komentaru | ⌘/ |
+| Komentuoti bloko komentaru | ⌥⌘/ |
 | Sujungti eilutes | ⌃⇧J |
 | Keisti didžiąsias ir mažąsias raides | ⇧⌘U |
 | Išplėsti / sumažinti žymėjimą | ⌥↑ / ⌥↓ |

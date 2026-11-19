@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Nedávné soubory | ⌘E |
 | Najít akci | ⇧⌘A |
 | Najít v souborech | ⇧⌘F |
+| Nahradit v souborech | ⇧⌘R |
 | Přejít na řádek:sloupec | ⌘L |
+| Zpět / vpřed | ⌘[ / ⌘] |
+| Místo poslední úpravy | ⇧⌘⌫ |
 | Duplikovat řádek nebo výběr | ⌘D |
 | Odstranit řádek | ⌘⌫ |
 | Přesunout řádek nahoru / dolů | ⌥⇧↑ / ⌥⇧↓ |
 | Zakomentovat řádkovým komentářem | ⌘/ |
+| Zakomentovat blokovým komentářem | ⌥⌘/ |
 | Spojit řádky | ⌃⇧J |
 | Přepnout velikost písmen | ⇧⌘U |
 | Rozšířit / zúžit výběr | ⌥↑ / ⌥↓ |

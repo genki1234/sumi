@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Arquivos Recentes | ⌘E |
 | Buscar Ação | ⇧⌘A |
 | Buscar nos Arquivos | ⇧⌘F |
+| Substituir nos Arquivos | ⇧⌘R |
 | Ir para Linha:Coluna | ⌘L |
+| Voltar / Avançar | ⌘[ / ⌘] |
+| Último Local de Edição | ⇧⌘⌫ |
 | Duplicar Linha ou Seleção | ⌘D |
 | Excluir Linha | ⌘⌫ |
 | Mover Linha para Cima / para Baixo | ⌥⇧↑ / ⌥⇧↓ |
 | Comentar com Comentário de Linha | ⌘/ |
+| Comentar com Comentário de Bloco | ⌥⌘/ |
 | Juntar Linhas | ⌃⇧J |
 | Alternar Maiúsculas/Minúsculas | ⇧⌘U |
 | Expandir / Reduzir Seleção | ⌥↑ / ⌥↓ |

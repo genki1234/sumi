@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Pelên Dawî | ⌘E |
 | Çalakiyê Bibîne | ⇧⌘A |
 | Di Pelan de Bibîne | ⇧⌘F |
+| Di Pelan de Biguherîne | ⇧⌘R |
 | Biçe Rêz:Stûnê | ⌘L |
+| Paşve / Pêşve | ⌘[ / ⌘] |
+| Cihê Guhertina Dawî | ⇧⌘⌫ |
 | Rêzê an Hilbijartinê Ducar Bike | ⌘D |
 | Rêzê Jê Bibe | ⌘⌫ |
 | Rêzê Bibe Jor / Jêr | ⌥⇧↑ / ⌥⇧↓ |
 | Bi Şîroveya Rêzê Şîrove Bike | ⌘/ |
+| Bi Şîroveya Blokê Şîrove Bike | ⌥⌘/ |
 | Rêzan Bigihîne Hev | ⌃⇧J |
 | Tîpên Mezin/Biçûk Biguherîne | ⇧⌘U |
 | Hilbijartinê Fireh / Teng Bike | ⌥↑ / ⌥↓ |

@@ -42,6 +42,7 @@
 "Join Lines" = "வரிகளை இணை";
 "Toggle Case" = "பெரிய/சிறிய எழுத்தாக மாற்று";
 "Comment with Line Comment" = "வரிக் குறிப்புரையைச் சேர் அல்லது நீக்கு";
+"Comment with Block Comment" = "தொகுதிக் குறிப்புரையைச் சேர் அல்லது நீக்கு";
 "Move Line Up" = "வரியை மேலே நகர்த்து";
 "Move Line Down" = "வரியைக் கீழே நகர்த்து";
 "Extend Selection" = "தேர்வை விரிவாக்கு";
@@ -54,6 +55,7 @@
 "Find Previous" = "முந்தையதைக் கண்டுபிடி";
 "Use Selection for Find" = "தேர்ந்தெடுத்த உரையைத் தேடு";
 "Find in Files…" = "கோப்புகளில் கண்டுபிடி…";
+"Replace in Files…" = "கோப்புகளில் மாற்று…";
 "Find" = "தேடு";
 "Project" = "திட்டம்";
 "Terminal" = "முனையம்";
@@ -70,6 +72,9 @@
 "Find Action…" = "செயலைக் கண்டுபிடி…";
 "Go to Line:Column…" = "வரி:நெடுவரிசைக்குச் செல்…";
 "Select in Project View" = "திட்டக் காட்சியில் தேர்ந்தெடு";
+"Back" = "பின்செல்";
+"Forward" = "முன்செல்";
+"Last Edit Location" = "கடைசியாகத் திருத்திய இடம்";
 "Next Tab" = "அடுத்த தாவல்";
 "Previous Tab" = "முந்தைய தாவல்";
 "Minimize" = "சாளரத்தைச் சிறிதாக்கு";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "முனையத்தில் திற";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "பொருத்தங்கள்: %1$ld / கோப்புகள்: %2$ld";
+"Replace All" = "அனைத்தையும் மாற்று";
 "Go to Line:Column" = "வரி:நெடுவரிசைக்குச் செல்";
 "Left Panel" = "இடது பலகம்";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "இதனுடன் மாற்று";
 "Double ⇧ to search everywhere" = "எங்கும் தேட ⇧ ஐ இருமுறை அழுத்தவும்";
 "Files" = "கோப்புகள்";
 "Actions" = "செயல்கள்";
@@ -140,6 +148,6 @@
 "Type a command name" = "கட்டளைப் பெயரை உள்ளிடவும்";
 "Type text to find in project files" = "திட்டக் கோப்புகளில் தேட வேண்டிய உரையை உள்ளிடவும்";
 "No recent files" = "சமீபத்திய கோப்புகள் இல்லை";
-"Matches: %1$ld / Files: %2$ld" = "பொருத்தங்கள்: %1$ld / கோப்புகள்: %2$ld";
 "Searching…" = "தேடுகிறது…";
+"Next Field" = "அடுத்த புலம்";
 "Switch Tab" = "தாவலை மாற்று";

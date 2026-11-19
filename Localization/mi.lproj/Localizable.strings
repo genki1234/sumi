@@ -42,6 +42,7 @@
 "Join Lines" = "Honoa ngā Rārangi";
 "Toggle Case" = "Whakawhitia te Pūmatua/Pūriki";
 "Comment with Line Comment" = "Tākupuhia ki te Tākupu Rārangi";
+"Comment with Block Comment" = "Tākupuhia ki te Tākupu Paraka";
 "Move Line Up" = "Nukuhia te Rārangi ki Runga";
 "Move Line Down" = "Nukuhia te Rārangi ki Raro";
 "Extend Selection" = "Whakawhānuihia te Tīpakonga";
@@ -54,6 +55,7 @@
 "Find Previous" = "Rapua te Mea o Mua";
 "Use Selection for Find" = "Rapua te Kuputuhi kua Tīpakohia";
 "Find in Files…" = "Rapu i ngā Kōnae…";
+"Replace in Files…" = "Whakakapi i ngā Kōnae…";
 "Find" = "Rapu";
 "Project" = "Kaupapa";
 "Terminal" = "Kāpeka";
@@ -70,6 +72,9 @@
 "Find Action…" = "Rapu Mahi…";
 "Go to Line:Column…" = "Haere ki te Rārangi:Tīwae…";
 "Select in Project View" = "Tīpako i te Rākau Kaupapa";
+"Back" = "Hoki Whakamuri";
+"Forward" = "Haere Whakamua";
+"Last Edit Location" = "Wāhi Whakatika Whakamutunga";
 "Next Tab" = "Ripa Panuku";
 "Previous Tab" = "Ripa o Mua";
 "Minimize" = "Whakaiti";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Whakatuwhera ki te Kāpeka";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Ngā Ōritenga: %1$ld / Kōnae: %2$ld";
+"Replace All" = "Whakakapi Katoa";
 "Go to Line:Column" = "Haere ki te Rārangi:Tīwae";
 "Left Panel" = "Paewhiri Mauī";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Whakakapi ki";
 "Double ⇧ to search everywhere" = "Pēhia te ⇧ kia rua hei rapu i ngā wāhi katoa";
 "Files" = "Kōnae";
 "Actions" = "Ngā Mahi";
@@ -140,6 +148,6 @@
 "Type a command name" = "Patohia he ingoa whakahau";
 "Type text to find in project files" = "Patohia he kuputuhi hei rapu i ngā kōnae o te kaupapa";
 "No recent files" = "Kāore he kōnae nō nā tata nei";
-"Matches: %1$ld / Files: %2$ld" = "Ngā Ōritenga: %1$ld / Kōnae: %2$ld";
 "Searching…" = "E rapu ana…";
+"Next Field" = "Āpure Panuku";
 "Switch Tab" = "Whakawhitia te Ripa";

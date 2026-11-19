@@ -42,6 +42,7 @@
 "Join Lines" = "Yhdistä rivit";
 "Toggle Case" = "Vaihda kirjainkoko";
 "Comment with Line Comment" = "Kommentoi rivikommentilla";
+"Comment with Block Comment" = "Kommentoi lohkokommentilla";
 "Move Line Up" = "Siirrä riviä ylös";
 "Move Line Down" = "Siirrä riviä alas";
 "Extend Selection" = "Laajenna valintaa";
@@ -54,6 +55,7 @@
 "Find Previous" = "Etsi edellinen";
 "Use Selection for Find" = "Etsi valittua tekstiä";
 "Find in Files…" = "Etsi tiedostoista…";
+"Replace in Files…" = "Korvaa tiedostoissa…";
 "Find" = "Etsi";
 "Project" = "Projekti";
 "Terminal" = "Pääte";
@@ -70,6 +72,9 @@
 "Find Action…" = "Etsi toiminto…";
 "Go to Line:Column…" = "Siirry kohtaan rivi:sarake…";
 "Select in Project View" = "Valitse projektinäkymässä";
+"Back" = "Takaisin";
+"Forward" = "Eteenpäin";
+"Last Edit Location" = "Viimeisin muokkauskohta";
 "Next Tab" = "Seuraava välilehti";
 "Previous Tab" = "Edellinen välilehti";
 "Minimize" = "Pienennä";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Avaa päätteessä";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Osumia: %1$ld / Tiedostoja: %2$ld";
+"Replace All" = "Korvaa kaikki";
 "Go to Line:Column" = "Siirry kohtaan rivi:sarake";
 "Left Panel" = "Vasen paneeli";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Korvaa tekstillä";
 "Double ⇧ to search everywhere" = "Paina ⇧ kahdesti etsiäksesi kaikkialta";
 "Files" = "Tiedostot";
 "Actions" = "Toiminnot";
@@ -140,6 +148,6 @@
 "Type a command name" = "Kirjoita komennon nimi";
 "Type text to find in project files" = "Kirjoita teksti, jota etsitään projektin tiedostoista";
 "No recent files" = "Ei viimeaikaisia tiedostoja";
-"Matches: %1$ld / Files: %2$ld" = "Osumia: %1$ld / Tiedostoja: %2$ld";
 "Searching…" = "Etsitään…";
+"Next Field" = "Seuraava kenttä";
 "Switch Tab" = "Vaihda välilehteä";

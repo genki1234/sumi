@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Fișiere recente | ⌘E |
 | Caută acțiune | ⇧⌘A |
 | Caută în fișiere | ⇧⌘F |
+| Înlocuiește în fișiere | ⇧⌘R |
 | Mergi la linia:coloana | ⌘L |
+| Înapoi / Înainte | ⌘[ / ⌘] |
+| Locul ultimei editări | ⇧⌘⌫ |
 | Duplică linia sau selecția | ⌘D |
 | Șterge linia | ⌘⌫ |
 | Mută linia în sus / Mută linia în jos | ⌥⇧↑ / ⌥⇧↓ |
 | Comentează cu comentariu de linie | ⌘/ |
+| Comentează cu comentariu de bloc | ⌥⌘/ |
 | Unește liniile | ⌃⇧J |
 | Comută majuscule/minuscule | ⇧⌘U |
 | Extinde selecția / Restrânge selecția | ⌥↑ / ⌥↓ |

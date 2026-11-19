@@ -384,7 +384,7 @@ final class FileOutlineView: NSOutlineView {
         switch event.keyCode {
         case 36, 76:
             onActivate?()
-        case 51 where event.modifierFlags.contains(.command):
+        case 51 where event.modifierFlags.intersection([.command, .shift, .option, .control]) == .command:
             onDelete?()
         default:
             super.keyDown(with: event)

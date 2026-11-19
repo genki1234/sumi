@@ -42,6 +42,7 @@
 "Join Lines" = "Spoji redove";
 "Toggle Case" = "Promijeni velika/mala slova";
 "Comment with Line Comment" = "Komentariši komentarom reda";
+"Comment with Block Comment" = "Komentariši komentarom bloka";
 "Move Line Up" = "Pomjeri red gore";
 "Move Line Down" = "Pomjeri red dolje";
 "Extend Selection" = "Proširi odabir";
@@ -54,6 +55,7 @@
 "Find Previous" = "Pronađi prethodno";
 "Use Selection for Find" = "Traži odabrani tekst";
 "Find in Files…" = "Pronađi u datotekama…";
+"Replace in Files…" = "Zamijeni u datotekama…";
 "Find" = "Pretraga";
 "Project" = "Projekat";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Pronađi radnju…";
 "Go to Line:Column…" = "Idi na red:kolonu…";
 "Select in Project View" = "Odaberi u prikazu projekta";
+"Back" = "Nazad";
+"Forward" = "Naprijed";
+"Last Edit Location" = "Mjesto posljednje izmjene";
 "Next Tab" = "Sljedeća kartica";
 "Previous Tab" = "Prethodna kartica";
 "Minimize" = "Minimiziraj";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Otvori u terminalu";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Podudaranja: %1$ld / Datoteke: %2$ld";
+"Replace All" = "Zamijeni sve";
 "Go to Line:Column" = "Idi na red:kolonu";
 "Left Panel" = "Lijeva ploča";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Zamijeni sa";
 "Double ⇧ to search everywhere" = "Pritisnite ⇧ dvaput za pretragu svuda";
 "Files" = "Datoteke";
 "Actions" = "Radnje";
@@ -140,6 +148,6 @@
 "Type a command name" = "Unesite naziv naredbe";
 "Type text to find in project files" = "Unesite tekst za pretragu u datotekama projekta";
 "No recent files" = "Nema nedavnih datoteka";
-"Matches: %1$ld / Files: %2$ld" = "Podudaranja: %1$ld / Datoteke: %2$ld";
 "Searching…" = "Pretraživanje…";
+"Next Field" = "Sljedeće polje";
 "Switch Tab" = "Promijeni karticu";

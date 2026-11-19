@@ -42,6 +42,7 @@
 "Join Lines" = "Gabung Larik";
 "Toggle Case" = "Ganti Huruf Gedhe/Cilik";
 "Comment with Line Comment" = "Komentari nganggo Komentar Larik";
+"Comment with Block Comment" = "Komentari nganggo Komentar Blok";
 "Move Line Up" = "Pindhah Larik Munggah";
 "Move Line Down" = "Pindhah Larik Mudhun";
 "Extend Selection" = "Jembarake Pilihan";
@@ -54,6 +55,7 @@
 "Find Previous" = "Goleki Sadurunge";
 "Use Selection for Find" = "Goleki Teks sing Dipilih";
 "Find in Files…" = "Goleki ing Berkas…";
+"Replace in Files…" = "Ganti ing Berkas…";
 "Find" = "Goleki";
 "Project" = "Proyek";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Goleki Tindakan…";
 "Go to Line:Column…" = "Menyang Larik:Kolom…";
 "Select in Project View" = "Pilih ing Wit Proyek";
+"Back" = "Bali";
+"Forward" = "Maju";
+"Last Edit Location" = "Panggonan Suntingan Pungkasan";
 "Next Tab" = "Tab Sabanjure";
 "Previous Tab" = "Tab Sadurunge";
 "Minimize" = "Cilikake";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Bukak ing Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Sing Cocog: %1$ld / Berkas: %2$ld";
+"Replace All" = "Ganti Kabeh";
 "Go to Line:Column" = "Menyang Larik:Kolom";
 "Left Panel" = "Panel Kiwa";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ganti nganggo";
 "Double ⇧ to search everywhere" = "Pencet ⇧ kaping pindho kanggo nggoleki ing endi wae";
 "Files" = "Berkas";
 "Actions" = "Tindakan";
@@ -140,6 +148,6 @@
 "Type a command name" = "Ketik jeneng prentah";
 "Type text to find in project files" = "Ketik teks sing digoleki ing berkas proyek";
 "No recent files" = "Ora ana berkas pungkasan";
-"Matches: %1$ld / Files: %2$ld" = "Sing Cocog: %1$ld / Berkas: %2$ld";
 "Searching…" = "Nggoleki…";
+"Next Field" = "Isian Sabanjure";
 "Switch Tab" = "Ganti Tab";

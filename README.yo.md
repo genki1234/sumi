@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Àwọn fáìlì àìpẹ́ | ⌘E |
 | Wá ìgbésẹ̀ | ⇧⌘A |
 | Wá nínú àwọn fáìlì | ⇧⌘F |
+| Rọ́pò nínú àwọn fáìlì | ⇧⌘R |
 | Lọ sí ìlà:òpó | ⌘L |
+| Padà sẹ́yìn / Lọ síwájú | ⌘[ / ⌘] |
+| Ibi àtúnṣe tó kẹ́yìn | ⇧⌘⌫ |
 | Ṣe ẹ̀dà ìlà tàbí àṣàyàn | ⌘D |
 | Pa ìlà rẹ́ | ⌘⌫ |
 | Gbé ìlà sókè / Gbé ìlà sísàlẹ̀ | ⌥⇧↑ / ⌥⇧↓ |
 | Ṣe àkíyèsí pẹ̀lú àkíyèsí ìlà | ⌘/ |
+| Ṣe àkíyèsí pẹ̀lú àkíyèsí búlọ́ọ̀kù | ⌥⌘/ |
 | So àwọn ìlà pọ̀ | ⌃⇧J |
 | Yí lẹ́tà ńlá àti kékeré padà | ⇧⌘U |
 | Mú àṣàyàn gbòòrò / Dín àṣàyàn kù | ⌥↑ / ⌥↓ |

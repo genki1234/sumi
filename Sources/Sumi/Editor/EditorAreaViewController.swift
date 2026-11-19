@@ -9,6 +9,21 @@ final class EditorAreaViewController: NSViewController {
     private(set) var recentFiles: [URL] = []
     var onCurrentEditorChange: (() -> Void)?
 
+    /// A caret position in a file, kept for Back / Forward (⌘[ / ⌘]) and Last Edit Location (⇧⌘⌫).
+    struct Place: Equatable {
+        var url: URL
+        var location: Int
+    }
+    /// Where Back returns to, oldest first. A place is added before each jump: switching or closing a
+    /// tab, opening a file, Go to Line, a search result or a path clicked in the terminal. Forward holds
+    /// the places Back left, until the next jump.
+    private var backPlaces: [Place] = []
+    private var forwardPlaces: [Place] = []
+    /// Where the text last changed.
+    private(set) var lastEdit: Place?
+    /// Back and Forward open files themselves; those moves are not jumps to record.
+    private var isNavigating = false
+
     private let tabBar = TabBarView()
     private let content = NSView()
     /// Placed at the bottom of the window by ProjectWindowController, below the console.
@@ -83,6 +98,10 @@ final class EditorAreaViewController: NSViewController {
                 guard let self, let editor, editor === self.currentEditor || dirtyChanged else { return }
                 if dirtyChanged { self.refreshChrome() } else { self.updateStatus() }
             }
+            editor.onEdit = { [weak self, weak editor] in
+                guard let self, let editor else { return }
+                self.lastEdit = Place(url: editor.document.url, location: editor.textView.selectedRange().location)
+            }
             editor.onSaveError = { [weak self, weak editor] error in
                 guard let self, let editor else { return }
                 self.presentSaveError(error, editor: editor)
@@ -104,7 +123,10 @@ final class EditorAreaViewController: NSViewController {
 
     func select(_ index: Int) {
         guard editors.indices.contains(index) else { return }
-        if index != selectedIndex { currentEditor?.view.removeFromSuperview() }
+        if index != selectedIndex {
+            recordPlace()
+            currentEditor?.view.removeFromSuperview()
+        }
         selectedIndex = index
         let editor = editors[index]
         if editor.view.superview !== content {
@@ -129,6 +151,54 @@ final class EditorAreaViewController: NSViewController {
         select((selectedIndex - 1 + editors.count) % editors.count)
     }
 
+    // MARK: Back, Forward, Last Edit Location
+
+    var canGoBack: Bool { !backPlaces.isEmpty }
+    var canGoForward: Bool { !forwardPlaces.isEmpty }
+
+    private var currentPlace: Place? {
+        currentEditor.map { Place(url: $0.document.url, location: $0.textView.selectedRange().location) }
+    }
+
+    /// Called before the caret jumps elsewhere, so Back can return here. The list keeps the last 100 places.
+    func recordPlace() {
+        guard !isNavigating, let place = currentPlace else { return }
+        if backPlaces.last != place { backPlaces.append(place) }
+        if backPlaces.count > 100 { backPlaces.removeFirst(backPlaces.count - 100) }
+        forwardPlaces.removeAll()
+    }
+
+    func goBack() { step(back: true) }
+    func goForward() { step(back: false) }
+
+    /// Takes places off one list, skipping files that no longer exist and the caret's own place, and
+    /// puts the caret's place on the other list. Files closed since then open again.
+    private func step(back: Bool) {
+        let current = currentPlace
+        while let place = back ? backPlaces.popLast() : forwardPlaces.popLast() {
+            guard place != current, FileManager.default.fileExists(atPath: place.url.path) else { continue }
+            if let current {
+                if back { forwardPlaces.append(current) } else { backPlaces.append(current) }
+            }
+            show(place)
+            return
+        }
+    }
+
+    func goToLastEdit() {
+        guard let place = lastEdit, place != currentPlace, FileManager.default.fileExists(atPath: place.url.path) else { return }
+        recordPlace()
+        show(place)
+    }
+
+    private func show(_ place: Place) {
+        isNavigating = true
+        openFile(place.url)
+        isNavigating = false
+        guard let editor = currentEditor, editor.document.url == place.url.standardizedFileURL else { return }
+        editor.show(location: place.location)
+    }
+
     // MARK: Closing
 
     func closeTab(at index: Int) {
@@ -141,6 +211,8 @@ final class EditorAreaViewController: NSViewController {
         guard let index = editors.firstIndex(where: { $0 === editor }) else { return }
         editor.cancelAutosave()
         let wasSelected = index == selectedIndex
+        // Back reopens a closed tab where the caret was.
+        if wasSelected { recordPlace() }
         editor.view.removeFromSuperview()
         editor.removeFromParent()
         editors.remove(at: index)
@@ -233,20 +305,22 @@ final class EditorAreaViewController: NSViewController {
     }
 
     func fileRenamed(from old: URL, to new: URL) {
+        func renamed(_ url: URL) -> URL? {
+            let path = url.path
+            if path == old.path { return new.standardizedFileURL }
+            guard path.hasPrefix(old.path + "/") else { return nil }
+            return URL(fileURLWithPath: new.path + path.dropFirst(old.path.count)).standardizedFileURL
+        }
         for editor in editors {
-            let path = editor.document.url.path
-            let target: URL
-            if path == old.path {
-                target = new
-            } else if path.hasPrefix(old.path + "/") {
-                target = URL(fileURLWithPath: new.path + path.dropFirst(old.path.count))
-            } else {
-                continue
-            }
+            guard let target = renamed(editor.document.url) else { continue }
             let oldLanguage = editor.document.language
-            editor.document.rename(to: target.standardizedFileURL)
+            editor.document.rename(to: target)
             if editor.document.language != oldLanguage { editor.languageChanged() }
         }
+        func moved(_ place: Place) -> Place { renamed(place.url).map { Place(url: $0, location: place.location) } ?? place }
+        backPlaces = backPlaces.map(moved)
+        forwardPlaces = forwardPlaces.map(moved)
+        lastEdit = lastEdit.map(moved)
         recentFiles = recentFiles.filter { $0.path != old.path && !$0.path.hasPrefix(old.path + "/") }
         refreshChrome()
     }
@@ -278,6 +352,9 @@ final class EditorAreaViewController: NSViewController {
             openFile(URL(fileURLWithPath: path))
         }
         if editors.indices.contains(selected) { select(selected) }
+        // Opening the saved tabs is not navigation.
+        backPlaces.removeAll()
+        forwardPlaces.removeAll()
     }
 
     // MARK: Chrome

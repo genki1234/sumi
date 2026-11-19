@@ -42,6 +42,7 @@
 "Join Lines" = "Apvienot rindas";
 "Toggle Case" = "Pārslēgt lielos/mazos burtus";
 "Comment with Line Comment" = "Komentēt ar rindas komentāru";
+"Comment with Block Comment" = "Komentēt ar bloka komentāru";
 "Move Line Up" = "Pārvietot rindu augšup";
 "Move Line Down" = "Pārvietot rindu lejup";
 "Extend Selection" = "Paplašināt atlasi";
@@ -54,6 +55,7 @@
 "Find Previous" = "Meklēt iepriekšējo";
 "Use Selection for Find" = "Meklēt atlasīto tekstu";
 "Find in Files…" = "Meklēt failos…";
+"Replace in Files…" = "Aizstāt failos…";
 "Find" = "Meklēt";
 "Project" = "Projekts";
 "Terminal" = "Terminālis";
@@ -70,6 +72,9 @@
 "Find Action…" = "Meklēt darbību…";
 "Go to Line:Column…" = "Doties uz rindu:kolonnu…";
 "Select in Project View" = "Atlasīt projekta kokā";
+"Back" = "Atpakaļ";
+"Forward" = "Uz priekšu";
+"Last Edit Location" = "Pēdējās rediģēšanas vieta";
 "Next Tab" = "Nākamā cilne";
 "Previous Tab" = "Iepriekšējā cilne";
 "Minimize" = "Minimizēt";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Atvērt terminālī";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Atbilstības: %1$ld / Faili: %2$ld";
+"Replace All" = "Aizstāt visus";
 "Go to Line:Column" = "Doties uz rindu:kolonnu";
 "Left Panel" = "Kreisais panelis";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Aizstāt ar";
 "Double ⇧ to search everywhere" = "Divreiz nospiediet ⇧, lai meklētu visur";
 "Files" = "Faili";
 "Actions" = "Darbības";
@@ -140,6 +148,6 @@
 "Type a command name" = "Ievadiet komandas nosaukumu";
 "Type text to find in project files" = "Ievadiet tekstu, ko meklēt projekta failos";
 "No recent files" = "Nav neseno failu";
-"Matches: %1$ld / Files: %2$ld" = "Atbilstības: %1$ld / Faili: %2$ld";
 "Searching…" = "Notiek meklēšana…";
+"Next Field" = "Nākamais lauks";
 "Switch Tab" = "Pārslēgt cilni";

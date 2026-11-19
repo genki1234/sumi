@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Fajls Riċenti | ⌘E |
 | Sib Azzjoni | ⇧⌘A |
 | Sib fil-Fajls | ⇧⌘F |
+| Ibdel fil-Fajls | ⇧⌘R |
 | Mur għal-Linja:Kolonna | ⌘L |
+| Mur Lura / Mur 'il Quddiem | ⌘[ / ⌘] |
+| Post tal-Aħħar Editjar | ⇧⌘⌫ |
 | Idduplika l-Linja jew l-Għażla | ⌘D |
 | Ħassar il-Linja | ⌘⌫ |
 | Ċaqlaq il-Linja 'l Fuq / Ċaqlaq il-Linja 'l Isfel | ⌥⇧↑ / ⌥⇧↓ |
 | Ikkummenta b'Kumment tal-Linja | ⌘/ |
+| Ikkummenta b'Kumment tal-Blokk | ⌥⌘/ |
 | Għaqqad il-Linji | ⌃⇧J |
 | Aqleb bejn Ittri Kbar u Żgħar | ⇧⌘U |
 | Kabbar l-Għażla / Naqqas l-Għażla | ⌥↑ / ⌥↓ |

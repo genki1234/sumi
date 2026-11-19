@@ -42,6 +42,7 @@
 "Join Lines" = "פֿאַרבינדן שורות";
 "Toggle Case" = "בײַטן גרויסע/קליינע אותיות";
 "Comment with Line Comment" = "קאָמענטירן מיט אַ שורה־קאָמענטאַר";
+"Comment with Block Comment" = "קאָמענטירן מיט אַ בלאָק־קאָמענטאַר";
 "Move Line Up" = "רוקן שורה אַרויף";
 "Move Line Down" = "רוקן שורה אַראָפּ";
 "Extend Selection" = "פֿאַרברייטערן אויסקלײַב";
@@ -54,6 +55,7 @@
 "Find Previous" = "געפֿינען דאָס פֿריִערדיקע";
 "Use Selection for Find" = "זוכן דעם אויסגעקליבענעם טעקסט";
 "Find in Files…" = "געפֿינען אין טעקעס…";
+"Replace in Files…" = "פֿאַרבײַטן אין טעקעס…";
 "Find" = "זוכן";
 "Project" = "פּראָיעקט";
 "Terminal" = "טערמינאַל";
@@ -70,6 +72,9 @@
 "Find Action…" = "געפֿינען אַקציע…";
 "Go to Line:Column…" = "גיין צו שורה:זײַל…";
 "Select in Project View" = "אויסקלײַבן אין פּראָיעקט־בוים";
+"Back" = "צוריק";
+"Forward" = "פֿאָרויס";
+"Last Edit Location" = "אָרט פֿון דער לעצטער רעדאַקטירונג";
 "Next Tab" = "קומעדיקער קוויטל";
 "Previous Tab" = "פֿריִערדיקער קוויטל";
 "Minimize" = "מינימיזירן";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "עפֿענען אין טערמינאַל";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "צופּאַסונגען: %1$ld / טעקעס: %2$ld";
+"Replace All" = "פֿאַרבײַטן אַלע";
 "Go to Line:Column" = "גיין צו שורה:זײַל";
 "Left Panel" = "לינקער פּאַנעל";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "פֿאַרבײַטן מיט";
 "Double ⇧ to search everywhere" = "דריקט ⇧ צוויי מאָל צו זוכן אומעטום";
 "Files" = "טעקעס";
 "Actions" = "אַקציעס";
@@ -140,6 +148,6 @@
 "Type a command name" = "שרײַבט אַ באַפֿעל־נאָמען";
 "Type text to find in project files" = "שרײַבט טעקסט צו געפֿינען אין די פּראָיעקט־טעקעס";
 "No recent files" = "קיין לעצטיקע טעקעס";
-"Matches: %1$ld / Files: %2$ld" = "צופּאַסונגען: %1$ld / טעקעס: %2$ld";
 "Searching…" = "מע זוכט…";
+"Next Field" = "קומעדיק פֿעלד";
 "Switch Tab" = "בײַטן קוויטל";

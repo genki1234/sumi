@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Son Kullanılan Dosyalar | ⌘E |
 | Eylem Bul | ⇧⌘A |
 | Dosyalarda Bul | ⇧⌘F |
+| Dosyalarda Değiştir | ⇧⌘R |
 | Satır:Sütuna Git | ⌘L |
+| Geri / İleri | ⌘[ / ⌘] |
+| Son Düzenleme Konumu | ⇧⌘⌫ |
 | Satırı veya Seçimi Çoğalt | ⌘D |
 | Satırı Sil | ⌘⌫ |
 | Satırı Yukarı / Aşağı Taşı | ⌥⇧↑ / ⌥⇧↓ |
 | Satır Yorumuyla Yorumla | ⌘/ |
+| Blok Yorumuyla Yorumla | ⌥⌘/ |
 | Satırları Birleştir | ⌃⇧J |
 | Büyük/Küçük Harf Değiştir | ⇧⌘U |
 | Seçimi Genişlet / Daralt | ⌥↑ / ⌥↓ |

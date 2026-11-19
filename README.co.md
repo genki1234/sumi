@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Schedarii recenti | ⌘E |
 | Circà un'azzione | ⇧⌘A |
 | Circà in i schedarii | ⇧⌘F |
+| Rimpiazzà in i schedarii | ⇧⌘R |
 | Andà à a linea:culonna | ⌘L |
+| Indietru / avanti | ⌘[ / ⌘] |
+| Locu di l'ultima mudificazione | ⇧⌘⌫ |
 | Duplicà a linea o a selezzione | ⌘D |
 | Squassà a linea | ⌘⌫ |
 | Spustà a linea in sù / in giò | ⌥⇧↑ / ⌥⇧↓ |
 | Cummentà cù un cummentu di linea | ⌘/ |
+| Cummentà cù un cummentu di bloccu | ⌥⌘/ |
 | Unì e linee | ⌃⇧J |
 | Cambià maiuscule/minuscule | ⇧⌘U |
 | Allargà / ristringhje a selezzione | ⌥↑ / ⌥↓ |

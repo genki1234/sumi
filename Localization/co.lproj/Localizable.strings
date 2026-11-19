@@ -42,6 +42,7 @@
 "Join Lines" = "Unì e linee";
 "Toggle Case" = "Cambià maiuscule/minuscule";
 "Comment with Line Comment" = "Cummentà cù un cummentu di linea";
+"Comment with Block Comment" = "Cummentà cù un cummentu di bloccu";
 "Move Line Up" = "Spustà a linea in sù";
 "Move Line Down" = "Spustà a linea in giò";
 "Extend Selection" = "Allargà a selezzione";
@@ -54,6 +55,7 @@
 "Find Previous" = "Circà u precedente";
 "Use Selection for Find" = "Circà u testu selezziunatu";
 "Find in Files…" = "Circà in i schedarii…";
+"Replace in Files…" = "Rimpiazzà in i schedarii…";
 "Find" = "Ricerca";
 "Project" = "Prughjettu";
 "Terminal" = "Terminale";
@@ -70,6 +72,9 @@
 "Find Action…" = "Circà un'azzione…";
 "Go to Line:Column…" = "Andà à a linea:culonna…";
 "Select in Project View" = "Selezziunà in a vista di u prughjettu";
+"Back" = "Indietru";
+"Forward" = "Avanti";
+"Last Edit Location" = "Locu di l'ultima mudificazione";
 "Next Tab" = "Linguetta prossima";
 "Previous Tab" = "Linguetta precedente";
 "Minimize" = "Minimizà";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Apri in u terminale";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Currispundenze: %1$ld / Schedarii: %2$ld";
+"Replace All" = "Rimpiazzà tuttu";
 "Go to Line:Column" = "Andà à a linea:culonna";
 "Left Panel" = "Pannellu di manca";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Rimpiazzà cù";
 "Double ⇧ to search everywhere" = "Appughjate ⇧ duie volte per circà dapertuttu";
 "Files" = "Schedarii";
 "Actions" = "Azzioni";
@@ -140,6 +148,6 @@
 "Type a command name" = "Scrivite u nome di un cumandu";
 "Type text to find in project files" = "Scrivite u testu à circà in i schedarii di u prughjettu";
 "No recent files" = "Nisun schedariu recente";
-"Matches: %1$ld / Files: %2$ld" = "Currispundenze: %1$ld / Schedarii: %2$ld";
 "Searching…" = "Ricerca in corsu…";
+"Next Field" = "Campu prossimu";
 "Switch Tab" = "Cambià di linguetta";

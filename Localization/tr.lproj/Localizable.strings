@@ -42,6 +42,7 @@
 "Join Lines" = "Satırları Birleştir";
 "Toggle Case" = "Büyük/Küçük Harf Değiştir";
 "Comment with Line Comment" = "Satır Yorumuyla Yorumla";
+"Comment with Block Comment" = "Blok Yorumuyla Yorumla";
 "Move Line Up" = "Satırı Yukarı Taşı";
 "Move Line Down" = "Satırı Aşağı Taşı";
 "Extend Selection" = "Seçimi Genişlet";
@@ -54,6 +55,7 @@
 "Find Previous" = "Öncekini Bul";
 "Use Selection for Find" = "Seçili Metni Ara";
 "Find in Files…" = "Dosyalarda Bul…";
+"Replace in Files…" = "Dosyalarda Değiştir…";
 "Find" = "Bul";
 "Project" = "Proje";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Eylem Bul…";
 "Go to Line:Column…" = "Satır:Sütuna Git…";
 "Select in Project View" = "Proje Görünümünde Seç";
+"Back" = "Geri";
+"Forward" = "İleri";
+"Last Edit Location" = "Son Düzenleme Konumu";
 "Next Tab" = "Sonraki Sekme";
 "Previous Tab" = "Önceki Sekme";
 "Minimize" = "Simge Durumuna Küçült";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Terminalde Aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Eşleşmeler: %1$ld / Dosyalar: %2$ld";
+"Replace All" = "Tümünü Değiştir";
 "Go to Line:Column" = "Satır:Sütuna Git";
 "Left Panel" = "Sol Panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Şununla değiştir";
 "Double ⇧ to search everywhere" = "Her yerde aramak için ⇧ tuşuna iki kez basın";
 "Files" = "Dosyalar";
 "Actions" = "Eylemler";
@@ -140,6 +148,6 @@
 "Type a command name" = "Bir komut adı yazın";
 "Type text to find in project files" = "Proje dosyalarında aranacak metni yazın";
 "No recent files" = "Son kullanılan dosya yok";
-"Matches: %1$ld / Files: %2$ld" = "Eşleşmeler: %1$ld / Dosyalar: %2$ld";
 "Searching…" = "Aranıyor…";
+"Next Field" = "Sonraki Alan";
 "Switch Tab" = "Sekme Değiştir";

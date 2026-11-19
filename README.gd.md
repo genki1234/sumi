@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Faidhlichean o chionn ghoirid | ⌘E |
 | Lorg gnìomh | ⇧⌘A |
 | Lorg ann am faidhlichean | ⇧⌘F |
+| Cuir na àite ann am faidhlichean | ⇧⌘R |
 | Rach gu loidhne:colbh | ⌘L |
+| Air ais / air adhart | ⌘[ / ⌘] |
+| Ionad an deasachaidh mu dheireadh | ⇧⌘⌫ |
 | Dùblaich an loidhne no an taghadh | ⌘D |
 | Sguab às an loidhne | ⌘⌫ |
 | Gluais an loidhne suas / sìos | ⌥⇧↑ / ⌥⇧↓ |
 | Cuir beachd loidhne air | ⌘/ |
+| Cuir beachd bloca air | ⌥⌘/ |
 | Ceangail na loidhnichean | ⌃⇧J |
 | Toglaich litrichean mòra/beaga | ⇧⌘U |
 | Leudaich / lùghdaich an taghadh | ⌥↑ / ⌥↓ |

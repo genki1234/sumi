@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Rezent Dateien | ⌘E |
 | Aktioun sichen | ⇧⌘A |
 | A Dateie sichen | ⇧⌘F |
+| A Dateien ersetzen | ⇧⌘R |
 | Bei Zeil:Kolonn goen | ⌘L |
+| Zréck / vir | ⌘[ / ⌘] |
+| Plaz vun der leschter Ännerung | ⇧⌘⌫ |
 | Zeil oder Auswiel duplizéieren | ⌘D |
 | Zeil läschen | ⌘⌫ |
 | Zeil eropréckelen / erofréckelen | ⌥⇧↑ / ⌥⇧↓ |
 | Mat Zeilekommentar auskommentéieren | ⌘/ |
+| Mat Blockkommentar auskommentéieren | ⌥⌘/ |
 | Zeilen zesummefügen | ⌃⇧J |
 | Grouss-/Klengschreiwung wiesselen | ⇧⌘U |
 | Auswiel erweideren / verklengeren | ⌥↑ / ⌥↓ |

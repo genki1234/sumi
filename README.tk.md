@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Soňky faýllar | ⌘E |
 | Hereket tap | ⇧⌘A |
 | Faýllarda tap | ⇧⌘F |
+| Faýllarda çalyş | ⇧⌘R |
 | Setir:sütüne geç | ⌘L |
+| Yza geç / Öňe geç | ⌘[ / ⌘] |
+| Soňky düzediş ýeri | ⇧⌘⌫ |
 | Setiri ýa-da saýlanany gaýtala | ⌘D |
 | Setiri poz | ⌘⌫ |
 | Setiri ýokary süýş / Setiri aşak süýş | ⌥⇧↑ / ⌥⇧↓ |
 | Setir teswiri bilen teswirle | ⌘/ |
+| Blok teswiri bilen teswirle | ⌥⌘/ |
 | Setirleri birleşdir | ⌃⇧J |
 | Uly we kiçi harplary çalyş | ⇧⌘U |
 | Saýlawy giňelt / Saýlawy daralt | ⌥↑ / ⌥↓ |

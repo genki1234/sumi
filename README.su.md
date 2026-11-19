@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Berkas panganyarna | ⌘E |
 | Téangan aksi | ⇧⌘A |
 | Téangan dina berkas | ⇧⌘F |
+| Ganti dina berkas | ⇧⌘R |
 | Pindah ka baris:kolom | ⌘L |
+| Mundur / Maju | ⌘[ / ⌘] |
+| Lokasi éditan panungtung | ⇧⌘⌫ |
 | Duplikatkeun baris atawa pilihan | ⌘D |
 | Hapus baris | ⌘⌫ |
 | Pindahkeun baris ka luhur / Pindahkeun baris ka handap | ⌥⇧↑ / ⌥⇧↓ |
 | Koméntaran ku koméntar baris | ⌘/ |
+| Koméntaran ku koméntar blok | ⌥⌘/ |
 | Gabungkeun baris | ⌃⇧J |
 | Tukeur hurup gedé jeung leutik | ⇧⌘U |
 | Legaan pilihan / Heureutan pilihan | ⌥↑ / ⌥↓ |

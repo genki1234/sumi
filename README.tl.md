@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Mga kamakailang file | ⌘E |
 | Hanapin ang aksyon | ⇧⌘A |
 | Hanapin sa mga file | ⇧⌘F |
+| Palitan sa mga file | ⇧⌘R |
 | Pumunta sa linya:hanay | ⌘L |
+| Bumalik / Sumulong | ⌘[ / ⌘] |
+| Huling lokasyon ng pag-edit | ⇧⌘⌫ |
 | I-duplicate ang linya o pinili | ⌘D |
 | Burahin ang linya | ⌘⌫ |
 | Ilipat pataas ang linya / Ilipat pababa ang linya | ⌥⇧↑ / ⌥⇧↓ |
 | I-comment gamit ang komento sa linya | ⌘/ |
+| I-comment gamit ang block na komento | ⌥⌘/ |
 | Pagsamahin ang mga linya | ⌃⇧J |
 | Palitan ang malaki/maliit na titik | ⇧⌘U |
 | Palawakin ang pinili / Paliitin ang pinili | ⌥↑ / ⌥↓ |

@@ -42,6 +42,7 @@
 "Join Lines" = "Sammenføj linjer";
 "Toggle Case" = "Skift mellem store og små bogstaver";
 "Comment with Line Comment" = "Kommentér med linjekommentar";
+"Comment with Block Comment" = "Kommentér med blokkommentar";
 "Move Line Up" = "Flyt linje op";
 "Move Line Down" = "Flyt linje ned";
 "Extend Selection" = "Udvid markering";
@@ -54,6 +55,7 @@
 "Find Previous" = "Find forrige";
 "Use Selection for Find" = "Søg efter valgt tekst";
 "Find in Files…" = "Find i filer…";
+"Replace in Files…" = "Erstat i filer…";
 "Find" = "Find";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Find handling…";
 "Go to Line:Column…" = "Gå til linje:kolonne…";
 "Select in Project View" = "Vælg i projektoversigt";
+"Back" = "Tilbage";
+"Forward" = "Frem";
+"Last Edit Location" = "Sidste redigeringssted";
 "Next Tab" = "Næste fane";
 "Previous Tab" = "Forrige fane";
 "Minimize" = "Minimer";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Åbn i terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Match: %1$ld / Filer: %2$ld";
+"Replace All" = "Erstat alle";
 "Go to Line:Column" = "Gå til linje:kolonne";
 "Left Panel" = "Venstre panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Erstat med";
 "Double ⇧ to search everywhere" = "Tryk to gange på ⇧ for at søge overalt";
 "Files" = "Filer";
 "Actions" = "Handlinger";
@@ -140,6 +148,6 @@
 "Type a command name" = "Skriv et kommandonavn";
 "Type text to find in project files" = "Skriv tekst, der skal findes i projektets filer";
 "No recent files" = "Ingen seneste filer";
-"Matches: %1$ld / Files: %2$ld" = "Match: %1$ld / Filer: %2$ld";
 "Searching…" = "Søger…";
+"Next Field" = "Næste felt";
 "Switch Tab" = "Skift fane";

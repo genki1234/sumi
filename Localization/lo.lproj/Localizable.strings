@@ -42,6 +42,7 @@
 "Join Lines" = "ລວມແຖວ";
 "Toggle Case" = "ສະຫຼັບຕົວພິມໃຫຍ່/ນ້ອຍ";
 "Comment with Line Comment" = "ໃສ່ຄຳເຫັນແບບແຖວ";
+"Comment with Block Comment" = "ໃສ່ຄຳເຫັນແບບບລັອກ";
 "Move Line Up" = "ຍ້າຍແຖວຂຶ້ນ";
 "Move Line Down" = "ຍ້າຍແຖວລົງ";
 "Extend Selection" = "ຂະຫຍາຍສ່ວນທີ່ເລືອກ";
@@ -54,6 +55,7 @@
 "Find Previous" = "ຊອກຫາອັນກ່ອນໜ້າ";
 "Use Selection for Find" = "ຊອກຫາຂໍ້ຄວາມທີ່ເລືອກ";
 "Find in Files…" = "ຊອກຫາໃນໄຟລ໌…";
+"Replace in Files…" = "ແທນທີ່ໃນໄຟລ໌…";
 "Find" = "ຊອກຫາ";
 "Project" = "ໂຄງການ";
 "Terminal" = "ເທີມິນອລ";
@@ -70,6 +72,9 @@
 "Find Action…" = "ຊອກຫາການກະທຳ…";
 "Go to Line:Column…" = "ໄປທີ່ແຖວ:ຖັນ…";
 "Select in Project View" = "ເລືອກໃນຕົ້ນໄມ້ໂຄງການ";
+"Back" = "ກັບຄືນ";
+"Forward" = "ໄປໜ້າ";
+"Last Edit Location" = "ຕຳແໜ່ງແກ້ໄຂຫຼ້າສຸດ";
 "Next Tab" = "ແຖບຕໍ່ໄປ";
 "Previous Tab" = "ແຖບກ່ອນໜ້າ";
 "Minimize" = "ຫຍໍ້ລົງ";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "ເປີດໃນເທີມິນອລ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "ຜົນທີ່ກົງກັນ: %1$ld / ໄຟລ໌: %2$ld";
+"Replace All" = "ແທນທີ່ທັງໝົດ";
 "Go to Line:Column" = "ໄປທີ່ແຖວ:ຖັນ";
 "Left Panel" = "ແຜງດ້ານຊ້າຍ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "ແທນທີ່ດ້ວຍ";
 "Double ⇧ to search everywhere" = "ກົດ ⇧ ສອງຄັ້ງເພື່ອຄົ້ນຫາທຸກບ່ອນ";
 "Files" = "ໄຟລ໌";
 "Actions" = "ການກະທຳ";
@@ -140,6 +148,6 @@
 "Type a command name" = "ພິມຊື່ຄຳສັ່ງ";
 "Type text to find in project files" = "ພິມຂໍ້ຄວາມເພື່ອຊອກຫາໃນໄຟລ໌ໂຄງການ";
 "No recent files" = "ບໍ່ມີໄຟລ໌ຫຼ້າສຸດ";
-"Matches: %1$ld / Files: %2$ld" = "ຜົນທີ່ກົງກັນ: %1$ld / ໄຟລ໌: %2$ld";
 "Searching…" = "ກຳລັງຊອກຫາ…";
+"Next Field" = "ຊ່ອງຕໍ່ໄປ";
 "Switch Tab" = "ສະຫຼັບແຖບ";

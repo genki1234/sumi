@@ -42,6 +42,7 @@
 "Join Lines" = "Huza imirongo";
 "Toggle Case" = "Hinduranya inyuguti nkuru n'into";
 "Comment with Line Comment" = "Shyira igisobanuro cy'umurongo";
+"Comment with Block Comment" = "Shyira igisobanuro cy'igice";
 "Move Line Up" = "Zamura umurongo";
 "Move Line Down" = "Manura umurongo";
 "Extend Selection" = "Agura ibyatoranyijwe";
@@ -54,6 +55,7 @@
 "Find Previous" = "Shaka ibibanjirije";
 "Use Selection for Find" = "Shaka ibyatoranyijwe";
 "Find in Files…" = "Shaka muri dosiye…";
+"Replace in Files…" = "Simbuza muri dosiye…";
 "Find" = "Shaka";
 "Project" = "Umushinga";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Shaka igikorwa…";
 "Go to Line:Column…" = "Jya ku murongo:inkingi…";
 "Select in Project View" = "Hitamo mu mushinga";
+"Back" = "Subira inyuma";
+"Forward" = "Jya imbere";
+"Last Edit Location" = "Aho wahinduye bwa nyuma";
 "Next Tab" = "Agafishi gakurikira";
 "Previous Tab" = "Agafishi kabanziriza";
 "Minimize" = "Gabanya idirishya";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Fungura muri terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Ibihuye: %1$ld / Dosiye: %2$ld";
+"Replace All" = "Simbuza byose";
 "Go to Line:Column" = "Jya ku murongo:inkingi";
 "Left Panel" = "Igice cy'ibumoso";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Simbuza na";
 "Double ⇧ to search everywhere" = "Kanda ⇧ kabiri kugira ngo ushake hose";
 "Files" = "Dosiye";
 "Actions" = "Ibikorwa";
@@ -140,6 +148,6 @@
 "Type a command name" = "Andika izina ry'itegeko";
 "Type text to find in project files" = "Andika umwandiko ushaka muri dosiye z'umushinga";
 "No recent files" = "Nta dosiye ziheruka";
-"Matches: %1$ld / Files: %2$ld" = "Ibihuye: %1$ld / Dosiye: %2$ld";
 "Searching…" = "Birimo gushakishwa…";
+"Next Field" = "Umwanya ukurikira";
 "Switch Tab" = "Hindura agafishi";

@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Nesenie faili | ⌘E |
 | Meklēt darbību | ⇧⌘A |
 | Meklēt failos | ⇧⌘F |
+| Aizstāt failos | ⇧⌘R |
 | Doties uz rindu:kolonnu | ⌘L |
+| Atpakaļ / uz priekšu | ⌘[ / ⌘] |
+| Pēdējās rediģēšanas vieta | ⇧⌘⌫ |
 | Dublēt rindu vai atlasi | ⌘D |
 | Dzēst rindu | ⌘⌫ |
 | Pārvietot rindu augšup / lejup | ⌥⇧↑ / ⌥⇧↓ |
 | Komentēt ar rindas komentāru | ⌘/ |
+| Komentēt ar bloka komentāru | ⌥⌘/ |
 | Apvienot rindas | ⌃⇧J |
 | Pārslēgt lielos/mazos burtus | ⇧⌘U |
 | Paplašināt / sašaurināt atlasi | ⌥↑ / ⌥↓ |

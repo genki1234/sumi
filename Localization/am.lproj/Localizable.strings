@@ -42,6 +42,7 @@
 "Join Lines" = "መስመሮችን አዋህድ";
 "Toggle Case" = "ትልቅ/ትንሽ ፊደል ቀያይር";
 "Comment with Line Comment" = "በመስመር አስተያየት ምልክት አድርግ";
+"Comment with Block Comment" = "በብሎክ አስተያየት ምልክት አድርግ";
 "Move Line Up" = "መስመሩን ወደ ላይ አንቀሳቅስ";
 "Move Line Down" = "መስመሩን ወደ ታች አንቀሳቅስ";
 "Extend Selection" = "ምርጫውን አስፋ";
@@ -54,6 +55,7 @@
 "Find Previous" = "ቀዳሚውን ፈልግ";
 "Use Selection for Find" = "በተመረጠው ጽሑፍ ፈልግ";
 "Find in Files…" = "በፋይሎች ውስጥ ፈልግ…";
+"Replace in Files…" = "በፋይሎች ውስጥ ተካ…";
 "Find" = "ፍለጋ";
 "Project" = "ፕሮጀክት";
 "Terminal" = "ተርሚናል";
@@ -70,6 +72,9 @@
 "Find Action…" = "እርምጃ ፈልግ…";
 "Go to Line:Column…" = "ወደ መስመር:ዓምድ ሂድ…";
 "Select in Project View" = "በፕሮጀክት እይታ ምረጥ";
+"Back" = "ተመለስ";
+"Forward" = "ወደፊት";
+"Last Edit Location" = "የመጨረሻው የአርትዖት ቦታ";
 "Next Tab" = "ቀጣይ ትር";
 "Previous Tab" = "ቀዳሚ ትር";
 "Minimize" = "አሳንስ";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "በተርሚናል ክፈት";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "የተገኙ፦ %1$ld / ፋይሎች፦ %2$ld";
+"Replace All" = "ሁሉንም ተካ";
 "Go to Line:Column" = "ወደ መስመር:ዓምድ ሂድ";
 "Left Panel" = "የግራ ፓነል";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "የሚተካበት ጽሑፍ";
 "Double ⇧ to search everywhere" = "በሁሉም ቦታ ለመፈለግ ⇧ን ሁለት ጊዜ ይጫኑ";
 "Files" = "ፋይሎች";
 "Actions" = "እርምጃዎች";
@@ -140,6 +148,6 @@
 "Type a command name" = "የትዕዛዝ ስም ይጻፉ";
 "Type text to find in project files" = "በፕሮጀክት ፋይሎች ውስጥ የሚፈለግ ጽሑፍ ይጻፉ";
 "No recent files" = "የቅርብ ጊዜ ፋይሎች የሉም";
-"Matches: %1$ld / Files: %2$ld" = "የተገኙ፦ %1$ld / ፋይሎች፦ %2$ld";
 "Searching…" = "በመፈለግ ላይ…";
+"Next Field" = "ቀጣይ መስክ";
 "Switch Tab" = "ትር ቀይር";

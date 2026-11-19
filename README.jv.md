@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Berkas Pungkasan | ⌘E |
 | Goleki Tindakan | ⇧⌘A |
 | Goleki ing Berkas | ⇧⌘F |
+| Ganti ing Berkas | ⇧⌘R |
 | Menyang Larik:Kolom | ⌘L |
+| Bali / Maju | ⌘[ / ⌘] |
+| Panggonan Suntingan Pungkasan | ⇧⌘⌫ |
 | Duplikasi Larik utawa Pilihan | ⌘D |
 | Busak Larik | ⌘⌫ |
 | Pindhah Larik Munggah / Mudhun | ⌥⇧↑ / ⌥⇧↓ |
 | Komentari nganggo Komentar Larik | ⌘/ |
+| Komentari nganggo Komentar Blok | ⌥⌘/ |
 | Gabung Larik | ⌃⇧J |
 | Ganti Huruf Gedhe/Cilik | ⇧⌘U |
 | Jembarake / Ciutake Pilihan | ⌥↑ / ⌥↓ |

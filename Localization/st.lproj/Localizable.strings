@@ -42,6 +42,7 @@
 "Join Lines" = "Kopanya mela";
 "Toggle Case" = "Fetola ditlhaku tse kgolo le tse nyane";
 "Comment with Line Comment" = "Kenya kapa tlosa tlhaloso ya mola";
+"Comment with Block Comment" = "Kenya kapa tlosa tlhaloso ya boloko";
 "Move Line Up" = "Isa mola hodimo";
 "Move Line Down" = "Isa mola tlase";
 "Extend Selection" = "Atolosa kgetho";
@@ -54,6 +55,7 @@
 "Find Previous" = "Batla e fetileng";
 "Use Selection for Find" = "Batla mongolo o kgethilweng";
 "Find in Files…" = "Batla difaeleng…";
+"Replace in Files…" = "Nkela sebaka difaeleng…";
 "Find" = "Batla";
 "Project" = "Projeke";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Batla ketso…";
 "Go to Line:Column…" = "Eya ho mola:kholomo…";
 "Select in Project View" = "Kgetha ponong ya projeke";
+"Back" = "Eya morao";
+"Forward" = "Eya pele";
+"Last Edit Location" = "Sebaka sa phetoho ya ho qetela";
 "Next Tab" = "Thebo e latelang";
 "Previous Tab" = "Thebo e fetileng";
 "Minimize" = "Nyenyefatsa fensetere";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Bula ho terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Tse tsamaellanang: %1$ld / Difaele: %2$ld";
+"Replace All" = "Nkela sebaka tsohle";
 "Go to Line:Column" = "Eya ho mola:kholomo";
 "Left Panel" = "Phanele e ka leqeleng";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Nkela sebaka ka";
 "Double ⇧ to search everywhere" = "Tobetsa ⇧ habedi ho batla hohle";
 "Files" = "Difaele";
 "Actions" = "Diketso";
@@ -140,6 +148,6 @@
 "Type a command name" = "Ngola lebitso la taelo";
 "Type text to find in project files" = "Ngola mongolo oo o o batlang difaeleng tsa projeke";
 "No recent files" = "Ha ho difaele tsa moraorao";
-"Matches: %1$ld / Files: %2$ld" = "Tse tsamaellanang: %1$ld / Difaele: %2$ld";
 "Searching…" = "E ntse e batla…";
+"Next Field" = "Lebokose le latelang";
 "Switch Tab" = "Fetola thebo";

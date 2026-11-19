@@ -42,6 +42,7 @@
 "Join Lines" = "სტრიქონების გაერთიანება";
 "Toggle Case" = "რეგისტრის გადართვა";
 "Comment with Line Comment" = "სტრიქონული კომენტარით დაკომენტარება";
+"Comment with Block Comment" = "ბლოკური კომენტარით დაკომენტარება";
 "Move Line Up" = "სტრიქონის ზემოთ გადატანა";
 "Move Line Down" = "სტრიქონის ქვემოთ გადატანა";
 "Extend Selection" = "მონიშვნის გაფართოება";
@@ -54,6 +55,7 @@
 "Find Previous" = "წინას პოვნა";
 "Use Selection for Find" = "მონიშნული ტექსტის ძიება";
 "Find in Files…" = "ფაილებში პოვნა…";
+"Replace in Files…" = "ფაილებში ჩანაცვლება…";
 "Find" = "პოვნა";
 "Project" = "პროექტი";
 "Terminal" = "ტერმინალი";
@@ -70,6 +72,9 @@
 "Find Action…" = "მოქმედების პოვნა…";
 "Go to Line:Column…" = "სტრიქონზე:სვეტზე გადასვლა…";
 "Select in Project View" = "მონიშვნა პროექტის ხეში";
+"Back" = "უკან";
+"Forward" = "წინ";
+"Last Edit Location" = "ბოლო რედაქტირების ადგილი";
 "Next Tab" = "მომდევნო ჩანართი";
 "Previous Tab" = "წინა ჩანართი";
 "Minimize" = "ჩაკეცვა";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "ტერმინალში გახსნა";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "დამთხვევები: %1$ld / ფაილები: %2$ld";
+"Replace All" = "ყველას ჩანაცვლება";
 "Go to Line:Column" = "სტრიქონზე:სვეტზე გადასვლა";
 "Left Panel" = "მარცხენა პანელი";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "ჩანაცვლება ამით";
 "Double ⇧ to search everywhere" = "ყველგან ძიებისთვის ორჯერ დააჭირეთ ⇧-ს";
 "Files" = "ფაილები";
 "Actions" = "მოქმედებები";
@@ -140,6 +148,6 @@
 "Type a command name" = "აკრიფეთ ბრძანების სახელი";
 "Type text to find in project files" = "აკრიფეთ პროექტის ფაილებში საძიებო ტექსტი";
 "No recent files" = "ბოლო ფაილები არ არის";
-"Matches: %1$ld / Files: %2$ld" = "დამთხვევები: %1$ld / ფაილები: %2$ld";
 "Searching…" = "ძიება…";
+"Next Field" = "მომდევნო ველი";
 "Switch Tab" = "ჩანართის გადართვა";

@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Ostatnio używane pliki | ⌘E |
 | Znajdź akcję | ⇧⌘A |
 | Znajdź w plikach | ⇧⌘F |
+| Zastąp w plikach | ⇧⌘R |
 | Przejdź do wiersza:kolumny | ⌘L |
+| Wstecz / dalej | ⌘[ / ⌘] |
+| Miejsce ostatniej edycji | ⇧⌘⌫ |
 | Duplikuj wiersz lub zaznaczenie | ⌘D |
 | Usuń wiersz | ⌘⌫ |
 | Przenieś wiersz w górę / w dół | ⌥⇧↑ / ⌥⇧↓ |
 | Zakomentuj komentarzem wierszowym | ⌘/ |
+| Zakomentuj komentarzem blokowym | ⌥⌘/ |
 | Połącz wiersze | ⌃⇧J |
 | Przełącz wielkość liter | ⇧⌘U |
 | Rozszerz / zmniejsz zaznaczenie | ⌥↑ / ⌥↓ |

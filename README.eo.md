@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Lastatempaj dosieroj | ⌘E |
 | Trovi agon | ⇧⌘A |
 | Trovi en dosieroj | ⇧⌘F |
+| Anstataŭigi en dosieroj | ⇧⌘R |
 | Iri al linio:kolumno | ⌘L |
+| Reen / antaŭen | ⌘[ / ⌘] |
+| Loko de la lasta redakto | ⇧⌘⌫ |
 | Duobligi linion aŭ elekton | ⌘D |
 | Forigi linion | ⌘⌫ |
 | Movi linion supren / malsupren | ⌥⇧↑ / ⌥⇧↓ |
 | Komenti per linikomento | ⌘/ |
+| Komenti per blokkomento | ⌥⌘/ |
 | Kunigi liniojn | ⌃⇧J |
 | Baskuli usklecon | ⇧⌘U |
 | Etendi / malvastigi elekton | ⌥↑ / ⌥↓ |

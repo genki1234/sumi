@@ -42,6 +42,7 @@
 "Join Lines" = "Rigels gearfoegje";
 "Toggle Case" = "Haadletters/lytse letters wikselje";
 "Comment with Line Comment" = "Mei rigelkommentaar kommentariearje";
+"Comment with Block Comment" = "Mei blokkommentaar kommentariearje";
 "Move Line Up" = "Rigel omheech ferpleatse";
 "Move Line Down" = "Rigel omleech ferpleatse";
 "Extend Selection" = "Seleksje útwreidzje";
@@ -54,6 +55,7 @@
 "Find Previous" = "Foarige sykje";
 "Use Selection for Find" = "Sykje mei selektearre tekst";
 "Find in Files…" = "Yn bestannen sykje…";
+"Replace in Files…" = "Yn bestannen ferfange…";
 "Find" = "Sykje";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Aksje sykje…";
 "Go to Line:Column…" = "Nei rigel:kolom gean…";
 "Select in Project View" = "Selektearje yn projektwerjefte";
+"Back" = "Tebek";
+"Forward" = "Foarút";
+"Last Edit Location" = "Lêste bewurkingsplak";
 "Next Tab" = "Folgjende ljepper";
 "Previous Tab" = "Foarige ljepper";
 "Minimize" = "Minimalisearje";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Yn terminal iepenje";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Oerienkomsten: %1$ld / Bestannen: %2$ld";
+"Replace All" = "Alles ferfange";
 "Go to Line:Column" = "Nei rigel:kolom gean";
 "Left Panel" = "Linkerpaniel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ferfange troch";
 "Double ⇧ to search everywhere" = "Druk twa kear op ⇧ om oeral te sykjen";
 "Files" = "Bestannen";
 "Actions" = "Aksjes";
@@ -140,6 +148,6 @@
 "Type a command name" = "Typ in kommandonamme";
 "Type text to find in project files" = "Typ tekst om yn projektbestannen te sykjen";
 "No recent files" = "Gjin resinte bestannen";
-"Matches: %1$ld / Files: %2$ld" = "Oerienkomsten: %1$ld / Bestannen: %2$ld";
 "Searching…" = "Oan it sykjen…";
+"Next Field" = "Folgjend fjild";
 "Switch Tab" = "Ljepper wikselje";

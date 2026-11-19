@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Dosiye ziheruka | ⌘E |
 | Shaka igikorwa | ⇧⌘A |
 | Shaka muri dosiye | ⇧⌘F |
+| Simbuza muri dosiye | ⇧⌘R |
 | Jya ku murongo:inkingi | ⌘L |
+| Subira inyuma / Jya imbere | ⌘[ / ⌘] |
+| Aho wahinduye bwa nyuma | ⇧⌘⌫ |
 | Subiramo umurongo cyangwa ibyatoranyijwe | ⌘D |
 | Siba umurongo | ⌘⌫ |
 | Imura umurongo hejuru / Imura umurongo hasi | ⌥⇧↑ / ⌥⇧↓ |
 | Shyira igisobanuro ku murongo | ⌘/ |
+| Shyira igisobanuro ku gice | ⌥⌘/ |
 | Huza imirongo | ⌃⇧J |
 | Hinduranya inyuguti nkuru n'into | ⇧⌘U |
 | Agura ibyatoranyijwe / Gabanya ibyatoranyijwe | ⌥↑ / ⌥↓ |

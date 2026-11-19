@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Faila lata mai | ⌘E |
 | Saili se gaoioiga | ⇧⌘A |
 | Saili i faila | ⇧⌘F |
+| Sui i faila | ⇧⌘R |
 | Alu i le laina:koluma | ⌘L |
+| Toe foi i tua / Alu i luma | ⌘[ / ⌘] |
+| Nofoaga na faatonu mulimuli ai | ⇧⌘⌫ |
 | Kopi faalua le laina po o le filifiliga | ⌘D |
 | Tape le laina | ⌘⌫ |
 | Sii i luga le laina / Sii i lalo le laina | ⌥⇧↑ / ⌥⇧↓ |
 | Faamatala i le faamatalaga o le laina | ⌘/ |
+| Faamatala i le faamatalaga o le poloka | ⌥⌘/ |
 | Tuufaatasi laina | ⌃⇧J |
 | Fesuiai mataitusi tetele ma laiti | ⇧⌘U |
 | Faalautele le filifiliga / Faaitiiti le filifiliga | ⌥↑ / ⌥↓ |

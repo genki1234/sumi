@@ -42,6 +42,7 @@
 "Join Lines" = "Batanidza mitsetse";
 "Toggle Case" = "Chinja mavara makuru/madiki";
 "Comment with Line Comment" = "Isa tsananguro yemutsetse";
+"Comment with Block Comment" = "Isa tsananguro yebhuroko";
 "Move Line Up" = "Fambisa mutsetse kumusoro";
 "Move Line Down" = "Fambisa mutsetse pasi";
 "Extend Selection" = "Wedzera zvakasarudzwa";
@@ -54,6 +55,7 @@
 "Find Previous" = "Tsvaga chapfuura";
 "Use Selection for Find" = "Tsvaga zvakasarudzwa";
 "Find in Files…" = "Tsvaga mumafaira…";
+"Replace in Files…" = "Tsiva mumafaira…";
 "Find" = "Tsvaga";
 "Project" = "Projekiti";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Tsvaga chiito…";
 "Go to Line:Column…" = "Enda kumutsetse:koramu…";
 "Select in Project View" = "Sarudza mumuti weprojekiti";
+"Back" = "Dzokera shure";
+"Forward" = "Enda mberi";
+"Last Edit Location" = "Nzvimbo yakagadziriswa pekupedzisira";
 "Next Tab" = "Tabhu inotevera";
 "Previous Tab" = "Tabhu yapfuura";
 "Minimize" = "Dzikisa hwindo";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Vhura muterminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Zvaenderana: %1$ld / Mafaira: %2$ld";
+"Replace All" = "Tsiva zvese";
 "Go to Line:Column" = "Enda kumutsetse:koramu";
 "Left Panel" = "Panera rekuruboshwe";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Tsiva ne";
 "Double ⇧ to search everywhere" = "Dzvanya ⇧ kaviri kutsvaga pese";
 "Files" = "Mafaira";
 "Actions" = "Zviito";
@@ -140,6 +148,6 @@
 "Type a command name" = "Nyora zita remurairo";
 "Type text to find in project files" = "Nyora mashoko ekutsvaga mumafaira eprojekiti";
 "No recent files" = "Hapana mafaira achangovhurwa";
-"Matches: %1$ld / Files: %2$ld" = "Zvaenderana: %1$ld / Mafaira: %2$ld";
 "Searching…" = "Kutsvaga…";
+"Next Field" = "Nzvimbo inotevera";
 "Switch Tab" = "Chinja tabhu";

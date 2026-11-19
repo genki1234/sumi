@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Faili za hivi karibuni | ⌘E |
 | Tafuta kitendo | ⇧⌘A |
 | Tafuta kwenye faili | ⇧⌘F |
+| Badilisha kwenye faili | ⇧⌘R |
 | Nenda kwenye mstari:safu | ⌘L |
+| Rudi nyuma / Nenda mbele | ⌘[ / ⌘] |
+| Mahali pa uhariri wa mwisho | ⇧⌘⌫ |
 | Rudufu mstari au uteuzi | ⌘D |
 | Futa mstari | ⌘⌫ |
 | Sogeza mstari juu / Sogeza mstari chini | ⌥⇧↑ / ⌥⇧↓ |
 | Weka au ondoa maoni ya mstari | ⌘/ |
+| Weka au ondoa maoni ya bloku | ⌥⌘/ |
 | Unganisha mistari | ⌃⇧J |
 | Badilisha herufi kubwa na ndogo | ⇧⌘U |
 | Panua uteuzi / Punguza uteuzi | ⌥↑ / ⌥↓ |

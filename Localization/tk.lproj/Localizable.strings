@@ -42,6 +42,7 @@
 "Join Lines" = "Setirleri birleşdir";
 "Toggle Case" = "Uly we kiçi harplary çalyş";
 "Comment with Line Comment" = "Setir teswiri bilen teswirle";
+"Comment with Block Comment" = "Blok teswiri bilen teswirle";
 "Move Line Up" = "Setiri ýokary süýş";
 "Move Line Down" = "Setiri aşak süýş";
 "Extend Selection" = "Saýlawy giňelt";
@@ -54,6 +55,7 @@
 "Find Previous" = "Öňkini tap";
 "Use Selection for Find" = "Saýlanan teksti gözle";
 "Find in Files…" = "Faýllarda tap…";
+"Replace in Files…" = "Faýllarda çalyş…";
 "Find" = "Gözleg";
 "Project" = "Taslama";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Hereket tap…";
 "Go to Line:Column…" = "Setir:sütüne geç…";
 "Select in Project View" = "Taslama görnüşinde saýla";
+"Back" = "Yza geç";
+"Forward" = "Öňe geç";
+"Last Edit Location" = "Soňky düzediş ýeri";
 "Next Tab" = "Indiki goýma";
 "Previous Tab" = "Öňki goýma";
 "Minimize" = "Penjiräni kiçelt";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Terminalda aç";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Gabat gelýänler: %1$ld / Faýllar: %2$ld";
+"Replace All" = "Hemmesini çalyş";
 "Go to Line:Column" = "Setir:sütüne geç";
 "Left Panel" = "Çep panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Şunuň bilen çalyş";
 "Double ⇧ to search everywhere" = "Ähli ýerde gözlemek üçin ⇧ iki gezek basyň";
 "Files" = "Faýllar";
 "Actions" = "Hereketler";
@@ -140,6 +148,6 @@
 "Type a command name" = "Buýrugyň adyny ýazyň";
 "Type text to find in project files" = "Taslama faýllarynda gözlemek üçin tekst ýazyň";
 "No recent files" = "Soňky faýllar ýok";
-"Matches: %1$ld / Files: %2$ld" = "Gabat gelýänler: %1$ld / Faýllar: %2$ld";
 "Searching…" = "Gözlenýär…";
+"Next Field" = "Indiki meýdan";
 "Switch Tab" = "Goýmany çalyş";

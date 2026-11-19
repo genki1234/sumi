@@ -42,6 +42,7 @@
 "Join Lines" = "පේළි සම්බන්ධ කරන්න";
 "Toggle Case" = "ලොකු/කුඩා අකුරු මාරු කරන්න";
 "Comment with Line Comment" = "පේළි විවරණයක් ලෙස සලකුණු කරන්න";
+"Comment with Block Comment" = "කොටස් විවරණයක් ලෙස සලකුණු කරන්න";
 "Move Line Up" = "පේළිය ඉහළට ගෙන යන්න";
 "Move Line Down" = "පේළිය පහළට ගෙන යන්න";
 "Extend Selection" = "තේරීම පුළුල් කරන්න";
@@ -54,6 +55,7 @@
 "Find Previous" = "පෙර ගැළපීම සොයන්න";
 "Use Selection for Find" = "තේරූ පෙළ සොයන්න";
 "Find in Files…" = "ගොනුවල සොයන්න…";
+"Replace in Files…" = "ගොනුවල ප්‍රතිස්ථාපනය කරන්න…";
 "Find" = "සොයන්න";
 "Project" = "ව්‍යාපෘතිය";
 "Terminal" = "ටර්මිනලය";
@@ -70,6 +72,9 @@
 "Find Action…" = "ක්‍රියාවක් සොයන්න…";
 "Go to Line:Column…" = "පේළිය:තීරුවට යන්න…";
 "Select in Project View" = "ව්‍යාපෘති දසුනේ තෝරන්න";
+"Back" = "ආපසු යන්න";
+"Forward" = "ඉදිරියට යන්න";
+"Last Edit Location" = "අවසන් සංස්කරණ ස්ථානය";
 "Next Tab" = "ඊළඟ ටැබය";
 "Previous Tab" = "පෙර ටැබය";
 "Minimize" = "අවම කරන්න";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "ටර්මිනලයේ විවෘත කරන්න";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "ගැළපීම්: %1$ld / ගොනු: %2$ld";
+"Replace All" = "සියල්ල ප්‍රතිස්ථාපනය කරන්න";
 "Go to Line:Column" = "පේළිය:තීරුවට යන්න";
 "Left Panel" = "වම් පැනලය";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "මෙයින් ප්‍රතිස්ථාපනය කරන්න";
 "Double ⇧ to search everywhere" = "සෑම තැනම සෙවීමට ⇧ දෙවරක් ඔබන්න";
 "Files" = "ගොනු";
 "Actions" = "ක්‍රියා";
@@ -140,6 +148,6 @@
 "Type a command name" = "විධානයක නම ලියන්න";
 "Type text to find in project files" = "ව්‍යාපෘති ගොනුවල සෙවීමට පෙළ ලියන්න";
 "No recent files" = "මෑත ගොනු නැත";
-"Matches: %1$ld / Files: %2$ld" = "ගැළපීම්: %1$ld / ගොනු: %2$ld";
 "Searching…" = "සොයමින්…";
+"Next Field" = "ඊළඟ ක්ෂේත්‍රය";
 "Switch Tab" = "ටැබය මාරු කරන්න";

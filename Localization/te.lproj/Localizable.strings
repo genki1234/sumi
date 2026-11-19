@@ -42,6 +42,7 @@
 "Join Lines" = "పంక్తులను కలుపు";
 "Toggle Case" = "పెద్ద/చిన్న అక్షరాలు మార్చు";
 "Comment with Line Comment" = "పంక్తి వ్యాఖ్యతో వ్యాఖ్యానించు";
+"Comment with Block Comment" = "బ్లాక్ వ్యాఖ్యతో వ్యాఖ్యానించు";
 "Move Line Up" = "పంక్తిని పైకి జరుపు";
 "Move Line Down" = "పంక్తిని కిందికి జరుపు";
 "Extend Selection" = "ఎంపికను విస్తరించు";
@@ -54,6 +55,7 @@
 "Find Previous" = "మునుపటిది కనుగొను";
 "Use Selection for Find" = "ఎంచుకున్న వచనాన్ని వెతుకు";
 "Find in Files…" = "ఫైళ్లలో కనుగొను…";
+"Replace in Files…" = "ఫైళ్లలో భర్తీ చేయి…";
 "Find" = "వెతుకు";
 "Project" = "ప్రాజెక్ట్";
 "Terminal" = "టెర్మినల్";
@@ -70,6 +72,9 @@
 "Find Action…" = "చర్యను కనుగొను…";
 "Go to Line:Column…" = "పంక్తి:కాలమ్‌కు వెళ్ళు…";
 "Select in Project View" = "ప్రాజెక్ట్ వీక్షణలో ఎంచుకో";
+"Back" = "వెనుకకు";
+"Forward" = "ముందుకు";
+"Last Edit Location" = "చివరి సవరణ స్థానం";
 "Next Tab" = "తదుపరి ట్యాబ్";
 "Previous Tab" = "మునుపటి ట్యాబ్";
 "Minimize" = "విండోను కనిష్ఠీకరించు";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "టెర్మినల్‌లో తెరువు";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "సరిపోలికలు: %1$ld / ఫైళ్లు: %2$ld";
+"Replace All" = "అన్నీ భర్తీ చేయి";
 "Go to Line:Column" = "పంక్తి:కాలమ్‌కు వెళ్ళు";
 "Left Panel" = "ఎడమ ప్యానెల్";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "దీనితో భర్తీ చేయి";
 "Double ⇧ to search everywhere" = "అంతటా వెతకడానికి ⇧ రెండుసార్లు నొక్కండి";
 "Files" = "ఫైళ్లు";
 "Actions" = "చర్యలు";
@@ -140,6 +148,6 @@
 "Type a command name" = "కమాండ్ పేరు టైప్ చేయండి";
 "Type text to find in project files" = "ప్రాజెక్ట్ ఫైళ్లలో వెతకాల్సిన వచనం టైప్ చేయండి";
 "No recent files" = "ఇటీవలి ఫైళ్లు లేవు";
-"Matches: %1$ld / Files: %2$ld" = "సరిపోలికలు: %1$ld / ఫైళ్లు: %2$ld";
 "Searching…" = "వెతుకుతోంది…";
+"Next Field" = "తదుపరి ఫీల్డ్";
 "Switch Tab" = "ట్యాబ్ మార్చు";

@@ -42,6 +42,7 @@
 "Join Lines" = "Об’єднати рядки";
 "Toggle Case" = "Змінити регістр";
 "Comment with Line Comment" = "Закоментувати рядковим коментарем";
+"Comment with Block Comment" = "Закоментувати блоковим коментарем";
 "Move Line Up" = "Перемістити рядок вгору";
 "Move Line Down" = "Перемістити рядок вниз";
 "Extend Selection" = "Розширити виділення";
@@ -54,6 +55,7 @@
 "Find Previous" = "Знайти попереднє";
 "Use Selection for Find" = "Шукати вибраний текст";
 "Find in Files…" = "Знайти у файлах…";
+"Replace in Files…" = "Замінити у файлах…";
 "Find" = "Пошук";
 "Project" = "Проєкт";
 "Terminal" = "Термінал";
@@ -70,6 +72,9 @@
 "Find Action…" = "Знайти дію…";
 "Go to Line:Column…" = "Перейти до рядка:стовпця…";
 "Select in Project View" = "Вибрати в дереві проєкту";
+"Back" = "Назад";
+"Forward" = "Вперед";
+"Last Edit Location" = "Місце останнього редагування";
 "Next Tab" = "Наступна вкладка";
 "Previous Tab" = "Попередня вкладка";
 "Minimize" = "Згорнути";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Відкрити в терміналі";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Збіги: %1$ld / Файли: %2$ld";
+"Replace All" = "Замінити все";
 "Go to Line:Column" = "Перейти до рядка:стовпця";
 "Left Panel" = "Ліва панель";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Замінити на";
 "Double ⇧ to search everywhere" = "Натисніть ⇧ двічі для пошуку всюди";
 "Files" = "Файли";
 "Actions" = "Дії";
@@ -140,6 +148,6 @@
 "Type a command name" = "Введіть назву команди";
 "Type text to find in project files" = "Введіть текст для пошуку у файлах проєкту";
 "No recent files" = "Немає недавніх файлів";
-"Matches: %1$ld / Files: %2$ld" = "Збіги: %1$ld / Файли: %2$ld";
 "Searching…" = "Пошук…";
+"Next Field" = "Наступне поле";
 "Switch Tab" = "Перемкнути вкладку";

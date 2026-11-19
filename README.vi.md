@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Tệp gần đây | ⌘E |
 | Tìm thao tác | ⇧⌘A |
 | Tìm trong các tệp | ⇧⌘F |
+| Thay thế trong các tệp | ⇧⌘R |
 | Đi tới dòng:cột | ⌘L |
+| Quay lại / tiến tới | ⌘[ / ⌘] |
+| Vị trí sửa gần nhất | ⇧⌘⌫ |
 | Nhân bản dòng hoặc vùng chọn | ⌘D |
 | Xóa dòng | ⌘⌫ |
 | Di chuyển dòng lên / xuống | ⌥⇧↑ / ⌥⇧↓ |
 | Chú thích bằng chú thích dòng | ⌘/ |
+| Chú thích bằng chú thích khối | ⌥⌘/ |
 | Nối dòng | ⌃⇧J |
 | Đổi chữ hoa/thường | ⇧⌘U |
 | Mở rộng / thu hẹp vùng chọn | ⌥↑ / ⌥↓ |

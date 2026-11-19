@@ -42,6 +42,7 @@
 "Join Lines" = "Sammanfoga rader";
 "Toggle Case" = "Växla versaler/gemener";
 "Comment with Line Comment" = "Kommentera med radkommentar";
+"Comment with Block Comment" = "Kommentera med blockkommentar";
 "Move Line Up" = "Flytta rad uppåt";
 "Move Line Down" = "Flytta rad nedåt";
 "Extend Selection" = "Utöka markering";
@@ -54,6 +55,7 @@
 "Find Previous" = "Sök föregående";
 "Use Selection for Find" = "Sök efter markerad text";
 "Find in Files…" = "Sök i filer…";
+"Replace in Files…" = "Ersätt i filer…";
 "Find" = "Sök";
 "Project" = "Projekt";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Sök åtgärd…";
 "Go to Line:Column…" = "Gå till rad:kolumn…";
 "Select in Project View" = "Markera i projektvyn";
+"Back" = "Bakåt";
+"Forward" = "Framåt";
+"Last Edit Location" = "Senaste redigeringsplats";
 "Next Tab" = "Nästa flik";
 "Previous Tab" = "Föregående flik";
 "Minimize" = "Minimera";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Öppna i terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Träffar: %1$ld / Filer: %2$ld";
+"Replace All" = "Ersätt alla";
 "Go to Line:Column" = "Gå till rad:kolumn";
 "Left Panel" = "Vänster panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ersätt med";
 "Double ⇧ to search everywhere" = "Dubbeltryck på ⇧ för att söka överallt";
 "Files" = "Filer";
 "Actions" = "Åtgärder";
@@ -140,6 +148,6 @@
 "Type a command name" = "Skriv ett kommandonamn";
 "Type text to find in project files" = "Skriv text att söka efter i projektfilerna";
 "No recent files" = "Inga senaste filer";
-"Matches: %1$ld / Files: %2$ld" = "Träffar: %1$ld / Filer: %2$ld";
 "Searching…" = "Söker…";
+"Next Field" = "Nästa fält";
 "Switch Tab" = "Byt flik";

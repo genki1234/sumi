@@ -42,6 +42,7 @@
 "Join Lines" = "Nối dòng";
 "Toggle Case" = "Đổi chữ hoa/thường";
 "Comment with Line Comment" = "Chú thích bằng chú thích dòng";
+"Comment with Block Comment" = "Chú thích bằng chú thích khối";
 "Move Line Up" = "Di chuyển dòng lên";
 "Move Line Down" = "Di chuyển dòng xuống";
 "Extend Selection" = "Mở rộng vùng chọn";
@@ -54,6 +55,7 @@
 "Find Previous" = "Tìm trước";
 "Use Selection for Find" = "Tìm văn bản đã chọn";
 "Find in Files…" = "Tìm trong các tệp…";
+"Replace in Files…" = "Thay thế trong các tệp…";
 "Find" = "Tìm";
 "Project" = "Dự án";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Tìm thao tác…";
 "Go to Line:Column…" = "Đi tới dòng:cột…";
 "Select in Project View" = "Chọn trong cây dự án";
+"Back" = "Quay lại";
+"Forward" = "Tiến tới";
+"Last Edit Location" = "Vị trí sửa gần nhất";
 "Next Tab" = "Thẻ tiếp theo";
 "Previous Tab" = "Thẻ trước";
 "Minimize" = "Thu nhỏ";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Mở trong terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Khớp: %1$ld / Tệp: %2$ld";
+"Replace All" = "Thay thế tất cả";
 "Go to Line:Column" = "Đi tới dòng:cột";
 "Left Panel" = "Bảng bên trái";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Thay thế bằng";
 "Double ⇧ to search everywhere" = "Nhấn ⇧ hai lần để tìm mọi nơi";
 "Files" = "Tệp";
 "Actions" = "Thao tác";
@@ -140,6 +148,6 @@
 "Type a command name" = "Nhập tên lệnh";
 "Type text to find in project files" = "Nhập văn bản cần tìm trong các tệp dự án";
 "No recent files" = "Không có tệp gần đây";
-"Matches: %1$ld / Files: %2$ld" = "Khớp: %1$ld / Tệp: %2$ld";
 "Searching…" = "Đang tìm…";
+"Next Field" = "Ô tiếp theo";
 "Switch Tab" = "Chuyển thẻ";

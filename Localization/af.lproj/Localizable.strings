@@ -42,6 +42,7 @@
 "Join Lines" = "Voeg reëls saam";
 "Toggle Case" = "Wissel hoof- en kleinletters";
 "Comment with Line Comment" = "Kommentarieer met reëlkommentaar";
+"Comment with Block Comment" = "Kommentarieer met blokkommentaar";
 "Move Line Up" = "Skuif reël op";
 "Move Line Down" = "Skuif reël af";
 "Extend Selection" = "Brei seleksie uit";
@@ -54,6 +55,7 @@
 "Find Previous" = "Soek vorige";
 "Use Selection for Find" = "Soek met seleksie";
 "Find in Files…" = "Soek in lêers…";
+"Replace in Files…" = "Vervang in lêers…";
 "Find" = "Soek";
 "Project" = "Projek";
 "Terminal" = "Terminaal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Soek aksie…";
 "Go to Line:Column…" = "Gaan na reël:kolom…";
 "Select in Project View" = "Kies in projekaansig";
+"Back" = "Terug";
+"Forward" = "Vorentoe";
+"Last Edit Location" = "Laaste wysigingsplek";
 "Next Tab" = "Volgende oortjie";
 "Previous Tab" = "Vorige oortjie";
 "Minimize" = "Minimeer";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Maak in terminaal oop";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Ooreenkomste: %1$ld / Lêers: %2$ld";
+"Replace All" = "Vervang alles";
 "Go to Line:Column" = "Gaan na reël:kolom";
 "Left Panel" = "Linkerpaneel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Vervang met";
 "Double ⇧ to search everywhere" = "Druk ⇧ twee keer om oral te soek";
 "Files" = "Lêers";
 "Actions" = "Aksies";
@@ -140,6 +148,6 @@
 "Type a command name" = "Tik 'n opdragnaam";
 "Type text to find in project files" = "Tik teks om in projeklêers te soek";
 "No recent files" = "Geen onlangse lêers nie";
-"Matches: %1$ld / Files: %2$ld" = "Ooreenkomste: %1$ld / Lêers: %2$ld";
 "Searching…" = "Soek tans…";
+"Next Field" = "Volgende veld";
 "Switch Tab" = "Wissel oortjie";

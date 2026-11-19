@@ -42,6 +42,7 @@
 "Join Lines" = "Tuufaatasi laina";
 "Toggle Case" = "Sui mataitusi tetele/laiti";
 "Comment with Line Comment" = "Faaopoopo se faamatalaga laina";
+"Comment with Block Comment" = "Faaopoopo se faamatalaga poloka";
 "Move Line Up" = "Ave le laina i luga";
 "Move Line Down" = "Ave le laina i lalo";
 "Extend Selection" = "Faalautele le filifiliga";
@@ -54,6 +55,7 @@
 "Find Previous" = "Saili le muamua";
 "Use Selection for Find" = "Saili le tusitusiga filifilia";
 "Find in Files…" = "Saili i faila…";
+"Replace in Files…" = "Sui i faila…";
 "Find" = "Saili";
 "Project" = "Poloketi";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Saili se gaioiga…";
 "Go to Line:Column…" = "Alu i le laina:koluma…";
 "Select in Project View" = "Filifili i le vaaiga o le poloketi";
+"Back" = "Toe foi i tua";
+"Forward" = "Alu i luma";
+"Last Edit Location" = "Nofoaga na faatonu mulimuli ai";
 "Next Tab" = "Itulau e sosoo ai";
 "Previous Tab" = "Itulau muamua";
 "Minimize" = "Faaitiiti le faamalama";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Tatala i le terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Mea tutusa: %1$ld / Faila: %2$ld";
+"Replace All" = "Sui uma";
 "Go to Line:Column" = "Alu i le laina:koluma";
 "Left Panel" = "Vaega agavale";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Sui i le";
 "Double ⇧ to search everywhere" = "Oomi faalua le ⇧ e saili ai i mea uma";
 "Files" = "Faila";
 "Actions" = "Gaioiga";
@@ -140,6 +148,6 @@
 "Type a command name" = "Tusi le igoa o se poloaiga";
 "Type text to find in project files" = "Tusi tusitusiga e saili i faila o le poloketi";
 "No recent files" = "Leai ni faila lata mai";
-"Matches: %1$ld / Files: %2$ld" = "Mea tutusa: %1$ld / Faila: %2$ld";
 "Searching…" = "O loo saili…";
+"Next Field" = "Pusa e sosoo ai";
 "Switch Tab" = "Sui itulau";

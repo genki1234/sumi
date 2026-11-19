@@ -42,6 +42,7 @@
 "Join Lines" = "Iusa ang mga linya";
 "Toggle Case" = "Ilisi ang dagko/gagmay nga letra";
 "Comment with Line Comment" = "Komentohi gamit ang komento sa linya";
+"Comment with Block Comment" = "Komentohi gamit ang komento sa block";
 "Move Line Up" = "Ibalhin pataas ang linya";
 "Move Line Down" = "Ibalhin paubos ang linya";
 "Extend Selection" = "Padak-a ang gipili";
@@ -54,6 +55,7 @@
 "Find Previous" = "Pangitaa ang miagi";
 "Use Selection for Find" = "Pangitaa ang gipiling teksto";
 "Find in Files…" = "Pangitaa sa mga file…";
+"Replace in Files…" = "Ilisi sa mga file…";
 "Find" = "Pagpangita";
 "Project" = "Proyekto";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Pangitaa ang aksyon…";
 "Go to Line:Column…" = "Adto sa linya:kolum…";
 "Select in Project View" = "Pilia sa tan-aw sa proyekto";
+"Back" = "Balik";
+"Forward" = "Abante";
+"Last Edit Location" = "Katapusang dapit sa pag-usba";
 "Next Tab" = "Sunod nga tab";
 "Previous Tab" = "Miaging tab";
 "Minimize" = "Pagamya";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Ablihi sa terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Mga katugma: %1$ld / Mga file: %2$ld";
+"Replace All" = "Ilisi tanan";
 "Go to Line:Column" = "Adto sa linya:kolum";
 "Left Panel" = "Wala nga panel";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Ilisi gamit ang";
 "Double ⇧ to search everywhere" = "Pislita ang ⇧ kaduha aron mangita bisan asa";
 "Files" = "Mga file";
 "Actions" = "Mga aksyon";
@@ -140,6 +148,6 @@
 "Type a command name" = "Isulat ang ngalan sa sugo";
 "Type text to find in project files" = "Isulat ang teksto nga pangitaon sa mga file sa proyekto";
 "No recent files" = "Walay bag-ong giablihang file";
-"Matches: %1$ld / Files: %2$ld" = "Mga katugma: %1$ld / Mga file: %2$ld";
 "Searching…" = "Nangita…";
+"Next Field" = "Sunod nga field";
 "Switch Tab" = "Ilisi ang tab";

@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Mafaira achangovhurwa | ⌘E |
 | Tsvaga chiito | ⇧⌘A |
 | Tsvaga mumafaira | ⇧⌘F |
+| Tsiva mumafaira | ⇧⌘R |
 | Enda kumutsetse:koramu | ⌘L |
+| Dzokera shure / Enda mberi | ⌘[ / ⌘] |
+| Nzvimbo yakagadziriswa pekupedzisira | ⇧⌘⌫ |
 | Kopa kaviri mutsetse kana zvakasarudzwa | ⌘D |
 | Dzima mutsetse | ⌘⌫ |
 | Fambisa mutsetse kumusoro / Fambisa mutsetse pasi | ⌥⇧↑ / ⌥⇧↓ |
 | Isa tsananguro yemutsetse | ⌘/ |
+| Isa tsananguro yebhuroko | ⌥⌘/ |
 | Batanidza mitsetse | ⌃⇧J |
 | Chinja mavara makuru nemadiki | ⇧⌘U |
 | Wedzera zvakasarudzwa / Deredza zvakasarudzwa | ⌥↑ / ⌥↓ |

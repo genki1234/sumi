@@ -42,6 +42,7 @@
 "Join Lines" = "Ένωση γραμμών";
 "Toggle Case" = "Εναλλαγή κεφαλαίων/πεζών";
 "Comment with Line Comment" = "Σχολιασμός με σχόλιο γραμμής";
+"Comment with Block Comment" = "Σχολιασμός με σχόλιο μπλοκ";
 "Move Line Up" = "Μετακίνηση γραμμής πάνω";
 "Move Line Down" = "Μετακίνηση γραμμής κάτω";
 "Extend Selection" = "Επέκταση επιλογής";
@@ -54,6 +55,7 @@
 "Find Previous" = "Εύρεση προηγούμενου";
 "Use Selection for Find" = "Εύρεση επιλεγμένου κειμένου";
 "Find in Files…" = "Εύρεση σε αρχεία…";
+"Replace in Files…" = "Αντικατάσταση σε αρχεία…";
 "Find" = "Εύρεση";
 "Project" = "Έργο";
 "Terminal" = "Τερματικό";
@@ -70,6 +72,9 @@
 "Find Action…" = "Εύρεση ενέργειας…";
 "Go to Line:Column…" = "Μετάβαση σε γραμμή:στήλη…";
 "Select in Project View" = "Επιλογή στην προβολή έργου";
+"Back" = "Πίσω";
+"Forward" = "Εμπρός";
+"Last Edit Location" = "Θέση τελευταίας επεξεργασίας";
 "Next Tab" = "Επόμενη καρτέλα";
 "Previous Tab" = "Προηγούμενη καρτέλα";
 "Minimize" = "Ελαχιστοποίηση";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Άνοιγμα στο τερματικό";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Αντιστοιχίες: %1$ld / Αρχεία: %2$ld";
+"Replace All" = "Αντικατάσταση όλων";
 "Go to Line:Column" = "Μετάβαση σε γραμμή:στήλη";
 "Left Panel" = "Αριστερό πλαίσιο";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Αντικατάσταση με";
 "Double ⇧ to search everywhere" = "Πατήστε ⇧ δύο φορές για αναζήτηση παντού";
 "Files" = "Αρχεία";
 "Actions" = "Ενέργειες";
@@ -140,6 +148,6 @@
 "Type a command name" = "Πληκτρολογήστε όνομα εντολής";
 "Type text to find in project files" = "Πληκτρολογήστε κείμενο για εύρεση στα αρχεία του έργου";
 "No recent files" = "Δεν υπάρχουν πρόσφατα αρχεία";
-"Matches: %1$ld / Files: %2$ld" = "Αντιστοιχίες: %1$ld / Αρχεία: %2$ld";
 "Searching…" = "Αναζήτηση…";
+"Next Field" = "Επόμενο πεδίο";
 "Switch Tab" = "Εναλλαγή καρτέλας";

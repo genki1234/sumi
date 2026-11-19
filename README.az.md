@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Son fayllar | ⌘E |
 | Əməliyyat tap | ⇧⌘A |
 | Fayllarda tap | ⇧⌘F |
+| Fayllarda əvəz et | ⇧⌘R |
 | Sətir:sütuna keç | ⌘L |
+| Geri / irəli | ⌘[ / ⌘] |
+| Son redaktə yeri | ⇧⌘⌫ |
 | Sətri və ya seçimi təkrarla | ⌘D |
 | Sətri sil | ⌘⌫ |
 | Sətri yuxarı / aşağı köçür | ⌥⇧↑ / ⌥⇧↓ |
 | Sətir şərhi ilə şərhə al | ⌘/ |
+| Blok şərhi ilə şərhə al | ⌥⌘/ |
 | Sətirləri birləşdir | ⌃⇧J |
 | Hərf registrini dəyiş | ⇧⌘U |
 | Seçimi genişləndir / daralt | ⌥↑ / ⌥↓ |

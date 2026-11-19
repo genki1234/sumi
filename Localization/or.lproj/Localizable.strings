@@ -42,6 +42,7 @@
 "Join Lines" = "ଧାଡ଼ିଗୁଡ଼ିକ ଯୋଡ଼ନ୍ତୁ";
 "Toggle Case" = "ବଡ଼/ଛୋଟ ଅକ୍ଷର ବଦଳାନ୍ତୁ";
 "Comment with Line Comment" = "ଧାଡ଼ି ମନ୍ତବ୍ୟ ସହ ମନ୍ତବ୍ୟ କରନ୍ତୁ";
+"Comment with Block Comment" = "ବ୍ଲକ୍ ମନ୍ତବ୍ୟ ସହ ମନ୍ତବ୍ୟ କରନ୍ତୁ";
 "Move Line Up" = "ଧାଡ଼ି ଉପରକୁ ଘୁଞ୍ଚାନ୍ତୁ";
 "Move Line Down" = "ଧାଡ଼ି ତଳକୁ ଘୁଞ୍ଚାନ୍ତୁ";
 "Extend Selection" = "ଚୟନ ବିସ୍ତାର କରନ୍ତୁ";
@@ -54,6 +55,7 @@
 "Find Previous" = "ପୂର୍ବବର୍ତ୍ତୀଟି ଖୋଜନ୍ତୁ";
 "Use Selection for Find" = "ବଛାଯାଇଥିବା ପାଠ୍ୟ ଖୋଜନ୍ତୁ";
 "Find in Files…" = "ଫାଇଲ୍‌ଗୁଡ଼ିକରେ ଖୋଜନ୍ତୁ…";
+"Replace in Files…" = "ଫାଇଲ୍‌ଗୁଡ଼ିକରେ ବଦଳାନ୍ତୁ…";
 "Find" = "ଖୋଜନ୍ତୁ";
 "Project" = "ପ୍ରକଳ୍ପ";
 "Terminal" = "ଟର୍ମିନାଲ୍";
@@ -70,6 +72,9 @@
 "Find Action…" = "କାର୍ଯ୍ୟ ଖୋଜନ୍ତୁ…";
 "Go to Line:Column…" = "ଧାଡ଼ି:ସ୍ତମ୍ଭକୁ ଯାଆନ୍ତୁ…";
 "Select in Project View" = "ପ୍ରକଳ୍ପ ବୃକ୍ଷରେ ବାଛନ୍ତୁ";
+"Back" = "ପଛକୁ ଯାଆନ୍ତୁ";
+"Forward" = "ଆଗକୁ ଯାଆନ୍ତୁ";
+"Last Edit Location" = "ଶେଷ ସମ୍ପାଦନ ସ୍ଥାନ";
 "Next Tab" = "ପରବର୍ତ୍ତୀ ଟ୍ୟାବ୍";
 "Previous Tab" = "ପୂର୍ବବର୍ତ୍ତୀ ଟ୍ୟାବ୍";
 "Minimize" = "ଛୋଟ କରନ୍ତୁ";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "ଟର୍ମିନାଲ୍‌ରେ ଖୋଲନ୍ତୁ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "ମେଳ: %1$ld / ଫାଇଲ୍: %2$ld";
+"Replace All" = "ସବୁ ବଦଳାନ୍ତୁ";
 "Go to Line:Column" = "ଧାଡ଼ି:ସ୍ତମ୍ଭକୁ ଯାଆନ୍ତୁ";
 "Left Panel" = "ବାମ ପ୍ୟାନେଲ୍";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "ଏହା ସହ ବଦଳାନ୍ତୁ";
 "Double ⇧ to search everywhere" = "ସବୁଠି ଖୋଜିବାକୁ ⇧ ଦୁଇଥର ଦବାନ୍ତୁ";
 "Files" = "ଫାଇଲ୍‌ଗୁଡ଼ିକ";
 "Actions" = "କାର୍ଯ୍ୟଗୁଡ଼ିକ";
@@ -140,6 +148,6 @@
 "Type a command name" = "ନିର୍ଦ୍ଦେଶର ନାମ ଲେଖନ୍ତୁ";
 "Type text to find in project files" = "ପ୍ରକଳ୍ପ ଫାଇଲ୍‌ଗୁଡ଼ିକରେ ଖୋଜିବାକୁ ପାଠ୍ୟ ଲେଖନ୍ତୁ";
 "No recent files" = "ସାମ୍ପ୍ରତିକ ଫାଇଲ୍ ନାହିଁ";
-"Matches: %1$ld / Files: %2$ld" = "ମେଳ: %1$ld / ଫାଇଲ୍: %2$ld";
 "Searching…" = "ଖୋଜୁଛି…";
+"Next Field" = "ପରବର୍ତ୍ତୀ ଫିଲ୍ଡ";
 "Switch Tab" = "ଟ୍ୟାବ୍ ବଦଳାନ୍ତୁ";

@@ -42,6 +42,7 @@
 "Join Lines" = "کرښې یوځای کړئ";
 "Toggle Case" = "لوی/واړه توري بدل کړئ";
 "Comment with Line Comment" = "د کرښې په تبصره تبصره کړئ";
+"Comment with Block Comment" = "د بلاک په تبصره تبصره کړئ";
 "Move Line Up" = "کرښه پورته یوسئ";
 "Move Line Down" = "کرښه ښکته یوسئ";
 "Extend Selection" = "ټاکنه پراخه کړئ";
@@ -54,6 +55,7 @@
 "Find Previous" = "مخکینی ومومئ";
 "Use Selection for Find" = "ټاکل شوی متن ولټوئ";
 "Find in Files…" = "په دوتنو کې ومومئ…";
+"Replace in Files…" = "په دوتنو کې ځایناستی کړئ…";
 "Find" = "ومومئ";
 "Project" = "پروژه";
 "Terminal" = "ټرمینل";
@@ -70,6 +72,9 @@
 "Find Action…" = "کړنه ومومئ…";
 "Go to Line:Column…" = "کرښه:ستن ته لاړ شئ…";
 "Select in Project View" = "د پروژې په ونه کې یې وټاکئ";
+"Back" = "شاته لاړ شئ";
+"Forward" = "مخکې لاړ شئ";
+"Last Edit Location" = "د وروستي سمون ځای";
 "Next Tab" = "راتلونکی ټب";
 "Previous Tab" = "مخکینی ټب";
 "Minimize" = "کوچنۍ کړئ";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "په ټرمینل کې یې پرانیزئ";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "سمون لرونکې پایلې: %1$ld / دوتنې: %2$ld";
+"Replace All" = "ټول ځایناستي کړئ";
 "Go to Line:Column" = "کرښه:ستن ته لاړ شئ";
 "Left Panel" = "کیڼ پینل";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "په دې ځایناستی کړئ";
 "Double ⇧ to search everywhere" = "د هر ځای لټون لپاره ⇧ دوه ځله کېکاږئ";
 "Files" = "دوتنې";
 "Actions" = "کړنې";
@@ -140,6 +148,6 @@
 "Type a command name" = "د امر نوم ولیکئ";
 "Type text to find in project files" = "د پروژې په دوتنو کې د موندلو لپاره متن ولیکئ";
 "No recent files" = "وروستۍ دوتنې نشته";
-"Matches: %1$ld / Files: %2$ld" = "سمون لرونکې پایلې: %1$ld / دوتنې: %2$ld";
 "Searching…" = "لټون روان دی…";
+"Next Field" = "راتلونکی ډګر";
 "Switch Tab" = "ټب بدل کړئ";

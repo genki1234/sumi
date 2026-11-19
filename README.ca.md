@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Fitxers recents | ⌘E |
 | Cerca una acció | ⇧⌘A |
 | Cerca als fitxers | ⇧⌘F |
+| Substitueix als fitxers | ⇧⌘R |
 | Ves a la línia:columna | ⌘L |
+| Enrere / endavant | ⌘[ / ⌘] |
+| Lloc de la darrera edició | ⇧⌘⌫ |
 | Duplica la línia o la selecció | ⌘D |
 | Suprimeix la línia | ⌘⌫ |
 | Mou la línia amunt / avall | ⌥⇧↑ / ⌥⇧↓ |
 | Comenta amb comentari de línia | ⌘/ |
+| Comenta amb comentari de bloc | ⌥⌘/ |
 | Uneix les línies | ⌃⇧J |
 | Commuta majúscules/minúscules | ⇧⌘U |
 | Amplia / redueix la selecció | ⌥↑ / ⌥↓ |

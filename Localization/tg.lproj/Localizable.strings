@@ -42,6 +42,7 @@
 "Join Lines" = "Пайваст кардани сатрҳо";
 "Toggle Case" = "Иваз кардани ҳарфҳои калон ва хурд";
 "Comment with Line Comment" = "Шарҳгузорӣ бо шарҳи сатрӣ";
+"Comment with Block Comment" = "Шарҳгузорӣ бо шарҳи блокӣ";
 "Move Line Up" = "Ба боло кӯчонидани сатр";
 "Move Line Down" = "Ба поён кӯчонидани сатр";
 "Extend Selection" = "Васеъ кардани интихоб";
@@ -54,6 +55,7 @@
 "Find Previous" = "Ёфтани пешина";
 "Use Selection for Find" = "Ҷустуҷӯи матни интихобшуда";
 "Find in Files…" = "Ёфтан дар файлҳо…";
+"Replace in Files…" = "Иваз кардан дар файлҳо…";
 "Find" = "Ҷустуҷӯ";
 "Project" = "Лоиҳа";
 "Terminal" = "Терминал";
@@ -70,6 +72,9 @@
 "Find Action…" = "Ёфтани амал…";
 "Go to Line:Column…" = "Гузариш ба сатр:сутун…";
 "Select in Project View" = "Интихоб дар дарахти лоиҳа";
+"Back" = "Ба қафо";
+"Forward" = "Ба пеш";
+"Last Edit Location" = "Ҷойи таҳрири охирин";
 "Next Tab" = "Варақаи баъдӣ";
 "Previous Tab" = "Варақаи пешина";
 "Minimize" = "Хурд кардани равзана";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Кушодан дар терминал";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Мувофиқатҳо: %1$ld / Файлҳо: %2$ld";
+"Replace All" = "Иваз кардани ҳама";
 "Go to Line:Column" = "Гузариш ба сатр:сутун";
 "Left Panel" = "Панели чап";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Иваз кардан ба";
 "Double ⇧ to search everywhere" = "Барои ҷустуҷӯ дар ҳама ҷо ⇧-ро ду бор пахш кунед";
 "Files" = "Файлҳо";
 "Actions" = "Амалҳо";
@@ -140,6 +148,6 @@
 "Type a command name" = "Номи фармонро нависед";
 "Type text to find in project files" = "Матнро барои ҷустуҷӯ дар файлҳои лоиҳа нависед";
 "No recent files" = "Файлҳои охирин нестанд";
-"Matches: %1$ld / Files: %2$ld" = "Мувофиқатҳо: %1$ld / Файлҳо: %2$ld";
 "Searching…" = "Дар ҳоли ҷустуҷӯ…";
+"Next Field" = "Майдони баъдӣ";
 "Switch Tab" = "Иваз кардани варақа";

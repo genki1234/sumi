@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Onlangse lêers | ⌘E |
 | Soek aksie | ⇧⌘A |
 | Soek in lêers | ⇧⌘F |
+| Vervang in lêers | ⇧⌘R |
 | Gaan na reël:kolom | ⌘L |
+| Terug / vorentoe | ⌘[ / ⌘] |
+| Laaste wysigingsplek | ⇧⌘⌫ |
 | Dupliseer reël of seleksie | ⌘D |
 | Skrap reël | ⌘⌫ |
 | Skuif reël op / af | ⌥⇧↑ / ⌥⇧↓ |
 | Kommentarieer met reëlkommentaar | ⌘/ |
+| Kommentarieer met blokkommentaar | ⌥⌘/ |
 | Voeg reëls saam | ⌃⇧J |
 | Wissel hoof- en kleinletters | ⇧⌘U |
 | Brei uit / krimp seleksie | ⌥↑ / ⌥↓ |

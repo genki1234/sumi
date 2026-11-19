@@ -42,6 +42,7 @@
 "Join Lines" = "Atambaro ny Andalana";
 "Toggle Case" = "Ampifamadiho ny Soratra Lehibe sy Kely";
 "Comment with Line Comment" = "Ataovy Fanamarihana Andalana";
+"Comment with Block Comment" = "Ataovy Fanamarihana Bloka";
 "Move Line Up" = "Akaro ny Andalana";
 "Move Line Down" = "Ampidino ny Andalana";
 "Extend Selection" = "Ampitomboy ny Voafantina";
@@ -54,6 +55,7 @@
 "Find Previous" = "Tadiavo ny Teo Aloha";
 "Use Selection for Find" = "Tadiavo ny Lahatsoratra Voafantina";
 "Find in Files…" = "Tadiavo ao amin'ny Rakitra…";
+"Replace in Files…" = "Soloy ao amin'ny Rakitra…";
 "Find" = "Tadiavo";
 "Project" = "Tetikasa";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Tadiavo ny Hetsika…";
 "Go to Line:Column…" = "Mandehana any amin'ny Andalana:Tsanganana…";
 "Select in Project View" = "Safidio ao amin'ny Hazon'ny Tetikasa";
+"Back" = "Miverena";
+"Forward" = "Mandrosoa";
+"Last Edit Location" = "Toerana Novaina Farany";
 "Next Tab" = "Kiheba Manaraka";
 "Previous Tab" = "Kiheba Teo Aloha";
 "Minimize" = "Ahena";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Sokafy ao amin'ny Terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Valiny Mifanaraka: %1$ld / Rakitra: %2$ld";
+"Replace All" = "Soloy Rehetra";
 "Go to Line:Column" = "Mandehana any amin'ny Andalana:Tsanganana";
 "Left Panel" = "Takelaka Havia";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Soloy amin'ny";
 "Double ⇧ to search everywhere" = "Tsindrio indroa ny ⇧ hikarohana eny rehetra";
 "Files" = "Rakitra";
 "Actions" = "Hetsika";
@@ -140,6 +148,6 @@
 "Type a command name" = "Soraty ny anaran'ny baiko";
 "Type text to find in project files" = "Soraty ny lahatsoratra hotadiavina ao amin'ny rakitry ny tetikasa";
 "No recent files" = "Tsy misy rakitra vao nosokafana";
-"Matches: %1$ld / Files: %2$ld" = "Valiny Mifanaraka: %1$ld / Rakitra: %2$ld";
 "Searching…" = "Mitady…";
+"Next Field" = "Saha Manaraka";
 "Switch Tab" = "Ovay ny Kiheba";

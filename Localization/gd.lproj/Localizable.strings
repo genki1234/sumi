@@ -42,6 +42,7 @@
 "Join Lines" = "Ceangail na loidhnichean";
 "Toggle Case" = "Toglaich litrichean mòra/beaga";
 "Comment with Line Comment" = "Cuir beachd loidhne air";
+"Comment with Block Comment" = "Cuir beachd bloca air";
 "Move Line Up" = "Gluais an loidhne suas";
 "Move Line Down" = "Gluais an loidhne sìos";
 "Extend Selection" = "Leudaich an taghadh";
@@ -54,6 +55,7 @@
 "Find Previous" = "Lorg am fear roimhe";
 "Use Selection for Find" = "Lorg an teacsa taghte";
 "Find in Files…" = "Lorg ann am faidhlichean…";
+"Replace in Files…" = "Cuir na àite ann am faidhlichean…";
 "Find" = "Lorg";
 "Project" = "Pròiseact";
 "Terminal" = "Tèirmineal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Lorg gnìomh…";
 "Go to Line:Column…" = "Rach gu loidhne:colbh…";
 "Select in Project View" = "Tagh ann an sealladh a' phròiseict";
+"Back" = "Air ais";
+"Forward" = "Air adhart";
+"Last Edit Location" = "Ionad an deasachaidh mu dheireadh";
 "Next Tab" = "An ath thaba";
 "Previous Tab" = "An taba roimhe";
 "Minimize" = "Fìor-lùghdaich";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Fosgail san tèirmineal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Co-fhreagairtean: %1$ld / Faidhlichean: %2$ld";
+"Replace All" = "Cuir na àite air fad";
 "Go to Line:Column" = "Rach gu loidhne:colbh";
 "Left Panel" = "Panail chlì";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Cuir seo na àite";
 "Double ⇧ to search everywhere" = "Brùth ⇧ dà thuras gus lorg anns gach àite";
 "Files" = "Faidhlichean";
 "Actions" = "Gnìomhan";
@@ -140,6 +148,6 @@
 "Type a command name" = "Sgrìobh ainm àithne";
 "Type text to find in project files" = "Sgrìobh teacsa ri lorg ann am faidhlichean a' phròiseict";
 "No recent files" = "Chan eil faidhlichean o chionn ghoirid ann";
-"Matches: %1$ld / Files: %2$ld" = "Co-fhreagairtean: %1$ld / Faidhlichean: %2$ld";
 "Searching…" = "A' lorg…";
+"Next Field" = "An ath raon";
 "Switch Tab" = "Atharraich an taba";

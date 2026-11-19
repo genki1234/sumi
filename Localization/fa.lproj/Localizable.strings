@@ -42,6 +42,7 @@
 "Join Lines" = "ادغام سطرها";
 "Toggle Case" = "تغییر حروف بزرگ/کوچک";
 "Comment with Line Comment" = "توضیح‌گذاری با توضیح سطری";
+"Comment with Block Comment" = "توضیح‌گذاری با توضیح بلوکی";
 "Move Line Up" = "انتقال سطر به بالا";
 "Move Line Down" = "انتقال سطر به پایین";
 "Extend Selection" = "گسترش انتخاب";
@@ -54,6 +55,7 @@
 "Find Previous" = "یافتن قبلی";
 "Use Selection for Find" = "جستجوی متن انتخاب‌شده";
 "Find in Files…" = "یافتن در فایل‌ها…";
+"Replace in Files…" = "جایگزینی در فایل‌ها…";
 "Find" = "جستجو";
 "Project" = "پروژه";
 "Terminal" = "ترمینال";
@@ -70,6 +72,9 @@
 "Find Action…" = "یافتن کنش…";
 "Go to Line:Column…" = "رفتن به سطر:ستون…";
 "Select in Project View" = "انتخاب در نمای پروژه";
+"Back" = "عقب";
+"Forward" = "جلو";
+"Last Edit Location" = "محل آخرین ویرایش";
 "Next Tab" = "زبانهٔ بعدی";
 "Previous Tab" = "زبانهٔ قبلی";
 "Minimize" = "کوچک کردن";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "باز کردن در ترمینال";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "مطابقت‌ها: %1$ld / فایل‌ها: %2$ld";
+"Replace All" = "جایگزینی همه";
 "Go to Line:Column" = "رفتن به سطر:ستون";
 "Left Panel" = "پنل چپ";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "جایگزینی با";
 "Double ⇧ to search everywhere" = "برای جستجو در همه‌جا، ⇧ را دو بار فشار دهید";
 "Files" = "فایل‌ها";
 "Actions" = "کنش‌ها";
@@ -140,6 +148,6 @@
 "Type a command name" = "نام فرمان را بنویسید";
 "Type text to find in project files" = "متنی را که می‌خواهید در فایل‌های پروژه پیدا کنید بنویسید";
 "No recent files" = "فایل اخیری وجود ندارد";
-"Matches: %1$ld / Files: %2$ld" = "مطابقت‌ها: %1$ld / فایل‌ها: %2$ld";
 "Searching…" = "در حال جستجو…";
+"Next Field" = "فیلد بعدی";
 "Switch Tab" = "تعویض زبانه";

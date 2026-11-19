@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Fayilolin baya-bayan nan | ⌘E |
 | Nemo umarni | ⇧⌘A |
 | Nema a cikin fayiloli | ⇧⌘F |
+| Sauya a cikin fayiloli | ⇧⌘R |
 | Je zuwa layi:ginshiƙi | ⌘L |
+| Koma baya / ci gaba | ⌘[ / ⌘] |
+| Wurin gyara na ƙarshe | ⇧⌘⌫ |
 | Ninka layi ko abin da aka zaɓa | ⌘D |
 | Goge layi | ⌘⌫ |
 | Matsar da layi sama / ƙasa | ⌥⇧↑ / ⌥⇧↓ |
 | Yi sharhi da sharhin layi | ⌘/ |
+| Yi sharhi da sharhin toshe | ⌥⌘/ |
 | Haɗa layuka | ⌃⇧J |
 | Sauya manya/ƙananan haruffa | ⇧⌘U |
 | Faɗaɗa / rage zaɓi | ⌥↑ / ⌥↓ |

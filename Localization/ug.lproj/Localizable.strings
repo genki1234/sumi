@@ -42,6 +42,7 @@
 "Join Lines" = "قۇرلارنى بىرلەشتۈرۈش";
 "Toggle Case" = "چوڭ-كىچىك ھەرپنى ئالماشتۇرۇش";
 "Comment with Line Comment" = "قۇر ئىزاھاتى بىلەن ئىزاھلاش";
+"Comment with Block Comment" = "بۆلەك ئىزاھاتى بىلەن ئىزاھلاش";
 "Move Line Up" = "قۇرنى ئۈستىگە يۆتكەش";
 "Move Line Down" = "قۇرنى ئاستىغا يۆتكەش";
 "Extend Selection" = "تاللاشنى كېڭەيتىش";
@@ -54,6 +55,7 @@
 "Find Previous" = "ئالدىنقىنى تېپىش";
 "Use Selection for Find" = "تاللانغان تېكىستنى ئىزدەش";
 "Find in Files…" = "ھۆججەتلەردىن ئىزدەش…";
+"Replace in Files…" = "ھۆججەتلەردە ئالماشتۇرۇش…";
 "Find" = "ئىزدەش";
 "Project" = "تۈر";
 "Terminal" = "تېرمىنال";
@@ -70,6 +72,9 @@
 "Find Action…" = "مەشغۇلات ئىزدەش…";
 "Go to Line:Column…" = "قۇر:ئىستونغا بېرىش…";
 "Select in Project View" = "تۈر كۆرۈنۈشىدە تاللاش";
+"Back" = "كەينىگە قايتىش";
+"Forward" = "ئالدىغا مېڭىش";
+"Last Edit Location" = "ئاخىرقى تەھرىرلەنگەن ئورۇن";
 "Next Tab" = "كېيىنكى بەتكۈچ";
 "Previous Tab" = "ئالدىنقى بەتكۈچ";
 "Minimize" = "كۆزنەكنى كىچىكلىتىش";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "تېرمىنالدا ئېچىش";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "ماس كەلگىنى: %1$ld / ھۆججەت: %2$ld";
+"Replace All" = "ھەممىنى ئالماشتۇرۇش";
 "Go to Line:Column" = "قۇر:ئىستونغا بېرىش";
 "Left Panel" = "سول تاختا";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "نېمىگە ئالماشتۇرۇش";
 "Double ⇧ to search everywhere" = "ھەممە يەردىن ئىزدەش ئۈچۈن ⇧ نى ئىككى قېتىم بېسىڭ";
 "Files" = "ھۆججەتلەر";
 "Actions" = "مەشغۇلاتلار";
@@ -140,6 +148,6 @@
 "Type a command name" = "بۇيرۇق نامىنى يېزىڭ";
 "Type text to find in project files" = "تۈر ھۆججەتلىرىدىن ئىزدەيدىغان تېكىستنى يېزىڭ";
 "No recent files" = "يېقىنقى ھۆججەت يوق";
-"Matches: %1$ld / Files: %2$ld" = "ماس كەلگىنى: %1$ld / ھۆججەت: %2$ld";
 "Searching…" = "ئىزدەۋاتىدۇ…";
+"Next Field" = "كېيىنكى رامكا";
 "Switch Tab" = "بەتكۈچ ئالماشتۇرۇش";

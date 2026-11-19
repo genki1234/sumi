@@ -42,6 +42,7 @@
 "Join Lines" = "Sameina línur";
 "Toggle Case" = "Víxla há- og lágstöfum";
 "Comment with Line Comment" = "Gera að línuathugasemd";
+"Comment with Block Comment" = "Gera að bálkathugasemd";
 "Move Line Up" = "Færa línu upp";
 "Move Line Down" = "Færa línu niður";
 "Extend Selection" = "Stækka val";
@@ -54,6 +55,7 @@
 "Find Previous" = "Finna fyrra";
 "Use Selection for Find" = "Leita að völdum texta";
 "Find in Files…" = "Finna í skrám…";
+"Replace in Files…" = "Skipta út í skrám…";
 "Find" = "Finna";
 "Project" = "Verkefni";
 "Terminal" = "Skjáhermir";
@@ -70,6 +72,9 @@
 "Find Action…" = "Finna aðgerð…";
 "Go to Line:Column…" = "Fara í línu:dálk…";
 "Select in Project View" = "Velja í verkefnistré";
+"Back" = "Til baka";
+"Forward" = "Áfram";
+"Last Edit Location" = "Síðasti breytingastaður";
 "Next Tab" = "Næsti flipi";
 "Previous Tab" = "Fyrri flipi";
 "Minimize" = "Fela í bryggju";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Opna í skjáhermi";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Samsvaranir: %1$ld / Skrár: %2$ld";
+"Replace All" = "Skipta út öllu";
 "Go to Line:Column" = "Fara í línu:dálk";
 "Left Panel" = "Vinstra spjald";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Skipta út fyrir";
 "Double ⇧ to search everywhere" = "Ýttu tvisvar á ⇧ til að leita alls staðar";
 "Files" = "Skrár";
 "Actions" = "Aðgerðir";
@@ -140,6 +148,6 @@
 "Type a command name" = "Sláðu inn heiti skipunar";
 "Type text to find in project files" = "Sláðu inn texta til að leita að í skrám verkefnisins";
 "No recent files" = "Engar nýlegar skrár";
-"Matches: %1$ld / Files: %2$ld" = "Samsvaranir: %1$ld / Skrár: %2$ld";
 "Searching…" = "Leitar…";
+"Next Field" = "Næsti reitur";
 "Switch Tab" = "Skipta um flipa";

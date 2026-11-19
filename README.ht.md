@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Fichye resan yo | ⌘E |
 | Chèche aksyon | ⇧⌘A |
 | Chèche nan fichye yo | ⇧⌘F |
+| Ranplase nan fichye yo | ⇧⌘R |
 | Ale nan liy:kolòn | ⌘L |
+| Retounen / Avanse | ⌘[ / ⌘] |
+| Kote dènye modifikasyon an | ⇧⌘⌫ |
 | Double liy la oswa seleksyon an | ⌘D |
 | Efase liy la | ⌘⌫ |
 | Monte liy la / Desann liy la | ⌥⇧↑ / ⌥⇧↓ |
 | Kòmante ak kòmantè liy | ⌘/ |
+| Kòmante ak kòmantè blòk | ⌥⌘/ |
 | Ini liy yo | ⌃⇧J |
 | Chanje majiskil/miniskil | ⇧⌘U |
 | Elaji seleksyon an / Retresi seleksyon an | ⌥↑ / ⌥↓ |

@@ -42,6 +42,7 @@
 "Join Lines" = "Hlanganisa imigqa";
 "Toggle Case" = "Shintsha onobumba abakhulu nabancane";
 "Comment with Line Comment" = "Faka noma ususe amazwana omugqa";
+"Comment with Block Comment" = "Faka noma ususe amazwana ebhulokhi";
 "Move Line Up" = "Hambisa umugqa phezulu";
 "Move Line Down" = "Hambisa umugqa phansi";
 "Extend Selection" = "Nweba ukukhetha";
@@ -54,6 +55,7 @@
 "Find Previous" = "Thola okwangaphambilini";
 "Use Selection for Find" = "Sesha umbhalo okhethiwe";
 "Find in Files…" = "Thola emafayeleni…";
+"Replace in Files…" = "Faka esikhundleni emafayeleni…";
 "Find" = "Sesha";
 "Project" = "Iphrojekthi";
 "Terminal" = "Itheminali";
@@ -70,6 +72,9 @@
 "Find Action…" = "Thola isenzo…";
 "Go to Line:Column…" = "Iya emugqeni:ekholamu…";
 "Select in Project View" = "Khetha ekubukeni kwephrojekthi";
+"Back" = "Buyela emuva";
+"Forward" = "Iya phambili";
+"Last Edit Location" = "Indawo yokuhlela yokugcina";
 "Next Tab" = "Ithebhu elandelayo";
 "Previous Tab" = "Ithebhu yangaphambilini";
 "Minimize" = "Nciphisa iwindi";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Vula kutheminali";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Okufanayo: %1$ld / Amafayela: %2$ld";
+"Replace All" = "Faka esikhundleni konke";
 "Go to Line:Column" = "Iya emugqeni:ekholamu";
 "Left Panel" = "Iphaneli yangakwesobunxele";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Okuzofakwa esikhundleni";
 "Double ⇧ to search everywhere" = "Cindezela ⇧ kabili ukuze useshe yonke indawo";
 "Files" = "Amafayela";
 "Actions" = "Izenzo";
@@ -140,6 +148,6 @@
 "Type a command name" = "Thayipha igama lomyalo";
 "Type text to find in project files" = "Thayipha umbhalo ofuna ukuwuthola emafayeleni ephrojekthi";
 "No recent files" = "Awekho amafayela akamuva";
-"Matches: %1$ld / Files: %2$ld" = "Okufanayo: %1$ld / Amafayela: %2$ld";
 "Searching…" = "Iyasesha…";
+"Next Field" = "Inkambu elandelayo";
 "Switch Tab" = "Shintsha ithebhu";

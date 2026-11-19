@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Bag-ong giablihang mga file | ⌘E |
 | Pangitaa ang aksyon | ⇧⌘A |
 | Pangitaa sa mga file | ⇧⌘F |
+| Ilisi sa mga file | ⇧⌘R |
 | Adto sa linya:kolum | ⌘L |
+| Balik / abante | ⌘[ / ⌘] |
+| Katapusang dapit sa pag-usba | ⇧⌘⌫ |
 | Doblaha ang linya o ang gipili | ⌘D |
 | Tangtanga ang linya | ⌘⌫ |
 | Ibalhin pataas / paubos ang linya | ⌥⇧↑ / ⌥⇧↓ |
 | Komentohi gamit ang komento sa linya | ⌘/ |
+| Komentohi gamit ang komento sa block | ⌥⌘/ |
 | Iusa ang mga linya | ⌃⇧J |
 | Ilisi ang dagko/gagmay nga letra | ⇧⌘U |
 | Padak-a / gamaya ang gipili | ⌥↑ / ⌥↓ |

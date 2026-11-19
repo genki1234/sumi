@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Recent files | ⌘E |
 | Find action | ⇧⌘A |
 | Find in files | ⇧⌘F |
+| Replace in files | ⇧⌘R |
 | Go to line:column | ⌘L |
+| Back / forward | ⌘[ / ⌘] |
+| Last edit location | ⇧⌘⌫ |
 | Duplicate line or selection | ⌘D |
 | Delete line | ⌘⌫ |
 | Move line up / down | ⌥⇧↑ / ⌥⇧↓ |
 | Comment with line comment | ⌘/ |
+| Comment with block comment | ⌥⌘/ |
 | Join lines | ⌃⇧J |
 | Toggle case | ⇧⌘U |
 | Extend / shrink selection | ⌥↑ / ⌥↓ |

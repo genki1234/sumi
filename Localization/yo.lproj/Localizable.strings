@@ -42,6 +42,7 @@
 "Join Lines" = "So àwọn ìlà pọ̀";
 "Toggle Case" = "Yí lẹ́tà ńlá àti kékeré padà";
 "Comment with Line Comment" = "Ṣe àkíyèsí pẹ̀lú àkíyèsí ìlà";
+"Comment with Block Comment" = "Ṣe àkíyèsí pẹ̀lú àkíyèsí búlọ́ọ̀kù";
 "Move Line Up" = "Gbé ìlà sókè";
 "Move Line Down" = "Gbé ìlà sísàlẹ̀";
 "Extend Selection" = "Mú àṣàyàn gbòòrò";
@@ -54,6 +55,7 @@
 "Find Previous" = "Wá èyí tó ṣáájú";
 "Use Selection for Find" = "Wá ọ̀rọ̀ tí a yàn";
 "Find in Files…" = "Wá nínú àwọn fáìlì…";
+"Replace in Files…" = "Rọ́pò nínú àwọn fáìlì…";
 "Find" = "Wá";
 "Project" = "Iṣẹ́ àkànṣe";
 "Terminal" = "Terminal";
@@ -70,6 +72,9 @@
 "Find Action…" = "Wá ìgbésẹ̀…";
 "Go to Line:Column…" = "Lọ sí ìlà:òpó…";
 "Select in Project View" = "Yan nínú ìwò iṣẹ́ àkànṣe";
+"Back" = "Padà sẹ́yìn";
+"Forward" = "Lọ síwájú";
+"Last Edit Location" = "Ibi àtúnṣe tó kẹ́yìn";
 "Next Tab" = "Táàbù tó kàn";
 "Previous Tab" = "Táàbù tó ṣáájú";
 "Minimize" = "Dín fèrèsé kù";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "Ṣí ní terminal";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "Àwọn tó bá mu: %1$ld / Àwọn fáìlì: %2$ld";
+"Replace All" = "Rọ́pò gbogbo";
 "Go to Line:Column" = "Lọ sí ìlà:òpó";
 "Left Panel" = "Pánẹ́ẹ̀lì òsì";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "Rọ́pò pẹ̀lú";
 "Double ⇧ to search everywhere" = "Tẹ ⇧ lẹ́ẹ̀mejì láti wá níbi gbogbo";
 "Files" = "Àwọn fáìlì";
 "Actions" = "Àwọn ìgbésẹ̀";
@@ -140,6 +148,6 @@
 "Type a command name" = "Tẹ orúkọ àṣẹ";
 "Type text to find in project files" = "Tẹ ọ̀rọ̀ tí o fẹ́ wá nínú àwọn fáìlì iṣẹ́ àkànṣe";
 "No recent files" = "Kò sí fáìlì àìpẹ́";
-"Matches: %1$ld / Files: %2$ld" = "Àwọn tó bá mu: %1$ld / Àwọn fáìlì: %2$ld";
 "Searching…" = "Ó ń wá…";
+"Next Field" = "Àpótí tó kàn";
 "Switch Tab" = "Yí táàbù padà";

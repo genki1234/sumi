@@ -42,6 +42,7 @@
 "Join Lines" = "合併行";
 "Toggle Case" = "切換大小寫";
 "Comment with Line Comment" = "使用行註解進行註解";
+"Comment with Block Comment" = "使用區塊註解進行註解";
 "Move Line Up" = "上移行";
 "Move Line Down" = "下移行";
 "Extend Selection" = "擴大選取範圍";
@@ -54,6 +55,7 @@
 "Find Previous" = "尋找上一個";
 "Use Selection for Find" = "尋找所選文字";
 "Find in Files…" = "在檔案中尋找…";
+"Replace in Files…" = "在檔案中取代…";
 "Find" = "尋找";
 "Project" = "專案";
 "Terminal" = "終端機";
@@ -70,6 +72,9 @@
 "Find Action…" = "尋找動作…";
 "Go to Line:Column…" = "前往行:欄…";
 "Select in Project View" = "在專案檢視中選取";
+"Back" = "返回";
+"Forward" = "前進";
+"Last Edit Location" = "上次編輯位置";
 "Next Tab" = "下一個分頁";
 "Previous Tab" = "上一個分頁";
 "Minimize" = "縮到最小";
@@ -128,10 +133,13 @@
 "Open in Terminal" = "在終端機中開啟";
 
 /* Sources/Sumi/Project/ProjectWindowController.swift */
+"Matches: %1$ld / Files: %2$ld" = "符合項目：%1$ld / 檔案：%2$ld";
+"Replace All" = "全部取代";
 "Go to Line:Column" = "前往行:欄";
 "Left Panel" = "左側面板";
 
 /* Sources/Sumi/Search/SearchEverywhereController.swift */
+"Replace with" = "取代為";
 "Double ⇧ to search everywhere" = "連按兩次 ⇧ 以搜尋所有位置";
 "Files" = "檔案";
 "Actions" = "動作";
@@ -140,6 +148,6 @@
 "Type a command name" = "輸入指令名稱";
 "Type text to find in project files" = "輸入要在專案檔案中尋找的文字";
 "No recent files" = "沒有最近使用的檔案";
-"Matches: %1$ld / Files: %2$ld" = "符合項目：%1$ld / 檔案：%2$ld";
 "Searching…" = "正在搜尋…";
+"Next Field" = "下一個欄位";
 "Switch Tab" = "切換分頁";

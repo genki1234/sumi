@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | File recenti | ⌘E |
 | Trova azione | ⇧⌘A |
 | Trova nei file | ⇧⌘F |
+| Sostituisci nei file | ⇧⌘R |
 | Vai a riga:colonna | ⌘L |
+| Indietro / avanti | ⌘[ / ⌘] |
+| Ultima posizione di modifica | ⇧⌘⌫ |
 | Duplica riga o selezione | ⌘D |
 | Elimina riga | ⌘⌫ |
 | Sposta riga su / giù | ⌥⇧↑ / ⌥⇧↓ |
 | Commenta con commento di riga | ⌘/ |
+| Commenta con commento di blocco | ⌥⌘/ |
 | Unisci righe | ⌃⇧J |
 | Inverti maiuscole/minuscole | ⇧⌘U |
 | Estendi / riduci selezione | ⌥↑ / ⌥↓ |

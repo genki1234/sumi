@@ -91,11 +91,15 @@ open -a Sumi path/to/project
 | Azken fitxategiak | ⌘E |
 | Bilatu ekintza | ⇧⌘A |
 | Bilatu fitxategietan | ⇧⌘F |
+| Ordeztu fitxategietan | ⇧⌘R |
 | Joan lerro:zutabera | ⌘L |
+| Atzera / aurrera | ⌘[ / ⌘] |
+| Azken edizioaren kokapena | ⇧⌘⌫ |
 | Bikoiztu lerroa edo hautapena | ⌘D |
 | Ezabatu lerroa | ⌘⌫ |
 | Eraman lerroa gora / behera | ⌥⇧↑ / ⌥⇧↓ |
 | Iruzkindu lerro-iruzkinarekin | ⌘/ |
+| Iruzkindu bloke-iruzkinarekin | ⌥⌘/ |
 | Batu lerroak | ⌃⇧J |
 | Txandakatu maiuskulak/minuskulak | ⇧⌘U |
 | Zabaldu / txikitu hautapena | ⌥↑ / ⌥↓ |

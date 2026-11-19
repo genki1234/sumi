@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Legutóbbi fájlok | ⌘E |
 | Művelet keresése | ⇧⌘A |
 | Keresés a fájlokban | ⇧⌘F |
+| Csere a fájlokban | ⇧⌘R |
 | Ugrás sorra:oszlopra | ⌘L |
+| Vissza / előre | ⌘[ / ⌘] |
+| Utolsó szerkesztés helye | ⇧⌘⌫ |
 | Sor vagy kijelölés duplikálása | ⌘D |
 | Sor törlése | ⌘⌫ |
 | Sor mozgatása felfelé / lefelé | ⌥⇧↑ / ⌥⇧↓ |
 | Megjegyzésbe tétel sormegjegyzéssel | ⌘/ |
+| Megjegyzésbe tétel blokkmegjegyzéssel | ⌥⌘/ |
 | Sorok összevonása | ⌃⇧J |
 | Kis- és nagybetűk váltása | ⇧⌘U |
 | Kijelölés bővítése / szűkítése | ⌥↑ / ⌥↓ |

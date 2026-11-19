@@ -9,7 +9,8 @@ private final class SearchPanel: NSPanel {
 /// - Files (Double Shift, ⇧⌘O, ⌘E): fuzzy file names, or paths when the query contains "/";
 ///   recent files when the query is empty.
 /// - Actions (⇧⌘A): every enabled menu command, run with ⏎.
-/// - Text (⇧⌘F): the text in every project file; ⏎ opens the file at the match.
+/// - Text (⇧⌘F): the text in every project file; ⏎ opens the file at the match. ⇧⌘R adds a replace
+///   field (⇥ moves between the two fields) and ⌥⏎ replaces every match.
 @MainActor
 final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldDelegate, NSTableViewDataSource, NSTableViewDelegate {
     enum Mode: Int, CaseIterable {
@@ -36,10 +37,19 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
     var onOpen: ((URL) -> Void)?
     var onOpenMatch: ((TextMatch) -> Void)?
     var recentFiles: (() -> [URL])?
+    /// The query and its replacement; the project window asks before it changes any file.
+    var onReplaceAll: ((String, String) -> Void)?
     private let index: FileIndex
     private let rootURL: URL
     private let panel: SearchPanel
     private let field = NSTextField()
+    private let replaceIcon = NSImageView()
+    private let replaceField = NSTextField()
+    private let replaceButton = NSButton()
+    /// Opened with ⇧⌘R: the Text tab shows the replace field.
+    private var replacing = false
+    private var separatorBelowField: NSLayoutConstraint!
+    private var separatorBelowReplace: NSLayoutConstraint!
     private let table = NSTableView()
     private let footer = NSTextField(labelWithString: "")
     private var tabButtons: [NSButton] = []
@@ -110,6 +120,22 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         field.cell?.isScrollable = true
         field.cell?.wraps = false
 
+        replaceIcon.image = NSImage(systemSymbolName: "arrow.triangle.swap", accessibilityDescription: nil)
+        replaceIcon.contentTintColor = .secondaryLabelColor
+        replaceIcon.symbolConfiguration = .init(pointSize: 13, weight: .regular)
+        replaceField.isBordered = false
+        replaceField.drawsBackground = false
+        replaceField.focusRingType = .none
+        replaceField.font = .systemFont(ofSize: 14)
+        replaceField.delegate = self
+        replaceField.cell?.isScrollable = true
+        replaceField.cell?.wraps = false
+        replaceButton.bezelStyle = .rounded
+        replaceButton.controlSize = .small
+        replaceButton.target = self
+        replaceButton.action = #selector(replaceAll)
+        replaceButton.setContentCompressionResistancePriority(.required, for: .horizontal)
+
         let separator = NSBox()
         separator.boxType = .separator
 
@@ -135,11 +161,13 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         footer.font = .systemFont(ofSize: 11)
         footer.textColor = .tertiaryLabelColor
 
-        for view in [tabs, underline, hint, magnifier, field, separator, scroll, footer] {
+        for view in [tabs, underline, hint, magnifier, field, replaceIcon, replaceField, replaceButton, separator, scroll, footer] {
             view.translatesAutoresizingMaskIntoConstraints = false
             background.addSubview(view)
         }
-        localizedViews = [background, tabs, underline, hint, magnifier, field, separator, scroll, scroll.contentView, table, footer]
+        localizedViews = [background, tabs, underline, hint, magnifier, field, replaceIcon, replaceField, replaceButton, separator, scroll, scroll.contentView, table, footer]
+        separatorBelowField = separator.topAnchor.constraint(equalTo: field.bottomAnchor, constant: 10)
+        separatorBelowReplace = separator.topAnchor.constraint(equalTo: replaceField.bottomAnchor, constant: 10)
         NSLayoutConstraint.activate([
             tabs.topAnchor.constraint(equalTo: background.topAnchor, constant: 8),
             tabs.leadingAnchor.constraint(equalTo: background.leadingAnchor, constant: 18),
@@ -155,7 +183,16 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
             field.leadingAnchor.constraint(equalTo: magnifier.trailingAnchor, constant: 8),
             field.trailingAnchor.constraint(equalTo: background.trailingAnchor, constant: -16),
 
-            separator.topAnchor.constraint(equalTo: field.bottomAnchor, constant: 10),
+            replaceIcon.leadingAnchor.constraint(equalTo: background.leadingAnchor, constant: 16),
+            replaceIcon.centerYAnchor.constraint(equalTo: replaceField.centerYAnchor),
+            replaceIcon.widthAnchor.constraint(equalToConstant: 18),
+            replaceField.topAnchor.constraint(equalTo: field.bottomAnchor, constant: 10),
+            replaceField.leadingAnchor.constraint(equalTo: replaceIcon.trailingAnchor, constant: 8),
+            replaceField.trailingAnchor.constraint(equalTo: replaceButton.leadingAnchor, constant: -10),
+            replaceButton.trailingAnchor.constraint(equalTo: background.trailingAnchor, constant: -16),
+            replaceButton.centerYAnchor.constraint(equalTo: replaceField.centerYAnchor),
+
+            separatorBelowField,
             separator.leadingAnchor.constraint(equalTo: background.leadingAnchor),
             separator.trailingAnchor.constraint(equalTo: background.trailingAnchor),
 
@@ -175,6 +212,9 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         let direction: NSUserInterfaceLayoutDirection = AppLocalization.isRightToLeft ? .rightToLeft : .leftToRight
         localizedViews.forEach { $0.userInterfaceLayoutDirection = direction }
         field.baseWritingDirection = .leftToRight
+        replaceField.baseWritingDirection = .leftToRight
+        replaceField.placeholderString = L("Replace with")
+        replaceButton.title = L("Replace All")
         hint.stringValue = L("Double ⇧ to search everywhere")
         updateTabs()
         refresh()
@@ -208,14 +248,22 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         case .actions: field.placeholderString = L("Type a command name")
         case .text: field.placeholderString = L("Type text to find in project files")
         }
+        let showsReplace = isReplaceVisible
+        for view in [replaceIcon, replaceField, replaceButton] { view.isHidden = !showsReplace }
+        separatorBelowField.isActive = !showsReplace
+        separatorBelowReplace.isActive = showsReplace
+        if !showsReplace, panel.firstResponder === replaceField.currentEditor() { panel.makeFirstResponder(field) }
     }
+
+    private var isReplaceVisible: Bool { replacing && mode == .text }
 
     // MARK: Show / close
 
     var isVisible: Bool { panel.isVisible }
 
     /// `query` replaces the text in the field; nil keeps the last query, selected so typing replaces it.
-    func show(attachedTo window: NSWindow, mode: Mode, query: String? = nil) {
+    /// `replace` shows the replace field (Text tab only).
+    func show(attachedTo window: NSWindow, mode: Mode, query: String? = nil, replace: Bool = false) {
         parentWindow = window
         if !panel.isVisible {
             let frame = window.frame
@@ -226,6 +274,7 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         if panel.parent == nil { window.addChildWindow(panel, ordered: .above) }
         if let query { field.stringValue = query }
         self.mode = mode
+        replacing = replace
         collectActions()
         updateTabs()
         panel.makeKeyAndOrderFront(nil)
@@ -265,7 +314,16 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
     // MARK: Results
 
     func controlTextDidChange(_ obj: Notification) {
-        refresh()
+        if (obj.object as AnyObject?) !== replaceField { refresh() }
+    }
+
+    /// ⌥⏎ or the Replace All button. The popup closes first; the project window counts, asks and replaces.
+    @objc private func replaceAll() {
+        let query = field.stringValue
+        guard isReplaceVisible, !query.isEmpty else { return }
+        let replacement = replaceField.stringValue
+        close()
+        onReplaceAll?(query, replacement)
     }
 
     private func refresh() {
@@ -373,6 +431,31 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         return (matches, total, fileCount)
     }
 
+    /// Replace in Files: the files containing the query and how often, counted like the Text tab
+    /// (ignoring case, skipping binary files). A file open in a tab counts the tab's unsaved text.
+    nonisolated static func countMatches(_ query: String, in files: [IndexedFile], openTexts: [URL: String]) async -> [(url: URL, count: Int)] {
+        guard !query.isEmpty else { return [] }
+        var counts: [(url: URL, count: Int)] = []
+        for file in files {
+            let content: NSString
+            if let open = openTexts[file.url.standardizedFileURL] {
+                content = open as NSString
+            } else {
+                guard let data = try? Data(contentsOf: file.url, options: .mappedIfSafe), !data.prefix(8192).contains(0) else { continue }
+                content = String(decoding: data, as: UTF8.self) as NSString
+            }
+            var count = 0
+            var found = content.range(of: query, options: .caseInsensitive)
+            while found.location != NSNotFound {
+                count += 1
+                let next = NSMaxRange(found)
+                found = content.range(of: query, options: .caseInsensitive, range: NSRange(location: next, length: content.length - next))
+            }
+            if count > 0 { counts.append((file.url, count)) }
+        }
+        return counts
+    }
+
     private nonisolated static func textMatch(_ file: IndexedFile, _ content: NSString, _ found: NSRange, line: Int) -> TextMatch {
         var start = 0
         var contentsEnd = 0
@@ -456,7 +539,10 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
     }
 
     private var keyHints: String {
-        ["↑↓ " + L("Navigate"), "⏎ " + L("Open"), "⇥ " + L("Switch Tab"), "⎋ " + L("Close")].joined(separator: "   ")
+        if isReplaceVisible {
+            return ["↑↓ " + L("Navigate"), "⏎ " + L("Open"), "⌥⏎ " + L("Replace All"), "⇥ " + L("Next Field"), "⎋ " + L("Close")].joined(separator: "   ")
+        }
+        return ["↑↓ " + L("Navigate"), "⏎ " + L("Open"), "⇥ " + L("Switch Tab"), "⎋ " + L("Close")].joined(separator: "   ")
     }
 
     private func relativePath(_ url: URL) -> String {
@@ -516,8 +602,14 @@ final class SearchEverywhereController: NSObject, NSWindowDelegate, NSTextFieldD
         case #selector(NSResponder.scrollPageUp(_:)), #selector(NSResponder.pageUp(_:)): move(-10)
         case #selector(NSResponder.scrollPageDown(_:)), #selector(NSResponder.pageDown(_:)): move(10)
         case #selector(NSResponder.insertNewline(_:)): open(row: table.selectedRow)
-        case #selector(NSResponder.insertTab(_:)): switchMode(by: 1)
-        case #selector(NSResponder.insertBacktab(_:)): switchMode(by: -1)
+        case #selector(NSResponder.insertNewlineIgnoringFieldEditor(_:)) where isReplaceVisible: replaceAll()
+        // With the replace field, ⇥ moves between the two fields; the tabs stay one click away.
+        case #selector(NSResponder.insertTab(_:)), #selector(NSResponder.insertBacktab(_:)):
+            if isReplaceVisible {
+                panel.makeFirstResponder(control === field ? replaceField : field)
+            } else {
+                switchMode(by: selector == #selector(NSResponder.insertTab(_:)) ? 1 : -1)
+            }
         case #selector(NSResponder.cancelOperation(_:)): close()
         default: return false
         }

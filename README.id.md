@@ -89,11 +89,15 @@ open -a Sumi path/to/project
 | Berkas Terbaru | ⌘E |
 | Cari Tindakan | ⇧⌘A |
 | Cari di Berkas | ⇧⌘F |
+| Ganti di Berkas | ⇧⌘R |
 | Lompat ke Baris:Kolom | ⌘L |
+| Kembali / Maju | ⌘[ / ⌘] |
+| Lokasi Edit Terakhir | ⇧⌘⌫ |
 | Duplikasikan Baris atau Pilihan | ⌘D |
 | Hapus Baris | ⌘⌫ |
 | Pindahkan Baris ke Atas / ke Bawah | ⌥⇧↑ / ⌥⇧↓ |
 | Komentari dengan Komentar Baris | ⌘/ |
+| Komentari dengan Komentar Blok | ⌥⌘/ |
 | Gabungkan Baris | ⌃⇧J |
 | Ubah Huruf Besar/Kecil | ⇧⌘U |
 | Perluas / Persempit Pilihan | ⌥↑ / ⌥↓ |
